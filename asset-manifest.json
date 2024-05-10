@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/books/static/css/main.b3a1ce09.css",
+    "main.js": "/books/static/js/main.483cfb28.js",
+    "static/js/453.e77c0d49.chunk.js": "/books/static/js/453.e77c0d49.chunk.js",
+    "static/media/passe.jpeg": "/books/static/media/passe.50746b2a222860bec87f.jpeg",
+    "static/media/study.svg": "/books/static/media/study.26c125329847fcce22ccf14de03d29ac.svg",
+    "static/media/logo.svg": "/books/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/books/index.html",
+    "main.b3a1ce09.css.map": "/books/static/css/main.b3a1ce09.css.map",
+    "main.483cfb28.js.map": "/books/static/js/main.483cfb28.js.map",
+    "453.e77c0d49.chunk.js.map": "/books/static/js/453.e77c0d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3a1ce09.css",
+    "static/js/main.483cfb28.js"
+  ]
+}
