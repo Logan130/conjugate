@@ -1,0 +1,47 @@
+export const VocabulaireProgressifA2L1 = {
+    lessons: ["见面", "常用短语", "祝愿"],
+    "见面": [
+        { english: "sb is presented to sb", french: "être présenté à qn", pos: "loc.", chinese: "某人被介绍给某人" },
+        { english: "friendly", french: "amical(e)", pos: "adj.", chinese: "友好的" },
+        { english: "kiss", french: "baiser", pos: "n.m.", chinese: "吻" },
+        { english: "appropriate", french: "approprié(e)", pos: "adj.", chinese: "适当的" },
+        { english: "to vary", french: "varier", pos: "v.t.", chinese: "变化" },
+        { english: "vary from one place to another", french: "varier d’une région à l’autre", pos: "loc.", chinese: "因地区不同而变化" },
+        { english: "to address in vous", french: "vouvoyer", pos: "v.t.", chinese: "用“您”称呼" },
+        { english: "using the vous form", french: "vouvoiement", pos: "n.m.", chinese: "用“您”称呼" },
+        { english: "to address in tu", french: "tutoyer", pos: "v.t.", chinese: "用“你”称呼" },
+        { english: "using the tu form", french: "tutoiement", pos: "n.m.", chinese: "用“你”称呼" },
+        { english: "actually, indeed", french: "en effet", pos: "loc.", chinese: "确实" },
+        { english: "insulting", french: "insultant(e)", pos: "adj.", chinese: "侮辱的" },
+        { english: "yet", french: "cependant", pos: "adv.", chinese: "然而" },
+    ],
+    "常用短语": [
+        { english: "you are welcome", french: "je vous en prie", pos: "loc.", chinese: "不客气" },
+        { english: "mood", french: "humeur", pos: "n.f.", chinese: "情绪" },
+        { english: "slim", french: "mince", pos: "adj.", chinese: "苗条的" },
+        { english: "how is he?", french: "comment va-t-il ?", pos: "loc.", chinese: "他怎么样?" },
+        { english: "how does he look?", french: "comment est-il ?", pos: "loc.", chinese: "他长什么样?" }
+    ],
+    "祝愿": [
+        { english: "New Year’s Day", french: "jour de l’an", pos: "loc.", chinese: "元旦" },
+        { english: "happy end-of-year holidays", french: "bonnes fêtes de fin d’année", pos: "phrase", chinese: "新年快乐" },
+        { english: "best wishes", french: "tous mes vœux", pos: "loc.", chinese: "所有的祝福" },
+        { english: "congratulations", french: "félicitations", pos: "n.f.pl.", chinese: "祝贺" },
+        { english: "all my congrats", french: "toutes mes félicitations", pos: "loc.", chinese: "我所有的祝贺" },
+        { english: "during", french: "lors de", pos: "loc.", chinese: "在...期间" },
+        { english: "(Christmas, New Year’s) Eve", french: "réveillon", pos: "n.m.", chinese: "前夜" },
+        { english: "to celebrate festival", french: "réveillonner", pos: "v.i.", chinese: "庆祝节日" },
+        { english: "condolences", french: "condoléances", pos: "n.f.pl.", chinese: "哀悼" },
+        { english: "death", french: "décès", pos: "n.m.sing.pl.", chinese: "死亡" },
+        { english: "my whole heart is with you", french: "je suis de tout cœur avec toi", pos: "loc.", chinese: "我的心与你同在" },
+        { english: "good luck", french: "bonne chance", pos: "loc.", chinese: "好运" },
+        { english: "well-done", french: "chapeau", pos: "exclam.", chinese: "干得好" },
+        { english: "disagreeable, unpleasant", french: "désagréable", pos: "adj.", chinese: "令人不快的" },
+        { english: "stranger", french: "inconnu(e)", pos: "n.", chinese: "陌生人" },
+        { english: "to sneeze", french: "éternuer", pos: "v.i.", chinese: "打喷嚏" },
+        { english: "bless you", french: "à tes souhaits", pos: "loc.", chinese: "保重" },
+        { english: "to toast, to clink glasses", french: "trinquer", pos: "v.i.", chinese: "敬酒" },
+        { english: "cheers", french: "à la tienne / vôtre", pos: "loc.", chinese: "干杯" }
+    ], 
+    lessonsEng: ["meeting", "expressions", "wish"]
+}

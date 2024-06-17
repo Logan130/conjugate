@@ -1,0 +1,47 @@
+export const CommunicationProgressifA1L18_L20 = {
+    lessons: ["特征", "条件", "需求"], 
+    特征: [
+        { english: "to characterize", french: "caractériser", pos: "v.t.", chinese: "描述" },
+        { english: "characteristic", french: "caractéristique", pos: "n.f.", chinese: "特征" },
+        { english: "tablecloth", french: "nappe", pos: "n.f.", chinese: "桌布" },
+        { english: "sideboard", french: "buffet", pos: "n.m.", chinese: "碗橱" },
+        { english: "pattern, motive, reason", french: "motif", pos: "n.m.", chinese: "图案，动机，原因" },
+        { english: "towel, napkin", french: "serviette", pos: "n.f.", chinese: "毛巾，餐巾" },
+        { english: "cup", french: "coupe", pos: "n.f.", chinese: "杯子" },
+        { english: "soup", french: "soupe", pos: "n.f.", chinese: "汤" },
+        { english: "salad bowl", french: "saladier", pos: "n.m.", chinese: "沙拉碗" },
+        { english: "fork", french: "fourchette", pos: "n.f.", chinese: "叉子" },
+        { english: "knife", french: "couteau", pos: "n.m.", chinese: "刀" },
+        { english: "spoon", french: "cuiller", pos: "n.f.", chinese: "勺子" },
+        { english: "tray", french: "plateau", pos: "n.m.", chinese: "托盘" },
+        { english: "basket", french: "corbeille", pos: "n.f.", chinese: "篮子" }
+    ], 
+    条件: [
+        { english: "to swim", french: "se baigner", pos: "v.pr.", chinese: "游泳" }, 
+        { english: "otherwise", french: "sinon", pos: "conj.", chinese: "否则" }, 
+        { english: "to propose",  french: "proposer", pos: "v.", chinese: "提议" },
+        { english: "even if",  french: "même si", pos: "loc.", chinese: "即使" },
+        { english: "snow",  french: "neige", pos: "n.f.", chinese: "雪" },
+        { english: "mist",  french: "brume", pos: "n.f.", chinese: "薄雾" },
+        { english: "cloud",  french: "nuage", pos: "n.m.", chinese: "云" },
+        { english: "fog",  french: "brouillard", pos: "n.m.", chinese: "雾" }
+    ], 
+    需求: [
+        { english: "rate of flow", french: "débit", pos: "n.m.", chinese: "流速" }, 
+        { english: "connection", french: "connexion", pos: "n.f.", chinese: "连接" }, 
+        { english: "to promise",  french: "promettre", pos: "v.", chinese: "承诺" },
+        { english: "to type",  french: "taper", pos: "v.t.", chinese: "打字" },
+        { english: "treatment",  french: "traitement", pos: "n.m.", chinese: "处理" },
+        { english: "to treat",  french: "traiter", pos: "v.t.", chinese: "治疗" },
+        { english: "printer",  french: "imprimante", pos: "n.f.", chinese: "打印机" },
+        { english: "to print",  french: "imprimer", pos: "v.t.", chinese: "打印" },
+        { english: "to copy",  french: "copier", pos: "v.t.", chinese: "复印" },
+        { english: "fax",  french: "fax", pos: "n.m.", chinese: "传真" },
+        { english: "camera",  french: "appareil photo", pos: "n.m.", chinese: "相机" },
+        { english: "digital",  french: "digital(e)", pos: "adj.", chinese: "数字的" },
+        { english: "to be connected to",  french: "se connecter", pos: "v.pr.", chinese: "连接到" },
+        { english: "email",  french: "courriel", pos: "n.m.", chinese: "电子邮件" },
+        { english: "mail",  french: "courrier", pos: "n.m.", chinese: "邮件" }
+    ], 
+    lessonsEng: ["characteristic", "condition", "demand", ""], 
+}

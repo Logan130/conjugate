@@ -1,0 +1,26 @@
+export const VocabulaireProgressifA1L13 = {
+    lessons: ["购物"], 
+    "购物": [
+        { english: "piece", french: "morceau", pos: "n.m.", chinese: "块" },
+    { english: "slice", french: "tranche", pos: "n.f.", chinese: "片" },
+    { english: "thin", french: "fin(e)", pos: "adj.", chinese: "薄" },
+    { english: "thick", french: "épais(se)", pos: "adj.", chinese: "厚" },
+    { english: "bag", french: "barquette", pos: "n.f.", chinese: "袋" },
+    { english: "bottle", french: "botte", pos: "n.f.", chinese: "瓶" },
+    { english: "pack", french: "paquet", pos: "n.m.", chinese: "包" },
+    { english: "tube", french: "tube", pos: "n.m.", chinese: "管" },
+    { english: "pot", french: "pot", pos: "n.m.", chinese: "罐" },
+    { english: "bar", french: "tablette", pos: "n.f.", chinese: "条" },
+    { english: "box", french: "boîte", pos: "n.f.", chinese: "盒" },
+    { english: "bottle", french: "bouteille", pos: "n.f.", chinese: "瓶" },
+    { english: "cart", french: "chariot", pos: "n.m.", chinese: "车" },
+    { english: "basket", french: "panier", pos: "n.m.", chinese: "篮" },
+    { english: "shelf", french: "rayon", pos: "n.m.", chinese: "架" },
+    { english: "butchery", french: "boucherie", pos: "n.f.", chinese: "肉店" },
+    { english: "checkout desk", french: "caisse", pos: "n.f.", chinese: "收银台" },
+    { english: "delivery", french: "livraison", pos: "n.f.", chinese: "送货" },
+    { english: "place of living", french: "domicile", pos: "n.m.", chinese: "居所" },
+    { english: "to deliver", french: "livrer", pos: "v.t.", chinese: "递送" }
+    ], 
+    lessonsEng: ["shop", "", ""], 
+}

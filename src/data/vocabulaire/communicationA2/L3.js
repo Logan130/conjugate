@@ -1,0 +1,40 @@
+export const CommunicationProgressifA2L3 = {
+    lessons: ["报亭", "花店", "珠宝店", "跳蚤市场"],
+    "报亭": [
+        { english: "merchant", french: "marchand(e)", pos: "n.", chinese: "商人" }, 
+        { english: "comma", french: "virgule", pos: "n.f.", chinese: "逗号" }, 
+        { english: "3.5 euros",  french: "trois euros cinquante", pos: "loc.", chinese: "三欧五" },
+        { english: "3.5 euros",  french: "trois virgule cinquante euros", pos: "loc.", chinese: "三欧五" },
+        { english: "change",  french: "monnaie", pos: "n.f.", chinese: "零钱" },
+        { english: "cash",  french: "billet", pos: "n.m.", chinese: "现金" },
+    ], 
+    "花店": [
+        { english: "How much do you want a bouquet?",  french: "vous désirez un bouquet dans les combien ?", pos: "loc.", chinese: "你想要花束多少钱？" },
+        { english: "cheap",  french: "donné(e)", pos: "adj.", chinese: "便宜" },
+        { english: "how do you want to pay?",  french: "vous réglez comment ?", pos: "loc.", chinese: "你想怎么付款？" },
+        { english: "in cash",  french: "en espèces.", pos: "loc.", chinese: "现金支付" },
+        { english: "by card",  french: "par carte", pos: "loc.", chinese: "刷卡支付" },
+        { english: "in cash",  french: "en liquide", pos: "loc.", chinese: "现金支付" },
+        { english: "coin, change",  french: "pièce", pos: "n.f.", chinese: "硬币、零钱" },
+    ], 
+    "珠宝店": [
+        { english: "jewelry",  french: "bijou(x)", pos: "n.m.", chinese: "珠宝" },
+        { english: "roughly",  french: "à peu près", pos: "loc.", chinese: "大约" },
+        { english: "at maximum",  french: "au maximum", pos: "loc.", chinese: "最多" },
+        { english: "at minimum",  french: "at minimum", pos: "loc.", chinese: "最少" },
+        { english: "necklace",  french: "collier", pos: "n.m.", chinese: "项链" },
+        { english: "it’s a shame",  french: "c’est dommage", pos: "loc.", chinese: "真可惜" },
+        { english: "it’s of a reasonable price",  french: "il est d’un prix très raisonnable", pos: "loc.", chinese: "价格合理" },
+        { english: "to be of good quality",  french: "être de bonne qualité", pos: "loc.", chinese: "质量好" },
+        { english: "in my budget",  french: "dans mes prix", pos: "loc.", chinese: "在我的预算范围内" },
+    ], 
+    "跳蚤市场": [
+        { english: "flea market",  french: "marché aux puces", pos: "loc.", chinese: "跳蚤市场" },
+        { english: "no way",  french: "pas question", pos: "loc.", chinese: "不可能" },
+        { english: "out of price",  french: "hors de prix", pos: "loc.", chinese: "太贵" },
+        { english: "taboo",  french: "tabou", pos: "n.m.", chinese: "禁忌" },
+        { english: "to haggle over",  french: "marchander", pos: "v.t.", chinese: "讨价还价" },
+        { english: "that’s out of my budget",  french: "c’est au-dessus de mon budget", pos: "loc.", chinese: "超出我的预算" }
+    ], 
+    lessonsEng: ["kiosk", "florist", "jewelry", "flea market"], 
+}

@@ -1,4 +1,4 @@
-export const conjugates = [
+const conjugatesA1 = [
     {
         name: "être", 
         je: "suis", 
@@ -8,7 +8,8 @@ export const conjugates = [
         vous: "êtes", 
         ils: "sont", 
         passé: "été", 
-        futur: "ser-"
+        futur: "ser-", 
+        level: "A1"
     }, 
     {
         name: "avoir", 
@@ -19,7 +20,8 @@ export const conjugates = [
         vous: "avez", 
         ils: "ont", 
         passé: "eu", 
-        futur: "aur-"
+        futur: "aur-", 
+        level: "A1"
     },
     {
         name: "aller",
@@ -30,7 +32,8 @@ export const conjugates = [
         vous: "allez",
         ils: "vont",
         passé: "allé",
-        futur: "ir-"
+        futur: "ir-", 
+        level: "A1"
     },
     {
         name: "faire",
@@ -41,7 +44,8 @@ export const conjugates = [
         vous: "faites",
         ils: "font",
         passé: "fait",
-        futur: "fer-"
+        futur: "fer-", 
+        level: "A1"
     },
     {
         name: "prendre",
@@ -52,7 +56,8 @@ export const conjugates = [
         vous: "prenez",
         ils: "prennent",
         passé: "pris",
-        futur: "prendr-"
+        futur: "prendr-", 
+        level: "A1"
     },
     {
         name: "partir",
@@ -63,7 +68,8 @@ export const conjugates = [
         vous: "partez",
         ils: "partent",
         passé: "parti",
-        futur: "partir-"
+        futur: "partir-", 
+        level: "A1"
     },
     {
         name: "commenter",
@@ -74,7 +80,8 @@ export const conjugates = [
         vous: "commentez",
         ils: "commentent",
         passé: "commenté",
-        futur: "commenter-"
+        futur: "commenter-", 
+        level: "A1"
     },
     {
         name: "voir",
@@ -85,7 +92,8 @@ export const conjugates = [
         vous: "voyez",
         ils: "voient",
         passé: "vu",
-        futur: "verr-"
+        futur: "verr-", 
+        level: "A1"
     },
     {
         name: "lever",
@@ -96,7 +104,8 @@ export const conjugates = [
         vous: "levez",
         ils: "lèvent",
         passé: "levé",
-        futur: "lèver-"
+        futur: "lèver-", 
+        level: "A1"
     },
     {
         name: "appeler",
@@ -107,7 +116,8 @@ export const conjugates = [
         vous: "appelez",
         ils: "appellent",
         passé: "appelé",
-        futur: "appeller-"
+        futur: "appeller-", 
+        level: "A1"
     }, 
     {
         name: "dormir",
@@ -118,7 +128,8 @@ export const conjugates = [
         vous: "dormez",
         ils: "dorment",
         passé: "dormi",
-        futur: "dormir-"
+        futur: "dormir-", 
+        level: "A1"
     },
     {
         name: "écrire",
@@ -129,7 +140,8 @@ export const conjugates = [
         vous: "écrivez",
         ils: "écrivent",
         passé: "écrit",
-        futur: "écrir-"
+        futur: "écrir-", 
+        level: "A1"
     },
     {
         name: "lire",
@@ -140,7 +152,8 @@ export const conjugates = [
         vous: "lisez",
         ils: "lisent",
         passé: "lu",
-        futur: "lir-"
+        futur: "lir-", 
+        level: "A1"
     },
     {
         name: "sortir",
@@ -151,7 +164,8 @@ export const conjugates = [
         vous: "sortez",
         ils: "sortent",
         passé: "sorti",
-        futur: "sortir-"
+        futur: "sortir-", 
+        level: "A1"
     },
     {
         name: "manger",
@@ -162,7 +176,8 @@ export const conjugates = [
         vous: "mangez",
         ils: "mangent",
         passé: "mangé",
-        futur: "manger-"
+        futur: "manger-", 
+        level: "A1"
     },
     {
         name: "reprendre",
@@ -173,7 +188,8 @@ export const conjugates = [
         vous: "reprenez",
         ils: "reprennent",
         passé: "repris",
-        futur: "reprendr-"
+        futur: "reprendr-", 
+        level: "A1"
     },
     {
         name: "détendre",
@@ -184,7 +200,8 @@ export const conjugates = [
         vous: "détendez",
         ils: "détendent",
         passé: "détendu",
-        futur: "détendr-"
+        futur: "détendr-", 
+        level: "A1"
     },
     {
         name: "endormir",
@@ -195,7 +212,8 @@ export const conjugates = [
         vous: "endormez",
         ils: "endorment",
         passé: "endormi",
-        futur: "endormir-"
+        futur: "endormir-", 
+        level: "A1"
     }, 
     {
         name: "promener",
@@ -206,7 +224,8 @@ export const conjugates = [
         vous: "promenez",
         ils: "promènent",
         passé: "promené",
-        futur: "promèner-"
+        futur: "promèner-", 
+        level: "A1"
     },
     {
         name: "boire",
@@ -217,7 +236,8 @@ export const conjugates = [
         vous: "buvez",
         ils: "boivent",
         passé: "bu",
-        futur: "boir-"
+        futur: "boir-", 
+        level: "A1"
     },
     {
         name: "acheter",
@@ -228,7 +248,8 @@ export const conjugates = [
         vous: "achetez",
         ils: "achètent",
         passé: "acheté",
-        futur: "achèter-"
+        futur: "achèter-", 
+        level: "A1"
     },
     {
         name: "descendre",
@@ -239,7 +260,8 @@ export const conjugates = [
         vous: "descendez",
         ils: "descendent",
         passé: "descendu",
-        futur: "descendr-"
+        futur: "descendr-", 
+        level: "A1"
     },
     {
         name: "venir",
@@ -250,7 +272,8 @@ export const conjugates = [
         vous: "venez",
         ils: "viennent",
         passé: "venu",
-        futur: "viendr-"
+        futur: "viendr-", 
+        level: "A1"
     },
     {
         name: "pouvoir",
@@ -261,7 +284,8 @@ export const conjugates = [
         vous: "pouvez",
         ils: "peuvent",
         passé: "pu",
-        futur: "pourr-"
+        futur: "pourr-", 
+        level: "A1"
     },
     {
         name: "dire",
@@ -272,7 +296,8 @@ export const conjugates = [
         vous: "dites",
         ils: "disent",
         passé: "dit",
-        futur: "dir-"
+        futur: "dir-", 
+        level: "A1"
     },
     {
         name: "savoir",
@@ -283,7 +308,8 @@ export const conjugates = [
         vous: "savez",
         ils: "savent",
         passé: "su",
-        futur: "saur-"
+        futur: "saur-", 
+        level: "A1"
     }, 
     {
         name: "vouloir", 
@@ -294,7 +320,8 @@ export const conjugates = [
         vous: "voulez", 
         ils: "veulent", 
         passé: "voulu", 
-        futur: "voudr-"
+        futur: "voudr-", 
+        level: "A1"
     },
     {
         name: "choisir", 
@@ -305,7 +332,8 @@ export const conjugates = [
         vous: "choisissez", 
         ils: "choisissent", 
         passé: "choisi", 
-        futur: "choisir-"
+        futur: "choisir-", 
+        level: "A1"
     },
     {
         name: "connaître", 
@@ -316,7 +344,8 @@ export const conjugates = [
         vous: "connaissez", 
         ils: "connaissent", 
         passé: "connu", 
-        futur: "connaîtr-"
+        futur: "connaîtr-", 
+        level: "A1"
     },
     {
         name: "offrir", 
@@ -327,7 +356,8 @@ export const conjugates = [
         vous: "offrez", 
         ils: "offrent", 
         passé: "offert", 
-        futur: "offrir-"
+        futur: "offrir-", 
+        level: "A1"
     },
     {
         name: "tenir", 
@@ -338,7 +368,8 @@ export const conjugates = [
         vous: "tenez", 
         ils: "tiennent", 
         passé: "tenu", 
-        futur: "tiendr-"
+        futur: "tiendr-", 
+        level: "A1"
     },
     {
         name: "répondre", 
@@ -349,7 +380,8 @@ export const conjugates = [
         vous: "répondez", 
         ils: "répondent", 
         passé: "répondu", 
-        futur: "répondr-"
+        futur: "répondr-", 
+        level: "A1"
     },
     {
         name: "réussir", 
@@ -360,7 +392,8 @@ export const conjugates = [
         vous: "réussissez", 
         ils: "réussissent", 
         passé: "réussi", 
-        futur: "réussir-"
+        futur: "réussir-", 
+        level: "A1"
     },
     {
         name: "vendre", 
@@ -371,7 +404,8 @@ export const conjugates = [
         vous: "vendez", 
         ils: "vendent", 
         passé: "vendu", 
-        futur: "vendr-"
+        futur: "vendr-", 
+        level: "A1"
     }, 
     {
         name: "préférer", 
@@ -382,7 +416,8 @@ export const conjugates = [
         vous: "préférez", 
         ils: "préfèrent", 
         passé: "préféré", 
-        futur: "préférer-"
+        futur: "préférer-", 
+        level: "A1"
     },
     {
         name: "attendre", 
@@ -393,7 +428,8 @@ export const conjugates = [
         vous: "attendez", 
         ils: "attendent", 
         passé: "attendu", 
-        futur: "attendr-"
+        futur: "attendr-", 
+        level: "A1"
     },
     {
         name: "comprendre", 
@@ -404,7 +440,8 @@ export const conjugates = [
         vous: "comprenez", 
         ils: "comprennent", 
         passé: "compris", 
-        futur: "comprendr-"
+        futur: "comprendr-", 
+        level: "A1"
     },
     {
         name: "vivre", 
@@ -415,7 +452,8 @@ export const conjugates = [
         vous: "vivez", 
         ils: "vivent", 
         passé: "vécu", 
-        futur: "vivr-"
+        futur: "vivr-", 
+        level: "A1"
     },
     {
         name: "ennuyer", 
@@ -426,13 +464,15 @@ export const conjugates = [
         vous: "ennuyez", 
         ils: "ennuient", 
         passé: "ennuyé", 
-        futur: "ennuier-"
+        futur: "ennuier-", 
+        level: "A1"
     },
     {
         name: "pleuvoir", 
         il: "pleut", 
         passé: "plu", 
-        futur: "pleuvr-"
+        futur: "pleuvr-", 
+        level: "A1"
     },
     {
         name: "suivre", 
@@ -443,7 +483,8 @@ export const conjugates = [
         vous: "suivez", 
         ils: "suivent", 
         passé: "suivi", 
-        futur: "suivr-"
+        futur: "suivr-", 
+        level: "A1"
     }, 
     {
         name: "souvenir",
@@ -454,7 +495,8 @@ export const conjugates = [
         vous: "vous souvenez",
         ils: "se souviennent",
         passé: "souvenu",
-        futur: "souviendr-"
+        futur: "souviendr-", 
+        level: "A1"
     },
     {
         name: "croire",
@@ -465,8 +507,12 @@ export const conjugates = [
         vous: "croyez",
         ils: "croient",
         passé: "cru",
-        futur: "croir-"
+        futur: "croir-", 
+        level: "A1"
     },
+]
+
+const conjugatesA2 = [
     {
         name: "inquiéter",
         je: "inquiète",
@@ -476,7 +522,8 @@ export const conjugates = [
         vous: "inquiétez",
         ils: "inquiètent",
         passé: "inquiété",
-        futur: "inquiéter-"
+        futur: "inquiéter-", 
+        level: "A2"
     },
     {
         name: "essayer",
@@ -487,7 +534,8 @@ export const conjugates = [
         vous: "essayez",
         ils: "essaient",
         passé: "essayé",
-        futur: "essaier-"
+        futur: "essaier-", 
+        level: "A2"
     },
     {
         name: "devoir",
@@ -498,7 +546,8 @@ export const conjugates = [
         vous: "devez",
         ils: "doivent",
         passé: "dû",
-        futur: "devr-"
+        futur: "devr-", 
+        level: "A2"
     },
     {
         name: "réussir",
@@ -509,7 +558,8 @@ export const conjugates = [
         vous: "réussissez",
         ils: "réussissent",
         passé: "réussi",
-        futur: "réussir-"
+        futur: "réussir-", 
+        level: "A2"
     },
     {
         name: "envoyer",
@@ -520,7 +570,8 @@ export const conjugates = [
         vous: "envoyez",
         ils: "envoient",
         passé: "envoyé",
-        futur: "enverr-"
+        futur: "enverr-", 
+        level: "A2"
     },
     {
         name: "obtenir",
@@ -531,7 +582,8 @@ export const conjugates = [
         vous: "obtenez",
         ils: "obtiennent",
         passé: "obtenu",
-        futur: "obtiendr-"
+        futur: "obtiendr-", 
+        level: "A2"
     }, 
     {
         name: "élever", 
@@ -542,7 +594,8 @@ export const conjugates = [
         vous: "élevez", 
         ils: "élèvent", 
         passé: "élevé", 
-        futur: "élèver-"
+        futur: "élèver-", 
+        level: "A2"
     },
     {
         name: "payer", 
@@ -553,7 +606,8 @@ export const conjugates = [
         vous: "payez", 
         ils: "paient", 
         passé: "payé", 
-        futur: "paier-"
+        futur: "paier-", 
+        level: "A2"
     },
     {
         name: "agrandir", 
@@ -564,7 +618,8 @@ export const conjugates = [
         vous: "agrandissez", 
         ils: "agrandissent", 
         passé: "agrandi", 
-        futur: "agrandir-"
+        futur: "agrandir-", 
+        level: "A2"
     },
     {
         name: "souhaiter", 
@@ -575,7 +630,8 @@ export const conjugates = [
         vous: "souhaitez", 
         ils: "souhaitent", 
         passé: "souhaité", 
-        futur: "souhaiter-"
+        futur: "souhaiter-", 
+        level: "A2"
     },
     {
         name: "éteindre", 
@@ -586,7 +642,8 @@ export const conjugates = [
         vous: "éteignez", 
         ils: "éteignent", 
         passé: "éteint", 
-        futur: "éteindr-"
+        futur: "éteindr-", 
+        level: "A2"
     },
     {
         name: "recevoir", 
@@ -597,7 +654,8 @@ export const conjugates = [
         vous: "recevez", 
         ils: "reçoivent", 
         passé: "reçu", 
-        futur: "recevr-"
+        futur: "recevr-", 
+        level: "A2"
     },
     {
         name: "valoir", 
@@ -608,7 +666,8 @@ export const conjugates = [
         vous: "valez", 
         ils: "valent", 
         passé: "valu", 
-        futur: "vaudr-"
+        futur: "vaudr-", 
+        level: "A2"
     },
     {
         name: "craindre", 
@@ -619,7 +678,8 @@ export const conjugates = [
         vous: "craignez", 
         ils: "craignent", 
         passé: "craint", 
-        futur: "craindr-"
+        futur: "craindr-", 
+        level: "A2"
     },
     {
         name: "mentir", 
@@ -630,7 +690,8 @@ export const conjugates = [
         vous: "mentez", 
         ils: "mentent", 
         passé: "menti", 
-        futur: "mentir-"
+        futur: "mentir-", 
+        level: "A2"
     },
     {
         name: "rendre", 
@@ -641,7 +702,8 @@ export const conjugates = [
         vous: "rendez", 
         ils: "rendent", 
         passé: "rendu", 
-        futur: "rendr-"
+        futur: "rendr-", 
+        level: "A2"
     },
     {
         name: "rappeler", 
@@ -652,7 +714,8 @@ export const conjugates = [
         vous: "rappelez", 
         ils: "rappellent", 
         passé: "rappelé", 
-        futur: "rappeller-"
+        futur: "rappeller-", 
+        level: "A2"
     }, 
     {
         name: "ouvrir", 
@@ -663,7 +726,8 @@ export const conjugates = [
         vous: "ouvrez", 
         ils: "ouvrent", 
         passé: "ouvert", 
-        futur: "ouvr-"
+        futur: "ouvr-", 
+        level: "A2"
     }, 
     {
         name: "plaire", 
@@ -674,7 +738,8 @@ export const conjugates = [
         vous: "plaisez", 
         ils: "plaisent", 
         passé: "plu", 
-        futur: "plair-"
+        futur: "plair-", 
+        level: "A2"
     },
     {
         name: "paraître", 
@@ -685,7 +750,8 @@ export const conjugates = [
         vous: "paraissez", 
         ils: "paraissent", 
         passé: "paru", 
-        futur: "paraîtr-"
+        futur: "paraîtr-", 
+        level: "A2"
     },
     {
         name: "perdre", 
@@ -696,7 +762,8 @@ export const conjugates = [
         vous: "perdez", 
         ils: "perdent", 
         passé: "perdu", 
-        futur: "perdr-"
+        futur: "perdr-", 
+        level: "A2"
     },
     {
         name: "accueillir", 
@@ -707,7 +774,8 @@ export const conjugates = [
         vous: "accueillez", 
         ils: "accueillent", 
         passé: "accueilli", 
-        futur: "accueiller-"
+        futur: "accueiller-", 
+        level: "A2"
     },
     {
         name: "permettre", 
@@ -718,7 +786,8 @@ export const conjugates = [
         vous: "permettez", 
         ils: "permettent", 
         passé: "permis", 
-        futur: "permettr-"
+        futur: "permettr-", 
+        level: "A2"
     },
     {
         name: "compléter", 
@@ -729,7 +798,8 @@ export const conjugates = [
         vous: "complétez", 
         ils: "complètent", 
         passé: "complété", 
-        futur: "compléter-"
+        futur: "compléter-", 
+        level: "A2"
     },
     {
         name: "retenir", 
@@ -740,7 +810,8 @@ export const conjugates = [
         vous: "retenez", 
         ils: "retiennent", 
         passé: "retenu", 
-        futur: "retiendr-"
+        futur: "retiendr-", 
+        level: "A2"
     },
     {
         name: "découvrir", 
@@ -751,7 +822,8 @@ export const conjugates = [
         vous: "découvrez", 
         ils: "découvrent", 
         passé: "découvert", 
-        futur: "découvrir-"
+        futur: "découvrir-", 
+        level: "A2"
     },
     {
         name: "mettre", 
@@ -762,7 +834,8 @@ export const conjugates = [
         vous: "mettez", 
         ils: "mettent", 
         passé: "mis", 
-        futur: "mettr-"
+        futur: "mettr-", 
+        level: "A2"
     },
     {
         name: "revoir", 
@@ -773,6 +846,165 @@ export const conjugates = [
         vous: "revoyez", 
         ils: "revoient", 
         passé: "revu", 
-        futur: "reverr-"
+        futur: "reverr-", 
+        level: "A2"
+    }, 
+
+    {
+        name: "rire",
+        je: "ris",
+        tu: "ris",
+        il: "rit",
+        nous: "rions",
+        vous: "riez",
+        ils: "rient",
+        passé: "ri",
+        futur: "rir-", 
+        level: "A2"
+    },
+    {
+        name: "inscrire",
+        je: "inscris",
+        tu: "inscris",
+        il: "inscrit",
+        nous: "inscrivons",
+        vous: "inscrivez",
+        ils: "inscrivent",
+        passé: "inscrit",
+        futur: "inscrir-", 
+        level: "A2"
+    },
+    {
+        name: "disparaître",
+        je: "disparais",
+        tu: "disparais",
+        il: "disparaît",
+        nous: "disparaissons",
+        vous: "disparaissez",
+        ils: "disparaissent",
+        passé: "disparu",
+        futur: "disparaîtr-", 
+        level: "A2"
+    },
+    {
+        name: "abattre",
+        je: "abats",
+        tu: "abats",
+        il: "abat",
+        nous: "abattons",
+        vous: "abattez",
+        ils: "abattent",
+        passé: "abattu",
+        futur: "abattr-", 
+        level: "A2"
+    },
+    {
+        name: "réduire",
+        je: "réduis",
+        tu: "réduis",
+        il: "réduit",
+        nous: "réduisons",
+        vous: "réduisez",
+        ils: "réduisent",
+        passé: "réduit",
+        futur: "réduir-", 
+        level: "A2"
+    },
+    {
+        name: "server",
+        je: "sers",
+        tu: "sers",
+        il: "sert",
+        nous: "servons",
+        vous: "servez",
+        ils: "servent",
+        passé: "servi",
+        futur: "servir-", 
+        level: "A2"
+    },
+    {
+        name: "couvrir",
+        je: "couvre",
+        tu: "couvres",
+        il: "couvre",
+        nous: "couvrons",
+        vous: "couvrez",
+        ils: "couvrent",
+        passé: "couvert",
+        futur: "couvrir-", 
+        level: "A2"
     }
+]
+
+// updated until 
+// taxi U1
+// communication L10
+// Edito L3
+// vocabulaire:
+// [1, 8, 11]
+// [13]
+
+let conjugatesB1 = [
+    { name: "fuir", je: "fuis", tu: "fuis", il: "fuit", nous: "fuyons", vous: "fuyez", ils: "fuient", passé: "fui", futur: "fuir-" },
+    { name: "apparaître", je: "apparais", tu: "apparais", il: "apparaît", nous: "apparaissons", vous: "apparaissez", ils: "apparaissent", passé: "apparu", futur: "apparaîtr-" },
+    { name: "reprendre", je: "reprends", tu: "reprends", il: "reprend", nous: "reprenons", vous: "reprenez", ils: "reprennent", passé: "repris", futur: "reprendr-" },
+    { name: "épanouir", je: "épanouis", tu: "épanouis", il: "épanouit", nous: "épanouissons", vous: "épanouissez", ils: "épanouissent", passé: "épanoui", futur: "épanouir-" },
+    { name: "séduire", je: "séduis", tu: "séduis", il: "séduit", nous: "séduisons", vous: "séduisez", ils: "séduisent", passé: "séduit", futur: "séduir-" },
+    { name: "investir", je: "investis", tu: "investis", il: "investit", nous: "investissons", vous: "investissez", ils: "investissent", passé: "investi", futur: "investir-" },
+    { name: "vaincre", je: "vaincs", tu: "vaincs", il: "vainc", nous: "vainquons", vous: "vainquez", ils: "vainquent", passé: "vaincu", futur: "vaincr-" },
+    { name: "tenir", je: "tiens", tu: "tiens", il: "tient", nous: "tenons", vous: "tenez", ils: "tiennent", passé: "tenu", futur: "tiendr-" },
+    { name: "enrichir", je: "enrichis", tu: "enrichis", il: "enrichit", nous: "enrichissons", vous: "enrichissez", ils: "enrichissent", passé: "enrichi", futur: "enrichir-" },
+    { name: "sentir", je: "sens", tu: "sens", il: "sent", nous: "sentons", vous: "sentez", ils: "sentent", passé: "senti", futur: "sentir-" },
+    { name: "joindre", je: "joins", tu: "joins", il: "joint", nous: "joignons", vous: "joignez", ils: "joignent", passé: "joint", futur: "joindr-" }, 
+    { name: "prévoir", je: "prévois", tu: "prévois", il: "prévoit", nous: "prévoyons", vous: "prévoyez", ils: "prévoient", passé: "prévu", futur: "prévoir-" },
+    { name: "convaincre", je: "convaincs", tu: "convaincs", il: "convainc", nous: "convainquons", vous: "convainquez", ils: "convainquent", passé: "convaincu", futur: "convaincr-" },
+    { name: "amincir", je: "amincis", tu: "amincis", il: "amincit", nous: "amincissons", vous: "amincissez", ils: "amincissent", passé: "amincit", futur: "amincir-" },
+    { name: "contenir", je: "contiens", tu: "contiens", il: "contient", nous: "contenons", vous: "contenez", ils: "contiennent", passé: "contenu", futur: "contiendr-" },
+    { name: "comprendre", je: "comprends", tu: "comprends", il: "comprend", nous: "comprenons", vous: "comprenez", ils: "comprennent", passé: "compris", futur: "comprendr-" }, 
+    { name: "défendre", je: "défends", tu: "défends", il: "défend", nous: "défendons", vous: "défendez", ils: "défendent", passé: "défendu", futur: "défendr-"},
+    { name: "enrichir", je: "enrichis", tu: "enrichis", il: "enrichit", nous: "enrichissons", vous: "enrichissez", ils: "enrichissent", passé: "enrichi", futur: "enrichir-"},
+    { name: "cuire", je: "cuis", tu: "cuis", il: "cuit", nous: "cuisons", vous: "cuisez", ils: "cuisent", passé: "cuit", futur: "cuir-"},
+    { name: "frire", je: "fri(e)s", tu: "fri(e)s", il: "frit", nous: "frisons", vous: "frisez", ils: "frisent", passé: "frit", futur: "frir-"},
+    { name: "rôtir", je: "rôtis", tu: "rôtis", il: "rôtit", nous: "rôtissons", vous: "rôtissez", ils: "rôtissent", passé: "rôti", futur: "rôtir-"},
+    { name: "adoucir", je: "adoucis", tu: "adoucis", il: "adoucit", nous: "adoucissons", vous: "adoucissez", ils: "adoucissent", passé: "adouci", futur: "adoucir-"},
+    { name: "méconnaitre", je: "méconnais", tu: "méconnais", il: "méconnaît", nous: "méconnaissons", vous: "méconnaissez", ils: "méconnaissent", passé: "méconnu", futur: "méconnaîtr-"},
+    { name: "acquérir", je: "acquiers", tu: "acquiers", il: "acquiert", nous: "acquérons", vous: "acquérez", ils: "acquièrent", passé: "acquis", futur: "acquerr-"},
+    { name: "appuyer", je: "appuie", tu: "appuies", il: "appuie", nous: "appuyons", vous: "appuyez", ils: "appuient", passé: "appuyé", futur: "appuier-"},
+    { name: "éblouir", je: "éblouis", tu: "éblouis", il: "éblouit", nous: "éblouissons", vous: "éblouissez", ils: "éblouissent", passé: "ébloui", futur: "éblouir-"},
+    { name: "bâtir", je: "bâtis", tu: "bâtis", il: "bâtit", nous: "bâtissons", vous: "bâtissez", ils: "bâtissent", passé: "bâti", futur: "bâtir-"},
+    { name: "construire", je: "construis", tu: "construis", il: "construit", nous: "construisons", vous: "construisez", ils: "construisent", passé: "construit", futur: "construir-"},
+    { name: "nourrir", je: "nourris", tu: "nourris", il: "nourrit", nous: "nourrissons", vous: "nourrissez", ils: "nourrissent", passé: "nourri", futur: "nourrir-"},
+    { name: "plaindre", je: "plains", tu: "plains", il: "plaint", nous: "plaignons", vous: "plaignez", ils: "plaignent", passé: "plaint", futur: "plaindr-"},
+    { name: "rabattre", je: "rabats", tu: "rabats", il: "rabat", nous: "rabattons", vous: "rabattez", ils: "rabattent", passé: "rabattu", futur: "rabattr-"},
+    { name: "être", je: "suis", tu: "es", il: "est", nous: "sommes", vous: "êtes", ils: "sont", passé: "été", futur: "ser-" }, 
+    { name: "avoir", je: "ai", tu: "as", il: "a", nous: "avons", vous: "avez",  ils: "ont", passé: "eu", futur: "aur-" },
+    { name: "transmettre", je: "transmets", tu: "transmets", il: "transmet", nous: "transmettons", vous: "transmettez", ils: "transmettent", passé: "transmis", futur: "transmettr-" },
+    { name: "rompre", je: "romps", tu: "romps", il: "rompt", nous: "rompons", vous: "rompez", ils: "rompent", passé: "rompu", futur: "rompr-" },
+    { name: "souffrir", je: "souffre", tu: "souffres", il: "souffre", nous: "souffrons", vous: "souffrez", ils: "souffrent", passé: "souffert", futur: "souffrir-" },
+    { name: "interrompre", je: "interromps", tu: "interromps", il: "interrompt", nous: "interrompons", vous: "interrompez", ils: "interrompent", passé: "interrompu", futur: "interrompr-" },
+    { name: "résoudre", je: "résous", tu: "résous", il: "résout", nous: "résolvons", vous: "résolvez", ils: "résolvent", passé: "résolu", futur: "résoudr-" },
+    // { name: "réfléchir", je: "réfléchis", tu: "réfléchis", il: "réfléchit", nous: "réfléchissons", vous: "réfléchissez", ils: "réfléchissent", passé: "réfléchi", futur: "réfléchir-" },
+    { name: "correspondre", je: "corresponds", tu: "corresponds", il: "correspond", nous: "correspondons", vous: "correspondez", ils: "correspondent", passé: "correspondu", futur: "correspondr-" },
+    { name: "fournir", je: "fournis", tu: "fournis", il: "fournit", nous: "fournissons", vous: "fournissez", ils: "fournissent", passé: "fourni", futur: "fournir-" },
+    { name: "rejoindre", je: "rejoins", tu: "rejoins", il: "rejoint", nous: "rejoignons", vous: "rejoignez", ils: "rejoignent", passé: "rejoint", futur: "rejoindr-" },
+    { name: "répandre", je: "répands", tu: "répands", il: "répand", nous: "répandons", vous: "répandez", ils: "répandent", passé: "répandu", futur: "répandr-" },
+    { name: "arrondir", je: "arrondis", tu: "arrondis", il: "arrondit", nous: "arrondissons", vous: "arrondissez", ils: "arrondissent", passé: "arrondi", futur: "arrondir-" },  
+    { name: "subir", je: "subis", tu: "subis", il: "subit", nous: "subissons", vous: "subissez", ils: "subissent", passé: "subi", futur: "subir-" },
+    { name: "attendre", je: "attends", tu: "attends", il: "attend", nous: "attendons", vous: "attendez", ils: "attendent", passé: "attendu", futur: "attendr-" },
+    { name: "guérir", je: "guéris", tu: "guéris", il: "guérit", nous: "guérissons", vous: "guérissez", ils: "guérissent", passé: "guéri", futur: "guérir-" },
+    { name: "prescrire", je: "prescris", tu: "prescris", il: "prescrit", nous: "prescrivons", vous: "prescrivez", ils: "prescrivent", passé: "prescrit", futur: "prescrir-" },
+    { name: "améliorer", je: "améliore", tu: "améliores", il: "améliore", nous: "améliorons", vous: "améliorez", ils: "améliorent", passé: "amélioré", futur: "améliorer-" },
+    { name: "battre", je: "bats", tu: "bats", il: "bat", nous: "battons", vous: "battez", ils: "battent", passé: "battu", futur: "battr-" },
+    { name: "maigrir", je: "maigris", tu: "maigris", il: "maigrit", nous: "maigrissons", vous: "maigrissez", ils: "maigrissent", passé: "maigri", futur: "maigrir-" },
+    { name: "conduire", je: "conduis", tu: "conduis", il: "conduit", nous: "conduisons", vous: "conduisez", ils: "conduisent", passé: "conduit", futur: "conduir-" }, 
+    
+]
+
+for (let word of conjugatesB1)
+    word["level"] = "B1"
+
+export const conjugates = [
+    ...conjugatesA1, 
+    ...conjugatesA2, 
+    ...conjugatesB1, 
 ]
