@@ -1,15 +1,68 @@
 export const wordsTaxiB1U4 = {
-    lessons: ["L", "L", "L", "L"],
-    L: [
+    lessons: ["L13", "L14", "L15", "L16"],
+    L13: [
+        { english: "to weigh (50kg)", french: "peser", pos: "v.", chinese: "称重" },
+        { english: "to weigh on (qch)", french: "peser sur", pos: "loc.", chinese: "对...施加压力" },
+        { english: "gentle (baiser)", french: "doux(se)", pos: "adj.", chinese: "温柔的" },
+        { english: "enormously", french: "énormément", pos: "adv.", chinese: "极大地" },
+        { english: "deaf, voiceless, extremely quiet", french: "sourd(e)", pos: "adj.", chinese: "聋的" },
+        { english: "mysterious", french: "mystérieux(se)", pos: "adj.", chinese: "神秘的" },
+        { english: "landscape", french: "paysage", pos: "n.m.", chinese: "风景" },
+        { english: "sentiment of", french: "sentiment de qch", pos: "loc.", chinese: "...的感觉" },
+        { english: "anxiety", french: "inquiétude", pos: "n.f.", chinese: "焦虑" },
+        { english: "to move away (de qch)", french: "éloigner", pos: "v.t.", chinese: "移开" },
+        { english: "to penetrate", french: "pénétrer", pos: "v.t.", chinese: "渗透" },
+        { english: "to have the impression", french: "avoir l’impression de faire/que ind.", pos: "loc.", chinese: "有...的印象" },
+        { english: "somewhere", french: "quelque part", pos: "adv.", chinese: "某处" },
+        { english: "trap", french: "piège", pos: "n.m.", chinese: "陷阱" },
+        { english: "to be trapped", french: "être pris au piège", pos: "loc.", chinese: "陷入困境" },
+        { english: "to free oneself (de qch)", french: "se délivrer", pos: "loc.", chinese: "解脱" },
+        { english: "heat", french: "chaleur", pos: "n.f.", chinese: "热" },
+        { english: "to slaughter, to destroy, to pull down", french: "abattre", pos: "v.t.", chinese: "屠宰" },
+        { english: "to crumble", french: "s’abattre", pos: "v.pr.", chinese: "倒塌" },
+        { english: "(voyageur, navire) to land", french: "aborder", pos: "v.i.", chinese: "登陆" },
+        { english: "to approach (qn)", french: "aborder", pos: "v.t.", chinese: "接近" },
+        { english: "depth (en ~)", french: "profondeur", pos: "n.m.", chinese: "深度" },
+        { english: "to put up with (qn), to be subjected to (violence, dégât, interrogatoire), to undergo (opération)", french: "subir", pos: "v.t.", chinese: "忍受" },
+        { english: "assault", french: "assaut", pos: "n.m.", chinese: "袭击" },
+        { english: "swarming (de insectes)", french: "grouillant(e)", pos: "adj.", chinese: "成群的" },
+        { english: "to be swarmed (de qch)", french: "grouiller", pos: "v.i.", chinese: "拥挤" },
+        { english: "cockroach", french: "cafard", pos: "n.m.", chinese: "蟑螂" },
+        { english: "to groan", french: "gémir", pos: "v.i.", chinese: "呻吟" },
+        { english: "groan", french: "gémissement", pos: "n.m.", chinese: "呻吟" },
+        { english: "nausea", french: "nausée", pos: "n.f.", chinese: "恶心" },
+        { english: "thirst", french: "soif", pos: "n.f.", chinese: "渴" },
+        { english: "to (eau, rivière) flow, to run, (sable, temps) to slip", french: "couler", pos: "v.i.", chinese: "流动" },
+        { english: "cement", french: "ciment", pos: "n.m.", chinese: "水泥" },
+        { english: "to wipe (verre, enfant)", french: "essuyer", pos: "v.t.", chinese: "擦拭" },
+        { english: "(car) wiper", french: "essuie-glace", pos: "n.m.", chinese: "雨刷" },
+        { english: "monotonous", french: "monotone", pos: "adj.", chinese: "单调的" },
+        { english: "to sweep (sol), (regard) to sweep across (assistance), to sweep away (rumeur, de pouvoir)", french: "balayer", pos: "v.t.", chinese: "扫" },
+        { english: "(bâtiments, personnes) to surround", french: "entourer", pos: "v.t.", chinese: "包围" },
+        { english: "hill", french: "colline", pos: "n.f.", chinese: "山丘" },
+        { english: "to move deeply (qn)", french: "bouleverser", pos: "v.t.", chinese: "深深打动" },
+        { english: "incessant", french: "incessant(e)", pos: "adj.", chinese: "不停的" },
+        { english: "sky-scraper (no accordance)", french: "gratte-ciel", pos: "n.m.", chinese: "摩天大楼" },
+        { english: "(statue, chien) to stand up (contre injustice)", french: "se dresser", pos: "v.pr.", chinese: "站起来" },
+        { english: "tomb", french: "sépulcre", pos: "n.m.", chinese: "坟墓" },
+        { english: "for the first time", french: "pour la première fois", pos: "loc.", chinese: "第一次" },
+        { english: "United Nations", french: "ONU", pos: "n.f.", chinese: "联合国" },
+        { english: "(nombre, dégât) to come to (à 1000 euros)", french: "s’élever", pos: "v.pr.", chinese: "上升" },
+        { english: "environment", french: "milieu", pos: "n.m.", chinese: "环境" },
+        { english: "half", french: "moitié", pos: "n.f.", chinese: "一半" },
+        { english: "according to", french: "en fonction de", pos: "loc.", chinese: "根据" },
+        { english: "criterion", french: "critère", pos: "n.m.", chinese: "标准" },
+        { english: "health, sanitary (conditions)", french: "sanitaire", pos: "adj.", chinese: "卫生的" },
+        { english: "ranking", french: "classement", pos: "n.m.", chinese: "排名" },
+        { english: "to win, to earn (qch à qn)", french: "valoir", pos: "v.t.", chinese: "赢得，赚得" }
+    ],
+    L14: [
 
     ],
-    L: [
+    L15: [
 
     ],
-    L: [
-
-    ],
-    L: [
+    L16: [
 
     ]
 }

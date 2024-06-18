@@ -20,6 +20,7 @@ import { wordsTaxiA2U9 } from '../../data/vocabulaire/taxi2/u9';
 import { wordsTaxiB1U1 } from '../../data/vocabulaire/taxi3/u1';
 import { wordsTaxiB1U2 } from "../../data/vocabulaire/taxi3/u2";
 import { wordsTaxiB1U3 } from "../../data/vocabulaire/taxi3/u3";
+import { wordsTaxiB1U4 } from "../../data/vocabulaire/taxi3/u4";
 
 
 
@@ -151,6 +152,12 @@ export const taxiB1 = [
     {
         unit: "Taxi B1 U3",
         words: wordsTaxiB1U3,
+        tag: "Taxi",
+        book: "B1",
+    },
+    {
+        unit: "Taxi B1 U4",
+        words: wordsTaxiB1U4,
         tag: "Taxi",
         book: "B1",
     },

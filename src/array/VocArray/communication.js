@@ -24,6 +24,7 @@ import { CommunicationProgressifA2L17 } from '../../data/vocabulaire/communicati
 import { CommunicationProgressifA2L18 } from '../../data/vocabulaire/communicationA2/L18';
 import { CommunicationProgressifA2L19 } from '../../data/vocabulaire/communicationA2/L19';
 import { CommunicationProgressifA2L20 } from '../../data/vocabulaire/communicationA2/L20';
+import { CommunicationProgressifA2L21 } from '../../data/vocabulaire/communicationA2/L21';
 
 export const communicationA1 = [
     {
@@ -204,6 +205,13 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L20 Request",
+    },
+    {
+        unit: "A2 L21 指令",
+        words: CommunicationProgressifA2L21,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L20 Instruction",
     },
     
 

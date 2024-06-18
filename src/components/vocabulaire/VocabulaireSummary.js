@@ -45,17 +45,11 @@ export function VocabulaireSummary() {
     let [voc, setVoc] = useState(allWords);
     let [sortByLetter, SetSortByLetter] = useState(0);
     let [chinese, setChinese] = useState(false);
-    let [quizletChinese, setQuizletChinese] = useState(true);
+    let [quizletChinese, setQuizletChinese] = useState(eng ? false : true);
 
-    const [modalVisible, setModalVisible] = useState(false);
-
-    const showModal = () => {
-        setModalVisible(true);
-    };
-
-    const hideModal = () => {
-        setModalVisible(false);
-    };
+    useEffect(() => {
+        setQuizletChinese(eng ? false : true);
+    }, [eng])
 
     let buttonArr = [
         {
@@ -237,12 +231,12 @@ export function VocabulaireSummary() {
 
 
             {!eng &&
-                <p>
+                <p className={isMobile ? "text-sm" : ""}>
                     点击词性可排序，
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。我的课堂笔记都是英文的，<span className="underline font-bold text-rose-400">如果熟悉英语建议看英语释义</span>，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，中文释义为GPT少样本学习生成(有很多错误)。<span className="underline font-bold text-rose-400">只有英文释义有法语固搭</span>
+                    。我的课堂笔记都是英文的，<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，中文释义为GPT少样本学习生成(有很多错误)。<span className="underline font-bold txt-rose-400 text-violet-400">只有英文释义有法语固搭</span>
                 </p>
             }
 
