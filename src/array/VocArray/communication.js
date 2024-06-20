@@ -211,7 +211,7 @@ export const communicationA2 = [
         words: CommunicationProgressifA2L21,
         tag: "Communication Progressive",
         book: "A2",
-        engUnit: "A2 L20 Instruction",
+        engUnit: "A2 L21 Instruction",
     },
     
 

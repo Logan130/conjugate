@@ -28,12 +28,15 @@ import { VocabulaireProgressifA1L28 } from '../../data/vocabulaire/vocabulaireA1
 import { VocabulaireProgressifA2L1 } from '../../data/vocabulaire/vocabulaireA2/L1';
 import { VocabulaireProgressifA2L3 } from '../../data/vocabulaire/vocabulaireA2/L3';
 import { VocabulaireProgressifA2L6 } from '../../data/vocabulaire/vocabulaireA2/L6';
+import { VocabulaireProgressifA2L7 } from '../../data/vocabulaire/vocabulaireA2/L7';
 import { VocabulaireProgressifA2L8 } from '../../data/vocabulaire/vocabulaireA2/L8';
 import { VocabulaireProgressifA2L9 } from '../../data/vocabulaire/vocabulaireA2/L9';
 import { VocabulaireProgressifA2L10 } from '../../data/vocabulaire/vocabulaireA2/L10';
 import { VocabulaireProgressifA2L11 } from '../../data/vocabulaire/vocabulaireA2/L11';
 import { VocabulaireProgressifA2L12 } from '../../data/vocabulaire/vocabulaireA2/L12';
+import { VocabulaireProgressifA2L13 } from '../../data/vocabulaire/vocabulaireA2/L13';
 import { VocabulaireProgressifA2L14 } from '../../data/vocabulaire/vocabulaireA2/L14';
+import { VocabulaireProgressifA2L15 } from '../../data/vocabulaire/vocabulaireA2/L15';
 
 
 
@@ -256,6 +259,13 @@ export const vocabulaireProgressifA2 = [
         engUnit: "Voc A2 L6 Weather",
     },
     {
+        unit: "Voc A2 L7 自然",
+        words: VocabulaireProgressifA2L7,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L7 Nature",
+    },
+    {
         unit: "Voc A2 L8 身体",
         words: VocabulaireProgressifA2L8,
         tag: "Vocabulaire Progressif",
@@ -291,10 +301,24 @@ export const vocabulaireProgressifA2 = [
         engUnit: "Voc A2 L12 Daily",
     }, 
     {
+        unit: "Voc A2 L13 购物",
+        words: VocabulaireProgressifA2L13,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L13 Shopping",
+    }, 
+    {
         unit: "Voc A2 L14 餐饮",
         words: VocabulaireProgressifA2L14,
         tag: "Vocabulaire Progressif",
         book: "A2",
         engUnit: "Voc A2 L14 Dining",
+    }, 
+    {
+        unit: "Voc A2 L15 休闲 运动",
+        words: VocabulaireProgressifA2L15,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L14 Sport",
     }
 ]
