@@ -129,7 +129,7 @@ export function TestBox({ verb, CardID }) {
                                 <label className="">
                                     <input type="text" 
                                     ref={el => (inputRefs.current[id] = el)}
-                                    className={style_mapping[correct[id]]} placeholder={hint[id] ? verb[input === "passé composé" ? "passé" : input] : input} 
+                                    className={style_mapping[correct[id]]} placeholder={hint[id] ? verb[input === "passé composé" ? "passé" : input] : (input === "passé composé" ? "p.p.": input)} 
                                     id={`field-${CardID}-${id}`} 
                                     onChange={onTextfieldChange(input)}
                                     onKeyDown={e => handleKeyDown(e, id)}

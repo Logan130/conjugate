@@ -94,9 +94,51 @@ export const wordsTaxiB1U4 = {
         { english: "to plan (qch à qn)", french: "prévoir", pos: "v.t.", chinese: "计划" }
     ],
     L15: [
-
+        { english: "cobblestone", french: "pavé (rue)", pos: "n.m.", chinese: "鹅卵石" },
+        { english: "(informal) irresistible", french: "craquant(e)", pos: "adj.", chinese: "不可抗拒的" },
+        { english: "welcoming", french: "accueillant(e)", pos: "adj.", chinese: "热情好客的" },
+        { english: "to alloy (métaux), to combine (A à/avec B)", french: "allier", pos: "v.t.", chinese: "合金化, 结合" },
+        { english: "softness, gentleness", french: "douceur", pos: "n.f.", chinese: "柔软, 温柔" },
+        { english: "firmness", french: "fermeté", pos: "n.f.", chinese: "坚定" },
+        { english: "at the same time", french: "à la fois", pos: "loc.", chinese: "同时" },
+        { english: "at the same time", french: "en même temps", pos: "loc.", chinese: "同时" },
+        { english: "united", french: "solidaire", pos: "adj.", chinese: "团结的" },
+        { english: "about", french: "aux environs de", pos: "loc.", chinese: "大约" },
+        { english: "before", french: "auparavant", pos: "adv.", chinese: "以前" },
+        { english: "consecutive", french: "consécutif(ve)", pos: "adj.", chinese: "连续的" },
+        { english: "(military) quartier", french: "quartier", pos: "n.m.", chinese: "（军事）区" },
+        { english: "lazing about", french: "farniente", pos: "n.m.", chinese: "无所事事" },
+        { english: "to think of oneself as", french: "se vouloir", pos: "v.pr.", chinese: "自认为" },
+        { english: "vector, vehicle, carrier (de agressivité, culture)", french: "vecteur", pos: "n.m.", chinese: "载体, 媒介" },
+        { english: "to insert (A dans B)", french: "insérer", pos: "v.t.", chinese: "插入" },
+        { english: "to fit in, to integrate in", french: "s’insérer", pos: "v.pr.", chinese: "融入" },
+        { english: "to receive (salaire)", french: "toucher", pos: "v.t.", chinese: "领取" },
+        { english: "realize that", french: "se rendre compte que", pos: "loc.", chinese: "意识到" },
+        { english: "interest", french: "intérêt", pos: "n.m.", chinese: "兴趣" },
+        { english: "agent", french: "acteur(trice)", pos: "n.", chinese: "代理人" },
+        { english: "to pull", french: "tirer", pos: "v.t.", chinese: "拉" },
+        { english: "to push", french: "pousser", pos: "v.t.", chinese: "推" },
+        { english: "in great difficulty", french: "en grande difficulté", pos: "loc.", chinese: "处于巨大困难中" },
+        { english: "preconception, prejudice (inv.)", french: "a priori", pos: "n.m.", chinese: "先入之见" },
+        { english: "bet, gamble", french: "pari", pos: "n.m.", chinese: "赌注" }
     ],
     L16: [
-
+        { english: "to encourage (qn à faire)", french: "inciter", pos: "v.t.", chinese: "鼓励" }, 
+        { english: "premature", french: "prématuré(e)", pos: "adj.", chinese: "早产的" }, 
+        { english: "in terms of", french: "en fonction de", pos: "loc.", chinese: "根据" }, 
+        { english: "seniority, age", french: "ancienneté", pos: "n.f.", chinese: "资历" }, 
+        { english: "by, via, par", french: "par l’intermédiaire de", pos: "loc.", chinese: "通过" }, 
+        { english: "state", french: "état", pos: "n.m.", chinese: "状态" }, 
+        { english: "to launch (satellite, projet, produit)", french: "lancer", pos: "v.t.", chinese: "发射" }, 
+        { english: "competition", french: "concours", pos: "n.m.", chinese: "比赛" }, 
+        { english: "innovative", french: "innovant(e)", pos: "adj.", chinese: "创新的" }, 
+        { english: "to attack", french: "attaquer", pos: "v.t.", chinese: "攻击" }, 
+        { english: "to attack (personne), to start (lecture), to tackle (problème)", french: "s’attaquer", pos: "v.pr.", chinese: "攻击，开始，解决" }, 
+        { english: "improvement", french: "amélioration", pos: "n.f.", chinese: "改进" }, 
+        { english: "feasible", french: "faisable", pos: "adj.", chinese: "可行的" }, 
+        { english: "to contain", french: "contenir", pos: "v.t.", chinese: "包含" }, 
+        { english: "set-up", french: "mise en place", pos: "loc.", chinese: "安排" }, 
+        { english: "to happen", french: "se faire", pos: "v.pr.", chinese: "发生" }, 
+        { english: "to bring together", french: "réunir", pos: "v.t.", chinese: "聚集" }
     ]
 }

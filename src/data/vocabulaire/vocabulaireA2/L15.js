@@ -1,5 +1,5 @@
 export const VocabulaireProgressifA2L15 = {
-    lessons: ["休闲", "运动", "团体"],
+    lessons: ["休闲", "运动", "团体单人"],
     "休闲": [
         { english: "to distract (de A par B)", french: "distraire", pos: "v.t.", chinese: "分散注意力" },
         { english: "to enjoy oneself", french: "distraire", pos: "v.pr.", chinese: "自娱自乐" },
@@ -52,8 +52,52 @@ export const VocabulaireProgressifA2L15 = {
         { english: "ping-pong", french: "ping-pong", pos: "n.m.", chinese: "乒乓球" },
         { english: "(sport) squash", french: "squash", pos: "n.m.", chinese: "壁球" }
     ],
-    "团体": [
-
-    ], 
-    lessonsEng: ["leisure", "sport", "", "", ""]
+    "团体单人": [
+        { english: "rugby", french: "rugby", pos: "n.m.", chinese: "橄榄球" },
+        { english: "stadium", french: "stade", pos: "n.m.", chinese: "体育场" },
+        { english: "bleacher", french: "gradin", pos: "n.m.", chinese: "看台" },
+        { english: "half-time", french: "mi-temps", pos: "n.f.", chinese: "中场休息" },
+        { english: "referee, arbiter", french: "arbitre", pos: "n.m.", chinese: "裁判" },
+        { english: "to whistle", french: "siffler", pos: "v.", chinese: "吹口哨" },
+        { english: "to commit (faute, crime)", french: "commettre", pos: "v.t.", chinese: "犯（错误，罪行）" },
+        { english: "supporter", french: "supporter(teur)", pos: "n.", chinese: "支持者" },
+        { english: "jersey", french: "maillot", pos: "n.m.", chinese: "运动衫" },
+        { english: "(sport) cup", french: "coupe", pos: "n.f.", chinese: "（体育）奖杯" },
+        { english: "the World Cup", french: "la Coupe du monde", pos: "loc.", chinese: "世界杯" },
+        { english: "track and field events", french: "athlétisme", pos: "n.m.", chinese: "田径项目" },
+        { english: "discipline, sport", french: "discipline", pos: "n.f.", chinese: "纪律，运动项目" },
+        { english: "test, sport event (sur terrain, piste)", french: "épreuve", pos: "n.f.", chinese: "测试，体育比赛（在场地，跑道上）" },
+        { english: "marathon", french: "marathon", pos: "n.m.", chinese: "马拉松" },
+        { english: "to win (épreuve, siège, titre)", french: "remporter", pos: "v.t.", chinese: "赢得（比赛，席位，头衔）" },
+        { english: "throwing", french: "lancer", pos: "n.m.", chinese: "投掷" },
+        { english: "discus", french: "disque", pos: "n.m.", chinese: "铁饼" },
+        { english: "skating", french: "patinage", pos: "n.m.", chinese: "滑冰" },
+        { english: "skater", french: "patineur(euse)", pos: "n.", chinese: "滑冰者" },
+        { english: "to skate", french: "patiner", pos: "v.i.", chinese: "滑冰" },
+        { english: "ice rink", french: "patinoire", pos: "n.f.", chinese: "溜冰场" },
+        { english: "to pedal", french: "pédaler", pos: "v.i.", chinese: "踩踏板" },
+        { english: "horse-riding", french: "équitation", pos: "n.f.", chinese: "骑马" },
+        { english: "horse rider", french: "cavalier(ière)", pos: "n.", chinese: "骑马者" },
+        { english: "riding area, merry-go-around", french: "manège", pos: "n.m.", chinese: "骑马场，旋转木马" },
+        { english: "competition", french: "concours", pos: "n.m.", chinese: "竞赛" },
+        { english: "equestrian", french: "hippique", pos: "adj.", chinese: "马术的" },
+        { english: "race (au profit, pouvoir, automobile)", french: "course", pos: "n.f.", chinese: "比赛（利润，权力，汽车）" },
+        { english: "pilot", french: "pilote", pos: "n.m.", chinese: "飞行员" },
+        { english: "to pilot (avion, voiture), to run (entreprise, négociation)", french: "piloter", pos: "v.t.", chinese: "驾驶（飞机，汽车），管理（企业，谈判）" },
+        { english: "nautical (art, science), water (fête, sports)", french: "nautique", pos: "adj.", chinese: "航海的（水上艺术，科学），水上（节日，运动）" },
+        { english: "plank, plate", french: "planche", pos: "n.f.", chinese: "木板，板子" },
+        { english: "veil", french: "voile", pos: "n.m.", chinese: "面纱" },
+        { english: "sail", french: "voile", pos: "n.f.", chinese: "帆" },
+        { english: "judo", french: "judo", pos: "n.m.", chinese: "柔道" },
+        { english: "boxer", french: "boxeur", pos: "n.m.", chinese: "拳击手" },
+        { english: "alpine", french: "alpin(e)", pos: "adj.", chinese: "阿尔卑斯的" },
+        { english: "sky-tow", french: "remonte-pente", pos: "n.m.", chinese: "拖牵" },
+        { english: "sled", french: "luge", pos: "n.f.", chinese: "雪橇" },
+        { english: "hiking", french: "randonnée", pos: "n.f.", chinese: "远足" },
+        { english: "to climb (montagne)", french: "escalader", pos: "v.t.", chinese: "攀登（山）" },
+        { english: "climbing, escalation", french: "escalade", pos: "n.f.", chinese: "攀登，升级" },
+        { english: "to climb (escalier, étage, aux arbres, dans le. lit)", french: "grimper", pos: "v.", chinese: "爬（楼梯，楼层，树上，床上）" },
+        { english: "(bâtiment, montagne) wall", french: "paroi", pos: "n.f.", chinese: "（建筑物，山）墙壁" }
+    ],
+    lessonsEng: ["leisure", "sport", "group & indi", "", ""]
 }

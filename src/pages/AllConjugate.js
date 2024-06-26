@@ -63,7 +63,7 @@ function Cards() {
                 <figure><img src={TomJerry} alt="passé composé" className="z-0" /></figure>
                 <Link className='text-lg' to='/voc'>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title z-10">{eng ? "Practice Spelling & Gender" : "点击练习拼写和阴阳性"}</h2>
+                        <h2 className="card-title z-10">{eng ? "Vocabulary, Spelling, & Gender" : "点击查看单词表, 拼写, 阴阳性"}</h2>
                         {/* <Study className="h-36 w-full" /> */}
                         {/* <img src={TomJerry} className="h-40 m-0 rounded"></img> */}
                         {/* <figure><img src={TomJerry} alt="passé composé" className="z-0 w-full h-32" /></figure> */}
@@ -128,16 +128,16 @@ function Cards() {
             <div className="card w-auto bg-neutral text-neutral-content">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{eng ? "Subjonctif Présent" : "虚拟式现在时(规则变位)"}</h2>
-                    <h3 className="font-bold">{eng ? `remove "ent" from ind. "ils" and add e, es, e, ent; remove "ons" from ind. "nous" and add ions, iez; ` : "直现ils去ent加e, es, e, ent；直现nous去ons, 加ions, iez"}</h3>
+                    <h3 className="font-bold">{eng ? `remove "ent" from ind. ils and add suffix; remove "ons" from ind. nous and add suffix; ` : "直现ils去ent加e, es, e, ent；直现nous去ons, 加ions, iez"}</h3>
 
                     <div className="grid grid-cols-2 gap-2">
 
-                        <div className="text-left">que j’aim<span className={red_style}>e</span></div>
-                        <div className="text-left">que nous aim<span className={red_style}>ions</span></div>
-                        <div className="text-left">que tu aim<span className={red_style}>es</span></div>
-                        <div className="text-left">que vous aim<span className={red_style}>iez</span></div>
-                        <div className="text-left">qu’il/elle aim<span className={red_style}>e</span></div>
-                        <div className="text-left">qu’ils/elles aim<span className={red_style}>ent</span></div>
+                        <div className="text-left">que je doiv<span className={red_style}>e</span></div>
+                        <div className="text-left">que nous dev<span className={red_style}>ions</span></div>
+                        <div className="text-left">que tu doiv<span className={red_style}>es</span></div>
+                        <div className="text-left">que vous dev<span className={red_style}>iez</span></div>
+                        <div className="text-left">qu’il doiv<span className={red_style}>e</span></div>
+                        <div className="text-left">qu’ils doiv<span className={red_style}>ent</span></div>
                     </div>
 
                 </div>
@@ -150,12 +150,31 @@ function Cards() {
 
                     <div className="grid grid-cols-2 gap-2">
 
-                        <div className="text-left"><span className={red_style}>avais</span> aimé</div>
-                        <div className="text-left"><span className={red_style}>avions</span> aimé</div>
-                        <div className="text-left"><span className={red_style}>avais</span> aimé</div>
-                        <div className="text-left"><span className={red_style}>aviez</span> aimé</div>
-                        <div className="text-left"><span className={red_style}>avait</span> aimé</div>
-                        <div className="text-left"><span className={red_style}>avaient</span> aimé</div>
+                        <div className="text-left">j'<span className={red_style}>avais</span> aimé</div>
+                        <div className="text-left">nous <span className={red_style}>avions</span> aimé</div>
+                        <div className="text-left">tu <span className={red_style}>avais</span> aimé</div>
+                        <div className="text-left">vous <span className={red_style}>aviez</span> aimé</div>
+                        <div className="text-left">il <span className={red_style}>avait</span> aimé</div>
+                        <div className="text-left">ils <span className={red_style}>avaient</span> aimé</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div className="card w-auto bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">{eng ? "Futur Antérieur" : "先将来时"}</h2>
+                    <h3 className="font-bold">{eng ? "futur être/avoir + p.p." : "助动词简将 + p.p."}</h3>
+
+                    <div className="grid grid-cols-2 gap-2">
+
+                        <div className="text-left">j'<span className={red_style}>aurai</span> aimé</div>
+                        <div className="text-left">nous <span className={red_style}>aurons</span> aimé</div>
+                        <div className="text-left">tu <span className={red_style}>auras</span> aimé</div>
+                        <div className="text-left">vous <span className={red_style}>aurez</span> aimé</div>
+                        <div className="text-left">il <span className={red_style}>aura</span> aimé</div>
+                        <div className="text-left">ils <span className={red_style}>auront</span> aimé</div>
                     </div>
 
                 </div>

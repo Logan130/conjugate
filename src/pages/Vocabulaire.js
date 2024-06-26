@@ -171,6 +171,11 @@ export function VocabulairePage() {
         setCommunicationFilter(filter);
     }
 
+    let [autreFilter, setAutreFilter] = useState("B1");
+    const onClickAutreFilter = (filter) => (e) => {
+        setCommunicationFilter(filter);
+    }
+
 
     useEffect(() => {
         // Scroll to the top of the page when component mounts
@@ -200,6 +205,7 @@ export function VocabulairePage() {
                     <div className='flex items-center justify-center text-neutral-content'>
                         <p className='text-neutral-content italic'>Conceal me what I am, and be my aid. For such disguise as haply shall become the form of my intent. (Click the button Gender to practice)</p>
                     </div>
+                    <br/>
                 </> :
 
                 <>
@@ -207,6 +213,7 @@ export function VocabulairePage() {
                     <div className='flex items-center justify-center text-neutral-content'>
                         <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
                     </div>
+                    <br/>
                 </>}
         </> : <>
             <div className={isIpadUser ? 'flex justify-center items-start' : 'flex justify-center items-start'}>
@@ -340,14 +347,13 @@ export function VocabulairePage() {
 
         <h1 className={isMobile ? "text-2xl mb-2" : "text-4xl mb-4"}>L'Autre</h1>
 
-        {/* <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-            <button className={vocabulaireFilter === "A2" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickVocabulaireFilter("A2")}>Interm</button>
-            <button className={vocabulaireFilter === "A1" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickVocabulaireFilter("A1")}>Débutant</button>
-        </div> */}
+        <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
+            <button className={autreFilter === "B1" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickAutreFilter("B1")}>Édito B1</button>
+        </div>
         <br />
 
         <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-            {itakiArr.map((lesson, id) => (<>
+            {itakiArr.filter((lesson) => lesson.book === autreFilter).map((lesson, id) => (<>
                 <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
                     <div className={isMobile ? 'flex items-center w-32 text-sm' : 'flex items-center w-32'}>
                         <span className='ml-1 mr-0 font-bold break-words'>{lesson.unit}</span>

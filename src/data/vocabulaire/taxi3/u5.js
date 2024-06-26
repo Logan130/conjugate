@@ -1,15 +1,71 @@
 export const wordsTaxiB1U5 = {
-    lessons: ["L", "L", "L", "L"],
-    L: [
+    lessons: ["L17", "L18", "L19", "L20"],
+    L17: [
+        { english: "to plan (qch, de faire)", french: "projeter", pos: "v.t.", chinese: "计划（某事, 做某事）" },
+        { english: "host", french: "hôte", pos: "n.m.", chinese: "主人" },
+        { english: "from now within (quelques semaines, 20 ans, demain)", french: "d’ici", pos: "loc.", chinese: "从现在开始（几周内, 20年内, 明天内）" },
+        { english: "to inform (qn de qch)", french: "informer", pos: "v.t.", chinese: "通知（某人某事）" },
+        { english: "it’s about (qch, faire)", french: "il s’agit de", pos: "loc.", chinese: "关于（某事, 做某事）" },
+        { english: "clearly", french: "à l’évidence", pos: "loc.", chinese: "明显地" },
+        { english: "last (à faire)", french: "dernier(ère)", pos: "n.", chinese: "最后（做某事）" },
+        { english: "to devote (A à B)", french: "consacrer", pos: "v.t.", chinese: "奉献（A给B）" },
+        { english: "presentation", french: "exposé", pos: "n.m.", chinese: "展示" },
+        { english: "reminder", french: "rappel", pos: "n.m.", chinese: "提醒" },
+        { english: "to dazzle", french: "éblouir", pos: "v.t.", chinese: "使目眩" },
+        { english: "dazzling", french: "éblouissant", pos: "adj.", chinese: "耀眼的" },
+        { english: "to have an adj. air", french: "avoir l’air adj.", pos: "loc.", chinese: "看起来adj." },
+        { english: "at all price", french: "à n’importe quel prix", pos: "loc.", chinese: "不惜任何代价" },
+        { english: "at all price", french: "à tout prix", pos: "loc.", chinese: "不惜任何代价" },
+        { english: "any (quel prix, qui, quelle heure)", french: "n’importe", pos: "loc.", chinese: "任何（什么价格, 谁, 什么时间）" },
+        { english: "to attempt (qch, de faire)", french: "tenter", pos: "v.t.", chinese: "尝试（某事, 做某事）" },
+        { english: "to stop", french: "stopper", pos: "v.t.", chinese: "停止" },
+        { english: "spread, propagation", french: "propagation", pos: "n.f.", chinese: "传播" },
+        { english: "method", french: "méthode", pos: "n.f.", chinese: "方法" },
+        { english: "survival", french: "survie", pos: "n.f.", chinese: "生存" },
+        { english: "to depend (de qch)", french: "dépendre", pos: "v.t.ind.", chinese: "依赖（某事）" },
+        { english: "hygiene", french: "hygiène", pos: "n.f.", chinese: "卫生" },
+        { english: "to give up (qch)", french: "lâcher", pos: "v.t.", chinese: "放弃（某事）" },
+        { english: "reconstituted family", french: "famille recomposer", pos: "loc.", chinese: "重组家庭" },
+        { english: "companion", french: "compagnon", pos: "n.m.", chinese: "伙伴" },
+        { english: "start", french: "départ", pos: "n.m.", chinese: "开始" },
+        { english: "extension", french: "allongement", pos: "n.m.", chinese: "延长" },
+        { english: "life expectancy", french: "espérance de vie", pos: "loc.", chinese: "预期寿命" },
+        { english: "to summarize", french: "résumer", pos: "v.t.", chinese: "总结" },
+        { english: "summary", french: "résumé", pos: "n.m.", chinese: "总结" },
+        { english: "sociologist", french: "sociologue", pos: "n.", chinese: "社会学家" },
+        { english: "advantage", french: "avantage", pos: "n.m.", chinese: "优势" },
+        { english: "disadvantage", french: "inconvénient", pos: "n.m.", chinese: "缺点" },
+        { english: "thirty-year", french: "trentenaire", pos: "n.", chinese: "三十岁的人" },
+        { english: "forty-year", french: "quadragénaire", pos: "n.", chinese: "四十岁的人" },
+        { english: "fifty-year", french: "quinquagénaire", pos: "n.", chinese: "五十岁的人" },
+        { english: "sixty-year", french: "sexagénaire", pos: "n.", chinese: "六十岁的人" },
+        { english: "to enjoy, to have (droit, avantage, soutien)", french: "jouir", pos: "v.t.", chinese: "享受, 拥有（权利, 优势, 支持）" },
+        { english: "patrimony, capital", french: "patrimoine", pos: "n.m.", chinese: "遗产, 资本" },
+        { english: "snapshot, photo, cliché", french: "cliché", pos: "n.m.", chinese: "快照, 照片, 陈词滥调" },
+        { english: "to take hold (de ville, pouvoir)", french: "s’emparer", pos: "v.pr.", chinese: "占领（城市, 权力）" },
+        { english: "take care of", french: "prendre soin de", pos: "loc.", chinese: "照顾" },
+        { english: "to continue, to pursue", french: "poursuivre", pos: "v.t.", chinese: "继续, 追求" },
+        { english: "contradictory", french: "contradictoire", pos: "adj.", chinese: "矛盾的" },
+        { english: "diapason, tune", french: "diapason", pos: "n.m.", chinese: "音叉, 调子" },
+        { english: "to look into (sur problème, recherche, passé)", french: "se pencher", pos: "v.pr.", chinese: "研究（问题, 研究, 过去）" },
+        { english: "to delay", french: "repousser", pos: "v.t.", chinese: "推迟" },
+        { english: "scientist", french: "scientifique", pos: "n.", chinese: "科学家" },
+        { english: "universal", french: "universel(le)", pos: "adj.", chinese: "普遍的" },
+        { english: "to define", french: "définir", pos: "v.t.", chinese: "定义" },
+        { english: "organ", french: "organisme", pos: "n.m.", chinese: "器官" },
+        { english: "factor", french: "facteur", pos: "n.m.", chinese: "因素" },
+        { english: "to perceive, to collect (impôt)", french: "percevoir", pos: "v.t.", chinese: "感知, 收取（税）" },
+        { english: "radical", french: "radical(e)", pos: "adj.", chinese: "激进的" },
+        { english: "surgery", french: "chirurgie", pos: "n.f.", chinese: "外科手术" },
+        { english: "aesthetic", french: "esthétique", pos: "adj.", chinese: "美学的" }
+    ],
+    L18: [
 
     ],
-    L: [
+    L19: [
 
     ],
-    L: [
-
-    ],
-    L: [
+    L20: [
 
     ]
 }

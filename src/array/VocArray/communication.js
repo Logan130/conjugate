@@ -4,6 +4,7 @@ import { CommunicationProgressifA1L7_L9 } from '../../data/vocabulaire/communica
 import { CommunicationProgressifA1L10_L14 } from '../../data/vocabulaire/communicationA1/L10-14';
 import { CommunicationProgressifA1L15_L17 } from '../../data/vocabulaire/communicationA1/L15-17';
 import { CommunicationProgressifA1L18_L20 } from '../../data/vocabulaire/communicationA1/L18-L20';
+
 import { CommunicationProgressifA2L1 } from '../../data/vocabulaire/communicationA2/L1';
 import { CommunicationProgressifA2L2 } from '../../data/vocabulaire/communicationA2/L2';
 import { CommunicationProgressifA2L3 } from '../../data/vocabulaire/communicationA2/L3';
@@ -25,6 +26,10 @@ import { CommunicationProgressifA2L18 } from '../../data/vocabulaire/communicati
 import { CommunicationProgressifA2L19 } from '../../data/vocabulaire/communicationA2/L19';
 import { CommunicationProgressifA2L20 } from '../../data/vocabulaire/communicationA2/L20';
 import { CommunicationProgressifA2L21 } from '../../data/vocabulaire/communicationA2/L21';
+import { CommunicationProgressifA2L22 } from '../../data/vocabulaire/communicationA2/L22';
+import { CommunicationProgressifA2L23 } from '../../data/vocabulaire/communicationA2/L23';
+import { CommunicationProgressifA2L24 } from '../../data/vocabulaire/communicationA2/L24';
+import { CommunicationProgressifA2L25 } from '../../data/vocabulaire/communicationA2/L25';
 
 export const communicationA1 = [
     {
@@ -212,6 +217,34 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L21 Instruction",
+    },
+    {
+        unit: "A2 L22 坚持",
+        words: CommunicationProgressifA2L22,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L22 Insist",
+    },
+    {
+        unit: "A2 L23 争执",
+        words: CommunicationProgressifA2L23,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L23 Argue",
+    },
+    {
+        unit: "A2 L24 投诉",
+        words: CommunicationProgressifA2L24,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L24 Complaint",
+    },
+    {
+        unit: "A2 L25 敬语",
+        words: CommunicationProgressifA2L25,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L25 Vouvoiement",
     },
     
 

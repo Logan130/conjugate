@@ -37,6 +37,9 @@ import { VocabulaireProgressifA2L12 } from '../../data/vocabulaire/vocabulaireA2
 import { VocabulaireProgressifA2L13 } from '../../data/vocabulaire/vocabulaireA2/L13';
 import { VocabulaireProgressifA2L14 } from '../../data/vocabulaire/vocabulaireA2/L14';
 import { VocabulaireProgressifA2L15 } from '../../data/vocabulaire/vocabulaireA2/L15';
+import { VocabulaireProgressifA2L16 } from '../../data/vocabulaire/vocabulaireA2/L16';
+import { VocabulaireProgressifA2L17 } from '../../data/vocabulaire/vocabulaireA2/L17';
+import { VocabulaireProgressifA2L18 } from '../../data/vocabulaire/vocabulaireA2/L18';
 
 
 
@@ -319,6 +322,28 @@ export const vocabulaireProgressifA2 = [
         words: VocabulaireProgressifA2L15,
         tag: "Vocabulaire Progressif",
         book: "A2",
-        engUnit: "Voc A2 L14 Sport",
-    }
+        engUnit: "Voc A2 L15 Sport",
+    }, 
+    {
+        unit: "Voc A2 L16 交通",
+        words: VocabulaireProgressifA2L16,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L16 Transport",
+    }, 
+    {
+        unit: "Voc A2 L17 旅行",
+        words: VocabulaireProgressifA2L17,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L17 Travel",
+    }, 
+    {
+        unit: "Voc A2 L18 学校",
+        words: VocabulaireProgressifA2L18,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L18 School",
+    }, 
+
 ]

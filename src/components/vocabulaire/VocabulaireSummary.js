@@ -9,7 +9,6 @@ const Modal = ({ onClose }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             onClose();
-            console.log("debug timer")
         }, 2000);
 
         // Clear the timeout if the component is unmounted
@@ -39,7 +38,7 @@ export function VocabulaireSummary() {
     let [lessonID, setLessonID] = useState(-1)
     let [lessonButtonStyle, setLessonButtonStyles] = useState(Array(lesson_arr.length).fill(false));
     let [nouns, setNouns] = useState(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)))
-    let title = lessons[id].unit;
+    let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
     let isMobile = window.innerWidth < 500;
     let [nounOnly, setNounOnly] = useState(false);
     let [voc, setVoc] = useState(allWords);
@@ -49,6 +48,7 @@ export function VocabulaireSummary() {
 
     useEffect(() => {
         setQuizletChinese(eng ? false : true);
+        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
     }, [eng])
 
     let buttonArr = [
@@ -222,7 +222,9 @@ export function VocabulaireSummary() {
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                     {lesson_arr.map((les, lesson_id) => (<>
-                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all" : "btn btn-success btn-outline w-full break-all"} onClick={onClickLessonButton(lesson_id, les)}>{(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}</button>
+                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all" : "btn btn-success btn-outline w-full break-all"} onClick={onClickLessonButton(lesson_id, les)}>
+                            {(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}
+                            </button>
                     </>))}
                 </div>
                 <br />

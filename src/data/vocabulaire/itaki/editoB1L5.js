@@ -1,24 +1,75 @@
 export const wordsEditoB1U5 = {
-    lessons: ["A", "", "", "", "", "", ""], 
+    lessons: ["A", "C", "V1", "E", "K", "V2"], 
     A: [
-
+        { english: "to own (à qch/qn)", french: "devoir", pos: "v.i.", chinese: "拥有 (à qch/qn)" }, 
+        { english: "homeland", french: "patrie", pos: "n.f.", chinese: "祖国" }, 
+        { english: "to send to school", french: "scolariser", pos: "v.t.", chinese: "送到学校" }, 
+        { english: "night light", french: "veilleuse", pos: "n.f.", chinese: "夜灯" }, 
+        { english: "as soon as", french: "dès que", pos: "loc.", chinese: "一...就..." }, 
+        { english: "to strike, to hit", french: "frapper", pos: "v.t.", chinese: "打, 击" }, 
+        { english: "such", french: "tel(le)", pos: "adj.", chinese: "这样的" }
     ], 
-    A: [
-
+    C: [
+        { english: "revolt", french: "révolte", pos: "n.f.", chinese: "反叛" }, 
+        { english: "to threaten", french: "menacer", pos: "v.t.", chinese: "威胁" }, 
+        { english: "strike", french: "grève", pos: "n.f.", chinese: "罢工" }, 
+        { english: "to not care (de qch)", french: "se moquer", pos: "v.pr.", chinese: "不在乎 (de qch)" }, 
+        { english: "momentum", french: "élan", pos: "n.m.", chinese: "势头" }, 
+        { english: "brightness, radiance", french: "éclat", pos: "n.m.", chinese: "光辉" }
     ], 
-    A: [
-
+    V1: [
+        { english: "folk (musique, costume)", french: "folklorique", pos: "adj.", chinese: "民间的 (musique, costume)" }, 
+        { english: "failure", french: "échec", pos: "n.m.", chinese: "失败" }, 
+        { english: "enemy", french: "ennemi(e)", pos: "n.", chinese: "敌人" }, 
+        { english: "to anger (qn en faissant)", french: "fâcher", pos: "v.t.", chinese: "激怒 (qn en faissant)" }, 
+        { english: "to grumble", french: "grogner", pos: "v.t.", chinese: "抱怨" }, 
+        { english: "discontent", french: "mécontentement", pos: "n.m.", chinese: "不满" }, 
+        { english: "to call for (réforme)", french: "réclamer", pos: "v.t.", chinese: "呼吁 (réforme)" }, 
+        { english: "to demand (droit), to claim (héritage, trône)", french: "revendiquer", pos: "v.t.", chinese: "要求 (droit), 声称 (héritage, trône)" }, 
+        { english: "to see", french: "apercevoir", pos: "v.t.", chinese: "看到" }, 
+        { english: "to divert (yeux, attention) (de qch)", french: "détourner", pos: "v.t.", chinese: "转移 (yeux, attention) (de qch)" }, 
+        { english: "to be part of", french: "faire partie de", pos: "loc.", chinese: "是...的一部分" }, 
+        { english: "coldness", french: "froideur", pos: "n.f.", chinese: "冷淡" }, 
+        { english: "confused", french: "déboussolé(e)", pos: "adj.", chinese: "困惑的" }, 
+        { english: "dull, lifeless", french: "terne", pos: "adj.", chinese: "暗淡的" }
     ], 
-    A: [
-
+    E: [
+        { english: "storyteller", french: "conteur", pos: "n.m.", chinese: "讲故事的人" }, 
+        { english: "to dig", french: "creuser", pos: "v.t.", chinese: "挖掘" }, 
+        { english: "story, account", french: "récit", pos: "n.m.", chinese: "故事" }, 
+        { english: "both … and …", french: "à la fois … et …", pos: "loc.", chinese: "既...又..." }, 
+        { english: "to confess", french: "avouer", pos: "v.t.", chinese: "承认" }
     ], 
-    A: [
-
+    K: [
+        { english: "to reveal", french: "révéler", pos: "v.t.", chinese: "揭示" },
+        { english: "root", french: "racine", pos: "n.f.", chinese: "根" },
+        { english: "patiently", french: "patiemment", pos: "adv.", chinese: "耐心地" },
+        { english: "verse", french: "vers", pos: "n.m.", chinese: "诗句" },
+        { english: "(rendre) homage (à qn)", french: "hommage", pos: "n.m.", chinese: "致敬" },
+        { english: "quiver, tremor", french: "frémissement", pos: "n.m.", chinese: "颤抖" },
+        { english: "chance (au ~ de qch)", french: "hasard", pos: "n.m.", chinese: "机会" }
     ], 
-    A: [
-
+    V2: [
+        { english: "(physique) appearance", french: "aspect", pos: "n.m.", chinese: "外貌" },
+        { english: "humble", french: "humble", pos: "adj.", chinese: "谦逊的" },
+        { english: "immaculate", french: "immaculé(e)", pos: "adj.", chinese: "洁净的" },
+        { english: "beautiful, delightful", french: "ravissant(e)", pos: "adj.", chinese: "美丽的, 令人愉快的" },
+        { english: "to deal with (de)", french: "traiter", pos: "v.t.ind.", chinese: "处理" },
+        { english: "interlocutor", french: "interlocuteur(trice)", pos: "n.", chinese: "对话者" },
+        { english: "speaker", french: "locuteur(trice)", pos: "n.", chinese: "说话者" },
+        { english: "fluently", french: "couramment", pos: "adv.", chinese: "流利地" },
+        { english: "category", french: "catégorie", pos: "n.f.", chinese: "类别" },
+        { english: "classification", french: "classement", pos: "n.m.", chinese: "分类" },
+        { english: "sign (de qch)", french: "indice", pos: "n.m.", chinese: "标志" },
+        { english: "ordered, orderly", french: "ordonné(e)", pos: "adj.", chinese: "有序的" },
+        { english: "patrimony", french: "patrimoine", pos: "n.m.", chinese: "遗产" },
+        { english: "row, rank, order", french: "rang", pos: "n.m.", chinese: "行, 排, 顺序" },
+        { english: "to hold, to keep", french: "retenir", pos: "v.t.", chinese: "保持" },
+        { english: "well-being", french: "bien-être", pos: "n.m.", chinese: "幸福" },
+        { english: "progress", french: "progrès", pos: "n.m.", chinese: "进步" },
+        { english: "to protect (contre, de)", french: "protéger", pos: "v.t.", chinese: "保护" },
+        { english: "reciprocal, mutual (aide, sentiment)", french: "réciproque", pos: "adj.", chinese: "互惠的, 互相的" },
+        { english: "status (légal, d’immigrant)", french: "statut", pos: "n.m.", chinese: "地位" },
+        { english: "Utopia", french: "utopie", pos: "n.f.", chinese: "乌托邦" }
     ], 
-    A: [
-
-    ]
 }

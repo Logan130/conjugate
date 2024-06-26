@@ -14,7 +14,11 @@ export function VocabulaireTest() {
 
     let isMobile = window.innerWidth < 500;
     const { id, gender } = useParams();
-    let title = lessons[id].unit;
+
+    let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
+    useEffect(() => {
+        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
+    }, [eng])
 
     let allWords = [];
     for (let lesson of lessons[id].words.lessons) {
@@ -270,7 +274,7 @@ export function VocabulaireTest() {
                 {/* <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg> */}
                 <span>
                     {eng ?
-                        "I used few-shot learning from GPT for data cleaning. Since LLMs are prone to hallucinations, some annotations have errors. Definitely refer to a dictionary if you think the annotation is wrong."
+                        "I used FSL from GPT for data cleaning of my notes. Since LLMs are prone to hallucinations, some definitions have errors. Pls refer to a dictionary if you think a def is wrong."
                         :
                         "我洗笔记数据时用了GPT的少样本学习，由于大语言模型可能产生幻觉，极小部分答案可能是错的，如有冲突以词典为准。如果熟悉英语建议看英文释义，所有英文释义我都手动查过词典，大部分单词英文有完美对应词汇，中文释义为GPT填充"
                     }
@@ -291,8 +295,10 @@ export function VocabulaireTest() {
 
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-                    {lesson_arr.map((les, id) => (<>
-                        <button className={lessonButtonStyle[id] ? "btn btn-success w-full" : "btn btn-success btn-outline w-full"} onClick={onClickLessonButton(id, les)}>{les}</button>
+                    {lesson_arr.map((les, lesson_id) => (<>
+                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full" : "btn btn-success btn-outline w-full"} onClick={onClickLessonButton(lesson_id, les)}>
+                        {(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}
+                        </button>
                     </>))}
                 </div>
                 <br />
@@ -317,7 +323,7 @@ export function VocabulaireTest() {
                                 <tr>
                                     <th className="text-lg w-1/6">{eng ? "POS" : "词性"}</th>
                                     <th className="text-lg w-32">{eng ? "French" : "法语"}</th>
-                                    <th className="text-lg">{eng ? "meaning" : "释义"}</th>
+                                    <th className="text-lg">{eng ? "Definition" : "释义"}</th>
 
                                 </tr>
                             </thead>
