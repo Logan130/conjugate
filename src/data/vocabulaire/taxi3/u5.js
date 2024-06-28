@@ -60,7 +60,28 @@ export const wordsTaxiB1U5 = {
         { english: "aesthetic", french: "esthétique", pos: "adj.", chinese: "美学的" }
     ],
     L18: [
-
+        { english: "have difficulty in doing", french: "avoir du mal à faire", pos: "loc.", chinese: "难以做到" },
+        { english: "to oppose", french: "s’opposer", pos: "v.pr.", chinese: "反对" },
+        { english: "standing (se tenir ~)", french: "debout", pos: "adv.", chinese: "站立" },
+        { english: "besides, except (qch)", french: "autre chose que", pos: "loc.", chinese: "除此之外" },
+        { english: "apart from sth", french: "mis à part qch", pos: "loc.", chinese: "除了某事之外" },
+        { english: "except sb", french: "sauf qn", pos: "loc.", chinese: "除了某人" },
+        { english: "to notice", french: "constater", pos: "v.t.", chinese: "注意到" },
+        { english: "to tell (qn de qch)", french: "prévenir", pos: "v.t.", chinese: "告诉" },
+        { english: "worker", french: "ouvrier(ère)", pos: "n.", chinese: "工人" },
+        { english: "voluntarily", french: "bénévolement", pos: "adv.", chinese: "自愿地" },
+        { english: "draw (au sort)", french: "tirage", pos: "n.m.", chinese: "抽签" },
+        { english: "lot, faith", french: "sort", pos: "n.m.", chinese: "命运" },
+        { english: "to win (épreuve, titre)", french: "remporter", pos: "v.t.", chinese: "赢得" },
+        { english: "all the same", french: "tout de même", pos: "loc.", chinese: "依然" },
+        { english: "in thoughts, in mind", french: "en pensées", pos: "loc.", chinese: "在想法中" },
+        { english: "big deal (no accordance)", french: "grand-chose", pos: "n.", chinese: "大不了" },
+        { english: "unexpected", french: "inopiné(e)", pos: "adj.", chinese: "意外的" },
+        { english: "to set about (tâche, travail, voyage), to undertake (recherche, études)", french: "entreprendre", pos: "v.t.", chinese: "着手进行" },
+        { english: "serene (ciel, personne, visage)", french: "serein(e)", pos: "adj.", chinese: "宁静的" },
+        { english: "to meet (à besoins)", french: "subvenir", pos: "v.t.ind.", chinese: "满足" },
+        { english: "daily", french: "au quotidien", pos: "loc.", chinese: "每天" },
+        { english: "to shoot (film, scène)", french: "tourner", pos: "v.t.", chinese: "拍摄" }
     ],
     L19: [
 

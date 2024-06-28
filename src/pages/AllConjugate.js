@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom'
 import { conjugates } from "../data/conjugates"
 import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
+import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
 
 
 function Cards() {
@@ -401,7 +402,10 @@ export function AllConjugate() {
 
 
             <br />
-            {listActive ? <Table words={words} /> : <SixGridTable words={words} />}
+            {listActive ? <Table words={words} /> : <SingleConjugationBox words={words} />}
+
+            {/* {listActive ? <Table words={words} /> : <SixGridTable words={words} />} */}
+
 
 
             <div className="flex flex-col w-full">
