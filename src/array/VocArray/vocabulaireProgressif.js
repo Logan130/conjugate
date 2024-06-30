@@ -40,6 +40,9 @@ import { VocabulaireProgressifA2L15 } from '../../data/vocabulaire/vocabulaireA2
 import { VocabulaireProgressifA2L16 } from '../../data/vocabulaire/vocabulaireA2/L16';
 import { VocabulaireProgressifA2L17 } from '../../data/vocabulaire/vocabulaireA2/L17';
 import { VocabulaireProgressifA2L18 } from '../../data/vocabulaire/vocabulaireA2/L18';
+import { VocabulaireProgressifA2L19 } from '../../data/vocabulaire/vocabulaireA2/L19';
+import { VocabulaireProgressifA2L20 } from '../../data/vocabulaire/vocabulaireA2/L20';
+import { VocabulaireProgressifA2L22 } from '../../data/vocabulaire/vocabulaireA2/L22';
 
 
 
@@ -344,6 +347,27 @@ export const vocabulaireProgressifA2 = [
         tag: "Vocabulaire Progressif",
         book: "A2",
         engUnit: "Voc A2 L18 School",
+    }, 
+    {
+        unit: "Voc A2 L19 职业",
+        words: VocabulaireProgressifA2L19,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L19 Professions",
+    }, 
+    {
+        unit: "Voc A2 L20 科技",
+        words: VocabulaireProgressifA2L20,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L20 Technology",
+    }, 
+    {
+        unit: "Voc A2 L22 社会",
+        words: VocabulaireProgressifA2L22,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L22 Society",
     }, 
 
 ]

@@ -1,0 +1,53 @@
+export const VocabulaireProgressifA2L22 = {
+    lessons: ["多样性", "社会", "政治"],
+    "多样性": [
+        { english: "immigrant", french: "immigré(e)", pos: "n.", chinese: "移民" },
+        { english: "refugee", french: "réfugié(e)", pos: "n.", chinese: "难民" },
+        { english: "asylum, refuge", french: "asile", pos: "n.m.", chinese: "庇护所" },
+        { english: "secularity", french: "laïcité", pos: "n.f.", chinese: "世俗" },
+        { english: "believer", french: "croyant(e)", pos: "n.", chinese: "信徒" },
+        { english: "atheist", french: "athée", pos: "n.", chinese: "无神论者" },
+        { english: "Jewish people", french: "juif(ve)", pos: "n.", chinese: "犹太人" },
+        { english: "Muslim", french: "musulman", pos: "n.", chinese: "穆斯林" },
+        { english: "(Jewish) synagogue", french: "synagogue", pos: "n.f.", chinese: "犹太教堂" },
+        { english: "mosque", french: "mosquée", pos: "n.f.", chinese: "清真寺" }
+    ],
+    "社会": [
+        { english: "ecology", french: "écologie", pos: "n.f.", chinese: "生态学" },
+        { english: "to complain", french: "se plaindre", pos: "v.pr.", chinese: "抱怨" },
+        { english: "effective", french: "efficace", pos: "adj.", chinese: "有效的" },
+        { english: "defense", french: "défense", pos: "n.f.", chinese: "防御" },
+        { english: "volunteer", french: "bénévole", pos: "n.", chinese: "志愿者" },
+        { english: "voluntary work", french: "bénévolat", pos: "n.m.", chinese: "志愿工作" },
+        { english: "globalization", french: "mondialisation", pos: "n.f.", chinese: "全球化" },
+        { english: "insecurity", french: "insécurité", pos: "n.f.", chinese: "不安全" },
+        { english: "short news items", french: "faits divers", pos: "n.m.pl.", chinese: "杂闻" },
+        { english: "crime", french: "crime", pos: "n.m.", chinese: "犯罪" },
+        { english: "offense", french: "délit", pos: "n.m.", chinese: "违法行为" },
+        { english: "to catch", french: "rattraper", pos: "v.t.", chinese: "追上" },
+        { english: "to burglarize", french: "cambrioler", pos: "v.t.", chinese: "入室行窃" },
+        { english: "burglary", french: "cambriolage", pos: "n.m.", chinese: "入室盗窃" },
+        { english: "murder", french: "meurtre", pos: "n.m.", chinese: "谋杀" },
+        { english: "murderer", french: "meurtrier(ère)", pos: "n.", chinese: "凶手" },
+        { english: "to commit", french: "commettre", pos: "v.t.", chinese: "犯(罪)" },
+        { english: "to murder, to assassinate", french: "assassiner", pos: "v.t.", chinese: "谋杀" },
+        { english: "to commit suicide", french: "se suicider", pos: "v.pr.", chinese: "自杀" },
+        { english: "to avoid, to escape (à qch)", french: "échapper", pos: "v.t.ind.", chinese: "逃避" },
+        { english: "rape", french: "viol", pos: "n.m.", chinese: "强奸" },
+        { english: "to rape", french: "violer", pos: "v.t.", chinese: "强奸" },
+        { english: "rapist", french: "violeur", pos: "n.m.", chinese: "强奸犯" },
+        { english: "to arrest", french: "arrêter", pos: "v.t.", chinese: "逮捕" }
+    ],
+    "政治": [
+        { english: "democracy", french: "démocratie", pos: "n.f.", chinese: "民主" },
+        { english: "democratic", french: "démocratique", pos: "adj.", chinese: "民主的" },
+        { english: "emblem", french: "emblème", pos: "n.m.", chinese: "象征" },
+        { english: "motto", french: "devise", pos: "n.f.", chinese: "格言" },
+        { english: "flag", french: "drapeau", pos: "n.m.", chinese: "旗帜" },
+        { english: "hymn (national)", french: "hymne", pos: "n.m.", chinese: "国歌" },
+        { english: "to elect", french: "élire", pos: "v.t.", chinese: "选举" },
+        { english: "people (politique)", french: "peuple", pos: "n.m.", chinese: "人民" },
+        { english: "party (politique)", french: "parti", pos: "n.m.", chinese: "政党" }
+    ], 
+    lessonsEng: ["diversity", "society", "politics", "", ""]
+}

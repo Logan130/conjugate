@@ -144,8 +144,7 @@ export function SearchBar() {
         }, {});
         return wordCount;
     };
-
-    let wordCount = countNonRepeatingWords(allWords);
+    let wordCount = countNonRepeatingWords([...allWords]);
     // console.log(wordCount);
     let numberWords = 0, numberLoc = 0;
     console.log(Object.entries(wordCount))
@@ -200,7 +199,7 @@ export function SearchBar() {
                 <button className="btn" onClick={onClickSearch}>Search</button>
             </div>
 
-            <div>总词汇量: {allWords.length}</div>
+            <div>总词汇量: {`${allWords.filter(word => word.pos !== 'loc.').length} 单词 + ${allWords.filter(word => word.pos === 'loc.').length} 结构 = ${allWords.length}`}</div>
             <div>非重复词汇量：{Object.keys(wordCount).length}</div>
             <div>非重复单词词汇量：{numberWords}</div>
             <div>非重复结构量：{numberLoc}</div>

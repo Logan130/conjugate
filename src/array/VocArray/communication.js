@@ -30,6 +30,9 @@ import { CommunicationProgressifA2L22 } from '../../data/vocabulaire/communicati
 import { CommunicationProgressifA2L23 } from '../../data/vocabulaire/communicationA2/L23';
 import { CommunicationProgressifA2L24 } from '../../data/vocabulaire/communicationA2/L24';
 import { CommunicationProgressifA2L25 } from '../../data/vocabulaire/communicationA2/L25';
+import { CommunicationProgressifA2L26 } from '../../data/vocabulaire/communicationA2/L26';
+import { CommunicationProgressifA2L27 } from '../../data/vocabulaire/communicationA2/L27';
+import { CommunicationProgressifA2L28 } from '../../data/vocabulaire/communicationA2/L28';
 
 export const communicationA1 = [
     {
@@ -245,6 +248,27 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L25 Vouvoiement",
+    },
+    {
+        unit: "A2 L26 原谅",
+        words: CommunicationProgressifA2L26,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L26 Excuse",
+    },
+    {
+        unit: "A2 L27 确认",
+        words: CommunicationProgressifA2L27,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L27 Verify",
+    },
+    {
+        unit: "A2 L28 坚持, 否认",
+        words: CommunicationProgressifA2L28,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L28 Assert, Deny",
     },
     
 

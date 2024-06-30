@@ -238,7 +238,7 @@ export function VocabulaireSummary() {
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。我的课堂笔记都是英文的，<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，中文释义为GPT少样本学习生成(有很多错误)。<span className="underline font-bold txt-rose-400 text-violet-400">只有英文释义有法语固搭</span>
+                    。<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，我的课堂笔记都是英文，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，中文释义为GPT少样本学习生成(有很多错误)。<span className="underline font-bold txt-rose-400 text-violet-400">只有英文释义有法语固搭</span>
                 </p>
             }
 
@@ -268,10 +268,10 @@ export function VocabulaireSummary() {
 
 
                         {voc.map((word, id) => (<>
-                            <tr>
-                                <th>{word.french}</th>
-                                {(!isMobile || POSButtonID !== 2) && <th className="text font">{word.pos}</th>}
-                                <th className="text font"> {chinese ? word.chinese : word.english}</th>
+                            <tr className={isMobile ? "" : "text-lg"}>
+                                <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
+                                {(!isMobile || POSButtonID !== 2) && <th className="text font text-sm">{word.pos}</th>}
+                                <th className={isMobile ? "" : "text-sm"}> {chinese ? word.chinese : word.english}</th>
                             </tr>
                         </>))}
                     </tbody>
