@@ -122,6 +122,7 @@ export function VocabulairePage() {
     let isMobile = window.innerWidth < 850;
     let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], itakiArr = [];
     let [commCollapsed, setCommCollapsed] = useState(false);
+    let [vocCollapsed, setVOcCollapsed] = useState(false);
 
     const [isIpadUser, setIsIpadUser] = useState(false);
 
@@ -194,6 +195,14 @@ export function VocabulairePage() {
             handleScroll();
         }
         setCommCollapsed(!commCollapsed);
+    }
+
+    const handleVocCollape = () => {
+        let previousState = vocCollapsed;
+        if (isMobile && previousState) {
+            // handleScroll();
+        }
+        setVOcCollapsed(!vocCollapsed);
     }
 
     return (<>
@@ -316,7 +325,7 @@ export function VocabulairePage() {
         <br />
 
         <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-            {VocabulaireProgressiffArr.filter((lesson) => lesson.book === vocabulaireFilter).map((lesson, id) => (<>
+            {VocabulaireProgressiffArr.filter((lesson) => lesson.book === vocabulaireFilter).slice(0, vocCollapsed ? 100 : (isMobile ? 5 : 10)).map((lesson, id) => (<>
                 <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
                     <div className={isMobile ? 'flex items-center w-32 text-sm' : 'flex items-center w-32'}>
                         <span className='ml-1 mr-0 font-bold '>{eng ? lesson.engUnit : lesson.unit}</span>
@@ -343,6 +352,9 @@ export function VocabulairePage() {
 
 
         <br />
+        <span class="flex justify-center">
+            <button className="btn btn-neutral w-full" onClick={handleVocCollape}>{vocCollapsed ? (eng ? "Collapse" : "折叠") : (eng ? "Expand" : "展开")}</button>
+        </span>
         <div className="divider"></div>
 
         <h1 className={isMobile ? "text-2xl mb-2" : "text-4xl mb-4"}>L'Autre</h1>
