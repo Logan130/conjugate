@@ -7,7 +7,7 @@ import TomJerry2 from '../static/tomjerry4.png'
 // import TomJerryMusic from '../static/tomjerry5.png'
 // import Mulan from '../static/mulan.jpeg'
 import { Link } from 'react-router-dom'
-import { conjugates } from "../data/conjugates"
+import { conjugates } from "../data/conjugation/conjugates"
 import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
 import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
@@ -42,6 +42,8 @@ function Cards() {
     //         });
     //     }
     // }, []);
+
+
 
     return (<>
 
@@ -176,6 +178,25 @@ function Cards() {
                         <div className="text-left">vous <span className={red_style}>aurez</span> aimé</div>
                         <div className="text-left">il <span className={red_style}>aura</span> aimé</div>
                         <div className="text-left">ils <span className={red_style}>auront</span> aimé</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div className="card w-auto bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">{eng ? "Conditionnel Passé Première Forme" : "条过去"}</h2>
+                    <h3 className="font-bold">{eng ? "conditionnel présent être/avoir + p.p." : "助动词条现在 + p.p."}</h3>
+
+                    <div className="grid grid-cols-2 gap-2">
+
+                        <div className="text-left">j'<span className={red_style}>aurais</span> aimé</div>
+                        <div className="text-left">nous <span className={red_style}>aurions</span> aimé</div>
+                        <div className="text-left">tu <span className={red_style}>aurais</span> aimé</div>
+                        <div className="text-left">vous <span className={red_style}>auriez</span> aimé</div>
+                        <div className="text-left">il <span className={red_style}>aurait</span> aimé</div>
+                        <div className="text-left">ils <span className={red_style}>auraient</span> aimé</div>
                     </div>
 
                 </div>
@@ -371,7 +392,7 @@ export function AllConjugate() {
 
             <div class="flex justify-between ...">
                 <div>
-                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "2nd & 3rd Groups" : "不规则变位表"}</h1>
+                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Special Conjugations" : "不规则变位表"}</h1>
                 </div>
                 <div className="flex items-bottom">
                     <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "选择格式"}</h1>

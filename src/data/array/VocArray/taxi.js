@@ -1,28 +1,28 @@
-import { wordsTaxiA1U1 } from "../../data/vocabulaire/taxi1/u1";
-import { wordsTaxiA1U2 } from "../../data/vocabulaire/taxi1/u2";
-import { wordsTaxiA1U3 } from "../../data/vocabulaire/taxi1/u3";
-import { wordsTaxiA1U4 } from "../../data/vocabulaire/taxi1/u4";
-import { wordsTaxiA1U5 } from "../../data/vocabulaire/taxi1/u5";
-import { wordsTaxiA1U6 } from "../../data/vocabulaire/taxi1/u6";
-import { wordsTaxiA1U7 } from "../../data/vocabulaire/taxi1/u7";
-import { wordsTaxiA1U8 } from "../../data/vocabulaire/taxi1/u8";
-import { wordsTaxiA1U9 } from "../../data/vocabulaire/taxi1/u9";
-import { wordsTaxiA2U1 } from '../../data/vocabulaire/taxi2/u1';
-import { wordsTaxiA2U2 } from '../../data/vocabulaire/taxi2/u2';
-import { wordsTaxiA2U3 } from '../../data/vocabulaire/taxi2/u3';
-import { wordsTaxiA2U4 } from '../../data/vocabulaire/taxi2/u4';
-import { wordsTaxiA2U5 } from '../../data/vocabulaire/taxi2/u5';
+import { wordsTaxiA1U1 } from "../../taxi/taxi1/u1";
+import { wordsTaxiA1U2 } from "../../taxi/taxi1/u2";
+import { wordsTaxiA1U3 } from "../../taxi/taxi1/u3";
+import { wordsTaxiA1U4 } from "../../taxi/taxi1/u4";
+import { wordsTaxiA1U5 } from "../../taxi/taxi1/u5";
+import { wordsTaxiA1U6 } from "../../taxi/taxi1/u6";
+import { wordsTaxiA1U7 } from "../../taxi/taxi1/u7";
+import { wordsTaxiA1U8 } from "../../taxi/taxi1/u8";
+import { wordsTaxiA1U9 } from "../../taxi/taxi1/u9";
+import { wordsTaxiA2U1 } from '../../taxi/taxi2/u1';
+import { wordsTaxiA2U2 } from '../../taxi/taxi2/u2';
+import { wordsTaxiA2U3 } from '../../taxi/taxi2/u3';
+import { wordsTaxiA2U4 } from '../../taxi/taxi2/u4';
+import { wordsTaxiA2U5 } from '../../taxi/taxi2/u5';
 
-import { wordsTaxiA2U6 } from '../../data/vocabulaire/taxi2/u6';
-import { wordsTaxiA2U7 } from '../../data/vocabulaire/taxi2/u7';
-import { wordsTaxiA2U8 } from '../../data/vocabulaire/taxi2/u8';
-import { wordsTaxiA2U9 } from '../../data/vocabulaire/taxi2/u9';
-import { wordsTaxiB1U1 } from '../../data/vocabulaire/taxi3/u1';
-import { wordsTaxiB1U2 } from "../../data/vocabulaire/taxi3/u2";
-import { wordsTaxiB1U3 } from "../../data/vocabulaire/taxi3/u3";
-import { wordsTaxiB1U4 } from "../../data/vocabulaire/taxi3/u4";
-import { wordsTaxiB1U5 } from "../../data/vocabulaire/taxi3/u5";
-import { wordsTaxiB1U6 } from "../../data/vocabulaire/taxi3/u6";
+import { wordsTaxiA2U6 } from '../../taxi/taxi2/u6';
+import { wordsTaxiA2U7 } from '../../taxi/taxi2/u7';
+import { wordsTaxiA2U8 } from '../../taxi/taxi2/u8';
+import { wordsTaxiA2U9 } from '../../taxi/taxi2/u9';
+import { wordsTaxiB1U1 } from '../../taxi/taxi3/u1';
+import { wordsTaxiB1U2 } from "../../taxi/taxi3/u2";
+import { wordsTaxiB1U3 } from "../../taxi/taxi3/u3";
+import { wordsTaxiB1U4 } from "../../taxi/taxi3/u4";
+import { wordsTaxiB1U5 } from "../../taxi/taxi3/u5";
+import { wordsTaxiB1U6 } from "../../taxi/taxi3/u6";
 
 
 

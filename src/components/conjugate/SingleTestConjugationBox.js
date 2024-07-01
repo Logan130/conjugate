@@ -133,6 +133,7 @@ export function TestBox({ verb, CardID }) {
                                     id={`field-${CardID}-${id}`} 
                                     onChange={onTextfieldChange(input)}
                                     onKeyDown={e => handleKeyDown(e, id)}
+                                    autocomplete="off"
                                     />
                                 </label>
                             </div>

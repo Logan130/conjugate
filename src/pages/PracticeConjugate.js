@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { TestBox } from "../components/conjugate/SingleTestConjugationBox"
-import { conjugates } from "../data/conjugates"
+import { conjugates } from "../data/conjugation/conjugates"
 import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../context/context";
 

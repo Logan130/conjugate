@@ -1,4 +1,4 @@
-export const CommunicationProgressifA2L30 = {
+export const CommunicationProgressifA2L32 = {
     lessons: ["", "", ],
     "": [
 

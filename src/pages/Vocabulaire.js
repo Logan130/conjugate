@@ -4,11 +4,12 @@ import TwelfthNight from '../static/12night.jpeg'
 import Orlando from '../static/orlando.jpeg'
 
 import { useEffect, useState, useContext, useRef } from 'react';
-import { taxiA1A2, taxiB1 } from '../array/VocArray/taxi';
-import { vocabulaireProgressifA1, vocabulaireProgressifA2 } from '../array/VocArray/vocabulaireProgressif';
-import { communicationA1, communicationA2 } from '../array/VocArray/communication';
-import { iTaki } from '../array/VocArray/italki';
+import { taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
+import { vocabulaireProgressifA1, vocabulaireProgressifA2 } from '../data/array/VocArray/vocabulaireProgressif';
+import { communicationA1, communicationA2 } from '../data/array/VocArray/communication';
+import { EditoB1 } from '../data/array/VocArray/edito';
 import { ThemeContext } from '../context/context';
+import { InnerFrench } from '../data/array/VocArray/innerfrench';
 
 export const lessons = [
     ...taxiA1A2,
@@ -17,8 +18,17 @@ export const lessons = [
     ...communicationA2,
     ...vocabulaireProgressifA1,
     ...vocabulaireProgressifA2,
-    ...iTaki
+    ...EditoB1, 
+    ...InnerFrench
 ]
+
+function getCollapseSession(id) {
+    const arr = ["commCollapse", "vocCollapse"];
+    let target = arr[id];
+    let session = window.localStorage.getItem(target);
+    console.log("session", window.localStorage)
+    return !!session ? (session === "true") : false;
+}
 
 const isIpad = () => {
 
@@ -44,7 +54,7 @@ const RenderImages = ({ images }) => {
 
     const captionArr = [
         <div className='flex items-center justify-center text-neutral-content'>
-            <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
+            <p className='text-neutral-content italic'>双兔傍地走，安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
         </div>,
 
         <div className='flex items-center justify-center text-neutral-content'>
@@ -120,9 +130,9 @@ const RenderImages = ({ images }) => {
 export function VocabulairePage() {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
-    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], itakiArr = [];
-    let [commCollapsed, setCommCollapsed] = useState(false);
-    let [vocCollapsed, setVOcCollapsed] = useState(false);
+    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], otherArr = [];
+    let [commCollapsed, setCommCollapsed] = useState(getCollapseSession(0));
+    let [vocCollapsed, setVOcCollapsed] = useState(getCollapseSession(1));
 
     const [isIpadUser, setIsIpadUser] = useState(false);
 
@@ -152,8 +162,8 @@ export function VocabulairePage() {
         else if (lesson.tag === "Vocabulaire Progressif") {
             VocabulaireProgressiffArr.push(lesson);
         }
-        else if (lesson.tag === "iTaki") {
-            itakiArr.push(lesson);
+        else if (lesson.tag === "Other") {
+            otherArr.push(lesson);
         }
     }
 
@@ -172,9 +182,9 @@ export function VocabulairePage() {
         setCommunicationFilter(filter);
     }
 
-    let [autreFilter, setAutreFilter] = useState("B1");
+    let [autreFilter, setAutreFilter] = useState("Edito B1");
     const onClickAutreFilter = (filter) => (e) => {
-        setCommunicationFilter(filter);
+        setAutreFilter(filter);
     }
 
 
@@ -195,6 +205,7 @@ export function VocabulairePage() {
             handleScroll();
         }
         setCommCollapsed(!commCollapsed);
+        window.localStorage.setItem("commCollapse", !previousState)
     }
 
     const handleVocCollape = () => {
@@ -203,6 +214,7 @@ export function VocabulairePage() {
             // handleScroll();
         }
         setVOcCollapsed(!vocCollapsed);
+        window.localStorage.setItem("vocCollapse", !previousState)
     }
 
     return (<>
@@ -214,15 +226,15 @@ export function VocabulairePage() {
                     <div className='flex items-center justify-center text-neutral-content'>
                         <p className='text-neutral-content italic'>Conceal me what I am, and be my aid. For such disguise as haply shall become the form of my intent. (Click the button Gender to practice)</p>
                     </div>
-                    <br/>
+                    <br />
                 </> :
 
                 <>
                     <img alt="Mulan" src={Mulan} className='rounded-lg' />
                     <div className='flex items-center justify-center text-neutral-content'>
-                        <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
+                        <p className='text-neutral-content text-sm'>双兔傍地走，安能辨我是雄雌🐰 (点击下方按钮练习阴阳性)</p>
                     </div>
-                    <br/>
+                    <br />
                 </>}
         </> : <>
             <div className={isIpadUser ? 'flex justify-center items-start' : 'flex justify-center items-start'}>
@@ -360,14 +372,15 @@ export function VocabulairePage() {
         <h1 className={isMobile ? "text-2xl mb-2" : "text-4xl mb-4"}>L'Autre</h1>
 
         <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-            <button className={autreFilter === "B1" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickAutreFilter("B1")}>Édito B1</button>
+            <button className={autreFilter === "Edito B1" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickAutreFilter("Edito B1")}>Édito B1</button>
+            <button className={autreFilter === "InnerFrench" ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={onClickAutreFilter("InnerFrench")}>Inner French</button>
         </div>
         <br />
 
         <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-            {itakiArr.filter((lesson) => lesson.book === autreFilter).map((lesson, id) => (<>
+            {otherArr.filter((lesson) => lesson.book === autreFilter).map((lesson, id) => (<>
                 <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
-                    <div className={isMobile ? 'flex items-center w-32 text-sm' : 'flex items-center w-32'}>
+                    <div className={isMobile ? 'flex items-center w-48 text-sm' : 'flex items-center w-64'}>
                         <span className='ml-1 mr-0 font-bold break-words'>{lesson.unit}</span>
                     </div>
                     <div>
