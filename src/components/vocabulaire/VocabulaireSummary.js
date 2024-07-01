@@ -270,7 +270,7 @@ export function VocabulaireSummary() {
                         {voc.map((word, id) => (<>
                             <tr className={isMobile ? "" : "text-lg"}>
                                 <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
-                                {(!isMobile || POSButtonID !== 2) && <th className="text font text-sm">{word.pos}</th>}
+                                {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
                                 <th className={isMobile ? "" : "text-sm"}> {chinese ? word.chinese : word.english}</th>
                             </tr>
                         </>))}

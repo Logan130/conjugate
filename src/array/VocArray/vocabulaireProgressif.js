@@ -43,6 +43,9 @@ import { VocabulaireProgressifA2L18 } from '../../data/vocabulaire/vocabulaireA2
 import { VocabulaireProgressifA2L19 } from '../../data/vocabulaire/vocabulaireA2/L19';
 import { VocabulaireProgressifA2L20 } from '../../data/vocabulaire/vocabulaireA2/L20';
 import { VocabulaireProgressifA2L22 } from '../../data/vocabulaire/vocabulaireA2/L22';
+import { VocabulaireProgressifA2L23 } from '../../data/vocabulaire/vocabulaireA2/L23';
+import { VocabulaireProgressifA2L24 } from '../../data/vocabulaire/vocabulaireA2/L24';
+import { VocabulaireProgressifA2L25 } from '../../data/vocabulaire/vocabulaireA2/L25';
 
 
 
@@ -369,5 +372,25 @@ export const vocabulaireProgressifA2 = [
         book: "A2",
         engUnit: "Voc A2 L22 Society",
     }, 
-
+    {
+        unit: "Voc A2 L23 交际",
+        words: VocabulaireProgressifA2L23,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L23 Communication",
+    }, 
+    {
+        unit: "Voc A2 L24 观点",
+        words: VocabulaireProgressifA2L24,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L24 Opinion",
+    }, 
+    {
+        unit: "Voc A2 L25 文化艺术",
+        words: VocabulaireProgressifA2L25,
+        tag: "Vocabulaire Progressif",
+        book: "A2",
+        engUnit: "Voc A2 L25 Culture & Art",
+    }, 
 ]

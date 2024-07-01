@@ -1,0 +1,41 @@
+export const VocabulaireProgressifA2L25 = {
+    lessons: ["文化", "视听"],
+    "文化": [
+        { english: "subsidy", french: "subvention", pos: "n.f.", chinese: "补助金" },
+        { english: "contemporary", french: "contemporaine", pos: "adj.", chinese: "当代的" },
+        { english: "to date (de la Renaissance)", french: "dater", pos: "v.t.", chinese: "追溯到（文艺复兴）" },
+        { english: "heritage (écrit, architectural)", french: "patrimoine", pos: "n.m.", chinese: "遗产（书面，建筑）" },
+        { english: "work", french: "œuvre", pos: "n.f.", chinese: "作品" },
+        { english: "work", french: "ouvrage", pos: "n.m.", chinese: "作品" },
+        { english: "poetry", french: "poésie", pos: "n.f.", chinese: "诗歌" },
+        { english: "secondhand bookseller", french: "bouquiniste", pos: "n.", chinese: "二手书商" },
+        { english: "secondhand", french: "d’occasion", pos: "loc.", chinese: "二手的" },
+        { english: "literary", french: "littéraire", pos: "adj.", chinese: "文学的" },
+        { english: "to reward (qn de qch, de faire, par qch)", french: "récompenser", pos: "v.t.", chinese: "奖励（某人某物，做某事，通过某物）" }
+    ],
+    "视听": [
+        { english: "film archive", french: "cinémathèque", pos: "n.f.", chinese: "电影资料馆" },
+        { english: "mute", french: "muet(te)", pos: "adj.", chinese: "哑的" },
+        { english: "film director", french: "cinéaste", pos: "n.", chinese: "电影导演" },
+        { english: "to shoot", french: "tourner", pos: "v.t.", chinese: "拍摄" },
+        { english: "shooting", french: "tournage", pos: "n.m.", chinese: "拍摄" },
+        { english: "composer", french: "compositeur(trice)", pos: "n.", chinese: "作曲家" },
+        { english: "violin", french: "violon", pos: "n.m.", chinese: "小提琴" },
+        { english: "choir", french: "chorale", pos: "n.f.", chinese: "合唱团" },
+        { english: "play", french: "pièce", pos: "n.f.", chinese: "戏剧" },
+        { english: "(theatre) director", french: "metteur", pos: "n.m.", chinese: "（戏剧）导演" },
+        { english: "staging", french: "mise en scène", pos: "n.f.", chinese: "舞台设计" },
+        { english: "actor", french: "comédien(ne)", pos: "n.", chinese: "演员" },
+        { english: "decoration", french: "décor", pos: "n.m.", chinese: "装饰" },
+        { english: "to repeat, to rehearse (concert, pièce)", french: "répéter", pos: "v.t.", chinese: "重复，排练（音乐会，戏剧）" },
+        { english: "rehearsal", french: "répétition", pos: "n.f.", chinese: "排练" },
+        { english: "stage fright", french: "trac", pos: "n.m.", chinese: "舞台恐惧" },
+        { english: "performer", french: "interprète", pos: "n.", chinese: "表演者" },
+        { english: "to applaud", french: "applaudir", pos: "v.", chinese: "鼓掌" },
+        { english: "to whistle, to hiss", french: "siffler", pos: "v.", chinese: "吹口哨，发嘘声" },
+        { english: "vulgar", french: "vulgaire", pos: "adj.", chinese: "粗俗的" },
+        { english: "failure", french: "échec", pos: "n.m.", chinese: "失败" },
+        { english: "talent", french: "talent", pos: "n.m.", chinese: "才能" }
+    ],
+    lessonsEng: ["culture", "visual, audio", "", "", ""]
+}

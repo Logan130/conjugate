@@ -33,6 +33,7 @@ import { CommunicationProgressifA2L25 } from '../../data/vocabulaire/communicati
 import { CommunicationProgressifA2L26 } from '../../data/vocabulaire/communicationA2/L26';
 import { CommunicationProgressifA2L27 } from '../../data/vocabulaire/communicationA2/L27';
 import { CommunicationProgressifA2L28 } from '../../data/vocabulaire/communicationA2/L28';
+import { CommunicationProgressifA2L29 } from '../../data/vocabulaire/communicationA2/L29';
 
 export const communicationA1 = [
     {
@@ -269,6 +270,13 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L28 Assert, Deny",
+    },
+    {
+        unit: "A2 L29 赞美",
+        words: CommunicationProgressifA2L29,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L29 Compliment",
     },
     
 
