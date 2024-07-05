@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useContext } from "react";
 import { lessons } from "../../pages/Vocabulaire";
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
+
 
 
 const Modal = ({ onClose }) => {
@@ -50,6 +51,24 @@ export function VocabulaireSummary() {
         setQuizletChinese(eng ? false : true);
         setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
     }, [eng])
+
+    useEffect(() => {
+        allWords = [];
+
+        for (let lesson of lessons[id].words.lessons) {
+            allWords = [...allWords, ...lessons[id]["words"][lesson]]
+        }
+        setWords(allWords);
+        setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)));
+        setVoc(allWords);
+        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
+        setLessonButtonStyles(Array(lesson_arr.length).fill(false));
+        setLessonID(-1);
+        setNounOnly(false);
+        SetSortByLetter(0);
+        setPOSButtonID(0);
+
+    }, [id])
 
     let buttonArr = [
         {
@@ -195,7 +214,50 @@ export function VocabulaireSummary() {
 
     return (
         <>
-            <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
+            <div className={isMobile ? "grid grid-cols-6 gap-1 text-xl align-center justify-center text-center" : "grid grid-cols-6 gap-1 text-4xl align-center justify-center text-center"}>
+                <Link to={`/vocsum/${(Number(id)-1) === -1 ? 0 : (Number(id)-1)}`} className="col-span-1">
+                    <button className="btn btn-circle mr-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className={isMobile ? "h-6 w-6" : "h-6 w-6"}
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                </Link>
+
+                <div className="col-span-4 text-center p-3">
+                {title}
+                </div>
+
+                <Link to={`/vocsum/${((Number(id))+1 === lessons.length ? lessons.length-1 : (Number(id) + 1))}`} className="col-span-1">
+                    <button className="btn btn-circle ml-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M9 6l6 6-6 6"
+                            />
+                        </svg>
+                    </button>
+                </Link>
+
+
+
+            </div>
             <br />
             {/* <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
@@ -224,7 +286,7 @@ export function VocabulaireSummary() {
                     {lesson_arr.map((les, lesson_id) => (<>
                         <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all" : "btn btn-success btn-outline w-full break-all"} onClick={onClickLessonButton(lesson_id, les)}>
                             {(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}
-                            </button>
+                        </button>
                     </>))}
                 </div>
                 <br />
@@ -238,7 +300,7 @@ export function VocabulaireSummary() {
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，我的课堂笔记都是英文，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，中文释义为GPT少样本学习生成(有很多错误)。<span className="underline font-bold txt-rose-400 text-violet-400">只有英文释义有法语固搭</span>
+                    。<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，我的课堂笔记都是英文，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，<span className="underline font-bold txt-rose-400 text-violet-400">英文释义是我手打的，中文释义为GPT少样本学习生成(有很多错误)。只有英文释义有法语固搭</span>
                 </p>
             }
 

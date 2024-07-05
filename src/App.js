@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/shared/Navbar';
 import { useState, useEffect } from 'react';
