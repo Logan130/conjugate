@@ -22,6 +22,7 @@ export function PracticeConjugate() {
     let [conjugs, setConjugates] = useState(selectRandomElements(conjugates, number_of_practice));
     let isMobile = window.innerWidth < 500;
     const [buttonStyles, setButtonStyles] = useState([true, false, false]);
+    let [filter, setFilter] = useState(0);
 
     let buttonsArr = [
         {
@@ -57,31 +58,16 @@ export function PracticeConjugate() {
         }
         else {
             newButtonStyles[0] = false;
-            // let new_words = [];
-            // let all_false = true;
-            // for (let i = 1; i < buttonsArr.length; i++) {
-            //     if (newButtonStyles[i]) {
-            //         new_words = [...new_words, ...buttonsArr[i].verbs]
-            //         all_false = false;
-            //     }
-            // }
-            // if (!all_false) {
-            //     setConjugates(selectRandomElements(new_words, number_of_practice));
-            // }
-            // else {
-            //     newButtonStyles[0] = true;
-            //     setConjugates(selectRandomElements(conjugates, number_of_practice));
-            // }
             let new_words = buttonsArr[id].verbs;
             setConjugates(selectRandomElements(new_words, number_of_practice));
         }
         setButtonStyles(newButtonStyles);
+        setFilter(id);
     };
 
     const onRefresh = (e) => {
-        setConjugates(selectRandomElements(conjugs, number_of_practice));
+        setConjugates(selectRandomElements(buttonsArr[filter].verbs, number_of_practice));
         const inputFields = document.querySelectorAll('input[type="text"]');
-
         inputFields.forEach((input) => {
             input.value = '';
         });
@@ -126,6 +112,12 @@ export function PracticeConjugate() {
                     ))}
                     <button className="btn btn-success btn-outline w-full" onClick={onRefresh}>{eng ? "Shuffle" : "换一组"}</button>
                 </div>
+            </div>
+
+            <div role="alert" className="alert mt-3 text-left">
+                <span>
+                    {eng ? "Press the Enter key or click the check button to check answers" : "除了用鼠标点击按钮，输入答案后，按下回车键也可检查答案，上下左右键可移动"}
+                </span>
             </div>
 
             <br />

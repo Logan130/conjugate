@@ -3,6 +3,7 @@ import { wordsEditoB1U2 } from '../../edito/editoB1L2';
 import { wordsEditoB1U3 } from '../../edito/editoB1L3';
 import { wordsEditoB1U4 } from '../../edito/editoB1L4';
 import { wordsEditoB1U5 } from '../../edito/editoB1L5';
+import { wordsEditoB1U6 } from '../../edito/editoB1L6';
 
 
 
@@ -34,6 +35,12 @@ export const EditoB1 = [
     {
         unit: "U5 Le Français Dans le Monde",
         words: wordsEditoB1U5,
+        tag: "Other",
+        book: "Edito B1",
+    },
+    {
+        unit: "U6 Médias en Masse",
+        words: wordsEditoB1U6,
         tag: "Other",
         book: "Edito B1",
     },

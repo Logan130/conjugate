@@ -35,6 +35,9 @@ import { CommunicationProgressifA2L27 } from '../../communication/communicationA
 import { CommunicationProgressifA2L28 } from '../../communication/communicationA2/L28';
 import { CommunicationProgressifA2L29 } from '../../communication/communicationA2/L29';
 import { CommunicationProgressifA2L30 } from '../../communication/communicationA2/L30';
+import { CommunicationProgressifA2L31 } from '../../communication/communicationA2/L31';
+import { CommunicationProgressifA2L32 } from '../../communication/communicationA2/L32';
+import { CommunicationProgressifA2L33 } from '../../communication/communicationA2/L33';
 
 export const communicationA1 = [
     {
@@ -284,7 +287,28 @@ export const communicationA2 = [
         words: CommunicationProgressifA2L30,
         tag: "Communication Progressive",
         book: "A2",
-        engUnit: "A2 L29 Congratulate",
+        engUnit: "A2 L30 Congratulate",
+    },
+    {
+        unit: "A2 L31 小说话",
+        words: CommunicationProgressifA2L31,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L31 Small Talk",
+    },
+    {
+        unit: "A2 L32 提议",
+        words: CommunicationProgressifA2L32,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L32 Offer",
+    },
+    {
+        unit: "A2 L33 邀请",
+        words: CommunicationProgressifA2L33,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L33 Invite",
     },
     
 

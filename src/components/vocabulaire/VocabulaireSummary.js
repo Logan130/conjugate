@@ -25,6 +25,46 @@ const Modal = ({ onClose }) => {
     );
 };
 
+export function ChineseParser(english, chinese) {
+    let englishIndices = [], chineseIndices = [];
+    for (let i = 0; i < english.length; i++) {
+        if (english[i] === '(' || english[i] === ')') {
+            englishIndices.push(i);
+        }
+    }
+
+    for (let i = 0; i < chinese.length; i++) {
+        if (chinese[i] === '(' || chinese[i] === ')' || chinese[i] === '（' || chinese[i] === '）') {
+            chineseIndices.push(i);
+        }
+    }
+
+    // #parentheses matches exactly
+    if (englishIndices.length === chineseIndices.length && englishIndices.length % 2 === 0 && englishIndices.length !== 0) {
+        let returnedChineseString = "";
+        let prevIndex = 0;
+        for (let i = 0; i < englishIndices.length; i += 2) {
+            returnedChineseString += chinese.substring(prevIndex, chineseIndices[i]);
+            returnedChineseString += english.substring(englishIndices[i], englishIndices[i+1]);
+            returnedChineseString += ')';
+            prevIndex = chineseIndices[i+1]+1;
+        }
+        returnedChineseString += chinese.substring(prevIndex);
+        return returnedChineseString;
+    }
+
+    else if (englishIndices.length !== 0) {
+        let returnedChineseString = chinese + ' ';
+        for (let i = 0; i < englishIndices.length; i += 2) {
+            returnedChineseString += english.substring(englishIndices[i], englishIndices[i+1]);
+            returnedChineseString += (i +2 >= englishIndices.length) ? ')' : ') ';
+        }
+        return returnedChineseString;
+    }
+
+    return chinese;
+}
+
 
 export function VocabulaireSummary() {
     const { eng } = useContext(ThemeContext);
@@ -259,15 +299,6 @@ export function VocabulaireSummary() {
 
             </div>
             <br />
-            {/* <div>
-                <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-                    <button className={!nounOnly ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickNoun}>所有词性</button>
-                    <button className={nounOnly ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickNoun}>名词</button>
-                    <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `https://logan130.github.io/conjugate/#/vocunit/${id}/0` }}>练习</button>
-                </div>
-                <br />
-
-            </div> */}
 
 
             <div>
@@ -300,7 +331,7 @@ export function VocabulaireSummary() {
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。<span className="underline font-bold text-violet-400">如果熟悉英语建议看英语释义</span>，我的课堂笔记都是英文，它们都由我手动查Oxford Hachette词典对比，并用括号附加固定搭配用法和常见例子，<span className="underline font-bold txt-rose-400 text-violet-400">英文释义是我手打的，中文释义为GPT少样本学习生成(有很多错误)。只有英文释义有法语固搭</span>
+                    。<span className="underline font-bold txt-rose-400 text-violet-400">如果熟悉英语建议看英语释义</span> <span>, 英文释义是我手打的，有附加固定搭配用法和常见例子。如果你不熟悉英文选择看中文释义，则有一些用户注意事项，一定要<Link className="underline font-bold text-violet-400" to='/warning'>《点击看这篇解释》</Link>。</span>
                 </p>
             }
 
@@ -333,7 +364,9 @@ export function VocabulaireSummary() {
                             <tr className={isMobile ? "" : "text-lg"}>
                                 <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
                                 {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
-                                <th className={isMobile ? "" : "text-sm"}> {chinese ? word.chinese : word.english}</th>
+                                <th className={isMobile ? "" : "text-sm"}> 
+                                {chinese ? ChineseParser(word.english, word.chinese) : word.english}
+                                </th>
                             </tr>
                         </>))}
                     </tbody>

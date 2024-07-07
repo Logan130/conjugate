@@ -1,15 +1,60 @@
 export const wordsTaxiB1U7 = {
-    lessons: ["L", "L", "L", "L"],
-    L: [
+    lessons: ["L25", "L26", "L27", "L28"],
+    L25: [
+        { english: "to enjoy (prep. + qp)", french: "se plaire", pos: "v.pr.", chinese: "享受（prep. + qp）" },
+        { english: "in order to (faire)", french: "afin de", pos: "loc.", chinese: "为了（faire）" },
+        { english: "to tighten", french: "resserrer", pos: "v.t.", chinese: "收紧" },
+        { english: "recruiter", french: "recruteur(euse)", pos: "n.", chinese: "招聘人员" },
+        { english: "followed (de qch)", french: "suivi(e)", pos: "adj.", chinese: "跟随（de qch）" },
+        { english: "fitness", french: "remise en forme", pos: "loc.", chinese: "健身" },
+        { english: "to trust sb", french: "faire confiance à qn", pos: "loc.", chinese: "信任某人" },
+        { english: "overnight", french: "du jour au lendemain", pos: "loc.", chinese: "一夜之间" },
+        { english: "little secret", french: "cachotterie", pos: "n.f.", chinese: "小秘密" },
+        { english: "public holidays", french: "jours fériés", pos: "loc.", chinese: "公共假期" },
+        { english: "Halloween", french: "Toussaint", pos: "n.f.", chinese: "万圣节" },
+        { english: "joke", french: "blague", pos: "n.f.", chinese: "笑话" },
+        { english: "to chain up", french: "enchaîner", pos: "v.t.", chinese: "锁住" },
+        { english: "to laugh (de qn)", french: "se moquer", pos: "v.pr.", chinese: "嘲笑（de qn）" },
+        { english: "to found", french: "fonder", pos: "v.t.", chinese: "创建" },
+        { english: "day by day", french: "au jour le jour", pos: "loc.", chinese: "一天一天地" },
+        { english: "to bother", french: "embêter", pos: "v.t.", chinese: "打扰" },
+        { english: "constraint", french: "contrainte", pos: "n.f.", chinese: "约束" },
+        { english: "given the fact that", french: "étant donné que", pos: "loc.", chinese: "鉴于" },
+        { english: "temporary work", french: "intérim", pos: "n.m.", chinese: "临时工作" },
+        { english: "to receive (salaire), to touch (à qch), to move emotionally (qn)", french: "toucher", pos: "v.t.", chinese: "领取（薪水），触摸（à qch），感动（qn）" }
+    ],
+    L26: [
+        { english: "just like", french: "à l’image de", pos: "loc.", chinese: "如同" }, 
+        { english: "to imitate", french: "imiter", pos: "v.t.", chinese: "模仿" }, 
+        { english: "to manufacture", french: "façonner", pos: "v.t.", chinese: "制造" }, 
+        { english: "decline, fall", french: "recul", pos: "n.m.", chinese: "下降" }, 
+        { english: "giant", french: "géant", pos: "n.m.", chinese: "巨人" }, 
+        { english: "giant", french: "géant(e)", pos: "adj.", chinese: "巨大的" }, 
+        { english: "Japanese", french: "nippon", pos: "adj.", chinese: "日本的" }, 
+        { english: "to have fear that (subj. ne)", french: "avoir peur que", pos: "loc.", chinese: "害怕" }, 
+        { english: "fall, decline (niveau sonore, qualité, ventes, taux), cut (de salaires, impôt)", french: "baisse", pos: "n.f.", chinese: "下降，减少" }, 
+        { english: "solution (à/de qch)", french: "solution", pos: "n.f.", chinese: "解决方案" }, 
+        { english: "(train) packed (de touristes)", french: "bondé(e)", pos: "adj.", chinese: "拥挤的" }, 
+        { english: "A ask B to do", french: "A demander à B de faire", pos: "loc.", chinese: "A要求B做" }, 
+        { english: "A ask B so A can do", french: "A demander à B à faire", pos: "loc.", chinese: "A要求B做以便A做" }, 
+        { english: "translator", french: "traducteur(trice)", pos: "n.", chinese: "翻译" }, 
+        { english: "than before", french: "qu’avant", pos: "loc.", chinese: "比以前" }, 
+        { english: "at the same time", french: "à la fois", pos: "loc.", chinese: "同时" }, 
+        { english: "itinerant, travelling (musicien, exposition)", french: "itinérant(e)", pos: "adj.", chinese: "巡回的" }, 
+        { english: "(en) trip", french: "déplacement", pos: "n.m.", chinese: "出差" }, 
+        { english: "to connect (sur réseau)", french: "se brancher", pos: "v.pr.", chinese: "连接" }, 
+        { english: "from this point of view", french: "de ce point de vue", pos: "loc.", chinese: "从这个角度" }, 
+        { english: "to contribute (à)", french: "contribuer", pos: "v.t.ind.", chinese: "贡献" }, 
+        { english: "to characterize", french: "caractériser", pos: "v.t.", chinese: "表征" }, 
+        { english: "boundary (entre A et B)", french: "frontière", pos: "n.f.", chinese: "边界" }, 
+        { english: "porous", french: "poreux(se)", pos: "adj.", chinese: "多孔的" }, 
+        { english: "partly", french: "en partie", pos: "loc.", chinese: "部分地" }, 
+        { english: "conversely", french: "à l’inverse", pos: "loc.", chinese: "相反地" }
+    ],
+    L27: [
 
     ],
-    L: [
-
-    ],
-    L: [
-
-    ],
-    L: [
+    L28: [
 
     ]
 }

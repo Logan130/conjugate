@@ -11,6 +11,7 @@ export function TestBox({ verb, CardID }) {
     let [hint, setHint] = useState([false, false, false, false, false, false, false, false])
     let [hint_bool, setHintBool] = useState(true);
     let [allCorrect, setAllCorrect] = useState(false);
+    let [check, setCheck] = useState(false);
 
 
     let [je, setJe] = useState("")
@@ -43,18 +44,26 @@ export function TestBox({ verb, CardID }) {
     }
 
     const CheckAnswer = (e) => {
-        let newCorrect = [
-            je === verb.je,
-            nous === verb.nous,
-            tu === verb.tu,
-            vous === verb.vous,
-            il === verb.il,
-            ils === verb.ils,
-            passé === verb.passé,
-            (futur === verb.futur || futur === verb.futur.substring(0, (verb.futur).length - 1))
-        ]
-        setCorrect(newCorrect);
-        setAllCorrect((newCorrect).reduce((acc, val) => acc + (val ? 1 : 0), 0) === 8);
+        let precCheck = check;
+        if (!precCheck) {
+            let newCorrect = [
+                je === verb.je,
+                nous === verb.nous,
+                tu === verb.tu,
+                vous === verb.vous,
+                il === verb.il,
+                ils === verb.ils,
+                passé === verb.passé,
+                (futur === verb.futur || futur === verb.futur.substring(0, (verb.futur).length - 1))
+            ]
+            setCorrect(newCorrect);
+            setAllCorrect((newCorrect).reduce((acc, val) => acc + (val ? 1 : 0), 0) === 8);
+        }
+        else {
+            setCorrect([null, null, null, null, null, null, null, null]);
+        }
+
+        setCheck(!check);
     }
 
     const ClickHint = (e) => {
@@ -105,12 +114,18 @@ export function TestBox({ verb, CardID }) {
     const handleKeyDown = (e, index) => {
         if (e.key === 'ArrowLeft' && index > 0) {
             inputRefs.current[index - 1].focus();
-        } else if (e.key === 'ArrowRight' && index < 8 - 1) {
+        } 
+        else if (e.key === 'ArrowRight' && index < 8 - 1) {
             inputRefs.current[index + 1].focus();
-        } else if (e.key === 'ArrowUp' && index >= 2) {
+        } 
+        else if (e.key === 'ArrowUp' && index >= 2) {
             inputRefs.current[index - 2].focus();
-        } else if (e.key === 'ArrowDown' && index < 8-2) {
+        } 
+        else if (e.key === 'ArrowDown' && index < 8-2) {
             inputRefs.current[index + 2].focus();
+        }
+        else if (e.key === 'Enter') {
+            CheckAnswer();
         }
     };
 
@@ -145,7 +160,7 @@ export function TestBox({ verb, CardID }) {
                     </div>
 
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary w-24" onClick={CheckAnswer}>{eng ? "check" : "检查"}</button>
+                        <button className="btn btn-primary w-24" onClick={CheckAnswer}>{check ? (eng ? "uncheck" : "隐藏") : (eng ? "check" : "检查")}</button>
                         <button className="btn btn-primary w-24" onClick={ClickHint}>{hint_bool ?  (eng ? "hint" : "提示") : (eng ? "hide" : "隐藏提示")}</button>
                     </div>
 

@@ -31,7 +31,7 @@ const conjugatesA1 = [
     { name: "vouloir", je: "veux", tu: "veux", il: "veut", nous: "voulons", vous: "voulez", ils: "veulent", passé: "voulu", futur: "voudr-", level: "A1" },
     { name: "offrir", je: "offre", tu: "offres", il: "offre", nous: "offrons", vous: "offrez", ils: "offrent", passé: "offert", futur: "offrir-", level: "A1" },
     { name: "tenir", je: "tiens", tu: "tiens", il: "tient", nous: "tenons", vous: "tenez", ils: "tiennent", passé: "tenu", futur: "tiendr-", level: "A1" },
-    { name: "pleuvoir", il: "pleut", passé: "plu", futur: "pleuvr-", level: "A1" },
+    { name: "pleuvoir", il: "pleut", passé: "plu", futur: "pleuvr-", level: "A1"},
 
     { name: "boire", je: "bois", tu: "bois", il: "boit", nous: "buvons", vous: "buvez", ils: "boivent", passé: "bu", futur: "boir-", level: "A1" },
     { name: "dire", je: "dis", tu: "dis", il: "dit", nous: "disons", vous: "dites", ils: "disent", passé: "dit", futur: "dir-", level: "A1" },

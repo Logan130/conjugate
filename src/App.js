@@ -12,6 +12,7 @@ import { VocabulaireSummary } from './components/vocabulaire/VocabulaireSummary'
 import { SearchBar } from './components/shared/SearchBar';
 import { ThemeProvider } from './context/context';
 import { ErrorPage } from './components/shared/404';
+import { Warning } from './pages/Warning';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
                 <Route path='/vocsum/:id' element={<VocabulaireSummary />} />
                 <Route path='/search' element={<SearchBar />} />
                 <Route path='/error' element={<ErrorPage />} />
+                <Route path='/warning' element={<Warning />} />
                 <Route path='*' element={<ErrorPage />} />
               </Routes>
 
