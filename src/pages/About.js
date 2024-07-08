@@ -62,7 +62,7 @@ export function About() {
 
                         {!eng && (<>
                             <p className="">
-                                A1-A2有直现，复过，未完成过去，简将，条现，虚现，虽然每个单词对应的变位有几十个，
+                                A1-B1有直现，复过，未完成过去，简将，条现，虚现，愈过去，先将来，条过去，虽然每个单词对应的变位有几十个，
                                 但这个网站只听写其中8个变位，分别是直现的六个、过去分词、简将词根。
                                 除了虚拟式的特殊情况，以上所有时态和语式的变位都可以通过这8个变位推导出来
                             </p>
@@ -101,7 +101,7 @@ export function About() {
 
                         {eng &&
                             <p>
-                                <br/>Feel free to explore these features and enhance your French language learning experience!
+                                <br />Feel free to explore these features and enhance your French language learning experience!
                             </p>}
                     </div>
 

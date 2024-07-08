@@ -1,5 +1,7 @@
 import { InnerFrenchE01 } from "../../innerfrench/E01";
+import { InnerFrenchE04 } from "../../innerfrench/E04";
 import { InnerFrenchE24 } from "../../innerfrench/E24";
+import { InnerFrenchE35 } from "../../innerfrench/E35";
 
 
 export const InnerFrench = [
@@ -10,10 +12,25 @@ export const InnerFrench = [
         book: "InnerFrench",
     },
     {
+        unit: "E04 La théorie du genre",
+        words: InnerFrenchE04,
+        tag: "Other",
+        book: "InnerFrench",
+    },
+    {
         unit: "E24 La cuisine française est-elle demodee ?",
         words: InnerFrenchE24,
         tag: "Other",
         book: "InnerFrench",
     },
+    {
+        unit: "E35 L’Étranger d’Albert Camus I",
+        words: InnerFrenchE35,
+        tag: "Other",
+        book: "InnerFrench",
+    },
+
+
+    
 
 ]

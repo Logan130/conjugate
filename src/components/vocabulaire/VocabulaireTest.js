@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect, useContext } from "react";
 import { lessons } from "../../pages/Vocabulaire";
 import { useParams } from 'react-router-dom';
 import { ThemeContext } from "../../context/context";
+import { ChineseParser } from "./VocabulaireSummary";
 
 
 function nounFilter(arr) {
@@ -270,8 +271,7 @@ export function VocabulaireTest() {
             <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
             <br />
 
-            <div role="alert" className="alert alert bg-orange-600 font-bold text-black">
-                {/* <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg> */}
+            {/* <div role="alert" className="alert alert bg-orange-600 font-bold text-black">
                 <span>
                     {eng ?
                         "I used FSL from GPT for data cleaning of my notes. Since LLMs are prone to hallucinations, some definitions have errors. Pls refer to a dictionary if you think a def is wrong."
@@ -280,14 +280,13 @@ export function VocabulaireTest() {
                     }
                 </span>
             </div>
-
-            <br />
+            <br /> */}
 
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                     <button className={!genderDictee ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickGender(0)}>{eng ? "Spelling" : "练习拼写"}</button>
                     <button className={genderDictee ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickGender(1)}>{eng ? "Gender" : "练习阴阳"}</button>
-                    <button className={"btn btn-secondary btn w-full"} onClick={onClickChinese}>{chinese ? (eng ? "English" : "换英文") : (eng ? "Chinese" : "换中文")}</button>
+                    <button className={"btn btn-secondary btn w-full"} onClick={onClickChinese}>{chinese ? (eng ? "English Def" : "换英文释义") : (eng ? "Chinese Def" : "换中文释义")}</button>
                     <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocsum/${id}` : `https://logan130.github.io/conjugate/#/vocsum/${id}` }}>{eng ? "Voc List" : "单词表"}</button>
                 </div>
                 <br />
@@ -311,7 +310,7 @@ export function VocabulaireTest() {
                 <div className="">
                     <div className="text-xl mb-2">{eng ? "Match the gender" : "点击匹配正确的阴阳性"}</div>
                     <div className={isMobile ? "" : "flex justify-left"}>
-                        <button className={isMobile ? "btn btn-primary w-1/3 m-2" : "btn btn-primary w-1/3 m-2"} onClick={onClickGenderHint}>{genderHint ? (eng ? "Hide" : "隐藏提示") : (eng ? "Check & Hints" : "批改&提示")}</button>
+                        <button className={isMobile ? "btn btn-primary w- m-2" : "btn btn-primary w- m-2"} onClick={onClickGenderHint}>{genderHint ? (eng ? "Hide" : "隐藏提示") : (eng ? "Check & Hints" : "批改&提示")}</button>
                         {/* <button className={isMobile ? "btn btn-primary w-1/3 m-2" : "btn btn-primary w-1/3 m-2"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/1` : `https://logan130.github.io/conjugate/#/vocunit/${id}/1`; window.location.reload(); }}>刷新</button> */}
                     </div>
                     <br />
@@ -323,7 +322,7 @@ export function VocabulaireTest() {
                                 <tr>
                                     <th className="text-lg w-1/6">{eng ? "POS" : "词性"}</th>
                                     <th className="text-lg w-32">{eng ? "French" : "法语"}</th>
-                                    <th className="text-lg">{eng ? "Definition" : "释义"}</th>
+                                    <th className="text-lg">{eng ? "Definition" : "提示"}</th>
 
                                 </tr>
                             </thead>
@@ -342,7 +341,7 @@ export function VocabulaireTest() {
                                             </div>
                                         </td>
                                         <th className={isMobile ? "text-sm w-16" : "text-sm"}>{word.french}</th>
-                                        <td className={isMobile ? "text-xs" : "text-sm"}> {checkGender(id, word.pos, chinese ? word.chinese : word.english)}</td>
+                                        <td className={isMobile ? "text-xs" : "text-sm"}> {checkGender(id, word.pos, chinese ? (ChineseParser(word.english, word.chinese)) : word.english)}</td>
                                     </tr>
                                     {id !== 0 && (id % 10 === 0 || id === (nounFilter(vocabs)).length - 1) && (
                                         <>
@@ -393,7 +392,7 @@ export function VocabulaireTest() {
 
                                 {vocabs.map((word, id) => (<>
                                     <tr>
-                                        <th className={isMobile ? "text-xs pr-0 mr-0" : "text-base"}>{word.pos} {chinese ? word.chinese : word.english}</th>
+                                        <th className={isMobile ? "text-xs pr-0 mr-0" : "text-base"}>{word.pos} {chinese ? ChineseParser(word.english, word.chinese) : word.english}</th>
                                         <td className="text-xs font-xs">
                                             <div className="">
                                                 <label className="">
