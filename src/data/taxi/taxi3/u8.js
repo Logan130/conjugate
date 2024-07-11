@@ -1,15 +1,15 @@
 export const wordsTaxiB1U8 = {
-    lessons: ["L", "L", "L", "L"],
-    L: [
+    lessons: ["L29", "L30", "L31", "L32"],
+    L29: [
 
     ],
-    L: [
+    L30: [
 
     ],
-    L: [
+    L31: [
 
     ],
-    L: [
+    L32: [
 
     ]
 }

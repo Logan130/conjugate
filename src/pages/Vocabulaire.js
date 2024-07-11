@@ -266,7 +266,8 @@ export function VocabulairePage() {
 
     const handleCollape = () => {
         let previousState = commCollapsed;
-        if (isMobile && previousState) {
+        // if (isMobile && previousState) {
+        if (previousState) {
             handleScroll();
         }
         setCommCollapsed(!commCollapsed);

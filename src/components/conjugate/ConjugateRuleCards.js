@@ -160,6 +160,25 @@ export function ConjugateRuleCards() {
 
             <div className="card w-auto bg-neutral text-neutral-content">
                 <div className="card-body items-center text-center">
+                    <h2 className="card-title">{eng ? "Future Dans le Passée" : "过去将来时"}</h2>
+                    <h3 className="font-bold">{eng ? "futur root + imparfait suffix" : "简将词根 + 未完成过去时词尾"}</h3>
+
+                    <div className="grid grid-cols-2 gap-2">
+
+                        <div className="text-left">j'ir<span className={red_style}>ais</span></div>
+                        <div className="text-left">nous ir<span className={red_style}>ions</span></div>
+                        <div className="text-left">tu ir<span className={red_style}>ais</span></div>
+                        <div className="text-left">vous ir<span className={red_style}>iez</span></div>
+                        <div className="text-left">il ir<span className={red_style}>ait</span></div>
+                        <div className="text-left">ils ir<span className={red_style}>aient</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div className="card w-auto bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
                     <h2 className="card-title">{eng ? "Conditionnel Passé Première Forme" : "条过去"}</h2>
                     <h3 className="font-bold">{eng ? "conditionnel présent être/avoir + p.p." : "助动词条现在 + p.p."}</h3>
 

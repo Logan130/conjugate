@@ -52,9 +52,40 @@ export const wordsTaxiB1U7 = {
         { english: "conversely", french: "à l’inverse", pos: "loc.", chinese: "相反地" }
     ],
     L27: [
-
+        { english: "sth to hold one’s heart", french: "qch tenir à cœur à qn", pos: "loc.", chinese: "使某人非常关心某事" },
+        { english: "unless (ind.)", french: "sauf si", pos: "loc.", chinese: "除非" },
+        { english: "to pay (personne), to pay for (travail)", french: "rémunérer", pos: "v.t.", chinese: "支付" },
+        { english: "to make sure one takes (repas, maintien, vêtement)", french: "prévoir", pos: "v.t.", chinese: "预见" },
+        { english: "maintaining", french: "maintien", pos: "n.m.", chinese: "保持" },
+        { english: "carefully", french: "mûrement", pos: "adv.", chinese: "仔细地" },
+        { english: "resignation (travail)", french: "démission", pos: "n.f.", chinese: "辞职" },
+        { english: "again", french: "à nouveau", pos: "loc.", chinese: "再次" },
+        { english: "there’s no way (de faire)", french: "il y a pas moyen", pos: "loc.", chinese: "没有办法" },
+        { english: "to rhyme (avec qch)", french: "rimer", pos: "v.i.", chinese: "押韵" },
+        { english: "to deal with", french: "traiter", pos: "v.t.", chinese: "处理" },
+        { english: "maturity date (à ~ de)", french: "échéance", pos: "n.f.", chinese: "到期日" },
+        { english: "to work (fam.)", french: "bosser", pos: "v.i.", chinese: "工作" },
+        { english: "all the time", french: "à tout moment", pos: "loc.", chinese: "随时" },
+        { english: "addiction (à qch)", french: "addiction", pos: "n.f.", chinese: "瘾" },
+        { english: "recognition", french: "reconnaissance", pos: "n.f.", chinese: "认可" },
+        { english: "clash (entre A et B)", french: "accrochage", pos: "n.m.", chinese: "冲突" },
+        { english: "(en) search (de qch)", french: "quête", pos: "n.f.", chinese: "寻找" },
+        { english: "pressure", french: "pression", pos: "n.f.", chinese: "压力" },
+        { english: "addict (de qch) (fam.)", french: "accros", pos: "n.", chinese: "上瘾的人" },
+        { english: "rest", french: "repos", pos: "n.m.", chinese: "休息" }
     ],
     L28: [
-
+        { english: "workshop", french: "atelier", pos: "n.m.", chinese: "工作坊" },
+        { english: "state control (center)", french: "régie", pos: "n.f.", chinese: "国家控制" },
+        { english: "to soundproof", french: "sonoriser", pos: "v.t.", chinese: "隔音" },
+        { english: "air-conditioned", french: "climatisé(e)", pos: "adj.", chinese: "有空调的" },
+        { english: "warm (personne, accueil), enthusiastic (public)", french: "chaleureux(se)", pos: "adj.", chinese: "热情的" },
+        { english: "housing", french: "hébergement", pos: "n.m.", chinese: "住宿" },
+        { english: "relaxation", french: "détente", pos: "n.f.", chinese: "放松" },
+        { english: "as well as", french: "ainsi que", pos: "loc.", chinese: "以及" },
+        { english: "committee", french: "comité", pos: "n.m.", chinese: "委员会" },
+        { english: "the reason why A, it’s because B", french: "si A c’est B", pos: "loc.", chinese: "如果A是因为B" },
+        { english: "charged (de faire, de qch)", french: "chargé(e)", pos: "adj.", chinese: "负责的" },
+        { english: "to benefit (de qch)", french: "bénéficier", pos: "v.t.ind.", chinese: "受益" }
     ]
 }
