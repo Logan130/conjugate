@@ -105,12 +105,14 @@ const conjugatesA2 = [
 ]
 
 // updated until 
-// taxi U1
-// communication L10
-// Edito L3
+// taxi U7
+// communication L35
+// Edito L6
 // vocabulaire:
-// [1, 8, 11]
-// [13]
+// [1, 3, 6, 7, 8, , 9, 10, 11, 12]
+// [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+// inner french:
+// [1, 4, 24, 35, 36]
 
 const conjugatesB1 = [
     { name: "fuir", je: "fuis", tu: "fuis", il: "fuit", nous: "fuyons", vous: "fuyez", ils: "fuient", passé: "fui", futur: "fuir-" },
@@ -144,8 +146,6 @@ const conjugatesB1 = [
     { name: "nourrir", je: "nourris", tu: "nourris", il: "nourrit", nous: "nourrissons", vous: "nourrissez", ils: "nourrissent", passé: "nourri", futur: "nourrir-" },
     { name: "plaindre", je: "plains", tu: "plains", il: "plaint", nous: "plaignons", vous: "plaignez", ils: "plaignent", passé: "plaint", futur: "plaindr-" },
     { name: "rabattre", je: "rabats", tu: "rabats", il: "rabat", nous: "rabattons", vous: "rabattez", ils: "rabattent", passé: "rabattu", futur: "rabattr-" },
-    { name: "être", je: "suis", tu: "es", il: "est", nous: "sommes", vous: "êtes", ils: "sont", passé: "été", futur: "ser-" },
-    { name: "avoir", je: "ai", tu: "as", il: "a", nous: "avons", vous: "avez", ils: "ont", passé: "eu", futur: "aur-" },
     { name: "transmettre", je: "transmets", tu: "transmets", il: "transmet", nous: "transmettons", vous: "transmettez", ils: "transmettent", passé: "transmis", futur: "transmettr-" },
     { name: "rompre", je: "romps", tu: "romps", il: "rompt", nous: "rompons", vous: "rompez", ils: "rompent", passé: "rompu", futur: "rompr-" },
     { name: "souffrir", je: "souffre", tu: "souffres", il: "souffre", nous: "souffrons", vous: "souffrez", ils: "souffrent", passé: "souffert", futur: "souffrir-" },
@@ -165,7 +165,41 @@ const conjugatesB1 = [
     { name: "battre", je: "bats", tu: "bats", il: "bat", nous: "battons", vous: "battez", ils: "battent", passé: "battu", futur: "battr-" },
     { name: "maigrir", je: "maigris", tu: "maigris", il: "maigrit", nous: "maigrissons", vous: "maigrissez", ils: "maigrissent", passé: "maigri", futur: "maigrir-" },
     { name: "conduire", je: "conduis", tu: "conduis", il: "conduit", nous: "conduisons", vous: "conduisez", ils: "conduisent", passé: "conduit", futur: "conduir-" },
-
+    { name: "intégrer", je: "intègre", tu: "intègres", il: "intègre", nous: "intégrons", vous: "intégrez", ils: "intègrent", passé: "intégré", futur: "intégrer-" },
+    { name: "confondre", je: "confonds", tu: "confonds", il: "confond", nous: "confondons", vous: "confondez", ils: "confondent", passé: "confondu", futur: "confondr-" },
+    { name: "admettre", je: "admets", tu: "admets", il: "admet", nous: "admettons", vous: "admettez", ils: "admettent", passé: "admis", futur: "admettr-" },
+    { name: "atteindre", je: "atteins", tu: "atteins", il: "atteint", nous: "atteignons", vous: "atteignez", ils: "atteignent", passé: "atteint", futur: "atteindr-" },
+    { name: "saisir", je: "saisis", tu: "saisis", il: "saisit", nous: "saisissons", vous: "saisissez", ils: "saisissent", passé: "saisi", futur: "saisir-" },
+    { name: "réunir", je: "réunis", tu: "réunis", il: "réunit", nous: "réunissons", vous: "réunissez", ils: "réunissent", passé: "réuni", futur: "réunir-" },
+    { name: "gémir", je: "gémis", tu: "gémis", il: "gémit", nous: "gémissons", vous: "gémez", ils: "gémissent", passé: "gémi", futur: "gémir-" },
+    { name: "dépendre", je: "dépends", tu: "dépends", il: "dépend", nous: "dépendons", vous: "dépendez", ils: "dépendent", passé: "dépendu", futur: "dépendr-" },
+    { name: "subvenir", je: "subviens", tu: "subviens", il: "subvient", nous: "subvenons", vous: "subvenez", ils: "subviennent", passé: "subvenu", futur: "subviendr-" },
+    { name: "aboutir", je: "aboutis", tu: "aboutis", il: "aboutit", nous: "aboutissons", vous: "aboutissez", ils: "aboutissent", passé: "abouti", futur: "aboutir-" },
+    { name: "jouir", je: "jouis", tu: "jouis", il: "jouit", nous: "jouissons", vous: "jouissez", ils: "jouissent", passé: "joui", futur: "jouir-" },
+    { name: "poursuivre", je: "poursuis", tu: "poursuis", il: "poursuit", nous: "poursuivons", vous: "poursuivez", ils: "poursuivent", passé: "poursuivi", futur: "poursuivr-" },
+    { name: "définir", je: "définis", tu: "définis", il: "définit", nous: "définissons", vous: "définissez", ils: "définissent", passé: "défini", futur: "définir-" },
+    { name: "prévenir", je: "préviens", tu: "préviens", il: "prévient", nous: "prévenons", vous: "prévenez", ils: "préviennent", passé: "prévenu", futur: "préviendr-" },
+    { name: "entreprendre", je: "entreprends", tu: "entreprends", il: "entreprend", nous: "entreprenons", vous: "entreprenez", ils: "entreprennent", passé: "entrepris", futur: "entreprendr-" },
+    { name: "appauvrir", je: "appauvris", tu: "appauvris", il: "appauvrit", nous: "appauvrissons", vous: "appauvrissez", ils: "appauvrissent", passé: "appauvri", futur: "appauvrir-" },
+    { name: "nuire", je: "nuis", tu: "nuis", il: "nuit", nous: "nuisons", vous: "nuisez", ils: "nuisent", passé: "nui", futur: "nuir-" },
+    { name: "prétendre", je: "prétends", tu: "prétends", il: "prétend", nous: "prétendons", vous: "prétendez", ils: "prétendent", passé: "prétendu", futur: "prétendr-" },
+    { name: "conquérir", je: "conquiers", tu: "conquiers", il: "conquiert", nous: "conquérons", vous: "conquérez", ils: "conquièrent", passé: "conquis", futur: "conquerr-" }, 
+    { name: "distraire", je: "distrais", tu: "distrais", il: "distrait", nous: "distrayons", vous: "distrayez", ils: "distraient", passé: "distrait", futur: "distrair-" },
+    { name: "coudre", je: "couds", tu: "couds", il: "coud", nous: "cousons", vous: "cousez", ils: "cousent", passé: "cousu", futur: "coudr-" },
+    { name: "commettre", je: "commets", tu: "commets", il: "commet", nous: "commettons", vous: "commettez", ils: "commettent", passé: "commis", futur: "commettr-" },
+    { name: "accélérer", je: "accélère", tu: "accélères", il: "accélère", nous: "accélérons", vous: "accélérez", ils: "accélèrent", passé: "accéléré", futur: "accélérer-" },
+    { name: "atterrir", je: "atterris", tu: "atterris", il: "atterrit", nous: "atterrissons", vous: "atterrissez", ils: "atterrissent", passé: "atterri", futur: "atterrir-" },
+    { name: "ralentir", je: "ralentis", tu: "ralentis", il: "ralentit", nous: "ralentissons", vous: "ralentissez", ils: "ralentissent", passé: "ralenti", futur: "ralentir-" },
+    { name: "parcourir", je: "parcours", tu: "parcours", il: "parcourt", nous: "parcourons", vous: "parcourez", ils: "parcourent", passé: "parcouru", futur: "parcourr-" },
+    { name: "élire", je: "élis", tu: "élis", il: "élit", nous: "élisons", vous: "élisez", ils: "élisent", passé: "élu", futur: "élir-" },
+    { name: "intervenir", je: "interviens", tu: "interviens", il: "intervient", nous: "intervenons", vous: "intervenez", ils: "interviennent", passé: "intervenu", futur: "interviendr-" },
+    { name: "ressentir", je: "ressens", tu: "ressens", il: "ressent", nous: "ressentons", vous: "ressentez", ils: "ressentent", passé: "ressenti", futur: "ressentir-" },
+    { name: "déplaire", je: "déplais", tu: "déplais", il: "déplaît", nous: "déplaisons", vous: "déplaisez", ils: "déplaisent", passé: "déplu", futur: "déplair-" },
+    { name: "introduire", je: "introduis", tu: "introduis", il: "introduit", nous: "introduisons", vous: "introduisez", ils: "introduisent", passé: "introduit", futur: "introduir-" },
+    { name: "punir", je: "punis", tu: "punis", il: "punit", nous: "punissons", vous: "punissez", ils: "punissent", passé: "puni", futur: "punir-" },
+    { name: "avertir", je: "avertis", tu: "avertis", il: "avertit", nous: "avertissons", vous: "avertissez", ils: "avertissent", passé: "averti", futur: "avertir-" },
+    { name: "taire", je: "tais", tu: "tais", il: "tait", nous: "taisons", vous: "taisez", ils: "taisent", passé: "tu", futur: "tair-" },
+    { name: "brandir", je: "brandis", tu: "brandis", il: "brandit", nous: "brandissons", vous: "brandissez", ils: "brandissent", passé: "brandit", futur: "brandir-" }
 ]
 
 for (let word of conjugatesB1)

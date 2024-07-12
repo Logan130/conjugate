@@ -31,7 +31,7 @@ export const VocabulaireProgressifA2L20 = {
         { english: "sound", french: "son", pos: "n.m.", chinese: "声音" },
         { english: "headphone", french: "casque", pos: "n.m.", chinese: "耳机" },
         { english: "trouble", french: "dérangement", pos: "n.m.", chinese: "麻烦" },
-        { english: "to hang up", french: "raccroche", pos: "v.t.", chinese: "挂断" },
+        { english: "to hang up", french: "raccrocher", pos: "v.t.", chinese: "挂断" },
         { english: "call", french: "appel", pos: "n.m.", chinese: "电话" },
         { english: "to press", french: "appuyer", pos: "v.t.", chinese: "按" },
         { english: "identifier", french: "identifiant", pos: "n.m.", chinese: "识别码" },

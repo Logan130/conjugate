@@ -49,7 +49,7 @@ export const InnerFrenchE35 = {
         { english: "rock", french: "rocher", pos: "n.m.", chinese: "岩石" },
         { english: "burning", french: "brûlant(e)", pos: "adj.", chinese: "燃烧的" },
         { english: "step", french: "pas", pos: "n.m.", chinese: "步" },
-        { english: "to reflect", french: "reflété", pos: "v.t.", chinese: "反映" },
+        { english: "to reflect", french: "refléter", pos: "v.t.", chinese: "反映" },
         { english: "blade", french: "lame", pos: "n.f.", chinese: "刀片" },
         { english: "to blind, to dazzle", french: "aveugler", pos: "v.t.", chinese: "使目眩" },
         { english: "(vie, ambience, opinion) to change radically", french: "basculer", pos: "v.i.", chinese: "突然改变" }

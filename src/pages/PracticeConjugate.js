@@ -21,8 +21,8 @@ export function PracticeConjugate() {
     let number_of_practice = 6;
     let [conjugs, setConjugates] = useState(selectRandomElements(conjugates, number_of_practice));
     let isMobile = window.innerWidth < 500;
-    const [buttonStyles, setButtonStyles] = useState([true, false, false]);
-    let [filter, setFilter] = useState(0);
+    const [suffixIndex, setSuffixIndex] = useState(0);
+    let [levelIndex, setLevelIndex] = useState(0);
 
     let buttonsArr = [
         {
@@ -47,26 +47,57 @@ export function PracticeConjugate() {
         },
     ]
 
-    const onClickButton = (id) => {
-        // let newButtonStyles = [...buttonStyles];
-        let newButtonStyles = [false, false, false, false];
-        newButtonStyles[id] = !newButtonStyles[id];
+    let suffixButtonArr = [
+        {
+            name: eng ? "All" : "全部",
+            value: ''
+        }, 
+        {
+            name: 'ir',
+            value: 'ir'
+        }, 
+        {
+            name: 're',
+            value: 're'
+        }, 
+        {
+            name: 'er',
+            value: 'er'
+        }, 
+        {
+            name: 'oir',
+            value: 'oir'
+        }, 
+        {
+            name: 'dre',
+            value: 'dre'
+        }, 
+        {
+            name: 'tre',
+            value: 'tre'
+        }, 
+        {
+            name: 'ire',
+            value: 'ire'
+        }, 
+    ]
 
-        if (id === 0) {
-            newButtonStyles = [true, false, false];
-            setConjugates(selectRandomElements(conjugates, number_of_practice));
-        }
-        else {
-            newButtonStyles[0] = false;
-            let new_words = buttonsArr[id].verbs;
-            setConjugates(selectRandomElements(new_words, number_of_practice));
-        }
-        setButtonStyles(newButtonStyles);
-        setFilter(id);
+    const onClickButton = (levelID) => {
+        setLevelIndex(levelID);
+        let newWords = buttonsArr[levelID].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixIndex].value));
+        setConjugates(selectRandomElements(newWords, number_of_practice));
     };
 
+    const onClickSuffixButton = (suffixID) => (e) => {   
+        setSuffixIndex(suffixID);
+        setSuffixIndex(suffixID);
+        let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
+        setConjugates(selectRandomElements(newWords, number_of_practice));
+    }
+
     const onRefresh = (e) => {
-        setConjugates(selectRandomElements(buttonsArr[filter].verbs, number_of_practice));
+        let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixIndex].value));
+        setConjugates(selectRandomElements(newWords, number_of_practice));
         const inputFields = document.querySelectorAll('input[type="text"]');
         inputFields.forEach((input) => {
             input.value = '';
@@ -101,17 +132,30 @@ export function PracticeConjugate() {
 
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-                    {buttonsArr.map((button, id) => (
+                    {buttonsArr.map((button, buttonIndex) => (
                         <button
-                            key={id}
-                            className={`btn ${buttonStyles[id] ? "btn-warning" : "btn-outline btn-warning"}`}
-                            onClick={() => onClickButton(id)}
+                            key={`level-button-${buttonIndex}`}
+                            className={levelIndex === buttonIndex ? 'btn btn-success' : 'btn btn-success btn-outline'}
+                            onClick={() => onClickButton(buttonIndex)}
                         >
                             {button.name}
                         </button>
                     ))}
                     <button className="btn btn-success btn-outline w-full" onClick={onRefresh}>{eng ? "Shuffle" : "换一组"}</button>
                 </div>
+            </div>
+
+            <br/>
+            <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
+                {suffixButtonArr.map((suffixButton, index) => (
+                    <button
+                        key={`suffix-button-${index}`}
+                        className={suffixIndex === index ? "btn btn-warning" : "btn btn-outline btn-warning"}
+                        onClick={onClickSuffixButton(index)}
+                    >
+                        {suffixButton.name}
+                    </button>
+                ))}
             </div>
 
             <div role="alert" className="alert mt-3 text-left">

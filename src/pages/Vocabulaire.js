@@ -94,7 +94,7 @@ const RenderImages = ({ images }) => {
             <div className="overflow-hidden rounded-lg">
                 <img
                     src={images[currentImageIndex]}
-                    alt={`Image ${currentImageIndex + 1}`}
+                    alt={`sliding ${currentImageIndex + 1}`}
                     className={`w-full transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}
                 />
             </div>

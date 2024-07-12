@@ -12,7 +12,9 @@ export function AllConjugate() {
     let [words, setWords] = useState(conjugates);
     let { scroll } = useParams();
 
-    const [buttonStyles, setButtonStyles] = useState([true, false, false]);
+    // const [buttonStyles, setButtonStyles] = useState([true, false, false]);
+    const [levelIndex, setLevelIndex] = useState(0);
+    const [suffixIndex, setSuffixIndex] = useState(0);
 
     let buttonsArr = ([
         {
@@ -37,28 +39,58 @@ export function AllConjugate() {
         },
     ])
 
+    let suffixButtonArr = [
+        {
+            name: eng ? "All" : "全部",
+            value: ''
+        }, 
+        {
+            name: 'ir',
+            value: 'ir'
+        }, 
+        {
+            name: 're',
+            value: 're'
+        }, 
+        {
+            name: 'er',
+            value: 'er'
+        }, 
+        {
+            name: 'oir',
+            value: 'oir'
+        }, 
+        {
+            name: 'dre',
+            value: 'dre'
+        }, 
+        {
+            name: 'tre',
+            value: 'tre'
+        }, 
+        {
+            name: 'ire',
+            value: 'ire'
+        }, 
+    ]
+
 
     const onClickTab = (bool) => (e) => {
         setListActive(bool);
     }
 
-    const onClickButton = (id) => {
-        let newButtonStyles = [...buttonStyles];
-        newButtonStyles[id] = !newButtonStyles[id];
-
-        if (id === 0) {
-            newButtonStyles = [true, false, false, false];
-            setWords(conjugates);
-        }
-        else {
-            newButtonStyles = [false, false, false, false];
-            newButtonStyles[id] = true;
-            let new_words = buttonsArr[id].verbs;
-            setWords(buttonsArr[id].verbs)
-
-        }
-        setButtonStyles(newButtonStyles);
+    const onClickButton = (levelID) => {
+        setLevelIndex(levelID);
+        let newWords = buttonsArr[levelID].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixIndex].value));
+        setWords(newWords);
     };
+
+    const onClickSuffixButton = (suffixID) => (e) => {   
+        setSuffixIndex(suffixID);
+        setSuffixIndex(suffixID);
+        let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
+        setWords(newWords);
+    }
 
 
     let isMobile = window.innerWidth < 500;
@@ -80,7 +112,7 @@ export function AllConjugate() {
                 behavior: 'smooth' // Optionally, you can make it scroll smoothly
             });
         }
-    }, []);
+    }, [scroll]);
 
 
 
@@ -134,10 +166,23 @@ export function AllConjugate() {
                 {buttonsArr.map((button, id) => (
                     <button
                         key={id}
-                        className={`btn ${buttonStyles[id] ? "btn-success" : "btn-outline btn-success"}`}
+                        className={levelIndex === id ? "btn btn-success" : "btn btn-outline btn-success"}
                         onClick={() => onClickButton(id)}
                     >
                         {button.name}
+                    </button>
+                ))}
+            </div>
+
+            <br/>
+
+            <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
+                {suffixButtonArr.map((suffixButton, index) => (
+                    <button
+                        className={suffixIndex === index ? "btn btn-warning" : "btn btn-outline btn-warning"}
+                        onClick={onClickSuffixButton(index)}
+                    >
+                        {suffixButton.name}
                     </button>
                 ))}
             </div>
