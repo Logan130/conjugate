@@ -19,7 +19,7 @@ export const InnerFrench = [
         book: "InnerFrench",
     },
     {
-        unit: "E24 La cuisine française est-elle demodee ?",
+        unit: "E24 La cuisine française est-elle demodée ?",
         words: InnerFrenchE24,
         tag: "Other",
         book: "InnerFrench",

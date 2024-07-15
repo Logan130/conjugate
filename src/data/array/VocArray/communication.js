@@ -40,6 +40,11 @@ import { CommunicationProgressifA2L32 } from '../../communication/communicationA
 import { CommunicationProgressifA2L33 } from '../../communication/communicationA2/L33';
 import { CommunicationProgressifA2L34 } from '../../communication/communicationA2/L34';
 import { CommunicationProgressifA2L35 } from '../../communication/communicationA2/L35';
+import { CommunicationProgressifA2L37 } from '../../communication/communicationA2/L37';
+import { CommunicationProgressifA2L36 } from '../../communication/communicationA2/L36';
+import { CommunicationProgressifA2L38 } from '../../communication/communicationA2/L38';
+import { CommunicationProgressifA2L39 } from '../../communication/communicationA2/L39';
+
 
 export const communicationA1 = [
     {
@@ -326,6 +331,32 @@ export const communicationA2 = [
         book: "A2",
         engUnit: "A2 L35 Surprise",
     },
-    
-
+    {
+        unit: "A2 L36 后悔",
+        words: CommunicationProgressifA2L36,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L36 Regret",
+    },
+    {
+        unit: "A2 L37 夸赞",
+        words: CommunicationProgressifA2L37,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L37 Compliment",
+    },
+    {
+        unit: "A2 L38 批评",
+        words: CommunicationProgressifA2L38,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L38 Criticize",
+    },
+    {
+        unit: "A2 L39 询问 建议",
+        words: CommunicationProgressifA2L39,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L39 Advice",
+    },
 ]

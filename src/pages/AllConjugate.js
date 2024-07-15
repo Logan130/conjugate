@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
 import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
 import { ConjugateRuleCards } from "../components/conjugate/ConjugateRuleCards"
+import { sortStringsBySuffixSimilarity } from "../components/shared/SimilarityCalculator"
 
 export function AllConjugate() {
     const { eng } = useContext(ThemeContext);
@@ -12,7 +13,6 @@ export function AllConjugate() {
     let [words, setWords] = useState(conjugates);
     let { scroll } = useParams();
 
-    // const [buttonStyles, setButtonStyles] = useState([true, false, false]);
     const [levelIndex, setLevelIndex] = useState(0);
     const [suffixIndex, setSuffixIndex] = useState(0);
 
@@ -35,7 +35,7 @@ export function AllConjugate() {
         {
             name: "B1",
             index: 2,
-            verbs: conjugates.filter((verb) => verb.level === "B1"),
+            verbs: sortStringsBySuffixSimilarity(conjugates.filter((verb) => verb.level === "B1")),
         },
     ])
 
@@ -96,9 +96,6 @@ export function AllConjugate() {
     let isMobile = window.innerWidth < 500;
 
     useEffect(() => {
-        // Scroll to the top of the page when component mounts
-        // window.scrollTo(0, 0); // Scrolls to top-left corner
-        // or
         if (!!scroll) {
             const element = document.getElementById('section1');
             if (element) {

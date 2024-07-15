@@ -40,3 +40,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+.flip-horizontal {
+  transform: rotateX(360deg);
+}
+
+/* CSS for sliding the card */
+.card-slide-left {
+  animation: slide-left 0.3s forwards;
+}
+
+.card-slide-right {
+  animation: slide-right 0.3s forwards;
+}
+
+@keyframes slide-left {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-right {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(100%);
+  }
+}

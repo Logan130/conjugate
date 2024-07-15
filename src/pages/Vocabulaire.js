@@ -10,6 +10,9 @@ import { communicationA1, communicationA2 } from '../data/array/VocArray/communi
 import { EditoB1 } from '../data/array/VocArray/edito';
 import { ThemeContext } from '../context/context';
 import { InnerFrench } from '../data/array/VocArray/innerfrench';
+import { FaLock, FaUnlock, FaKey } from "react-icons/fa";
+
+const apiKey = process.env.REACT_APP_API_KEY;
 
 export const lessons = [
     ...taxiA1A2,
@@ -21,6 +24,11 @@ export const lessons = [
     ...EditoB1,
     ...InnerFrench
 ]
+
+export const protectedLessonsMax = taxiA1A2.length +
+    taxiB1.length + communicationA1.length + communicationA2.length +
+    vocabulaireProgressifA1.length + vocabulaireProgressifA2.length +
+    EditoB1.length + InnerFrench.length
 
 const FilterArr = ["TaxiFilter", "CommunicationFilter", "VocabulaireFilter", "AutreFilter"];
 
@@ -167,9 +175,47 @@ const Images = ({ isIpadUser }) => {
     )
 }
 
-function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, reverse, truncate, titleStyle, buttonStyle, collapse, collpaseHandler }) {
+const TimedComponent = ({ visible }) => {
+    const { eng } = useContext(ThemeContext);
+    const [isVisible, setIsVisible] = useState(visible);
+
+    console.log("debug render", visible)
+
+    useEffect(() => {
+        setIsVisible(visible)
+    }, [visible])
+
+    useEffect(() => {
+        // Set a timer to hide the component after 3 seconds
+        const timer = setTimeout(() => {
+            setIsVisible(false);
+        }, 3000);
+
+        // Cleanup function to clear the timer if the component is unmounted
+        return () => clearTimeout(timer);
+    }, []); // Empty dependency array means this effect runs only once after the initial render
+
+    return (
+        <>
+            {isVisible && (
+                <>
+                    <br />
+                    <div role="alert" className="alert alert-error font-bold">
+                        <span>{eng ? 'you are not invited' : '你没有被邀请'}</span>
+                    </div>
+                </>
+            )}
+        </>
+    );
+};
+
+function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, reverse, truncate, titleStyle, buttonStyle, collapse, collpaseHandler, locked }) {
+    let [expanded, setExpanded] = useState(false);
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
+    let [matched, setMatched] = useState(!locked || localStorage.getItem('password') === apiKey)
+    let [passwordCorrect, setPasswordCorrect] = useState(null);
+    const [alertIsVisible, setAlertIsVisible] = useState(false);
 
     let targetArr = vocArr.filter((lesson) => lesson.book === filter);
     if (reverse) {
@@ -181,11 +227,77 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
 
     let vocButtonStyle = `btn btn-success ${buttonStyle}`
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
-    let genderButtonStyle = `btn btn-secondary ${buttonStyle}`
+    let genderButtonStyle = `btn btn-secondary ${buttonStyle}`;
+
+    const onClickUnlock = (e) => {
+        setExpanded(!expanded);
+    }
+    let [passwordValue, setPasswordValue] = useState('');
+    const onPasswordChange = (e) => {
+        setPasswordValue(e.target.value);
+        window.localStorage.setItem('password', e.target.value)
+    }
+
+    const onClickConfirm = (e) => {
+        let correct = passwordValue === apiKey;
+        setMatched(correct);
+        setPasswordCorrect(correct);
+        setAlertIsVisible(!correct);
+        const timer = setTimeout(() => {
+            setAlertIsVisible(false);
+        }, 1800);
+
+        // Clear the timer if the component is unmounted
+        return () => clearTimeout(timer);
+    }
+
+    // window.localStorage.clear();
 
     return (
         <>
-            <h1 className={isMobile ? "text-2xl mb-2" : "text-4xl mb-4"}>{title}</h1>
+            <div className={isMobile ? "text-2xl mb-2 flex justify-left" : "text-4xl mb-4 flex justify-left"}>
+                {title} &nbsp;&nbsp; {(locked && !matched) ?
+                    <>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg>
+                        <button onClick={onClickUnlock} className="btn btn-neutral ml-3">{eng ? 'unlock' : '解锁'}</button>
+                    </>
+
+                    :
+                    <></>}
+            </div>
+
+            {(expanded && !matched) &&
+                <>
+                    <div className='flex flex-row'>
+                        <label className="input input-bordered flex items-center gap-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 16 16"
+                                fill="currentColor"
+                                className="h-4 w-4 opacity-70">
+                                <path
+                                    fillRule="evenodd"
+                                    d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                                    clipRule="evenodd" />
+                            </svg>
+                            <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} />
+                        </label>
+                        <div>
+                            <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
+                        </div>
+                    </div>
+                    {passwordCorrect !== null && alertIsVisible &&
+                        <>
+                            <br />
+                            <div role="alert" className={`alert alert-error font-bold transition transition-opacity duration-5000 opacity-100`}>
+                                <span>{eng ? 'you are not invited' : '你没有被邀请'}</span>
+                            </div>
+                        </>
+                    }
+                    <br />
+                </>
+            }
+
             <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                 {buttonArr.map((button, index) => (
                     <button className={filter === filterArr[index] ? "btn btn-accent w-full" : "btn btn-accent btn-outline w-full"} onClick={filterHandler(filterArr[index])}>{button}</button>
@@ -193,30 +305,53 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
             </div>
             <br />
 
-            <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-                {targetArr.map((lesson, id) => (<>
-                    <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
-                        <div className={titleStyle}>
-                            <span className='ml-1 font-bold break-words'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
+            {(!locked || matched) &&
+                <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
+                    {targetArr.map((lesson, id) => (<>
+                        <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
+                            <div className={titleStyle}>
+                                <span className='ml-1 font-bold break-words'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
+                            </div>
+                            <div>
+                                <Link to={`/vocsum/${lesson.id}`} >
+                                    <button className={vocButtonStyle}>{eng ? "Voc" : "单词表"}</button>
+                                </Link>
+                            </div>
+                            <div>
+                                <Link to={`/vocunit/${lesson.id}/0`} >
+                                    <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
+                                </Link>
+                            </div>
+                            <div>
+                                <Link to={`/vocunit/${lesson.id}/1`} >
+                                    <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
+                                </Link>
+                            </div>
                         </div>
-                        <div>
-                            <Link to={`/vocsum/${lesson.id}`} >
-                                <button className={vocButtonStyle}>{eng ? "Voc" : "单词表"}</button>
-                            </Link>
+                    </>))}
+                </div>
+            }
+
+            {(locked && !matched) &&
+                <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
+                    {targetArr.map((lesson, id) => (<>
+                        <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
+                            <div className={titleStyle}>
+                                <span className='ml-1 font-bold break-words'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
+                            </div>
+                            <div>
+                                <button className={vocButtonStyle}><FaLock /></button>
+                            </div>
+                            <div>
+                                <button className={spellingButtonStyle}><FaLock /></button>
+                            </div>
+                            <div>
+                                <button className={genderButtonStyle}><FaLock /></button>
+                            </div>
                         </div>
-                        <div>
-                            <Link to={`/vocunit/${lesson.id}/0`} >
-                                <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to={`/vocunit/${lesson.id}/1`} >
-                                <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
-                            </Link>
-                        </div>
-                    </div>
-                </>))}
-            </div>
+                    </>))}
+                </div>
+            }
 
             <br />
             {!!collpaseHandler &&
@@ -328,6 +463,7 @@ export function VocabulairePage() {
             buttonStyle={isMobile ? "text-xs" : "text-base py-1"}
             collpaseHandler={undefined}
             collapse={undefined}
+            locked={false}
         />
 
 
@@ -346,6 +482,7 @@ export function VocabulairePage() {
             buttonStyle={isMobile ? (eng ? "text-xs p-2" : "text-xs p-1.5") : "text-base py-0"}
             collpaseHandler={handleCollape}
             collapse={commCollapsed}
+            locked={false}
         />
 
 
@@ -362,6 +499,7 @@ export function VocabulairePage() {
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             collpaseHandler={handleVocCollape}
             collapse={vocCollapsed}
+            locked={false}
         />
 
 
@@ -378,6 +516,7 @@ export function VocabulairePage() {
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             collpaseHandler={undefined}
             collapse={undefined}
+            locked={false}
         />
 
 

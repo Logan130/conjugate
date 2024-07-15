@@ -1,10 +1,12 @@
-import React, { useState, useEffect, useContext } from "react";
-import { lessons } from "../../pages/Vocabulaire";
+import React, { useState, useEffect, useContext, useRef } from "react";
+import { lessons, protectedLessonsMax } from "../../pages/Vocabulaire";
 import { useParams, Link } from 'react-router-dom';
 import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
+import { ErrorPage } from "../shared/404";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
-
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Modal = ({ onClose }) => {
     useEffect(() => {
@@ -45,9 +47,9 @@ export function ChineseParser(english, chinese) {
         let prevIndex = 0;
         for (let i = 0; i < englishIndices.length; i += 2) {
             returnedChineseString += chinese.substring(prevIndex, chineseIndices[i]);
-            returnedChineseString += english.substring(englishIndices[i], englishIndices[i+1]);
+            returnedChineseString += english.substring(englishIndices[i], englishIndices[i + 1]);
             returnedChineseString += ')';
-            prevIndex = chineseIndices[i+1]+1;
+            prevIndex = chineseIndices[i + 1] + 1;
         }
         returnedChineseString += chinese.substring(prevIndex);
         return returnedChineseString;
@@ -56,8 +58,8 @@ export function ChineseParser(english, chinese) {
     else if (englishIndices.length !== 0) {
         let returnedChineseString = chinese + ' ';
         for (let i = 0; i < englishIndices.length; i += 2) {
-            returnedChineseString += english.substring(englishIndices[i], englishIndices[i+1]);
-            returnedChineseString += (i +2 >= englishIndices.length) ? ')' : ') ';
+            returnedChineseString += english.substring(englishIndices[i], englishIndices[i + 1]);
+            returnedChineseString += (i + 2 >= englishIndices.length) ? ')' : ') ';
         }
         return returnedChineseString;
     }
@@ -65,50 +67,181 @@ export function ChineseParser(english, chinese) {
     return chinese;
 }
 
+function Cards({ words, chinese }) {
+    let isMobile = window.innerWidth < 500;
+    let [cardIndex, setCardIndex] = useState(0);
+    let [french, setFrench] = useState(true);
+    const [touchStart, setTouchStart] = useState(null);
+    const [touchEnd, setTouchEnd] = useState(null);
+
+    useEffect(() => {
+        setCardIndex(0);
+    }, [words]);
+
+    if (words.length === 0) {
+        return <></>
+    }
+
+    const onClickLeftArrow = (e) => {
+        e.stopPropagation();
+        setCardIndex(cardIndex === 0 ? 0 : cardIndex - 1);
+    }
+
+    const onClickRightArrow = (e) => {
+        e.stopPropagation();
+        setCardIndex(cardIndex === words.length - 1 ? cardIndex : cardIndex + 1);
+    }
+
+    const handleKeyDown = (e) => {
+        if (e.key === 'ArrowLeft') {
+            setCardIndex(cardIndex === 0 ? 0 : cardIndex - 1);
+        }
+        else if (e.key === 'ArrowRight') {
+            setCardIndex(cardIndex === words.length - 1 ? cardIndex : cardIndex + 1);
+        }
+        else if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+            e.preventDefault();
+            setFrench(!french);
+        }
+    };
+
+    const onClickCard = (e) => {
+        setFrench(!french);
+    }
+
+    const handleTouchStart = (e) => {
+        setTouchStart(e.targetTouches[0].clientX);
+    }
+
+    const handleTouchMove = (e) => {
+        setTouchEnd(e.targetTouches[0].clientX);
+    }
+
+    const handleTouchEnd = () => {
+        if (!touchStart || !touchEnd) return;
+        const distance = touchStart - touchEnd;
+        const SWIPE_THRESHOLD = 50;
+
+        if (distance > SWIPE_THRESHOLD) {
+            // Swiped left
+            setCardIndex(cardIndex === words.length - 1 ? cardIndex : cardIndex + 1);
+        } else if (distance < -SWIPE_THRESHOLD) {
+            // Swiped right
+            setCardIndex(cardIndex === 0 ? 0 : cardIndex - 1);
+        }
+
+        setTouchStart(null);
+        setTouchEnd(null);
+    }
+
+    return (
+        <>
+            <div className="flex items-center justify-center h-96">
+                <div
+                    className={`card bg-base-200 ${isMobile ? 'w-full' : 'w-1/3'} shadow-xl align-center justify-center transition-transform ease-in-out duration-1000 ${french ? 'flip-horizontal' : ''}`}
+                    onKeyDown={handleKeyDown}
+                    style={{ outline: 'none' }}
+                    tabIndex="0"
+                    onTouchStart={handleTouchStart}
+                    onTouchMove={handleTouchMove}
+                    onTouchEnd={handleTouchEnd}
+                >
+                    <figure>
+                        <p>
+                            {french ? 'french' : 'definition'}
+                        </p>
+                    </figure>
+
+                    <div className="card-body" onClick={onClickCard}>
+                        <br />
+                        <br />
+                        <p className="text-center text-3xl">
+                            {french ? ChineseParser(words[cardIndex].english, words[cardIndex].french)
+                            : 
+                            words[cardIndex].pos + " " + (chinese ? ChineseParser(words[cardIndex].english, words[cardIndex].chinese) : words[cardIndex].english)
+                            }
+                        </p>
+                        <br />
+                        <br />
+
+                        <div className="card-actions justify-evenly">
+                            <div className="btn" onClick={onClickLeftArrow}><FaArrowAltCircleLeft /></div>
+                            <div className="btn" onClick={onClickRightArrow}><FaArrowAltCircleRight /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+
 
 export function VocabulaireSummary() {
     const { eng } = useContext(ThemeContext);
     const { id } = useParams();
+
+    useEffect(() => {
+        if (id < lessons.length) {
+            setQuizletChinese(eng ? false : true);
+            setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
+        }
+    }, [eng])
+
+    useEffect(() => {
+        if (id < lessons.length) {
+            allWords = [];
+            for (let lesson of lessons[id].words.lessons) {
+                allWords = [...allWords, ...lessons[id]["words"][lesson]]
+            }
+            setWords(allWords);
+            setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)));
+            setVoc(allWords);
+            setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
+            setLessonButtonStyles(Array(lesson_arr.length).fill(false));
+            setLessonID(-1);
+            setNounOnly(false);
+            SetSortByLetter(0);
+            setPOSButtonID(0);
+        }
+    }, [id]);
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to top-left corner
+    }, []);
+
     let allWords = [];
 
-    for (let lesson of lessons[id].words.lessons) {
-        allWords = [...allWords, ...lessons[id]["words"][lesson]]
+    if (id < lessons.length) {
+        for (let lesson of lessons[id].words.lessons) {
+            allWords = [...allWords, ...lessons[id]["words"][lesson]]
+        }
     }
+
     let [words, setWords] = useState(allWords);
-    let lesson_arr = lessons[id].words.lessons;
+    let lesson_arr = id < lessons.length ? lessons[id].words.lessons : [];
     let [lessonID, setLessonID] = useState(-1)
     let [lessonButtonStyle, setLessonButtonStyles] = useState(Array(lesson_arr.length).fill(false));
     let [nouns, setNouns] = useState(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)))
-    let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
+    let [title, setTitle] = useState(id < lessons.length ?
+        ((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit) :
+        ""
+    );
     let isMobile = window.innerWidth < 500;
     let [nounOnly, setNounOnly] = useState(false);
     let [voc, setVoc] = useState(allWords);
     let [sortByLetter, SetSortByLetter] = useState(0);
     let [chinese, setChinese] = useState(false);
     let [quizletChinese, setQuizletChinese] = useState(eng ? false : true);
+    let [POSButtonID, setPOSButtonID] = useState(0);
 
-    useEffect(() => {
-        setQuizletChinese(eng ? false : true);
-        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
-    }, [eng])
+    if (id >= lessons.length) {
+        return <ErrorPage />
+    }
 
-    useEffect(() => {
-        allWords = [];
-
-        for (let lesson of lessons[id].words.lessons) {
-            allWords = [...allWords, ...lessons[id]["words"][lesson]]
-        }
-        setWords(allWords);
-        setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)));
-        setVoc(allWords);
-        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
-        setLessonButtonStyles(Array(lesson_arr.length).fill(false));
-        setLessonID(-1);
-        setNounOnly(false);
-        SetSortByLetter(0);
-        setPOSButtonID(0);
-
-    }, [id])
+    if (id >= protectedLessonsMax && localStorage.getItem('password') !== apiKey) {
+        return <ErrorPage />
+    }
 
     let buttonArr = [
         {
@@ -136,18 +269,6 @@ export function VocabulaireSummary() {
             flipped: true
         },
     ]
-    let [POSButtonID, setPOSButtonID] = useState(0);
-
-    useEffect(() => {
-        // Scroll to the top of the page when component mounts
-        window.scrollTo(0, 0); // Scrolls to top-left corner
-        // or
-        // window.scrollTo({
-        //     top: 0,
-        //     left: 0,
-        //     behavior: 'smooth' // Optionally, you can make it scroll smoothly
-        // });
-    }, []);
 
     const onClickSortLetter = (e) => {
         let newVoc = [...voc]
@@ -255,7 +376,7 @@ export function VocabulaireSummary() {
     return (
         <>
             <div className={isMobile ? "grid grid-cols-6 gap-1 text-xl align-center justify-center text-center" : "grid grid-cols-6 gap-1 text-4xl align-center justify-center text-center"}>
-                <Link to={`/vocsum/${(Number(id)-1) === -1 ? 0 : (Number(id)-1)}`} className="col-span-1">
+                <Link to={`/vocsum/${(Number(id) - 1) === -1 ? 0 : (Number(id) - 1)}`} className="col-span-1">
                     <button className="btn btn-circle mr-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -273,10 +394,10 @@ export function VocabulaireSummary() {
                 </Link>
 
                 <div className="col-span-4 text-center p-3">
-                {title}
+                    {title}
                 </div>
 
-                <Link to={`/vocsum/${((Number(id))+1 === lessons.length ? lessons.length-1 : (Number(id) + 1))}`} className="col-span-1">
+                <Link to={`/vocsum/${((Number(id)) + 1 === lessons.length ? lessons.length - 1 : (Number(id) + 1))}`} className="col-span-1">
                     <button className="btn btn-circle ml-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -364,8 +485,8 @@ export function VocabulaireSummary() {
                             <tr className={isMobile ? "" : "text-lg"}>
                                 <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
                                 {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
-                                <th className={isMobile ? "" : "text-sm"}> 
-                                {chinese ? ChineseParser(word.english, word.chinese) : word.english}
+                                <th className={isMobile ? "" : "text-sm"}>
+                                    {chinese ? ChineseParser(word.english, word.chinese) : word.english}
                                 </th>
                             </tr>
                         </>))}
@@ -374,8 +495,8 @@ export function VocabulaireSummary() {
             </div>
 
 
-
-
+            <br />
+            <Cards words={voc} chinese={chinese}/>
 
 
 
