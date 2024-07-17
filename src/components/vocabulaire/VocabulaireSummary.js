@@ -157,8 +157,8 @@ function Cards({ words, chinese }) {
                         <br />
                         <p className="text-center text-3xl">
                             {french ? ChineseParser(words[cardIndex].english, words[cardIndex].french)
-                            : 
-                            words[cardIndex].pos + " " + (chinese ? ChineseParser(words[cardIndex].english, words[cardIndex].chinese) : words[cardIndex].english)
+                                :
+                                words[cardIndex].pos + " " + (chinese ? ChineseParser(words[cardIndex].english, words[cardIndex].chinese) : words[cardIndex].english)
                             }
                         </p>
                         <br />
@@ -173,6 +173,57 @@ function Cards({ words, chinese }) {
             </div>
         </>
     )
+}
+
+function Title({ title, id }) {
+    let isMobile = window.innerWidth < 500;
+    return (<>
+        <div className={isMobile ? "grid grid-cols-6 gap-1 text-xl align-center justify-center text-center" : "grid grid-cols-6 gap-1 text-4xl align-center justify-center text-center"}>
+            <Link to={`/vocsum/${(Number(id) - 1) === -1 ? 0 : (Number(id) - 1)}`} className="col-span-1">
+                <button className="btn btn-circle mr-2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={isMobile ? "h-6 w-6" : "h-6 w-6"}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+            </Link>
+
+            <div className="col-span-4 text-center p-3">
+                {title}
+            </div>
+
+            <Link to={`/vocsum/${((Number(id)) + 1 === lessons.length ? lessons.length - 1 : (Number(id) + 1))}`} className="col-span-1">
+                <button className="btn btn-circle ml-2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 6l6 6-6 6"
+                        />
+                    </svg>
+                </button>
+            </Link>
+
+
+
+        </div>
+        <br />
+    </>)
 }
 
 
@@ -372,55 +423,46 @@ export function VocabulaireSummary() {
         document.getElementById('my_modal_2').showModal()
     };
 
+    const copyToClipBoardGPT = () => {
+        let textToCopy =
+            `
+        I am a French learner. Imagine you are a French teacher for students. Help me learn all of these words by giving me sentences, paragraphs, and reading. The sentences should have a variety of grammatical structures, conjugates, and other language skills. You should shuffle the order of the words. You are also encouraged to include multiple words in a sentence or paragraph. 
+
+        When you give examples, remember to put numbered labels before the sentences.  Please give me 15 sentences and 3 paragraphs as examples. Each paragraph should be about 100 words. In addition, all the words from the vocabulary should be emboldened in the examples. You must include the English translation of your examples. Your examples must follow this format:
+        
+        1. example sentence (English translation)
+        2. example sentence (English translation)
+        3. example sentence (English translation)
+        4. example sentence (English translation)
+        ...
+        
+        
+        1. example paragraph 
+        (English translation of the paragraph)
+        2. example paragraph 
+        (English translation of the paragraph)
+        
+        Here are the words:
+        `;
+
+        textToCopy += voc.map(item =>
+            `${item.french}\t\t${item.pos} ${item.english} `
+        ).join('\n');
+
+        textToCopy += `\n\n
+        --------------------------------
+        IMPORTANT!!!
+        MAKE SURE TO INCLUDE ALL THE WORDS LISTED ABOVE
+        --------------------------------
+        `;
+        navigator.clipboard.writeText(textToCopy);
+        document.getElementById('my_modal_2').showModal()
+    }
+
 
     return (
         <>
-            <div className={isMobile ? "grid grid-cols-6 gap-1 text-xl align-center justify-center text-center" : "grid grid-cols-6 gap-1 text-4xl align-center justify-center text-center"}>
-                <Link to={`/vocsum/${(Number(id) - 1) === -1 ? 0 : (Number(id) - 1)}`} className="col-span-1">
-                    <button className="btn btn-circle mr-2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className={isMobile ? "h-6 w-6" : "h-6 w-6"}
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M15 19l-7-7 7-7" />
-                        </svg>
-                    </button>
-                </Link>
-
-                <div className="col-span-4 text-center p-3">
-                    {title}
-                </div>
-
-                <Link to={`/vocsum/${((Number(id)) + 1 === lessons.length ? lessons.length - 1 : (Number(id) + 1))}`} className="col-span-1">
-                    <button className="btn btn-circle ml-2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M9 6l6 6-6 6"
-                            />
-                        </svg>
-                    </button>
-                </Link>
-
-
-
-            </div>
-            <br />
-
+            <Title id={id} title={title} />
 
             <div>
                 <div className={isMobile ? "grid grid-cols-5 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
@@ -436,7 +478,7 @@ export function VocabulaireSummary() {
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                     {lesson_arr.map((les, lesson_id) => (<>
-                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all" : "btn btn-success btn-outline w-full break-all"} onClick={onClickLessonButton(lesson_id, les)}>
+                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all p-1" : "btn btn-success btn-outline w-full break-all p-1"} onClick={onClickLessonButton(lesson_id, les)}>
                             {(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}
                         </button>
                     </>))}
@@ -459,10 +501,6 @@ export function VocabulaireSummary() {
             <br />
 
 
-
-
-
-
             <div className="overflow-x-auto">
                 <table className="table table-xs">
                     {/* head */}
@@ -471,11 +509,6 @@ export function VocabulaireSummary() {
                             <th className={POSButtonID === 2 ? (isMobile ? "text-lg w-40" : "text-lg w-60") : "text-lg w-20"}>{eng ? "voc" : "单词"}</th>
                             {(!isMobile || POSButtonID !== 2) && <th className="text-lg w-10 cursor-pointer hover:bg-sky-700 rounded-lg" onClick={onClickSortLetter}>{eng ? "POS" : "词性"}{ArrowComponent()}</th>}
                             <th className="text-lg cursor-pointer" onClick={onClickChinese}><div className="flex justify-left"> <p className={isMobile ? "flex justify-left text-amber-600" : "hover:bg-sky-700 rounded-lg flex justify-left text-amber-600"}>{eng ? "def" : "释义"} <RiTranslate /></p>  </div></th>
-                            {/* <th>
-                                <button className="btn btn-active btn-neutral">
-                                <div className="flex justify-left"> <p className="flex justify-left">释义 <RiTranslate /></p>  </div>
-                                </button>
-                            </th> */}
                         </tr>
                     </thead>
                     <tbody>
@@ -496,7 +529,7 @@ export function VocabulaireSummary() {
 
 
             <br />
-            <Cards words={voc} chinese={chinese}/>
+            <Cards words={voc} chinese={chinese} />
 
 
 
@@ -509,7 +542,6 @@ export function VocabulaireSummary() {
                     readOnly
                     value={
                         voc.map(item =>
-                            // POSButtonID === 2 ? `${item.french}\t\t${item.english} ${quizletChinese ? item.chinese : ""}` : `${item.french}\t\t${item.pos} ${item.english} ${quizletChinese ? item.chinese : ""}`
                             `${item.french}\t\t${item.pos} ${item.english} ${quizletChinese ? item.chinese : ""}`
                         ).join('\n')
                     }
@@ -518,7 +550,8 @@ export function VocabulaireSummary() {
 
             <button className="btn btn-outline btn-error mt-2" onClick={copyToClipboard}>{eng ? "Copy" : "复制"}</button>
             <button className="btn btn-outline btn-error ml-4 mt-2" onClick={() => setQuizletChinese(!quizletChinese)}>{quizletChinese ? (eng ? "Delete Chinese" : "去除中文") : (eng ? "Show Chinese" : "保留中文")}</button>
-            {/* {modalVisible && <Modal onClose={hideModal} />} */}
+            <button className="btn btn-outline btn-error ml-4 mt-2" onClick={copyToClipBoardGPT}>{eng ? "Prompt" : "LLM指令"}</button>
+
 
             <dialog id="my_modal_2" className="modal">
                 <div className="modal-box">

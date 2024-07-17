@@ -215,15 +215,31 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
     let isMobile = window.innerWidth < 850;
     let [matched, setMatched] = useState(!locked || localStorage.getItem('password') === apiKey)
     let [passwordCorrect, setPasswordCorrect] = useState(null);
-    const [alertIsVisible, setAlertIsVisible] = useState(false);
+    let [alertIsVisible, setAlertIsVisible] = useState(false);
+    let [page, setPage] = useState(0);
+    let lessonsPerPage = (isMobile ? 6 : 10);
 
     let targetArr = vocArr.filter((lesson) => lesson.book === filter);
+    // console.log("debug2", filter, title, vocArr, targetArr)
+    let totalUnits = targetArr.length;
     if (reverse) {
         targetArr = targetArr.reverse();
     }
     if (truncate !== undefined && truncate) {
-        targetArr = targetArr.slice(0, (isMobile ? 5 : 10))
+        // targetArr = targetArr.slice(0, (isMobile ? 5 : 10))
+        // targetArr = targetArr.slice(0, lessonsPerPage)
     }
+
+    useEffect(() => {
+        targetArr = vocArr.filter((lesson) => lesson.book === filter);
+        if (reverse) {
+            targetArr = targetArr.reverse();
+        }
+
+        setUnits(targetArr.slice(0, lessonsPerPage))
+    }, [filter])
+
+    let [units, setUnits] = useState(targetArr.slice(0, lessonsPerPage));
 
     let vocButtonStyle = `btn btn-success ${buttonStyle}`
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
@@ -252,6 +268,16 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
     }
 
     // window.localStorage.clear();
+
+    let maxPageNumber = Math.ceil(totalUnits / lessonsPerPage);
+    const onClickPage = (diff) => (e) => {
+        let pageNumber = page + diff;
+        if (pageNumber < 0 || pageNumber >= maxPageNumber) {
+            return;
+        }
+        setUnits(targetArr.slice(lessonsPerPage * pageNumber, lessonsPerPage * (pageNumber + 1)));
+        setPage(pageNumber);
+    }
 
     return (
         <>
@@ -307,10 +333,10 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
 
             {(!locked || matched) &&
                 <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-                    {targetArr.map((lesson, id) => (<>
+                    {units.map((lesson, id) => (<>
                         <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
                             <div className={titleStyle}>
-                                <span className='ml-1 font-bold break-words'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
+                                <span className='ml-1 font-bold break-all'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
                             </div>
                             <div>
                                 <Link to={`/vocsum/${lesson.id}`} >
@@ -334,10 +360,10 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
 
             {(locked && !matched) &&
                 <div class={isMobile ? "grid grid-cols-1 gap-1" : "grid grid-cols-2 gap-2"}>
-                    {targetArr.map((lesson, id) => (<>
+                    {units.map((lesson, id) => (<>
                         <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
                             <div className={titleStyle}>
-                                <span className='ml-1 font-bold break-words'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
+                                <span className='ml-1 font-bold break-all'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
                             </div>
                             <div>
                                 <button className={vocButtonStyle}><FaLock /></button>
@@ -354,12 +380,24 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
             }
 
             <br />
-            {!!collpaseHandler &&
+            {/* {!!collpaseHandler &&
                 <span class="flex justify-center">
                     <button className="btn btn-neutral w-full" onClick={collpaseHandler}>{collapse ? (eng ? "Collapse" : "折叠") : (eng ? "Expand" : "展开")}</button>
                 </span>
+            } */}
+
+            {
+                (lessonsPerPage < targetArr.length && <>
+                    <div className={isMobile ? "join grid grid-cols-2 w-1/2" : "join grid grid-cols-2 w-1/3"}>
+                        <button className="join-item btn btn-outline btn-accent" onClick={onClickPage(-1)}>{eng ? 'prev' : "前一页"}</button>
+                        <button className="join-item btn btn-outline btn-accent" onClick={onClickPage(1)}>{eng ? 'next' : "后一页"}</button>
+                    </div>
+                </>)
             }
+
             <div className="divider"></div>
+
+
         </>
     )
 }
@@ -431,6 +469,7 @@ export function VocabulairePage() {
 
     let [vocabulaireFilter, setVocabulaireFilter] = useState(getFilterSession(1));
     const onClickVocabulaireFilter = (filter) => (e) => {
+        console.log(filter, "debug2")
         setVocabulaireFilter(filter);
         window.localStorage.setItem(FilterArr[1], filter);
     }

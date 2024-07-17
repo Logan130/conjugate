@@ -44,6 +44,9 @@ import { CommunicationProgressifA2L37 } from '../../communication/communicationA
 import { CommunicationProgressifA2L36 } from '../../communication/communicationA2/L36';
 import { CommunicationProgressifA2L38 } from '../../communication/communicationA2/L38';
 import { CommunicationProgressifA2L39 } from '../../communication/communicationA2/L39';
+import { CommunicationProgressifA2L40 } from '../../communication/communicationA2/L40';
+import { CommunicationProgressifA2L41 } from '../../communication/communicationA2/L41';
+import { CommunicationProgressifA2L42 } from '../../communication/communicationA2/L42';
 
 
 export const communicationA1 = [
@@ -358,5 +361,26 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L39 Advice",
+    },
+    {
+        unit: "A2 L40 观点",
+        words: CommunicationProgressifA2L40,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L40 Opinion",
+    },
+    {
+        unit: "A2 L41 赞同反对",
+        words: CommunicationProgressifA2L41,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L41 Agree, Disagree",
+    },
+    {
+        unit: "A2 L42 希望",
+        words: CommunicationProgressifA2L42,
+        tag: "Communication Progressive",
+        book: "A2",
+        engUnit: "A2 L42 Hope",
     },
 ]
