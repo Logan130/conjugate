@@ -1,5 +1,5 @@
 import { Table } from "../components/conjugate/ConjugationList"
-import { useState, useEffect, useContext } from "react"
+import { useState, useEffect, useContext, useRef } from "react"
 import { conjugates } from "../data/conjugation/conjugates"
 import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
@@ -15,6 +15,21 @@ export function AllConjugate() {
 
     const [levelIndex, setLevelIndex] = useState(0);
     const [suffixIndex, setSuffixIndex] = useState(0);
+    const divRef = useRef([null]);
+    const [isLoaded, setIsLoaded] = useState(false);
+
+    useEffect(() => {
+        const divElement = divRef.current;
+        if (divElement) {
+            // Trigger a reflow to ensure the transition will be applied
+            divElement.classList.add('opacity-100');
+        }
+    }, []);
+
+    useEffect(() => {
+        setIsLoaded(true);
+        return () => setIsLoaded(false);
+      }, []);
 
     let buttonsArr = ([
         {
@@ -43,35 +58,35 @@ export function AllConjugate() {
         {
             name: eng ? "All" : "全部",
             value: ''
-        }, 
+        },
         {
             name: 'ir',
             value: 'ir'
-        }, 
+        },
         {
             name: 're',
             value: 're'
-        }, 
+        },
         {
             name: 'er',
             value: 'er'
-        }, 
+        },
         {
             name: 'oir',
             value: 'oir'
-        }, 
+        },
         {
             name: 'dre',
             value: 'dre'
-        }, 
+        },
         {
             name: 'tre',
             value: 'tre'
-        }, 
+        },
         {
             name: 'ire',
             value: 'ire'
-        }, 
+        },
     ]
 
 
@@ -85,7 +100,7 @@ export function AllConjugate() {
         setWords(newWords);
     };
 
-    const onClickSuffixButton = (suffixID) => (e) => {   
+    const onClickSuffixButton = (suffixID) => (e) => {
         setSuffixIndex(suffixID);
         setSuffixIndex(suffixID);
         let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
@@ -114,29 +129,38 @@ export function AllConjugate() {
 
 
     return (
-        <>
+        <div>
             <h1 className={isMobile ? "text-2xl mb-2 font-bold" : "text-4xl mb-4 font-bold"}>{eng ? "About" : "介绍"}</h1>
 
-            <p>
-                {eng ?
-                    "This site provides three different modes for practice: conjugation, spelling, and gender. You can easily access these modes through the navigation bar or on this page. It is recommended to view this site using a computer or a phone, preferably on Chrome or Safari browsers. Please note that the frontend code has not been optimized specifically for iPad compatibility."
-                    :
-                    "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页和屏幕最上方的导航栏都可以找到。目前建议用手机或电脑的Chrome或Safari浏览器浏览，代码还没适配ipad，ipad看可能轻微变形"
-                }
-            </p>
-            <br />
-            <p>
-                {eng ?
-                    "When it comes to conjugations, I have included eight different forms: six for the indicative present tense, along with the future root and the past participle. Most conjugations can be derived from these eight forms. To access a comprehensive list of conjugation rules and examples, you can simply scroll down on the page."
-                    :
-                    `动词变位只听写8个形式：直现的六个、过去分词、简将词根。
+            <div
+                className={'transition-opacity duration-1000 ease-in-out opacity-0'}
+                ref={divRef}
+            >
+                <p
+                >
+                    {eng ?
+                        "This site provides three different modes for practice: conjugation, spelling, and gender. You can easily access these modes through the navigation bar or on this page. It is recommended to view this site using a computer or a phone, preferably on Chrome or Safari browsers. Please note that the frontend code has not been optimized specifically for iPad compatibility."
+                        :
+                        "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页和屏幕最上方的导航栏都可以找到。目前建议用手机或电脑的Chrome或Safari浏览器浏览，代码还没适配ipad，ipad看可能轻微变形"
+                    }
+                </p>
+                <br />
+                <p
+                >
+                    {eng ?
+                        "When it comes to conjugations, I have included eight different forms: six for the indicative present tense, along with the future root and the past participle. Most conjugations can be derived from these eight forms. To access a comprehensive list of conjugation rules and examples, you can simply scroll down on the page."
+                        :
+                        `动词变位只听写8个形式：直现的六个、过去分词、简将词根。
                 除了极少数特殊情况，大部分常用时态语式的变位都可以通过这8个变位推导出来，
                 不规则动词需要重点记忆的应该就这8个。往下滑你能看到规则和课文里所有的不规则动词`}
-            </p>
+                </p>
+
+            </div>
 
             <br />
 
-            <ConjugateRuleCards />
+            <ConjugateRuleCards
+            />
 
 
             <br id="section1" />
@@ -171,7 +195,7 @@ export function AllConjugate() {
                 ))}
             </div>
 
-            <br/>
+            <br />
 
             <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                 {suffixButtonArr.map((suffixButton, index) => (
@@ -198,6 +222,6 @@ export function AllConjugate() {
                 <div className="divider"></div>
             </div>
 
-        </>
+        </div>
     )
 }

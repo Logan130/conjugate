@@ -18,6 +18,7 @@ import { wordsTaxiA2U7 } from '../../taxi/taxi2/u7';
 import { wordsTaxiA2U8 } from '../../taxi/taxi2/u8';
 import { wordsTaxiA2U9 } from '../../taxi/taxi2/u9';
 import { wordsTaxiB1U1 } from '../../taxi/taxi3/u1';
+import { wordsTaxiB1U10 } from "../../taxi/taxi3/u10";
 import { wordsTaxiB1U2 } from "../../taxi/taxi3/u2";
 import { wordsTaxiB1U3 } from "../../taxi/taxi3/u3";
 import { wordsTaxiB1U4 } from "../../taxi/taxi3/u4";
@@ -25,6 +26,7 @@ import { wordsTaxiB1U5 } from "../../taxi/taxi3/u5";
 import { wordsTaxiB1U6 } from "../../taxi/taxi3/u6";
 import { wordsTaxiB1U7 } from "../../taxi/taxi3/u7";
 import { wordsTaxiB1U8 } from "../../taxi/taxi3/u8";
+import { wordsTaxiB1U9 } from "../../taxi/taxi3/u9";
 
 
 
@@ -186,6 +188,18 @@ export const taxiB1 = [
     {
         unit: "Taxi B1 U8",
         words: wordsTaxiB1U8,
+        tag: "Taxi",
+        book: "B1",
+    },
+    {
+        unit: "Taxi B1 U9",
+        words: wordsTaxiB1U9,
+        tag: "Taxi",
+        book: "B1",
+    },
+    {
+        unit: "Taxi B1 U10",
+        words: wordsTaxiB1U10,
         tag: "Taxi",
         book: "B1",
     },

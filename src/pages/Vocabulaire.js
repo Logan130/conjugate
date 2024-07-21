@@ -25,6 +25,12 @@ export const lessons = [
     ...InnerFrench
 ]
 
+export let protectedLessonsIndex = new Set();
+// for (let i = 0; i < communicationA1.length + communicationA2.length; i++) {
+//     let index = taxiA1A2.length + taxiB1.length + i;
+//     protectedLessonsIndex.add(index);
+// }
+
 export const protectedLessonsMax = taxiA1A2.length +
     taxiB1.length + communicationA1.length + communicationA2.length +
     vocabulaireProgressifA1.length + vocabulaireProgressifA2.length +
@@ -218,6 +224,7 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
     let [alertIsVisible, setAlertIsVisible] = useState(false);
     let [page, setPage] = useState(0);
     let lessonsPerPage = (isMobile ? 6 : 10);
+    let [missing, setMissing] = useState(0);
 
     let targetArr = vocArr.filter((lesson) => lesson.book === filter);
     // console.log("debug2", filter, title, vocArr, targetArr)
@@ -237,6 +244,8 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
         }
 
         setUnits(targetArr.slice(0, lessonsPerPage))
+        setMissing(0);
+        setPage(0);
     }, [filter])
 
     let [units, setUnits] = useState(targetArr.slice(0, lessonsPerPage));
@@ -262,20 +271,24 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
         const timer = setTimeout(() => {
             setAlertIsVisible(false);
         }, 1800);
-
-        // Clear the timer if the component is unmounted
         return () => clearTimeout(timer);
     }
 
     // window.localStorage.clear();
-
-    let maxPageNumber = Math.ceil(totalUnits / lessonsPerPage);
     const onClickPage = (diff) => (e) => {
+        let maxPageNumber = Math.ceil(targetArr.length / lessonsPerPage);
         let pageNumber = page + diff;
         if (pageNumber < 0 || pageNumber >= maxPageNumber) {
             return;
         }
         setUnits(targetArr.slice(lessonsPerPage * pageNumber, lessonsPerPage * (pageNumber + 1)));
+        if (pageNumber === maxPageNumber - 1) {
+            setMissing((lessonsPerPage - (totalUnits % lessonsPerPage)) % lessonsPerPage);
+            console.log("missing", Array((lessonsPerPage - (totalUnits % lessonsPerPage)) % lessonsPerPage))
+        }
+        else {
+            setMissing(0)
+        }
         setPage(pageNumber);
     }
 
@@ -355,6 +368,29 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
                             </div>
                         </div>
                     </>))}
+
+                    {Array(missing).fill(0).map((mis, id) => <>
+                        <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
+                            <div className={titleStyle}>
+                                <span className='ml-1 font-bold break-all'>{" "}</span>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={vocButtonStyle}>{eng ? "Voc" : "单词表"}</button>
+                                </Link>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
+                                </Link>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </>)}
                 </div>
             }
 
@@ -376,6 +412,29 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
                             </div>
                         </div>
                     </>))}
+
+                    {Array(missing).fill(0).map((mis, id) => <>
+                        <div className={isMobile ? 'flex justify-between gap-2 mb-2 bg-base-100 rounded-lg' : 'flex justify-start gap-2 mb-2 bg-base-100 w-1/1 rounded-lg'}>
+                            <div className={titleStyle}>
+                                <span className='ml-1 font-bold break-all'>{" "}</span>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={vocButtonStyle}>{eng ? "Voc" : "单词表"}</button>
+                                </Link>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
+                                </Link>
+                            </div>
+                            <div className='opacity-0'>
+                                <Link >
+                                    <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </>)}
                 </div>
             }
 
@@ -514,7 +573,7 @@ export function VocabulairePage() {
             filter={communicationFilter}
             filterArr={["A2", "A1"]}
             filterHandler={onClickCommunicationFilter}
-            buttonArr={["A2", "A1"]}
+            buttonArr={["A2-B1", "A1-A2"]}
             reverse={true}
             truncate={!commCollapsed}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
@@ -531,7 +590,7 @@ export function VocabulairePage() {
             filter={vocabulaireFilter}
             filterArr={["A2", "A1"]}
             filterHandler={onClickVocabulaireFilter}
-            buttonArr={["A2", "A1"]}
+            buttonArr={["A2-B1", "A1-A2"]}
             reverse={false}
             truncate={!vocCollapsed}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}

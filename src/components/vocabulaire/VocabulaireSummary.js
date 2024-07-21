@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext, useRef } from "react";
-import { lessons, protectedLessonsMax } from "../../pages/Vocabulaire";
+import { lessons, protectedLessonsMax, protectedLessonsIndex } from "../../pages/Vocabulaire";
 import { useParams, Link } from 'react-router-dom';
 import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
@@ -290,7 +290,8 @@ export function VocabulaireSummary() {
         return <ErrorPage />
     }
 
-    if (id >= protectedLessonsMax && localStorage.getItem('password') !== apiKey) {
+    console.log("protectedLessonsIndex", protectedLessonsIndex)
+    if (protectedLessonsIndex.has(Number(id)) && localStorage.getItem('password') !== apiKey) {
         return <ErrorPage />
     }
 
@@ -506,6 +507,7 @@ export function VocabulaireSummary() {
                     {/* head */}
                     <thead>
                         <tr>
+                            <th className="w-1"></th>
                             <th className={POSButtonID === 2 ? (isMobile ? "text-lg w-40" : "text-lg w-60") : "text-lg w-20"}>{eng ? "voc" : "单词"}</th>
                             {(!isMobile || POSButtonID !== 2) && <th className="text-lg w-10 cursor-pointer hover:bg-sky-700 rounded-lg" onClick={onClickSortLetter}>{eng ? "POS" : "词性"}{ArrowComponent()}</th>}
                             <th className="text-lg cursor-pointer" onClick={onClickChinese}><div className="flex justify-left"> <p className={isMobile ? "flex justify-left text-amber-600" : "hover:bg-sky-700 rounded-lg flex justify-left text-amber-600"}>{eng ? "def" : "释义"} <RiTranslate /></p>  </div></th>
@@ -516,6 +518,7 @@ export function VocabulaireSummary() {
 
                         {voc.map((word, id) => (<>
                             <tr className={isMobile ? "" : "text-lg"}>
+                                <th className="w-1 opacity-50">{id+1}</th>
                                 <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
                                 {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
                                 <th className={isMobile ? "" : "text-sm"}>
@@ -534,7 +537,9 @@ export function VocabulaireSummary() {
 
 
             <br /><br />
-            <h1 className="text-xl">{eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
+            <h1 className="text-xl">· {eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
+            <h1 className="text-xl">· {eng ? "Once input into GPT, the prompt from the prompt button generates example sentences using the words above" : "点击LLM指令按钮即可获取指令，输入GPT可生成用以上词组造的例句"}</h1>
+
 
             <div>
                 <textarea
