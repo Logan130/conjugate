@@ -7,18 +7,18 @@ import { wordsTaxiA1U6 } from "../../taxi/taxi1/u6";
 import { wordsTaxiA1U7 } from "../../taxi/taxi1/u7";
 import { wordsTaxiA1U8 } from "../../taxi/taxi1/u8";
 import { wordsTaxiA1U9 } from "../../taxi/taxi1/u9";
+
 import { wordsTaxiA2U1 } from '../../taxi/taxi2/u1';
 import { wordsTaxiA2U2 } from '../../taxi/taxi2/u2';
 import { wordsTaxiA2U3 } from '../../taxi/taxi2/u3';
 import { wordsTaxiA2U4 } from '../../taxi/taxi2/u4';
 import { wordsTaxiA2U5 } from '../../taxi/taxi2/u5';
-
 import { wordsTaxiA2U6 } from '../../taxi/taxi2/u6';
 import { wordsTaxiA2U7 } from '../../taxi/taxi2/u7';
 import { wordsTaxiA2U8 } from '../../taxi/taxi2/u8';
 import { wordsTaxiA2U9 } from '../../taxi/taxi2/u9';
+
 import { wordsTaxiB1U1 } from '../../taxi/taxi3/u1';
-import { wordsTaxiB1U10 } from "../../taxi/taxi3/u10";
 import { wordsTaxiB1U2 } from "../../taxi/taxi3/u2";
 import { wordsTaxiB1U3 } from "../../taxi/taxi3/u3";
 import { wordsTaxiB1U4 } from "../../taxi/taxi3/u4";
@@ -27,7 +27,10 @@ import { wordsTaxiB1U6 } from "../../taxi/taxi3/u6";
 import { wordsTaxiB1U7 } from "../../taxi/taxi3/u7";
 import { wordsTaxiB1U8 } from "../../taxi/taxi3/u8";
 import { wordsTaxiB1U9 } from "../../taxi/taxi3/u9";
-
+import { wordsTaxiB1U10 } from "../../taxi/taxi3/u10";
+import { wordsTaxiB1U11 } from "../../taxi/taxi3/u11";
+import { wordsTaxiB1U12 } from "../../taxi/taxi3/u12";
+import { wordsAlterEgoB2U1 } from "../../taxi/alterego4/u1";
 
 
 export const taxiA1A2 = [
@@ -202,5 +205,26 @@ export const taxiB1 = [
         words: wordsTaxiB1U10,
         tag: "Taxi",
         book: "B1",
+    },
+    {
+        unit: "Taxi B1 U11",
+        words: wordsTaxiB1U11,
+        tag: "Taxi",
+        book: "B1",
+    },
+    {
+        unit: "Taxi B1 U12",
+        words: wordsTaxiB1U12,
+        tag: "Taxi",
+        book: "B1",
+    },
+]
+
+export const alterEgoB2 = [
+    {
+        unit: "Alter Ego B2 D1",
+        words: wordsAlterEgoB2U1,
+        tag: "Taxi",
+        book: "B2",
     },
 ]

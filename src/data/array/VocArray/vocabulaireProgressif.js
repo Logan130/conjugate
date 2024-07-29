@@ -46,6 +46,7 @@ import { VocabulaireProgressifA2L22 } from '../../vocabulaire/vocabulaireA2/L22'
 import { VocabulaireProgressifA2L23 } from '../../vocabulaire/vocabulaireA2/L23';
 import { VocabulaireProgressifA2L24 } from '../../vocabulaire/vocabulaireA2/L24';
 import { VocabulaireProgressifA2L25 } from '../../vocabulaire/vocabulaireA2/L25';
+import { VocabulaireProgressifB1L1 } from '../../vocabulaire/vocabulaireB1/L1';
 
 
 
@@ -393,4 +394,14 @@ export const vocabulaireProgressifA2 = [
         book: "A2",
         engUnit: "Voc A2 L25 Culture & Art",
     }, 
+]
+
+export const vocabulaireProgressifB1 = [
+    {
+        unit: "Voc B1 L1 数量",
+        words: VocabulaireProgressifB1L1,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L1 Quantities",
+    },
 ]

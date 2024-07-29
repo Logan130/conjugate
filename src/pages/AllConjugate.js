@@ -141,7 +141,7 @@ export function AllConjugate() {
                     {eng ?
                         "This site provides three different modes for practice: conjugation, spelling, and gender. You can easily access these modes through the navigation bar or on this page. It is recommended to view this site using a computer or a phone, preferably on Chrome or Safari browsers. Please note that the frontend code has not been optimized specifically for iPad compatibility."
                         :
-                        "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页和屏幕最上方的导航栏都可以找到。目前建议用手机或电脑的Chrome或Safari浏览器浏览，代码还没适配ipad，ipad看可能轻微变形"
+                        "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页汤姆猫卡片和屏幕最上方的导航栏都可以找到。目前建议用手机或电脑的Chrome或Safari浏览器浏览，代码还没适配ipad，ipad看可能轻微变形"
                     }
                 </p>
                 <br />

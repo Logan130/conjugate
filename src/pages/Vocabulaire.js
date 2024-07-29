@@ -4,8 +4,8 @@ import TwelfthNight from '../static/12night.jpeg'
 import Orlando from '../static/orlando.jpeg'
 
 import { useEffect, useState, useContext, useRef } from 'react';
-import { taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
-import { vocabulaireProgressifA1, vocabulaireProgressifA2 } from '../data/array/VocArray/vocabulaireProgressif';
+import { alterEgoB2, taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
+import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from '../data/array/VocArray/vocabulaireProgressif';
 import { communicationA1, communicationA2 } from '../data/array/VocArray/communication';
 import { EditoB1 } from '../data/array/VocArray/edito';
 import { ThemeContext } from '../context/context';
@@ -17,10 +17,12 @@ const apiKey = process.env.REACT_APP_API_KEY;
 export const lessons = [
     ...taxiA1A2,
     ...taxiB1,
+    ...alterEgoB2, 
     ...communicationA1,
     ...communicationA2,
     ...vocabulaireProgressifA1,
     ...vocabulaireProgressifA2,
+    ...vocabulaireProgressifB1, 
     ...EditoB1,
     ...InnerFrench
 ]
@@ -548,24 +550,22 @@ export function VocabulairePage() {
     return (<>
         <Images isIpadUser={isIpadUser} />
 
-
         <Section
-            title={'Taxi'}
+            title={'Taxi & Alter Ego'}
             vocArr={TaxiArr}
             filter={taxiFilter}
-            filterArr={["B1", "A2", "A1"]}
+            filterArr={["B2", "B1", "A2", "A1"]}
             filterHandler={onClickTaxiFilter}
-            buttonArr={["B1", "A2", "A1"]}
+            buttonArr={["B2", "B1", "A2", "A1"]}
             reverse={true}
-            titleStyle={isMobile ? 'flex items-center w-20 text-sm' : 'flex items-center w-32'}
-            buttonStyle={isMobile ? "text-xs" : "text-base py-1"}
+            titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
+            buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-1"}
             collpaseHandler={undefined}
             collapse={undefined}
             locked={false}
         />
 
-
-        <br ref={targetRef} />
+        {/* <br ref={targetRef} /> */}
 
         <Section
             title={'Communication Progressive'}
@@ -577,7 +577,7 @@ export function VocabulairePage() {
             reverse={true}
             truncate={!commCollapsed}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
-            buttonStyle={isMobile ? (eng ? "text-xs p-2" : "text-xs p-1.5") : "text-base py-0"}
+            buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-0"}
             collpaseHandler={handleCollape}
             collapse={commCollapsed}
             locked={false}
@@ -588,9 +588,9 @@ export function VocabulairePage() {
             title={'Vocabulaire Progressif'}
             vocArr={VocabulaireProgressiffArr}
             filter={vocabulaireFilter}
-            filterArr={["A2", "A1"]}
+            filterArr={["B1", "A2", "A1"]}
             filterHandler={onClickVocabulaireFilter}
-            buttonArr={["A2-B1", "A1-A2"]}
+            buttonArr={["B1-B2", "A2-B1", "A1-A2"]}
             reverse={false}
             truncate={!vocCollapsed}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}

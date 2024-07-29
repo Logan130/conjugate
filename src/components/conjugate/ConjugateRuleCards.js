@@ -211,7 +211,7 @@ export function ConjugateRuleCards() {
                         </form>
                         <figure><img src={Passe} className="" alt="passé composé" /></figure>
                         <h3 className="text-2xl text-bold">
-                            arriver, monter, passer, entre, rester, sortir, descendre, tomber, aller, venir, retourner, naître, morrir
+                            arriver, partir, *monter, *descendre, *passer, entrer, *rentrer, rester, *sortir, tomber, aller, venir, *retourner, naître, morrir, intervenir, décéder
                         </h3>
                     </div>
                     <form method="dialog" className="modal-backdrop">

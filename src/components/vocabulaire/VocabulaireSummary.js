@@ -5,6 +5,7 @@ import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
 import { ErrorPage } from "../shared/404";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { promptChinese, promptEnglish } from "./prompt";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
@@ -424,38 +425,12 @@ export function VocabulaireSummary() {
         document.getElementById('my_modal_2').showModal()
     };
 
-    const copyToClipBoardGPT = () => {
-        let textToCopy =
-            `
-        I am a French learner. Imagine you are a French teacher for students. Help me learn all of these words by giving me sentences, paragraphs, and reading. The sentences should have a variety of grammatical structures, conjugates, and other language skills. You should shuffle the order of the words. You are also encouraged to include multiple words in a sentence or paragraph. 
-
-        When you give examples, remember to put numbered labels before the sentences.  Please give me 15 sentences and 3 paragraphs as examples. Each paragraph should be about 100 words. In addition, all the words from the vocabulary should be emboldened in the examples. You must include the English translation of your examples. Your examples must follow this format:
-        
-        1. example sentence (English translation)
-        2. example sentence (English translation)
-        3. example sentence (English translation)
-        4. example sentence (English translation)
-        ...
-        
-        
-        1. example paragraph 
-        (English translation of the paragraph)
-        2. example paragraph 
-        (English translation of the paragraph)
-        
-        Here are the words:
-        `;
-
-        textToCopy += voc.map(item =>
+    const copyToClipBoardGPT = (english) => {
+        let wordList = voc.map(item =>
             `${item.french}\t\t${item.pos} ${item.english} `
         ).join('\n');
 
-        textToCopy += `\n\n
-        --------------------------------
-        IMPORTANT!!!
-        MAKE SURE TO INCLUDE ALL THE WORDS LISTED ABOVE
-        --------------------------------
-        `;
+        let textToCopy = english ? promptEnglish(wordList) : promptChinese(wordList);
         navigator.clipboard.writeText(textToCopy);
         document.getElementById('my_modal_2').showModal()
     }
@@ -495,7 +470,7 @@ export function VocabulaireSummary() {
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。<span className="underline font-bold txt-rose-400 text-violet-400">如果熟悉英语建议看英语释义</span> <span>, 英文释义是我手打的，有附加固定搭配用法和常见例子。如果你不熟悉英文选择看中文释义，则有一些用户注意事项，一定要<Link className="underline font-bold text-violet-400" to='/warning'>《点击看这篇解释》</Link>。</span>
+                    。<span className="font-bold txt-rose-400 text-violet-400">如果熟悉英语建议看英语释义</span> <span>, 英文释义是我手打的，有附加固定搭配用法和常见例子。如果你不熟悉英文选择看中文释义，则有一些用户注意事项，如果你看中文释义一定要<Link className="underline font-bold text-yellow-400" to='/warning'>《点击看这篇解释》</Link>，这篇文章解释了中文注释的生成机制和缺陷。</span>
                 </p>
             }
 
@@ -518,7 +493,7 @@ export function VocabulaireSummary() {
 
                         {voc.map((word, id) => (<>
                             <tr className={isMobile ? "" : "text-lg"}>
-                                <th className="w-1 opacity-50">{id+1}</th>
+                                <th className="w-1 opacity-50">{id + 1}</th>
                                 <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
                                 {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
                                 <th className={isMobile ? "" : "text-sm"}>
@@ -537,8 +512,8 @@ export function VocabulaireSummary() {
 
 
             <br /><br />
-            <h1 className="text-xl">· {eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
-            <h1 className="text-xl">· {eng ? "Once input into GPT, the prompt from the prompt button generates example sentences using the words above" : "点击LLM指令按钮即可获取指令，输入GPT可生成用以上词组造的例句"}</h1>
+            <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "复制按钮为Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
+            <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? "Once input into GPT, the prompt from the prompt button generates example sentences using the words above" : "点击LLM指令按钮即可获取指令，输入GPT可生成用以上词组造的例句"}</h1>
 
 
             <div>
@@ -553,9 +528,13 @@ export function VocabulaireSummary() {
                 />
             </div>
 
-            <button className="btn btn-outline btn-error mt-2" onClick={copyToClipboard}>{eng ? "Copy" : "复制"}</button>
-            <button className="btn btn-outline btn-error ml-4 mt-2" onClick={() => setQuizletChinese(!quizletChinese)}>{quizletChinese ? (eng ? "Delete Chinese" : "去除中文") : (eng ? "Show Chinese" : "保留中文")}</button>
-            <button className="btn btn-outline btn-error ml-4 mt-2" onClick={copyToClipBoardGPT}>{eng ? "Prompt" : "LLM指令"}</button>
+            <div className={isMobile ? "flex flex-wrap gap-2 mt-2 text-xs p-0" : "flex flex-wrap gap-4 mt-2"}>
+                <button className={isMobile ? "btn btn-outline btn-error text-xs p-4" : "btn btn-outline btn-error"} onClick={copyToClipboard}>{eng ? "Copy" : "复制"}</button>
+                <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => setQuizletChinese(!quizletChinese)}>{quizletChinese ? (eng ? "Delete Chinese" : "去除中文") : (eng ? "Show Chinese" : "保留中文")}</button>
+                <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(true)}>{eng ? "English Prompt" : "LLM指令英文"}</button>
+                <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(false)}>{eng ? "Chinese Prompt" : "LLM指令中文"}</button>
+            </div>
+
 
 
             <dialog id="my_modal_2" className="modal">

@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { lessons } from "../../pages/Vocabulaire";
+import { alterEgoB2, taxiA1A2, taxiB1 } from "../../data/array/VocArray/taxi";
+import { communicationA1, communicationA2 } from "../../data/array/VocArray/communication";
+import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from "../../data/array/VocArray/vocabulaireProgressif";
+import { EditoB1 } from "../../data/array/VocArray/edito";
+import { InnerFrench } from "../../data/array/VocArray/innerfrench";
 
 
 
@@ -108,12 +113,111 @@ const PaginatedTable = ({ wordCountArr }) => {
 
             <label className="input-group input-group-vertical ml-4">
                 <button className="mr-2 btn btn-primary" onClick={onGoTo}>Go to</button>
-                <input type="text" placeholder="1" className="input input-bordered" onChange={handleInputChange} value={inputPage}/>
+                <input type="text" placeholder="1" className="input input-bordered" onChange={handleInputChange} value={inputPage} />
             </label>
         </div>
     );
 };
 
+let les = [
+    ...taxiA1A2,
+    ...taxiB1,
+    ...alterEgoB2,
+    ...communicationA1,
+    ...communicationA2,
+    ...vocabulaireProgressifA1,
+    ...vocabulaireProgressifA2,
+    ...vocabulaireProgressifB1,
+    ...EditoB1,
+    ...InnerFrench
+]
+
+function Statistics(units, tags, book) {
+    let words = [];
+    for (let unit of units.filter(unit => tags.includes(unit.tag))) {
+        for (let lessonName of unit.words.lessons) {
+            words = [...words, ...unit.words[lessonName]]
+        }
+    }
+    let nonLoc = words.filter(word => word.pos !== 'loc.');
+    let loc = words.filter(word => word.pos === 'loc.');
+    let nonLocSet = new Set();
+    for (let w of nonLoc) {
+        nonLocSet.add(w.french)
+    }
+    let locSet = new Set();
+    for (let w of loc) {
+        locSet.add(w.french)
+    }
+    return {
+        all: words.length, 
+        nonLoc: nonLoc.length, 
+        loc: loc.length, 
+        nonLocSet: nonLocSet.size, 
+        locSet: locSet.size
+    }
+}
+
+function StatisticsTable() {
+    let TaxiResult = Statistics(lessons, ['Taxi'], '');
+    let CommResult = Statistics(lessons, ['Communication Progressive'], '');
+    let VocabResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other'], '');
+
+    let AllResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], '');
+
+    console.log(TaxiResult, 'debug')
+
+    return (<>
+        <div className="overflow-x-auto">
+            <table className="table">
+                {/* head */}
+                <thead>
+                    <tr>
+                        <th className="w-8"></th>
+                        <th className="w-96">书籍</th>
+                        {/* <th>词汇+结构量(含重复)</th> */}
+                        <th>词汇量(非重复)</th>
+                        <th>结构量(非重复)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {/* row 1 */}
+                    <tr>
+                        <th>1</th>
+                        <td>Taxi 四本书</td>
+                        {/* <td>{TaxiResult.all}</td> */}
+                        <td>{TaxiResult.nonLocSet}</td>
+                        <td>{TaxiResult.locSet}</td>
+                    </tr>
+                    {/* row 2 */}
+                    <tr>
+                        <th>2</th>
+                        <td>渐进交际初级/中级</td>
+                        {/* <td>{CommResult.all}</td> */}
+                        <td>{CommResult.nonLocSet}</td>
+                        <td>{CommResult.locSet}</td>
+                    </tr>
+                    {/* row 3 */}
+                    <tr>
+                        <th>3</th>
+                        <td>渐进词汇初级/中级</td>
+                        {/* <td>{VocabResult.all}</td> */}
+                        <td>{VocabResult.nonLocSet}</td>
+                        <td>{VocabResult.locSet}</td>
+                    </tr>
+
+                    <tr>
+                        <th>4</th>
+                        <td>所有Taxi + 渐进交际中级 + 渐进词汇中级</td>
+                        {/* <td>{VocabResult.all}</td> */}
+                        <td>{AllResult.nonLocSet}</td>
+                        <td>{AllResult.locSet}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </>)
+}
 
 export function SearchBar() {
     let allWords = [];
@@ -133,7 +237,7 @@ export function SearchBar() {
         const wordCount = arr.reduce((count, { french, pos }) => {
             if (!(french in count)) {
                 count[french] = {
-                    "count": 0, 
+                    "count": 0,
                     "pos": pos
                 }
             }
@@ -147,7 +251,7 @@ export function SearchBar() {
     let wordCount = countNonRepeatingWords([...allWords]);
     // console.log(wordCount);
     let numberWords = 0, numberLoc = 0;
-    console.log(Object.entries(wordCount))
+    // console.log(Object.entries(wordCount))
     numberWords = Object.entries(wordCount).filter(word => word[1].pos !== "loc.").length;
     numberLoc = Object.entries(wordCount).filter(word => word[1].pos === "loc.").length;
 
@@ -199,11 +303,16 @@ export function SearchBar() {
                 <button className="btn" onClick={onClickSearch}>Search</button>
             </div>
 
+            <div className="text-yellow-500">Taxi A1-B1四本书 + Communication初级/中级 + 词汇渐进初级/中级</div>
+
             <div>总词汇量: {`${allWords.filter(word => word.pos !== 'loc.').length} 单词 + ${allWords.filter(word => word.pos === 'loc.').length} 结构 = ${allWords.length}`}</div>
             <div>非重复词汇量：{Object.keys(wordCount).length}</div>
             <div>非重复单词词汇量：{numberWords}</div>
             <div>非重复结构量：{numberLoc}</div>
         </div>
+
+
+        <StatisticsTable />
 
         <div className="overflow-x-auto">
             <table className="table">
