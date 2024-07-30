@@ -21,7 +21,7 @@ function App() {
     <>
       <ThemeProvider>
         <HashRouter>
-          <div className='flex flex-col justify h-screen dark'>
+          <div className='flex flex-col justify h-screen'>
             <Navbar /><br /><br /><br />
 
             <main className='container mx-auto px-3 pb-12'>

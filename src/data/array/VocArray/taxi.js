@@ -222,7 +222,7 @@ export const taxiB1 = [
 
 export const alterEgoB2 = [
     {
-        unit: "Alter Ego B2 D1",
+        unit: "B2 D1 Identité",
         words: wordsAlterEgoB2U1,
         tag: "Taxi",
         book: "B2",

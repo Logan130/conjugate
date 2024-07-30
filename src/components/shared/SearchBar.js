@@ -173,7 +173,7 @@ function StatisticsTable() {
                 {/* head */}
                 <thead>
                     <tr>
-                        <th className="w-8"></th>
+                        {/* <th className="w-8"></th> */}
                         <th className="w-96">书籍</th>
                         {/* <th>词汇+结构量(含重复)</th> */}
                         <th>词汇量(非重复)</th>
@@ -183,7 +183,7 @@ function StatisticsTable() {
                 <tbody>
                     {/* row 1 */}
                     <tr>
-                        <th>1</th>
+                        {/* <th>1</th> */}
                         <td>Taxi 四本书</td>
                         {/* <td>{TaxiResult.all}</td> */}
                         <td>{TaxiResult.nonLocSet}</td>
@@ -191,7 +191,7 @@ function StatisticsTable() {
                     </tr>
                     {/* row 2 */}
                     <tr>
-                        <th>2</th>
+                        {/* <th>2</th> */}
                         <td>渐进交际初级/中级</td>
                         {/* <td>{CommResult.all}</td> */}
                         <td>{CommResult.nonLocSet}</td>
@@ -199,7 +199,7 @@ function StatisticsTable() {
                     </tr>
                     {/* row 3 */}
                     <tr>
-                        <th>3</th>
+                        {/* <th>3</th> */}
                         <td>渐进词汇初级/中级</td>
                         {/* <td>{VocabResult.all}</td> */}
                         <td>{VocabResult.nonLocSet}</td>
@@ -207,7 +207,7 @@ function StatisticsTable() {
                     </tr>
 
                     <tr>
-                        <th>4</th>
+                        {/* <th>4</th> */}
                         <td>所有Taxi + 渐进交际中级 + 渐进词汇中级</td>
                         {/* <td>{VocabResult.all}</td> */}
                         <td>{AllResult.nonLocSet}</td>
@@ -303,16 +303,13 @@ export function SearchBar() {
                 <button className="btn" onClick={onClickSearch}>Search</button>
             </div>
 
-            <div className="text-yellow-500">Taxi A1-B1四本书 + Communication初级/中级 + 词汇渐进初级/中级</div>
+            {/* <div className="text-yellow-500">Taxi A1-B1四本书 + Communication初级/中级 + 词汇渐进初级/中级</div>
 
             <div>总词汇量: {`${allWords.filter(word => word.pos !== 'loc.').length} 单词 + ${allWords.filter(word => word.pos === 'loc.').length} 结构 = ${allWords.length}`}</div>
             <div>非重复词汇量：{Object.keys(wordCount).length}</div>
             <div>非重复单词词汇量：{numberWords}</div>
-            <div>非重复结构量：{numberLoc}</div>
+            <div>非重复结构量：{numberLoc}</div> */}
         </div>
-
-
-        <StatisticsTable />
 
         <div className="overflow-x-auto">
             <table className="table">
@@ -343,6 +340,10 @@ export function SearchBar() {
         <br></br>
         <div className="divider">分割线</div>
         <br></br>
+
+        <StatisticsTable />
+
+        <div className="divider">分割线</div>
 
         <h1>高频词统计表</h1>
         <PaginatedTable wordCountArr={wordCountArr} />

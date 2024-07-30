@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../../context/context';
 import { RiTranslate } from "react-icons/ri";
+import { CgDarkMode } from "react-icons/cg";
+
 
 
 function Navbar() {
@@ -14,15 +16,26 @@ function Navbar() {
   // }
   let button_style = isMobile ? 'btn btn-ghost btn-sm rounded-btn text-base mx-0 px-2' : 'btn btn-ghost btn-sm rounded-btn text-lg';
 
+  let [dark, setDark] = useState(true);
+  const onClickStyleButton = (e) => {
+    if (dark) {
+      document.querySelector('html').setAttribute('data-theme', 'pastel');
+    }
+    else {
+      document.querySelector('html').setAttribute('data-theme', 'dark');
+    }
+    setDark(!dark);
+  }
+
   return (
     <>
       <nav role="navigation" className='navbar mb-12 shadow-lg bg-neutral text-neutral-content top-0 z-50 fixed'>
         <div className='container mx-auto'>
 
-          <div className='flex-1 px-0 mx-2'>
+          <div className='flex-1 px-0 mx-1'>
 
             <div className='flex justify-between'>
-              <div>
+              <div className>
                 <Link className={button_style} to='/about'>
                   {eng ? "About" : "关于本站"}
                 </Link>
@@ -31,6 +44,11 @@ function Navbar() {
                   {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Language" : "换语言")}
                   <RiTranslate />
                 </Link>
+
+                <Link className={button_style} onClick={onClickStyleButton}>
+                {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Theme" : "换主题")}
+                  <CgDarkMode />                
+                  </Link>
               </div>
 
               <div>

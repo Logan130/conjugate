@@ -430,7 +430,7 @@ export function VocabulaireSummary() {
             `${item.french}\t\t${item.pos} ${item.english} `
         ).join('\n');
 
-        let textToCopy = english ? promptEnglish(wordList) : promptChinese(wordList);
+        let textToCopy = english ? promptEnglish(wordList, voc.length) : promptChinese(wordList, voc.length);
         navigator.clipboard.writeText(textToCopy);
         document.getElementById('my_modal_2').showModal()
     }
@@ -534,6 +534,8 @@ export function VocabulaireSummary() {
                 <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(true)}>{eng ? "English Prompt" : "LLM指令英文"}</button>
                 <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(false)}>{eng ? "Chinese Prompt" : "LLM指令中文"}</button>
             </div>
+
+            <br/><br/><br/>
 
 
 

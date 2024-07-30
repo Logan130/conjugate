@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom'
 import Mulan from '../static/mulan2.jpeg'
 import TwelfthNight from '../static/12night.jpeg'
 import Orlando from '../static/orlando.jpeg'
+import Paris1 from '../static/paris-games-artistic-gymnastics-6753651837110525-2xa.gif'
+import Paris2 from '../static/paris-games-football-6753651837110524-2xa.gif'
+import Paris3 from '../static/paris-games-opening-ceremony-6753651837110444-2xa.gif'
+import Paris4 from '../static/paris-games-skateboarding-6753651837110523-2xa.gif'
+
+
 
 import { useEffect, useState, useContext, useRef } from 'react';
 import { alterEgoB2, taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
@@ -17,12 +23,12 @@ const apiKey = process.env.REACT_APP_API_KEY;
 export const lessons = [
     ...taxiA1A2,
     ...taxiB1,
-    ...alterEgoB2, 
+    ...alterEgoB2,
     ...communicationA1,
     ...communicationA2,
     ...vocabulaireProgressifA1,
     ...vocabulaireProgressifA2,
-    ...vocabulaireProgressifB1, 
+    ...vocabulaireProgressifB1,
     ...EditoB1,
     ...InnerFrench
 ]
@@ -65,6 +71,10 @@ const RenderImages = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
+    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics"];
+
+    let imagesOlym = [Paris3, Paris4, Paris2, Paris1];
+    images = imagesOlym
 
     useEffect(() => {
         if (eng) {
@@ -109,13 +119,13 @@ const RenderImages = ({ images }) => {
         <div className="relative">
             <div className="overflow-hidden rounded-lg">
                 <img
-                    src={images[currentImageIndex]}
+                    src={imagesOlym[currentImageIndex]}
                     alt={`sliding ${currentImageIndex + 1}`}
                     className={`w-full transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}
                 />
             </div>
 
-            <div className="absolute left-0 top-60 flex items-center">
+            {/* <div className="absolute left-0 top-60 flex items-center">
                 <button
                     onClick={prevImage}
                     className="text-white text-3xl bg-gray-800 bg-opacity-50 hover:bg-opacity-75 px-3 py-1 rounded-l focus:outline-none"
@@ -139,12 +149,41 @@ const RenderImages = ({ images }) => {
                 >
                     &rarr;
                 </button>
+            </div> */}
+
+            <div className="absolute left-0 top-32 flex items-center">
+                <button
+                    onClick={prevImage}
+                    className="text-white text-3xl bg-gray-800 bg-opacity-50 hover:bg-opacity-75 px-3 py-1 rounded-l focus:outline-none"
+                >
+                    &larr;
+                </button>
             </div>
+
+            <div className="absolute top-0 inset-x-0 flex items-center justify-center">
+                <button
+                    className="text-white text-sm font-bold bg-gray-800 bg-opacity-50 hover:bg-opacity-30 px-3 py-1 rounded-b-lg focus:outline-none"
+                >
+                    {titleOlymArr[currentImageIndex]}
+                </button>
+            </div>
+
+            <div className="absolute right-0 top-32 flex items-center">
+                <button
+                    onClick={nextImage}
+                    className="text-white text-3xl bg-gray-800 bg-opacity-50 hover:bg-opacity-75 px-3 py-1 rounded-r focus:outline-none"
+                >
+                    &rarr;
+                </button>
+            </div>
+
 
             {/* <div className='flex items-center justify-center text-neutral-content'>
                 <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
             </div> */}
-            {captionArr[currentImageIndex]}
+            <div className='flex items-center justify-center '>
+                <p className=' italic'>{eng ? 'Paris Games Begin!🇫🇷' : '高卢鸡奥运快乐！🇫🇷'}</p>
+            </div>
         </div>
     );
 }
@@ -152,33 +191,53 @@ const RenderImages = ({ images }) => {
 const Images = ({ isIpadUser }) => {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
+    let images = [Paris1, Paris2, Paris3, Paris4];
 
     return (
         <>
-            {isMobile ? <>
-                {eng ?
-                    <>
-                        <img alt="Twelfe Night" src={TwelfthNight} className='rounded-lg' />
-                        <div className='flex items-center justify-center text-neutral-content'>
-                            <p className='text-neutral-content italic'>Conceal me what I am, and be my aid. For such disguise as haply shall become the form of my intent. (Click the button Gender to practice)</p>
+            {isMobile ?
+                <>
+                    {eng ?
+                        // <>
+                        //     <img alt="Twelfe Night" src={TwelfthNight} className='rounded-lg' />
+                        //     <div className='flex items-center justify-center text-neutral-content'>
+                        //         <p className='text-neutral-content italic'>Conceal me what I am, and be my aid. For such disguise as haply shall become the form of my intent. (Click the button Gender to practice)</p>
+                        //     </div>
+                        //     <br />
+                        // </> 
+                        // : 
+                        // <>
+                        //     <img alt="Mulan" src={Mulan} className='rounded-lg' />
+                        //     <div className='flex items-center justify-center text-neutral-content'>
+                        //         <p className='text-neutral-content text-sm'>双兔傍地走，安能辨我是雄雌🐰 (点击下方按钮练习阴阳性)</p>
+                        //     </div>
+                        //     <br />
+                        // </>
+                        <>
+                            <img alt="Twelfe Night" src={images[Math.floor(Math.random() * 10000) % 4]} className='rounded-lg' />
+                            <div className='flex items-center justify-center text-neutral-content'>
+                                <p className='text-neutral-content italic'>Paris Games Begin!🇫🇷</p>
+                            </div>
+                            <br />
+                        </> 
+                        : 
+                        <>
+                            <img alt="Mulan" src={images[(Math.floor(Math.random() * 10000) + new Date().getTime()) % 4]} className='rounded-lg' />
+                            <div className='flex items-center justify-center text-neutral-content'>
+                                <p className='text-neutral-content text-sm'>高卢鸡奥运快乐🇫🇷</p>
+                            </div>
+                            <br />
+                        </>
+                    }
+                </>
+                :
+                <>
+                    <div className={isIpadUser ? 'flex justify-center items-start' : 'flex justify-center items-start'}>
+                        <div className='w-1/2'>
+                            <RenderImages images={[Mulan, Orlando, TwelfthNight,]} className='rounded-lg w-1/2' />
                         </div>
-                        <br />
-                    </> :
-
-                    <>
-                        <img alt="Mulan" src={Mulan} className='rounded-lg' />
-                        <div className='flex items-center justify-center text-neutral-content'>
-                            <p className='text-neutral-content text-sm'>双兔傍地走，安能辨我是雄雌🐰 (点击下方按钮练习阴阳性)</p>
-                        </div>
-                        <br />
-                    </>}
-            </> : <>
-                <div className={isIpadUser ? 'flex justify-center items-start' : 'flex justify-center items-start'}>
-                    <div className='w-1/2'>
-                        <RenderImages images={[Mulan, Orlando, TwelfthNight,]} className='rounded-lg w-1/2' />
                     </div>
-                </div>
-            </>}
+                </>}
         </>
     )
 }
