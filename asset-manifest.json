@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/conjugate/static/css/main.d1c354bd.css",
-    "main.js": "/conjugate/static/js/main.f724a6df.js",
+    "main.css": "/conjugate/static/css/main.d1617286.css",
+    "main.js": "/conjugate/static/js/main.0c068d5d.js",
     "static/js/453.e77c0d49.chunk.js": "/conjugate/static/js/453.e77c0d49.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
     "static/media/paris-games-skateboarding--2xa.gif": "/conjugate/static/media/paris-games-skateboarding-6753651837110523-2xa.764160459d81250eee1b.gif",
     "static/media/paris-games-opening-ceremony--2xa.gif": "/conjugate/static/media/paris-games-opening-ceremony-6753651837110444-2xa.990c65f88c1762baa75c.gif",
+    "static/media/paris-games-rings--2xa.gif": "/conjugate/static/media/paris-games-rings-6753651837110531-2xa.1712f1db7a0de5e74d38.gif",
     "static/media/paris-games-football--2xa.gif": "/conjugate/static/media/paris-games-football-6753651837110524-2xa.dc0b52dcd4814714f22a.gif",
     "static/media/passe.jpeg": "/conjugate/static/media/passe.50746b2a222860bec87f.jpeg",
     "static/media/orlando.jpeg": "/conjugate/static/media/orlando.6b0ca644676334befc73.jpeg",
@@ -19,12 +20,12 @@
     "static/media/12night.jpeg": "/conjugate/static/media/12night.c7d8ceb6551a12587164.jpeg",
     "static/media/Taxi.jpeg": "/conjugate/static/media/Taxi.d60a54ac9a1af256ded5.jpeg",
     "index.html": "/conjugate/index.html",
-    "main.d1c354bd.css.map": "/conjugate/static/css/main.d1c354bd.css.map",
-    "main.f724a6df.js.map": "/conjugate/static/js/main.f724a6df.js.map",
+    "main.d1617286.css.map": "/conjugate/static/css/main.d1617286.css.map",
+    "main.0c068d5d.js.map": "/conjugate/static/js/main.0c068d5d.js.map",
     "453.e77c0d49.chunk.js.map": "/conjugate/static/js/453.e77c0d49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c354bd.css",
-    "static/js/main.f724a6df.js"
+    "static/css/main.d1617286.css",
+    "static/js/main.0c068d5d.js"
   ]
 }
