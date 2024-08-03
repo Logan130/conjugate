@@ -8,7 +8,7 @@ import { CgDarkMode } from "react-icons/cg";
 
 
 function Navbar() {
-  const { eng, setEng, changeLan } = useContext(ThemeContext);
+  const { eng, setEng, changeLan, setTheme } = useContext(ThemeContext);
 
   let isMobile = window.innerWidth < 500;
   // if (isMobile) {
@@ -20,9 +20,12 @@ function Navbar() {
   const onClickStyleButton = (e) => {
     if (dark) {
       document.querySelector('html').setAttribute('data-theme', 'pastel');
+      setTheme('pastel')
+
     }
     else {
       document.querySelector('html').setAttribute('data-theme', 'dark');
+      setTheme('dark')
     }
     setDark(!dark);
   }
@@ -32,7 +35,7 @@ function Navbar() {
       <nav role="navigation" className='navbar mb-12 shadow-lg bg-neutral text-neutral-content top-0 z-50 fixed'>
         <div className='container mx-auto'>
 
-          <div className='flex-1 px-0 mx-1'>
+          <div className='flex-1 px-0 mx-0'>
 
             <div className='flex justify-between'>
               <div className>
@@ -40,12 +43,12 @@ function Navbar() {
                   {eng ? "About" : "关于本站"}
                 </Link>
 
-                <Link className={button_style} onClick={() => changeLan()}>
+                <Link className={isMobile ? 'btn btn-ghost btn-sm rounded-btn text-base mx-0 px-0' : 'btn btn-ghost btn-sm rounded-btn text-lg'} onClick={() => changeLan()}>
                   {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Language" : "换语言")}
                   <RiTranslate />
                 </Link>
 
-                <Link className={button_style} onClick={onClickStyleButton}>
+                <Link className={isMobile ? 'btn btn-ghost btn-sm rounded-btn text-base mx-0 px-1' : 'btn btn-ghost btn-sm rounded-btn text-lg'} onClick={onClickStyleButton}>
                 {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Theme" : "换主题")}
                   <CgDarkMode />                
                   </Link>

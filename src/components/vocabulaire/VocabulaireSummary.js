@@ -230,7 +230,7 @@ function Title({ title, id }) {
 
 
 export function VocabulaireSummary() {
-    const { eng } = useContext(ThemeContext);
+    const { eng, theme } = useContext(ThemeContext);
     const { id } = useParams();
 
     useEffect(() => {
@@ -321,6 +321,12 @@ export function VocabulaireSummary() {
             filter: "loc.",
             flipped: true
         },
+        {
+            name: eng ? "highlight" : "高亮",
+            words: allWords.filter((verb) => !!verb.highlight && (verb.highlight)),
+            filter: "highlight",
+            flipped: false
+        },
     ]
 
     const onClickSortLetter = (e) => {
@@ -376,6 +382,7 @@ export function VocabulaireSummary() {
     const onClickPOSNoun = (index) => (e) => {
         setPOSButtonID(index);
         if (lessonID === -1) {
+            console.log(buttonArr[index].words, index, 'debug')
             setVoc(buttonArr[index].words);
         }
         else {
@@ -384,18 +391,26 @@ export function VocabulaireSummary() {
             )
             ));
         }
+        if (lessonID !== -1 && index === 4) {
+            setVoc(
+                lessons[id].words[lesson_arr[lessonID]].filter(word => !!word.highlight && word.highlight)
+            );
+        }
     }
 
     const onClickLessonButton = (index, les) => (e) => {
         let newLessonButtonStyles = Array(lesson_arr.length).fill(false);
         if (lessonButtonStyle[index] === true) {
             setLessonID(-1);
-            setWords(allWords)
-            // setVoc(allWords)
+            setWords(allWords);
+
             setVoc(allWords.filter(word => !!word.pos && (
                 buttonArr[POSButtonID].flipped ? word.pos.indexOf(buttonArr[POSButtonID].filter) === -1 : word.pos.indexOf(buttonArr[POSButtonID].filter) !== -1
             )
             ));
+            if (POSButtonID === 4) {
+                setVoc(buttonArr[4].words);
+            }
             setLessonButtonStyles(newLessonButtonStyles)
             setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)))
             return;
@@ -410,6 +425,12 @@ export function VocabulaireSummary() {
             buttonArr[POSButtonID].flipped ? word.pos.indexOf(buttonArr[POSButtonID].filter) === -1 : word.pos.indexOf(buttonArr[POSButtonID].filter) !== -1
         )
         ));
+
+        if (POSButtonID === 4) {
+            setVoc(
+                lessons[id].words[les].filter(word => !!word.highlight && word.highlight)
+            );
+        }
     }
 
     const onClickChinese = (e) => {
@@ -445,7 +466,9 @@ export function VocabulaireSummary() {
                     {buttonArr.map((button, id) => <>
                         <button className={id === POSButtonID ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickPOSNoun(id)}>{button.name}</button>
                     </>)}
-                    <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `https://logan130.github.io/conjugate/#/vocunit/${id}/0` }}>{eng ? "Practice" : "练习"}</button>
+                    {!isMobile &&
+                        <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `https://logan130.github.io/conjugate/#/vocunit/${id}/0` }}>{eng ? "Practice" : "练习"}</button>
+                    }
                 </div>
                 <br />
 
@@ -491,16 +514,29 @@ export function VocabulaireSummary() {
                     <tbody>
 
 
-                        {voc.map((word, id) => (<>
-                            <tr className={isMobile ? "" : "text-lg"}>
-                                <th className="w-1 opacity-50">{id + 1}</th>
-                                <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
-                                {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
-                                <th className={isMobile ? "" : "text-sm"}>
-                                    {chinese ? ChineseParser(word.english, word.chinese) : word.english}
-                                </th>
-                            </tr>
-                        </>))}
+                        {voc.map((word, id) => (
+                            <>
+                                {!!word.highlight ?
+                                    <tr className={isMobile ? "" : "text-lg"}>
+                                        <th className={theme === 'dark' ? "w-1 text-yellow-400" : "w-1 text-red-500"}>{id + 1}</th>
+                                        <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>{word.french}</th>
+                                        {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>{word.pos}</th>}
+                                        <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>
+                                            {chinese ? ChineseParser(word.english, word.chinese) : word.english}
+                                        </th>
+                                    </tr>
+                                    :
+                                    <tr className={isMobile ? "" : "text-lg"}>
+                                        <th className="w-1 opacity-50">{id + 1}</th>
+                                        <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
+                                        {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
+                                        <th className={isMobile ? "" : "text-sm"}>
+                                            {chinese ? ChineseParser(word.english, word.chinese) : word.english}
+                                        </th>
+                                    </tr>
+                                }
+                            </>
+                        ))}
                     </tbody>
                 </table>
             </div>
@@ -535,7 +571,7 @@ export function VocabulaireSummary() {
                 <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(false)}>{eng ? "Chinese Prompt" : "LLM指令中文"}</button>
             </div>
 
-            <br/><br/><br/>
+            <br /><br /><br />
 
 
 

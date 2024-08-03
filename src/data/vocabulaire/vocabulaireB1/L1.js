@@ -1,13 +1,67 @@
 export const VocabulaireProgressifB1L1 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["数", "测量", "表达"],
+    "数": [
+        { english: "measure", french: "mesure", pos: "n.f.", chinese: "测量" },
+        { english: "measures, means", french: "mesures", pos: "n.f.pl.", chinese: "措施" },
+        { english: "digit, number", french: "chiffre", pos: "n.m.", chinese: "数字" },
+        { english: "number", french: "nombre", pos: "n.m.", chinese: "数字" },
+        { english: "even", french: "pair", pos: "adj.", chinese: "偶数" },
+        { english: "odd", french: "impair", pos: "adj.", chinese: "奇数" },
+        { english: "rounded (nombre)", french: "rond(e)", pos: "adj.", chinese: "圆" },
+        { english: "to round", french: "arrondir", pos: "v.t.", chinese: "四舍五入" },
+        { english: "Arabic number", french: "chiffre arabe", pos: "n.m.", chinese: "阿拉伯数字" },
+        { english: "Roman number", french: "chiffre romain", pos: "n.m.", chinese: "罗马数字" },
+        { english: "to calculate", french: "calculer", pos: "v.t.", chinese: "计算" },
+        { english: "calculator", french: "calculette", pos: "n.f.", chinese: "计算器" },
+        { english: "calculation, calculus", french: "calcul", pos: "n.m.", chinese: "计算" },
+        { english: "sum, total", french: "montant", pos: "n.m.", chinese: "总数" },
+        { english: "vérifier son budget", french: "faire ses comptes", pos: "loc.", chinese: "做帐" },
+        { english: "altogether, after all", french: "tout compte fait", pos: "loc.", chinese: "总的来说" },
+        { english: "to sort out, to pay for", french: "régler", pos: "v.t.", chinese: "解决" },
+        { english: "not considering (que)", french: "sans compter", pos: "loc.", chinese: "不考虑" },
+        { english: "finalement", french: "en fin de compte", pos: "loc.", chinese: "最终" },
+        { english: "revenge", french: "vengeance", pos: "n.f.", chinese: "复仇" },
+        { english: "gangster", french: "gangster", pos: "n.m.", chinese: "匪徒" },
+        { english: "(2 + 3) to equal (5)", french: "égaler", pos: "v.t.", chinese: "等于" },
+        { english: "subtraction", french: "soustraction", pos: "n.f.", chinese: "减法" },
+        { english: "to subtract", french: "soustraire", pos: "v.t.", chinese: "减去" },
+        { english: "to cut out (mot), to subtract (nombre, sommes)", french: "retrancher", pos: "v.t.", chinese: "减去" },
+        { english: "6 multiplied by 8", french: "6 multiplié par 8", pos: "loc.", chinese: "6乘以8" },
+        { english: "to triple", french: "tripler", pos: "v.", chinese: "三倍" }
     ],
-    "": [
-
+    "测量": [
+        { english: "2/5", french: "deux cinquièmes", pos: "loc.", chinese: "五分之二" },
+        { english: "in half, half", french: "à moitié", pos: "loc.", chinese: "一半" },
+        { english: "proportional", french: "proportionnel(le)", pos: "adj.", chinese: "成比例的" },
+        { english: "disproportional", french: "disproportionné(e)", pos: "adj.", chinese: "不成比例的" },
+        { english: "cooking", french: "cuisson", pos: "n.f.", chinese: "烹饪" },
+        { english: "as far as possible", french: "dans la mesure du possible", pos: "loc.", chinese: "尽可能" },
+        { english: "on average", french: "en moyenne", pos: "loc.", chinese: "平均" },
+        { english: "ton", french: "tonne", pos: "n.f.", chinese: "吨" },
+        { english: "all the time", french: "à longueur de temps", pos: "loc.", chinese: "一直" },
+        { english: "to measure xxx", french: "mesurer xx de long/large/haut", pos: "loc.", chinese: "测量长/宽/高" },
+        { english: "of xxxx", french: "de xx de longueur/larguer/hauteur", pos: "loc.", chinese: "长/宽/高" },
+        { english: "thickness", french: "épaisseur", pos: "n.f.", chinese: "厚度" },
+        { english: "area", french: "surface", pos: "n.f.", chinese: "面积" },
+        { english: "3 times 4 m2", french: "3m sur 4", pos: "loc.", chinese: "3乘4" },
+        { english: "container", french: "conteneur", pos: "n.m.", chinese: "容器" },
+        { english: "m^3", french: "mètre cube", pos: "n.m.", chinese: "立方米" },
+        { english: "seemingly", french: "en surface", pos: "loc.", chinese: "表面上" },
+        { english: "selfish", french: "égoïste", pos: "adj.", chinese: "自私的" },
+        { english: "depth", french: "profondeur", pos: "n.f.", chinese: "深度" },
+        { english: "to go into depth of", french: "approfondir", pos: "v.t.", chinese: "深入" },
+        { english: "to break away (avec ami, politique, amoureux)", french: "rompre", pos: "v.i.", chinese: "断绝关系" }
     ],
-    "": [
-
+    "表达": [
+        { english: "pile", french: "pile", pos: "n.f.", chinese: "堆" },
+        { english: "a lot of", french: "une multitude de", pos: "n.f.", chinese: "大量的" },
+        { english: "countless", french: "innombrable", pos: "adj.", chinese: "无数的" },
+        { english: "il n’est pas juste", french: "il y a deux poids, deux mesures", pos: "loc.", chinese: "双重标准" },
+        { english: "hoodlum", french: "voyou", pos: "n.m.", chinese: "恶棍" },
+        { english: "killer", french: "tueur(se)", pos: "n.", chinese: "杀手" },
+        { english: "draconian (loi, mesure)", french: "draconien(ne)", pos: "adj.", chinese: "严厉的" },
+        { english: "problem", french: "ennui", pos: "n.m.", chinese: "问题" },
+        { english: "for next to nothing", french: "pour trois fois rien", pos: "loc.", chinese: "几乎不花钱" }
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["count", "measure", "expressions", "", ""]
 }

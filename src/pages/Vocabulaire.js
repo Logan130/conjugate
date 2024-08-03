@@ -6,6 +6,10 @@ import Paris1 from '../static/paris-games-artistic-gymnastics-6753651837110525-2
 import Paris2 from '../static/paris-games-football-6753651837110524-2xa.gif'
 import Paris3 from '../static/paris-games-opening-ceremony-6753651837110444-2xa.gif'
 import Paris4 from '../static/paris-games-skateboarding-6753651837110523-2xa.gif'
+import Paris5 from '../static/paris-games-july-most-searched-playground-6753651837110527-2xa.gif'
+import Paris6 from '../static/paris-games-surfing-6753651837110528-2xa.gif'
+
+
 
 
 
@@ -71,9 +75,9 @@ const RenderImages = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
-    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics"];
+    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing"];
 
-    let imagesOlym = [Paris3, Paris4, Paris2, Paris1];
+    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6];
     images = imagesOlym
 
     useEffect(() => {
@@ -191,7 +195,7 @@ const RenderImages = ({ images }) => {
 const Images = ({ isIpadUser }) => {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
-    let images = [Paris1, Paris2, Paris3, Paris4];
+    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6];
 
     return (
         <>
@@ -214,7 +218,7 @@ const Images = ({ isIpadUser }) => {
                         //     <br />
                         // </>
                         <>
-                            <img alt="Twelfe Night" src={images[Math.floor(Math.random() * 10000) % 4]} className='rounded-lg' />
+                            <img alt="Twelfe Night" src={images[Math.floor(Math.random() * 10000) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
                                 <p className='text-neutral-content italic'>Paris Games Begin!🇫🇷</p>
                             </div>
@@ -222,7 +226,7 @@ const Images = ({ isIpadUser }) => {
                         </> 
                         : 
                         <>
-                            <img alt="Mulan" src={images[(Math.floor(Math.random() * 10000) + new Date().getTime()) % 4]} className='rounded-lg' />
+                            <img alt="Mulan" src={images[(Math.floor(Math.random() * 10000) + new Date().getTime()) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
                                 <p className='text-neutral-content text-sm'>高卢鸡奥运快乐🇫🇷</p>
                             </div>
@@ -680,6 +684,9 @@ export function VocabulairePage() {
         <br />
         <Link to='/search'>
             <button className="btn btn-outline btn-error">{eng ? "Dev Tool" : "开发者工具，慎点"}</button>
+        </Link>
+        <Link to='/highlight'>
+            <button className="btn btn-outline btn-error ml-4">{eng ? "Highlight" : "高亮"}</button>
         </Link>
 
     </>)

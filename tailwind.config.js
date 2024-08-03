@@ -12,8 +12,17 @@ module.exports = {
   // },
   plugins: [require('daisyui')],
 
-  daisyui:{
-    themes: ['dark', 'pastel', 'valentine'], 
+  daisyui: {
+    themes: [, 'dark', 'valentine',
+      {
+        pastel: {
+          ...require("daisyui/src/theming/themes")["pastel"],
+          neutral: "#ADD8E6",
+          secondary: "#FFC0CB",
+          gray: require("daisyui/src/theming/themes")["pastel"]["bg-neutral"]
+        },
+      },
+    ],
     darkTheme: 'dark',
   }
 }

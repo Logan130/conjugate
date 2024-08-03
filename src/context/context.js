@@ -37,6 +37,7 @@ const ThemeContext = createContext();
 const ThemeProvider = ({ children }) => {
   const [eng, setEng] = useState((themeSession() !== undefined) ? themeSession() : !isUserFromChina());
   const les = lessons;
+  let [theme, setTheme] = useState('dark')
 
   const changeLan = () => {
     localStorage.setItem("FRENCH_APP_LANGUAGE", !eng)
@@ -48,7 +49,7 @@ const ThemeProvider = ({ children }) => {
 
 
   return (
-    <ThemeContext.Provider value={{ eng, setEng, les, changeLan }}>
+    <ThemeContext.Provider value={{ eng, setEng, les, changeLan, theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
