@@ -8,6 +8,10 @@ import Paris3 from '../static/paris-games-opening-ceremony-6753651837110444-2xa.
 import Paris4 from '../static/paris-games-skateboarding-6753651837110523-2xa.gif'
 import Paris5 from '../static/paris-games-july-most-searched-playground-6753651837110527-2xa.gif'
 import Paris6 from '../static/paris-games-surfing-6753651837110528-2xa.gif'
+import Paris7 from '../static/paris-games-rings-6753651837110531-2xa.gif'
+import Paris8 from '../static/paris-games-artistic-swimming-6753651837110445-2xa.gif'
+
+
 
 
 
@@ -75,9 +79,9 @@ const RenderImages = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
-    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing"];
+    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming"];
 
-    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6];
+    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8];
     images = imagesOlym
 
     useEffect(() => {
@@ -195,7 +199,7 @@ const RenderImages = ({ images }) => {
 const Images = ({ isIpadUser }) => {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
-    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6];
+    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6, Paris7, Paris8];
 
     return (
         <>
@@ -674,7 +678,7 @@ export function VocabulairePage() {
             reverse={false}
             truncate={false}
             titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-64'}
-            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
+            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}
             collpaseHandler={undefined}
             collapse={undefined}
             locked={false}

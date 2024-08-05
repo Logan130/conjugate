@@ -1,15 +1,112 @@
 export const wordsAlterEgoB2U2 = {
-    lessons: ["", "", "", ""],
-    "": [
-
+    lessons: ["éclairages", "insomnie", "symptômes", "", "", "", "", ],
+    "éclairages": [
+        { english: "again", french: "à nouveau", pos: "loc.", chinese: "再次" },
+        { english: "again", french: "de nouveau", pos: "loc.", chinese: "再次" },
+        { english: "to contradict", french: "contredire", pos: "v.t.", chinese: "反驳" },
+        { english: "fasting", french: "jeûne", pos: "n.m.", chinese: "禁食" },
+        { english: "aberrant", french: "aberrant(e)", pos: "adj.", chinese: "异常的" },
+        { english: "family doctor", french: "médecin traitant", pos: "n.", chinese: "家庭医生" },
+        { english: "to get rid (de qch)", french: "se débarrasser", pos: "v.pr.", chinese: "摆脱" },
+        { english: "to call for (argent, réforme, justice)", french: "réclamer", pos: "v.t.", chinese: "要求" },
+        { english: "complaint", french: "réclamation", pos: "n.f.", chinese: "投诉" },
+        { english: "to rebel (contre qch)", french: "se rebeller", pos: "v.pr.", chinese: "反抗" },
+        { english: "to bury", french: "enfouir", pos: "v.t.", chinese: "埋" },
+        { english: "to advocate", french: "prôner", pos: "v.t.", chinese: "提倡" },
+        { english: "detrimental effects", french: "méfaits", pos: "n.m.pl.", chinese: "有害影响" },
+        { english: "framework (bâtiment), build (constitution)", french: "charpente", pos: "n.f.", chinese: "架构" },
+        { english: "pain", french: "douleur", pos: "n.f.", chinese: "疼痛" },
+        { english: "articular, joint", french: "articulaire", pos: "adj.", chinese: "关节的" },
+        { english: "secretion", french: "sécrétion", pos: "n.f.", chinese: "分泌" },
+        { english: "molecule", french: "molécule", pos: "n.f.", chinese: "分子" },
+        { english: "paralyzed", french: "paralysé(e)", pos: "adj.", chinese: "瘫痪的" },
+        { english: "to design", french: "concevoir", pos: "v.t.", chinese: "设计" },
+        { english: "marrow", french: "moelle", pos: "n.f.", chinese: "骨髓" },
+        { english: "spinal cord", french: "moelle épinière", pos: "n.f.", chinese: "脊髓" },
+        { english: "limb", french: "membre", pos: "n.m.", chinese: "四肢" },
+        { english: "inert", french: "inerte", pos: "adj.", chinese: "惰性的" },
+        { english: "canon", french: "canon", pos: "n.m.", chinese: "典范" },
+        { english: "to point out, to represent, to refer to", french: "désigner", pos: "v.t.", chinese: "指明" },
+        { english: "rule", french: "règle", pos: "n.f.", chinese: "规则" },
+        { english: "credible", french: "crédible", pos: "adj.", chinese: "可信的" },
+        { english: "to put the emphasis on", french: "mettre l’accent sur", pos: "loc.", chinese: "强调" },
+        { english: "diet", french: "régime", pos: "n.m.", chinese: "饮食" },
+        { english: "satiation", french: "satiété", pos: "n.f.", chinese: "饱足" },
+        { english: "hormone", french: "hormone", pos: "n.f.", chinese: "激素" },
+        { english: "rather than (ind.)", french: "plutôt que", pos: "loc.", chinese: "而不是" },
+        { english: "stomach", french: "estomac", pos: "n.m.", chinese: "胃" },
+        { english: "effective", french: "efficace", pos: "adj.", chinese: "有效的" },
+        { english: "effectiveness", french: "efficacité", pos: "n.f.", chinese: "有效性" }
+    ],
+    "insomnie": [
+        { english: "pregnancy", french: "grossesse", pos: "n.f.", chinese: "怀孕" },
+        { english: "anxious", french: "angoissé(e)", pos: "adj.", chinese: "焦虑的" },
+        { english: "insomnia", french: "insomnie", pos: "n.f.", chinese: "失眠" },
+        { english: "herbal tea", french: "tisane", pos: "n.f.", chinese: "草药茶" },
+        { english: "sleeping pill", french: "somnifère", pos: "n.m.", chinese: "安眠药" },
+        { english: "to waste", french: "gâcher", pos: "v.t.", Chinese: "浪费" },
+        { english: "have your nerve on the edge", french: "avoir les nerfs à fleur de peau", pos: "loc.", chinese: "精神紧张" },
+        { english: "like, the sort (fam.)", french: "du genre", pos: "loc.", chinese: "像…那样" },
+        { english: "only need to (faire)", french: "ne que avoir à", pos: "loc.", chinese: "只需" },
+        { english: "to remedy", french: "remédier à", pos: "v.t.ind.", chinese: "补救" },
+        { english: "to cure", french: "guérir", pos: "v.t.", chinese: "治愈" },
+        { english: "caffeine", french: "caféine", pos: "n.f.", chinese: "咖啡因" },
+        { english: "to be content (de qch, de faire)", french: "se contenter", pos: "v.pr.", chinese: "满足" },
+        { english: "probably", french: "éventuellement", pos: "adv.", chinese: "可能" },
+        { english: "diagnosis (djaɡnɔstik)", french: "diagnostic", pos: "n.m.", chinese: "诊断" },
+        { english: "to admit", french: "convenir de", pos: "v.t.ind.", chinese: "承认" },
+        { english: "to resort to", french: "recourir à", pos: "v.t.ind.", chinese: "求助于" },
+        { english: "under the condition that (subj.)", french: "à condition de/que", pos: "loc.", chinese: "在…条件下" },
+        { english: "dosage", french: "posologie", pos: "n.f.", chinese: "剂量" },
+        { english: "(avoir) resource, resort (à qch, à qn)", french: "recours", pos: "n.m.", chinese: "求助" },
+        { english: "symptom", french: "symptôme", pos: "n.m.", chinese: "症状" },
+        { english: "nocturnal", french: "nocturne", pos: "adj.", chinese: "夜间的" },
+        { english: "to opt (pour qch)", french: "opter", pos: "v.i.", chinese: "选择" },
+        { english: "to ban", french: "proscrire", pos: "v.t.", chinese: "禁止" },
+        { english: "soothing", french: "apaisant(e)", pos: "adj.", chinese: "安慰的" },
+        { english: "peace", french: "paix", pos: "n.m.", chinese: "和平" }
+    ],
+    "symptômes": [
+        { english: "skull, head (fam.)", french: "crâne", pos: "n.m.", chinese: "头" },
+        { english: "cold (fam.)", french: "crève", pos: "n.f.", chinese: "感冒" },
+        { english: "to swallow", french: "avaler", pos: "v.t.", chinese: "吞咽" },
+        { english: "to suffer from, to stand (sans artcicles)", french: "souffre de", pos: "v.t.", chinese: "忍受" },
+        { english: "cramp", french: "crampe", pos: "n.f.", chinese: "抽筋" },
+        { english: "feverish", french: "fiévreux(se)", pos: "adj.", chinese: "发烧的" },
+        { english: "to weaken", french: "affaiblir", pos: "v.t.", chinese: "削弱" },
+        { english: "to cough", french: "tousse", pos: "v.i.", chinese: "咳嗽" },
+        { english: "(nez) to run", french: "couler", pos: "v.i.", chinese: "流(鼻涕)" },
+        { english: "to sneeze", french: "éternuer", pos: "v.i.", chinese: "打喷嚏" },
+        { english: "energy (tɔnys)", french: "tonus", pos: "n.m.", chinese: "活力" },
+        { english: "to burn", french: "brûler", pos: "v.t.", chinese: "烧" },
+        { english: "to sting", french: "piquer", pos: "v.t.", chinese: "刺痛" },
+        { english: "to make itchy", french: "démanger", pos: "v.t.", chinese: "发痒" },
+        { english: "to swell", french: "enfler", pos: "v.t.", chinese: "肿胀" },
+        { english: "to inflate", french: "gonfler", pos: "v.t.", chinese: "充气" },
+        { english: "to infect", french: "infecter", pos: "v.t.", chinese: "感染" },
+        { english: "lump", french: "grosseur", pos: "n.f.", chinese: "肿块" },
+        { english: "to upset", french: "contrarier", pos: "v.t.", chinese: "使生气" },
+        { english: "upset", french: "contrariété", pos: "n.f.", chinese: "烦恼" },
+        { english: "whiff", french: "bouffée", pos: "n.f.", chinese: "一阵气味" },
+        { english: "anxiety", french: "angoisse", pos: "n.f.", chinese: "焦虑" },
+        { english: "button, pimple", french: "bouton", pos: "n.m.", chinese: "按钮，粉刺" },
+        { english: "palpitation", french: "palpitation", pos: "n.f.", chinese: "心悸" },
+        { english: "it’s worth it that (subj.)", french: "cela voudrait la peine que", pos: "loc.", chinese: "值得" }
     ],
     "": [
 
-    ],
+    ], 
     "": [
 
-    ],
+    ], 
     "": [
 
-    ]
+    ], 
+    "": [
+
+    ], 
+    "": [
+
+    ], 
+
 }

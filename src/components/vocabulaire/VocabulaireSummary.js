@@ -476,11 +476,14 @@ export function VocabulaireSummary() {
 
             <div>
                 <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
-                    {lesson_arr.map((les, lesson_id) => (<>
-                        <button className={lessonButtonStyle[lesson_id] ? "btn btn-success w-full break-all p-1" : "btn btn-success btn-outline w-full break-all p-1"} onClick={onClickLessonButton(lesson_id, les)}>
-                            {(eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les}
-                        </button>
-                    </>))}
+                    {lesson_arr.map((les, lesson_id) => {
+                        let buttonText = (eng && lessons[id].words.lessonsEng) ? lessons[id].words["lessonsEng"][lesson_id] : les;
+                        return (<>
+                            <button className={lessonButtonStyle[lesson_id] ? `btn btn-success w-full break-all p-1 ${isMobile && buttonText.length > 9 ? 'text-xs' : ''}` : `btn btn-success btn-outline w-full break-all p-1 ${isMobile && buttonText.length > 9 ? 'text-xs' : ''}`} onClick={onClickLessonButton(lesson_id, les)}>
+                                {buttonText}
+                            </button>
+                        </>)
+                    })}
                 </div>
                 <br />
 

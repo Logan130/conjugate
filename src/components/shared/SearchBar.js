@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { lessons } from "../../pages/Vocabulaire";
 import { alterEgoB2, taxiA1A2, taxiB1 } from "../../data/array/VocArray/taxi";
 import { communicationA1, communicationA2 } from "../../data/array/VocArray/communication";
@@ -132,9 +132,9 @@ let les = [
     ...InnerFrench
 ]
 
-function Statistics(units, tags, book) {
+function Statistics(units, tags, books) {
     let words = [];
-    for (let unit of units.filter(unit => tags.includes(unit.tag))) {
+    for (let unit of units.filter(unit => tags.includes(unit.tag) && (books.length === 0 || books.includes(unit.book)))) {
         for (let lessonName of unit.words.lessons) {
             words = [...words, ...unit.words[lessonName]]
         }
@@ -150,22 +150,23 @@ function Statistics(units, tags, book) {
         locSet.add(w.french)
     }
     return {
-        all: words.length, 
-        nonLoc: nonLoc.length, 
-        loc: loc.length, 
-        nonLocSet: nonLocSet.size, 
+        all: words.length,
+        nonLoc: nonLoc.length,
+        loc: loc.length,
+        nonLocSet: nonLocSet.size,
         locSet: locSet.size
     }
 }
 
 function StatisticsTable() {
-    let TaxiResult = Statistics(lessons, ['Taxi'], '');
-    let CommResult = Statistics(lessons, ['Communication Progressive'], '');
-    let VocabResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other'], '');
+    let TaxiResult = Statistics(lessons, ['Taxi'], ['A1', 'A2', 'B1']);
+    let CommResult = Statistics(lessons, ['Communication Progressive'], []);
+    let VocabResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other'], []);
 
-    let AllResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], '');
+    let AlterEgoResult = Statistics(lessons, ['Taxi'], ['B2']);
+    let VocabAdvancedResult = Statistics(lessons, ['Vocabulaire Progressif'], ['B1']);
 
-    console.log(TaxiResult, 'debug')
+    let AllResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], []);
 
     return (<>
         <div className="overflow-x-auto">
@@ -207,12 +208,25 @@ function StatisticsTable() {
                     </tr>
 
                     <tr>
-                        {/* <th>4</th> */}
-                        <td>所有Taxi + 渐进交际中级 + 渐进词汇中级</td>
+                        {/* <th>5</th> */}
+                        <td>Ego B2</td>
                         {/* <td>{VocabResult.all}</td> */}
+                        <td>{AlterEgoResult.nonLocSet}</td>
+                        <td>{AlterEgoResult.locSet}</td>
+                    </tr>
+
+                    <tr>
+                        <td>词汇渐进高级</td>
+                        <td>{VocabAdvancedResult.nonLocSet}</td>
+                        <td>{VocabAdvancedResult.locSet}</td>
+                    </tr>
+
+                    <tr>
+                        <td>所有积累</td>
                         <td>{AllResult.nonLocSet}</td>
                         <td>{AllResult.locSet}</td>
                     </tr>
+
                 </tbody>
             </table>
         </div>
@@ -270,10 +284,18 @@ export function SearchBar() {
             setResults([]);
             return;
         }
-        setResults(allWords.filter((word) =>
-            word.french.indexOf(searchBarValue) !== -1 ||
-            word.english.indexOf(searchBarValue) !== -1 ||
-            word.chinese.indexOf(searchBarValue) !== -1
+        setResults(allWords.filter((word) => {
+            try {
+                return word.french.indexOf(searchBarValue) !== -1 ||
+                    word.english.indexOf(searchBarValue) !== -1 ||
+                    word.chinese.indexOf(searchBarValue) !== -1
+            }
+            catch(e) {
+                console.log('error', e, word)
+                return false;
+            }
+        }
+
         ))
     }
 
@@ -286,6 +308,10 @@ export function SearchBar() {
             onClickSearch();
         }
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to top-left corner
+    }, []);
 
     return (<>
 

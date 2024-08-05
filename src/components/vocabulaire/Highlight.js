@@ -119,6 +119,10 @@ export function HighlightPage() {
         {
             name: 'Voc A1 L1-10',
             units: lessons.filter(unit => unit.tag === 'Vocabulaire Progressif' && unit.book === 'A1').slice(0, 10)
+        }, 
+        {
+            name: 'Voc A1 L11-15',
+            units: lessons.filter(unit => unit.tag === 'Vocabulaire Progressif' && unit.book === 'A1').slice(10, 15)
         }
     ];
 

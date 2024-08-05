@@ -49,6 +49,7 @@ import { VocabulaireProgressifA2L25 } from '../../vocabulaire/vocabulaireA2/L25'
 import { VocabulaireProgressifB1L1 } from '../../vocabulaire/vocabulaireB1/L1';
 import { VocabulaireProgressifB1L2 } from '../../vocabulaire/vocabulaireB1/L2';
 import { VocabulaireA1L1_10 } from '../../vocabulaire/vocabulaireA1/HighlightL1-10';
+import { VocabulaireA1L11_15 } from '../../vocabulaire/vocabulaireA1/HighlightL11-15';
 
 
 
@@ -251,7 +252,14 @@ export const vocabulaireProgressifA1 = [
         words: VocabulaireA1L1_10,
         tag: "Vocabulaire Progressif",
         book: "A1",
-        engUnit: "Voc A1 L1 Highlight",
+        engUnit: "L1-10 Highlight",
+    }, 
+    {
+        unit: "L11-15 高亮",
+        words: VocabulaireA1L11_15,
+        tag: "Vocabulaire Progressif",
+        book: "A1",
+        engUnit: "L11-15 Highlight",
     }, 
 ]
 
