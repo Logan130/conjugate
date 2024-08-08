@@ -50,6 +50,10 @@ import { VocabulaireProgressifB1L1 } from '../../vocabulaire/vocabulaireB1/L1';
 import { VocabulaireProgressifB1L2 } from '../../vocabulaire/vocabulaireB1/L2';
 import { VocabulaireA1L1_10 } from '../../vocabulaire/vocabulaireA1/HighlightL1-10';
 import { VocabulaireA1L11_15 } from '../../vocabulaire/vocabulaireA1/HighlightL11-15';
+import { VocabulaireProgressifB1L3 } from '../../vocabulaire/vocabulaireB1/L3';
+import { VocabulaireProgressifB1L4 } from '../../vocabulaire/vocabulaireB1/L4';
+import { VocabulaireProgressifB1L5 } from '../../vocabulaire/vocabulaireB1/L5';
+import { VocabulaireProgressifB1L6 } from '../../vocabulaire/vocabulaireB1/L6';
 
 
 
@@ -427,5 +431,33 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B1 L2 Shapes, Materials",
+    },
+    {
+        unit: "Voc B1 L3 光彩",
+        words: VocabulaireProgressifB1L3,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L3 Light, Color",
+    },
+    {
+        unit: "Voc B1 L4 DIY",
+        words: VocabulaireProgressifB1L4,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L4 DIY",
+    },
+    {
+        unit: "Voc B1 L5 烹饪",
+        words: VocabulaireProgressifB1L5,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L5 Gastronomy",
+    },
+    {
+        unit: "Voc B1 L6 动作",
+        words: VocabulaireProgressifB1L6,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L6 Movements",
     },
 ]

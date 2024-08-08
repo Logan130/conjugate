@@ -545,10 +545,6 @@ export function VocabulaireSummary() {
             </div>
 
 
-            <br />
-            <Cards words={voc} chinese={chinese} />
-
-
 
             <br /><br />
             <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "复制按钮为Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
@@ -574,7 +570,11 @@ export function VocabulaireSummary() {
                 <button className={isMobile ? "btn btn-outline btn-error text-xs p-2" : "btn btn-outline btn-error"} onClick={() => copyToClipBoardGPT(false)}>{eng ? "Chinese Prompt" : "LLM指令中文"}</button>
             </div>
 
-            <br /><br /><br />
+            {/* <br /><br /><br /> */}
+
+
+            <br />
+            <Cards words={voc} chinese={chinese} />
 
 
 

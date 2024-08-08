@@ -1,13 +1,54 @@
 export const VocabulaireProgressifB1L3 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["光线", "颜色",],
+    "光线": [
+        { english: "dull", french: "terne", pos: "adj.", chinese: "暗淡的" },
+        { english: "to sieve (sable), to filter (lumière)", french: "tamiser", pos: "v.t.", chinese: "筛选，过滤" },
+        { english: "pallid (visage, teint), pale (aube, lumière)", french: "blafard(e)", pos: "adj.", chinese: "苍白的" },
+        { english: "limpid, clear (eau, ciel, style)", french: "limpide", pos: "adj.", chinese: "清澈的" },
+        { english: "obscure (nuit, lieu, texte)", french: "obscur", pos: "adj.", chinese: "模糊的" },
+        { english: "opaque, impenetrable (nuit, texte)", french: "opaque", pos: "adj.", chinese: "不透明的" },
+        { english: "smudgy (verre), blurred (photo, contours, vision)", french: "trouble", pos: "adj.", chinese: "模糊的" },
+        { english: "penumbra", french: "pénombre", pos: "n.f.", chinese: "半影" },
+        { english: "gloomy", french: "morne", pos: "adj.", chinese: "阴郁的" },
+        { english: "to light", french: "éclairer", pos: "v.t.", chinese: "照亮" },
+        { english: "to shine", french: "briller", pos: "v.i.", chinese: "闪耀" },
+        { english: "bright", french: "brillant(e)", pos: "adj.", chinese: "明亮的" },
+        { english: "to dazzle", french: "éblouir", pos: "v.t.", chinese: "使目眩" },
+        { english: "blazing (soleil), twinkling (étoile)", french: "étincelant(e)", pos: "adj.", chinese: "闪烁的" },
+        { english: "(astre) to twinkle, (soleil, métal) to sparkle", french: "étinceler", pos: "v.i.", chinese: "闪耀" },
+        { english: "to blind", french: "aveugler", pos: "v.t.", chinese: "使眼花" },
+        { english: "blinding", french: "aveuglant(e)", pos: "adj.", chinese: "刺眼的" },
+        { english: "to reflect", french: "refléter", pos: "v.t.", chinese: "反射" },
+        { english: "reflect", french: "reflet", pos: "n.m.", chinese: "反射" },
+        { english: "to contemplate", french: "contempler", pos: "v.t.", chinese: "凝视" },
+        { english: "beam", french: "faisceau", pos: "n.m.", chinese: "光束" },
+        { english: "intersection", french: "carrefour", pos: "n.m.", chinese: "十字路口" },
+        { english: "(lumière, feu) to flash, (yeux) to blink", french: "clignoter", pos: "v.i.", chinese: "闪烁，眨眼" },
+        { english: "faint light, glow", french: "lueur", pos: "n.f.", chinese: "微光" },
+        { english: "(lumière, chaleur, joie, beauté) radiant, beaming", french: "rayonnant(e)", pos: "adj.", chinese: "辐射的" },
+        { english: "to shine, to beam", french: "rayonner", pos: "v.i.", chinese: "放射" },
+        { english: "mediocre", french: "médiocre", pos: "adj.", chinese: "中等的" }
     ],
-    "": [
-
+    "颜色": [
+        { english: "shimmering, glowing", french: "chatoyant(e)", pos: "adj.", chinese: "闪耀的" },
+        { english: "to shimmer, to glow", french: "chatoyer", pos: "v.i.", chinese: "闪耀" },
+        { english: "neutral", french: "neutre", pos: "adj.", chinese: "中性的" },
+        { english: "fluorescent", french: "fluorescent(e)", pos: "adj.", chinese: "荧光的" },
+        { english: "pearl", french: "perle", pos: "n.f.", chinese: "珍珠" },
+        { english: "lavender", french: "lavande", pos: "n.f.", chinese: "薰衣草" },
+        { english: "coral", french: "corail", pos: "n.m.", chinese: "珊瑚" },
+        { english: "hazelnut", french: "noisette", pos: "n.f.", chinese: "榛子" },
+        { english: "rust", french: "rouille", pos: "n.f.", chinese: "锈" },
+        { english: "tide", french: "marée", pos: "n.f.", chinese: "潮汐" },
+        { english: "beast", french: "bête", pos: "n.f.", chinese: "野兽" },
+        { english: "to draw up (tableau)", french: "dresser", pos: "v.t.", chinese: "编制" },
+        { english: "pessimist", french: "pessimiste", pos: "adj.", chinese: "悲观主义者" },
+        { english: "a sleepless night", french: "une nuit blanche", pos: "loc.", chinese: "失眠夜" },
+        { english: "carte blanche", french: "carte blanche", pos: "n.f.", chinese: "全权委托" },
+        { english: "to originate (de qp)", french: "provenir", pos: "v.i.", chinese: "起源" }
     ],
     "": [
 
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["light", "color", "", "", ""]
 }

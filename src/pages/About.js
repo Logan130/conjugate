@@ -53,8 +53,9 @@ export function About() {
                     <h1 className="text-3xl font-bold mb-4">{eng ? "About" : "关于这个网站"}</h1>
 
                     <div
-                        className={isMobile ? "text-sm transition-opacity duration-1000 ease-in-out opacity-0" : "text-lg transition-opacity duration-1000 ease-in-out opacity-0"}
-                        onLoad={(e) => e.currentTarget.classList.add('opacity-100')}
+                        // className={isMobile ? "text-sm transition-opacity duration-1000 ease-in-out opacity-0" : "text-lg transition-opacity duration-1000 ease-in-out opacity-0"}
+                        className={isMobile ? "text-sm " : "text-lg "}
+                        // onLoad={(e) => e.currentTarget.classList.add('opacity-100')}
                     >
                         {eng ?
                             <p className="mb-4">

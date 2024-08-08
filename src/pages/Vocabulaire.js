@@ -76,22 +76,23 @@ const isIpad = () => {
 
 const RenderImages = ({ images }) => {
     const { eng } = useContext(ThemeContext);
-    const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
+    // const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
     const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming"];
 
     let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8];
-    images = imagesOlym
+    images = imagesOlym    
+    const [currentImageIndex, setCurrentImageIndex] = useState(new Date().getTime() % imagesOlym.length);
 
-    useEffect(() => {
-        if (eng) {
-            setCurrentImageIndex(1);
-        }
-        else {
-            setCurrentImageIndex(0);
-        }
-    }, [eng])
+    // useEffect(() => {
+    //     if (eng) {
+    //         setCurrentImageIndex(1);
+    //     }
+    //     else {
+    //         setCurrentImageIndex(0);
+    //     }
+    // }, [eng])
 
     const captionArr = [
         <div className='flex items-center justify-center text-neutral-content'>
