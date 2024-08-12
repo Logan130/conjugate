@@ -33,6 +33,7 @@ import { wordsTaxiB1U12 } from "../../taxi/taxi3/u12";
 import { wordsAlterEgoB2U1 } from "../../taxi/alterego4/u1";
 import { wordsAlterEgoB2U2 } from "../../taxi/alterego4/u2";
 import { wordsAlterEgoB2U3 } from "../../taxi/alterego4/u3";
+import { wordsAlterEgoB2U4 } from "../../taxi/alterego4/u4";
 
 
 export const taxiA1A2 = [
@@ -238,6 +239,12 @@ export const alterEgoB2 = [
     {
         unit: "D3 Migration",
         words: wordsAlterEgoB2U3,
+        tag: "Taxi",
+        book: "B2",
+    },
+    {
+        unit: "D4 Cité",
+        words: wordsAlterEgoB2U4,
         tag: "Taxi",
         book: "B2",
     },

@@ -1,5 +1,5 @@
 export const wordsAlterEgoB2U2 = {
-    lessons: ["éclairages", "insomnie", "symptômes", "conseil", "corporel", "pharmacie", "dopage", "subjontif", "Sachs"],
+    lessons: ["éclairages", "insomnie", "symptômes", "conseil", "corporel", "pharmacie", "dopage", "subjonctif", "Sachs"],
     "éclairages": [
         { english: "again", french: "à nouveau", pos: "loc.", chinese: "再次" },
         { english: "again", french: "de nouveau", pos: "loc.", chinese: "再次" },
@@ -228,7 +228,7 @@ export const wordsAlterEgoB2U2 = {
         { english: "punishment", french: "punition", pos: "n.f.", chinese: "惩罚" },
         { english: "hold sb. for responsibility", french: "tenir qn pour responsable", pos: "loc.", chinese: "使某人负责" }
     ],
-    "subjontif": [
+    "subjonctif": [
         { english: "to annoy", french: "agacer", pos: "v.t.", chinese: "惹恼" },
         { english: "to cheat", french: "tricher", pos: "v.i.", chinese: "作弊" },
         { english: "at the top of", french: "en tête de", pos: "loc.", chinese: "在...榜首" },

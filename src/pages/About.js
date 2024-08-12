@@ -62,7 +62,7 @@ export function About() {
                                 While studying French, I personally find it challenging to memorize vocabulary and conjugation. Taking advantage of my skills as a full-stack engineer, I have developed a web application to make this learning process easier. Furthermore, I have chosen to deploy this application on the Internet so that anyone can access the study materials :)
                             </p> :
                             <p className="mb-4">
-                                在和{" "}
+                                我从A2开始和{" "}
                                 <a className="link link-warning" href="https://space.bilibili.com/516688089/">
                                     <img
                                         src={Profile}
@@ -71,16 +71,16 @@ export function About() {
                                         onLoad={(e) => e.currentTarget.classList.add('opacity-100')}
                                         alt="Teacher" />
                                     詹晨老师
-                                </a>学习法语的过程中，他的听写对我帮助非常大，但我记忆力不是很好，旧一些的动词变位和名词阴阳性过一段时间就忘了。
-                                由于平时的阅读和听力难以覆盖所有旧单词，复习起来并不容易。
-                                我原本做了个本地电脑端的小应用来记忆，但后来觉得干脆把它部署发布到网上，方便我用手机或大家一起学习
+                                </a>学习法语，他的听写对我帮助非常大，但我记忆力不是很好，旧一些的动词变位和名词阴阳性过一段时间就忘了。
+                                由于平时的阅读和听力难以覆盖所有旧单词，复习起来并不容易。再加上詹老师只在A1 A2听写单词，B阶段以后就只听写课文了。
+                                所以我做了个本地电脑端的小应用来记忆单词和动词变位，但后来觉得干脆把它部署发布到网上，方便我用手机或大家一起学习。
                             </p>
                         }
                         <br />
 
                         {!eng && (<>
                             <p className="">
-                                A1-B1有直现，复过，未完成过去，最近过去，最近将来，简将，条现，虚现，愈过去，先将来，条过去，不定式，过去时不定式，虽然每个单词对应的变位有几十个，
+                                A1-B2有直现，复过，未完成过去，最近过去，最近将来，简将，条现，虚现，愈过去，先将来，条过去，虚过去，不定式，过去时不定式，先过去时，虽然每个单词对应的变位有几十个，
                                 但这个网站只听写其中8个变位，分别是直现的六个、过去分词、简将词根。
                                 除了虚拟式的特殊情况，以上所有时态和语式的变位都可以通过这8个变位推导出来
                             </p>
@@ -95,8 +95,8 @@ export function About() {
                             </p> :
                             <p className="">
                                 这个网站的<Link className="link link-warning" to='/practice'>变位练习板块</Link>
-                                动词按照Taxi每本书进行了分类，可以自由组合练习模块，点击“检查”按钮能够检查听写对错，
-                                如果忘记变位，点击“提示”按钮就会有答案。由于我还在学习中，因此这个网站会不断更新，后续会陆续加入B1和B2板块
+                                动词按照每个阶段进行了分类，可以自由组合练习模块，点击“检查”按钮能够检查听写对错，
+                                如果忘记变位，点击“提示”按钮就会有答案。由于我还在学习中，因此这个网站会不断更新
                             </p>}
 
 
@@ -111,9 +111,10 @@ export function About() {
                             </p> :
                             <p className="">
                                 <Link className="link link-warning" to='/voc'>词汇板块</Link>
-                                导入了我学习过程中遇到的单词，包括Taxi和法语渐进系列(交际系列，词汇系列)，
+                                导入了我学习过程中遇到的单词，包括Taxi/Alter Ego和法语渐进系列(交际系列，词汇系列)，还有一些零碎的其他单元(Inner French, Édito)
                                 它支持查看单词表和根据词性过滤，还能听写拼写和测试名词阴阳性，
-                                由于阴阳性经常是一整个句子配合的核心，我专门添加了这个功能
+                                由于阴阳性经常是一整个句子配合的核心，我专门添加了这个功能。
+                                此外，每一个单元的单词表是这个软件的精华，里面不仅能根据课文词性分类排序，轻松一键导入Quizlet/Anki，还能自动生成AI大语言模型指令，以帮助快速构建全新语境学习单词。
                             </p>
                         }
 
@@ -137,7 +138,7 @@ export function About() {
                         ref={divRef}
                     >
                         <p>{eng ? "Frontend" : "前端"}：React.js, Tailwind CSS, DaisyUI</p>
-                        <p>{eng ? "Data Cleaning: Few-Shot Learning via GPT" : "单词数据：我提供笔记草稿，GPT进行Few-Shot Learning填充JSON"}</p>
+                        <p>{eng ? "Data Cleaning: Few-Shot Learning via GPT" : "数据清洗：我提供英法笔记草稿，GPT进行Few-Shot Learning填充数组并进行中翻"}</p>
                         <p>{eng ? "Deployment" : "部署"}：GitHub Pages</p>
                     </div>
 

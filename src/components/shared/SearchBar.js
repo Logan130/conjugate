@@ -159,75 +159,59 @@ function Statistics(units, tags, books) {
 }
 
 function StatisticsTable() {
-    let TaxiResult = Statistics(lessons, ['Taxi'], ['A1', 'A2', 'B1']);
-    let CommResult = Statistics(lessons, ['Communication Progressive'], []);
-    let VocabResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other'], []);
+    let isMobile = window.innerWidth < 800;
 
-    let AlterEgoResult = Statistics(lessons, ['Taxi'], ['B2']);
-    let VocabAdvancedResult = Statistics(lessons, ['Vocabulaire Progressif'], ['B1']);
-
-    let AllResult = Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], []);
+    let StatsRows = [
+        {
+            book: "Taxi 四本书",
+            results: Statistics(lessons, ['Taxi'], ['A1', 'A2', 'B1']),
+        },
+        {
+            book: "渐进交际初级/中级",
+            results: Statistics(lessons, ['Communication Progressive'], []),
+        },
+        {
+            book: "渐进词汇初级/中级",
+            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other'], []),
+        },
+        {
+            book: "Ego B2",
+            results: Statistics(lessons, ['Taxi'], ['B2']),
+        },
+        {
+            book: "词汇渐进高级",
+            results: Statistics(lessons, ['Vocabulaire Progressif'], ['B1']),
+        },
+        {
+            book: "所有积累",
+            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], []),
+        },
+    ];
 
     return (<>
         <div className="overflow-x-auto">
-            <table className="table">
-                {/* head */}
+            <h1>非重复词汇量统计</h1> <br/>
+            <table className={`table ${isMobile ? 'w-1/1' : 'w-1/2'}`}>
                 <thead>
                     <tr>
-                        {/* <th className="w-8"></th> */}
-                        <th className="w-96">书籍</th>
-                        {/* <th>词汇+结构量(含重复)</th> */}
-                        <th>词汇量(非重复)</th>
-                        <th>结构量(非重复)</th>
+                        <th className={isMobile ? "" : "w-48"}>书籍</th>
+                        <th className={isMobile ? "w-3" : ""}>词汇量</th>
+                        <th>结构量</th>
+                        <th>总量</th>
                     </tr>
                 </thead>
+
                 <tbody>
-                    {/* row 1 */}
+                    {StatsRows.map((row, id) => 
                     <tr>
-                        {/* <th>1</th> */}
-                        <td>Taxi 四本书</td>
-                        {/* <td>{TaxiResult.all}</td> */}
-                        <td>{TaxiResult.nonLocSet}</td>
-                        <td>{TaxiResult.locSet}</td>
+                        <td>{row.book}</td>
+                        <td>{row.results.nonLocSet}</td>
+                        <td>{row.results.locSet}</td>
+                        <td>{row.results.nonLocSet + row.results.locSet}</td>
                     </tr>
-                    {/* row 2 */}
-                    <tr>
-                        {/* <th>2</th> */}
-                        <td>渐进交际初级/中级</td>
-                        {/* <td>{CommResult.all}</td> */}
-                        <td>{CommResult.nonLocSet}</td>
-                        <td>{CommResult.locSet}</td>
-                    </tr>
-                    {/* row 3 */}
-                    <tr>
-                        {/* <th>3</th> */}
-                        <td>渐进词汇初级/中级</td>
-                        {/* <td>{VocabResult.all}</td> */}
-                        <td>{VocabResult.nonLocSet}</td>
-                        <td>{VocabResult.locSet}</td>
-                    </tr>
-
-                    <tr>
-                        {/* <th>5</th> */}
-                        <td>Ego B2</td>
-                        {/* <td>{VocabResult.all}</td> */}
-                        <td>{AlterEgoResult.nonLocSet}</td>
-                        <td>{AlterEgoResult.locSet}</td>
-                    </tr>
-
-                    <tr>
-                        <td>词汇渐进高级</td>
-                        <td>{VocabAdvancedResult.nonLocSet}</td>
-                        <td>{VocabAdvancedResult.locSet}</td>
-                    </tr>
-
-                    <tr>
-                        <td>所有积累</td>
-                        <td>{AllResult.nonLocSet}</td>
-                        <td>{AllResult.locSet}</td>
-                    </tr>
-
+                    )}
                 </tbody>
+
             </table>
         </div>
     </>)
@@ -290,7 +274,7 @@ export function SearchBar() {
                     word.english.indexOf(searchBarValue) !== -1 ||
                     word.chinese.indexOf(searchBarValue) !== -1
             }
-            catch(e) {
+            catch (e) {
                 console.log('error', e, word)
                 return false;
             }

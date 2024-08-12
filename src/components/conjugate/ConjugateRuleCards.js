@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import Passe from '../../static/passe.jpeg'
+import Passe from '../../static/tomjerry6.png'
 import TomJerry from '../../static/tomjerry2.png'
 import TomJerry2 from '../../static/tomjerry4.png'
 import { ThemeContext } from "../../context/context"
@@ -196,6 +196,24 @@ export function ConjugateRuleCards() {
             </div>
 
 
+            <div className="card w-auto bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">{eng ? "Subjonctif Passé" : "虚过去"}</h2>
+                    <h3 className="font-bold">{eng ? "subjonctif présent être/avoir + p.p." : "助动词虚现在 + p.p."}</h3>
+
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="text-left">que j'<span className={red_style}>aie aimé</span></div>
+                        <div className="text-left">que nous <span className={red_style}>ayons aimé</span></div>
+                        <div className="text-left">que tu <span className={red_style}>aies aimé</span></div>
+                        <div className="text-left">que vous <span className={red_style}>ayez aimé</span></div>
+                        <div className="text-left">qu’il <span className={red_style}>ait aimé</span></div>
+                        <div className="text-left">qu’ils <span className={red_style}>aient aimé</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+
             <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={toggleModal}>
                 <figure><img src={Passe} alt="passé composé" /></figure>
 
@@ -209,10 +227,17 @@ export function ConjugateRuleCards() {
                         <form method="dialog">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                         </form>
-                        <figure><img src={Passe} className="" alt="passé composé" /></figure>
-                        <h3 className="text-2xl text-bold">
-                            arriver, partir, *monter, *descendre, *passer, entrer, *rentrer, rester, *sortir, tomber, aller, venir, *retourner, naître, morrir, intervenir, décéder
-                        </h3>
+                        {/* <figure><img src={Passe} className="" alt="passé composé" /></figure> */}
+
+
+                        <div className="text- text-bold">
+                            {eng ? "Verbs using être" : "使用être的动词"}: arriver, partir, *monter, *descendre, *passer, entrer, *rentrer, rester, *sortir, tomber, aller, venir, *retourner, naître, morrir, intervenir, décéder
+                        </div>
+
+                        <br/>
+                        <div>
+                            {eng ? "The verbs with * can be v.t. In that case, we should use avoir." : "带*动词可以有及物用法，如果是那样，必须用avoir作为助动词"}
+                        </div>
                     </div>
                     <form method="dialog" className="modal-backdrop">
                         <button onClick={toggleModal}>close</button>

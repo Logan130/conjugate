@@ -10,6 +10,9 @@ import Paris5 from '../static/paris-games-july-most-searched-playground-67536518
 import Paris6 from '../static/paris-games-surfing-6753651837110528-2xa.gif'
 import Paris7 from '../static/paris-games-rings-6753651837110531-2xa.gif'
 import Paris8 from '../static/paris-games-artistic-swimming-6753651837110445-2xa.gif'
+import Paris9 from '../static/paris-games-breaking-6753651837110566-2xa.gif'
+import Paris10 from '../static/paris-games-conclude-6753651837110568-2xa.gif'
+
 
 
 
@@ -63,7 +66,8 @@ function getCollapseSession(id) {
 }
 
 function getFilterSession(id) {
-    const arrDefault = ["B1", "A2", "A2", "InnerFrench"]
+    // [taxi, voc, comm, autre]
+    const arrDefault = ["B2", "B1", "A2", "InnerFrench"]
     let target = FilterArr[id];
     let session = window.localStorage.getItem(target);
     return !!session ? session : arrDefault[id];
@@ -79,9 +83,9 @@ const RenderImages = ({ images }) => {
     // const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
-    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming"];
+    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conlude!"];
 
-    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8];
+    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
     images = imagesOlym    
     const [currentImageIndex, setCurrentImageIndex] = useState(new Date().getTime() % imagesOlym.length);
 
@@ -190,8 +194,9 @@ const RenderImages = ({ images }) => {
             {/* <div className='flex items-center justify-center text-neutral-content'>
                 <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
             </div> */}
-            <div className='flex items-center justify-center '>
-                <p className=' italic'>{eng ? 'Paris Games Begin!🇫🇷' : '高卢鸡奥运快乐！🇫🇷'}</p>
+            <div className='flex flex-col items-center justify-center '>
+                <p className=' italic'>{eng ? 'Faster, Higher, Stronger 🇫🇷' : '更高，更快，更强 🇫🇷'}</p>
+                <p className=' italic'>{eng ? ' ' : '更多，更牢，更快 📖'}</p>
             </div>
         </div>
     );
@@ -200,7 +205,7 @@ const RenderImages = ({ images }) => {
 const Images = ({ isIpadUser }) => {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
-    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6, Paris7, Paris8];
+    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
 
     return (
         <>
@@ -225,7 +230,7 @@ const Images = ({ isIpadUser }) => {
                         <>
                             <img alt="Twelfe Night" src={images[Math.floor(Math.random() * 10000) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
-                                <p className='text-neutral-content italic'>Paris Games Begin!🇫🇷</p>
+                                <p className='text-neutral-content italic'>Faster, Higher, Stronger 🇫🇷</p>
                             </div>
                             <br />
                         </> 
@@ -233,7 +238,7 @@ const Images = ({ isIpadUser }) => {
                         <>
                             <img alt="Mulan" src={images[(Math.floor(Math.random() * 10000) + new Date().getTime()) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
-                                <p className='text-neutral-content text-sm'>高卢鸡奥运快乐🇫🇷</p>
+                                <p className='text-neutral-content text-sm'>更高，更快，更强 🇫🇷</p>
                             </div>
                             <br />
                         </>
@@ -670,7 +675,7 @@ export function VocabulairePage() {
 
 
         <Section
-            title={"L'Autre"}
+            title={"Les Autres"}
             vocArr={otherArr}
             filter={autreFilter}
             filterArr={["Edito B1", "InnerFrench"]}
