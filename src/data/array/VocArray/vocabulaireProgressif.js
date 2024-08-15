@@ -24,6 +24,10 @@ import { VocabulaireProgressifA1L25 } from '../../vocabulaire/vocabulaireA1/L25'
 import { VocabulaireProgressifA1L26 } from '../../vocabulaire/vocabulaireA1/L26';
 import { VocabulaireProgressifA1L27 } from '../../vocabulaire/vocabulaireA1/L27';
 import { VocabulaireProgressifA1L28 } from '../../vocabulaire/vocabulaireA1/L28';
+import { VocabulaireA1L1_10 } from '../../vocabulaire/vocabulaireA1/HighlightL1-10';
+import { VocabulaireA1L11_15 } from '../../vocabulaire/vocabulaireA1/HighlightL11-15';
+import { VocabulaireA1L16_28 } from '../../vocabulaire/vocabulaireA1/HighlightL16-28';
+
 
 import { VocabulaireProgressifA2L1 } from '../../vocabulaire/vocabulaireA2/L1';
 import { VocabulaireProgressifA2L3 } from '../../vocabulaire/vocabulaireA2/L3';
@@ -46,14 +50,17 @@ import { VocabulaireProgressifA2L22 } from '../../vocabulaire/vocabulaireA2/L22'
 import { VocabulaireProgressifA2L23 } from '../../vocabulaire/vocabulaireA2/L23';
 import { VocabulaireProgressifA2L24 } from '../../vocabulaire/vocabulaireA2/L24';
 import { VocabulaireProgressifA2L25 } from '../../vocabulaire/vocabulaireA2/L25';
+
+
 import { VocabulaireProgressifB1L1 } from '../../vocabulaire/vocabulaireB1/L1';
 import { VocabulaireProgressifB1L2 } from '../../vocabulaire/vocabulaireB1/L2';
-import { VocabulaireA1L1_10 } from '../../vocabulaire/vocabulaireA1/HighlightL1-10';
-import { VocabulaireA1L11_15 } from '../../vocabulaire/vocabulaireA1/HighlightL11-15';
 import { VocabulaireProgressifB1L3 } from '../../vocabulaire/vocabulaireB1/L3';
 import { VocabulaireProgressifB1L4 } from '../../vocabulaire/vocabulaireB1/L4';
 import { VocabulaireProgressifB1L5 } from '../../vocabulaire/vocabulaireB1/L5';
 import { VocabulaireProgressifB1L6 } from '../../vocabulaire/vocabulaireB1/L6';
+import { VocabulaireProgressifB1L7 } from '../../vocabulaire/vocabulaireB1/L7';
+import { VocabulaireProgressifB1L8 } from '../../vocabulaire/vocabulaireB1/L8';
+import { VocabulaireProgressifB1L9 } from '../../vocabulaire/vocabulaireB1/L9';
 
 
 
@@ -265,6 +272,13 @@ export const vocabulaireProgressifA1 = [
         book: "A1",
         engUnit: "L11-15 Highlight",
     }, 
+    {
+        unit: "L16-28 高亮",
+        words: VocabulaireA1L16_28,
+        tag: "Vocabulaire Progressif",
+        book: "A1",
+        engUnit: "L16-28 Highlight",
+    }, 
 ]
 
 export const vocabulaireProgressifA2 = [
@@ -459,5 +473,26 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B1 L6 Movements",
+    },
+    {
+        unit: "Voc B1 L7 外貌",
+        words: VocabulaireProgressifB1L7,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L7 Appearance",
+    },
+    {
+        unit: "Voc B1 L8 运动",
+        words: VocabulaireProgressifB1L8,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L8 Sports",
+    },
+    {
+        unit: "Voc B1 L9 健康",
+        words: VocabulaireProgressifB1L9,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L9 Health",
     },
 ]

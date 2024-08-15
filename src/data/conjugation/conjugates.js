@@ -1,3 +1,5 @@
+import { sortSimilarWordsLevenshtein } from "./distance"
+
 const conjugatesA1 = [
     { name: "être", je: "suis", tu: "es", il: "est", nous: "sommes", vous: "êtes", ils: "sont", passé: "été", futur: "ser-", level: "A1" },
     { name: "avoir", je: "ai", tu: "as", il: "a", nous: "avons", vous: "avez", ils: "ont", passé: "eu", futur: "aur-", level: "A1" },
@@ -105,8 +107,8 @@ const conjugatesA2 = [
 ]
 
 // updated until 
-// taxi U7
-// communication L35
+// taxi U12
+// communication L42
 // Edito L6
 // vocabulaire:
 // [1, 3, 6, 7, 8, , 9, 10, 11, 12]
@@ -199,14 +201,50 @@ const conjugatesB1 = [
     { name: "punir", je: "punis", tu: "punis", il: "punit", nous: "punissons", vous: "punissez", ils: "punissent", passé: "puni", futur: "punir-" },
     { name: "avertir", je: "avertis", tu: "avertis", il: "avertit", nous: "avertissons", vous: "avertissez", ils: "avertissent", passé: "averti", futur: "avertir-" },
     { name: "taire", je: "tais", tu: "tais", il: "tait", nous: "taisons", vous: "taisez", ils: "taisent", passé: "tu", futur: "tair-" },
-    { name: "brandir", je: "brandis", tu: "brandis", il: "brandit", nous: "brandissons", vous: "brandissez", ils: "brandissent", passé: "brandit", futur: "brandir-" }
+    { name: "brandir", je: "brandis", tu: "brandis", il: "brandit", nous: "brandissons", vous: "brandissez", ils: "brandissent", passé: "brandit", futur: "brandir-" }, 
+    { name: "garantir", je: "garantis", tu: "garantis", il: "garantit", nous: "garantissons", vous: "garantissez", ils: "garantissent", passé: "garanti", futur: "garantir-" },
+    { name: "desservir", je: "dessers", tu: "dessers", il: "dessert", nous: "desservons", vous: "desservez", ils: "desservent", passé: "desservi", futur: "desservir-" },
+    { name: "assaillir", je: "assaillis", tu: "assaillis", il: "assaillit", nous: "assaillons", vous: "assaillez", ils: "assaillent", passé: "assailli", futur: "assaillir-" },
+    { name: "franchir", je: "franchis", tu: "franchis", il: "franchit", nous: "franchissons", vous: "franchissez", ils: "franchissent", passé: "franchi", futur: "franchir-" },
+    { name: "concourir", je: "concours", tu: "concours", il: "concourt", nous: "concourons", vous: "concourez", ils: "concourent", passé: "concouru", futur: "concourr-" },
+    { name: "trahir", je: "trahis", tu: "trahis", il: "trahit", nous: "trahissons", vous: "trahissez", ils: "trahissent", passé: "trahi", futur: "trahir-" },
+    { name: "accomplir", je: "accomplis", tu: "accomplis", il: "accomplit", nous: "accomplissons", vous: "accomplissez", ils: "accomplissent", passé: "accompli", futur: "accomplir-" },
+    { name: "dépérir", je: "dépéris", tu: "dépéris", il: "dépérit", nous: "dépérissons", vous: "dépérissez", ils: "dépérissent", passé: "dépéri", futur: "dépérir-" },
+    { name: "accroître", je: "accrois", tu: "accrois", il: "accroît", nous: "accroissons", vous: "accroissez", ils: "accroissent", passé: "accru", futur: "accroîtr-" },
+    { name: "tondre", je: "tonds", tu: "tonds", il: "tond", nous: "tondons", vous: "tondez", ils: "tondent", passé: "tondu", futur: "tondr-" },
+    { name: "détruire", je: "détruis", tu: "détruis", il: "détruit", nous: "détruisons", vous: "détruisez", ils: "détruisent", passé: "détruit", futur: "détruir-" },
+    { name: "franchir", je: "franchis", tu: "franchis", il: "franchit", nous: "franchissons", vous: "franchissez", ils: "franchissent", passé: "franchi", futur: "franchir-" }
 ]
 
 for (let word of conjugatesB1)
     word["level"] = "B1"
 
+// alter ego [D1, D2, D3]
+// vocabulaire advance []
+const conjugatesB2 = [
+    { name: "élire", je: "élis", tu: "élis", il: "élit", nous: "élisons", vous: "élisez", ils: "élisent", passé: "élu", futur: "élir-" },
+    { name: "enfouir", je: "enfouis", tu: "enfouis", il: "enfouit", nous: "enfouissons", vous: "enfouissez", ils: "enfouissent", passé: "enfoui", futur: "enfouir-" },
+    { name: "secourir", je: "secours", tu: "secours", il: "secourt", nous: "secourons", vous: "secourez", ils: "secourent", passé: "secouru", futur: "secourr-" },
+    { name: "rôtir", je: "rôtis", tu: "rôtis", il: "rôtit", nous: "rôtissons", vous: "rôtissez", ils: "rôtissent", passé: "rôti", futur: "rôtir-" },
+    { name: "élargir", je: "élargis", tu: "élargis", il: "élargit", nous: "élargissons", vous: "élargissez", ils: "élargissent", passé: "élargi", futur: "élargir-" },
+    { name: "établir", je: "établis", tu: "établis", il: "établit", nous: "établissons", vous: "établissez", ils: "établissent", passé: "établi", futur: "établir-" },
+    { name: "compatir", je: "compatis", tu: "compatis", il: "compatit", nous: "compatissons", vous: "compatissez", ils: "compatissent", passé: "compati", futur: "compatir-" },
+    { name: "recourir", je: "recours", tu: "recours", il: "recourt", nous: "recourons", vous: "recourez", ils: "recourent", passé: "recouru", futur: "recourr-" },
+    { name: "ralentir", je: "ralentis", tu: "ralentis", il: "ralentit", nous: "ralentissons", vous: "ralentissez", ils: "ralentissent", passé: "ralenti", futur: "ralentir-" },
+    { name: "adoucir", je: "adoucit", tu: "adoucis", il: "adoucit", nous: "adoucissons", vous: "adoucissez", ils: "adoucissent", passé: "adouci", futur: "adoucir-" },
+    { name: "bénir", je: "bénis", tu: "bénis", il: "bénit", nous: "bénissons", vous: "bénissez", ils: "bénissent", passé: "béni", futur: "bénir-" },
+    { name: "sévir", je: "séviss", tu: "sévis", il: "sévit", nous: "sévissez", vous: "sévissez", ils: "sévissez", passé: "sévi", futur: "sévir-" },
+    { name: "abolir", je: "abolis", tu: "abolis", il: "abolit", nous: "abolissons", vous: "abolissez", ils: "abolissent", passé: "aboli", futur: "abolir-" },
+    { name: "fourbir", je: "fourbis", tu: "fourbis", il: "fourbit", nous: "fourbissons", vous: "fourbissez", ils: "fourbissent", passé: "fourbi", futur: "fourbir-" },
+    { name: "ahurir", je: "ahuris", tu: "ahuris", il: "ahurit", nous: "ahurissons", vous: "ahurissez", ils: "ahurissent", passé: "ahuri", futur: "ahurir-" }
+]
+
+for (let word of conjugatesB2)
+    word["level"] = "B2"
+
 export const conjugates = [
     ...conjugatesA1,
     ...conjugatesA2,
     ...conjugatesB1,
+    ...conjugatesB2, 
 ]

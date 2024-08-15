@@ -83,7 +83,7 @@ const RenderImages = ({ images }) => {
     // const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
-    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conlude!"];
+    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conclude!"];
 
     let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
     images = imagesOlym    

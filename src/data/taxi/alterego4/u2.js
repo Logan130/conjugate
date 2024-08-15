@@ -74,7 +74,7 @@ export const wordsAlterEgoB2U2 = {
         { english: "cramp", french: "crampe", pos: "n.f.", chinese: "抽筋" },
         { english: "feverish", french: "fiévreux(se)", pos: "adj.", chinese: "发烧的" },
         { english: "to weaken", french: "affaiblir", pos: "v.t.", chinese: "削弱" },
-        { english: "to cough", french: "tousse", pos: "v.i.", chinese: "咳嗽" },
+        { english: "to cough", french: "tousser", pos: "v.i.", chinese: "咳嗽" },
         { english: "(nez) to run", french: "couler", pos: "v.i.", chinese: "流(鼻涕)" },
         { english: "to sneeze", french: "éternuer", pos: "v.i.", chinese: "打喷嚏" },
         { english: "energy (tɔnys)", french: "tonus", pos: "n.m.", chinese: "活力" },

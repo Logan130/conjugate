@@ -2,7 +2,7 @@ export const VocabulaireProgressifA1L28 = {
     lessons: ["演出", "视听", "文字"],
     "演出": [
         { english: "cultivated", french: "cultivé(e)", pos: "adj.", chinese: "耕种的" },
-        { english: "uncultured", french: "inculte", pos: "adj.", chinese: "未开化的" },
+        { english: "uncultured", french: "inculte", pos: "adj.", chinese: "未开化的", highlight: true },
         { english: "cultural", french: "culturel(le)", pos: "adj.", chinese: "文化的" },
         { english: "artist", french: "artiste", pos: "n.", chinese: "艺术家" },
         { english: "talent", french: "talent", pos: "n.m.", chinese: "天赋" },

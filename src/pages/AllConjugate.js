@@ -6,11 +6,12 @@ import { ThemeContext } from "../context/context"
 import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
 import { ConjugateRuleCards } from "../components/conjugate/ConjugateRuleCards"
 import { sortStringsBySuffixSimilarity } from "../components/shared/SimilarityCalculator"
+import { sortSimilarWordsLevenshtein } from "../data/conjugation/distance"
 
 export function AllConjugate() {
     const { eng } = useContext(ThemeContext);
     let [listActive, setListActive] = useState(false);
-    let [words, setWords] = useState(conjugates);
+    let [words, setWords] = useState(sortSimilarWordsLevenshtein(conjugates));
     let { scroll } = useParams();
 
     const [levelIndex, setLevelIndex] = useState(0);
@@ -29,13 +30,13 @@ export function AllConjugate() {
     useEffect(() => {
         setIsLoaded(true);
         return () => setIsLoaded(false);
-      }, []);
+    }, []);
 
     let buttonsArr = ([
         {
-            name: eng ? "All" : "全部",
+            name: eng ? "All Levels" : "全部等级",
             index: 0,
-            verbs: conjugates,
+            verbs: sortSimilarWordsLevenshtein(conjugates),
         },
         {
             name: "A1",
@@ -50,13 +51,18 @@ export function AllConjugate() {
         {
             name: "B1",
             index: 2,
-            verbs: sortStringsBySuffixSimilarity(conjugates.filter((verb) => verb.level === "B1")),
+            verbs: (conjugates.filter((verb) => verb.level === "B1")),
+        },
+        {
+            name: "B2",
+            index: 2,
+            verbs: (conjugates.filter((verb) => verb.level === "B2")),
         },
     ])
 
     let suffixButtonArr = [
         {
-            name: eng ? "All" : "全部",
+            name: eng ? "All Suffixes" : "全部词根",
             value: ''
         },
         {
@@ -97,14 +103,14 @@ export function AllConjugate() {
     const onClickButton = (levelID) => {
         setLevelIndex(levelID);
         let newWords = buttonsArr[levelID].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixIndex].value));
-        setWords(newWords);
+        setWords(sortSimilarWordsLevenshtein(newWords));
     };
 
     const onClickSuffixButton = (suffixID) => (e) => {
         setSuffixIndex(suffixID);
         setSuffixIndex(suffixID);
         let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
-        setWords(newWords);
+        setWords(sortSimilarWordsLevenshtein(newWords));
     }
 
 
@@ -171,6 +177,7 @@ export function AllConjugate() {
                 <div>
                     <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Special Conjugations" : "不规则变位表"}</h1>
                 </div>
+
                 <div className="flex items-bottom">
                     <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "选择格式"}</h1>
                     <span role="tablist" className="tabs tabs-bordered">
@@ -180,6 +187,16 @@ export function AllConjugate() {
                 </div>
             </div>
 
+            <br />
+
+            {eng ?
+                <div>
+                    The words are sorted based on their <a className='underline' href='https://en.wikipedia.org/wiki/Levenshtein_distance'>Levenshtein distance</a> in computer science. This metrics reflects the similarity of words, and as a result, words will similar spelling will be closer together.
+                </div>
+                :
+                <div>
+                    动词根据计算机科学中的<a className='underline' href="https://en.wikipedia.org/wiki/Levenshtein_distance">莱文斯坦距离</a>排序，这个指标反应了单词的相似程度，因此拼写类似的单词会靠得更近
+                </div>}
             <br />
 
 
