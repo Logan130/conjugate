@@ -1,5 +1,5 @@
 export const wordsAlterEgoB2U4 = {
-    lessons: ["éclairages", "réclamation", "", "", "", "", "", "", ],
+    lessons: ["éclairages", "réclamation", "colocation", "rélatif", "air", "", "", "", ],
     "éclairages": [
         { english: "to display (talent, activité), to unfold (drapeau)", french: "déployer", pos: "v.t.", chinese: "展示（才华，活动），展开（旗帜）" },
         { english: "conscious (de qch)", french: "conscient(e)", pos: "adj.", chinese: "意识到的" },
@@ -54,14 +54,64 @@ export const wordsAlterEgoB2U4 = {
         { english: "to do something in vain (sans accord)", french: "avoir beau faire", pos: "loc.", chinese: "徒劳去做" },
         { english: "roof", french: "toiture", pos: "n.f.", chinese: "屋顶" }
     ],
-    "": [
-
+    "colocation": [
+        { english: "to suit (qn, qch)", french: "arranger", pos: "v.t.", chinese: "适合" },
+        { english: "sofa bed", french: "canapé-lit", pos: "n.m.", chinese: "沙发床" },
+        { english: "completely", french: "carrément", pos: "adv.", chinese: "完全地" },
+        { english: "equipment (fam.)", french: "matos", pos: "n.m.", chinese: "设备（口语）" },
+        { english: "from a practical point of view", french: "au point de vue pratique", pos: "loc.", chinese: "从实际的观点来看" },
+        { english: "otherwise", french: "sans quoi", pos: "loc.", chinese: "否则" },
+        { english: "in turns", french: "à tour de rôle", pos: "loc.", chinese: "轮流" },
+        { english: "transfer", french: "virement", pos: "n.m.", chinese: "转账" }
     ],
-    "": [
-
+    "rélatif": [
+        { english: "debate", french: "débat", pos: "n.m.", chinese: "辩论" },
+        { english: "seemingly, apparently", french: "en apparence", pos: "loc.", chinese: "表面上" },
+        { english: "painless", french: "indolore", pos: "adj.", chinese: "无痛的" },
+        { english: "slowly, in small fire", french: "à petit feu", pos: "loc.", chinese: "慢慢地" },
+        { english: "closing indictment (contre qch)", french: "réquisitoire", pos: "n.m.", chinese: "控诉" },
+        { english: "particle", french: "particule", pos: "n.f.", chinese: "颗粒" },
+        { english: "filter (à particule, air, café)", french: "filtre", pos: "n.m.", chinese: "过滤器" },
+        { english: "to demonstrate", french: "démontrer", pos: "v.t.", chinese: "证明" },
+        { english: "to go out of style", french: "dater", pos: "v.i.", chinese: "过时" },
+        { english: "carcinogenic", french: "cancérigène", pos: "adj.", chinese: "致癌的" },
+        { english: "dioxide", french: "dioxyde", pos: "n.m.", chinese: "二氧化物" },
+        { english: "nitrogen", french: "azote", pos: "n.m.", chinese: "氮气" },
+        { english: "to raise (question), to give rise to (enthousiasme, protestation), to lift (objet), to pick up (qn)", french: "soulever", pos: "v.t.", chinese: "提出, 激起, 举起, 接起" },
+        { english: "to explode", french: "exploser", pos: "v.t.", chinese: "爆炸" },
+        { english: "endless", french: "sans fin", pos: "loc.", chinese: "无尽的" },
+        { english: "threshold", french: "seuil", pos: "n.m.", chinese: "门槛" },
+        { english: "paradoxical", french: "paradoxal(e)", pos: "adj.", chinese: "矛盾的" },
+        { english: "hybrid", french: "hybride", pos: "adj.", chinese: "混合的" },
+        { english: "wind (énergies, érosion, générateur)", french: "éolien(ne)", pos: "adj.", chinese: "风的" },
+        { english: "crossroad", french: "carrefour", pos: "n.m.", chinese: "十字路口" },
+        { english: "aerial, émission", french: "antenne", pos: "n.f.", chinese: "天线，广播" },
+        { english: "to target", french: "cibler", pos: "v.t.", chinese: "目标" },
+        { english: "to denounce", french: "dénoncer", pos: "v.t.", chinese: "谴责" }
     ], 
-    "": [
-
+    "air": [
+        { english: "swindle, scam (fam.)", french: "arnaque", pos: "n.f.", chinese: "诈骗（俗语）" },
+        { english: "string, trick", french: "ficelle", pos: "n.f.", chinese: "绳子，技巧" },
+        { english: "malicious people", french: "malveillant(e)", pos: "n.", chinese: "恶意的人" },
+        { english: "not to trust", french: "se méfier de", pos: "v.t.ind.", chinese: "不信任" },
+        { english: "to be swarming with (sans articles)", french: "fourmiller de", pos: "v.t.ind.", chinese: "充满" },
+        { english: "something to do", french: "de quoi faire", pos: "loc.", chinese: "可以做的事情" },
+        { english: "to be fond of (qch, qn)", french: "tenir à", pos: "v.t.ind.", chinese: "喜欢" },
+        { english: "attractive", french: "attrayant(e)", pos: "adj.", chinese: "有吸引力的" },
+        { english: "periphery", french: "périphérie", pos: "n.f.", chinese: "边缘" },
+        { english: "populated", french: "peuplé(e)", pos: "adj.", chinese: "人口密集的" },
+        { english: "(lieu, travail) prejudicial to health, (qp) unfit for habitation", french: "insalubre", pos: "adj.", chinese: "对健康有害的，不适宜居住的" },
+        { english: "incorruptible", french: "incorruptible", pos: "adj.", chinese: "廉洁的" },
+        { english: "illegal", french: "illégal(e)", pos: "adj.", chinese: "非法的" },
+        { english: "irreversible", french: "irréversible", pos: "adj.", chinese: "不可逆的" },
+        { english: "insoluble", french: "insoluble", pos: "adj.", chinese: "不能溶解的" },
+        { english: "poor (résultat, personne, air)", french: "piteux(se)", pos: "adj.", chinese: "差的" },
+        { english: "blinds", french: "volet", pos: "n.m.", chinese: "百叶窗" },
+        { english: "carpet", french: "moquette", pos: "n.f.", chinese: "地毯" },
+        { english: "bar", french: "barre", pos: "n.f.", chinese: "杆，横木" },
+        { english: "doorstep, threshold", french: "seuil", pos: "n.m.", chinese: "门槛" },
+        { english: "walk-in closet", french: "penderie", pos: "n.f.", chinese: "步入式衣柜" },
+        { english: "tiled floor, tiles", french: "carrelage", pos: "n.m.", chinese: "瓷砖地板，瓷砖" }
     ],
     "": [
 

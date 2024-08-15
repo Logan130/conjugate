@@ -175,11 +175,11 @@ export function AllConjugate() {
 
             <div class="flex justify-between ...">
                 <div>
-                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Special Conjugations" : "不规则变位表"}</h1>
+                    <h1 className={isMobile ? "text-xl mt-1 mr-0 font-bold" : "text-4xl mt-4 mr-4"}>{eng ? "Special Conjugations" : "不规则变位表"}</h1>
                 </div>
 
                 <div className="flex items-bottom">
-                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "选择格式"}</h1>
+                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "格式"}</h1>
                     <span role="tablist" className="tabs tabs-bordered">
                         <div role="tab" className={listActive ? `tab text-${isMobile ? "1" : "2"}xl` : `tab tab-active text-${isMobile ? "1" : "2"}xl`} onClick={onClickTab(false)}>{eng ? "Table" : "表格"}</div>
                         <div role="tab" className={!listActive ? `tab text-${isMobile ? "1" : "2"}xl` : `tab tab-active text-${isMobile ? "1" : "2"}xl`} onClick={onClickTab(true)}>{eng ? "List" : "列表"}</div>

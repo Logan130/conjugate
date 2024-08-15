@@ -496,7 +496,7 @@ export function VocabulaireSummary() {
                     <span className="underline font-bold text-amber-600">
                         点击释义 <RiTranslate className="align-super inline" /> 可切换中英
                     </span>
-                    。<span className="font-bold txt-rose-400 text-violet-400">如果熟悉英语建议看英语释义</span> <span>, 英文释义是我手打的，有附加固定搭配用法和常见例子。如果你不熟悉英文选择看中文释义，则有一些用户注意事项，如果你看中文释义一定要<Link className="underline font-bold text-yellow-400" to='/warning'>《点击看这篇解释》</Link>，这篇文章解释了中文注释的生成机制和缺陷。</span>
+                    。<span className="font-bold txt-rose-400 text-violet-400">如果熟悉英语建议看英语释义</span> <span>, 英文释义是我手打的，有附加固定搭配用法和常见例子。如果你不熟悉英文选择看中文释义，则有一些用户注意事项，如果你看中文释义一定要<Link className={theme === 'dark' ? "underline font-bold text-yellow-400" : "underline font-bold text-red-400"} to='/warning'>《点击看这篇解释》</Link>，这篇文章解释了中文注释的生成机制和缺陷。</span>
                 </p>
             }
 

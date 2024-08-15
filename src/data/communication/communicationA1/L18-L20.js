@@ -3,18 +3,18 @@ export const CommunicationProgressifA1L18_L20 = {
     特征: [
         { english: "to characterize", french: "caractériser", pos: "v.t.", chinese: "描述" },
         { english: "characteristic", french: "caractéristique", pos: "n.f.", chinese: "特征" },
-        { english: "tablecloth", french: "nappe", pos: "n.f.", chinese: "桌布" },
-        { english: "sideboard", french: "buffet", pos: "n.m.", chinese: "碗橱" },
+        { english: "tablecloth", french: "nappe", pos: "n.f.", chinese: "桌布", highlight: true },
+        { english: "sideboard", french: "buffet", pos: "n.m.", chinese: "碗橱", highlight: true },
         { english: "pattern, motive, reason", french: "motif", pos: "n.m.", chinese: "图案，动机，原因" },
         { english: "towel, napkin", french: "serviette", pos: "n.f.", chinese: "毛巾，餐巾" },
-        { english: "cup", french: "coupe", pos: "n.f.", chinese: "杯子" },
+        { english: "cup", french: "coupe", pos: "n.f.", chinese: "杯子", highlight: true },
         { english: "soup", french: "soupe", pos: "n.f.", chinese: "汤" },
         { english: "salad bowl", french: "saladier", pos: "n.m.", chinese: "沙拉碗" },
-        { english: "fork", french: "fourchette", pos: "n.f.", chinese: "叉子" },
-        { english: "knife", french: "couteau", pos: "n.m.", chinese: "刀" },
+        { english: "fork", french: "fourchette", pos: "n.f.", chinese: "叉子", highlight: true },
+        { english: "knife", french: "couteau", pos: "n.m.", chinese: "刀", highlight: true },
         { english: "spoon", french: "cuiller", pos: "n.f.", chinese: "勺子" },
         { english: "tray", french: "plateau", pos: "n.m.", chinese: "托盘" },
-        { english: "basket", french: "corbeille", pos: "n.f.", chinese: "篮子" }
+        { english: "basket", french: "corbeille", pos: "n.f.", chinese: "篮子", highlight: true }
     ], 
     条件: [
         { english: "to swim", french: "se baigner", pos: "v.pr.", chinese: "游泳" }, 
@@ -22,12 +22,12 @@ export const CommunicationProgressifA1L18_L20 = {
         { english: "to propose",  french: "proposer", pos: "v.", chinese: "提议" },
         { english: "even if",  french: "même si", pos: "loc.", chinese: "即使" },
         { english: "snow",  french: "neige", pos: "n.f.", chinese: "雪" },
-        { english: "mist",  french: "brume", pos: "n.f.", chinese: "薄雾" },
+        { english: "mist",  french: "brume", pos: "n.f.", chinese: "薄雾", highlight: true },
         { english: "cloud",  french: "nuage", pos: "n.m.", chinese: "云" },
         { english: "fog",  french: "brouillard", pos: "n.m.", chinese: "雾" }
     ], 
     需求: [
-        { english: "rate of flow", french: "débit", pos: "n.m.", chinese: "流速" }, 
+        { english: "rate of flow", french: "débit", pos: "n.m.", chinese: "流速", highlight: true }, 
         { english: "connection", french: "connexion", pos: "n.f.", chinese: "连接" }, 
         { english: "to promise",  french: "promettre", pos: "v.", chinese: "承诺" },
         { english: "to type",  french: "taper", pos: "v.t.", chinese: "打字" },

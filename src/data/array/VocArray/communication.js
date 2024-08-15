@@ -4,6 +4,8 @@ import { CommunicationProgressifA1L7_L9 } from '../../communication/communicatio
 import { CommunicationProgressifA1L10_L14 } from '../../communication/communicationA1/L10-14';
 import { CommunicationProgressifA1L15_L17 } from '../../communication/communicationA1/L15-17';
 import { CommunicationProgressifA1L18_L20 } from '../../communication/communicationA1/L18-L20';
+import { CommunicationA1Highlight } from '../../communication/communicationA1/HighlightA1';
+
 
 import { CommunicationProgressifA2L1 } from '../../communication/communicationA2/L1';
 import { CommunicationProgressifA2L2 } from '../../communication/communicationA2/L2';
@@ -83,6 +85,12 @@ export const communicationA1 = [
     {
         unit: "Communication A1 L18-20",
         words: CommunicationProgressifA1L18_L20,
+        tag: "Communication Progressive",
+        book: "A1",
+    },
+    {
+        unit: "Communication A1 Highlight",
+        words: CommunicationA1Highlight,
         tag: "Communication Progressive",
         book: "A1",
     },

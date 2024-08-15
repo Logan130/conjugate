@@ -1,5 +1,4 @@
 export function SixGridTable({words}) {
-    console.log(words)
     let isMobile = window.innerWidth < 500;
 
     let border_style = isMobile ? { border: '1px solid grey', padding: '4px', fontSize: '14px', wordWrap: 'break-word' } : { border: '1px solid grey', padding: '5px' };

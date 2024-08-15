@@ -647,7 +647,7 @@ export function VocabulairePage() {
             filterArr={["A2", "A1"]}
             filterHandler={onClickCommunicationFilter}
             buttonArr={["A2-B1", "A1-A2"]}
-            reverse={true}
+            reverse={false}
             truncate={!commCollapsed}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-0"}

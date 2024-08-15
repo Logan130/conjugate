@@ -128,6 +128,10 @@ export function HighlightPage() {
             name: 'Voc A1 L16-28',
             units: lessons.filter(unit => unit.tag === 'Vocabulaire Progressif' && unit.book === 'A1').slice(15)
         }, 
+        {
+            name: 'Communication A1',
+            units: lessons.filter(unit => unit.tag === 'Communication Progressive' && unit.book === 'A1')
+        }, 
     ];
 
     let [checkedIndices, setCheckedIndices] = useState(new Set());
