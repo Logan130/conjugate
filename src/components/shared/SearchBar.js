@@ -5,6 +5,7 @@ import { communicationA1, communicationA2 } from "../../data/array/VocArray/comm
 import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from "../../data/array/VocArray/vocabulaireProgressif";
 import { EditoB1 } from "../../data/array/VocArray/edito";
 import { InnerFrench } from "../../data/array/VocArray/innerfrench";
+import DownloadExcel from "../vocabulaire/Excel";
 
 
 
@@ -357,6 +358,9 @@ export function SearchBar() {
 
         <h1>高频词统计表</h1>
         <PaginatedTable wordCountArr={wordCountArr} />
+
+        <br/><br/>
+        <DownloadExcel/>
 
     </>)
 }

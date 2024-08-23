@@ -1,4 +1,4 @@
-export const wordsAlterEgoB2U6 = {
+export const wordsAlterEgoB2U8 = {
     lessons: ["éclairages", "", "", "", "", "", "", "", ],
     "éclairages": [
 

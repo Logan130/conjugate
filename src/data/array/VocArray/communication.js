@@ -77,7 +77,7 @@ export const communicationA1 = [
         book: "A1",
     },
     {
-        unit: "Communication A1 L715-17",
+        unit: "Communication A1 L15-17",
         words: CommunicationProgressifA1L15_L17,
         tag: "Communication Progressive",
         book: "A1",

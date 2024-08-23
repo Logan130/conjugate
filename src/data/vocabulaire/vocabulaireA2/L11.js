@@ -17,7 +17,7 @@ export const VocabulaireProgressifA2L11 = {
         { english: "gate", french: "portail", pos: "n.m.", chinese: "大门" },
         { english: "towards", french: "vers", pos: "adv.", chinese: "朝向" },
         { english: "driveway", french: "allée", pos: "n.f.", chinese: "车道" },
-        { english: "hook", french: "portemanteau", pos: "n.m.", chinese: "挂钩" },
+        { english: "coat rack", french: "portemanteau", pos: "n.m.", chinese: "挂钩" },
         { english: "fireplace", french: "cheminée", pos: "n.f.", chinese: "壁炉" },
         { english: "the table is set", french: "la table est mise", pos: "loc.", chinese: "桌子摆好了" },
         { english: "to take sb to somewhere", french: "conduire qn à qch", pos: "v.t.", chinese: "带某人去某地" },

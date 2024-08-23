@@ -61,6 +61,7 @@ import { VocabulaireProgressifB1L6 } from '../../vocabulaire/vocabulaireB1/L6';
 import { VocabulaireProgressifB1L7 } from '../../vocabulaire/vocabulaireB1/L7';
 import { VocabulaireProgressifB1L8 } from '../../vocabulaire/vocabulaireB1/L8';
 import { VocabulaireProgressifB1L9 } from '../../vocabulaire/vocabulaireB1/L9';
+import { VocabulaireProgressifB1L10 } from '../../vocabulaire/vocabulaireB1/L10';
 
 
 
@@ -494,5 +495,12 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B1 L9 Health",
+    },
+    {
+        unit: "Voc B1 L10 性格",
+        words: VocabulaireProgressifB1L10,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L10 Character",
     },
 ]

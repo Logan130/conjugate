@@ -1,13 +1,84 @@
 export const VocabulaireProgressifB1L9 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["疼痛", "麻烦", "意外", "治疗"],
+    "疼痛": [
+        { english: "fly (insecte)", french: "mouche", pos: "n.f.", chinese: "苍蝇" },
+        { english: "to suffer from", french: "souffrir de", pos: "v.t.ind.", chinese: "忍受" },
+        { english: "lumbago", french: "lumbago", pos: "n.m.", chinese: "腰痛" },
+        { english: "oversensitive to pain", french: "douillet(te)", pos: "adj.", chinese: "对疼痛过度敏感的" },
+        { english: "to relieve", french: "soulager", pos: "v.t.", chinese: "缓解" },
+        { english: "period (femme)", french: "règles", pos: "n.f.pl.", chinese: "月经" },
+        { english: "to twist", french: "tordre", pos: "v.t.", chinese: "扭曲" },
+        { english: "subject (à qch, la migraine)", french: "sujet(te)", pos: "adj.", chinese: "易受...影响的（偏头痛）" },
+        { english: "migraine", french: "migraine", pos: "n.f.", chinese: "偏头痛" },
+        { english: "suffering", french: "souffrance", pos: "n.f.", chinese: "痛苦" }
     ],
-    "": [
-
+    "麻烦": [
+        { english: "nap", french: "somme", pos: "n.m.", chinese: "小睡" },
+        { english: "nap, siesta", french: "sieste", pos: "n.f.", chinese: "午睡" },
+        { english: "asthmatic", french: "asthmatique", pos: "adj.", chinese: "哮喘的" },
+        { english: "asthma", french: "asthme", pos: "n.m.", chinese: "哮喘" },
+        { english: "to sneeze", french: "éternuer", pos: "v.i.", chinese: "打喷嚏" },
+        { english: "to vomit", french: "vomir", pos: "v.", chinese: "呕吐" },
+        { english: "eczema", french: "eczéma", pos: "n.m.", chinese: "湿疹" },
+        { english: "to make itchy", french: "démanger", pos: "v.t.", chinese: "使发痒" },
+        { english: "to scratch", french: "gratter", pos: "v.t.", chinese: "抓" },
+        { english: "heart attack", french: "crise cardiaque", pos: "n.f.", chinese: "心脏病发作" },
+        { english: "to faint", french: "s’évanouir", pos: "v.pr.", chinese: "昏倒" },
+        { english: "pregnant", french: "enceinte", pos: "adj.f.", chinese: "怀孕的" },
+        { english: "pregnancy", french: "grossesse", pos: "n.f.", chinese: "怀孕" },
+        { english: "delivery (bébé)", french: "accouchement", pos: "n.m.", chinese: "分娩" },
+        { english: "to breast feed", french: "allaiter", pos: "v.t.", chinese: "母乳喂养" },
+        { english: "baby’s bottle", french: "biberon", pos: "n.m.", chinese: "奶瓶" }
     ],
-    "": [
-
+    "意外": [
+        { english: "fall", french: "chute", pos: "n.f.", chinese: "摔倒" },
+        { english: "to bump (les bras) into (contre la table)", french: "se cogner", pos: "v.pr.", chinese: "撞（胳膊）到（桌子）" },
+        { english: "bruise", french: "bleu", pos: "n.m.", chinese: "淤青" },
+        { english: "hump, bump", french: "bosse", pos: "n.f.", chinese: "肿块" },
+        { english: "(se faire) sprain, distortion (à la vérité)", french: "entorse", pos: "n.f.", chinese: "扭伤" },
+        { english: "ankle", french: "cheville", pos: "n.f.", chinese: "脚踝" },
+        { english: "to bandage", french: "bander", pos: "v.t.", chinese: "包扎" },
+        { english: "to swell", french: "enfler", pos: "v.i.", chinese: "肿胀" },
+        { english: "bandage", french: "bandage", pos: "n.m.", chinese: "绷带" },
+        { english: "to break (la jambe)", french: "se casser", pos: "v.pr.", chinese: "折断（腿）" },
+        { english: "plaster", french: "plâtre", pos: "n.m.", chinese: "石膏" },
+        { english: "crutch", french: "béquille", pos: "n.f.", chinese: "拐杖" },
+        { english: "unscathed", french: "indemne", pos: "adj.", chinese: "未受伤的" },
+        { english: "injury", french: "blessure", pos: "n.f.", chinese: "伤口" },
+        { english: "contusion", french: "contusion", pos: "n.f.", chinese: "挫伤" },
+        { english: "(se faire) to sting (par moustique)", french: "piquer", pos: "v.t.", chinese: "（被蚊子）叮" },
+        { english: "injection, sting", french: "piqûre", pos: "n.f.", chinese: "注射" },
+        { english: "(se faire) to bite (par un chien)", french: "mordre", pos: "v.t.", chinese: "（被狗）咬" },
+        { english: "bite (chien, serpent)", french: "morsure", pos: "n.f.", chinese: "咬伤（狗，蛇）" },
+        { english: "to graze oneself", french: "s’écorcher", pos: "v.pr.", chinese: "擦伤" },
+        { english: "graze", french: "écorchure", pos: "n.f.", chinese: "擦伤" },
+        { english: "to disinfect", french: "désinfecter", pos: "v.t.", chinese: "消毒" },
+        { english: "wound", french: "plaie", pos: "n.f.", chinese: "伤口" },
+        { english: "band-aid", french: "pansement", pos: "n.m.", chinese: "创可贴" },
+        { english: "to heal", french: "cicatriser", pos: "v.", chinese: "愈合" },
+        { english: "scar", french: "cicatrice", pos: "n.f.", chinese: "疤痕" },
+        { english: "break, cut", french: "coupure", pos: "n.f.", chinese: "切口" },
+        { english: "to bleed", french: "saigner", pos: "v.", chinese: "流血" }
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    "治疗": [
+        { english: "to examine with stethoscope, to examine thoroughly", french: "ausculter", pos: "v.t.", chinese: "用听诊器检查，详细检查" },
+        { english: "pulse [pu]", french: "pouls", pos: "n.m.", chinese: "脉搏" },
+        { english: "blood pressure", french: "tension", pos: "n.f.", chinese: "血压" },
+        { english: "diagnosis", french: "diagnostic", pos: "n.m.", chinese: "诊断" },
+        { english: "to diagnose (maladie)", french: "diagnostiquer", pos: "v.t.", chinese: "诊断（疾病）" },
+        { english: "syringe", french: "seringue", pos: "n.f.", chinese: "注射器" },
+        { english: "to hospitalize", french: "hospitaliser", pos: "v.t.", chinese: "住院治疗" },
+        { english: "cavity", french: "carie", pos: "n.f.", chinese: "龋齿" },
+        { english: "antibiotics", french: "antibiotique", pos: "n.m.", chinese: "抗生素" },
+        { english: "antidepressant", french: "antidépresseur", pos: "n.m.", chinese: "抗抑郁药" },
+        { english: "eye drops", french: "collyre", pos: "n.m.", chinese: "眼药水" },
+        { english: "sleeping drug", french: "somnifère", pos: "n.m.", chinese: "安眠药" },
+        { english: "ointment", french: "pommade", pos: "n.f.", chinese: "药膏" },
+        { english: "tablet (comprimé)", french: "cachet", pos: "n.m.", chinese: "药片" },
+        { english: "(médicament) capsule", french: "gélule", pos: "n.f.", chinese: "胶囊" },
+        { english: "sachet", french: "sachet", pos: "n.m.", chinese: "小袋子" },
+        { english: "condom", french: "préservatif", pos: "n.m.", chinese: "避孕套" },
+        { english: "cotton wool", french: "ouate", pos: "n.f.", chinese: "药棉" }
+    ], 
+    lessonsEng: ["pain", "trouble", "accident", "treatment", ""]
 }

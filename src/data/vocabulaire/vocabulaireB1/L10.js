@@ -1,7 +1,52 @@
 export const VocabulaireProgressifB1L10 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["性格", "", ""],
+    "性格": [
+        { english: "caractère", french: "trempé(e)", pos: "adj.", chinese: "坚强的" },
+        { english: "convenient, easy", french: "commode", pos: "adj.", chinese: "方便的，随和的" },
+        { english: "painful (efforts, travail), difficult (personne)", french: "pénible", pos: "adj.", chinese: "痛苦的，难相处的" },
+        { english: "ordinary", french: "quelconque", pos: "adj.", chinese: "普通的" },
+        { english: "insignificant (personne)", french: "falot(e)", pos: "adj.", chinese: "微不足道的" },
+        { english: "bohemian", french: "bohème", pos: "adj.", chinese: "波希米亚风格的" },
+        { english: "dreamy", french: "rêveur(se)", pos: "adj.", chinese: "爱幻想的" },
+        { english: "eccentric", french: "excentrique", pos: "adj.", chinese: "古怪的" },
+        { english: "extravagant", french: "extravagant(e)", pos: "adj.", chinese: "奢侈的" },
+        { english: "peculiar", french: "singulier(ère)", pos: "adj.", chinese: "独特的" },
+        { english: "withdrawn", french: "renfermé(e)", pos: "adj.", chinese: "内向的" },
+        { english: "under the appearance (réservés)", french: "sous des dehors", pos: "loc.", chinese: "在外表下（矜持的）" },
+        { english: "to trust", french: "se fier à", pos: "v.pr.ind.", chinese: "信任" },
+        { english: "quirk, foible", french: "travers", pos: "n.m.", chinese: "怪癖" },
+        { english: "flaw", french: "défaut", pos: "n.m.", chinese: "缺点" },
+        { english: "fundamentally", french: "foncièrement", pos: "adv.", chinese: "根本上" },
+        { english: "devoid, deprived (de qch)", french: "dépourvu(e)", pos: "adj.", chinese: "缺乏的" },
+        { english: "lacking (de qch)", french: "dénué(e)", pos: "adj.", chinese: "缺乏的" },
+        { english: "wrongly", french: "à tort", pos: "loc.", chinese: "错误地" },
+        { english: "audacious", french: "audacieux(se)", pos: "adj.", chinese: "大胆的" },
+        { english: "bold", french: "hardi(e)", pos: "adj.", chinese: "勇敢的" },
+        { english: "intrepid", french: "intrépide", pos: "adj.", chinese: "无畏的" },
+        { english: "determined", french: "déterminé(e)", pos: "adj.", chinese: "坚定的" },
+        { english: "resolute", french: "résolu(e)", pos: "adj.", chinese: "果断的" },
+        { english: "emotional", french: "émotif(ve)", pos: "adj.", chinese: "情绪化的" },
+        { english: "impulsive", french: "impulsif(ve)", pos: "adj.", chinese: "冲动的" },
+        { english: "impetuous", french: "impétueux(se)", pos: "adj.", chinese: "鲁莽的" },
+        { english: "tenacious", french: "tenace", pos: "adj.", chinese: "顽强的" },
+        { english: "persevering", french: "persévérant(e)", pos: "adj.", chinese: "坚持不懈的" },
+        { english: "relentless", french: "opiniâtre", pos: "adj.", chinese: "执着的" },
+        { english: "stubborn", french: "têtu(e)", pos: "adj.", chinese: "固执的" },
+        { english: "stubborn", french: "entêté(e)", pos: "adj.", chinese: "固执的" },
+        { english: "stubborn", french: "buté(e)", pos: "adj.", chinese: "顽固的" },
+        { english: "obstinate", french: "obstiné(e)", pos: "adj.", chinese: "顽固的" },
+        { english: "fearful", french: "peureux(se)", pos: "adj.", chinese: "胆小的" },
+        { english: "cowardly", french: "lâche", pos: "adj.", chinese: "胆怯的" },
+        { english: "weak", french: "mou(mol, molle)", pos: "adj.", chinese: "软弱的" },
+        { english: "indecisive", french: "indécis(e)", pos: "adj.", chinese: "优柔寡断的" },
+        { english: "nonchalant", french: "nonchalant(e)", pos: "adj.", chinese: "冷淡的" },
+        { english: "indolent", french: "indolent(e)", pos: "adj.", chinese: "懒惰的" },
+        { english: "lifeless", french: "éteint(e)", pos: "adj.", chinese: "死气沉沉的" },
+        { english: "capricious", french: "capricieux(se)", pos: "adj.", chinese: "任性的" },
+        { english: "unpredictable", french: "versatile", pos: "adj.", chinese: "多变的" },
+        { english: "weak-willed", french: "velléitaire", pos: "adj.", chinese: "意志薄弱的" },
+        { english: "impressionable", french: "influençable", pos: "adj.", chinese: "易受影响的" },
+        { english: "malleable", french: "malléable", pos: "adj.", chinese: "可塑的" }
     ],
     "": [
 
@@ -9,5 +54,5 @@ export const VocabulaireProgressifB1L10 = {
     "": [
 
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["general", "", "", "", ""]
 }

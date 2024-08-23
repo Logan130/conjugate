@@ -509,7 +509,7 @@ export function VocabulaireSummary() {
                     <thead>
                         <tr>
                             <th className="w-1"></th>
-                            <th className={POSButtonID === 2 ? (isMobile ? "text-lg w-40" : "text-lg w-60") : "text-lg w-20"}>{eng ? "voc" : "单词"}</th>
+                            <th className={POSButtonID === 2 ? (isMobile ? "text-lg w-40" : "text-lg w-60") : "text-lg w-32"}>{eng ? "voc" : "单词"}</th>
                             {(!isMobile || POSButtonID !== 2) && <th className="text-lg w-10 cursor-pointer hover:bg-sky-700 rounded-lg" onClick={onClickSortLetter}>{eng ? "POS" : "词性"}{ArrowComponent()}</th>}
                             <th className="text-lg cursor-pointer" onClick={onClickChinese}><div className="flex justify-left"> <p className={isMobile ? "flex justify-left text-amber-600" : "hover:bg-sky-700 rounded-lg flex justify-left text-amber-600"}>{eng ? "def" : "释义"} <RiTranslate /></p>  </div></th>
                         </tr>

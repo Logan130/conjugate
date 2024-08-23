@@ -1,5 +1,5 @@
 export const wordsAlterEgoB2U4 = {
-    lessons: ["éclairages", "réclamation", "colocation", "rélatif", "air", "", "", "", ],
+    lessons: ["éclairages", "réclamation", "colocation", "rélatif", "air", "désertification", "concession", "poésie", ],
     "éclairages": [
         { english: "to display (talent, activité), to unfold (drapeau)", french: "déployer", pos: "v.t.", chinese: "展示（才华，活动），展开（旗帜）" },
         { english: "conscious (de qch)", french: "conscient(e)", pos: "adj.", chinese: "意识到的" },
@@ -113,13 +113,56 @@ export const wordsAlterEgoB2U4 = {
         { english: "walk-in closet", french: "penderie", pos: "n.f.", chinese: "步入式衣柜" },
         { english: "tiled floor, tiles", french: "carrelage", pos: "n.m.", chinese: "瓷砖地板，瓷砖" }
     ],
-    "": [
-
+    "désertification": [
+        { english: "scale", french: "envergure", pos: "n.f.", chinese: "规模" },
+        { english: "to bump into", french: "bousculer", pos: "v.t.", chinese: "撞上" },
+        { english: "greengrocer", french: "primeur", pos: "n.f.", chinese: "蔬果店" },
+        { english: "drugstore", french: "droguerie", pos: "n.f.", chinese: "药店" },
+        { english: "hardware store", french: "quincaillerie", pos: "n.f.", chinese: "五金店" },
+        { english: "purchase", french: "emplette", pos: "n.f.", chinese: "采购" },
+        { english: "to make a place in", french: "se faire une place dans", pos: "loc.", chinese: "在...中占有一席之地" },
+        { english: "brand, shop name", french: "enseigne", pos: "n.f.", chinese: "品牌，店名" },
+        { english: "to lead to", french: "conduire à", pos: "v.t.ind.", chinese: "导致" },
+        { english: "scale", french: "ampleur", pos: "n.f.", chinese: "规模" },
+        { english: "strewn (de qch)", french: "semé(e)", pos: "adj.", chinese: "散播的" },
+        { english: "trap, pitfall", french: "embûche", pos: "n.f.", chinese: "陷阱" },
+        { english: "assessment", french: "constat", pos: "n.m.", chinese: "评估" },
+        { english: "to buy", french: "se fournir", pos: "v.pr.", chinese: "购买" },
+        { english: "to establish", french: "instaurer", pos: "v.t.", chinese: "建立" },
+        { english: "possible", french: "envisageable", pos: "adj.", chinese: "可能的" }
     ],
-    "": [
-
+    "concession": [
+        { english: "to convert (fermette, appartement), to make (route, espace vert)", french: "aménager", pos: "v.t.", chinese: "改造，修建" },
+        { english: "plaque", french: "plaque", pos: "n.f.", chinese: "牌匾" },
+        { english: "column", french: "colonne", pos: "n.f.", chinese: "柱子" },
+        { english: "street lamp", french: "réverbère", pos: "n.m.", chinese: "路灯" },
+        { english: "bus shelter", french: "abribus", pos: "n.m.", chinese: "公交站候车亭" },
+        { english: "bench", french: "banc", pos: "n.m.", chinese: "长凳" },
+        { english: "fountain", french: "fontaine", pos: "n.f.", chinese: "喷泉" },
+        { english: "sewer", french: "égout", pos: "n.m.", chinese: "下水道" },
+        { english: "to threaten (A de B, de faire)", french: "menacer", pos: "v.t.", chinese: "威胁" },
+        { english: "to save", french: "sauver", pos: "v.t.", chinese: "拯救" },
+        { english: "conversely", french: "à l’inverse", pos: "loc.", chinese: "相反" },
+        { english: "elected representative", french: "élu(e)", pos: "n.", chinese: "当选代表" },
+        { english: "to spoil, to ruin (paysage)", french: "enlaidir", pos: "v.t.", chinese: "破坏" }
     ],
-    "": [
-
+    "poésie": [
+        { english: "collection (d’un auteur)", french: "recueil", pos: "n.m.", chinese: "作品集" },
+        { english: "hallucinated, astonished", french: "halluciné(e)", pos: "adj.", chinese: "产生幻觉的，惊讶的" },
+        { english: "anarchist", french: "anarchiste", pos: "adj.", chinese: "无政府主义者的" },
+        { english: "misery", french: "misère", pos: "n.f.", chinese: "痛苦" },
+        { english: "monster", french: "monstre", pos: "n.m.", chinese: "怪物" },
+        { english: "hair", french: "chevelure", pos: "n.f.", chinese: "头发" },
+        { english: "snake", french: "serpent", pos: "n.m.", chinese: "蛇" },
+        { english: "to braid (cheveux), to weave", french: "tresser", pos: "v.t.", chinese: "编织" },
+        { english: "sprawling", french: "tentaculaire", pos: "adj.", chinese: "蔓延的" },
+        { english: "light, clarity", french: "clarté", pos: "n.f.", chinese: "光明，清晰" },
+        { english: "post, pole", french: "poteau", pos: "n.m.", chinese: "柱子" },
+        { english: "mast", french: "mât", pos: "n.m.", chinese: "桅杆" },
+        { english: "coal", french: "charbon", pos: "n.m.", chinese: "煤炭" },
+        { english: "to spin", french: "filer", pos: "v.", chinese: "纺纱" },
+        { english: "to crawl", french: "ramper", pos: "v.i.", chinese: "爬行" },
+        { english: "crater", french: "cratère", pos: "n.m.", chinese: "火山口" },
+        { english: "dust", french: "poussière", pos: "n.f.", chinese: "尘埃" }
     ], 
 }

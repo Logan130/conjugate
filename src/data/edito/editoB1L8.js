@@ -1,24 +1,103 @@
 export const wordsEditoB1U8 = {
-    lessons: ["A", "", "", "", "", "", ""], 
+    lessons: ["A", "C", "V1", "D", "F", "H", "I", "V2"], 
     A: [
-
+        { english: "to invade", french: "envahir", pos: "v.t.", chinese: "入侵" },
+        { english: "hunting", french: "chasse", pos: "n.f.", chinese: "狩猎" },
+        { english: "incongruous, odd", french: "incongru(e)", pos: "adj.", chinese: "不协调的，奇怪的" },
+        { english: "to allocate (qch à qn), to assign", french: "attribuer", pos: "v.t.", chinese: "分配，指定" },
+        { english: "journey", french: "périple", pos: "n.m.", chinese: "旅程" },
+        { english: "to free", french: "libérer", pos: "v.t.", chinese: "解放" },
+        { english: "in their turn", french: "à leur tour", pos: "loc.", chinese: "轮到他们" },
+        { english: "to track down, to monitor", french: "traquer", pos: "v.t.", chinese: "追捕，追踪" },
+        { english: "to struggle (à faire)", french: "peiner", pos: "v.i.", chinese: "努力（做某事）" },
+        { english: "momentum", french: "élan", pos: "n.m.", chinese: "动量，冲力" },
+        { english: "mistrust (de qn, de qch)", french: "méfiance", pos: "n.f.", chinese: "不信任" },
+        { english: "to catch hold of", french: "se saisir de", pos: "v.pr.ind.", chinese: "抓住" },
+        { english: "to undermine", french: "entamer", pos: "v.t.", chinese: "削弱" },
+        { english: "bombardment", french: "pilonnage", pos: "n.m.", chinese: "轰炸" },
+        { english: "to get rid of", french: "se débarrasser de", pos: "v.pr.ind.", chinese: "摆脱" },
+        { english: "to bring (qch à qn)", french: "procurer", pos: "v.t.", chinese: "带来" },
+        { english: "including", french: "y compris", pos: "loc.", chinese: "包括" }
     ], 
-    A: [
-
+    C: [
+        { english: "path, route", french: "parcours", pos: "n.m.", chinese: "路径" },
+        { english: "packaging, wrapping", french: "emballage", pos: "n.m.", chinese: "包装" },
+        { english: "to grind, to crush (grain, pierre, bras, ennemi)", french: "broyer", pos: "v.t.", chinese: "磨碎，压碎（谷物，石头，手臂，敌人）" },
+        { english: "to soften", french: "ramollir", pos: "v.t.", chinese: "软化" },
+        { english: "granule", french: "granulé", pos: "n.m.", chinese: "颗粒" },
+        { english: "dough, paste, pulp", french: "pâte", pos: "n.f.", chinese: "面团，糊状物，纸浆" },
+        { english: "coil", french: "babine", pos: "n.f.", chinese: "线圈" }
     ], 
-    A: [
-
+    V1: [
+        { english: "aluminium", french: "aluminium", pos: "n.m.", chinese: "铝" },
+        { english: "rubber", french: "caoutchouc", pos: "n.m.", chinese: "橡胶" },
+        { english: "scrap, waste", french: "déchet", pos: "n.m.", chinese: "废料" },
+        { english: "cork", french: "liège", pos: "n.m.", chinese: "软木" },
+        { english: "textile", french: "textile", pos: "n.m.", chinese: "纺织品" },
+        { english: "aerosol", french: "aérosol", pos: "n.m.", chinese: "喷雾器" },
+        { english: "jar", french: "bocal", pos: "n.m.", chinese: "罐子" },
+        { english: "milk carton", french: "brique de lait", pos: "n.f.", chinese: "牛奶盒" },
+        { english: "bottle of beer", french: "canette", pos: "n.f.", chinese: "啤酒瓶" },
+        { english: "leaflet", french: "prospectus", pos: "n.m.", chinese: "传单" },
+        { english: "tub", french: "bac", pos: "n.m.", chinese: "桶" },
+        { english: "compost, fertilizer", french: "compost", pos: "n.m.", chinese: "堆肥" },
+        { english: "to compress", french: "compacter", pos: "v.t.", chinese: "压缩" },
+        { english: "container", french: "conteneur", pos: "n.m.", chinese: "集装箱" },
+        { english: "waste reception center", french: "déchetterie", pos: "n.f.", chinese: "废物接收中心" },
+        { english: "to collect, to gather", french: "ramasser", pos: "v.t.", chinese: "收集" },
+        { english: "to recover (argent, force), to fetch, to salvage (ferraille, journaux)", french: "récupérer", pos: "v.t.", chinese: "恢复，取回，回收" },
+        { english: "to recycle", french: "recycler", pos: "v.t.", chinese: "回收利用" },
+        { english: "sorting", french: "tri", pos: "n.m.", chinese: "分类" },
+        { english: "to sort", french: "trier", pos: "v.t.", chinese: "分类" }
     ], 
-    A: [
-
+    D: [
+        { english: "to frost over", french: "givrer", pos: "v.i.", chinese: "结霜" },
+        { english: "to make aware (à qch)", french: "sensibiliser", pos: "v.t.", chinese: "让人意识到" },
+        { english: "climate warming", french: "réchauffement climatique", pos: "loc.", chinese: "气候变暖" },
+        { english: "greenhouse gases", french: "gaz à effet de serre", pos: "n.m.", chinese: "温室气体" },
+        { english: "to publish, to edit", french: "éditer", pos: "v.t.", chinese: "出版，编辑" },
+        { english: "pamphlet", french: "tract", pos: "n.m.", chinese: "小册子" }
     ], 
-    A: [
-
+    F: [
+        { english: "ease", french: "aisance", pos: "n.f.", chinese: "轻松" },
+        { english: "s’occuper de", french: "vaquer à", pos: "v.t.ind.", chinese: "照顾" },
+        { english: "gold, gilded", french: "doré(e)", pos: "adj.", chinese: "金色的，镀金的" },
+        { english: "row", french: "rang", pos: "n.m.", chinese: "行" },
+        { english: "cup", french: "tasse", pos: "n.f.", chinese: "杯子" }
     ], 
-    A: [
-
+    H: [
+        { english: "following", french: "suite à", pos: "loc.", chinese: "根据" },
+        { english: "basin, area", french: "bassin", pos: "n.m.", chinese: "盆地，区域" },
+        { english: "(en) stake, issue (écologique)", french: "enjeu(x)", pos: "n.m.", chinese: "赌注，问题（生态的）" },
+        { english: "rather than", french: "plutôt que", pos: "loc.", chinese: "而不是" },
+        { english: "now", french: "à présent", pos: "loc.", chinese: "现在" },
+        { english: "length", french: "métrage", pos: "n.m.", chinese: "长度" }
     ], 
-    A: [
-
+    I: [
+        { english: "on board, aboard", french: "à bord de", pos: "loc.", chinese: "在船上" },
+        { english: "to travel across", french: "sillonner", pos: "v.t.", chinese: "游历" },
+        { english: "thermal", french: "thermique", pos: "adj.", chinese: "热的" },
+        { english: "to lead to, to induce, to infer", french: "induire", pos: "v.t.", chinese: "导致，引起，推断" },
+        { english: "pragmatic", french: "pragmatique", pos: "adj.", chinese: "务实的" },
+        { english: "to overload", french: "surcharger", pos: "v.t.", chinese: "超载" },
+        { english: "flood", french: "inondation", pos: "n.f.", chinese: "洪水" },
+        { english: "to ease (douleur, tension, violence)", french: "atténuer", pos: "v.t.", chinese: "减轻（疼痛，紧张，暴力）" },
+        { english: "radiation, influence", french: "rayonnement", pos: "n.m.", chinese: "辐射，影响" },
+        { english: "to tarmac", french: "goudronner", pos: "v.t.", chinese: "铺沥青" },
+        { english: "to promote (biodiversité)", french: "promulguer", pos: "v.t.", chinese: "促进（生物多样性）" },
+        { english: "within", french: "au sein de", pos: "loc.", chinese: "在...内部" },
+        { english: "budding", french: "en herbe", pos: "loc.", chinese: "新生的" },
+        { english: "seed", french: "graine", pos: "n.f.", chinese: "种子" }
+    ], 
+    V2: [
+        { english: "wasting", french: "gaspillage", pos: "n.m.", chinese: "浪费" },
+        { english: "to waste", french: "gaspiller", pos: "v.t.", chinese: "浪费" },
+        { english: "to campaign (contre, pour)", french: "militer", pos: "v.i.", chinese: "活动（反对，支持）" },
+        { english: "pipe", french: "canalisation", pos: "n.f.", chinese: "管道" },
+        { english: "tank", french: "citerne", pos: "n.f.", chinese: "水箱" },
+        { english: "windmill, wind turbine", french: "éolienne", pos: "n.f.", chinese: "风车，风力发电机" },
+        { english: "to filter", french: "filtrer", pos: "v.t.", chinese: "过滤" },
+        { english: "well (d’eau, de pétrole)", french: "puits", pos: "n.m.", chinese: "井（水井，油井）" },
+        { english: "unpackaged", french: "en vrac", pos: "loc.", chinese: "未包装的" }
     ]
 }

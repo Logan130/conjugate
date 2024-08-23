@@ -49,14 +49,12 @@ function Navbar() {
                 </Link>
 
                 <Link className={isMobile ? 'btn btn-ghost btn-sm rounded-btn text-base mx-0 px-1' : 'btn btn-ghost btn-sm rounded-btn text-lg'} onClick={onClickStyleButton}>
-                {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Theme" : "换主题")}
-                  <CgDarkMode />                
-                  </Link>
+                  {isMobile ? <span className='opacity-0 m-0'>i</span> : (eng ? "Switch Theme" : "换主题")}
+                  <CgDarkMode />
+                </Link>
               </div>
 
               <div>
-
-
 
                 <Link className={button_style} to='/'>
                   {eng ? "Home" : "主页"}
@@ -69,30 +67,6 @@ function Navbar() {
                 <Link className={button_style} to='/voc'>
                   {eng ? (isMobile ? "Voc" : "Vocabularies") : "词汇"}
                 </Link>
-
-
-
-                {/* <Link className={button_style} to='/'>
-                  主页
-                </Link> */}
-
-
-
-                {/* <div className="dropdown dropdown-end">
-                  <div tabIndex={0} role="button" className={button_style}>练习菜单</div>
-                  <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-32 mt-4">
-                    <li>
-                      <Link className={button_style} to='/practice'>
-                        变位练习
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className={button_style} to='/voc'>
-                        词汇练习
-                      </Link>
-                    </li>
-                  </ul>
-                </div> */}
 
               </div>
             </div>

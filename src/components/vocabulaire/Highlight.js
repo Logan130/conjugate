@@ -117,6 +117,10 @@ export function HighlightPage() {
             units: lessons.filter(unit => unit.tag === 'Taxi' && unit.book === 'A1'),
         },
         {
+            name: 'Taxi A2',
+            units: lessons.filter(unit => unit.tag === 'Taxi' && unit.book === 'A2'),
+        },
+        {
             name: 'Voc A1 L1-10',
             units: lessons.filter(unit => unit.tag === 'Vocabulaire Progressif' && unit.book === 'A1').slice(0, 10)
         }, 

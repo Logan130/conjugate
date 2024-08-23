@@ -4,6 +4,8 @@ import { wordsEditoB1U3 } from '../../edito/editoB1L3';
 import { wordsEditoB1U4 } from '../../edito/editoB1L4';
 import { wordsEditoB1U5 } from '../../edito/editoB1L5';
 import { wordsEditoB1U6 } from '../../edito/editoB1L6';
+import { wordsEditoB1U7 } from '../../edito/editoB1L7';
+import { wordsEditoB1U8 } from '../../edito/editoB1L8';
 
 
 
@@ -41,6 +43,18 @@ export const EditoB1 = [
     {
         unit: "U6 Médias en Masse",
         words: wordsEditoB1U6,
+        tag: "Other",
+        book: "Edito B1",
+    },
+    {
+        unit: "U7 Et Si On Partait ?",
+        words: wordsEditoB1U7,
+        tag: "Other",
+        book: "Edito B1",
+    },
+    {
+        unit: "U8 La Planète en Héritage",
+        words: wordsEditoB1U8,
         tag: "Other",
         book: "Edito B1",
     },

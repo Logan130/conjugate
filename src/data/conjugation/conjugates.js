@@ -109,7 +109,7 @@ const conjugatesA2 = [
 // updated until 
 // taxi U12
 // communication L42
-// Edito L6
+// Edito L8
 // vocabulaire:
 // [1, 3, 6, 7, 8, , 9, 10, 11, 12]
 // [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -213,7 +213,12 @@ const conjugatesB1 = [
     { name: "accroître", je: "accrois", tu: "accrois", il: "accroît", nous: "accroissons", vous: "accroissez", ils: "accroissent", passé: "accru", futur: "accroîtr-" },
     { name: "tondre", je: "tonds", tu: "tonds", il: "tond", nous: "tondons", vous: "tondez", ils: "tondent", passé: "tondu", futur: "tondr-" },
     { name: "détruire", je: "détruis", tu: "détruis", il: "détruit", nous: "détruisons", vous: "détruisez", ils: "détruisent", passé: "détruit", futur: "détruir-" },
-    { name: "franchir", je: "franchis", tu: "franchis", il: "franchit", nous: "franchissons", vous: "franchissez", ils: "franchissent", passé: "franchi", futur: "franchir-" }
+    { name: "franchir", je: "franchis", tu: "franchis", il: "franchit", nous: "franchissons", vous: "franchissez", ils: "franchissent", passé: "franchi", futur: "franchir-" }, 
+    { name: "souscrire", je: "souscris", tu: "souscris", il: "souscrit", nous: "souscrivons", vous: "souscrivez", ils: "souscrivent", passé: "souscrit", futur: "souscrir-" },
+    { name: "raccourcir", je: "raccourcis", tu: "raccourcis", il: "raccourcit", nous: "raccourcissons", vous: "raccourcissez", ils: "raccourcissent", passé: "raccourci", futur: "raccourcir-" },
+    { name: "envahir", je: "envahis", tu: "envahis", il: "envahit", nous: "envahissons", vous: "envahissez", ils: "envahissent", passé: "envahi", futur: "envahir-" },
+    { name: "ramollir", je: "ramollis", tu: "ramollis", il: "ramollit", nous: "ramollissons", vous: "ramollissez", ils: "ramollissent", passé: "ramolli", futur: "ramollir-" }
+
 ]
 
 for (let word of conjugatesB1)
@@ -236,7 +241,16 @@ const conjugatesB2 = [
     { name: "sévir", je: "séviss", tu: "sévis", il: "sévit", nous: "sévissez", vous: "sévissez", ils: "sévissez", passé: "sévi", futur: "sévir-" },
     { name: "abolir", je: "abolis", tu: "abolis", il: "abolit", nous: "abolissons", vous: "abolissez", ils: "abolissent", passé: "aboli", futur: "abolir-" },
     { name: "fourbir", je: "fourbis", tu: "fourbis", il: "fourbit", nous: "fourbissons", vous: "fourbissez", ils: "fourbissent", passé: "fourbi", futur: "fourbir-" },
-    { name: "ahurir", je: "ahuris", tu: "ahuris", il: "ahurit", nous: "ahurissons", vous: "ahurissez", ils: "ahurissent", passé: "ahuri", futur: "ahurir-" }
+    { name: "ahurir", je: "ahuris", tu: "ahuris", il: "ahurit", nous: "ahurissons", vous: "ahurissez", ils: "ahurissent", passé: "ahuri", futur: "ahurir-" }, 
+    { name: "fourmiller", je: "fourmille", tu: "fourmilles", il: "fourmille", nous: "fourmillons", vous: "fourmillez", ils: "fourmillent", passé: "fourmillé", futur: "fourmiller-" },
+    { name: "enlaidir", je: "enlaidis", tu: "enlaidis", il: "enlaidit", nous: "enlaidissons", vous: "enlaidissez", ils: "enlaidissent", passé: "enlaidi", futur: "enlaidir-" },
+    { name: "soustraire", je: "soustrais", tu: "soustrais", il: "soustrait", nous: "soustrayons", vous: "soustrayez", ils: "soustraient", passé: "soustrait", futur: "soustrair-" },
+    { name: "approfondir", je: "approfondis", tu: "approfondis", il: "approfondit", nous: "approfondissons", vous: "approfondissez", ils: "approfondissent", passé: "approfondi", futur: "approfondir-" },
+    { name: "attendrir", je: "attendris", tu: "attendris", il: "attendrit", nous: "attendrissons", vous: "attendrissez", ils: "attendrissent", passé: "attendri", futur: "attendrir-" },
+    { name: "provenir", je: "provins", tu: "provins", il: "provint", nous: "provenons", vous: "provenez", ils: "proviennent", passé: "provenu", futur: "proviendr-" },
+    { name: "tordre", je: "tords", tu: "tords", il: "tord", nous: "tordons", vous: "tordez", ils: "tordent", passé: "tordu", futur: "tordr-" },
+    { name: "mordre", je: "mords", tu: "mords", il: "mord", nous: "mordons", vous: "mordez", ils: "mordent", passé: "mordu", futur: "mordr-" },
+
 ]
 
 for (let word of conjugatesB2)

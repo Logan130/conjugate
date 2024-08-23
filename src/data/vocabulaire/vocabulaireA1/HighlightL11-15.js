@@ -70,6 +70,9 @@ export const VocabulaireA1L11_15 = {
         { english: "Christmas tree", french: "sapin de Noël", pos: "n.m.", chinese: "圣诞树" },
         { english: "parade", french: "défilé", pos: "n.m.", chinese: "游行" },
         { english: "pancake", french: "galette", pos: "n.f.", chinese: "薄饼" },
-        { english: "holiday", french: "férié(e)", pos: "adj.", chinese: "假期" }
+        { english: "holiday", french: "férié(e)", pos: "adj.", chinese: "假期" }, 
+        { english: "sharpen", french: "affûter", pos: "v.t.", chinese: "磨利" },
+        { english: "core, pit", french: "noyau", pos: "n.m.", chinese: "核" },
+
     ]
 }

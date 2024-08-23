@@ -1,8 +1,8 @@
 export const wordsTaxiA2U6 = {
-    lessons: ["L21", "L22", "L23", "L24"], 
+    lessons: ["L21", "L22", "L23", "L24"],
     L21: [
         { english: "purchase", french: "achat", pos: "n.m.", chinese: "购买" },
-        { english: "to mark, to check, to tick", french: "cocher", pos: "v.t.", chinese: "勾选" },
+        { english: "to mark, to check, to tick", french: "cocher", pos: "v.t.", chinese: "勾选", highlight: true },
         { english: "to talk", french: "dialoguer", pos: "v.i.", chinese: "对话" },
         { english: "dialogue", french: "dialogue", pos: "n.m.", chinese: "对话" },
         { english: "direct train, live show", french: "direct", pos: "n.m.", chinese: "直达车, 直播节目" },
@@ -31,7 +31,7 @@ export const wordsTaxiA2U6 = {
         { english: "to download", french: "télécharger", pos: "v.t.", chinese: "下载" },
         { english: "video", french: "vidéo", pos: "n.f.", chinese: "视频" },
         { english: "webcam", french: "webcam", pos: "n.f.", chinese: "网络摄像头" }
-    ], 
+    ],
     L22: [
         { english: "due to (bad things)", french: "à cause de", pos: "loc.prep.", chinese: "由于(不好的事情)" },
         { english: "traffic jam", french: "embouteillage", pos: "n.m.", chinese: "交通堵塞" },
@@ -50,7 +50,7 @@ export const wordsTaxiA2U6 = {
         { english: "to disappear", french: "disparaître", pos: "v.i.", chinese: "消失" },
         { english: "disappeared", french: "disparu(e)", pos: "adj.", chinese: "消失的" },
         { english: "disappearance", french: "disparition", pos: "n.f.", chinese: "消失" },
-        { english: "endangered", french: "en disparition", pos: "loc.", chinese: "濒危的" },
+        { english: "endangered", french: "en disparition", pos: "loc.", chinese: "濒危的", highlight: true },
         { english: "pity, damage", french: "dommage", pos: "n.m.", chinese: "遗憾, 损害" },
         { english: "to educate, to train", french: "éduquer", pos: "v.t.", chinese: "教育, 培训" },
         { english: "education", french: "éducation", pos: "n.f.", chinese: "教育" },
@@ -60,7 +60,7 @@ export const wordsTaxiA2U6 = {
         { english: "exotic", french: "exotique", pos: "adj.", chinese: "异国的" },
         { english: "foreign", french: "étranger(ère)", pos: "adj.", chinese: "外国的" },
         { english: "fast food", french: "fast-food", pos: "n.m.", chinese: "快餐" },
-        { english: "even if", french: "quitte à", pos: "inf.", chinese: "即使" },
+        { english: "even if", french: "quitte à", pos: "loc.", chinese: "即使", highlight: true },
         { english: "even if", french: "même si", pos: "ind.", chinese: "即使" },
         { english: "to settle", french: "s’installer", pos: "v.pr.", chinese: "定居" },
         { english: "interior", french: "intérieur", pos: "n.m.", chinese: "内部" },
@@ -85,7 +85,7 @@ export const wordsTaxiA2U6 = {
         { english: "free", french: "gratuit(e)", pos: "adj.", chinese: "免费的" },
         { english: "coffee cup", french: "tasse", pos: "n.f.", chinese: "咖啡杯" },
         { english: "alone", french: "seul(e)", pos: "adv.", chinese: "独自" }
-    ], 
+    ],
     L23: [
         { english: "to fit, to adapt", french: "adapter", pos: "v.t.", chinese: "适应" },
         { english: "faucet", french: "robinet", pos: "n.m.", chinese: "水龙头" },
@@ -106,7 +106,7 @@ export const wordsTaxiA2U6 = {
         { english: "tool", french: "outil", pos: "n.m.", chinese: "工具" },
         { english: "to put, to put on", french: "mettre", pos: "v.t.", chinese: "放置" },
         { english: "snow", french: "neige", pos: "n.f.", chinese: "雪" },
-        { english: "snowman", french: "bonhomme de neige", pos: "n.m.", chinese: "雪人" },
+        { english: "snowman", french: "bonhomme de neige", pos: "n.m.", chinese: "雪人", highlight: true },
         { english: "to snow", french: "neiger", pos: "v.i.", chinese: "下雪" },
         { english: "to fish", french: "pêcher", pos: "v.", chinese: "钓鱼" },
         { english: "prepared", french: "prêt(e)", pos: "adj.", chinese: "准备好的" },
@@ -120,7 +120,7 @@ export const wordsTaxiA2U6 = {
         { english: "to visit", french: "visiter", pos: "v.t.", chinese: "访问" },
         { english: "to make use, to take advantage (à)", french: "profiter", pos: "v.i.", chinese: "利用" },
         { english: "everywhere", french: "partout", pos: "adv.", chinese: "到处" }
-    ], 
+    ],
     L24: [
         { english: "formerly, in the past", french: "autrefois", pos: "adv.", chinese: "以前" },
         { english: "unknown", french: "inconnu(e)", pos: "adj.", chinese: "未知的" },
@@ -146,7 +146,7 @@ export const wordsTaxiA2U6 = {
         { english: "relative, relating", french: "relatif(ve)", pos: "adj.", chinese: "相关的" },
         { english: "to join", french: "adhérer", pos: "v.t.ind.", chinese: "加入" },
         { english: "to pay one’s contributions", french: "cotiser", pos: "v.i.", chinese: "缴纳会费" },
-        { english: "volunteer", french: "bénévole", pos: "n.", chinese: "志愿者" },
+        { english: "volunteer", french: "bénévole", pos: "n.", chinese: "志愿者", highlight: true },
         { english: "amicable", french: "amicale", pos: "adj.", chinese: "友好的" },
         { english: "association", french: "amicale", pos: "n.f.", chinese: "协会" },
         { english: "financing", french: "financement", pos: "n.m.", chinese: "融资" },
