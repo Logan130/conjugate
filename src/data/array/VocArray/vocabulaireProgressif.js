@@ -62,6 +62,12 @@ import { VocabulaireProgressifB1L7 } from '../../vocabulaire/vocabulaireB1/L7';
 import { VocabulaireProgressifB1L8 } from '../../vocabulaire/vocabulaireB1/L8';
 import { VocabulaireProgressifB1L9 } from '../../vocabulaire/vocabulaireB1/L9';
 import { VocabulaireProgressifB1L10 } from '../../vocabulaire/vocabulaireB1/L10';
+import { VocabulaireProgressifB1L11 } from '../../vocabulaire/vocabulaireB1/L11';
+import { VocabulaireProgressifB1L12 } from '../../vocabulaire/vocabulaireB1/L12';
+import { VocabulaireProgressifB1L13 } from '../../vocabulaire/vocabulaireB1/L13';
+import { VocabulaireProgressifB1L14 } from '../../vocabulaire/vocabulaireB1/L14';
+import { VocabulaireProgressifB1L15 } from '../../vocabulaire/vocabulaireB1/L15';
+
 
 
 
@@ -502,5 +508,40 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B1 L10 Character",
+    },
+    {
+        unit: "Voc B1 L11 情感",
+        words: VocabulaireProgressifB1L11,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L11 Emotions",
+    },
+    {
+        unit: "Voc B1 L12 情感",
+        words: VocabulaireProgressifB1L12,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L12 Emotions",
+    },
+    {
+        unit: "Voc B1 L13 智识",
+        words: VocabulaireProgressifB1L13,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L13 Intellectual",
+    },
+    {
+        unit: "Voc B1 L14 观点",
+        words: VocabulaireProgressifB1L14,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L14 Opinion",
+    },
+    {
+        unit: "Voc B1 L15 意愿",
+        words: VocabulaireProgressifB1L15,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L15 Will, Action",
     },
 ]

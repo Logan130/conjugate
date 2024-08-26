@@ -1,13 +1,82 @@
 export const VocabulaireProgressifB1L12 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["情感", "愤怒", "恐惧", "惊讶"],
+    "情感": [
+        { english: "touched", french: "ému(e)", pos: "adj.", chinese: "感动的" },
+        { english: "to move deeply, to fundamentally disrupt", french: "bouleverser", pos: "v.t.", chinese: "深深地感动，彻底打乱" },
+        { english: "to turn inside out", french: "retourner", pos: "v.t.", chinese: "翻转" },
+        { english: "moving", french: "émouvant(e)", pos: "adj.", chinese: "动人的" },
+        { english: "deeply moving", french: "bouleversant(e)", pos: "adj.", chinese: "令人震惊的" },
+        { english: "to arouse (émotion, débat)", french: "soulever", pos: "v.t.", chinese: "引起（情感，辩论）" },
+        { english: "(sommeil, émotion) to overcome", french: "gagner", pos: "v.t.", chinese: "战胜（睡眠，情感）" },
+        { english: "broken (voix, émotion, rêve)", french: "brisé(e)", pos: "adj.", chinese: "破碎的（声音，情感，梦想）" },
+        { english: "to tie, (émotion) to choke (gorge)", french: "nouer", pos: "v.t.", chinese: "打结，（情感）哽咽（喉咙）" },
+        { english: "to feign", french: "feindre", pos: "v.t.", chinese: "假装" },
+        { english: "paleness", french: "pâleur", pos: "n.f.", chinese: "苍白" },
+        { english: "to betray (pays, émotion)", french: "trahir", pos: "v.t.", chinese: "背叛（国家，情感）" },
+        { english: "amateur, enthusiast", french: "amateur", pos: "n.m.", chinese: "业余爱好者" },
+        { english: "vexed", french: "vexé(e)", pos: "adj.", chinese: "生气的" },
+        { english: "proud", french: "orgueilleux(se)", pos: "adj.", chinese: "骄傲的" },
+        { english: "self-esteem", french: "amour-propre", pos: "n.m.", chinese: "自尊" },
+        { english: "to flatter", french: "flatter", pos: "v.t.", chinese: "奉承" }
     ],
-    "": [
-
+    "愤怒": [
+        { english: "I can’t take it anymore", french: "je n’en peux plus", pos: "loc.", chinese: "我受不了了" },
+        { english: "to annoy", french: "agacer", pos: "v.t.", chinese: "惹恼" },
+        { english: "annoying", french: "agaçant(e)", pos: "adj.", chinese: "令人厌烦的" },
+        { english: "to swindle (qn de qch, qch à qn)", french: "escroquer", pos: "v.t.", chinese: "诈取" },
+        { english: "consternated", french: "consterné(e)", pos: "adj.", chinese: "惊愕的" },
+        { english: "inacceptable", french: "inadmissible", pos: "adj.", chinese: "不可接受的" },
+        { english: "outraged", french: "outré(e)", pos: "adj.", chinese: "愤慨的" },
+        { english: "scandalized", french: "scandalisé(e)", pos: "adj.", chinese: "震惊的" },
+        { english: "to offend", french: "offusquer", pos: "v.t.", chinese: "冒犯" },
+        { english: "to sicken", french: "ulcérer", pos: "v.t.", chinese: "使恶心" },
+        { english: "embarrassment", french: "gêne", pos: "n.f.", chinese: "窘迫" },
+        { english: "embarrassing", french: "gênant(e)", pos: "adj.", chinese: "令人尴尬的" },
+        { english: "pity (de, pour qn)", french: "pitié", pos: "n.f.", chinese: "怜悯" }
     ],
-    "": [
-
+    "恐惧": [
+        { english: "fear (de qch, de faire)", french: "frayeur", pos: "n.f.", chinese: "害怕（某物，做某事）" },
+        { english: "to dread (de faire)", french: "appréhender", pos: "v.t.", chinese: "惧怕（做某事）" },
+        { english: "almost do", french: "faillir faire", pos: "v.t.", chinese: "差点做..." },
+        { english: "to scare", french: "angoisser", pos: "v.t.", chinese: "使恐慌" },
+        { english: "anxiety (de qch, de faire)", french: "angoisse", pos: "n.f.", chinese: "焦虑（某物，做某事）" },
+        { english: "to fear", french: "redouter", pos: "v.t.", chinese: "害怕" },
+        { english: "stage fright (fam.)", french: "trac", pos: "n.m.", chinese: "怯场（俗语）" },
+        { english: "to knock over", french: "renverser", pos: "v.t.", chinese: "打翻" },
+        { english: "dreadful, terrible", french: "épouvantable", pos: "adj.", chinese: "可怕的，糟糕的" },
+        { english: "horrifying", french: "effroyable", pos: "adj.", chinese: "恐怖的" },
+        { english: "atrocious", french: "atroce", pos: "adj.", chinese: "残暴的" },
+        { english: "hell", french: "enfer", pos: "n.m.", chinese: "地狱" },
+        { english: "infernal", french: "infernal(e)", pos: "adj.", chinese: "地狱的" },
+        { english: "to terrorize", french: "terroriser", pos: "v.t.", chinese: "恐吓" },
+        { english: "terror", french: "terreur", pos: "n.f.", chinese: "恐惧" },
+        { english: "panic", french: "panique", pos: "n.f.", chinese: "恐慌" },
+        { english: "panic", french: "affolement", pos: "n.m.", chinese: "惊慌" },
+        { english: "to panic", french: "s’affoler", pos: "v.pr.", chinese: "恐慌" },
+        { english: "to panic", french: "paniquer", pos: "v.", chinese: "惊恐" }
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    "惊讶": [
+        { english: "unbelievable, unheard", french: "inouï(e)", pos: "adj.", chinese: "难以置信的，前所未闻的" },
+        { english: "to deafen, to stun", french: "abasourdir", pos: "v.t.", chinese: "使震聋，使震惊" },
+        { english: "to stun", french: "ébahir", pos: "v.t.", chinese: "使目瞪口呆" },
+        { english: "to dumbfound", french: "éberluer", pos: "v.t.", chinese: "使惊呆" },
+        { english: "to dumbfound", french: "méduser", pos: "v.t.", chinese: "使哑然失色" },
+        { english: "to alarm", french: "effarer", pos: "v.t.", chinese: "使惊慌" },
+        { english: "to take aback", french: "interloquer", pos: "v.t.", chinese: "使大吃一惊" },
+        { english: "to catch sb off-guard", french: "prendre qn au dépourvu", pos: "loc.", chinese: "使某人措手不及" },
+        { english: "to catch sb by surprise", french: "prendre qn de court", pos: "loc.", chinese: "使某人惊讶" },
+        { english: "unexpected", french: "à l’improviste", pos: "loc.", chinese: "意外地" },
+        { english: "disconcerting", french: "déconcertant(e)", pos: "adj.", chinese: "令人不安的" },
+        { english: "to puzzle", french: "dérouter", pos: "v.t.", chinese: "使困惑" },
+        { english: "to slaughter, to deject", french: "abattre", pos: "v.t.", chinese: "屠杀，使沮丧" },
+        { english: "to ruin, to crush", french: "anéantir", pos: "v.t.", chinese: "毁灭" },
+        { english: "to leave aghast", french: "atterrer", pos: "v.t.", chinese: "使震惊" },
+        { english: "to overwhelm", french: "accabler", pos: "v.t.", chinese: "压倒，使不堪忍受" },
+        { english: "joke", french: "plaisanterie", pos: "n.f.", chinese: "玩笑" },
+        { english: "mirth", french: "hilarité", pos: "n.f.", chinese: "欢笑" },
+        { english: "to burst (de rire, en morceaux)", french: "éclater", pos: "v.i.", chinese: "爆发（大笑，碎裂）" },
+        { english: "laughing", french: "hilare", pos: "adj.", chinese: "笑的" },
+        { english: "to burst out (de rire)", french: "pouffer", pos: "v.i.", chinese: "突然笑出声" }
+    ],
+    lessonsEng: ["emotion", "anger", "fear", "surprise", ""]
 }

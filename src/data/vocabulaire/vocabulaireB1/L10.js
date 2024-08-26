@@ -1,5 +1,5 @@
 export const VocabulaireProgressifB1L10 = {
-    lessons: ["性格", "", ""],
+    lessons: ["性格", "举止", "注意"],
     "性格": [
         { english: "caractère", french: "trempé(e)", pos: "adj.", chinese: "坚强的" },
         { english: "convenient, easy", french: "commode", pos: "adj.", chinese: "方便的，随和的" },
@@ -48,11 +48,36 @@ export const VocabulaireProgressifB1L10 = {
         { english: "impressionable", french: "influençable", pos: "adj.", chinese: "易受影响的" },
         { english: "malleable", french: "malléable", pos: "adj.", chinese: "可塑的" }
     ],
-    "": [
-
+    "举止": [
+        { english: "levelheaded", french: "pondéré(e)", pos: "adj.", chinese: "冷静的" },
+        { english: "gentle, peaceful", french: "paisible", pos: "adj.", chinese: "温和的，和平的" },
+        { english: "quick-tempered", french: "emporté(e)", pos: "adj.", chinese: "易怒的" },
+        { english: "feverish", french: "fébrile", pos: "adj.", chinese: "发热的" },
+        { english: "brittle", french: "cassant(e)", pos: "adj.", chinese: "脆弱的" },
+        { english: "manipulator", french: "manipulateur(trice)", pos: "n.", chinese: "操纵者" },
+        { english: "perverted", french: "pervers(e)", pos: "adj.", chinese: "变态的" },
+        { english: "pride", french: "orgueil", pos: "n.m.", chinese: "自豪" },
+        { english: "proud", french: "orgueilleux(se)", pos: "adj.", chinese: "骄傲的" },
+        { english: "scornful", french: "méprisant(e)", pos: "adj.", chinese: "轻蔑的" },
+        { english: "to spread, to display (connaissances)", french: "étaler", pos: "v.t.", chinese: "展示，炫耀（知识）" },
+        { english: "display", french: "étalage", pos: "n.m.", chinese: "展示" },
+        { english: "self-important", french: "pédant(e)", pos: "adj.", chinese: "自负的" },
+        { english: "self-importance", french: "pédanterie", pos: "n.f.", chinese: "自负" }
     ],
-    "": [
-
+    "注意": [
+        { english: "soin", french: "soin", pos: ",", chinese: "细心" },
+        { english: "to attach (A à B)", french: "attacher", pos: "v.t.", chinese: "连结（A和B）" },
+        { english: "meticulous", french: "minutieux(se)", pos: "adj.", chinese: "一丝不苟的" },
+        { english: "nit-picking", french: "tatillon(ne)", pos: "adj.", chinese: "挑剔的" },
+        { english: "disordered", french: "désordonné(e)", pos: "adj.", chinese: "混乱的" },
+        { english: "ordered", french: "ordonné(e)", pos: "adj.", chinese: "有序的" },
+        { english: "scrupulous", french: "scrupuleux(se)", pos: "adj.", chinese: "严谨的" },
+        { english: "absent-minded", french: "étourdi(e)", pos: "adj.", chinese: "心不在焉的" },
+        { english: "distracted", french: "distrait(e)", pos: "adj.", chinese: "分心的" },
+        { english: "malice", french: "malveillance", pos: "n.f.", chinese: "恶意" },
+        { english: "nastiness (fam.)", french: "vacherie", pos: "n.f.", chinese: "恶毒（口语）" },
+        { english: "to border on", french: "friser", pos: "v.t.", chinese: "接近" },
+        { english: "cruelty", french: "cruauté", pos: "n.f.", chinese: "残酷" }
     ], 
-    lessonsEng: ["general", "", "", "", ""]
+    lessonsEng: ["general", "comportment", "attention", "", ""]
 }
