@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/conjugate/static/css/main.42d3bea7.css",
-    "main.js": "/conjugate/static/js/main.ba6fdfa8.js",
+    "main.css": "/conjugate/static/css/main.ee657ea9.css",
+    "main.js": "/conjugate/static/js/main.fa1d2e62.js",
     "static/js/453.e77c0d49.chunk.js": "/conjugate/static/js/453.e77c0d49.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
@@ -23,12 +23,12 @@
     "static/media/12night.jpeg": "/conjugate/static/media/12night.c7d8ceb6551a12587164.jpeg",
     "static/media/Taxi.jpeg": "/conjugate/static/media/Taxi.d60a54ac9a1af256ded5.jpeg",
     "index.html": "/conjugate/index.html",
-    "main.42d3bea7.css.map": "/conjugate/static/css/main.42d3bea7.css.map",
-    "main.ba6fdfa8.js.map": "/conjugate/static/js/main.ba6fdfa8.js.map",
+    "main.ee657ea9.css.map": "/conjugate/static/css/main.ee657ea9.css.map",
+    "main.fa1d2e62.js.map": "/conjugate/static/js/main.fa1d2e62.js.map",
     "453.e77c0d49.chunk.js.map": "/conjugate/static/js/453.e77c0d49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d3bea7.css",
-    "static/js/main.ba6fdfa8.js"
+    "static/css/main.ee657ea9.css",
+    "static/js/main.fa1d2e62.js"
   ]
 }
