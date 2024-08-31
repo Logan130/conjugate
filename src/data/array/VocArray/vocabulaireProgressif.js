@@ -67,6 +67,11 @@ import { VocabulaireProgressifB1L12 } from '../../vocabulaire/vocabulaireB1/L12'
 import { VocabulaireProgressifB1L13 } from '../../vocabulaire/vocabulaireB1/L13';
 import { VocabulaireProgressifB1L14 } from '../../vocabulaire/vocabulaireB1/L14';
 import { VocabulaireProgressifB1L15 } from '../../vocabulaire/vocabulaireB1/L15';
+import { VocabulaireProgressifB1L16 } from '../../vocabulaire/vocabulaireB1/L16';
+import { VocabulaireProgressifB1L17 } from '../../vocabulaire/vocabulaireB1/L17';
+import { VocabulaireProgressifB1L18 } from '../../vocabulaire/vocabulaireB1/L18';
+import { VocabulaireProgressifB1L19 } from '../../vocabulaire/vocabulaireB1/L19';
+import { VocabulaireProgressifB1L20 } from '../../vocabulaire/vocabulaireB1/L20';
 
 
 
@@ -543,5 +548,26 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B1 L15 Will, Action",
+    },
+    {
+        unit: "Voc B1 L16 交流",
+        words: VocabulaireProgressifB1L16,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L16 Communication",
+    },
+    {
+        unit: "Voc B1 L17 改变",
+        words: VocabulaireProgressifB1L17,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L17 Change",
+    },
+    {
+        unit: "Voc B1 L18 高等教育",
+        words: VocabulaireProgressifB1L18,
+        tag: "Vocabulaire Progressif",
+        book: "B1",
+        engUnit: "Voc B1 L18 Higher Education",
     },
 ]

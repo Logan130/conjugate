@@ -7,9 +7,9 @@ import { ThemeContext } from "../../context/context"
 
 
 export function ConjugateRuleCards() {
-    const { eng } = useContext(ThemeContext);
+    const { eng, theme } = useContext(ThemeContext);
     const [modalOpen, setModalOpen] = useState(false);
-    const red_style = "font-bold "
+    const red_style = theme === 'dark' ? "font-bold text-rose-400" : "font-bold text-amber-700"
     const toggleModal = () => {
         if (!modalOpen) {
             document.getElementById('my_modal_2').showModal()
@@ -86,7 +86,7 @@ export function ConjugateRuleCards() {
 
             <div className="card w-auto bg-neutral text-neutral-content">
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title">{eng ? "Conditionnel Présent" : "条现在"}</h2>
+                    <h2 className="card-title">{eng ? "Conditionnel Présent / Future Dans le Passée" : "条现在/过去将来时"}</h2>
                     <h3 className="font-bold">{eng ? "futur root + imparfait suffix" : "简将词根 + 未完成过去时词尾"}</h3>
 
                     <div className="grid grid-cols-2 gap-2">
@@ -158,7 +158,7 @@ export function ConjugateRuleCards() {
             </div>
 
 
-            <div className="card w-auto bg-neutral text-neutral-content">
+            {/* <div className="card w-auto bg-neutral text-neutral-content">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{eng ? "Future Dans le Passée" : "过去将来时"}</h2>
                     <h3 className="font-bold">{eng ? "futur root + imparfait suffix" : "简将词根 + 未完成过去时词尾"}</h3>
@@ -174,7 +174,7 @@ export function ConjugateRuleCards() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
             <div className="card w-auto bg-neutral text-neutral-content">
@@ -202,12 +202,29 @@ export function ConjugateRuleCards() {
                     <h3 className="font-bold">{eng ? "subjonctif présent être/avoir + p.p." : "助动词虚现在 + p.p."}</h3>
 
                     <div className="grid grid-cols-2 gap-2">
-                        <div className="text-left">que j'<span className={red_style}>aie aimé</span></div>
-                        <div className="text-left">que nous <span className={red_style}>ayons aimé</span></div>
-                        <div className="text-left">que tu <span className={red_style}>aies aimé</span></div>
-                        <div className="text-left">que vous <span className={red_style}>ayez aimé</span></div>
-                        <div className="text-left">qu’il <span className={red_style}>ait aimé</span></div>
-                        <div className="text-left">qu’ils <span className={red_style}>aient aimé</span></div>
+                        <div className="text-left">que j'<span className={red_style}>aie</span> aimé</div>
+                        <div className="text-left">que nous <span className={red_style}>ayons</span> aimé</div>
+                        <div className="text-left">que tu <span className={red_style}>aies</span> aimé</div>
+                        <div className="text-left">que vous <span className={red_style}>ayez</span> aimé</div>
+                        <div className="text-left">qu’il <span className={red_style}>ait</span> aimé</div>
+                        <div className="text-left">qu’ils <span className={red_style}>aient</span> aimé</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="card w-auto bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">{eng ? "Passé Antérieur" : "先过去时"}</h2>
+                    <h3 className="font-bold">{eng ? "passé simple être/avoir + p.p." : "助动词简单过去 + p.p."}</h3>
+
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="text-left">j'<span className={red_style}>eus</span> aimé</div>
+                        <div className="text-left">nous <span className={red_style}>eûmes</span> aimé</div>
+                        <div className="text-left">tu <span className={red_style}>eus</span> aimé</div>
+                        <div className="text-left">vous <span className={red_style}>eûtes</span> aimé</div>
+                        <div className="text-left">il <span className={red_style}>eut</span> aimé</div>
+                        <div className="text-left">ils <span className={red_style}>eurent</span> aimé</div>
                     </div>
 
                 </div>

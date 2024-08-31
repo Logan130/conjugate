@@ -20,12 +20,13 @@ function Navbar() {
   const onClickStyleButton = (e) => {
     if (dark) {
       document.querySelector('html').setAttribute('data-theme', 'pastel');
-      setTheme('pastel')
-
+      setTheme('pastel');
+      window.localStorage.setItem('FRENCH_APP_THEME', 'pastel');
     }
     else {
       document.querySelector('html').setAttribute('data-theme', 'dark');
-      setTheme('dark')
+      setTheme('dark');
+      window.localStorage.setItem('FRENCH_APP_THEME', 'dark');
     }
     setDark(!dark);
   }

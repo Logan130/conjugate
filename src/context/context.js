@@ -30,6 +30,11 @@ const themeSession = () => {
     return !!language ? (language === "true") : undefined;
 }
 
+export const getThemeSession = () => {
+  let theme = window.localStorage.getItem('FRENCH_APP_THEME');
+  return !!theme ? theme : 'dark';
+}
+
 // Create a Context
 const ThemeContext = createContext();
 
@@ -37,7 +42,7 @@ const ThemeContext = createContext();
 const ThemeProvider = ({ children }) => {
   const [eng, setEng] = useState((themeSession() !== undefined) ? themeSession() : !isUserFromChina());
   const les = lessons;
-  let [theme, setTheme] = useState('dark')
+  let [theme, setTheme] = useState(getThemeSession());
 
   const changeLan = () => {
     localStorage.setItem("FRENCH_APP_LANGUAGE", !eng)

@@ -28,6 +28,7 @@ import { EditoB1 } from '../data/array/VocArray/edito';
 import { ThemeContext } from '../context/context';
 import { InnerFrench } from '../data/array/VocArray/innerfrench';
 import { FaLock, FaUnlock, FaKey } from "react-icons/fa";
+import { tcf } from '../data/array/VocArray/tcf'
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
@@ -41,33 +42,34 @@ export const lessons = [
     ...vocabulaireProgressifA2,
     ...vocabulaireProgressifB1,
     ...EditoB1,
-    ...InnerFrench
+    ...InnerFrench,
+    ...tcf
 ]
 
 export let protectedLessonsIndex = new Set();
-// for (let i = 0; i < communicationA1.length + communicationA2.length; i++) {
-//     let index = taxiA1A2.length + taxiB1.length + i;
-//     protectedLessonsIndex.add(index);
-// }
+for (let index = 0; index < lessons.length; index++) {
+    if (['TCF'].includes(lessons[index].tag)) {
+        protectedLessonsIndex.add(index);
+    }
+}
 
 export const protectedLessonsMax = taxiA1A2.length +
     taxiB1.length + communicationA1.length + communicationA2.length +
     vocabulaireProgressifA1.length + vocabulaireProgressifA2.length +
-    EditoB1.length + InnerFrench.length
+    EditoB1.length + InnerFrench.length + tcf.length
 
-const FilterArr = ["TaxiFilter", "CommunicationFilter", "VocabulaireFilter", "AutreFilter"];
+const FilterArr = ["TaxiFilter", "CommunicationFilter", "VocabulaireFilter", "AutreFilter", "TCFFilter"];
 
 function getCollapseSession(id) {
     const arr = ["commCollapse", "vocCollapse"];
     let target = arr[id];
     let session = window.localStorage.getItem(target);
-    console.log("session", window.localStorage)
     return !!session ? (session === "true") : false;
 }
 
 function getFilterSession(id) {
     // [taxi, voc, comm, autre]
-    const arrDefault = ["B2", "B1", "A2", "InnerFrench"]
+    const arrDefault = ["B2", "B1", "A2", "InnerFrench", "TCF Voc"]
     let target = FilterArr[id];
     let session = window.localStorage.getItem(target);
     return !!session ? session : arrDefault[id];
@@ -86,7 +88,7 @@ const RenderImages = ({ images }) => {
     const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conclude!"];
 
     let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
-    images = imagesOlym    
+    images = imagesOlym
     const [currentImageIndex, setCurrentImageIndex] = useState(new Date().getTime() % imagesOlym.length);
 
     // useEffect(() => {
@@ -233,8 +235,8 @@ const Images = ({ isIpadUser }) => {
                                 <p className='text-neutral-content italic'>Faster, Higher, Stronger 🇫🇷</p>
                             </div>
                             <br />
-                        </> 
-                        : 
+                        </>
+                        :
                         <>
                             <img alt="Mulan" src={images[(Math.floor(Math.random() * 10000) + new Date().getTime()) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
@@ -260,8 +262,6 @@ const TimedComponent = ({ visible }) => {
     const { eng } = useContext(ThemeContext);
     const [isVisible, setIsVisible] = useState(visible);
 
-    console.log("debug render", visible)
-
     useEffect(() => {
         setIsVisible(visible)
     }, [visible])
@@ -282,7 +282,7 @@ const TimedComponent = ({ visible }) => {
                 <>
                     <br />
                     <div role="alert" className="alert alert-error font-bold">
-                        <span>{eng ? 'you are not invited' : '你没有被邀请'}</span>
+                        <span>{eng ? 'You are not invited 🙄💅🏻' : '你没有被邀请 🙄💅🏻'}</span>
                     </div>
                 </>
             )}
@@ -349,6 +349,19 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
         return () => clearTimeout(timer);
     }
 
+    const onHitKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            let correct = passwordValue === apiKey;
+            setMatched(correct);
+            setPasswordCorrect(correct);
+            setAlertIsVisible(!correct);
+            const timer = setTimeout(() => {
+                setAlertIsVisible(false);
+            }, 2500);
+            return () => clearTimeout(timer);
+        };
+    }
+
     // window.localStorage.clear();
     const onClickPage = (diff) => (e) => {
         let maxPageNumber = Math.ceil(targetArr.length / lessonsPerPage);
@@ -359,7 +372,6 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
         setUnits(targetArr.slice(lessonsPerPage * pageNumber, lessonsPerPage * (pageNumber + 1)));
         if (pageNumber === maxPageNumber - 1) {
             setMissing((lessonsPerPage - (totalUnits % lessonsPerPage)) % lessonsPerPage);
-            console.log("missing", Array((lessonsPerPage - (totalUnits % lessonsPerPage)) % lessonsPerPage))
         }
         else {
             setMissing(0)
@@ -370,19 +382,69 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
     return (
         <>
             <div className={isMobile ? "text-2xl mb-2 flex justify-left" : "text-4xl mb-4 flex justify-left"}>
-                {title} &nbsp;&nbsp; {(locked && !matched) ?
+                {(locked && !matched) ?
                     <>
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg>
-                        <button onClick={onClickUnlock} className="btn btn-neutral ml-3">{eng ? 'unlock' : '解锁'}</button>
-                    </>
+                        <div className='flex flex-row align-center items-center'>
+                            <div>{title} &nbsp;&nbsp; </div>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg>
+                            <button onClick={onClickUnlock} className="btn btn-neutral ml-3 mr-3">{eng ? 'unlock' : '解锁'}</button>
 
+                            {!isMobile && <>
+                                {(expanded && !matched) &&
+                                    <>
+                                        <label className="input input-bordered flex items-center">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 16 16"
+                                                fill="currentColor"
+                                                className="h-4 w-4 opacity-70">
+                                                <path
+                                                    fillRule="evenodd"
+                                                    d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                                                    clipRule="evenodd" />
+                                            </svg>
+
+                                            <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} onKeyDown={onHitKeyDown} />
+                                        </label>
+                                        <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
+                                    </>
+                                }
+                            </>}
+                        </div>
+
+
+                    </>
                     :
-                    <></>}
+                    <>{title}</>}
+            </div>
+
+            <div>
+                {isMobile && <>
+                    {(expanded && !matched) &&
+                            <div className='flex flex-row align-center items-center mb-2'>
+                                <label className="input input-bordered flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                        className="h-4 w-4 opacity-70">
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                                            clipRule="evenodd" />
+                                    </svg>
+
+                                    <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} onKeyDown={onHitKeyDown} />
+                                </label>
+                                <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
+                            </div>
+                    }
+                </>}
             </div>
 
             {(expanded && !matched) &&
                 <>
-                    <div className='flex flex-row'>
+                    {/* <div className='flex flex-row'>
                         <label className="input input-bordered flex items-center gap-2">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -394,21 +456,20 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
                                     d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
                                     clipRule="evenodd" />
                             </svg>
-                            <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} />
+                            <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} onKeyDown={onHitKeyDown} />
                         </label>
                         <div>
                             <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
                         </div>
-                    </div>
+                    </div> */}
                     {passwordCorrect !== null && alertIsVisible &&
                         <>
-                            <br />
                             <div role="alert" className={`alert alert-error font-bold transition transition-opacity duration-5000 opacity-100`}>
-                                <span>{eng ? 'you are not invited' : '你没有被邀请'}</span>
+                                <span>{eng ? 'You are not invited 🙄💅🏻' : '你没有被邀请 🙄💅🏻'}</span>
                             </div>
+                            <br />
                         </>
                     }
-                    <br />
                 </>
             }
 
@@ -542,7 +603,7 @@ export function VocabulairePage() {
     let isMobile = window.innerWidth < 850;
 
     // categorize arrays based on types
-    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], otherArr = [];
+    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], otherArr = [], tcfArr = [];
     for (let i = 0; i < lessons.length; i++) {
         let lesson = lessons[i];
         lesson["id"] = i;
@@ -557,6 +618,9 @@ export function VocabulairePage() {
         }
         else if (lesson.tag === "Other") {
             otherArr.push(lesson);
+        }
+        else if (lesson.tag === "TCF") {
+            tcfArr.push(lesson);
         }
     }
 
@@ -603,7 +667,6 @@ export function VocabulairePage() {
 
     let [vocabulaireFilter, setVocabulaireFilter] = useState(getFilterSession(1));
     const onClickVocabulaireFilter = (filter) => (e) => {
-        console.log(filter, "debug2")
         setVocabulaireFilter(filter);
         window.localStorage.setItem(FilterArr[1], filter);
     }
@@ -618,6 +681,12 @@ export function VocabulairePage() {
     const onClickAutreFilter = (filter) => (e) => {
         setAutreFilter(filter);
         window.localStorage.setItem(FilterArr[3], filter);
+    }
+
+    let [tcfFilter, setTCFFilter] = useState(getFilterSession(4));
+    const onClickTCFFilter = (filter) => (e) => {
+        setTCFFilter(filter);
+        window.localStorage.setItem(FilterArr[4], filter);
     }
 
     return (<>
@@ -671,6 +740,23 @@ export function VocabulairePage() {
             collpaseHandler={handleVocCollape}
             collapse={vocCollapsed}
             locked={false}
+        />
+
+
+        <Section
+            title={"TCF"}
+            vocArr={tcfArr}
+            filter={tcfFilter}
+            filterArr={["TCF Voc"]}
+            filterHandler={onClickTCFFilter}
+            buttonArr={["Thème"]}
+            reverse={false}
+            truncate={false}
+            titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
+            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
+            collpaseHandler={undefined}
+            collapse={undefined}
+            locked={true}
         />
 
 

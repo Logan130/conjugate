@@ -13,7 +13,7 @@ module.exports = {
   plugins: [require('daisyui')],
 
   daisyui: {
-    themes: [, 'dark', 'valentine',
+    themes: [, 'dark',
       {
         pastel: {
           ...require("daisyui/src/theming/themes")["pastel"],

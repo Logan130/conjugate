@@ -10,13 +10,16 @@ import { VocabulairePage } from './pages/Vocabulaire';
 import { VocabulaireTest } from './components/vocabulaire/VocabulaireTest';
 import { VocabulaireSummary } from './components/vocabulaire/VocabulaireSummary';
 import { SearchBar } from './components/shared/SearchBar';
-import { ThemeProvider } from './context/context';
+import { ThemeProvider, getThemeSession } from './context/context';
 import { ErrorPage } from './components/shared/404';
 import { Warning } from './pages/Warning';
 import { HighlightPage } from './components/vocabulaire/Highlight';
 
-
 function App() {
+
+  useEffect(() => {
+    document.querySelector('html').setAttribute('data-theme', getThemeSession());
+  }, [])
 
   return (
     <>

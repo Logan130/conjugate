@@ -1,13 +1,68 @@
 export const VocabulaireProgressifB1L16 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["方式", "谈话", "辩论", "消息"],
+    "方式": [
+        { english: "to murmur", french: "murmurer", pos: "v.", chinese: "低语" },
+        { english: "whispering", french: "chuchotement", pos: "n.m.", chinese: "耳语" },
+        { english: "to mumble", french: "marmonner", pos: "v.t.", chinese: "咕哝" },
+        { english: "to stutter", french: "bégayer", pos: "v.", chinese: "口吃" },
+        { english: "stutter", french: "bégaiement", pos: "n.m.", chinese: "口吃" },
+        { english: "in a categorical tone", french: "sur un ton catégorique", pos: "loc.", chinese: "用果断的语气" },
+        { english: "grumpy", french: "bougon(ne)", pos: "adj.", chinese: "爱发牢骚的" },
+        { english: "yelling", french: "hurlement", pos: "n.m.", chinese: "怒吼" },
+        { english: "to yell", french: "hurler", pos: "v.", chinese: "叫喊" },
+        { english: "to ramble", french: "radoter", pos: "v.", chinese: "唠叨" },
+        { english: "(oiseau) twitter, (bébé) to babble", french: "gazouiller", pos: "v.i.", chinese: "（鸟）啁啾，（婴儿）咿呀学语" },
+        { english: "cradle", french: "berceau", pos: "n.m.", chinese: "摇篮" },
+        { english: "not to reveal", french: "taire", pos: "v.t.", chinese: "掩盖" },
+        { english: "to be silent", french: "se taire", pos: "v.pr.", chinese: "保持沉默" },
+        { english: "silent", french: "silencieux(se)", pos: "adj.", chinese: "安静的" },
+        { english: "to bring back", french: "rapporter", pos: "v.t.", chinese: "带回" },
+        { english: "gossip", french: "potin", pos: "n.m.", chinese: "闲话" },
+        { english: "rumor", french: "rumeur", pos: "n.f.", chinese: "谣言" },
+        { english: "to tease", french: "taquiner", pos: "v.t.", chinese: "取笑" },
+        { english: "to make fun of", french: "se moquer de", pos: "v.pr.ind.", chinese: "嘲笑" },
+        { english: "gossiper", french: "commère", pos: "n.f.", chinese: "爱讲闲话的人" }
     ],
-    "": [
-
+    "谈话": [
+        { english: "allusion (à qch)", french: "allusion", pos: "n.f.", chinese: "暗示" },
+        { english: "by hint", french: "à demi-mot", pos: "loc.", chinese: "含蓄地" },
+        { english: "(par) innuendo", french: "sous-entendus", pos: "n.m.", chinese: "影射" },
+        { english: "allusive, indirect", french: "allusif(ve)", pos: "adj.", chinese: "暗指的" },
+        { english: "praise (faire l’éloge de qch)", french: "éloge", pos: "n.m.", chinese: "赞扬" },
+        { english: "blunder, blooper", french: "gaffe", pos: "n.f.", chinese: "失误" },
+        { english: "sharp reply", french: "repartie", pos: "n.f.", chinese: "机智的回答" },
+        { english: "snap back (que)", french: "répondre du tac au tac", pos: "loc.", chinese: "反驳" },
+        { english: "slip", french: "lapsus", pos: "n.m.", chinese: "口误" },
+        { english: "meeting", french: "entrevue", pos: "n.f.", chinese: "会见" },
+        { english: "privately", french: "en tête-à-tête", pos: "adv.", chinese: "单独地" },
+        { english: "get in touch (avec qn)", french: "se mettre en contact", pos: "loc.", chinese: "联系" },
+        { english: "keep in contact", french: "rester en contact", pos: "loc.", chinese: "保持联系" }
     ],
-    "": [
-
+    "辩论": [
+        { english: "to discuss", french: "débattre", pos: "v.t.", chinese: "讨论" },
+        { english: "to initiate", french: "entamer", pos: "v.t.", chinese: "开始" },
+        { english: "take sides for/against", french: "prendre parti pour/contre", pos: "loc.", chinese: "站在...一方" },
+        { english: "stand up to", french: "tenir tête à", pos: "loc.", chinese: "顶撞" },
+        { english: "misunderstanding", french: "malentendu", pos: "n.m.", chinese: "误会" },
+        { english: "misunderstanding", french: "quiproquo", pos: "n.m.", chinese: "误解" },
+        { english: "to ask for, to demand (qch)", french: "réclamer", pos: "v.t.", chinese: "要求" },
+        { english: "complaint", french: "plainte", pos: "n.f.", chinese: "抱怨" },
+        { english: "to slander", french: "calomnier", pos: "v.t.", chinese: "诽谤" },
+        { english: "slander", french: "calomnie", pos: "n.f.", chinese: "诽谤" },
+        { english: "to soil, to dirty (assiette, amour, réputation)", french: "salir", pos: "v.t.", chinese: "弄脏" },
+        { english: "defamation", french: "diffamation", pos: "n.f.", chinese: "诽谤" },
+        { english: "aware of", french: "au courant de", pos: "loc.", chinese: "知道" },
+        { english: "to get information from qp", french: "se renseigner auprès de qp", pos: "v.t.ind.", chinese: "从某处获取信息" },
+        { english: "to keep informed", french: "se tenir au courant", pos: "loc.", chinese: "随时了解" },
+        { english: "to point out, to inform (qch à qn)", french: "signaler", pos: "v.t.", chinese: "指出" }
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    "消息": [
+        { english: "to disclose", french: "divulguer", pos: "v.t.", chinese: "泄露" },
+        { english: "to unveil", french: "dévoiler", pos: "v.t.", chinese: "揭露" },
+        { english: "supposedly", french: "soi-disant", pos: "adv.", chinese: "所谓的" },
+        { english: "to consent to (qch, faire)", french: "consentir à", pos: "v.t.ind.", chinese: "同意" },
+        { english: "to advise against", french: "déconseiller", pos: "v.t.", chinese: "劝阻" },
+        { english: "to dissuade (qn de faire)", french: "dissuader", pos: "v.t.", chinese: "劝阻某人做某事" }
+    ], 
+    lessonsEng: ["manner", "conversation", "dispute", "info", ""]
 }

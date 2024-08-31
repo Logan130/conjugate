@@ -291,7 +291,6 @@ export function VocabulaireSummary() {
         return <ErrorPage />
     }
 
-    console.log("protectedLessonsIndex", protectedLessonsIndex)
     if (protectedLessonsIndex.has(Number(id)) && localStorage.getItem('password') !== apiKey) {
         return <ErrorPage />
     }

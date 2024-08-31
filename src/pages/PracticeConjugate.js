@@ -45,6 +45,11 @@ export function PracticeConjugate() {
             index: 3,
             verbs: conjugates.filter((verb) => verb.level === "B1"),
         },
+        {
+            name: "B2",
+            index: 4,
+            verbs: conjugates.filter((verb) => verb.level === "B2"),
+        },
     ]
 
     let suffixButtonArr = [

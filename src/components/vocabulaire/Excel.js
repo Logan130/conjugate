@@ -7,8 +7,6 @@ const DownloadExcel = () => {
     let words = [...lessons];
     let parsedwords = [];
 
-    console.log('debug debug', words)
-
     for (let unit of words) {
         let unit_name = unit.unit;
         for (let lesson of unit.words.lessons) {
