@@ -1,5 +1,5 @@
 export const wordsAlterEgoB2U6 = {
-    lessons: ["éclairages", "restaurant", "nuit", "saveurs", "nucléaire", "", "", "", ],
+    lessons: ["éclairages", "restaurant", "nuit", "saveurs", "nucléaire", "marketing", "superlatif", "musée", ],
     "éclairages": [
         { english: "pumpkin", french: "potiron", pos: "n.m.", chinese: "南瓜" },
         { english: "to savor (vins, vivre)", french: "déguster", pos: "v.t.", chinese: "品尝" },
@@ -139,13 +139,47 @@ export const wordsAlterEgoB2U6 = {
         { english: "potential", french: "potentiel", pos: "n.m.", chinese: "潜力" },
         { english: "precursor", french: "précurseur(e)", pos: "n.", chinese: "先驱" }
     ],
-    "": [
-
+    "marketing": [
+        { english: "to condition, to influence", french: "conditionner", pos: "v.t.", chinese: "调节，影响" },
+        { english: "to emerge", french: "émerger", pos: "v.i.", chinese: "浮现" },
+        { english: "emergence", french: "émergence", pos: "n.f.", chinese: "出现" },
+        { english: "to increase", french: "accroître", pos: "v.", chinese: "增加" },
+        { english: "packaging, wrapping", french: "emballage", pos: "n.m.", chinese: "包装" },
+        { english: "to categorize", french: "catégoriser", pos: "v.t.", chinese: "分类" },
+        { english: "fat-free milk", french: "écrémé", pos: "n.m.", chinese: "脱脂奶" },
+        { english: "due to", french: "du fait de", pos: "loc.", chinese: "由于" },
+        { english: "proliferation", french: "prolifération", pos: "n.f.", chinese: "扩散" },
+        { english: "henceforth", french: "dès lors", pos: "loc.", chinese: "从那时起" },
+        { english: "to strive for (qch), to tend to (faire)", french: "tendre à", pos: "v.t.ind.", chinese: "倾向于" },
+        { english: "according to (sub.)", french: "selon que", pos: "loc.", chinese: "根据" },
+        { english: "dark (couleur)", french: "foncé(e)", pos: "adj.", chinese: "深色的" },
+        { english: "eventually", french: "à terme", pos: "loc.", chinese: "最终" },
+        { english: "fun", french: "ludique", pos: "adj.", chinese: "有趣的" },
+        { english: "content", french: "teneur", pos: "n.f.", Chinese: "含量" },
+        { english: "manufacturer", french: "industriel(le)", pos: "n.", chinese: "制造商" }
     ],
-    "": [
-
+    "superlatif": [
+        { english: "retrospective", french: "rétrospective", pos: "n.f.", chinese: "回顾展" },
+        { english: "musical accompaniment", french: "accompagnement musical", pos: "n.m.", chinese: "背景音乐" },
+        { english: "worthy (de qch)", french: "digné(e)", pos: "adj.", chinese: "值得的" },
+        { english: "masterly", french: "magistral(e)", pos: "adj.", chinese: "精湛的" },
+        { english: "unparalleled", french: "sans pareille", pos: "loc.", chinese: "无与伦比的" },
+        { english: "extraordinaire", french: "hors du commun", pos: "loc.", chinese: "非凡的" },
+        { english: "to ruffle", french: "hérisser", pos: "v.t.", chinese: "使竖立" },
+        { english: "astonished", french: "ébahi(e)", pos: "adj.", chinese: "惊讶的" },
+        { english: "flesh", french: "chair", pos: "n.f.", chinese: "肉体" },
+        { english: "to abandon (qch)", french: "se passer de", pos: "v.pr.ind.", chinese: "舍弃" }
     ],
-    "": [
-
+    "musée": [
+        { english: "calf, veal", french: "veau", pos: "n.m.", chinese: "小牛，牛肉" },
+        { english: "ugly (fam.)", french: "moche", pos: "adj.", chinese: "难看的" },
+        { english: "kid", french: "gosse", pos: "n.", chinese: "小孩" },
+        { english: "confidence", french: "confiance", pos: "n.f.", chinese: "信心" },
+        { english: "scrawl (fam.)", french: "gribouillage", pos: "n.m.", chinese: "乱涂" },
+        { english: "chalk", french: "craie", pos: "n.f.", chinese: "粉笔" },
+        { english: "genius", french: "génie", pos: "n.m.", chinese: "天才" },
+        { english: "to look after", french: "veiller à", pos: "v.t.ind.", chinese: "照顾" },
+        { english: "tiger", french: "tigre", pos: "n.m.", chinese: "老虎" },
+        { english: "to devour", french: "dévorer", pos: "v.t.", chinese: "吞食" }
     ], 
 }

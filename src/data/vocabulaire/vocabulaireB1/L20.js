@@ -1,13 +1,50 @@
 export const VocabulaireProgressifB1L20 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["经济", "图表", "企业"],
+    "经济": [
+        { english: "the supply and the demand", french: "l’offre et la demande", pos: "loc.", chinese: "供需" },
+        { english: "to hold (capital, armes, moyens)", french: "détenir", pos: "v.t.", chinese: "拥有（资本，武器，手段）" },
+        { english: "to subsidize", french: "subventionner", pos: "v.t.", chinese: "补贴" },
+        { english: "subsidy", french: "subvention", pos: "n.f.", chinese: "补贴" },
+        { english: "situation", french: "conjoncture", pos: "n.f.", chinese: "经济局势" },
+        { english: "surplus (production, balance commerciale)", french: "excédentaire", pos: "adj.", chinese: "过剩的（生产，贸易余额)" },
+        { english: "showing a deficit", french: "déficitaire", pos: "adj.", chinese: "有赤字的" },
+        { english: "surplus", french: "excédent", pos: "n.m.", chinese: "盈余" },
+        { english: "GDP", french: "PIB", pos: "n.m.", chinese: "国内生产总值" },
+        { english: "debt", french: "dette", pos: "n.f.", chinese: "债务" },
+        { english: "in debt", french: "endetté(e)", pos: "adj.", chinese: "负债的" },
+        { english: "to pay off (dette)", french: "rembourser", pos: "v.t.", chinese: "偿还（债务）" },
+        { english: "(en) stock market", french: "Bourse", pos: "n.f.", chinese: "股票市场" }
     ],
-    "": [
-
+    "图表": [
+        { english: "to grow", french: "croître", pos: "v.i.", chinese: "增长" },
+        { english: "recession", french: "récession", pos: "n.f.", chinese: "经济衰退" },
+        { english: "revive, boost", french: "relance", pos: "n.f.", chinese: "复苏" },
+        { english: "recovery (économique)", french: "redressement", pos: "n.m.", chinese: "经济复苏" },
+        { english: "stagnation", french: "marasme", pos: "n.m.", chinese: "停滞不前" },
+        { english: "to climb", french: "grimper", pos: "v.", chinese: "攀升" },
+        { english: "climbing", french: "escalade", pos: "n.f.", chinese: "攀登" },
+        { english: "peak", french: "pic", pos: "n.m.", chinese: "顶峰" },
+        { english: "to slow down", french: "ralentir", pos: "v.", chinese: "减缓" },
+        { english: "slowing down", french: "ralentissement", pos: "n.m.", chinese: "逐渐放缓" },
+        { english: "dip, hollow", french: "creux", pos: "n.m.", chinese: "低谷" },
+        { english: "curve", french: "courbe", pos: "n.f.", chinese: "曲线" },
+        { english: "inaccessible (personne), very high (prix)", french: "inabordable", pos: "adj.", chinese: "不可接近的，价格昂贵的" },
+        { english: "prohibitive", french: "prohibitif(ve)", pos: "adj.", chinese: "过分的" },
+        { english: "exorbitant", french: "exorbitant(e)", pos: "adj.", chinese: "过高的" }
     ],
-    "": [
-
+    "企业": [
+        { english: "branch", french: "succursale", pos: "n.f.", chinese: "分公司" },
+        { english: "subsidiary", french: "filiale", pos: "n.f.", chinese: "子公司" },
+        { english: "entrepreneurship", french: "esprit d’entreprise", pos: "n.m.", chinese: "企业家精神" },
+        { english: "market, niche", french: "créneau", pos: "n.m.", chinese: "市场空缺" },
+        { english: "niche", french: "niche", pos: "n.f.", chinese: "小众市场" },
+        { english: "range", french: "gamme", pos: "n.f.", chinese: "范围" },
+        { english: "rival", french: "concurrent(e)", pos: "n.", chinese: "竞争对手" },
+        { english: "to compete with", french: "concurrencer", pos: "v.t.", chinese: "竞争" },
+        { english: "to merge", french: "fusionner", pos: "v.", chinese: "合并" },
+        { english: "balance sheet", french: "bilan", pos: "n.m.", chinese: "资产负债表" },
+        { english: "profitable", french: "rentable", pos: "adj.", chinese: "有利可图的" },
+        { english: "profit", french: "rentrée", pos: "n.f.", chinese: "收益" }
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["economy", "graph", "business", "", ""]
 }

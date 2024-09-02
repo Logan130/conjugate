@@ -1,13 +1,52 @@
 export const VocabulaireProgressifB1L17 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["大小", "程度"],
+    "大小": [
+        { english: "to increase", french: "accroître", pos: "v.t.", chinese: "增加" },
+        { english: "increase", french: "accroissement", pos: "n.m.", chinese: "增长" },
+        { english: "to shrink", french: "rétrécir", pos: "v.", chinese: "缩小" },
+        { english: "to extend", french: "rallonger", pos: "v.", chinese: "延长" },
+        { english: "to shorten, to reduce", french: "raccourcir", pos: "v.", chinese: "缩短" },
+        { english: "extension", french: "allongement", pos: "n.m.", chinese: "延伸" },
+        { english: "to widen", french: "élargir", pos: "v.t.", chinese: "扩大" },
+        { english: "widening, expansion", french: "élargissement", pos: "n.m.", chinese: "扩展" },
+        { english: "to cut out", french: "supprimer", pos: "v.t.", chinese: "删除" },
+        { english: "elimination", french: "suppression", pos: "n.f.", chinese: "消除" },
+        { english: "to weaken", french: "affaiblir", pos: "v.t.", chinese: "削弱" },
+        { english: "reinforcement", french: "renforcement", pos: "n.m.", chinese: "加强" },
+        { english: "weakening", french: "affaiblissement", pos: "n.m.", chinese: "削弱" },
+        { english: "(en plein) development", french: "essor", pos: "n.m.", chinese: "（全盛期的）发展" },
+        { english: "prosperity", french: "prospérité", pos: "n.f.", chinese: "繁荣" },
+        { english: "thriving", french: "prospère", pos: "adj.", chinese: "繁荣的" },
+        { english: "to be replaced, to come out with new ideas", french: "se renouveler", pos: "v.pr.", chinese: "被替代，创新" },
+        { english: "renewal, replacement", french: "renouvellement", pos: "n.m.", chinese: "更新，更换" }
     ],
-    "": [
-
+    "程度": [
+        { english: "to fall", french: "chuter", pos: "v.i.", chinese: "下跌" },
+        { english: "fall", french: "chute", pos: "n.f.", chinese: "跌落" },
+        { english: "(sur le) decline", french: "déclin", pos: "n.m.", chinese: "（处于）下降" },
+        { english: "drop, step back", french: "recul", pos: "n.m.", chinese: "后退" },
+        { english: "bankruptcy, failure", french: "faillite", pos: "n.f.", chinese: "破产，失败" },
+        { english: "to deteriorate", french: "se dégrader", pos: "v.pr.", chinese: "恶化" },
+        { english: "to deteriorate", french: "se détériorer", pos: "v.pr.", chinese: "恶化" },
+        { english: "to get worse", french: "empirer", pos: "v.i.", chinese: "变得更糟" },
+        { english: "to exacerbate", french: "exacerber", pos: "v.t.", chinese: "加剧" },
+        { english: "decline, regression", french: "régression", pos: "n.f.", chinese: "衰退" },
+        { english: "new wave", french: "recrudescence", pos: "n.f.", chinese: "复发" },
+        { english: "to spread", french: "propager", pos: "v.t.", chinese: "传播" },
+        { english: "to spread", french: "se propager", pos: "v.pr.", chinese: "蔓延" },
+        { english: "spread, propagation", french: "propagation", pos: "n.f.", chinese: "传播" },
+        { english: "to get complicated", french: "se compliquer", pos: "v.pr.", chinese: "复杂化" },
+        { english: "(en) decadence, decline", french: "décadence", pos: "n.f.", chinese: "（处于）衰退" },
+        { english: "ruin", french: "ruine", pos: "n.f.", chinese: "毁灭" },
+        { english: "to ruin", french: "ruiner", pos: "v.t.", chinese: "破坏" },
+        { english: "picturesque", french: "pittoresque", pos: "adj.", chinese: "如画的" },
+        { english: "pursuit, chase", french: "poursuite", pos: "n.f.", chinese: "追求" },
+        { english: "eventful", french: "mouvementé(e)", pos: "adj.", chinese: "多事的" },
+        { english: "to reside, to remain (fragile)", french: "demeurer", pos: "v.i.", chinese: "居住，保持（脆弱）" },
+        { english: "immutable", french: "immuable", pos: "adj.", chinese: "不变的" }
     ],
     "": [
 
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["size", "extent", "", "", ""]
 }

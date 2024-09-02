@@ -62,11 +62,11 @@ function Navbar() {
                 </Link>
 
                 <Link className={button_style} to='/practice'>
-                  {eng ? (isMobile ? "Conj" : "Conjugations") : "变位"}
+                  {eng ? (isMobile ? "Conj" : "Conjugation") : "变位"}
                 </Link>
 
                 <Link className={button_style} to='/voc'>
-                  {eng ? (isMobile ? "Voc" : "Vocabularies") : "词汇"}
+                  {eng ? (isMobile ? "Voc" : "Vocabulary") : "词汇"}
                 </Link>
 
               </div>

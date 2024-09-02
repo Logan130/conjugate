@@ -1,0 +1,52 @@
+export const VocabulaireProgressifB1L26 = {
+    lessons: ["博物馆", "杰作", "照片"],
+    "博物馆": [
+        { english: "collector", french: "collectionneur(euse)", pos: "n.", chinese: "收藏家" },
+        { english: "(art) sponsor", french: "mécène", pos: "n.m.", chinese: "艺术赞助人" },
+        { english: "patronage", french: "mécénat", pos: "n.m.", chinese: "赞助" },
+        { english: "preview, private view", french: "vernissage", pos: "n.m.", chinese: "预展，私人预览" },
+        { english: "inauguration", french: "inauguration", pos: "n.f.", chinese: "开幕式" },
+        { english: "masterpieces", french: "chefs-d’œuvre", pos: "n.m.", chinese: "杰作" },
+        { english: "to exhibit", french: "exposer", pos: "v.t.", chinese: "展示" },
+        { english: "critic", french: "critique", pos: "n.", chinese: "评论家" },
+        { english: "criticism, review", french: "critique", pos: "n.f.", chinese: "评论" },
+        { english: "make a judgement (sur qch)", french: "porter un jugement", pos: "loc.", chinese: "做出评价" },
+        { english: "canvas", french: "toile", pos: "n.f.", chinese: "画布" },
+        { english: "easel", french: "chevalet", pos: "n.m.", chinese: "画架" },
+        { english: "brush", french: "pinceau", pos: "n.m.", chinese: "画笔" },
+        { english: "palette", french: "palette", pos: "n.f.", chinese: "调色板" },
+        { english: "to spread out", french: "étaler", pos: "v.t.", chinese: "摊开" },
+        { english: "to frame, to supervise", french: "encadrer", pos: "v.t.", chinese: "装裱，指导" }
+    ],
+    "杰作": [
+        { english: "landscape", french: "paysage", pos: "n.m.", chinese: "风景" },
+        { english: "abstract", french: "abstrait(e)", pos: "adj.", chinese: "抽象的" },
+        { english: "fresco", french: "fresque", pos: "n.f.", chinese: "壁画" },
+        { english: "mosaic", french: "mosaïque", pos: "n.f.", chinese: "马赛克" },
+        { english: "fine arts", french: "beaux-arts", pos: "n.m.pl.", chinese: "美术" },
+        { english: "copy", french: "copie", pos: "n.f.", chinese: "复制品" },
+        { english: "to damage", french: "endommager", pos: "v.t.", chinese: "损坏" },
+        { english: "to damage", french: "abîmer", pos: "v.t.", chinese: "毁坏" },
+        { english: "feather", french: "plume", pos: "n.f.", chinese: "羽毛" },
+        { english: "ink", french: "encre", pos: "n.f.", chinese: "墨水" },
+        { english: "sketch", french: "croquis", pos: "n.m.", chinese: "素描" },
+        { english: "sketch, outline", french: "esquisse", pos: "n.f.", chinese: "草图" },
+        { english: "rough shape, outline", french: "ébauche", pos: "n.f.", chinese: "初步设计" },
+        { english: "to build", french: "édifier", pos: "v.t.", chinese: "建造" },
+        { english: "to build", french: "bâtir", pos: "v.t.", chinese: "建造" },
+        { english: "edifice", french: "édifice", pos: "n.m.", chinese: "建筑" }
+    ],
+    "照片": [
+        { english: "to alter, to retouch", french: "retoucher", pos: "v.t.", chinese: "修改" },
+        { english: "matt (peinture, voix)", french: "mat(te)", pos: "adj.", chinese: "哑光的" },
+        { english: "to classify", french: "classer", pos: "v.t.", chinese: "分类" },
+        { english: "blurred", french: "flou(e)", pos: "adj.", chinese: "模糊的" },
+        { english: "underexposed", french: "sous-exposé(e)", pos: "adj.", chinese: "曝光不足的" },
+        { english: "overexposed", french: "surexposé(e)", pos: "adj.", chinese: "曝光过度的" },
+        { english: "body", french: "boîtier", pos: "n.m.", chinese: "(照相机)机身" },
+        { english: "lens (appareil photo)", french: "objectif", pos: "n.m.", chinese: "(照相机的)镜头" },
+        { english: "to finish", french: "achever", pos: "v.t.", chinese: "完成" },
+        { english: "of the highest order", french: "de tout premier plan", pos: "loc.", chinese: "最高级的" }
+    ], 
+    lessonsEng: ["museum", "masterppiece", "photo", "", ""]
+}

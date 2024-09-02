@@ -59,7 +59,7 @@ export function About() {
                     >
                         {eng ?
                             <p className="mb-4">
-                                While studying French, I personally find it challenging to memorize vocabulary and conjugation. Taking advantage of my skills as a full-stack engineer, I have developed a web application to make this learning process easier. Furthermore, I have chosen to deploy this application on the Internet so that anyone can access the study materials :)
+                                While studying French, I find it challenging to memorize vocabulary and conjugation. Taking advantage of my skills as a full-stack engineer, I have developed a web application to make this learning process easier. Furthermore, I have chosen to deploy this application on the Internet so that anyone can access the study materials :)
                             </p> :
                             <p className="mb-4">
                                 我从A2开始和{" "}
@@ -89,9 +89,7 @@ export function About() {
 
                         {eng ?
                             <p className="">
-                                To practice conjugation, simply click on the <Link className="link link-warning" to='/practice'>Conjugations</Link> button located in the navigation bar. By doing so, you will be redirected to a page where you can test and improve your conjugation skills. Additionally, you will have the option to check your answers and receive helpful hints.
-                                {/* Click <Link className="link link-warning" to='/practice'>the Conjugations button on the navigation bar </Link>
-                                to practice conjugation. You can also check your answers and get hints there. */}
+                                To practice conjugation, simply click on the <Link className="link link-warning" to='/practice'>{isMobile ? "Conj" : "Conjugation"}</Link> button located in the navigation bar. By doing so, you will be redirected to a page where you can test and improve your conjugation skills. Additionally, you will have the option to check your answers and receive helpful hints.
                             </p> :
                             <p className="">
                                 这个网站的<Link className="link link-warning" to='/practice'>变位练习板块</Link>
@@ -105,7 +103,7 @@ export function About() {
                         {eng ?
                             <p className="">
 
-                                If you are interested in expanding your vocabulary, I have created a section called <Link className="link link-warning" to='/voc'>Vocabularies</Link> that contains a wide range of words and phrases that I've studied. This section includes materials from various sources such as the Progressive series, Taxi, and Edito. Within the "Voc" section, you will be able to filter the content based on parts of speech and gender. Moreover, you can also practice spelling and matching genders.
+                                If you are interested in horning your vocabulary, I have created a section called <Link className="link link-warning" to='/voc'>{isMobile ? "Voc" : "Vocabulary"}</Link> that contains a wide range of words and phrases that I've studied. This section includes materials from various sources such as the Progressive series, Taxi, Alter Ego, and Edito. Within the "Voc" section, you will be able to filter the content based on parts of speech and gender. Features that use Large Language Models and Anki/Quizlet are integrated into this section to facilitate learning. Moreover, you can also practice spelling and matching genders.
                                 {/* <Link className="link link-warning" to='/voc'>The Voc section </Link>
                                 lists all the words and phrases I encountered (including the Progressive series, Taxi, and Edito). It supports filtering based on POS and gender. It also allows you to practice spelling and match genders. */}
                             </p> :

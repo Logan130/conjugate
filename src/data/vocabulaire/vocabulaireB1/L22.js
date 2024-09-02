@@ -1,7 +1,41 @@
 export const VocabulaireProgressifB1L22 = {
-    lessons: ["", "", ""],
-    "": [
-
+    lessons: ["犯罪"],
+    "犯罪": [
+        { english: "weapon", french: "arme", pos: "n.f.", chinese: "武器" },
+        { english: "revolver", french: "revolver", pos: "n.m.", chinese: "左轮手枪" },
+        { english: "criminal", french: "criminel(le)", pos: "n.", chinese: "罪犯" },
+        { english: "tragedy", french: "drame", pos: "n.m.", chinese: "悲剧" },
+        { english: "investigating officer", french: "enquêteur(trice)", pos: "n.", chinese: "调查员" },
+        { english: "DNA", french: "ADN", pos: "n.m.", chinese: "DNA" },
+        { english: "motive", french: "mobile", pos: "n.m.", chinese: "动机" },
+        { english: "murder", french: "meurtre", pos: "n.m.", chinese: "谋杀" },
+        { english: "witness", french: "témoin", pos: "n.m.", chinese: "证人" },
+        { english: "shady", french: "louche", pos: "adj.", chinese: "可疑的" },
+        { english: "lover", french: "amant(e)", pos: "n.", chinese: "情人" },
+        { english: "flight", french: "bagarre", pos: "n.f.", chinese: "斗殴" },
+        { english: "burglary", french: "cambriolage", pos: "n.m.", chinese: "入室盗窃" },
+        { english: "to burgle", french: "cambrioler", pos: "v.t.", chinese: "入室行窃" },
+        { english: "attacker", french: "agresseur", pos: "n.m.", chinese: "攻击者" },
+        { english: "to loose, to let go", french: "relâcher", pos: "v.t.", chinese: "释放" },
+        { english: "rough draft", french: "brouillon", pos: "n.m.", chinese: "草稿" },
+        { english: "blackmail", french: "chantage", pos: "n.m.", chinese: "勒索" },
+        { english: "corrupted", french: "corrompu(e)", pos: "adj.", chinese: "腐败的" },
+        { english: "deal with (qch)", french: "avoir affaire à", pos: "loc.", chinese: "处理（某事）" },
+        { english: "arming", french: "armement", pos: "n.m.", chinese: "武装" },
+        { english: "murder", french: "assassinat", pos: "n.m.", chinese: "谋杀" },
+        { english: "to protest one’s innocence", french: "protester de son innocence", pos: "loc.", chinese: "宣称自己无辜" },
+        { english: "to admit (crime)", french: "reconnaître", pos: "v.t.", chinese: "承认（罪行）" },
+        { english: "confession", french: "aveu(x)", pos: "n.m.", chinese: "自白" },
+        { english: "to swindle (qch à qn, qn de qch)", french: "escroquer", pos: "v.t.", chinese: "骗取" },
+        { english: "swindler", french: "escroc", pos: "n.m.", chinese: "骗子" },
+        { english: "accomplice", french: "complice", pos: "n.", chinese: "共犯" },
+        { english: "dealer (drogue, arme)", french: "trafiquant(e)", pos: "n.", chinese: "贩卖者" },
+        { english: "swindle", french: "escroquerie", pos: "n.f.", chinese: "诈骗" },
+        { english: "trial", french: "procès", pos: "n.m.", chinese: "审判" },
+        { english: "to find sb guilty", french: "reconnaître qn coupable", pos: "loc.", chinese: "判决某人有罪" },
+        { english: "to sentence (qn à 10 ans de prison)", french: "condamner", pos: "v.t.", chinese: "判刑（某人10年监禁）" },
+        { english: "to jail", french: "incarcérer", pos: "v.t.", chinese: "囚禁" },
+        { english: "to imprison", french: "emprisonner", pos: "v.t.", chinese: "监禁" }
     ],
     "": [
 
@@ -9,5 +43,5 @@ export const VocabulaireProgressifB1L22 = {
     "": [
 
     ], 
-    lessonsEng: ["", "", "", "", ""]
+    lessonsEng: ["crime", "", "", "", ""]
 }

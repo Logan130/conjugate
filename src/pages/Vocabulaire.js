@@ -700,7 +700,7 @@ export function VocabulairePage() {
             filterHandler={onClickTaxiFilter}
             buttonArr={["B2", "B1", "A2", "A1"]}
             reverse={true}
-            titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
+            titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-36'}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-1"}
             collpaseHandler={undefined}
             collapse={undefined}
@@ -732,7 +732,7 @@ export function VocabulairePage() {
             filter={vocabulaireFilter}
             filterArr={["B1", "A2", "A1"]}
             filterHandler={onClickVocabulaireFilter}
-            buttonArr={["B1-B2", "A2-B1", "A1-A2"]}
+            buttonArr={["B2-C1", "A2-B1", "A1-A2"]}
             reverse={false}
             truncate={!vocCollapsed}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}

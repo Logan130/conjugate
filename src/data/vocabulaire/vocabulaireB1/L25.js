@@ -1,0 +1,43 @@
+export const VocabulaireProgressifB1L25 = {
+    lessons: ["历史", "战争"],
+    "历史": [
+        { english: "cave", french: "grotte", pos: "n.f.", chinese: "洞穴" },
+        { english: "cavern", french: "caverne", pos: "n.f.", chinese: "大洞穴" },
+        { english: "Greek", french: "grecque", pos: "adj.", chinese: "希腊的" },
+        { english: "Roman", french: "romain(e)", pos: "adj.", chinese: "罗马的" },
+        { english: "archeologist", french: "archéologue", pos: "adj.", chinese: "考古学家" },
+        { english: "search, excavation", french: "fouille", pos: "n.f.", chinese: "挖掘" },
+        { english: "construction site", french: "chantier", pos: "n.m.", chinese: "施工现场" },
+        { english: "vestige", french: "vestige", pos: "n.m.", chinese: "遗迹" },
+        { english: "(avant, après) B.C.", french: "J.-C.", pos: "loc.", chinese: "（公元前，公元后）" },
+        { english: "the Middle Age", french: "le Moyen Âge", pos: "n.m.", chinese: "中世纪" },
+        { english: "medieval", french: "médiéval(e)", pos: "adj.", chinese: "中世纪的" },
+        { english: "Renaissance", french: "Renaissance", pos: "n.f.", chinese: "文艺复兴" },
+        { english: "the Enlightenment", french: "le siècle des Lumières", pos: "n.m.", chinese: "启蒙时代" },
+        { english: "chronology", french: "chronologie", pos: "n.f.", chinese: "年表" },
+        { english: "monarchy", french: "monarchie", pos: "n.f.", chinese: "君主制" },
+        { english: "sovereign", french: "souverain", pos: "n.m.", chinese: "君主" },
+        { english: "to reign", french: "régner", pos: "v.i.", chinese: "统治" },
+        { english: "reign", french: "règne", pos: "n.m.", chinese: "统治时期" },
+        { english: "courtier", french: "courtisan", pos: "n.m.", chinese: "朝臣" },
+        { english: "aristocracy", french: "aristocratie", pos: "n.f.", chinese: "贵族" }
+    ],
+    "战争": [
+        { english: "to ally (avec)", french: "s’allier", pos: "v.pr.", chinese: "结盟" },
+        { english: "ally (de qn)", french: "allié(e)", pos: "n.", chinese: "盟友" },
+        { english: "defeat", french: "défaite", pos: "n.f.", chinese: "失败" },
+        { english: "capitulation", french: "capitulation", pos: "n.f.", chinese: "投降" },
+        { english: "winner, conquerer", french: "vainqueur", pos: "n.m.", chinese: "胜利者" },
+        { english: "talks", french: "pourparlers", pos: "n.m.pl.", chinese: "谈判" },
+        { english: "treaty", french: "traité", pos: "n.m.", chinese: "条约" },
+        { english: "atrocity", french: "atrocité", pos: "n.f.", chinese: "暴行" },
+        { english: "to occur", french: "se produire", pos: "v.pr.", chinese: "发生" },
+        { english: "to massacre", french: "massacrer", pos: "v.t.", chinese: "屠杀" },
+        { english: "barbarity", french: "barbarie", pos: "n.f.", chinese: "野蛮" },
+        { english: "barbaric", french: "barbare", pos: "adj.", chinese: "野蛮的" },
+        { english: "embassy", french: "ambassade", pos: "n.f.", chinese: "大使馆" },
+        { english: "ambassador", french: "ambassadeur(drice)", pos: "n.", chinese: "大使" }, 
+        { english: "the World War II", french: "la Seconde Guerre mondiale", pos: "n.f.", chinese: "第二次世界大战" }
+    ],
+    lessonsEng: ["history", "war", "", "", ""]
+}
