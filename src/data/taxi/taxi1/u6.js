@@ -82,7 +82,7 @@ export const wordsTaxiA1U6 = {
         { english: "before", french: "avant", pos: "prep.", chinese: "之前" },
         { english: "with", french: "avec", pos: "prep.", chinese: "用" },
         { english: "calm", french: "calme", pos: "adj.", chinese: "冷静" },
-        { english: "candidate", french: "candidat(e)", pos: "n.", chinese: "候选人" },
+        { english: "candidate (à qch)", french: "candidat(e)", pos: "n.", chinese: "候选人" },
         { english: "hair", french: "cheveux", pos: "n.m.pl.", chinese: "头发" },
         { english: "correctly, properly", french: "correctement", pos: "adv.", chinese: "正确地" },
         { english: "short", french: "court(e)", pos: "adj.", chinese: "短" },

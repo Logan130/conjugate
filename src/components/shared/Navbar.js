@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import React, { useContext, useState } from 'react';
-import { ThemeContext } from '../../context/context';
+import { ThemeContext, getThemeSession } from '../../context/context';
 import { RiTranslate } from "react-icons/ri";
 import { CgDarkMode } from "react-icons/cg";
 
@@ -16,8 +16,9 @@ function Navbar() {
   // }
   let button_style = isMobile ? 'btn btn-ghost btn-sm rounded-btn text-base mx-0 px-2' : 'btn btn-ghost btn-sm rounded-btn text-lg';
 
-  let [dark, setDark] = useState(true);
+  let [dark, setDark] = useState(getThemeSession() === 'dark');
   const onClickStyleButton = (e) => {
+    console.log(dark, "dark")
     if (dark) {
       document.querySelector('html').setAttribute('data-theme', 'pastel');
       setTheme('pastel');

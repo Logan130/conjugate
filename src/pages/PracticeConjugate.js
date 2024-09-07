@@ -8,7 +8,7 @@ function selectRandomElements(arr, numElements) {
     const result = [];
 
     const copyArray = arr.slice();
-    for (let i = 0; i < numElements; i++) {
+    for (let i = 0; i < Math.min(numElements, arr.length); i++) {
         const randomIndex = Math.floor(Math.random() * copyArray.length);
         result.push(copyArray.splice(randomIndex, 1)[0]);
     }
@@ -94,7 +94,6 @@ export function PracticeConjugate() {
     };
 
     const onClickSuffixButton = (suffixID) => (e) => {   
-        setSuffixIndex(suffixID);
         setSuffixIndex(suffixID);
         let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
         setConjugates(selectRandomElements(newWords, number_of_practice));

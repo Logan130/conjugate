@@ -62,7 +62,7 @@ export function AllConjugate() {
 
     let suffixButtonArr = [
         {
-            name: eng ? "All Suffixes" : "全部词根",
+            name: eng ? "All Suffixes" : "全部词尾",
             value: ''
         },
         {

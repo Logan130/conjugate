@@ -72,7 +72,7 @@ export const wordsTaxiA2U1 = {
         { english: "fish", french: "poisson", pos: "n.m.", chinese: "鱼" }
     ],
     L4: [
-        { english: "candidacy", french: "candidature", pos: "n.f.", chinese: "候选人资格" },
+        { english: "candidacy  (à qch)", french: "candidature", pos: "n.f.", chinese: "候选人资格" },
         { english: "online", french: "en ligne", pos: "loc.", chinese: "在线" },
         { english: "to send", french: "envoyer", pos: "v.t.", chinese: "发送" },
         { english: "gold", french: "or", pos: "n.m.", chinese: "黄金" },

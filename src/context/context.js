@@ -45,7 +45,7 @@ const ThemeProvider = ({ children }) => {
   let [theme, setTheme] = useState(getThemeSession());
 
   const changeLan = () => {
-    localStorage.setItem("FRENCH_APP_LANGUAGE", !eng)
+    window.localStorage.setItem("FRENCH_APP_LANGUAGE", !eng)
     setEng(!eng);
   }
 

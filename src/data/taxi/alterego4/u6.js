@@ -161,7 +161,7 @@ export const wordsAlterEgoB2U6 = {
     "superlatif": [
         { english: "retrospective", french: "rétrospective", pos: "n.f.", chinese: "回顾展" },
         { english: "musical accompaniment", french: "accompagnement musical", pos: "n.m.", chinese: "背景音乐" },
-        { english: "worthy (de qch)", french: "digné(e)", pos: "adj.", chinese: "值得的" },
+        { english: "worthy (de qch)", french: "digne", pos: "adj.", chinese: "值得的" },
         { english: "masterly", french: "magistral(e)", pos: "adj.", chinese: "精湛的" },
         { english: "unparalleled", french: "sans pareille", pos: "loc.", chinese: "无与伦比的" },
         { english: "extraordinaire", french: "hors du commun", pos: "loc.", chinese: "非凡的" },

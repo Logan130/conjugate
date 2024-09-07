@@ -12,6 +12,15 @@ import Paris7 from '../static/paris-games-rings-6753651837110531-2xa.gif'
 import Paris8 from '../static/paris-games-artistic-swimming-6753651837110445-2xa.gif'
 import Paris9 from '../static/paris-games-breaking-6753651837110566-2xa.gif'
 import Paris10 from '../static/paris-games-conclude-6753651837110568-2xa.gif'
+import Paris11 from '../static/paralympic/p1.gif'
+import Paris12 from '../static/paralympic/p2.gif'
+import Paris13 from '../static/paralympic/p3.gif'
+import Paris14 from '../static/paralympic/p4.gif'
+import Paris15 from '../static/paralympic/p5.gif'
+import Paris16 from '../static/paralympic/p6.gif'
+import Paris17 from '../static/paralympic/p7.gif'
+import Paris18 from '../static/paralympic/p8.gif'
+import Paris19 from '../static/paralympic/p9.gif'
 
 
 
@@ -85,9 +94,12 @@ const RenderImages = ({ images }) => {
     // const [currentImageIndex, setCurrentImageIndex] = useState(eng ? 1 : 0);
     const [fade, setFade] = useState(true);
     const titleArr = ["Mulan", "Orlando", "Twelfth Night"];
-    const titleOlymArr = ["Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conclude!"];
+    const titleOlymArr = [
+        "Ceremony", "Skateboarding", "Football", "Artistic Gymnastics", "Track and Field", "Surfing", "Rings", "Artistic Swimming", "Breaking", "Conclude!", 
+        "Paralympic Games Begin!", "Playground", "Basketball", "Athletics", "Archery", "Powerlifting", "Tennis", "Equestrian", "Conclude!"
+        ];
 
-    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
+    let imagesOlym = [Paris3, Paris4, Paris2, Paris1, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10, Paris11, Paris12, Paris13, Paris14, Paris15, Paris16, Paris17, Paris18, Paris19];
     images = imagesOlym
     const [currentImageIndex, setCurrentImageIndex] = useState(new Date().getTime() % imagesOlym.length);
 
@@ -207,7 +219,7 @@ const RenderImages = ({ images }) => {
 const Images = ({ isIpadUser }) => {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 850;
-    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10];
+    let images = [Paris1, Paris2, Paris3, Paris4, Paris5, Paris6, Paris7, Paris8, Paris9, Paris10, Paris11, Paris12, Paris13, Paris14, Paris15, Paris16, Paris17, Paris18, Paris19];
 
     return (
         <>
@@ -282,7 +294,7 @@ const TimedComponent = ({ visible }) => {
                 <>
                     <br />
                     <div role="alert" className="alert alert-error font-bold">
-                        <span>{eng ? 'You are not invited 🙄💅🏻' : '你没有被邀请 🙄💅🏻'}</span>
+                        <span>{eng ? 'Wrong password. You are not invited 🙄💅🏻' : '密码错误，你没有被邀请 🙄💅🏻'}</span>
                     </div>
                 </>
             )}
@@ -465,7 +477,7 @@ function Section({ title, vocArr, filter, filterArr, filterHandler, buttonArr, r
                     {passwordCorrect !== null && alertIsVisible &&
                         <>
                             <div role="alert" className={`alert alert-error font-bold transition transition-opacity duration-5000 opacity-100`}>
-                                <span>{eng ? 'You are not invited 🙄💅🏻' : '你没有被邀请 🙄💅🏻'}</span>
+                                <span>{eng ? 'Wrong Password. You are not invited 🙄💅🏻' : '密码错误，你没有被邀请 🙄💅🏻'}</span>
                             </div>
                             <br />
                         </>
@@ -735,7 +747,7 @@ export function VocabulairePage() {
             buttonArr={["B2-C1", "A2-B1", "A1-A2"]}
             reverse={false}
             truncate={!vocCollapsed}
-            titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
+            titleStyle={isMobile ? 'flex items-center w-32 text-sm' : 'flex items-center w-32'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             collpaseHandler={handleVocCollape}
             collapse={vocCollapsed}

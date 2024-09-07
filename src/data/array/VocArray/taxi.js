@@ -38,7 +38,7 @@ import { wordsAlterEgoB2U5 } from "../../taxi/alterego4/u5";
 import { HighlightTaxiA2 } from "../../taxi/taxi2/HighlightTaxiA2";
 import { wordsAlterEgoB2U6 } from "../../taxi/alterego4/u6";
 import { wordsAlterEgoB2U7 } from "../../taxi/alterego4/u7";
-
+import { wordsAlterEgoB2U8 } from "../../taxi/alterego4/u8";
 
 
 export const taxiA1A2 = [
@@ -274,6 +274,12 @@ export const alterEgoB2 = [
     {
         unit: "D7 Francophonies",
         words: wordsAlterEgoB2U7,
+        tag: "Taxi",
+        book: "B2",
+    },
+    {
+        unit: "D8 Perspectives",
+        words: wordsAlterEgoB2U8,
         tag: "Taxi",
         book: "B2",
     },

@@ -120,18 +120,21 @@ const PaginatedTable = ({ wordCountArr }) => {
     );
 };
 
-let les = [
-    ...taxiA1A2,
-    ...taxiB1,
-    ...alterEgoB2,
-    ...communicationA1,
-    ...communicationA2,
-    ...vocabulaireProgressifA1,
-    ...vocabulaireProgressifA2,
-    ...vocabulaireProgressifB1,
-    ...EditoB1,
-    ...InnerFrench
-]
+// let les1 = [
+//     ...taxiA1A2,
+//     ...communicationA1,
+//     ...vocabulaireProgressifA1,
+// ]
+
+// let les2 = [
+//     ...taxiB1,
+//     ...alterEgoB2,
+//     ...communicationA2,
+//     ...vocabulaireProgressifA2,
+//     ...vocabulaireProgressifB1,
+//     ...EditoB1,
+//     ...InnerFrench
+// ]
 
 function Statistics(units, tags, books) {
     let words = [];
@@ -150,12 +153,50 @@ function Statistics(units, tags, books) {
     for (let w of loc) {
         locSet.add(w.french)
     }
+
+    // calculate similarity between french and english
+    let similarCount = 0;
+    if (false) {
+        for (let word of nonLoc) {
+            let french = word.french, english = word.english;
+            if (english.length > 2 && english[0] === 't' && english[1] === 'o') {
+                english = english.substring(2);
+            }
+
+            let match = english.match(/^[^,(]+/);
+            english = match ? match[0].trim() : english;
+    
+            let defaultDict = new Proxy({}, {
+                get: (target, name) => name in target ? target[name] : 0
+            })
+            for (let char of french) {
+                if (char !== '(' || char !== ')')
+                    defaultDict[char] += 1;
+            }
+            for (let char of english) {
+                if (char !== '(' || char !== ')')
+                    defaultDict[char] -= 1;
+            }
+            let sum = Object.values(defaultDict).reduce((acc, value) => acc + Math.abs(value), 0);
+            let perc = sum / french.length;
+            //console.log(perc, english, french);
+            if (perc <= 0.8 && french.length > 6) {
+                similarCount += 1;
+            }
+        }
+    }
+    
+
     return {
         all: words.length,
         nonLoc: nonLoc.length,
         loc: loc.length,
         nonLocSet: nonLocSet.size,
-        locSet: locSet.size
+        locSet: locSet.size,
+        similarity: similarCount / nonLoc.filter(word => {
+            return word.french.length > 5
+        }).length, 
+        totalRepeated: words.length
     }
 }
 
@@ -164,24 +205,24 @@ function StatisticsTable() {
 
     let StatsRows = [
         {
-            book: "Taxi 四本书",
+            book: "Taxi四本书",
             results: Statistics(lessons, ['Taxi'], ['A1', 'A2', 'B1']),
         },
         {
-            book: "渐进交际初级/中级",
-            results: Statistics(lessons, ['Communication Progressive'], []),
+            book: "渐进交际初/中级",
+            results: Statistics(lessons, ['Communication Progressive'], ['A1', 'A2']),
         },
         {
-            book: "渐进词汇初级/中级",
-            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other'], []),
-        },
-        {
-            book: "Ego B2",
-            results: Statistics(lessons, ['Taxi'], ['B2']),
+            book: "渐进词汇初/中级",
+            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other'], ['A1', 'A2']),
         },
         {
             book: "词汇渐进高级",
             results: Statistics(lessons, ['Vocabulaire Progressif'], ['B1']),
+        },
+        {
+            book: "Ego B2",
+            results: Statistics(lessons, ['Taxi'], ['B2']),
         },
         {
             book: "所有积累",
@@ -191,25 +232,29 @@ function StatisticsTable() {
 
     return (<>
         <div className="overflow-x-auto">
-            <h1>非重复词汇量统计</h1> <br/>
+            <h1>非重复词汇量统计</h1> <br />
             <table className={`table ${isMobile ? 'w-1/1' : 'w-1/2'}`}>
                 <thead>
                     <tr>
-                        <th className={isMobile ? "" : "w-48"}>书籍</th>
-                        <th className={isMobile ? "w-3" : ""}>词汇量</th>
-                        <th>结构量</th>
-                        <th>总量</th>
+                        <th className={isMobile ? "w-20" : "w-48"}>书籍 {isMobile && <>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</>}</th>
+                        <th className={isMobile ? "w-3" : ""}>{isMobile ? "词汇" : "词汇量"}</th>
+                        <th>{isMobile ? "结构" : "结构量"}</th>
+                        <th>非重复总量</th>
+                        <th>包含重复总量</th>
+                        <th>{isMobile ? "相似度" : "英法相似度"}</th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    {StatsRows.map((row, id) => 
-                    <tr>
-                        <td>{row.book}</td>
-                        <td>{row.results.nonLocSet}</td>
-                        <td>{row.results.locSet}</td>
-                        <td>{row.results.nonLocSet + row.results.locSet}</td>
-                    </tr>
+                    {StatsRows.map((row, id) =>
+                        <tr>
+                            <td>{row.book}</td>
+                            <td>{row.results.nonLocSet}</td>
+                            <td>{row.results.locSet}</td>
+                            <td>{row.results.nonLocSet + row.results.locSet}</td>
+                            <td>{row.results.totalRepeated}</td>
+                            <td className="break-all">{(row.results.similarity * 100).toFixed(isMobile ? 1 : 2)}%</td>
+                        </tr>
                     )}
                 </tbody>
 
@@ -359,8 +404,8 @@ export function SearchBar() {
         <h1>高频词统计表</h1>
         <PaginatedTable wordCountArr={wordCountArr} />
 
-        <br/><br/>
-        <DownloadExcel/>
+        <br /><br />
+        <DownloadExcel />
 
     </>)
 }
