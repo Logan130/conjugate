@@ -12,11 +12,5 @@ export const CommunicationProgressifA2L32 = {
         { english: "to settle, to sort out (questions, programme, problème)", french: "régler", pos: "v.t.", chinese: "解决（问题、计划、麻烦）" },
         { english: "to resolve (crise, équation, problème)", french: "résoudre", pos: "v.t.", chinese: "解决（危机、方程、问题）" }
     ], 
-    "": [
-
-    ], 
-    "": [
-
-    ], 
     lessonsEng: ["misunderstanding", "deadbeat", "", "", ""]
 }

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { lessons } from "../../pages/Vocabulaire";
-import { alterEgoB2, taxiA1A2, taxiB1 } from "../../data/array/VocArray/taxi";
-import { communicationA1, communicationA2 } from "../../data/array/VocArray/communication";
-import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from "../../data/array/VocArray/vocabulaireProgressif";
-import { EditoB1 } from "../../data/array/VocArray/edito";
-import { InnerFrench } from "../../data/array/VocArray/innerfrench";
+// import { alterEgoB2, taxiA1A2, taxiB1 } from "../../data/array/VocArray/taxi";
+// import { communicationA1, communicationA2 } from "../../data/array/VocArray/communication";
+// import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from "../../data/array/VocArray/vocabulaireProgressif";
+// import { EditoB1 } from "../../data/array/VocArray/edito";
+// import { InnerFrench } from "../../data/array/VocArray/innerfrench";
 import DownloadExcel from "../vocabulaire/Excel";
 
 
@@ -156,7 +156,7 @@ function Statistics(units, tags, books) {
 
     // calculate similarity between french and english
     let similarCount = 0;
-    if (false) {
+    if (true) {
         for (let word of nonLoc) {
             let french = word.french, english = word.english;
             if (english.length > 2 && english[0] === 't' && english[1] === 'o') {
@@ -294,11 +294,6 @@ export function SearchBar() {
     };
     let wordCount = countNonRepeatingWords([...allWords]);
     // console.log(wordCount);
-    let numberWords = 0, numberLoc = 0;
-    // console.log(Object.entries(wordCount))
-    numberWords = Object.entries(wordCount).filter(word => word[1].pos !== "loc.").length;
-    numberLoc = Object.entries(wordCount).filter(word => word[1].pos === "loc.").length;
-
 
     const sortedWordFrequencies = arr => {
         return Object.entries(arr).sort((a, b) => b[1].count - a[1].count);

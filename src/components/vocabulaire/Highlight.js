@@ -1,11 +1,7 @@
-import React, { useState, useEffect, useContext, useRef } from "react";
-import { lessons, protectedLessonsMax, protectedLessonsIndex } from "../../pages/Vocabulaire";
-import { useParams, Link } from 'react-router-dom';
+import React, { useState, useEffect, useContext } from "react";
+import { lessons } from "../../pages/Vocabulaire";
 import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
-import { ErrorPage } from "../shared/404";
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import { promptChinese, promptEnglish } from "./prompt";
 
 
 function CheckBox({ onClickCheckBox, index }) {
@@ -21,10 +17,10 @@ function CheckBox({ onClickCheckBox, index }) {
 function VocTable({ checkedIndices, checkBoxNameArr }) {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 500;
-    let [voc, setVoc] = useState(new Array())
+    let [voc, setVoc] = useState([])
 
     useEffect(() => {
-        voc = [];
+        var voc = [];
         for (let index of Array.from(checkedIndices)) {
             let units = checkBoxNameArr[index].units;
             for (let unit of units) {
@@ -36,7 +32,7 @@ function VocTable({ checkedIndices, checkBoxNameArr }) {
             }
         }
         setVoc(voc)
-    }, [checkedIndices])
+    }, [checkedIndices, checkBoxNameArr])
 
     const copyToClipboard = () => {
         const textToCopy = voc.map(item =>

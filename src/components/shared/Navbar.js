@@ -8,7 +8,7 @@ import { CgDarkMode } from "react-icons/cg";
 
 
 function Navbar() {
-  const { eng, setEng, changeLan, setTheme } = useContext(ThemeContext);
+  const { eng, changeLan, setTheme } = useContext(ThemeContext);
 
   let isMobile = window.innerWidth < 500;
   // if (isMobile) {

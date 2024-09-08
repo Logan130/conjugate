@@ -19,7 +19,7 @@ export function VocabulaireTest() {
     let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
     useEffect(() => {
         setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
-    }, [eng])
+    }, [eng, id])
 
     let allWords = [];
     for (let lesson of lessons[id].words.lessons) {

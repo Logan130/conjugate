@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/shared/Navbar';
-import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom'
+import { useEffect } from 'react';
+import { Route, Routes, HashRouter } from 'react-router-dom'
 
 import { AllConjugate } from './pages/AllConjugate';
 import { PracticeConjugate } from './pages/PracticeConjugate';

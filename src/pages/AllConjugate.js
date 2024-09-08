@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
 import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
 import { ConjugateRuleCards } from "../components/conjugate/ConjugateRuleCards"
-import { sortStringsBySuffixSimilarity } from "../components/shared/SimilarityCalculator"
 import { sortSimilarWordsLevenshtein } from "../data/conjugation/distance"
 
 export function AllConjugate() {
@@ -17,7 +16,6 @@ export function AllConjugate() {
     const [levelIndex, setLevelIndex] = useState(0);
     const [suffixIndex, setSuffixIndex] = useState(0);
     const divRef = useRef([null]);
-    const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
         const divElement = divRef.current;
@@ -25,11 +23,6 @@ export function AllConjugate() {
             // Trigger a reflow to ensure the transition will be applied
             divElement.classList.add('opacity-100');
         }
-    }, []);
-
-    useEffect(() => {
-        setIsLoaded(true);
-        return () => setIsLoaded(false);
     }, []);
 
     let buttonsArr = ([

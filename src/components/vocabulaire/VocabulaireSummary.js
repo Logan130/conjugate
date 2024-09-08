@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext, useRef } from "react";
-import { lessons, protectedLessonsMax, protectedLessonsIndex } from "../../pages/Vocabulaire";
+import React, { useState, useEffect, useContext } from "react";
+import { lessons, protectedLessonsIndex } from "../../pages/Vocabulaire";
 import { useParams, Link } from 'react-router-dom';
 import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
@@ -8,25 +8,6 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import { promptChinese, promptEnglish } from "./prompt";
 
 const apiKey = process.env.REACT_APP_API_KEY;
-
-const Modal = ({ onClose }) => {
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            onClose();
-        }, 2000);
-
-        // Clear the timeout if the component is unmounted
-        // before the timer is finished to prevent memory leaks
-        return () => clearTimeout(timer);
-    }, [onClose]);
-
-    return (
-        <div className="">
-            {/* Your modal content goes here */}
-            <p>This modal will disappear after 2 seconds</p>
-        </div>
-    );
-};
 
 export function ChineseParser(english, chinese) {
     let englishIndices = [], chineseIndices = [];
@@ -232,31 +213,29 @@ function Title({ title, id }) {
 export function VocabulaireSummary() {
     const { eng, theme } = useContext(ThemeContext);
     const { id } = useParams();
+    let lesson_arr = id < lessons.length ? lessons[id].words.lessons : [];
 
     useEffect(() => {
         if (id < lessons.length) {
             setQuizletChinese(eng ? false : true);
             setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit)
         }
-    }, [eng])
+    }, [eng, id])
 
     useEffect(() => {
         if (id < lessons.length) {
-            allWords = [];
+            var allWords = [];
             for (let lesson of lessons[id].words.lessons) {
                 allWords = [...allWords, ...lessons[id]["words"][lesson]]
             }
-            setWords(allWords);
-            setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)));
             setVoc(allWords);
             setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
             setLessonButtonStyles(Array(lesson_arr.length).fill(false));
             setLessonID(-1);
-            setNounOnly(false);
             SetSortByLetter(0);
             setPOSButtonID(0);
         }
-    }, [id]);
+    }, [id, eng, lesson_arr.length]);
 
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to top-left corner
@@ -270,17 +249,14 @@ export function VocabulaireSummary() {
         }
     }
 
-    let [words, setWords] = useState(allWords);
-    let lesson_arr = id < lessons.length ? lessons[id].words.lessons : [];
+    // let lesson_arr = id < lessons.length ? lessons[id].words.lessons : [];
     let [lessonID, setLessonID] = useState(-1)
     let [lessonButtonStyle, setLessonButtonStyles] = useState(Array(lesson_arr.length).fill(false));
-    let [nouns, setNouns] = useState(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)))
     let [title, setTitle] = useState(id < lessons.length ?
         ((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit) :
         ""
     );
     let isMobile = window.innerWidth < 500;
-    let [nounOnly, setNounOnly] = useState(false);
     let [voc, setVoc] = useState(allWords);
     let [sortByLetter, SetSortByLetter] = useState(0);
     let [chinese, setChinese] = useState(false);
@@ -366,17 +342,6 @@ export function VocabulaireSummary() {
         return <>👆🏻</>
     }
 
-    const onClickNoun = (e) => {
-        if (!nounOnly) {
-            let newVoc = [...voc];
-            setVoc(newVoc.filter((verb) => verb.pos && (verb.pos.indexOf("n.") !== -1)))
-        }
-        else {
-            setVoc(words)
-        }
-        setNounOnly(!nounOnly);
-
-    }
 
     const onClickPOSNoun = (index) => (e) => {
         setPOSButtonID(index);
@@ -401,8 +366,6 @@ export function VocabulaireSummary() {
         let newLessonButtonStyles = Array(lesson_arr.length).fill(false);
         if (lessonButtonStyle[index] === true) {
             setLessonID(-1);
-            setWords(allWords);
-
             setVoc(allWords.filter(word => !!word.pos && (
                 buttonArr[POSButtonID].flipped ? word.pos.indexOf(buttonArr[POSButtonID].filter) === -1 : word.pos.indexOf(buttonArr[POSButtonID].filter) !== -1
             )
@@ -411,7 +374,6 @@ export function VocabulaireSummary() {
                 setVoc(buttonArr[4].words);
             }
             setLessonButtonStyles(newLessonButtonStyles)
-            setNouns(allWords.filter((verb) => !!verb.pos && (verb.pos.indexOf("n.") !== -1)))
             return;
         }
         setLessonID(index);

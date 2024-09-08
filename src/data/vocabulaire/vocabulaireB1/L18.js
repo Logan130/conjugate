@@ -8,11 +8,5 @@ export const VocabulaireProgressifB1L18 = {
         { english: "report, talk (sur qch)", french: "exposé", pos: "n.m.", chinese: "演示，报告" },
         { english: "to award (titre, label à qn)", french: "décerner", pos: "v.t.", chinese: "颁发（称号，标签给某人）" }
     ],
-    "": [
-
-    ],
-    "": [
-
-    ], 
     lessonsEng: ["university", "", "", "", ""]
 }

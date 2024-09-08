@@ -14,11 +14,5 @@ export const VocabulaireProgressifB1L8 = {
         { english: "in stake", french: "en jeu", pos: "loc.", chinese: "在争夺中" },
         { english: "to give the kick-off", french: "donner le coup d’envoi", pos: "loc.", chinese: "发球" }
     ],
-    "": [
-
-    ],
-    "": [
-
-    ], 
     lessonsEng: ["sport", "", "", "", ""]
 }

@@ -1,6 +1,5 @@
 import Tom from '../static/tom.jpeg'
 import Profile from '../static/profile.jpeg'
-import Taxi from '../static/Taxi.jpeg'
 import { Link } from 'react-router-dom'
 import React, { useEffect, useContext, useRef } from "react";
 import { ThemeContext } from '../context/context';

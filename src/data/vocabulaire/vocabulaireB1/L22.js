@@ -37,11 +37,5 @@ export const VocabulaireProgressifB1L22 = {
         { english: "to jail", french: "incarcérer", pos: "v.t.", chinese: "囚禁" },
         { english: "to imprison", french: "emprisonner", pos: "v.t.", chinese: "监禁" }
     ],
-    "": [
-
-    ],
-    "": [
-
-    ], 
     lessonsEng: ["crime", "", "", "", ""]
 }

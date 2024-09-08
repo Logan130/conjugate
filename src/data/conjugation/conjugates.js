@@ -1,5 +1,3 @@
-import { sortSimilarWordsLevenshtein } from "./distance"
-
 const conjugatesA1 = [
     { name: "être", je: "suis", tu: "es", il: "est", nous: "sommes", vous: "êtes", ils: "sont", passé: "été", futur: "ser-", level: "A1" },
     { name: "avoir", je: "ai", tu: "as", il: "a", nous: "avons", vous: "avez", ils: "ont", passé: "eu", futur: "aur-", level: "A1" },

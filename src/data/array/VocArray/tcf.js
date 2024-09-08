@@ -1,4 +1,3 @@
-import { wordsAlterEgoB2U1 } from "../../taxi/alterego4/u1";
 import { wordsTCFWork } from "../../tcf/theme/work";
 
 
