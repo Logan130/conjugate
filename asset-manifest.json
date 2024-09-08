@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/conjugate/static/css/main.8ce75a4a.css",
-    "main.js": "/conjugate/static/js/main.46987c1c.js",
+    "main.css": "/conjugate/static/css/main.49945749.css",
+    "main.js": "/conjugate/static/js/main.d75f3866.js",
     "static/js/206.756e5c40.chunk.js": "/conjugate/static/js/206.756e5c40.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
@@ -16,7 +16,6 @@
     "static/media/paris-games-conclude--2xa.gif": "/conjugate/static/media/paris-games-conclude-6753651837110568-2xa.7346f8d5ce0ee3193571.gif",
     "static/media/p9.gif": "/conjugate/static/media/p9.5bf119385cbe436ef891.gif",
     "static/media/paris-games-football--2xa.gif": "/conjugate/static/media/paris-games-football-6753651837110524-2xa.dc0b52dcd4814714f22a.gif",
-    "static/media/orlando.jpeg": "/conjugate/static/media/orlando.6b0ca644676334befc73.jpeg",
     "static/media/paris-games-artistic-gymnastics--2xa.gif": "/conjugate/static/media/paris-games-artistic-gymnastics-6753651837110525-2xa.ebf2d5c3259b391a0ad7.gif",
     "static/media/paris-games-surfing--2xa.gif": "/conjugate/static/media/paris-games-surfing-6753651837110528-2xa.3298f1addb6f23324411.gif",
     "static/media/p2.gif": "/conjugate/static/media/p2.104202dc08da0fadbcf8.gif",
@@ -26,15 +25,12 @@
     "static/media/p5.gif": "/conjugate/static/media/p5.639b64a486bdd669b6b2.gif",
     "static/media/profile.jpeg": "/conjugate/static/media/profile.88e51eeacf961e3f8a4e.jpeg",
     "static/media/p6.gif": "/conjugate/static/media/p6.a44d30193908d2bee0c7.gif",
-    "static/media/mulan2.jpeg": "/conjugate/static/media/mulan2.56b4e6f6697949bf6032.jpeg",
     "static/media/p8.gif": "/conjugate/static/media/p8.2198eaf2b62d9b6039ca.gif",
     "static/media/tom.jpeg": "/conjugate/static/media/tom.5a66d07b8d2648b4c419.jpeg",
-    "static/media/12night.jpeg": "/conjugate/static/media/12night.c7d8ceb6551a12587164.jpeg",
-    "static/media/Taxi.jpeg": "/conjugate/static/media/Taxi.d60a54ac9a1af256ded5.jpeg",
     "index.html": "/conjugate/index.html"
   },
   "entrypoints": [
-    "static/css/main.8ce75a4a.css",
-    "static/js/main.46987c1c.js"
+    "static/css/main.49945749.css",
+    "static/js/main.d75f3866.js"
   ]
 }
