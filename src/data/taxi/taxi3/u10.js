@@ -68,7 +68,7 @@ export const wordsTaxiB1U10 = {
         { english: "visually impaired", french: "malvoyant(e)", pos: "adj.", chinese: "视力受损的" },
         { english: "route", french: "parcours", pos: "n.m.", chinese: "路线" },
         { english: "pendant", french: "au long de", pos: "loc.", chinese: "在...期间" },
-        { english: "(air, politique) to stagnate", french: "stagne", pos: "v.i.", chinese: "停滞" },
+        { english: "(air, politique) to stagnate", french: "stagner", pos: "v.i.", chinese: "停滞" },
         { english: "(eau) to subside, (niveau, lumière, influence, inflation) to fall", french: "décroître", pos: "v.i.", chinese: "减少，下降" },
         { english: "alas", french: "hélas", pos: "excl.", chinese: "唉" },
         { english: "definite", french: "formel(le)", pos: "adj.", chinese: "明确的" },

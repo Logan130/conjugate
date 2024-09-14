@@ -1,7 +1,7 @@
 import { Table } from "../components/conjugate/ConjugationList"
 import { useState, useEffect, useContext, useRef } from "react"
 import { conjugates } from "../data/conjugation/conjugates"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { ThemeContext } from "../context/context"
 import { SingleConjugationBox } from "../components/conjugate/SingleConjugationBox"
 import { ConjugateRuleCards } from "../components/conjugate/ConjugateRuleCards"
@@ -140,7 +140,7 @@ export function AllConjugate() {
                     {eng ?
                         "This site provides three different modes for practice: conjugation, spelling, and gender. You can easily access these modes through the navigation bar or on this page. It is recommended to view this site using a computer or a phone, preferably on Chrome or Safari browsers. Please note that the frontend code has not been optimized specifically for iPad compatibility."
                         :
-                        "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页汤姆猫卡片和屏幕最上方的导航栏都可以找到。目前建议用手机或电脑的Chrome或Safari浏览器浏览，代码不适配ipad，ipad看会轻微变形"
+                        "这个网站提供三种听写模式：动词变位、词汇拼写、词汇阴阳性。链接在本页汤姆猫卡片和屏幕最上方的导航栏都可以找到。目前建议用电脑或手机的Chrome或Safari浏览器浏览，最推荐的是用电脑的Chrome浏览器，代码不适配ipad，ipad看会轻微变形"
                     }
                 </p>
                 <br />
@@ -154,12 +154,24 @@ export function AllConjugate() {
                 不规则动词需要重点记忆的应该就这8个。往下滑你能看到规则和课文里所有的不规则动词`}
                 </p>
 
+                <br />
+                <p
+                >
+                    {eng ?
+                        <>
+                        For more detail, <Link className="underline text-red-400 font-bold" to='/features'>click here</Link>. 
+                        </>
+                        :
+                        <>
+                        本网站详细功能介绍<Link className="underline text-red-400 font-bold" to='/features'>点击这里</Link>
+                        </>}
+                </p>
+
             </div>
 
             <br />
 
-            <ConjugateRuleCards
-            />
+            <ConjugateRuleCards/>
 
 
             <br id="section1" />

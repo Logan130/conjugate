@@ -40,7 +40,7 @@ const FilterArr = ["TaxiFilter", "CommunicationFilter", "VocabulaireFilter", "Au
 
 function getFilterSession(id) {
     // [taxi, voc, comm, autre]
-    const arrDefault = ["B2", "B1", "A2", "InnerFrench", "TCF Voc"]
+    const arrDefault = ["B2", "B1", "A2", "InnerFrench", "TCF CE"]
     let target = FilterArr[id];
     let session = window.localStorage.getItem(target);
     return !!session ? session : arrDefault[id];
@@ -161,9 +161,9 @@ export function VocabulairePage() {
             title={"TCF"}
             vocArr={tcfArr}
             filter={tcfFilter}
-            filterArr={["TCF Voc"]}
+            filterArr={["TCF Voc", "TCF CE"]}
             filterHandler={onClickTCFFilter}
-            buttonArr={["Thème"]}
+            buttonArr={["Thème", "CE"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}

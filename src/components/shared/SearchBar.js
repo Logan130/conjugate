@@ -156,7 +156,7 @@ function Statistics(units, tags, books) {
 
     // calculate similarity between french and english
     let similarCount = 0;
-    if (true) {
+    if (false) {
         for (let word of nonLoc) {
             let french = word.french, english = word.english;
             if (english.length > 2 && english[0] === 't' && english[1] === 'o') {
@@ -226,7 +226,7 @@ function StatisticsTable() {
         },
         {
             book: "所有积累",
-            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi'], []),
+            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi', 'TCF'], ['A1', 'A2', 'B1', 'B2', 'TCF CE', 'Edito B1', 'InnerFrench']),
         },
     ];
 

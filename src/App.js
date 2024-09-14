@@ -14,6 +14,7 @@ import { ThemeProvider, getThemeSession } from './context/context';
 import { ErrorPage } from './components/shared/404';
 import { Warning } from './pages/Warning';
 import { HighlightPage } from './components/vocabulaire/Highlight';
+import { Features } from './pages/Features';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
                 <Route path='/error' element={<ErrorPage />} />
                 <Route path='/warning' element={<Warning />} />
                 <Route path='/highlight' element={<HighlightPage />} />
+                <Route path='/features' element={<Features />} />
                 <Route path='*' element={<ErrorPage />} />
               </Routes>
 
