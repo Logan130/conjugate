@@ -209,8 +209,11 @@ function Title({ title, id }) {
 }
 
 function articleParser(word) {
-    if (!word.pos.includes('n.m.') || word.pos.includes('n.f.') || word.french[0] === 'h')
+    if ( (!word.pos.includes('n.m.') && !word.pos.includes('n.f.')) || word.french[0] === 'h') {
         return word.french;
+    }
+    if (word.pos.includes('pl.'))
+        return word.french
     let vowels = ["a", "i", "o", "e", "y", "u", "é", "ê", "è", "î", "ï", "à"];
     if (vowels.includes(word.french[0]))
         return "l'" + word.french;

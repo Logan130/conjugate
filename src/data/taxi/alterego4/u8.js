@@ -84,7 +84,7 @@ export const wordsAlterEgoB2U8 = {
         { english: "piercing, striking", french: "saisissant(e)", pos: "adj.", chinese: "锐利的，惊人的" },
         { english: "puzzling", french: "déroutant(e)", pos: "adj.", chinese: "令人困惑的" },
         { english: "archaic", french: "archaïque", pos: "adj.", chinese: "古老的" },
-        { english: "elementary", french: "élémentaire", pos: "adj.", Chinese: "基础的" },
+        { english: "elementary", french: "élémentaire", pos: "adj.", chinese: "基础的" },
         { english: "alarming", french: "alarmant(e)", pos: "adj.", chinese: "令人担忧的" },
         { english: "childish, simple", french: "enfantin(e)", pos: "adj.", chinese: "幼稚的，简单的" },
         { english: "alarming, frightening", french: "angoissant(e)", pos: "adj.", chinese: "令人焦虑的" },

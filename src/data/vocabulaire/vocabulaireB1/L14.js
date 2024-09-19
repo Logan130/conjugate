@@ -18,7 +18,7 @@ export const VocabulaireProgressifB1L14 = {
     "批评": [
         { english: "absurd, aberrant", french: "aberrant(e)", pos: "adj.", chinese: "荒谬的" },
         { english: "insane", french: "insensé(e)", pos: "adj.", chinese: "疯狂的" },
-        { english: "it’s beyond belief", french: "cela dépasse l’entendement", pos: "loc.", Chinese: "难以置信" },
+        { english: "it’s beyond belief", french: "cela dépasse l’entendement", pos: "loc.", chinese: "难以置信" },
         { english: "understanding, judgement", french: "entendement", pos: "n.m.", chinese: "理解" },
         { english: "hazardous, risky", french: "hasardeux(se)", pos: "adj.", chinese: "危险的" },
         { english: "subject to", french: "sujet(te) à", pos: "adj.ind.", chinese: "易受...影响的" }

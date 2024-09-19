@@ -155,7 +155,7 @@ export const wordsAlterEgoB2U6 = {
         { english: "dark (couleur)", french: "foncé(e)", pos: "adj.", chinese: "深色的" },
         { english: "eventually", french: "à terme", pos: "loc.", chinese: "最终" },
         { english: "fun", french: "ludique", pos: "adj.", chinese: "有趣的" },
-        { english: "content", french: "teneur", pos: "n.f.", Chinese: "含量" },
+        { english: "content", french: "teneur", pos: "n.f.", chinese: "含量" },
         { english: "manufacturer", french: "industriel(le)", pos: "n.", chinese: "制造商" }
     ],
     "superlatif": [

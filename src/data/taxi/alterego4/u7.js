@@ -155,7 +155,7 @@ export const wordsAlterEgoB2U7 = {
         { english: "to fix (appareil, voiture), to help out", french: "dépanner", pos: "v.t.", chinese: "修理，帮助" },
         { english: "to release, to let go", french: "lâcher", pos: "v.t.", chinese: "放开" },
         { english: "restless wandering", french: "errance", pos: "n.f.", chinese: "漂泊" },
-        { english: "to give up to", french: "céder à", pos: "v.t.ind.", Chinese: "屈服于" },
+        { english: "to give up to", french: "céder à", pos: "v.t.ind.", chinese: "屈服于" },
         { english: "to search", french: "fouiller", pos: "v.t.", chinese: "搜查" },
         { english: "contamination", french: "contamination", pos: "n.f.", chinese: "污染" },
         { english: "interbreeding", french: "métissage", pos: "n.m.", chinese: "杂交" },
