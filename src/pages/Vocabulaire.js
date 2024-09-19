@@ -166,7 +166,7 @@ export function VocabulairePage() {
             buttonArr={["Thème", "CE"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
-            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
+            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs") : "text-base py-0"}
             locked={true}
         />
 

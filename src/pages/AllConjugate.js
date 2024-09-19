@@ -159,11 +159,11 @@ export function AllConjugate() {
                 >
                     {eng ?
                         <>
-                        For more detail, <Link className="underline text-red-400 font-bold" to='/features'>click here</Link>. 
+                        For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>. 
                         </>
                         :
                         <>
-                        本网站详细功能介绍<Link className="underline text-red-400 font-bold" to='/features'>点击这里</Link>
+                        本网站详细功能介绍<Link className="link link-error font-bold" to='/features'>点击这里</Link>
                         </>}
                 </p>
 

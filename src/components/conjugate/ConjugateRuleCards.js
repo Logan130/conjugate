@@ -23,20 +23,38 @@ export function ConjugateRuleCards() {
 
         <div class={isMobile ? "grid grid-cols-1 gap-2" : "grid grid-cols-3 gap-2"}>
 
-            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/practice' : 'https://logan130.github.io/conjugate/#/practice' }}>
+            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/practice' : 'https://logan130.github.io/conjugate/#/practice' }}
+                style={{
+                    transition: 'transform 0.5s ease-in-out',
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'scale(1.02)'; // Enlarge slightly
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'scale(1)'; // Return to original size
+                }}
+            >
+
                 <figure><img src={TomJerry2} alt="passé composé" className="z-0" /></figure>
                 <Link className='text-lg' to='/practice'>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title z-10">{eng ? "Practice Conjugation" : "点击练习变位"}</h2>
-                        {/* <Study className="h-36 w-full" /> */}
-                        {/* <img src={TomJerry} className="h-40 m-0 rounded"></img> */}
-                        {/* <figure><img src={TomJerry} alt="passé composé" className="z-0 w-full h-32" /></figure> */}
                     </div>
                 </Link>
             </div>
 
 
-            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/voc' : 'https://logan130.github.io/conjugate/#/voc' }}>
+            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/voc' : 'https://logan130.github.io/conjugate/#/voc' }}
+                style={{
+                    transition: 'transform 0.5s ease-in-out',
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'scale(1.02)'; // Enlarge slightly
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'scale(1)'; // Return to original size
+                }}
+            >
                 <figure><img src={TomJerry} alt="passé composé" className="z-0" /></figure>
                 <Link className='text-lg' to='/voc'>
                     <div className="card-body items-center text-center">
@@ -251,7 +269,7 @@ export function ConjugateRuleCards() {
                             {eng ? "Verbs using être" : "使用être的动词"}: arriver, partir, *monter, *descendre, *passer, entrer, *rentrer, rester, *sortir, tomber, aller, venir, *retourner, naître, morrir, intervenir, décéder
                         </div>
 
-                        <br/>
+                        <br />
                         <div>
                             {eng ? "The verbs with * can be v.t. In that case, we should use avoir." : "带*动词可以有及物用法，如果是那样，必须用avoir作为助动词"}
                         </div>
