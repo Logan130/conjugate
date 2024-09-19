@@ -37,9 +37,9 @@ export function VocabulaireTest() {
     let lesson_arr = lessons[id].words.lessons;
     let [lessonButtonStyle, setLessonButtonStyles] = useState(Array(lesson_arr.length).fill(false));
 
-    let input_style_null = isMobile ? 'grow input input-bordered w-28 h-8 text-xs font-bold' : 'grow input input-bordered w-32';
-    let input_style_correct = isMobile ? 'grow input input-bordered input-success w-28 h-8 text-xs font-bold' : 'grow input input-bordered input-success w-32';
-    let input_style_error = isMobile ? 'grow input input-bordered input-error w-28 h-8 text-xs font-bold' : 'grow input input-bordered input-error w-32';
+    let input_style_null = isMobile ? 'grow input input-bordered w-28 h-8 text-xs font-bold' : 'grow input input-bordered w-48';
+    let input_style_correct = isMobile ? 'grow input input-bordered input-success w-28 h-8 text-xs font-bold' : 'grow input input-bordered input-success w-48';
+    let input_style_error = isMobile ? 'grow input input-bordered input-error w-28 h-8 text-xs font-bold' : 'grow input input-bordered input-error w-48';
     let tab_non_active = "tab text-xs", tab_active = "tab tab-active text-xs"
 
     let buttonsArr = [

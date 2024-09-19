@@ -225,6 +225,10 @@ function StatisticsTable() {
             results: Statistics(lessons, ['Taxi'], ['B2']),
         },
         {
+            book: "TCF Reading",
+            results: Statistics(lessons, ['TCF'], ['TCF CE']),
+        },
+        {
             book: "所有积累",
             results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi', 'TCF'], ['A1', 'A2', 'B1', 'B2', 'TCF CE', 'Edito B1', 'InnerFrench']),
         },

@@ -1,6 +1,3 @@
-import Tom from '../static/tom.jpeg'
-import Profile from '../static/profile.jpeg'
-import { Link } from 'react-router-dom'
 import React, { useEffect, useContext, useRef } from "react";
 import { ThemeContext } from '../context/context';
 
@@ -8,7 +5,6 @@ import { ThemeContext } from '../context/context';
 export function Features() {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 500;
-    let iconStyle = isMobile ? "h-12 rounded-full " : "h-16 rounded-full";
     const divRef = useRef(null);
 
     useEffect(() => {

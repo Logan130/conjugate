@@ -208,6 +208,15 @@ function Title({ title, id }) {
     </>)
 }
 
+function articleParser(word) {
+    if (!word.pos.includes('n.m.') || word.pos.includes('n.f.') || word.french[0] === 'h')
+        return word.french;
+    let vowels = ["a", "i", "o", "e", "y", "u", "é", "ê", "è", "î", "ï", "à"];
+    if (vowels.includes(word.french[0]))
+        return "l'" + word.french;
+    return word.pos.includes('n.m.') ? `le ${word.french}` : `la ${word.french}`;
+}
+
 
 
 export function VocabulaireSummary() {
@@ -483,7 +492,7 @@ export function VocabulaireSummary() {
                                 {!!word.highlight ?
                                     <tr className={isMobile ? "" : "text-lg"}>
                                         <th className={theme === 'dark' ? "w-1 text-yellow-400" : "w-1 text-red-500"}>{id + 1}</th>
-                                        <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>{word.french}</th>
+                                        <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>{articleParser(word)}</th>
                                         {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>{word.pos}</th>}
                                         <th className={isMobile ? `text-${theme === 'dark' ? 'yellow-400' : 'red-500'}` : `text-${theme === 'dark' ? 'yellow-400' : 'red-500'} text-sm`}>
                                             {chinese ? ChineseParser(word.english, word.chinese) : word.english}
@@ -492,7 +501,7 @@ export function VocabulaireSummary() {
                                     :
                                     <tr className={isMobile ? "" : "text-lg"}>
                                         <th className="w-1 opacity-50">{id + 1}</th>
-                                        <th className={isMobile ? "" : "text-sm"}>{word.french}</th>
+                                        <th className={isMobile ? "" : "text-sm"}>{articleParser(word)}</th>
                                         {(!isMobile || POSButtonID !== 2) && <th className={isMobile ? "" : "text-sm"}>{word.pos}</th>}
                                         <th className={isMobile ? "" : "text-sm"}>
                                             {chinese ? ChineseParser(word.english, word.chinese) : word.english}

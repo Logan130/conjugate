@@ -196,11 +196,11 @@ export function AllConjugate() {
 
             {eng ?
                 <div>
-                    The words are sorted based on their <a className='underline' href='https://en.wikipedia.org/wiki/Levenshtein_distance'>Levenshtein distance</a> in computer science. This metrics reflects the similarity of words, and as a result, words will similar spelling will be closer together.
+                    The words are sorted based on their <a className='link link-warning' href='https://en.wikipedia.org/wiki/Levenshtein_distance'>Levenshtein distance</a> in computer science. This metrics reflects the similarity of words, and as a result, words will similar spelling will be closer together.
                 </div>
                 :
                 <div>
-                    动词根据计算机科学中的<a className='underline' href="https://en.wikipedia.org/wiki/Levenshtein_distance">莱文斯坦距离</a>排序，这个指标反应了单词的相似程度，因此拼写类似的单词会靠得更近
+                    动词根据计算机科学中的<a className='link link-warning' href="https://en.wikipedia.org/wiki/Levenshtein_distance">莱文斯坦距离</a>排序，这个指标反应了单词的相似程度，因此拼写类似的单词会靠得更近
                 </div>}
             <br />
 
