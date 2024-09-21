@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/conjugate/static/css/main.006dbe47.css",
-    "main.js": "/conjugate/static/js/main.a550e58b.js",
+    "main.css": "/conjugate/static/css/main.aab2b2d9.css",
+    "main.js": "/conjugate/static/js/main.b4aabdd7.js",
     "static/js/206.756e5c40.chunk.js": "/conjugate/static/js/206.756e5c40.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
@@ -30,7 +30,7 @@
     "index.html": "/conjugate/index.html"
   },
   "entrypoints": [
-    "static/css/main.006dbe47.css",
-    "static/js/main.a550e58b.js"
+    "static/css/main.aab2b2d9.css",
+    "static/js/main.b4aabdd7.js"
   ]
 }
