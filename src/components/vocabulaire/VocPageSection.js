@@ -40,6 +40,10 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
     let genderButtonStyle = `btn btn-secondary ${buttonStyle}`;
 
+    let vocButtonLockedStyle = `btn btn-success`
+    let spellingButtonLockedStyle = `btn btn-warning`;
+    let genderButtonLockedStyle = `btn btn-secondary`;
+
     const onClickUnlock = (e) => {
         setExpanded(!expanded);
     }
@@ -54,10 +58,10 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
         setMatched(correct);
         setPasswordCorrect(correct);
         setAlertIsVisible(!correct);
-        const timer = setTimeout(() => {
-            setAlertIsVisible(false);
-        }, 1800);
-        return () => clearTimeout(timer);
+        // const timer = setTimeout(() => {
+        //     setAlertIsVisible(false);
+        // }, 2500);
+        // return () => clearTimeout(timer);
     }
 
     const onHitKeyDown = (e) => {
@@ -66,10 +70,10 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
             setMatched(correct);
             setPasswordCorrect(correct);
             setAlertIsVisible(!correct);
-            const timer = setTimeout(() => {
-                setAlertIsVisible(false);
-            }, 2500);
-            return () => clearTimeout(timer);
+            // const timer = setTimeout(() => {
+            //     setAlertIsVisible(false);
+            // }, 2500);
+            // return () => clearTimeout(timer);
         };
     }
 
@@ -249,13 +253,13 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
                                 <span className='ml-1 font-bold break-all'>{eng ? (!!lesson.engUnit ? lesson.engUnit : lesson.unit) : lesson.unit}</span>
                             </div>
                             <div>
-                                <button className={vocButtonStyle}><FaLock /></button>
+                                <button className={vocButtonLockedStyle}><FaLock /></button>
                             </div>
                             <div>
-                                <button className={spellingButtonStyle}><FaLock /></button>
+                                <button className={spellingButtonLockedStyle}><FaLock /></button>
                             </div>
                             <div>
-                                <button className={genderButtonStyle}><FaLock /></button>
+                                <button className={genderButtonLockedStyle}><FaLock /></button>
                             </div>
                         </div>
                     </>))}

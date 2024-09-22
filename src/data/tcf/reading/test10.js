@@ -1,4 +1,4 @@
-export const TCFReadingGratuit02 = {
+export const TCFReadingTest10 = {
     lessons: ["1-25", "26-40"],
     "1-25": [
 

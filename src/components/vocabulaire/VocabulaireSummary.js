@@ -120,7 +120,7 @@ function Cards({ words, chinese }) {
         <>
             <div className="flex items-center justify-center h-96">
                 <div
-                    className={`card bg-base-200 ${isMobile ? 'w-full' : 'w-1/3'} shadow-xl align-center justify-center transition-transform ease-in-out duration-1000 ${french ? 'flip-horizontal' : ''}`}
+                    className={`card bg-base-200 ${isMobile ? 'w-full' : 'w-1/3'} shadow-xl align-center justify-center transition-transform ease-in-out duration-1000 ${french ? 'flip-horizontal-disable' : ''}`}
                     onKeyDown={handleKeyDown}
                     style={{ outline: 'none' }}
                     tabIndex="0"

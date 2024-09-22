@@ -405,6 +405,10 @@ export function SearchBar() {
 
         <br /><br />
         <DownloadExcel />
+        <br /><br />
 
+
+        <h1>Clear Session</h1><br />
+        <button className="btn btn-error btn-outline" onClick={() => {window.localStorage.clear();}}>Clear</button>
     </>)
 }

@@ -137,7 +137,7 @@ export function VocabulairePage() {
             filterHandler={onClickCommunicationFilter}
             buttonArr={["A2-B1", "A1-A2"]}
             reverse={false}
-            titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-32'}
+            titleStyle={isMobile ? 'flex items-center w-24 text-sm' : (eng ? 'flex items-center w-48' : 'flex items-center w-32')}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-0"}
             locked={false}
         />
@@ -151,7 +151,7 @@ export function VocabulairePage() {
             filterHandler={onClickVocabulaireFilter}
             buttonArr={["B2-C1", "A2-B1", "A1-A2"]}
             reverse={false}
-            titleStyle={isMobile ? 'flex items-center w-32 text-sm' : 'flex items-center w-32'}
+            titleStyle={isMobile ? 'flex items-center w-32 text-sm' : (eng ? 'flex items-center w-64' : 'flex items-center w-32')}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             locked={false}
         />
@@ -166,7 +166,7 @@ export function VocabulairePage() {
             buttonArr={["Thème", "CE"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
-            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs") : "text-base py-0"}
+            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             locked={true}
         />
 
