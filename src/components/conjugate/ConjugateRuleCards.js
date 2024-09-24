@@ -23,7 +23,7 @@ export function ConjugateRuleCards() {
 
         <div class={isMobile ? "grid grid-cols-1 gap-2" : "grid grid-cols-3 gap-2"}>
 
-            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/practice' : 'https://logan130.github.io/conjugate/#/practice' }}
+            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/practice' : `${process.env.REACT_APP_PUBLIC_URL}/#/practice` }}
                 style={{
                     transition: 'transform 0.5s ease-in-out',
                 }}
@@ -44,7 +44,7 @@ export function ConjugateRuleCards() {
             </div>
 
 
-            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/voc' : 'https://logan130.github.io/conjugate/#/voc' }}
+            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={() => { window.location.href = window.location.hostname === "localhost" ? './#/voc' : `${process.env.REACT_APP_PUBLIC_URL}/#/voc` }}
                 style={{
                     transition: 'transform 0.5s ease-in-out',
                 }}

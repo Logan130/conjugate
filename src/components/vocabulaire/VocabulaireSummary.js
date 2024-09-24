@@ -440,7 +440,7 @@ export function VocabulaireSummary() {
                         <button className={id === POSButtonID ? "btn btn-warning w-full" : "btn btn-warning btn-outline w-full"} onClick={onClickPOSNoun(id)}>{button.name}</button>
                     </>)}
                     {!isMobile &&
-                        <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `https://logan130.github.io/conjugate/#/vocunit/${id}/0` }}>{eng ? "Practice" : "练习"}</button>
+                        <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `${process.env.REACT_APP_PUBLIC_URL}/#/vocunit/${id}/0` }}>{eng ? "Practice" : "练习"}</button>
                     }
                 </div>
                 <br />

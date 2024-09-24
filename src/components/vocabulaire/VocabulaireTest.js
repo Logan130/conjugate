@@ -314,7 +314,6 @@ export function VocabulaireTest() {
                     <div className="text-xl mb-2">{eng ? "Match the gender" : "点击匹配正确的阴阳性"}</div>
                     <div className={isMobile ? "" : "flex justify-left"}>
                         <button className={isMobile ? "btn btn-primary w- m-2" : "btn btn-primary w- m-2"} onClick={onClickGenderHint}>{genderHint ? (eng ? "Hide" : "隐藏提示") : (eng ? "Check & Hints" : "批改&提示")}</button>
-                        {/* <button className={isMobile ? "btn btn-primary w-1/3 m-2" : "btn btn-primary w-1/3 m-2"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/1` : `https://logan130.github.io/conjugate/#/vocunit/${id}/1`; window.location.reload(); }}>刷新</button> */}
                     </div>
                     <br />
 

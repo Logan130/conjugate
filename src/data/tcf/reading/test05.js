@@ -4,7 +4,37 @@ export const TCFReadingTest05 = {
 
     ], 
     "26-40": [
-
+        { english: "grimace", french: "rictus", pos: "n.m.", chinese: "怪笑" },
+        { english: "waiter", french: "garçon de salle", pos: "n.m.", chinese: "服务员" },
+        { english: "to trigger", french: "déclencher", pos: "v.t.", chinese: "触发" },
+        { english: "pant", french: "culotte", pos: "n.f.", chinese: "短裤" },
+        { english: "poultry", french: "volaille", pos: "n.f.", chinese: "家禽" },
+        { english: "to grate", french: "râper", pos: "v.t.", chinese: "磨碎" },
+        { english: "kid (fam.)", french: "bambin(e)", pos: "n.", chinese: "孩子（俚语）" },
+        { english: "packaging", french: "emballage", pos: "n.m.", chinese: "包装" },
+        { english: "to charge for", french: "facturer", pos: "v.t.", chinese: "收费" },
+        { english: "for a moment", french: "l’espace d’un instant", pos: "loc.", chinese: "一瞬间" },
+        { english: "cordon", french: "cordon", pos: "n.m.", chinese: "绳索" },
+        { english: "mass (religieuse)", french: "messe", pos: "n.f.", chinese: "弥撒（宗教）" },
+        { english: "to cross", french: "sillonner", pos: "v.t.", chinese: "纵横交错" },
+        { english: "to invite", french: "convier", pos: "v.t.", chinese: "邀请" },
+        { english: "collapse", french: "effondrement", pos: "n.m.", chinese: "倒塌" },
+        { english: "crown", french: "couronne", pos: "n.f.", chinese: "皇冠" },
+        { english: "thorny", french: "épineux(se)", pos: "adj.", chinese: "棘手的" },
+        { english: "mental", french: "psychique", pos: "adj.", chinese: "心理的" },
+        { english: "restrictive", french: "contraignant(e)", pos: "adj.", chinese: "限制性的" },
+        { english: "sinister-looking", french: "patibulaire", pos: "adj.", chinese: "面目可疑的" },
+        { english: "mining", french: "miner(ère)", pos: "adj.", chinese: "采矿的" },
+        { english: "to alloy, to combine (A à B)", french: "allier", pos: "v.t.", chinese: "合金，结合（A与B）" },
+        { english: "erroneous", french: "erroné(e)", pos: "adj.", chinese: "错误的" },
+        { english: "statute", french: "statut", pos: "n.m.", chinese: "法规" },
+        { english: "at the expense of", french: "au dépens de", pos: "loc.", chinese: "以...为代价" },
+        { english: "job", french: "besogne", pos: "n.f.", chinese: "工作" },
+        { english: "utilitarian", french: "utilitaire", pos: "adj.", chinese: "功利的" },
+        { english: "hell", french: "enfer", pos: "n.m.", chinese: "地狱" },
+        { english: "skillfully", french: "habilement", pos: "adv.", chinese: "巧妙地" },
+        { english: "stage", french: "plateau", pos: "n.m.", chinese: "舞台" },
+        { english: "(caractère) unlikelihood", french: "invraisemblance", pos: "n.f.", chinese: "不太可能" }
     ], 
 }
 

@@ -159,11 +159,11 @@ export function AllConjugate() {
                 >
                     {eng ?
                         <>
-                        For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>. 
+                            For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>.
                         </>
                         :
                         <>
-                        本网站详细功能介绍<Link className="link link-error font-bold" to='/features'>点击这里</Link>
+                            本网站详细功能介绍<Link className="link link-error font-bold" to='/features'>点击这里</Link>
                         </>}
                 </p>
 
@@ -171,7 +171,7 @@ export function AllConjugate() {
 
             <br />
 
-            <ConjugateRuleCards/>
+            <ConjugateRuleCards />
 
 
             <br id="section1" />
@@ -184,14 +184,15 @@ export function AllConjugate() {
                 </div>
 
                 <div className="flex items-bottom">
-                    <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "格式"}</h1>
+                    {!eng &&
+                        <h1 className={isMobile ? "text-1xl mt-1 mr-1" : "text-4xl mt-4 mr-4"}>{eng ? "Format" : "格式"}</h1>
+                    }
                     <span role="tablist" className="tabs tabs-bordered">
                         <div role="tab" className={listActive ? `tab text-${isMobile ? "1" : "2"}xl` : `tab tab-active text-${isMobile ? "1" : "2"}xl`} onClick={onClickTab(false)}>{eng ? "Table" : "表格"}</div>
                         <div role="tab" className={!listActive ? `tab text-${isMobile ? "1" : "2"}xl` : `tab tab-active text-${isMobile ? "1" : "2"}xl`} onClick={onClickTab(true)}>{eng ? "List" : "列表"}</div>
                     </span>
                 </div>
             </div>
-
             <br />
 
             {eng ?
@@ -215,6 +216,10 @@ export function AllConjugate() {
                         {button.name}
                     </button>
                 ))}
+
+                <button className="btn btn-info btn-outline" onClick={() => {window.location.href = window.location.hostname === "localhost" ? './#/practice' : 'https://logan130.github.io/conjugate/#/practice'}}>
+                    Practice
+                </button>
             </div>
 
             <br />

@@ -107,7 +107,7 @@ const conjugatesA2 = [
 // updated until 
 // taxi U12
 // communication L42
-// Edito L8
+// Edito L10
 // vocabulaire:
 // [1, 3, 6, 7, 8, , 9, 10, 11, 12]
 // [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -215,15 +215,16 @@ const conjugatesB1 = [
     { name: "souscrire", je: "souscris", tu: "souscris", il: "souscrit", nous: "souscrivons", vous: "souscrivez", ils: "souscrivent", passé: "souscrit", futur: "souscrir-" },
     { name: "raccourcir", je: "raccourcis", tu: "raccourcis", il: "raccourcit", nous: "raccourcissons", vous: "raccourcissez", ils: "raccourcissent", passé: "raccourci", futur: "raccourcir-" },
     { name: "envahir", je: "envahis", tu: "envahis", il: "envahit", nous: "envahissons", vous: "envahissez", ils: "envahissent", passé: "envahi", futur: "envahir-" },
-    { name: "ramollir", je: "ramollis", tu: "ramollis", il: "ramollit", nous: "ramollissons", vous: "ramollissez", ils: "ramollissent", passé: "ramolli", futur: "ramollir-" }
+    { name: "ramollir", je: "ramollis", tu: "ramollis", il: "ramollit", nous: "ramollissons", vous: "ramollissez", ils: "ramollissent", passé: "ramolli", futur: "ramollir-" }, 
+    { name: "obéir", je: "obéis", tu: "obéis", il: "obéit", nous: "obéissons", vous: "obéissez", ils: "obéissent", passé: "obéi", futur: "obéir-" }
 
 ]
 
 for (let word of conjugatesB1)
     word["level"] = "B1"
 
-// alter ego [D1, D2, D3]
-// vocabulaire advance []
+// alter ego [D1 - 8]
+// vocabulaire avancé [All]
 const conjugatesB2 = [
     { name: "élire", je: "élis", tu: "élis", il: "élit", nous: "élisons", vous: "élisez", ils: "élisent", passé: "élu", futur: "élir-" },
     { name: "enfouir", je: "enfouis", tu: "enfouis", il: "enfouit", nous: "enfouissons", vous: "enfouissez", ils: "enfouissent", passé: "enfoui", futur: "enfouir-" },
@@ -248,7 +249,10 @@ const conjugatesB2 = [
     { name: "provenir", je: "provins", tu: "provins", il: "provint", nous: "provenons", vous: "provenez", ils: "proviennent", passé: "provenu", futur: "proviendr-" },
     { name: "tordre", je: "tords", tu: "tords", il: "tord", nous: "tordons", vous: "tordez", ils: "tordent", passé: "tordu", futur: "tordr-" },
     { name: "mordre", je: "mords", tu: "mords", il: "mord", nous: "mordons", vous: "mordez", ils: "mordent", passé: "mordu", futur: "mordr-" },
-
+    { name: "débattre", je: "débats", tu: "débats", il: "débatt", nous: "débattions", vous: "débattiez", ils: "débattent", passé: "débattu", futur: "débattr-" },
+    { name: "salir", je: "salie", tu: "salies", il: "salit", nous: "salissons", vous: "salissez", ils: "salissent", passé: "sali", futur: "salir-" },
+    { name: "rétrécir", je: "rétrécis", tu: "rétrécis", il: "rétrécit", nous: "rétrécissons", vous: "rétrécissez", ils: "rétrécissent", passé: "rétréci", futur: "rétrécir-" },
+    { name: "ensevelir", je: "ensevelis", tu: "ensevelis", il: "ensevelit", nous: "ensevelissons", vous: "ensevelissez", ils: "ensevelissent", passé: "enseveli", futur: "ensevelir-" },
 ]
 
 for (let word of conjugatesB2)
