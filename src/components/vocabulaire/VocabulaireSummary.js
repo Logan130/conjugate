@@ -5,7 +5,7 @@ import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
 import { ErrorPage } from "../shared/404";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import { promptChinese, promptEnglish } from "./prompt";
+import { promptChinese, promptChineseTest, promptEnglish, promptEnglishTest } from "./prompt";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
@@ -424,7 +424,7 @@ export function VocabulaireSummary() {
             `${item.french}\t\t${item.pos} ${item.english} `
         ).join('\n');
 
-        let textToCopy = english ? promptEnglish(wordList, voc.length) : promptChinese(wordList, voc.length);
+        let textToCopy = english ? promptEnglishTest(wordList, voc.length) : promptChineseTest(wordList, voc.length);
         navigator.clipboard.writeText(textToCopy);
         document.getElementById('my_modal_2').showModal()
     }

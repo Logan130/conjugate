@@ -1,7 +1,29 @@
 export const TCFReadingTest05 = {
     lessons: ["1-25", "26-40"],
     "1-25": [
-
+        { english: "Irish", french: "irlandais(e)", pos: "adj.", chinese: "爱尔兰的" },
+        { english: "berth", french: "couchette", pos: "n.f.", chinese: "卧铺" },
+        { english: "addition", french: "adjonction", pos: "n.f.", chinese: "添加" },
+        { english: "fertilizer", french: "engrais", pos: "n.m.", chinese: "肥料" },
+        { english: "glove", french: "gant", pos: "n.m.", chinese: "手套" },
+        { english: "chilblain", french: "engelure", pos: "n.f.", chinese: "冻疮" },
+        { english: "kid", french: "chevreau", pos: "n.m.", chinese: "小羊" },
+        { english: "silk", french: "soie", pos: "n.f.", chinese: "丝绸" },
+        { english: "perforation, hole", french: "perforation", pos: "n.f.", chinese: "打孔，洞" },
+        { english: "up to date", french: "à la page", pos: "loc.", chinese: "最新的" },
+        { english: "home", french: "foyer", pos: "n.m.", chinese: "家" },
+        { english: "case", french: "boitier", pos: "n.m.", chinese: "外壳" },
+        { english: "beach, zone", french: "plage", pos: "n.f.", chinese: "海滩，区域" },
+        { english: "lending", french: "prêt", pos: "n.m.", chinese: "借贷" },
+        { english: "to cough", french: "tousser", pos: "v.i.", chinese: "咳嗽" },
+        { english: "to vomit", french: "vomir", pos: "v.", chinese: "呕吐" },
+        { english: "to spit out", french: "recracher", pos: "v.t.", chinese: "吐出" },
+        { english: "piece", french: "bout", pos: "n.m.", chinese: "一块" },
+        { english: "to choke, to stifle", french: "étouffer", pos: "v.t.", chinese: "窒息" },
+        { english: "to swallow", french: "avaler", pos: "v.t.", chinese: "吞下" },
+        { english: "stain, spot", french: "tache", pos: "n.f.", chinese: "污渍" },
+        { english: "below", french: "en contrebas", pos: "adv.", chinese: "在下面" },
+        { english: "inviolated", french: "inviolé(e)", pos: "adj.", chinese: "未受侵犯的" }
     ], 
     "26-40": [
         { english: "grimace", french: "rictus", pos: "n.m.", chinese: "怪笑" },

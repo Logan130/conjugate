@@ -1,10 +1,47 @@
 export const TCFReadingTest08 = {
     lessons: ["1-25", "26-40"],
     "1-25": [
-
+        { english: "window", french: "vitre", pos: "n.f.", chinese: "窗户" },
+        { english: "to invite", french: "convier", pos: "v.t.", chinese: "邀请" },
+        { english: "dance", french: "dansant(e)", pos: "adj.", chinese: "舞蹈的" },
+        { english: "writing", french: "rédaction", pos: "n.f.", chinese: "写作" },
+        { english: "overloaded", french: "surchargé(e)", pos: "adj.", chinese: "超负荷的" },
+        { english: "slowing down", french: "ralentissement", pos: "n.m.", chinese: "减速" },
+        { english: "in terms of", french: "du côté de", pos: "loc.", chinese: "在…方面" },
+        { english: "umpteenth", french: "énième", pos: "adj.", chinese: "无数次的" },
+        { english: "stand-in", french: "bouche-trou", pos: "n.m.", chinese: "临时替补" },
+        { english: "provincial", french: "provençal(e)", pos: "adj.", chinese: "省的" }
     ], 
     "26-40": [
-
+        { english: "to fill", french: "combler", pos: "v.t.", chinese: "填满" },
+        { english: "waste (temps)", french: "perte", pos: "n.f.", chinese: "浪费 (时间)" },
+        { english: "to fiddle", french: "bricoler", pos: "v.t.", chinese: "摆弄" },
+        { english: "to call for", french: "faire appel à", pos: "loc.", chinese: "呼吁" },
+        { english: "reciprocal", french: "réciproque", pos: "adj.", chinese: "互惠的" },
+        { english: "single-parent", french: "monoparental(e)", pos: "adj.", chinese: "单亲的" },
+        { english: "to evade", french: "éluder", pos: "v.t.", chinese: "规避" },
+        { english: "custody", french: "garde", pos: "n.f.", chinese: "监护" },
+        { english: "helpless, penniless", french: "démuni(e)", pos: "adj.", chinese: "无助的, 贫穷的" },
+        { english: "to put on hold", french: "mettre entre parenthèses", pos: "loc.", chinese: "暂时搁置" },
+        { english: "idleness", french: "oisiveté", pos: "n.f.", chinese: "懒散" },
+        { english: "to move away from", french: "s’écarter", pos: "v.pr.", chinese: "远离" },
+        { english: "forbid", french: "défense", pos: "n.f.", chinese: "禁止" },
+        { english: "to dust", french: "épousseter", pos: "v.t.", chinese: "掸灰尘" },
+        { english: "to respect", french: "révérer", pos: "v.t.", chinese: "尊敬" },
+        { english: "dust", french: "poussière", pos: "n.f.", chinese: "灰尘" },
+        { english: "to handle", french: "manier", pos: "v.t.", chinese: "操作" },
+        { english: "stride", french: "enjambée", pos: "n.f.", chinese: "大步" },
+        { english: "to leaf through", french: "feuilleter", pos: "v.t.", chinese: "翻阅" },
+        { english: "hardly", french: "à peine", pos: "loc.", chinese: "几乎不" },
+        { english: "dusty", french: "poussiéreux(se)", pos: "adj.", chinese: "布满灰尘的" },
+        { english: "gap", french: "écart", pos: "n.m.", chinese: "差距" },
+        { english: "readership", french: "lectorat", pos: "n.m.", chinese: "读者群" },
+        { english: "transformation", french: "mue", pos: "n.f.", chinese: "变化" },
+        { english: "to sensitize (qn à qch)", french: "sensibiliser", pos: "v.t.", chinese: "使某人对某事敏感" },
+        { english: "brigade, unit", french: "brigade", pos: "n.f.", chinese: "小队" },
+        { english: "to call out", french: "interpeller", pos: "v.t.", chinese: "呼喊" },
+        { english: "late-nighter", french: "noctambule", pos: "n.", chinese: "夜猫子" },
+        { english: "to ask for", french: "réclamer", pos: "v.t.", chinese: "要求" }
     ], 
 }
 
