@@ -218,7 +218,7 @@ export function AllConjugate() {
                 ))}
 
                 <button className="btn btn-info btn-outline" onClick={() => {window.location.href = window.location.hostname === "localhost" ? './#/practice' : 'https://logan130.github.io/conjugate/#/practice'}}>
-                    Practice
+                    {eng ? 'Practice' : '练习'}
                 </button>
             </div>
 

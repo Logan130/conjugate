@@ -1,5 +1,6 @@
 import React, { useEffect, useContext, useRef } from "react";
 import { ThemeContext } from '../context/context';
+import TomJerry from '../static/desktop-wallpaper-tom-jerry-for-fans-for-android-aesthetic-tom-and-jerry (1).jpg'
 
 
 export function Features() {
@@ -35,7 +36,7 @@ export function Features() {
                     <div className="w-full md:w-2/5 px-4 mb-4 md:mb-0">
                         <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box h-dvh">
                             <div className="carousel-item" id="slide2">
-                                <img src={'https://e0.pxfuel.com/wallpapers/896/97/desktop-wallpaper-tom-jerry-for-fans-for-android-aesthetic-tom-and-jerry.jpg'} className="rounded-box h-full" alt='Tom' />
+                                <img src={TomJerry} className="rounded-box h-full" alt='Tom' />
                             </div>
                         </div>
                     </div>

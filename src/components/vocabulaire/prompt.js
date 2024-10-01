@@ -65,7 +65,6 @@ export function promptEnglish(words, numWords) {
 }
 
 export function promptChineseTest(words, numWords) {
-    let numSentence = (numWords > 30) ? 15 : 10;
     let numParagraph = (numWords > 30) ? 3 : 2;
 
     let prompt = `
@@ -105,10 +104,9 @@ export function promptChineseTest(words, numWords) {
     --------------------------------
     `
     return prompt;
-} 
+}
 
 export function promptEnglishTest(words, numWords) {
-    let numSentence = (numWords > 30) ? 15 : 10;
     let numParagraph = (numWords > 30) ? 3 : 2;
 
     let prompt = `

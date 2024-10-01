@@ -5,7 +5,7 @@ import { RiTranslate } from "react-icons/ri";
 import { ThemeContext } from "../../context/context";
 import { ErrorPage } from "../shared/404";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import { promptChinese, promptChineseTest, promptEnglish, promptEnglishTest } from "./prompt";
+import { promptChineseTest, promptEnglishTest } from "./prompt";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 

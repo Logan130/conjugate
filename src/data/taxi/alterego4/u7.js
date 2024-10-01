@@ -16,7 +16,7 @@ export const wordsAlterEgoB2U7 = {
         { english: "fabric, substance", french: "étoffe", pos: "n.f.", chinese: "织物，材料" },
         { english: "tiny", french: "menu(e)", pos: "adj.", chinese: "微小的" },
         { english: "livestock", french: "bétail", pos: "n.m.", chinese: "牲畜" },
-        { english: "warrior", french: "guerrier(ière)", pos: "n.", Chinese: "战士" },
+        { english: "warrior", french: "guerrier(ière)", pos: "n.", chinese: "战士" },
         { english: "to hoist up, to hoist", french: "hisser", pos: "v.t.", chinese: "升起" },
         { english: "pole", french: "perche", pos: "n.f.", chinese: "杆" },
         { english: "horn", french: "corne", pos: "n.f.", chinese: "角" },
