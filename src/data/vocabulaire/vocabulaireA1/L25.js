@@ -17,7 +17,7 @@ export const VocabulaireProgressifA1L25 = {
         { english: "car mechanic", french: "garagiste", pos: "n.", chinese: "汽车技工" },
         { english: "mechanic", french: "mécanicien", pos: "n.m.", chinese: "机械师" },
         { english: "to repair", french: "réparer", pos: "v.t.", chinese: "修理" },
-        { english: "to have a car check-up", french: "faire une révision de la voiture", chinese: "进行汽车检修" },
+        { english: "to have a car check-up", french: "faire une révision de la voiture", chinese: "进行汽车检修", pos: 'loc.' },
         { english: "to drive", french: "rouler", pos: "v.i.", chinese: "开车" },
         { english: "gasoline", french: "essence", pos: "n.f.", chinese: "汽油" },
         { english: "gas station", french: "station-service", pos: "n.f.", chinese: "加油站" },

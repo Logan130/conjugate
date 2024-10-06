@@ -20,6 +20,16 @@ import { TCFReadingTest17 } from "../../tcf/reading/test17";
 import { TCFReadingTest18 } from "../../tcf/reading/test18";
 import { TCFReadingTest19 } from "../../tcf/reading/test19";
 import { TCFReadingTest20 } from "../../tcf/reading/test20";
+import { TCFReadingTest21 } from "../../tcf/reading/test21";
+import { TCFReadingTest22 } from "../../tcf/reading/test22";
+import { TCFReadingTest23 } from "../../tcf/reading/test23";
+import { TCFReadingTest24 } from "../../tcf/reading/test24";
+import { TCFReadingTest25 } from "../../tcf/reading/test25";
+import { TCFReadingTest26 } from "../../tcf/reading/test26";
+import { TCFReadingTest27 } from "../../tcf/reading/test27";
+import { TCFReadingTest28 } from "../../tcf/reading/test28";
+import { TCFReadingTest29 } from "../../tcf/reading/test29";
+import { TCFReadingTest30 } from "../../tcf/reading/test30";
 import { wordsTCFWork } from "../../tcf/theme/work";
 
 export const tcf = [
@@ -159,6 +169,66 @@ export const tcf = [
     {
         unit: "Test 20",
         words: TCFReadingTest20,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 21",
+        words: TCFReadingTest21,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 22",
+        words: TCFReadingTest22,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 23",
+        words: TCFReadingTest23,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 24",
+        words: TCFReadingTest24,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 25",
+        words: TCFReadingTest25,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 26",
+        words: TCFReadingTest26,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 27",
+        words: TCFReadingTest27,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 28",
+        words: TCFReadingTest28,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 29",
+        words: TCFReadingTest29,
+        tag: "TCF",
+        book: "TCF CE",
+    },
+    {
+        unit: "Test 30",
+        words: TCFReadingTest30,
         tag: "TCF",
         book: "TCF CE",
     },

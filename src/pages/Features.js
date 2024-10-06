@@ -129,7 +129,7 @@ export function Features() {
                     <div>
                         {
                             eng ?
-                            <>You can also practice you understanding of the words. <button className='btn btn-warning btn-sm m-2'>Spelling</button> allows you to practice your spelling, while <button className='btn btn-secondary btn-sm m-2'>Gender</button> allows you to practice the gender of the nouns. Both practice modes supports grading and they can also give hints.</>
+                            <>You can also practice the words. <button className='btn btn-warning btn-sm m-2'>Spelling</button> allows you to practice the spelling, while <button className='btn btn-secondary btn-sm m-2'>Gender</button> allows you to practice the genders of the nouns. Both practice modes support grading and they can also give hints.</>
                             :
                             <>每一课的单词表还支持练习，你可以进行<button className='btn btn-warning btn-sm m-2'>拼写练习</button>(填空题) 或<button className='btn btn-secondary btn-sm m-2'>阴阳练习</button>(选择题)，做完以后还可以一键批改并提示正确答案</>
                         }
@@ -156,7 +156,7 @@ export function Features() {
                     <div>
                         {
                             eng ?
-                            <>You can also practice your conjugation by going to the dictation mode. It also supports auto grading. You can go to the page by clicking the Conj button on thetop right. </>
+                            <>You can also practice your conjugation by going to the dictation mode. It also supports auto grading. You can go to the page by clicking the Conj button on the top right. </>
                             :
                             <>当你认为你已经学习了一定的动词变位，这时你就可以开始听写变位了。这个网站不仅支持根据各阶段水平进行练习，还可以自动批改并给出提示，点击屏幕右上角的变位按钮就可以练习</>
                         }

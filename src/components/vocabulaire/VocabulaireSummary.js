@@ -209,7 +209,8 @@ function Title({ title, id }) {
 }
 
 function articleParser(word) {
-    if ( (!word.pos.includes('n.m.') && !word.pos.includes('n.f.')) || word.french[0] === 'h') {
+    console.log(word)
+    if ( !word.pos || (!word.pos.includes('n.m.') && !word.pos.includes('n.f.')) || word.french[0] === 'h') {
         return word.french;
     }
     if (word.pos.includes('pl.'))

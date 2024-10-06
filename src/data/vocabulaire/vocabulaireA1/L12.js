@@ -5,7 +5,7 @@ export const VocabulaireProgressifA1L12 = {
         { english: "cauliflower", french: "chou-fleur", pos: "n.m.", chinese: "菜花" },
         { english: "onion", french: "oignon", pos: "n.m.", chinese: "洋葱" },
         { english: "potato", french: "pomme de terre", pos: "n.f.", chinese: "土豆" },
-        { english: "leek", french: "poireau", pos: "n.m.", chinese: "韭菜", highlight: true },
+        { english: "leek", french: "poireau", pos: "n.m.", chinese: "大葱", highlight: true },
         { english: "eggplant", french: "aubergine", pos: "n.f.", chinese: "茄子" },
         { english: "spinach", french: "épinards", pos: "n.m.pl.", chinese: "菠菜", highlight: true },
         { english: "zucchini", french: "courgette", pos: "n.f.", chinese: "西葫芦" },

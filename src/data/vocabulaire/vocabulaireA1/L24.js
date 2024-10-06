@@ -17,7 +17,7 @@ export const VocabulaireProgressifA1L24 = {
         { english: "exit", french: "sortie", pos: "n.f.", chinese: "出口" },
         { english: "kilometer", french: "kilomètre", pos: "n.m.", chinese: "千米" },
         { english: "crossroad", french: "carrefour", pos: "n.m.", chinese: "十字路口" },
-        { english: "on the road", french: "sur la route", chinese: "在路上" },
+        { english: "on the road", french: "sur la route", chinese: "在路上", pos: 'loc.' },
         { english: "light", french: "feu", pos: "n.m.", chinese: "灯" },
         { english: "recommended, indicated, specified", french: "indiqué(e)", pos: "adj.", chinese: "推荐的，指定的" },
         { english: "round-about", french: "rond-point", pos: "n.m.", chinese: "环岛" },
