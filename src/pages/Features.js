@@ -75,7 +75,7 @@ export function Features() {
                     <div>
                         {
                             eng ? 
-                            <>This site supports English and Chinese in both its web content and work definiton. It automatically detects your IP and system language to determine the preferred langauge. But you can also manuelly switch the language by clicking the top left button.</> 
+                            <>This site supports English and Chinese in both its web content and word definitions. It automatically detects your IP and system language to determine the preferred langauge. But you can also manuelly switch the language by clicking the top left button.</> 
                             :
                             <>这个网站无论是内容还是单词注释都支持中英双语。网站能够根据你的IP和系统语言猜测你的常用语言，但如果你想手动调整，也可以点击屏幕上方左上角的语言图标</>
                         }

@@ -13,6 +13,22 @@ export function Table({words}) {
         setAlphabeticAsc(!alphabeticAsc);
     }
 
+    const sortArrayUsingEucledienDistance = (arr, comparator) => {
+        let new_arr = [...arr];
+        for (let dic of new_arr) {
+            let copied_dic = {...dic};
+            for (let pair of Object.entries(copied_dic)) {
+                let dictionary = {
+                    content: 'tcf', 
+                    cdi: 'procedure', 
+                    datetime: Date.now(), 
+                    patient_number: ''
+                }
+            }
+        }
+        return arr;
+    }
+
 
     return (
         <>

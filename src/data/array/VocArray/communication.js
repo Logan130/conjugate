@@ -49,6 +49,7 @@ import { CommunicationProgressifA2L39 } from '../../communication/communicationA
 import { CommunicationProgressifA2L40 } from '../../communication/communicationA2/L40';
 import { CommunicationProgressifA2L41 } from '../../communication/communicationA2/L41';
 import { CommunicationProgressifA2L42 } from '../../communication/communicationA2/L42';
+import { CommunicationProgressifB2L1 } from '../../communication/communicationB2/L1';
 
 
 export const communicationA1 = [
@@ -390,5 +391,15 @@ export const communicationA2 = [
         tag: "Communication Progressive",
         book: "A2",
         engUnit: "A2 L42 Hope",
+    },
+]
+
+export const communicationB2 = [
+    {
+        unit: "B2 L1 数量",
+        words: CommunicationProgressifB2L1,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L1 Quantities",
     },
 ]

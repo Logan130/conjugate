@@ -54,7 +54,7 @@ export function About() {
                     <div
                         // className={isMobile ? "text-sm transition-opacity duration-1000 ease-in-out opacity-0" : "text-lg transition-opacity duration-1000 ease-in-out opacity-0"}
                         className={isMobile ? "text-sm " : "text-lg "}
-                        // onLoad={(e) => e.currentTarget.classList.add('opacity-100')}
+                    // onLoad={(e) => e.currentTarget.classList.add('opacity-100')}
                     >
                         {eng ?
                             <p className="mb-4">
@@ -76,6 +76,18 @@ export function About() {
                             </p>
                         }
                         <br />
+
+                        {eng ?
+                            <p className="">
+                                To practice conjugation, simply click on the <Link className="link link-warning" to='/practice'>{isMobile ? "Conj" : "Conjugation"}</Link> button located in the navigation bar. By doing so, you will be redirected to a page where you can test and improve your conjugation skills. Additionally, you will have the option to check your answers and receive helpful hints.
+                            </p> :
+                            <p className="">
+                                经过9个月的学习，现在我已经以高分通过TCF Canada考试 (听读CLB10, 写CLB9, 说CLB8)，拿到了移民需要的分数，但这不是法语学习的终点，我希望能把我的法语提升到能看Kindle上的小说的程度，接下来我打算接着学习C1的Cosmopolite，这个网站我也会一直维护，方便大家学习和练习
+                            </p>
+                        }
+
+                        <br />
+
 
                         {!eng && (<>
                             <p className="">
@@ -114,6 +126,19 @@ export function About() {
                                 此外，每一个单元的单词表是这个软件的精华，里面不仅能根据课文词性分类排序，轻松一键导入Quizlet/Anki，还能自动生成AI大语言模型指令，以帮助快速构建全新语境学习单词。
                             </p>
                         }
+
+                        <br/>
+
+                        <p>
+                            {eng ?
+                                <>
+                                    For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>.
+                                </>
+                                :
+                                <>
+                                    本网站详细功能介绍<Link className="link link-error font-bold" to='/features'>点击这里</Link>
+                                </>}
+                        </p>
 
                         {eng &&
                             <p>

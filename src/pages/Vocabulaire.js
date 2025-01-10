@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState, useContext } from 'react';
-import { alterEgoB2, taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
+import { CosmopoliteC1, alterEgoB2, taxiA1A2, taxiB1 } from '../data/array/VocArray/taxi';
 import { vocabulaireProgressifA1, vocabulaireProgressifA2, vocabulaireProgressifB1 } from '../data/array/VocArray/vocabulaireProgressif';
-import { communicationA1, communicationA2 } from '../data/array/VocArray/communication';
+import { communicationA1, communicationA2, communicationB2 } from '../data/array/VocArray/communication';
 import { EditoB1 } from '../data/array/VocArray/edito';
 import { ThemeContext } from '../context/context';
 import { InnerFrench } from '../data/array/VocArray/innerfrench';
@@ -21,7 +21,9 @@ export const lessons = [
     ...vocabulaireProgressifB1,
     ...EditoB1,
     ...InnerFrench,
-    ...tcf
+    ...tcf, 
+    ...CosmopoliteC1, 
+    ...communicationB2
 ]
 
 export let protectedLessonsIndex = new Set();
@@ -117,12 +119,12 @@ export function VocabulairePage() {
         <ImagesAll isIpadUser={isIpadUser} />
 
         <Section
-            title={'Taxi & Alter Ego'}
+            title={'Taxi, Alter Ego, & Cosmopolite'}
             vocArr={TaxiArr}
             filter={taxiFilter}
-            filterArr={["B2", "B1", "A2", "A1"]}
+            filterArr={["C1", "B2", "B1", "A2", "A1"]}
             filterHandler={onClickTaxiFilter}
-            buttonArr={["B2", "B1", "A2", "A1"]}
+            buttonArr={["C1", "B2", "B1", "A2", "A1"]}
             reverse={true}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-36'}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-1"}
@@ -133,9 +135,9 @@ export function VocabulairePage() {
             title={'Communication Progressive'}
             vocArr={CommunicaionProgressivefArr}
             filter={communicationFilter}
-            filterArr={["A2", "A1"]}
+            filterArr={["B2", "A2", "A1"]}
             filterHandler={onClickCommunicationFilter}
-            buttonArr={["A2-B1", "A1-A2"]}
+            buttonArr={["B2-C1", "A2-B1", "A1-A2"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : (eng ? 'flex items-center w-48' : 'flex items-center w-32')}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-0"}
@@ -157,7 +159,7 @@ export function VocabulairePage() {
         />
 
 
-        <Section
+        {/* <Section
             title={"TCF"}
             vocArr={tcfArr}
             filter={tcfFilter}
@@ -168,7 +170,7 @@ export function VocabulairePage() {
             titleStyle={isMobile ? 'flex items-center w-28 text-sm' : 'flex items-center w-32'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             locked={true}
-        />
+        /> */}
 
 
         <Section

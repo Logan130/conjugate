@@ -16,6 +16,10 @@ import { Warning } from './pages/Warning';
 import { HighlightPage } from './components/vocabulaire/Highlight';
 import { Features } from './pages/Features';
 
+import { Helmet } from 'react-helmet';
+import TextToSpeech from './components/vocabulaire/TextToSpeech';
+
+
 function LanguageWindow() {
   let [chooseEnglish, setChooseEnglish] = useState(true);
   const { setEng } = useContext(ThemeContext);
@@ -31,6 +35,20 @@ function LanguageWindow() {
 
   return (<>
     <dialog id="language_window" className="modal">
+
+      <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS508KRYN0"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-YS508KRYN0');
+          `}
+        </script>
+      </Helmet>
+
       <div className="modal-box">
         <h3 className="font-bold text-lg">Bienvenu !</h3>
         <p className="py-4">Choose your Language 选择你的语言</p>
@@ -84,7 +102,9 @@ function App() {
                 <Route path='/warning' element={<Warning />} />
                 <Route path='/highlight' element={<HighlightPage />} />
                 <Route path='/features' element={<Features />} />
+                <Route path='/speech' element={<TextToSpeech />} />
                 <Route path='*' element={<ErrorPage />} />
+                
               </Routes>
 
               <LanguageWindow />

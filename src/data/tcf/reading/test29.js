@@ -4,7 +4,7 @@ export const TCFReadingTest29 = {
 
     ], 
     "26-40": [
-
+        { english: "resistant (à)", french: "réfractaire", pos: "adj.", chinese: "抵抗的（对...）" }
     ], 
 }
 

@@ -30,6 +30,7 @@ import { wordsTaxiB1U9 } from "../../taxi/taxi3/u9";
 import { wordsTaxiB1U10 } from "../../taxi/taxi3/u10";
 import { wordsTaxiB1U11 } from "../../taxi/taxi3/u11";
 import { wordsTaxiB1U12 } from "../../taxi/taxi3/u12";
+
 import { wordsAlterEgoB2U1 } from "../../taxi/alterego4/u1";
 import { wordsAlterEgoB2U2 } from "../../taxi/alterego4/u2";
 import { wordsAlterEgoB2U3 } from "../../taxi/alterego4/u3";
@@ -39,6 +40,9 @@ import { HighlightTaxiA2 } from "../../taxi/taxi2/HighlightTaxiA2";
 import { wordsAlterEgoB2U6 } from "../../taxi/alterego4/u6";
 import { wordsAlterEgoB2U7 } from "../../taxi/alterego4/u7";
 import { wordsAlterEgoB2U8 } from "../../taxi/alterego4/u8";
+
+import { wordsCosmopoliteC1D1 } from "../../taxi/cosmopolite/d1";
+
 
 
 export const taxiA1A2 = [
@@ -282,5 +286,14 @@ export const alterEgoB2 = [
         words: wordsAlterEgoB2U8,
         tag: "Taxi",
         book: "B2",
+    },
+]
+
+export const CosmopoliteC1 = [
+    {
+        unit: "D1 Villes",
+        words: wordsCosmopoliteC1D1,
+        tag: "Taxi",
+        book: "C1",
     },
 ]

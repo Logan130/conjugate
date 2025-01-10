@@ -144,7 +144,7 @@ function PCImages ({ images }) {
             </div> */}
             <div className='flex flex-col items-center justify-center '>
                 <p className=' italic'>{eng ? 'Faster, Higher, Stronger 🇫🇷' : '更高，更快，更强 🇫🇷'}</p>
-                <p className=' italic'>{eng ? ' ' : '更多，更牢，更快 📖'}</p>
+                {/* <p className=' italic'>{eng ? ' ' : '更多，更牢，更快 📖'}</p> */}
             </div>
         </div>
     );

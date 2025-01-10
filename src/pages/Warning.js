@@ -6,7 +6,7 @@ let voc = [
     { english: "to promote (produits, idée, qn au range de sergent)", french: "promouvoir", pos: "v.t.", chinese: "推广" },
     { english: "to interact (avec qn)", french: "interagir", pos: "v.i.", chinese: "互动" },
     { english: "stand (champ de cours, de président), platform", french: "tribune", pos: "n.f.", chinese: "讲台" },
-    { english: "overwhelmed (de qch, par article qch)", french: "débordé(e)", pos: "v.t.", chinese: "不堪重负" },
+    { english: "overwhelmed (de qch, par article qch)", french: "débordé(e)", pos: "adj.", chinese: "不堪重负" },
     { english: "to digest (plat, lecture, information, connaissances)", french: "digérer", pos: "v.t.", chinese: "消化" },
     { english: "to invade", french: "envahir", pos: "v.t.", chinese: "入侵" },
     { english: "overwhelmed (de qch, par articles qch)", french: "submergé(e)", pos: "adj.", chinese: "不堪重负" },

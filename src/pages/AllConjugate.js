@@ -155,8 +155,7 @@ export function AllConjugate() {
                 </p>
 
                 <br />
-                <p
-                >
+                <p>
                     {eng ?
                         <>
                             For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>.
@@ -197,7 +196,7 @@ export function AllConjugate() {
 
             {eng ?
                 <div>
-                    The words are sorted based on their <a className='link link-warning' href='https://en.wikipedia.org/wiki/Levenshtein_distance'>Levenshtein distance</a> in computer science. This metrics reflects the similarity of words, and as a result, words will similar spelling will be closer together.
+                    The words are sorted based on their <a className='link link-warning' href='https://en.wikipedia.org/wiki/Levenshtein_distance'>Levenshtein distance</a> in computer science. This metrics reflects the similarity of words, and as a result, words with similar spelling will be closer together.
                 </div>
                 :
                 <div>
