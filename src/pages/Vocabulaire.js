@@ -9,6 +9,7 @@ import { InnerFrench } from '../data/array/VocArray/innerfrench';
 import { tcf } from '../data/array/VocArray/tcf'
 import { ImagesAll } from '../components/vocabulaire/Image'
 import { Section } from '../components/vocabulaire/VocPageSection';
+import { Fiction } from '../data/array/VocArray/fiction';
 
 export const lessons = [
     ...taxiA1A2,
@@ -23,7 +24,8 @@ export const lessons = [
     ...InnerFrench,
     ...tcf, 
     ...CosmopoliteC1, 
-    ...communicationB2
+    ...communicationB2, 
+    ...Fiction
 ]
 
 export let protectedLessonsIndex = new Set();
@@ -57,7 +59,7 @@ export function VocabulairePage() {
     let isMobile = window.innerWidth < 850;
 
     // categorize arrays based on types
-    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], otherArr = [], tcfArr = [];
+    let TaxiArr = [], CommunicaionProgressivefArr = [], VocabulaireProgressiffArr = [], otherArr = [], tcfArr = [], fictionArr = [];
     for (let i = 0; i < lessons.length; i++) {
         let lesson = lessons[i];
         lesson["id"] = i;
@@ -75,6 +77,9 @@ export function VocabulairePage() {
         }
         else if (lesson.tag === "TCF") {
             tcfArr.push(lesson);
+        }
+        else if (lesson.tag === "Fiction") {
+            fictionArr.push(lesson);
         }
     }
 
@@ -115,6 +120,12 @@ export function VocabulairePage() {
         window.localStorage.setItem(FilterArr[4], filter);
     }
 
+    let [fictionFilter, setFictionFilter] = useState("Fiction");
+    const onClickFictionFilter = (filter) => (e) => {
+        setFictionFilter(filter);
+        // window.localStorage.setItem(FilterArr[4], filter);
+    }
+
     return (<>
         <ImagesAll isIpadUser={isIpadUser} />
 
@@ -125,7 +136,7 @@ export function VocabulairePage() {
             filterArr={["C1", "B2", "B1", "A2", "A1"]}
             filterHandler={onClickTaxiFilter}
             buttonArr={["C1", "B2", "B1", "A2", "A1"]}
-            reverse={true}
+            reverse={false}
             titleStyle={isMobile ? 'flex items-center w-24 text-sm' : 'flex items-center w-36'}
             buttonStyle={isMobile ? (eng ? "text-xs p-4" : "text-xs p-3") : "text-base py-1"}
             locked={false}
@@ -158,6 +169,19 @@ export function VocabulairePage() {
             locked={false}
         />
 
+        <Section
+            title={'Fiction'}
+            vocArr={fictionArr}
+            filter={fictionFilter}
+            filterArr={["Fiction"]}
+            filterHandler={onClickFictionFilter}
+            buttonArr={["Fiction"]}
+            reverse={false}
+            titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-64'}
+            buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}
+            locked={false}
+        />
+
 
         {/* <Section
             title={"TCF"}
@@ -179,7 +203,7 @@ export function VocabulairePage() {
             filter={autreFilter}
             filterArr={["Edito B1", "InnerFrench"]}
             filterHandler={onClickAutreFilter}
-            buttonArr={["Edito B1", "Inner French"]}
+            buttonArr={["Édito B1", "Inner French"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-64'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}

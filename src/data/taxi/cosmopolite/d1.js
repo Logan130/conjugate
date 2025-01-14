@@ -1,10 +1,70 @@
 export const wordsCosmopoliteC1D1 = {
-    lessons: ["Espèces d'Espaces", "Urbain"], 
+    lessons: ["Espèces d'Espaces", "Nouveau monde", "Nicolas Gilsoul"],
     "Espèces d'Espaces": [
+        { english: "it’s self-evident", french: "cela va de soi", pos: "loc.", chinese: "这是显而易见的" },
+        { english: "leave to do", french: "se laisser aller a faire", pos: "loc.", chinese: "放任去做" },
+        { english: "beaucoup de", french: "bien de", pos: "loc.", chinese: "很多的" },
+        { english: "un peu", french: "un tant soit peu", pos: "loc.", chinese: "一点" },
+        { english: "se heurter", french: "se cogner", pos: "v.pr.", chinese: "撞到" },
+        { english: "species", french: "espèce", pos: "n.f.", chinese: "物种" },
+        { english: "steel", french: "acier", pos: "n.m.", chinese: "钢" },
+        { english: "bogus (fam.)", french: "bidon", pos: "adj.inv.", chinese: "假冒的（俚语）" },
+    ],
+    "Nouveau monde": [
+        { english: "according to", french: "suivant", pos: "adv.", chinese: "根据" },
+        { english: "to result (A de B)", french: "découler", pos: "v.", chinese: "源于（A 来自 B）" },
+        { english: "to slow down", french: "ralentir", pos: "v.t.", chinese: "减速" },
+        { english: "residential (houses as opposed to apartment)", french: "pavillonnaire", pos: "adj.", chinese: "住宅的（指独栋房屋）" },
+        { english: "energy-consuming", french: "énergivore", pos: "adj.", chinese: "耗能的" },
+        { english: "to relax oneself", french: "se distraire", pos: "v.pr.", chinese: "使自己放松" },
+        { english: "within the town", french: "intra-muros", pos: "adj.", chinese: "城内的" },
+        { english: "to raise", french: "rehausser", pos: "v.t.", chinese: "提高" },
+        { english: "to link, to connect", french: "relier", pos: "v.t.", chinese: "连接" },
+        { english: "marble, ball", french: "bille", pos: "n.f.", chinese: "弹珠, 球" },
+        { english: "clay", french: "argile", pos: "n.f.", chinese: "粘土" },
+        { english: "to reduce", french: "alléger", pos: "v.t.", chinese: "减少" },
+        { english: "substratum", french: "substrat", pos: "n.m.", chinese: "基层" },
+        { english: "to get vaccinated", french: "se faire injecter", pos: "loc.", chinese: "注射疫苗" },
+        { english: "kitchen garden", french: "potager", pos: "n.m.", chinese: "菜园" },
+        { english: "to manifest oneself, to appear", french: "s’annoncer", pos: "v.pr.", chinese: "显示，出现" },
+        { english: "to relegate", french: "reléguer", pos: "v.t.", chinese: "降级" }
+    ],
+    "Nicolas Gilsoul": [
+        { english: "to move on (fam.)", french: "foncer", pos: "v.i.", chinese: "前进" },
+        { english: "(A) have sth to do with (B) (fam.)", french: "être histoire de", pos: "loc.", chinese: "有关" },
+        { english: "to husk, to dissect", french: "décortiquer", pos: "v.t.", chinese: "剥壳" },
+        { english: "au moins", french: "ne serait-ce que", pos: "loc.", chinese: "至少" },
+        { english: "dread", french: "effroi", pos: "n.m.", chinese: "恐惧" },
+        { english: "bridge", french: "passerelle", pos: "n.f.", chinese: "桥" },
+        { english: "se réunir", french: "s’agglutiner", pos: "v.pr.", chinese: "聚集" },
+        { english: "disorder", french: "dérèglement", pos: "n.m.", chinese: "失调" },
+        { english: "sprawling", french: "tentaculaire", pos: "adj.", chinese: "蔓延的" },
+        { english: "to pile", french: "entasser", pos: "v.t.", chinese: "堆积" },
+        { english: "to climb", french: "grimper", pos: "v.", chinese: "攀爬" },
+        { english: "megapolis", french: "mégalopole", pos: "n.f.", chinese: "特大城市" },
+        { english: "lateral", french: "latéral(e)", pos: "adj.", chinese: "侧面的" },
+        { english: "polder", french: "polder", pos: "n.m.", chinese: "圩田" },
+        { english: "marsh, quagmire (figuré)", french: "marécage", pos: "n.m.", chinese: "沼泽" },
+        { english: "cutting", french: "découpage", pos: "n.m.", chinese: "切割" },
+        { english: "archipelago", french: "archipel", pos: "n.m.", chinese: "群岛" },
+        { english: "real estate", french: "foncier", pos: "n.m.", chinese: "房地产" },
+        { english: "shuttle", french: "navette", pos: "n.f.", chinese: "穿梭" },
+        { english: "side, wall (tunnel, tube, montagne, anatomie)", french: "paroi", pos: "n.f.", chinese: "墙壁" },
+        { english: "curve", french: "courbe", pos: "n.f.", chinese: "曲线" },
+        { english: "doux et tendre", french: "caressant(e)", pos: "adj.", chinese: "温柔的" },
+        { english: "harbor wall", french: "digue", pos: "n.f.", chinese: "港堤" }
+    ],
+    "": [
 
-    ], 
-    "Urbain": [
+    ],
+    "": [
 
-    ], 
-    
+    ],
+    "": [
+
+    ],
+    "": [
+
+    ],
+
 }

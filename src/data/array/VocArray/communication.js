@@ -50,6 +50,10 @@ import { CommunicationProgressifA2L40 } from '../../communication/communicationA
 import { CommunicationProgressifA2L41 } from '../../communication/communicationA2/L41';
 import { CommunicationProgressifA2L42 } from '../../communication/communicationA2/L42';
 import { CommunicationProgressifB2L1 } from '../../communication/communicationB2/L1';
+import { CommunicationProgressifB2L2 } from '../../communication/communicationB2/L2';
+import { CommunicationProgressifB2L3 } from '../../communication/communicationB2/L3';
+import { CommunicationProgressifB2L4 } from '../../communication/communicationB2/L4';
+import { CommunicationProgressifB2L5 } from '../../communication/communicationB2/L5';
 
 
 export const communicationA1 = [
@@ -401,5 +405,33 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L1 Quantities",
+    },
+    {
+        unit: "B2 L2 描述",
+        words: CommunicationProgressifB2L2,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L2 Describe",
+    },
+    {
+        unit: "B2 L3 物品",
+        words: CommunicationProgressifB2L3,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L3 Object",
+    },
+    {
+        unit: "B2 L4 故障",
+        words: CommunicationProgressifB2L4,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L4 Breakdown",
+    },
+    {
+        unit: "B2 L5 烹饪",
+        words: CommunicationProgressifB2L5,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L5 Cuisine",
     },
 ]
