@@ -40,7 +40,7 @@ export function Test() {
 
     useEffect(() => {
         // URL of the raw JSON file on GitHub
-        const url = "https://raw.githubusercontent.com/Logan130/conjugate/master/src/practice/communication/B1/L1.json";
+        const url = "https://raw.githubusercontent.com/Logan130/conjugate/master/src/practice/taxi/B2/D1.json";
 
         // Fetch the JSON data
         fetch(url)
