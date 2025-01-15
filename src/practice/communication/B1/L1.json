@@ -1,0 +1,185 @@
+{
+    "test": [
+        {
+          "question_number": 1,
+          "question": "Le _______ de poulet est très tendre.",
+          "options": ["agneau", "blanc de poulet", "saucisson", "épaule"],
+          "answer": "blanc de poulet"
+        },
+        {
+          "question_number": 2,
+          "question": "Vous voulez de la viande _______ ou cuite ?",
+          "options": ["cru", "tendre", "épaisse", "fine"],
+          "answer": "cru"
+        },
+        {
+          "question_number": 3,
+          "question": "Le boucher m’a donné un _______ de viande.",
+          "options": ["morceau", "tranche", "gigot", "pâté"],
+          "answer": "morceau"
+        },
+        {
+          "question_number": 4,
+          "question": "Il vous en faut _______ kilo de viande ?",
+          "options": ["une", "deux", "trois", "combien"],
+          "answer": "une"
+        },
+        {
+          "question_number": 5,
+          "question": "Je vais acheter _______ _______ de veau.",
+          "options": ["un morceau", "une tranche", "un gigot", "une aile"],
+          "answer": "un morceau"
+        },
+        {
+          "question_number": 6,
+          "question": "Elle a acheté _______ _______ de jambon.",
+          "options": ["une cuisse", "un blanc de poulet", "une barquette", "une épaule"],
+          "answer": "une barquette"
+        },
+        {
+          "question_number": 7,
+          "question": "La _______ de l’agneau est particulièrement tendre.",
+          "options": ["cuisse", "tête", "queue", "épaule"],
+          "answer": "épaule"
+        },
+        {
+          "question_number": 8,
+          "question": "J’ai pris _______ _______ de saumon.",
+          "options": ["une tranche", "un morceau", "une cuisse", "une dinde"],
+          "answer": "une tranche"
+        },
+        {
+          "question_number": 9,
+          "question": "Donne-moi _______ petite _______ de poulet.",
+          "options": ["une barquette", "un morceau", "une cuisse", "une tranche"],
+          "answer": "une barquette"
+        },
+        {
+          "question_number": 10,
+          "question": "Je voudrais _______ viande de veau, s’il vous plaît.",
+          "options": ["du", "de la", "des", "un"],
+          "answer": "de la"
+        },
+        {
+          "question_number": 11,
+          "question": "Nous avons mangé _______ _______ de gigot.",
+          "options": ["une part", "une tranche", "une bouchee", "un morceau"],
+          "answer": "un morceau"
+        },
+        {
+          "question_number": 12,
+          "question": "Les _______ de la dinde sont énormes.",
+          "options": ["cuisses", "ailes", "queues", "têtes"],
+          "answer": "ailes"
+        },
+        {
+          "question_number": 13,
+          "question": "Je préfère le _______ de l’agneau.",
+          "options": ["gigot", "veau", "pâté", "saucisson"],
+          "answer": "gigot"
+        },
+        {
+          "question_number": 14,
+          "question": "Ils servent _______ saucisson dans cette charcuterie.",
+          "options": ["du", "de", "une", "un"],
+          "answer": "du"
+        },
+        {
+          "question_number": 15,
+          "question": "______ pas oublié d'acheter des œufs !",
+          "options": ["Ne", "Tant", "Voilà", "Donne"],
+          "answer": "Ne"
+        },
+        {
+          "question_number": 16,
+          "question": "______ la viande est encore _______ ?",
+          "options": ["Est-ce que / crue", "Le / fin", "Cette / tendre", "Quelle / épaisse"],
+          "answer": "Est-ce que / crue"
+        },
+        {
+          "question_number": 17,
+          "question": "Pour ce plat, il faut des _______ fines de jambon.",
+          "options": ["morceaux", "tranches", "parts", "barquettes"],
+          "answer": "tranches"
+        },
+        {
+          "question_number": 18,
+          "question": "Vous désirez _______ _______ de viande ?",
+          "options": ["un bon kilo", "un morceau", "une tranche", "une part"],
+          "answer": "un bon kilo"
+        },
+        {
+          "question_number": 19,
+          "question": "______ viande de veau est plus tendre que l'agneau.",
+          "options": ["Cette", "Mon", "Leur", "Ce"],
+          "answer": "Cette"
+        },
+        {
+          "question_number": 20,
+          "question": "J’ai mangé _______ _______ de viande hachée.",
+          "options": ["une bouchée", "un morceau", "une part", "une tranche"],
+          "answer": "une bouchée"
+        },
+        {
+          "question_number": 21,
+          "question": "Le _______ de dinde était trop épais.",
+          "options": ["filet", "blanc", "cuisse", "gigot"],
+          "answer": "blanc"
+        },
+        {
+          "question_number": 22,
+          "question": "______ pas besoin d’acheter plus de viande.",
+          "options": ["Il n’y a", "Je n’ai", "Je n’en ai", "Il en faut"],
+          "answer": "Je n’en ai"
+        },
+        {
+          "question_number": 23,
+          "question": "______ _______ de mouton, je préfère.",
+          "options": ["Un gigot", "Une tranche", "Une part", "Une cuisse"],
+          "answer": "Un gigot"
+        },
+        {
+          "question_number": 24,
+          "question": "Je n’ai plus _______ viande de veau.",
+          "options": ["de", "des", "un", "du"],
+          "answer": "de"
+        },
+        {
+          "question_number": 25,
+          "question": "______ viande est trop _______ pour être coupée en tranches.",
+          "options": ["Cette / épaisse", "Le / tendre", "Une / fine", "Les / crue"],
+          "answer": "Cette / épaisse"
+        },
+        {
+          "question_number": 26,
+          "question": "J’ai _______ saucisson sec.",
+          "options": ["un", "du", "une", "des"],
+          "answer": "un"
+        },
+        {
+          "question_number": 27,
+          "question": "Il faut _______ un peu plus de fromage râpé.",
+          "options": ["en mettre", "mettre", "y mettre", "de mettre"],
+          "answer": "en mettre"
+        },
+        {
+          "question_number": 28,
+          "question": "Tu veux _______ viande en _______ ou en _______ ?",
+          "options": ["de la / morceaux / tranches", "des / épaisse / fine", "du / sauce / part", "une / croûte / tranche"],
+          "answer": "de la / morceaux / tranches"
+        },
+        {
+          "question_number": 29,
+          "question": "______ est-ce que je peux avoir _______ boîte de saucisson ?",
+          "options": ["Où / une", "Quand / un", "Comment / une", "Combien / une"],
+          "answer": "Combien / une"
+        },
+        {
+          "question_number": 30,
+          "question": "______ viande est très _______ pour une recette de ragoût.",
+          "options": ["Cette / tendre", "La / épaisse", "Mon / fine", "Cette / crue"],
+          "answer": "La / épaisse"
+        }
+      ]
+      
+}

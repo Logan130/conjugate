@@ -249,7 +249,17 @@ export function ConjugateRuleCards() {
             </div>
 
 
-            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={toggleModal}>
+            <div className="card w-auto bg-neutral text-neutral-content image-full hover:cursor-pointer" onClick={toggleModal}
+                style={{
+                    transition: 'transform 0.5s ease-in-out',
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'scale(1.02)'; // Enlarge slightly
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'scale(1)'; // Return to original size
+                }}
+            >
                 <figure><img src={Passe} alt="passé composé" /></figure>
 
                 <div className="card-body items-center text-center">

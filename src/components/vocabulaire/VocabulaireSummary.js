@@ -213,6 +213,12 @@ function articleParser(word) {
     if ( !word.pos || (!word.pos.includes('n.m.') && !word.pos.includes('n.f.')) || word.french[0] === 'h') {
         return word.french;
     }
+    if (word.french.length >= 3) {
+        let substring = word.french.substring(0, 2);
+        let substring2 = word.french.substring(0, 3);
+        if (substring === 'la' || substring === 'le' || substring2 === 'les')
+            return word.french
+    }
     if (word.pos.includes('pl.'))
         return word.french
     let vowels = ["a", "i", "o", "e", "y", "u", "é", "ê", "è", "î", "ï", "à"];

@@ -230,7 +230,7 @@ function StatisticsTable() {
         },
         {
             book: "所有积累",
-            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi', 'TCF'], ['A1', 'A2', 'B1', 'B2', 'TCF CE', 'Edito B1', 'InnerFrench']),
+            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi', 'TCF'], ['A1', 'A2', 'B1', 'B2', 'TCF CE', 'Edito B1', 'InnerFrench', 'C1']),
         },
     ];
 
