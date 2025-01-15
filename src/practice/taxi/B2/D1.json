@@ -1,2092 +1,2094 @@
-[
-    {
-        "question_number": 1,
-        "question": "La __________ de cette plante est très profond.",
-        "options": [
-            "feuille",
-            "gène",
-            "racine",
-            "métamorphose"
-        ],
-        "answer": "racine"
-    },
-    {
-        "question_number": 2,
-        "question": "Elle a dû ____________ un enfant prématuré.",
-        "options": [
-            "accoucher de",
-            "opérer",
-            "feuilleter",
-            "renvoyer"
-        ],
-        "answer": "accoucher de"
-    },
-    {
-        "question_number": 3,
-        "question": "Le médecin a conseillé une ___________ pour traiter ce stress.",
-        "options": [
-            "thérapie",
-            "législation",
-            "généalogie",
-            "éclairage"
-        ],
-        "answer": "thérapie"
-    },
-    {
-        "question_number": 4,
-        "question": "Les scientifiques ont découvert un nouveau ___________ responsable de cette maladie.",
-        "options": [
-            "donnée",
-            "gène",
-            "vécu",
-            "mimique"
-        ],
-        "answer": "gène"
-    },
-    {
-        "question_number": 5,
-        "question": "Le ___________ de cet auteur est impressionnant.",
-        "options": [
-            "vécu",
-            "livret",
-            "billet",
-            "entourage"
-        ],
-        "answer": "vécu"
-    },
-    {
-        "question_number": 6,
-        "question": "Je n'ai pas ___________ que je peux vous aider tout de suite.",
-        "options": [
-            "suffire",
-            "figurer",
-            "dépendre",
-            "accueillir"
-        ],
-        "answer": "suffire"
-    },
-    {
-        "question_number": 7,
-        "question": "Il est arrivé à ____________ de traverser la rue sans regarder.",
-        "options": [
-            "moi",
-            "nous",
-            "qn",
-            "vous"
-        ],
-        "answer": "qn"
-    },
-    {
-        "question_number": 8,
-        "question": "Il y a trop de ___________ dans ce texte, c'est difficile à suivre.",
-        "options": [
-            "bribes",
-            "généalogie",
-            "méandres",
-            "formel"
-        ],
-        "answer": "méandres"
-    },
-    {
-        "question_number": 9,
-        "question": "Le ___________ d'une telle action est incontestable.",
-        "options": [
-            "légitime",
-            "législation",
-            "dépourvu",
-            "accompagner"
-        ],
-        "answer": "légitime"
-    },
-    {
-        "question_number": 10,
-        "question": "Vous avez ___________ à ce que je vous explique.",
-        "options": [
-            "suffit",
-            "donné",
-            "avouer",
-            "soumis"
-        ],
-        "answer": "avouer"
-    },
-    {
-        "question_number": 11,
-        "question": "Il n'a pas ___________ de faire ce travail tout seul.",
-        "options": [
-            "suffit",
-            "conclu",
-            "commencé",
-            "réfléchi"
-        ],
-        "answer": "suffit"
-    },
-    {
-        "question_number": 12,
-        "question": "Il est difficile de ___________ entre les différents modèles.",
-        "options": [
-            "différencier",
-            "soumettre",
-            "figurer",
-            "réaliser"
-        ],
-        "answer": "différencier"
-    },
-    {
-        "question_number": 13,
-        "question": "Elle a ___________ un nouveau projet après son départ.",
-        "options": [
-            "virer",
-            "accoucher de",
-            "opéré",
-            "renvoyer"
-        ],
-        "answer": "virer"
-    },
-    {
-        "question_number": 14,
-        "question": "Il n'a pas ___________ de dire la vérité.",
-        "options": [
-            "figurer",
-            "suffit",
-            "avouer",
-            "accueillir"
-        ],
-        "answer": "avouer"
-    },
-    {
-        "question_number": 15,
-        "question": "Le ___________ de ce document est assez long.",
-        "options": [
-            "cahier",
-            "livret",
-            "billet",
-            "feuillet"
-        ],
-        "answer": "feuillet"
-    },
-    {
-        "question_number": 16,
-        "question": "Elle a l'air ___________ après cet accident.",
-        "options": [
-            "estropiée",
-            "transparente",
-            "fatiguée",
-            "réelle"
-        ],
-        "answer": "estropiée"
-    },
-    {
-        "question_number": 17,
-        "question": "Le ___________ du texte est très complexe.",
-        "options": [
-            "contenu",
-            "sujet",
-            "formel",
-            "taux"
-        ],
-        "answer": "formel"
-    },
-    {
-        "question_number": 18,
-        "question": "Nous avons dû ___________ les informations de plusieurs documents.",
-        "options": [
-            "feuilleter",
-            "accueillir",
-            "étudier",
-            "décider"
-        ],
-        "answer": "feuilleter"
-    },
-    {
-        "question_number": 19,
-        "question": "Cet outil peut ___________ une grande différence dans la recherche.",
-        "options": [
-            "apprendre",
-            "figurer",
-            "opérer",
-            "dépendre"
-        ],
-        "answer": "opérer"
-    },
-    {
-        "question_number": 20,
-        "question": "Il est ___________ de travailler seul toute la journée.",
-        "options": [
-            "dépourvu",
-            "légitime",
-            "nécessaire",
-            "difficile"
-        ],
-        "answer": "difficile"
-    },
-    {
-        "question_number": 21,
-        "question": "Les ___________ de la politique sont souvent très complexes.",
-        "options": [
-            "mimique",
-            "bribes",
-            "méandres",
-            "gestuelle"
-        ],
-        "answer": "méandres"
-    },
-    {
-        "question_number": 22,
-        "question": "Il a décidé de ___________ un livre avec ses souvenirs.",
-        "options": [
-            "écrire",
-            "avouer",
-            "réfléchir",
-            "renvoyer"
-        ],
-        "answer": "écrire"
-    },
-    {
-        "question_number": 23,
-        "question": "L'____________ de cette situation ne laisse pas de place au doute.",
-        "options": [
-            "éclairage",
-            "avouer",
-            "accouchement",
-            "écorcher"
-        ],
-        "answer": "éclairage"
-    },
-    {
-        "question_number": 24,
-        "question": "Les ___________ en matière de droit sont très strictes dans ce pays.",
-        "options": [
-            "savoir",
-            "législation",
-            "mimique",
-            "économie"
-        ],
-        "answer": "législation"
-    },
-    {
-        "question_number": 25,
-        "question": "Le ___________ d'un enfant unique peut avoir des effets sur son développement.",
-        "options": [
-            "vécu",
-            "entourage",
-            "accouchement",
-            "généalogie"
-        ],
-        "answer": "vécu"
-    },
-    {
-        "question_number": 26,
-        "question": "Il faut ___________ tous les arguments avant de prendre une décision.",
-        "options": [
-            "réfléchir",
-            "avouer",
-            "accoucher de",
-            "différencier"
-        ],
-        "answer": "réfléchir"
-    },
-    {
-        "question_number": 27,
-        "question": "Son ___________ est celui d'une grande famille avec une longue histoire.",
-        "options": [
-            "généalogie",
-            "mimique",
-            "vécu",
-            "éclairage"
-        ],
-        "answer": "généalogie"
-    },
-    {
-        "question_number": 28,
-        "question": "Elle a ___________ de se rendre à la réunion.",
-        "options": [
-            "dû",
-            "envie",
-            "donné",
-            "suffit"
-        ],
-        "answer": "dû"
-    },
-    {
-        "question_number": 29,
-        "question": "Les ___________ de ce geste sont manifestes dans sa posture.",
-        "options": [
-            "gestuelle",
-            "mimique",
-            "réflexion",
-            "donnée"
-        ],
-        "answer": "gestuelle"
-    },
-    {
-        "question_number": 30,
-        "question": "Il a ___________ son ancien emploi après plusieurs années.",
-        "options": [
-            "viré",
-            "renvoyé",
-            "accueilli",
-            "avoué"
-        ],
-        "answer": "viré"
-    },
-    {
-        "question_number": 1,
-        "question": "Le ___________ suisse est renommé pour ses montagnes et ses horloges.",
-        "options": [
-            "patrie",
-            "helvétique",
-            "flamant",
-            "verrous"
-        ],
-        "answer": "helvétique"
-    },
-    {
-        "question_number": 2,
-        "question": "Elle a décidé de ___________ en Suisse après ses études.",
-        "options": [
-            "mendier",
-            "s’établir",
-            "réfléchir",
-            "expatrier"
-        ],
-        "answer": "s’établir"
-    },
-    {
-        "question_number": 3,
-        "question": "Il a vécu une ___________ en voyage, perdant son passeport à l'aéroport.",
-        "options": [
-            "correspondance",
-            "mésaventure",
-            "programme",
-            "virée"
-        ],
-        "answer": "mésaventure"
-    },
-    {
-        "question_number": 4,
-        "question": "La ___________ de ce train est très bonne, il arrive à l'heure.",
-        "options": [
-            "correspondance",
-            "vigne",
-            "horlogerie",
-            "patrie"
-        ],
-        "answer": "correspondance"
-    },
-    {
-        "question_number": 5,
-        "question": "Ils ont prévu une ___________ à la montagne ce week-end.",
-        "options": [
-            "mésaventure",
-            "virée",
-            "fondue",
-            "bizarre"
-        ],
-        "answer": "virée"
-    },
-    {
-        "question_number": 6,
-        "question": "Il a ___________ de la porte sans faire attention et s'est cogné.",
-        "options": [
-            "heurter",
-            "coller",
-            "se heurter",
-            "expatrier"
-        ],
-        "answer": "se heurter"
-    },
-    {
-        "question_number": 7,
-        "question": "Il a eu ___________ de ses projets de vacances à la dernière minute.",
-        "options": [
-            "une correspondance",
-            "un réflexe",
-            "un expatrier",
-            "un dépaysé"
-        ],
-        "answer": "un réflexe"
-    },
-    {
-        "question_number": 8,
-        "question": "Elle s'est sentie ___________ lorsqu'elle est arrivée dans une ville inconnue.",
-        "options": [
-            "dépaysée",
-            "extravertie",
-            "pure",
-            "bizarre"
-        ],
-        "answer": "dépaysée"
-    },
-    {
-        "question_number": 9,
-        "question": "Il a ___________ son problème à son collègue pour trouver une solution.",
-        "options": [
-            "évoqué",
-            "programmé",
-            "rendu visite",
-            "mendier"
-        ],
-        "answer": "évoqué"
-    },
-    {
-        "question_number": 10,
-        "question": "L'_____________ de ce vin a lieu chaque année dans le vignoble.",
-        "options": [
-            "étang",
-            "horlogerie",
-            "vigne",
-            "flamant"
-        ],
-        "answer": "vigne"
-    },
-    {
-        "question_number": 11,
-        "question": "Cette décision ___________ de nombreux débats au sein du comité.",
-        "options": [
-            "comporte",
-            "s’établir",
-            "évoque",
-            "se méfier"
-        ],
-        "answer": "comporte"
-    },
-    {
-        "question_number": 12,
-        "question": "La ___________ du train a causé quelques retards dans le programme.",
-        "options": [
-            "correspondance",
-            "flamant",
-            "vigne",
-            "dépaysé"
-        ],
-        "answer": "correspondance"
-    },
-    {
-        "question_number": 13,
-        "question": "Il a ___________ à l'idée de partir en vacances à la montagne.",
-        "options": [
-            "il est venu à l’esprit à qn de faire",
-            "s’en fait",
-            "coller",
-            "virer"
-        ],
-        "answer": "il est venu à l’esprit à qn de faire"
-    },
-    {
-        "question_number": 14,
-        "question": "Ce changement de programme m’a vraiment ___________ dans mes habitudes.",
-        "options": [
-            "perturbé",
-            "dépaysant",
-            "refraîchissant",
-            "extraverti"
-        ],
-        "answer": "dépaysant"
-    },
-    {
-        "question_number": 15,
-        "question": "Il m'a dit qu'il n'avait ___________ essayer de convaincre son patron.",
-        "options": [
-            "avoir beau faire",
-            "se heurter",
-            "coller",
-            "expatrier"
-        ],
-        "answer": "avoir beau faire"
-    },
-    {
-        "question_number": 16,
-        "question": "Elle a ___________ dans le coin après des années de voyage.",
-        "options": [
-            "s’établir",
-            "expatrier",
-            "venir",
-            "héberger"
-        ],
-        "answer": "s’établir"
-    },
-    {
-        "question_number": 17,
-        "question": "Le ___________ suisse est réputé pour son expertise en fabrication de montres.",
-        "options": [
-            "mec",
-            "patrie",
-            "horlogerie",
-            "clavier"
-        ],
-        "answer": "horlogerie"
-    },
-    {
-        "question_number": 18,
-        "question": "Il a ___________ les papiers dans son tiroir.",
-        "options": [
-            "collé",
-            "expatrié",
-            "rafraîchissant",
-            "viré"
-        ],
-        "answer": "collé"
-    },
-    {
-        "question_number": 19,
-        "question": "Son ___________ est très calme, c'est une personne introvertie.",
-        "options": [
-            "reflexe",
-            "extraverti",
-            "dépaysé",
-            "pur"
-        ],
-        "answer": "extraverti"
-    },
-    {
-        "question_number": 20,
-        "question": "Les ___________ de l'hôtel ont été plus élevés que prévu.",
-        "options": [
-            "frais",
-            "étang",
-            "dépaysé",
-            "mendier"
-        ],
-        "answer": "frais"
-    },
-    {
-        "question_number": 21,
-        "question": "Je vais ___________ mes parents ce week-end.",
-        "options": [
-            "rendre visite",
-            "expatrier",
-            "se méfier",
-            "évoquer"
-        ],
-        "answer": "rendre visite"
-    },
-    {
-        "question_number": 22,
-        "question": "Le ___________ du vin est une activité de plus en plus populaire.",
-        "options": [
-            "programme",
-            "rafraîchissant",
-            "mec",
-            "vigne"
-        ],
-        "answer": "vigne"
-    },
-    {
-        "question_number": 23,
-        "question": "Il m'a donné une ___________ très intéressante pour améliorer ma méthode de travail.",
-        "options": [
-            "expérience",
-            "bizarrerie",
-            "idée",
-            "réflexe"
-        ],
-        "answer": "idée"
-    },
-    {
-        "question_number": 24,
-        "question": "Il a ___________ en voyant le film d'horreur.",
-        "options": [
-            "s’approcher",
-            "évoqué",
-            "réfléchi",
-            "s’en fait"
-        ],
-        "answer": "s’en fait"
-    },
-    {
-        "question_number": 25,
-        "question": "Après cette ___________ où il a perdu son sac, il était épuisé.",
-        "options": [
-            "mésaventure",
-            "expatrié",
-            "virée",
-            "flamant"
-        ],
-        "answer": "mésaventure"
-    },
-    {
-        "question_number": 26,
-        "question": "Un ___________ me dérange à chaque réunion, je n'arrive pas à me concentrer.",
-        "options": [
-            "flamant",
-            "mec",
-            "verrou",
-            "bizarre"
-        ],
-        "answer": "bizarre"
-    },
-    {
-        "question_number": 27,
-        "question": "Elle a ___________ en se rapprochant de l'objet.",
-        "options": [
-            "refraîchissant",
-            "dépaysant",
-            "s’approcher",
-            "se méfier"
-        ],
-        "answer": "s’approcher"
-    },
-    {
-        "question_number": 28,
-        "question": "Cette montagne est vraiment ___________, elle offre une vue magnifique.",
-        "options": [
-            "rafraîchissante",
-            "dépaysante",
-            "mésaventure",
-            "bizarre"
-        ],
-        "answer": "rafraîchissante"
-    },
-    {
-        "question_number": 29,
-        "question": "Il est difficile de ___________ avec quelqu'un qu'on ne connaît pas.",
-        "options": [
-            "se méfier",
-            "entrer en contact",
-            "expatrier",
-            "mendier"
-        ],
-        "answer": "entrer en contact"
-    },
-    {
-        "question_number": 30,
-        "question": "L'odeur du ___________ est souvent très agréable dans un restaurant.",
-        "options": [
-            "fondue",
-            "verrou",
-            "clavier",
-            "mec"
-        ],
-        "answer": "fondue"
-    },
-    {
-        "question_number": 1,
-        "question": "Le candidat a été ___________ président du comité.",
-        "options": [
-            "élu",
-            "fouler",
-            "déployer",
-            "modéré"
-        ],
-        "answer": "élu"
-    },
-    {
-        "question_number": 2,
-        "question": "Il a une grande ___________ pour sa capacité à résoudre des problèmes complexes.",
-        "options": [
-            "docilité",
-            "spontanéité",
-            "persévérance",
-            "génie"
-        ],
-        "answer": "persévérance"
-    },
-    {
-        "question_number": 3,
-        "question": "Elle a décidé de ___________ une carrière dans la médecine.",
-        "options": [
-            "faire carrière à",
-            "fouler",
-            "remporter",
-            "apprendre"
-        ],
-        "answer": "faire carrière à"
-    },
-    {
-        "question_number": 4,
-        "question": "Le ___________ du produit est impeccable, c'est un vrai chef-d'œuvre.",
-        "options": [
-            "perfectionnisme",
-            "modération",
-            "tempéré",
-            "cursus"
-        ],
-        "answer": "perfectionnisme"
-    },
-    {
-        "question_number": 5,
-        "question": "Elle a ___________ dans la pièce sans faire de bruit.",
-        "options": [
-            "fouler",
-            "déployer",
-            "s’enfouir",
-            "s’apercevoir"
-        ],
-        "answer": "fouler"
-    },
-    {
-        "question_number": 6,
-        "question": "La réunion s'est ___________ dans la salle de conférence.",
-        "options": [
-            "déroulée",
-            "fouler",
-            "susciter",
-            "soupçonner"
-        ],
-        "answer": "déroulée"
-    },
-    {
-        "question_number": 7,
-        "question": "Il a une grande ___________ envers les étrangers, ce qui peut parfois être un problème.",
-        "options": [
-            "méfiance",
-            "soupçon",
-            "spontanéité",
-            "persévérance"
-        ],
-        "answer": "méfiance"
-    },
-    {
-        "question_number": 8,
-        "question": "Elle a ___________ la clé de la porte sous la terre.",
-        "options": [
-            "enfouir",
-            "déployer",
-            "susciter",
-            "croire en"
-        ],
-        "answer": "enfouir"
-    },
-    {
-        "question_number": 9,
-        "question": "Il ___________ que son équipe remportera la compétition.",
-        "options": [
-            "croit en",
-            "soupçonne",
-            "se méfie",
-            "parvient à"
-        ],
-        "answer": "croit en"
-    },
-    {
-        "question_number": 10,
-        "question": "Son attitude ___________ a fait de lui un collègue très apprécié.",
-        "options": [
-            "spontané",
-            "modéré",
-            "docile",
-            "extraverti"
-        ],
-        "answer": "spontané"
-    },
-    {
-        "question_number": 11,
-        "question": "Le ___________ de cette œuvre d'art a impressionné tout le public.",
-        "options": [
-            "génie",
-            "fouler",
-            "spontanéité",
-            "cursus"
-        ],
-        "answer": "génie"
-    },
-    {
-        "question_number": 12,
-        "question": "Ils ont réussi à ___________ le plus haut sommet après plusieurs jours d'ascension.",
-        "options": [
-            "parvenir à",
-            "déployer",
-            "fouler",
-            "s’enfouir"
-        ],
-        "answer": "parvenir à"
-    },
-    {
-        "question_number": 13,
-        "question": "Les ___________ de ce projet sont nombreux et variés.",
-        "options": [
-            "facettes",
-            "postes",
-            "fouler",
-            "génie"
-        ],
-        "answer": "facettes"
-    },
-    {
-        "question_number": 14,
-        "question": "Elle est ___________ après plusieurs mois de préparation.",
-        "options": [
-            "enceinte",
-            "élue",
-            "modéré",
-            "tempérée"
-        ],
-        "answer": "enceinte"
-    },
-    {
-        "question_number": 15,
-        "question": "Le ___________ de ce plan sera examiné lors de la prochaine réunion.",
-        "options": [
-            "poste",
-            "cursus",
-            "déploiement",
-            "génie"
-        ],
-        "answer": "poste"
-    },
-    {
-        "question_number": 16,
-        "question": "Ils ont dû ___________ leurs efforts pour réussir à finir le projet à temps.",
-        "options": [
-            "déployer",
-            "susciter",
-            "fouler",
-            "remporter"
-        ],
-        "answer": "déployer"
-    },
-    {
-        "question_number": 17,
-        "question": "Il a réussi à ___________ une belle carrière grâce à son travail acharné.",
-        "options": [
-            "faire carrière à",
-            "remporter",
-            "croire en",
-            "s’enfouir"
-        ],
-        "answer": "faire carrière à"
-    },
-    {
-        "question_number": 18,
-        "question": "Il a ___________ un nouveau poste dans une grande entreprise.",
-        "options": [
-            "remporté",
-            "élu",
-            "trouvé",
-            "isolé"
-        ],
-        "answer": "remporté"
-    },
-    {
-        "question_number": 19,
-        "question": "Elle a ___________ d’une manière plus équilibrée depuis qu'elle a commencé à méditer.",
-        "options": [
-            "tempéré",
-            "suscité",
-            "soupçonné",
-            "appris"
-        ],
-        "answer": "tempéré"
-    },
-    {
-        "question_number": 20,
-        "question": "Le travail d'équipe nécessite de la ___________ et du compromis.",
-        "options": [
-            "docilité",
-            "modération",
-            "passivité",
-            "spontanéité"
-        ],
-        "answer": "modération"
-    },
-    {
-        "question_number": 21,
-        "question": "Il est difficile de ___________ cette question car elle est trop complexe.",
-        "options": [
-            "soupçonner",
-            "évoquer",
-            "apprendre",
-            "parvenir à"
-        ],
-        "answer": "parvenir à"
-    },
-    {
-        "question_number": 22,
-        "question": "Il a une ___________ pour les nouvelles technologies.",
-        "options": [
-            "spontanéité",
-            "suspicion",
-            "facette",
-            "docilité"
-        ],
-        "answer": "spontanéité"
-    },
-    {
-        "question_number": 23,
-        "question": "Il a ___________ que sa collègue avait des doutes sur ses intentions.",
-        "options": [
-            "soupçonné",
-            "déployé",
-            "fouler",
-            "remporté"
-        ],
-        "answer": "soupçonné"
-    },
-    {
-        "question_number": 24,
-        "question": "Ce projet est une ___________ de compétences diverses.",
-        "options": [
-            "facette",
-            "récapitulation",
-            "postérité",
-            "structure"
-        ],
-        "answer": "facette"
-    },
-    {
-        "question_number": 25,
-        "question": "L'idée a ___________ une réaction immédiate de la part des employés.",
-        "options": [
-            "suscité",
-            "déployé",
-            "remporté",
-            "parvenu"
-        ],
-        "answer": "suscité"
-    },
-    {
-        "question_number": 26,
-        "question": "Les efforts de l'équipe ont ___________ des résultats positifs.",
-        "options": [
-            "déployé",
-            "suscité",
-            "appris",
-            "remporté"
-        ],
-        "answer": "remporté"
-    },
-    {
-        "question_number": 27,
-        "question": "Elle a été ___________ conseillère dans cette entreprise internationale.",
-        "options": [
-            "nommée",
-            "élue",
-            "spontanée",
-            "modérée"
-        ],
-        "answer": "nommée"
-    },
-    {
-        "question_number": 28,
-        "question": "Ils ont ___________ des plans pour le développement de nouvelles technologies.",
-        "options": [
-            "déployé",
-            "suscité",
-            "isolé",
-            "remporté"
-        ],
-        "answer": "déployé"
-    },
-    {
-        "question_number": 29,
-        "question": "Il a ___________ un emploi prestigieux dans une grande société.",
-        "options": [
-            "parvenu à",
-            "déployé",
-            "remporté",
-            "faire carrière à"
-        ],
-        "answer": "parvenu à"
-    },
-    {
-        "question_number": 30,
-        "question": "Il ___________ que son équipe atteindra ses objectifs cette année.",
-        "options": [
-            "croit en",
-            "soupçonne",
-            "se méfie",
-            "s’applique"
-        ],
-        "answer": "croit en"
-    },
-    {
-        "question_number": 1,
-        "question": "Il a une attitude ___________ face à la critique.",
-        "options": [
-            "enthousiaste",
-            "volontaire",
-            "irréfléchie",
-            "perfectionniste"
-        ],
-        "answer": "enthousiaste"
-    },
-    {
-        "question_number": 2,
-        "question": "Son comportement ___________ a déplu à tout le monde dans l’équipe.",
-        "options": [
-            "brusque",
-            "consciencieux",
-            "meticuleux",
-            "perfectionniste"
-        ],
-        "answer": "brusque"
-    },
-    {
-        "question_number": 3,
-        "question": "Elle est très ___________ et toujours organisée dans son travail.",
-        "options": [
-            "ordonnée",
-            "inquisitive",
-            "enthousiaste",
-            "souple"
-        ],
-        "answer": "ordonnée"
-    },
-    {
-        "question_number": 4,
-        "question": "C'est un homme ___________, il veut toujours que tout soit parfait.",
-        "options": [
-            "perfectionniste",
-            "volontaire",
-            "vif",
-            "meticuleuse"
-        ],
-        "answer": "perfectionniste"
-    },
-    {
-        "question_number": 5,
-        "question": "L'attitude ___________ de ce manager crée une atmosphère tendue.",
-        "options": [
-            "autoritaire",
-            "soumise",
-            "indulgente",
-            "conciliant"
-        ],
-        "answer": "autoritaire"
-    },
-    {
-        "question_number": 6,
-        "question": "Il a une approche ___________ lorsqu'il s'agit de résoudre des problèmes complexes.",
-        "options": [
-            "réactive",
-            "brusque",
-            "tenace",
-            "indulgente"
-        ],
-        "answer": "réactive"
-    },
-    {
-        "question_number": 7,
-        "question": "Elle a une personnalité ___________ et n'accepte jamais la défaite.",
-        "options": [
-            "tenace",
-            "inquisitive",
-            "souple",
-            "maniac"
-        ],
-        "answer": "tenace"
-    },
-    {
-        "question_number": 8,
-        "question": "Sa manière de travailler est extrêmement ___________, il ne laisse rien au hasard.",
-        "options": [
-            "pointilleuse",
-            "irréfléchie",
-            "laxiste",
-            "souple"
-        ],
-        "answer": "pointilleuse"
-    },
-    {
-        "question_number": 9,
-        "question": "Il est ___________ et refuse toujours de changer d'avis, même face aux évidences.",
-        "options": [
-            "entêté",
-            "volontaire",
-            "réactif",
-            "perfectionniste"
-        ],
-        "answer": "entêté"
-    },
-    {
-        "question_number": 10,
-        "question": "Elle a une attitude ___________ qui lui permet de s'adapter facilement aux changements.",
-        "options": [
-            "souple",
-            "laxiste",
-            "brusque",
-            "maniac"
-        ],
-        "answer": "souple"
-    },
-    {
-        "question_number": 11,
-        "question": "Un leader ___________ sait quand prendre des décisions fermes.",
-        "options": [
-            "ferme",
-            "indulgent",
-            "consciencieux",
-            "meticuleux"
-        ],
-        "answer": "ferme"
-    },
-    {
-        "question_number": 12,
-        "question": "Son attitude ___________ l'empêche de voir les choses sous un autre angle.",
-        "options": [
-            "obstinée",
-            "soumise",
-            "réactive",
-            "enthousiaste"
-        ],
-        "answer": "obstinée"
-    },
-    {
-        "question_number": 13,
-        "question": "Il fait preuve de ___________ en s'intéressant aux détails les plus fins.",
-        "options": [
-            "méthodique",
-            "réactif",
-            "indulgent",
-            "laxiste"
-        ],
-        "answer": "méthodique"
-    },
-    {
-        "question_number": 14,
-        "question": "Son approche ___________ le rend difficile à travailler avec, car il veut toujours tout contrôler.",
-        "options": [
-            "tyrannique",
-            "laxiste",
-            "conciliant",
-            "soumis"
-        ],
-        "answer": "tyrannique"
-    },
-    {
-        "question_number": 15,
-        "question": "Le travail de l'équipe s'est amélioré grâce à son attitude ___________ envers les suggestions des autres.",
-        "options": [
-            "conciliante",
-            "méticuleuse",
-            "réactive",
-            "maniac"
-        ],
-        "answer": "conciliante"
-    },
-    {
-        "question_number": 16,
-        "question": "Elle est toujours très ___________ et s'assure que tout est fait de manière précise.",
-        "options": [
-            "meticuleuse",
-            "volontaire",
-            "irréfléchie",
-            "soumise"
-        ],
-        "answer": "meticuleuse"
-    },
-    {
-        "question_number": 17,
-        "question": "Il est ___________ à répondre à chaque question avec un grand enthousiasme.",
-        "options": [
-            "enthousiaste",
-            "réactif",
-            "perfectionniste",
-            "laxiste"
-        ],
-        "answer": "enthousiaste"
-    },
-    {
-        "question_number": 18,
-        "question": "Son comportement ___________ était évident, car il ne tenait pas compte des besoins des autres.",
-        "options": [
-            "sans-gêne",
-            "ferme",
-            "volontaire",
-            "inquisiteur"
-        ],
-        "answer": "sans-gêne"
-    },
-    {
-        "question_number": 19,
-        "question": "Elle est ___________ et accepte la critique de manière constructive.",
-        "options": [
-            "indulgente",
-            "réactive",
-            "obstinée",
-            "maniac"
-        ],
-        "answer": "indulgente"
-    },
-    {
-        "question_number": 20,
-        "question": "Il est ___________ lorsqu'il travaille sur un projet, toujours concentré sur les objectifs.",
-        "options": [
-            "volontaire",
-            "souple",
-            "réactif",
-            "tenace"
-        ],
-        "answer": "volontaire"
-    },
-    {
-        "question_number": 21,
-        "question": "Il est ___________ et peut changer d'avis facilement lorsqu'il est confronté à de nouvelles informations.",
-        "options": [
-            "malléable",
-            "laxiste",
-            "volontaire",
-            "conciliant"
-        ],
-        "answer": "malléable"
-    },
-    {
-        "question_number": 22,
-        "question": "Elle est ___________ dans la gestion de son emploi du temps et suit une routine bien établie.",
-        "options": [
-            "ordonnée",
-            "enthousiaste",
-            "laxiste",
-            "perfectionniste"
-        ],
-        "answer": "ordonnée"
-    },
-    {
-        "question_number": 23,
-        "question": "Il est ___________ dans ses décisions et exige que les autres respectent ses choix.",
-        "options": [
-            "catégorique",
-            "soumis",
-            "souple",
-            "indulgent"
-        ],
-        "answer": "catégorique"
-    },
-    {
-        "question_number": 24,
-        "question": "Elle a un caractère ___________ qui lui permet de s'adapter à toutes sortes de situations.",
-        "options": [
-            "souple",
-            "réactif",
-            "brusque",
-            "indulgent"
-        ],
-        "answer": "souple"
-    },
-    {
-        "question_number": 25,
-        "question": "Son attitude ___________ envers les employés crée une ambiance agréable au travail.",
-        "options": [
-            "indulgente",
-            "autoritaire",
-            "obstinée",
-            "brusque"
-        ],
-        "answer": "indulgente"
-    },
-    {
-        "question_number": 26,
-        "question": "Le manager est ___________ mais sait imposer des limites lorsque nécessaire.",
-        "options": [
-            "ferme",
-            "volontaire",
-            "soumis",
-            "souple"
-        ],
-        "answer": "ferme"
-    },
-    {
-        "question_number": 27,
-        "question": "Elle a ___________ une carrière réussie dans le domaine de la finance grâce à son travail acharné.",
-        "options": [
-            "remporté",
-            "obtenu",
-            "déployé",
-            "indulgé"
-        ],
-        "answer": "remporté"
-    },
-    {
-        "question_number": 28,
-        "question": "Son approche ___________ lui permet d'atteindre ses objectifs sans se laisser distraire.",
-        "options": [
-            "perfectionniste",
-            "réactive",
-            "souple",
-            "enthousiaste"
-        ],
-        "answer": "perfectionniste"
-    },
-    {
-        "question_number": 29,
-        "question": "Il est ___________ et refuse de changer de direction, même quand on lui montre que ce n'est pas la meilleure option.",
-        "options": [
-            "obstiné",
-            "volontaire",
-            "souple",
-            "réactif"
-        ],
-        "answer": "obstiné"
-    },
-    {
-        "question_number": 30,
-        "question": "Elle est très ___________ et prête à apprendre de nouvelles choses chaque jour.",
-        "options": [
-            "enthousiaste",
-            "méticuleuse",
-            "laxiste",
-            "volontaire"
-        ],
-        "answer": "enthousiaste"
-    },
-    {
-        "question_number": 1,
-        "question": "Le _______ de l'homme est très noble et digne de respect.",
-        "options": [
-            "comportement",
-            "regard",
-            "caractère",
-            "façon"
-        ],
-        "answer": "caractère"
-    },
-    {
-        "question_number": 2,
-        "question": "Elle a toujours été un _______ de l'art classique.",
-        "options": [
-            "médecin",
-            "adorateur",
-            "amateur",
-            "expert"
-        ],
-        "answer": "amateur"
-    },
-    {
-        "question_number": 3,
-        "question": "Le _______ est un homme prêt à défendre son pays dans les situations extrêmes.",
-        "options": [
-            "soldat",
-            "citoyen",
-            "combattant",
-            "bourgeois"
-        ],
-        "answer": "combattant"
-    },
-    {
-        "question_number": 4,
-        "question": "Il a joué un rôle important pendant la guerre en tant que _______.",
-        "options": [
-            "soldat",
-            "civile",
-            "associé",
-            "prisonnier"
-        ],
-        "answer": "soldat"
-    },
-    {
-        "question_number": 5,
-        "question": "Il a réussi à _______ un homme qui était en train de se noyer.",
-        "options": [
-            "aider",
-            "secourir",
-            "soigner",
-            "applaudir"
-        ],
-        "answer": "secourir"
-    },
-    {
-        "question_number": 6,
-        "question": "Les _______ de la guerre étaient prêts à tout pour défendre leur cause.",
-        "options": [
-            "belligérants",
-            "pacifistes",
-            "prisonniers",
-            "diplomates"
-        ],
-        "answer": "belligérants"
-    },
-    {
-        "question_number": 7,
-        "question": "J'aime manger de la _______ de fruit au petit-déjeuner.",
-        "options": [
-            "confiture",
-            "marmelade",
-            "tartine",
-            "crème"
-        ],
-        "answer": "marmelade"
-    },
-    {
-        "question_number": 8,
-        "question": "Nous avons décidé de _______ un poulet pour le dîner.",
-        "options": [
-            "rôtir",
-            "frire",
-            "griller",
-            "bouillir"
-        ],
-        "answer": "rôtir"
-    },
-    {
-        "question_number": 9,
-        "question": "J’ai préparé un _______ au barbecue pour ce soir.",
-        "options": [
-            "rôti",
-            "steak",
-            "marmite",
-            "gratin"
-        ],
-        "answer": "rôti"
-    },
-    {
-        "question_number": 10,
-        "question": "Elle aime bien manger du _______ le matin avec du beurre et de la confiture.",
-        "options": [
-            "toast",
-            "rôti",
-            "pain grillé",
-            "croissant"
-        ],
-        "answer": "toast"
-    },
-    {
-        "question_number": 11,
-        "question": "Il a exprimé sa _______ après avoir appris la nouvelle.",
-        "options": [
-            "joie",
-            "tristesse",
-            "réprobation",
-            "enthousiasme"
-        ],
-        "answer": "réprobation"
-    },
-    {
-        "question_number": 12,
-        "question": "Le professeur a montré de la _______ envers ses élèves en difficulté.",
-        "options": [
-            "bienveillance",
-            "colère",
-            "peine",
-            "disproportion"
-        ],
-        "answer": "bienveillance"
-    },
-    {
-        "question_number": 13,
-        "question": "Elle a _______ à son collègue de ne pas parler si fort.",
-        "options": [
-            "accusé",
-            "reproché",
-            "approuvé",
-            "félicité"
-        ],
-        "answer": "reproché"
-    },
-    {
-        "question_number": 14,
-        "question": "Il a utilisé une _______ en bois pour réparer la structure du toit.",
-        "options": [
-            "plaque",
-            "plancher",
-            "plante",
-            "planche"
-        ],
-        "answer": "planche"
-    },
-    {
-        "question_number": 15,
-        "question": "C’est un film vraiment _______ qui te tient en haleine du début à la fin.",
-        "options": [
-            "ennuyeux",
-            "fascinant",
-            "mauvais",
-            "lourd"
-        ],
-        "answer": "fascinant"
-    },
-    {
-        "question_number": 16,
-        "question": "Sa _______ envers les animaux est admirable.",
-        "options": [
-            "tendresse",
-            "colère",
-            "peur",
-            "haine"
-        ],
-        "answer": "tendresse"
-    },
-    {
-        "question_number": 17,
-        "question": "La situation était _______ ; tout le monde était choqué par l’annonce.",
-        "options": [
-            "rassurante",
-            "choquante",
-            "calme",
-            "détendue"
-        ],
-        "answer": "choquante"
-    },
-    {
-        "question_number": 18,
-        "question": "Il a _______ un excédent de nourriture dans le réfrigérateur.",
-        "options": [
-            "fait",
-            "envoyé",
-            "entassé",
-            "caché"
-        ],
-        "answer": "entassé"
-    },
-    {
-        "question_number": 19,
-        "question": "Ce film est vraiment _______; j’ai du mal à le regarder.",
-        "options": [
-            "vulgaire",
-            "fascinant",
-            "ennuyeux",
-            "intéressant"
-        ],
-        "answer": "choquant"
-    },
-    {
-        "question_number": 20,
-        "question": "Elle a une _______ élégante qui ne passe pas inaperçue.",
-        "options": [
-            "allure",
-            "méthode",
-            "routine",
-            "disposition"
-        ],
-        "answer": "allure"
-    },
-    {
-        "question_number": 21,
-        "question": "Pour réussir à ouvrir la porte, il a dû _______ les clés dans sa poche.",
-        "options": [
-            "chercher",
-            "fouiller",
-            "laver",
-            "ranger"
-        ],
-        "answer": "fouiller"
-    },
-    {
-        "question_number": 22,
-        "question": "Ce plat est vraiment _______ ; il contient beaucoup de fines herbes.",
-        "options": [
-            "léger",
-            "délicat",
-            "très épicé",
-            "fort"
-        ],
-        "answer": "délicat"
-    },
-    {
-        "question_number": 23,
-        "question": "Il est _______ face aux difficultés et reste calme dans toutes les situations.",
-        "options": [
-            "énergique",
-            "timide",
-            "flegmatique",
-            "nerveux"
-        ],
-        "answer": "flegmatique"
-    },
-    {
-        "question_number": 24,
-        "question": "Elle m’a donné une _______ impression dès que je l’ai rencontrée.",
-        "options": [
-            "sensation",
-            "doute",
-            "rassurante",
-            "mauvaise"
-        ],
-        "answer": "rassurante"
-    },
-    {
-        "question_number": 25,
-        "question": "L’idée de défendre son pays est un signe de _______ profond.",
-        "options": [
-            "patriotisme",
-            "détachement",
-            "indifférence",
-            "nationalisme"
-        ],
-        "answer": "patriotisme"
-    },
-    {
-        "question_number": 26,
-        "question": "Ce film me rend _______ ; il me rappelle tellement de souvenirs d’enfance.",
-        "options": [
-            "nostalgique",
-            "déprimé",
-            "agité",
-            "heureux"
-        ],
-        "answer": "nostalgique"
-    },
-    {
-        "question_number": 27,
-        "question": "Les artistes ont l’habitude de _______ leurs œuvres à des styles différents.",
-        "options": [
-            "correspondre",
-            "lancer",
-            "décrire",
-            "observer"
-        ],
-        "answer": "correspondre"
-    },
-    {
-        "question_number": 28,
-        "question": "Il a l’intention de _______ des documents importants dans son rapport.",
-        "options": [
-            "accrocher",
-            "attacher",
-            "signer",
-            "vérifier"
-        ],
-        "answer": "attacher"
-    },
-    {
-        "question_number": 29,
-        "question": "Après une longue discussion, ils ont fini par _______ leur projet.",
-        "options": [
-            "compléter",
-            "arrêter",
-            "finir",
-            "adopter"
-        ],
-        "answer": "adopter"
-    },
-    {
-        "question_number": 30,
-        "question": "Nous avons assisté à une _______ solennelle pour célébrer la fin de l'année.",
-        "options": [
-            "célébration",
-            "cérémonie",
-            "fête",
-            "réunion"
-        ],
-        "answer": "cérémonie"
-    },
-    {
-        "question_number": 1,
-        "question": "Il a _______ lors du match et a dû être emmené à l'hôpital.",
-        "options": [
-            "blessé",
-            "soupçonné",
-            "reconnu",
-            "aussi"
-        ],
-        "answer": "blessé"
-    },
-    {
-        "question_number": 2,
-        "question": "C'est _______ le problème se situe, dans l'absence de communication.",
-        "options": [
-            "là",
-            "ce",
-            "où",
-            "là où"
-        ],
-        "answer": "là où"
-    },
-    {
-        "question_number": 3,
-        "question": "Les souvenirs de cette journée sont _______ dans mon esprit.",
-        "options": [
-            "effaçables",
-            "indélébiles",
-            "fugaces",
-            "oubliables"
-        ],
-        "answer": "indélébiles"
-    },
-    {
-        "question_number": 4,
-        "question": "La honte qu'il a ressentie était _______ ; il n'a jamais pu s'en débarrasser.",
-        "options": [
-            "ineffaçable",
-            "inespérée",
-            "impressionnante",
-            "inexplicable"
-        ],
-        "answer": "ineffaçable"
-    },
-    {
-        "question_number": 5,
-        "question": "______ vous souhaitez en savoir plus sur l'histoire de la ville ?",
-        "options": [
-            "En quoi",
-            "Pourquoi",
-            "Quoi que",
-            "Comment"
-        ],
-        "answer": "En quoi"
-    },
-    {
-        "question_number": 6,
-        "question": "______ il soit malade, il a décidé de participer à la réunion.",
-        "options": [
-            "Quoique",
-            "Même si",
-            "Aussi",
-            "Bien que"
-        ],
-        "answer": "Quoique"
-    },
-    {
-        "question_number": 7,
-        "question": "La _______ d'Alzheimer est une maladie qui affecte progressivement la mémoire.",
-        "options": [
-            "maladie de Parkinson",
-            "maladie d'Alzheimer",
-            "sclérose en plaques",
-            "dépression"
-        ],
-        "answer": "maladie d'Alzheimer"
-    },
-    {
-        "question_number": 8,
-        "question": "Ils ont un _______ très intelligent, qui a repris l'entreprise familiale.",
-        "options": [
-            "rejeton",
-            "ancien",
-            "colis",
-            "prisonnier"
-        ],
-        "answer": "rejeton"
-    },
-    {
-        "question_number": 9,
-        "question": "Elle a un _______ profond à cause de son enfance difficile.",
-        "options": [
-            "complexe",
-            "courage",
-            "charisme",
-            "talent"
-        ],
-        "answer": "complexe"
-    },
-    {
-        "question_number": 10,
-        "question": "Les légendes parlent d'un amour _______ qui ne mourra jamais.",
-        "options": [
-            "éternel",
-            "inoubliable",
-            "invisible",
-            "irréel"
-        ],
-        "answer": "éternel"
-    },
-    {
-        "question_number": 11,
-        "question": "Il a voulu _______ son avis sur ce projet avant de donner une réponse finale.",
-        "options": [
-            "exposer",
-            "explorer",
-            "conseiller",
-            "soutenir"
-        ],
-        "answer": "exposer"
-    },
-    {
-        "question_number": 12,
-        "question": "L'_________ vit dans un pays étranger mais reste attaché à sa culture.",
-        "options": [
-            "expatrié",
-            "immigrant",
-            "employé",
-            "étudiant"
-        ],
-        "answer": "expatrié"
-    },
-    {
-        "question_number": 13,
-        "question": "Je le _______ à son sourire et à sa façon de parler.",
-        "options": [
-            "reconnaître",
-            "prouver",
-            "voir",
-            "questionner"
-        ],
-        "answer": "reconnaître"
-    },
-    {
-        "question_number": 14,
-        "question": "Ce titre peut _______ à la personne la plus méritante.",
-        "options": [
-            "accorder",
-            "conférer",
-            "rejeter",
-            "exclure"
-        ],
-        "answer": "conférer"
-    },
-    {
-        "question_number": 15,
-        "question": "Les _______ de la moisson se retrouvent souvent dans les champs après la récolte.",
-        "options": [
-            "pailles",
-            "feuilles",
-            "branches",
-            "herbes"
-        ],
-        "answer": "pailles"
-    },
-    {
-        "question_number": 16,
-        "question": "Ils ont décidé de _______ le cerf dans le musée pour les prochaines générations.",
-        "options": [
-            "empailler",
-            "cacher",
-            "peindre",
-            "regarder"
-        ],
-        "answer": "empailler"
-    },
-    {
-        "question_number": 17,
-        "question": "Il a _______ sur les conséquences de son action et a pris une décision.",
-        "options": [
-            "réfléchi",
-            "agité",
-            "défendu",
-            "rejeté"
-        ],
-        "answer": "réfléchi"
-    },
-    {
-        "question_number": 18,
-        "question": "Les souvenirs de cette époque sont _______ dans ma mémoire.",
-        "options": [
-            "flous",
-            "détaillés",
-            "précis",
-            "clairs"
-        ],
-        "answer": "flous"
-    },
-    {
-        "question_number": 19,
-        "question": "L'homme a été complètement plongé dans l'_________, n'ayant plus aucune trace de son passé.",
-        "options": [
-            "oubli",
-            "effacement",
-            "espoir",
-            "impression"
-        ],
-        "answer": "oubli"
-    },
-    {
-        "question_number": 20,
-        "question": "Elle a trouvé une vieille _______ pleine de lettres et de souvenirs dans le grenier.",
-        "options": [
-            "valise",
-            "malle",
-            "armoire",
-            "coffre"
-        ],
-        "answer": "malle"
-    },
-    {
-        "question_number": 21,
-        "question": "Nous avons trouvé d'anciens portraits de famille dans le _______ de la maison.",
-        "options": [
-            "salon",
-            "grenier",
-            "bureau",
-            "jardin"
-        ],
-        "answer": "grenier"
-    },
-    {
-        "question_number": 22,
-        "question": "Le _______ qu'il porte ce soir est parfait pour la soirée.",
-        "options": [
-            "costume",
-            "habit",
-            "pull",
-            "pantalon"
-        ],
-        "answer": "costume"
-    },
-    {
-        "question_number": 23,
-        "question": "La _______ sur les étagères est un signe qu’il n'y a pas eu de nettoyage depuis longtemps.",
-        "options": [
-            "poussière",
-            "saleté",
-            "marque",
-            "boue"
-        ],
-        "answer": "poussière"
-    },
-    {
-        "question_number": 24,
-        "question": "Il est _______ que nous ayons fini notre travail, il faut maintenant présenter les résultats.",
-        "options": [
-            "à peine",
-            "tout juste",
-            "pratiquement",
-            "souvent"
-        ],
-        "answer": "à peine"
-    },
-    {
-        "question_number": 25,
-        "question": "Il a décidé de _______ sa carrière après plusieurs années d’études.",
-        "options": [
-            "débuter",
-            "achever",
-            "changer",
-            "améliorer"
-        ],
-        "answer": "débuter"
-    },
-    {
-        "question_number": 26,
-        "question": "Elle a expliqué son point de vue et a accepté de répondre à la question _______.",
-        "options": [
-            "à son tour",
-            "en premier",
-            "tout de suite",
-            "ensuite"
-        ],
-        "answer": "à son tour"
-    },
-    {
-        "question_number": 27,
-        "question": "L’enfant est _______ devant le spectacle des étoiles filantes.",
-        "options": [
-            "émerveillé",
-            "indifférent",
-            "triste",
-            "fatigué"
-        ],
-        "answer": "émerveillé"
-    },
-    {
-        "question_number": 28,
-        "question": "Nous allons _______ un accord sur ce sujet et conclure la réunion.",
-        "options": [
-            "en arriver à",
-            "faire",
-            "préparer",
-            "perdre"
-        ],
-        "answer": "en arriver à"
-    },
-    {
-        "question_number": 29,
-        "question": "On a entendu la _______ dans le ciel, ce qui a effrayé tout le monde.",
-        "options": [
-            "sirène",
-            "musique",
-            "voix",
-            "radio"
-        ],
-        "answer": "sirène"
-    },
-    {
-        "question_number": 30,
-        "question": "Il vit dans une _______ près du centre-ville, un endroit calme et discret.",
-        "options": [
-            "caverne",
-            "maison",
-            "loge",
-            "hôtel"
-        ],
-        "answer": "loge"
-    },
-    {
-        "question_number": 1,
-        "question": "Le _______ de cette opération est la réduction des coûts.",
-        "options": [
-            "résultat",
-            "problème",
-            "composante",
-            "méthode"
-        ],
-        "answer": "composante"
-    },
-    {
-        "question_number": 2,
-        "question": "Le général a été condamné à _______ pour sa conduite illégale pendant la guerre.",
-        "options": [
-            "réduire",
-            "se doubler",
-            "condamner",
-            "régler"
-        ],
-        "answer": "condamner"
-    },
-    {
-        "question_number": 3,
-        "question": "Ils ont dû _______ les effets négatifs de la crise économique.",
-        "options": [
-            "commettre",
-            "élargir",
-            "réduire",
-            "perpétrer"
-        ],
-        "answer": "réduire"
-    },
-    {
-        "question_number": 4,
-        "question": "La situation est _______ par la persécution des minorités.",
-        "options": [
-            "régler",
-            "réduire",
-            "se doubler",
-            "aggravée"
-        ],
-        "answer": "aggravée"
-    },
-    {
-        "question_number": 5,
-        "question": "L'étudiant a obtenu son diplôme _______ de sciences politiques.",
-        "options": [
-            "en",
-            "sur",
-            "avec",
-            "à"
-        ],
-        "answer": "en"
-    },
-    {
-        "question_number": 6,
-        "question": "Le crime qu’il a _______ est grave et mérite une lourde peine.",
-        "options": [
-            "commis",
-            "réduit",
-            "condamné",
-            "élargi"
-        ],
-        "answer": "commis"
-    },
-    {
-        "question_number": 7,
-        "question": "La stratégie militaire était _______ d'un soutien logistique important.",
-        "options": [
-            "couplée",
-            "réduite",
-            "élargie",
-            "régler"
-        ],
-        "answer": "couplée"
-    },
-    {
-        "question_number": 8,
-        "question": "Le _______ des témoins a permis de découvrir la vérité sur l'affaire.",
-        "options": [
-            "délit",
-            "composante",
-            "règlement",
-            "témoignage"
-        ],
-        "answer": "délit"
-    },
-    {
-        "question_number": 9,
-        "question": "Les autorités ont dû _______ la frontière pour assurer la sécurité nationale.",
-        "options": [
-            "élargir",
-            "réduire",
-            "régler",
-            "accuser"
-        ],
-        "answer": "élargir"
-    },
-    {
-        "question_number": 10,
-        "question": "Les marins suivent une formation _______ pour travailler sur des navires de guerre.",
-        "options": [
-            "navale",
-            "militaire",
-            "régulière",
-            "spéciale"
-        ],
-        "answer": "navale"
-    }
-]
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "La __________ de cette plante est très profond.",
+            "options": [
+                "feuille",
+                "gène",
+                "racine",
+                "métamorphose"
+            ],
+            "answer": "racine"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle a dû ____________ un enfant prématuré.",
+            "options": [
+                "accoucher de",
+                "opérer",
+                "feuilleter",
+                "renvoyer"
+            ],
+            "answer": "accoucher de"
+        },
+        {
+            "question_number": 3,
+            "question": "Le médecin a conseillé une ___________ pour traiter ce stress.",
+            "options": [
+                "thérapie",
+                "législation",
+                "généalogie",
+                "éclairage"
+            ],
+            "answer": "thérapie"
+        },
+        {
+            "question_number": 4,
+            "question": "Les scientifiques ont découvert un nouveau ___________ responsable de cette maladie.",
+            "options": [
+                "donnée",
+                "gène",
+                "vécu",
+                "mimique"
+            ],
+            "answer": "gène"
+        },
+        {
+            "question_number": 5,
+            "question": "Le ___________ de cet auteur est impressionnant.",
+            "options": [
+                "vécu",
+                "livret",
+                "billet",
+                "entourage"
+            ],
+            "answer": "vécu"
+        },
+        {
+            "question_number": 6,
+            "question": "Je n'ai pas ___________ que je peux vous aider tout de suite.",
+            "options": [
+                "suffire",
+                "figurer",
+                "dépendre",
+                "accueillir"
+            ],
+            "answer": "suffire"
+        },
+        {
+            "question_number": 7,
+            "question": "Il est arrivé à ____________ de traverser la rue sans regarder.",
+            "options": [
+                "moi",
+                "nous",
+                "qn",
+                "vous"
+            ],
+            "answer": "qn"
+        },
+        {
+            "question_number": 8,
+            "question": "Il y a trop de ___________ dans ce texte, c'est difficile à suivre.",
+            "options": [
+                "bribes",
+                "généalogie",
+                "méandres",
+                "formel"
+            ],
+            "answer": "méandres"
+        },
+        {
+            "question_number": 9,
+            "question": "Le ___________ d'une telle action est incontestable.",
+            "options": [
+                "légitime",
+                "législation",
+                "dépourvu",
+                "accompagner"
+            ],
+            "answer": "légitime"
+        },
+        {
+            "question_number": 10,
+            "question": "Vous avez ___________ à ce que je vous explique.",
+            "options": [
+                "suffit",
+                "donné",
+                "avouer",
+                "soumis"
+            ],
+            "answer": "avouer"
+        },
+        {
+            "question_number": 11,
+            "question": "Il n'a pas ___________ de faire ce travail tout seul.",
+            "options": [
+                "suffit",
+                "conclu",
+                "commencé",
+                "réfléchi"
+            ],
+            "answer": "suffit"
+        },
+        {
+            "question_number": 12,
+            "question": "Il est difficile de ___________ entre les différents modèles.",
+            "options": [
+                "différencier",
+                "soumettre",
+                "figurer",
+                "réaliser"
+            ],
+            "answer": "différencier"
+        },
+        {
+            "question_number": 13,
+            "question": "Elle a ___________ un nouveau projet après son départ.",
+            "options": [
+                "virer",
+                "accoucher de",
+                "opéré",
+                "renvoyer"
+            ],
+            "answer": "virer"
+        },
+        {
+            "question_number": 14,
+            "question": "Il n'a pas ___________ de dire la vérité.",
+            "options": [
+                "figurer",
+                "suffit",
+                "avouer",
+                "accueillir"
+            ],
+            "answer": "avouer"
+        },
+        {
+            "question_number": 15,
+            "question": "Le ___________ de ce document est assez long.",
+            "options": [
+                "cahier",
+                "livret",
+                "billet",
+                "feuillet"
+            ],
+            "answer": "feuillet"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle a l'air ___________ après cet accident.",
+            "options": [
+                "estropiée",
+                "transparente",
+                "fatiguée",
+                "réelle"
+            ],
+            "answer": "estropiée"
+        },
+        {
+            "question_number": 17,
+            "question": "Le ___________ du texte est très complexe.",
+            "options": [
+                "contenu",
+                "sujet",
+                "formel",
+                "taux"
+            ],
+            "answer": "formel"
+        },
+        {
+            "question_number": 18,
+            "question": "Nous avons dû ___________ les informations de plusieurs documents.",
+            "options": [
+                "feuilleter",
+                "accueillir",
+                "étudier",
+                "décider"
+            ],
+            "answer": "feuilleter"
+        },
+        {
+            "question_number": 19,
+            "question": "Cet outil peut ___________ une grande différence dans la recherche.",
+            "options": [
+                "apprendre",
+                "figurer",
+                "opérer",
+                "dépendre"
+            ],
+            "answer": "opérer"
+        },
+        {
+            "question_number": 20,
+            "question": "Il est ___________ de travailler seul toute la journée.",
+            "options": [
+                "dépourvu",
+                "légitime",
+                "nécessaire",
+                "difficile"
+            ],
+            "answer": "difficile"
+        },
+        {
+            "question_number": 21,
+            "question": "Les ___________ de la politique sont souvent très complexes.",
+            "options": [
+                "mimique",
+                "bribes",
+                "méandres",
+                "gestuelle"
+            ],
+            "answer": "méandres"
+        },
+        {
+            "question_number": 22,
+            "question": "Il a décidé de ___________ un livre avec ses souvenirs.",
+            "options": [
+                "écrire",
+                "avouer",
+                "réfléchir",
+                "renvoyer"
+            ],
+            "answer": "écrire"
+        },
+        {
+            "question_number": 23,
+            "question": "L'____________ de cette situation ne laisse pas de place au doute.",
+            "options": [
+                "éclairage",
+                "avouer",
+                "accouchement",
+                "écorcher"
+            ],
+            "answer": "éclairage"
+        },
+        {
+            "question_number": 24,
+            "question": "Les ___________ en matière de droit sont très strictes dans ce pays.",
+            "options": [
+                "savoir",
+                "législation",
+                "mimique",
+                "économie"
+            ],
+            "answer": "législation"
+        },
+        {
+            "question_number": 25,
+            "question": "Le ___________ d'un enfant unique peut avoir des effets sur son développement.",
+            "options": [
+                "vécu",
+                "entourage",
+                "accouchement",
+                "généalogie"
+            ],
+            "answer": "vécu"
+        },
+        {
+            "question_number": 26,
+            "question": "Il faut ___________ tous les arguments avant de prendre une décision.",
+            "options": [
+                "réfléchir",
+                "avouer",
+                "accoucher de",
+                "différencier"
+            ],
+            "answer": "réfléchir"
+        },
+        {
+            "question_number": 27,
+            "question": "Son ___________ est celui d'une grande famille avec une longue histoire.",
+            "options": [
+                "généalogie",
+                "mimique",
+                "vécu",
+                "éclairage"
+            ],
+            "answer": "généalogie"
+        },
+        {
+            "question_number": 28,
+            "question": "Elle a ___________ de se rendre à la réunion.",
+            "options": [
+                "dû",
+                "envie",
+                "donné",
+                "suffit"
+            ],
+            "answer": "dû"
+        },
+        {
+            "question_number": 29,
+            "question": "Les ___________ de ce geste sont manifestes dans sa posture.",
+            "options": [
+                "gestuelle",
+                "mimique",
+                "réflexion",
+                "donnée"
+            ],
+            "answer": "gestuelle"
+        },
+        {
+            "question_number": 30,
+            "question": "Il a ___________ son ancien emploi après plusieurs années.",
+            "options": [
+                "viré",
+                "renvoyé",
+                "accueilli",
+                "avoué"
+            ],
+            "answer": "viré"
+        },
+        {
+            "question_number": 1,
+            "question": "Le ___________ suisse est renommé pour ses montagnes et ses horloges.",
+            "options": [
+                "patrie",
+                "helvétique",
+                "flamant",
+                "verrous"
+            ],
+            "answer": "helvétique"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle a décidé de ___________ en Suisse après ses études.",
+            "options": [
+                "mendier",
+                "s’établir",
+                "réfléchir",
+                "expatrier"
+            ],
+            "answer": "s’établir"
+        },
+        {
+            "question_number": 3,
+            "question": "Il a vécu une ___________ en voyage, perdant son passeport à l'aéroport.",
+            "options": [
+                "correspondance",
+                "mésaventure",
+                "programme",
+                "virée"
+            ],
+            "answer": "mésaventure"
+        },
+        {
+            "question_number": 4,
+            "question": "La ___________ de ce train est très bonne, il arrive à l'heure.",
+            "options": [
+                "correspondance",
+                "vigne",
+                "horlogerie",
+                "patrie"
+            ],
+            "answer": "correspondance"
+        },
+        {
+            "question_number": 5,
+            "question": "Ils ont prévu une ___________ à la montagne ce week-end.",
+            "options": [
+                "mésaventure",
+                "virée",
+                "fondue",
+                "bizarre"
+            ],
+            "answer": "virée"
+        },
+        {
+            "question_number": 6,
+            "question": "Il a ___________ de la porte sans faire attention et s'est cogné.",
+            "options": [
+                "heurter",
+                "coller",
+                "se heurter",
+                "expatrier"
+            ],
+            "answer": "se heurter"
+        },
+        {
+            "question_number": 7,
+            "question": "Il a eu ___________ de ses projets de vacances à la dernière minute.",
+            "options": [
+                "une correspondance",
+                "un réflexe",
+                "un expatrier",
+                "un dépaysé"
+            ],
+            "answer": "un réflexe"
+        },
+        {
+            "question_number": 8,
+            "question": "Elle s'est sentie ___________ lorsqu'elle est arrivée dans une ville inconnue.",
+            "options": [
+                "dépaysée",
+                "extravertie",
+                "pure",
+                "bizarre"
+            ],
+            "answer": "dépaysée"
+        },
+        {
+            "question_number": 9,
+            "question": "Il a ___________ son problème à son collègue pour trouver une solution.",
+            "options": [
+                "évoqué",
+                "programmé",
+                "rendu visite",
+                "mendier"
+            ],
+            "answer": "évoqué"
+        },
+        {
+            "question_number": 10,
+            "question": "L'_____________ de ce vin a lieu chaque année dans le vignoble.",
+            "options": [
+                "étang",
+                "horlogerie",
+                "vigne",
+                "flamant"
+            ],
+            "answer": "vigne"
+        },
+        {
+            "question_number": 11,
+            "question": "Cette décision ___________ de nombreux débats au sein du comité.",
+            "options": [
+                "comporte",
+                "s’établir",
+                "évoque",
+                "se méfier"
+            ],
+            "answer": "comporte"
+        },
+        {
+            "question_number": 12,
+            "question": "La ___________ du train a causé quelques retards dans le programme.",
+            "options": [
+                "correspondance",
+                "flamant",
+                "vigne",
+                "dépaysé"
+            ],
+            "answer": "correspondance"
+        },
+        {
+            "question_number": 13,
+            "question": "Il a ___________ à l'idée de partir en vacances à la montagne.",
+            "options": [
+                "il est venu à l’esprit à qn de faire",
+                "s’en fait",
+                "coller",
+                "virer"
+            ],
+            "answer": "il est venu à l’esprit à qn de faire"
+        },
+        {
+            "question_number": 14,
+            "question": "Ce changement de programme m’a vraiment ___________ dans mes habitudes.",
+            "options": [
+                "perturbé",
+                "dépaysant",
+                "refraîchissant",
+                "extraverti"
+            ],
+            "answer": "dépaysant"
+        },
+        {
+            "question_number": 15,
+            "question": "Il m'a dit qu'il n'avait ___________ essayer de convaincre son patron.",
+            "options": [
+                "avoir beau faire",
+                "se heurter",
+                "coller",
+                "expatrier"
+            ],
+            "answer": "avoir beau faire"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle a ___________ dans le coin après des années de voyage.",
+            "options": [
+                "s’établir",
+                "expatrier",
+                "venir",
+                "héberger"
+            ],
+            "answer": "s’établir"
+        },
+        {
+            "question_number": 17,
+            "question": "Le ___________ suisse est réputé pour son expertise en fabrication de montres.",
+            "options": [
+                "mec",
+                "patrie",
+                "horlogerie",
+                "clavier"
+            ],
+            "answer": "horlogerie"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a ___________ les papiers dans son tiroir.",
+            "options": [
+                "collé",
+                "expatrié",
+                "rafraîchissant",
+                "viré"
+            ],
+            "answer": "collé"
+        },
+        {
+            "question_number": 19,
+            "question": "Son ___________ est très calme, c'est une personne introvertie.",
+            "options": [
+                "reflexe",
+                "extraverti",
+                "dépaysé",
+                "pur"
+            ],
+            "answer": "extraverti"
+        },
+        {
+            "question_number": 20,
+            "question": "Les ___________ de l'hôtel ont été plus élevés que prévu.",
+            "options": [
+                "frais",
+                "étang",
+                "dépaysé",
+                "mendier"
+            ],
+            "answer": "frais"
+        },
+        {
+            "question_number": 21,
+            "question": "Je vais ___________ mes parents ce week-end.",
+            "options": [
+                "rendre visite",
+                "expatrier",
+                "se méfier",
+                "évoquer"
+            ],
+            "answer": "rendre visite"
+        },
+        {
+            "question_number": 22,
+            "question": "Le ___________ du vin est une activité de plus en plus populaire.",
+            "options": [
+                "programme",
+                "rafraîchissant",
+                "mec",
+                "vigne"
+            ],
+            "answer": "vigne"
+        },
+        {
+            "question_number": 23,
+            "question": "Il m'a donné une ___________ très intéressante pour améliorer ma méthode de travail.",
+            "options": [
+                "expérience",
+                "bizarrerie",
+                "idée",
+                "réflexe"
+            ],
+            "answer": "idée"
+        },
+        {
+            "question_number": 24,
+            "question": "Il a ___________ en voyant le film d'horreur.",
+            "options": [
+                "s’approcher",
+                "évoqué",
+                "réfléchi",
+                "s’en fait"
+            ],
+            "answer": "s’en fait"
+        },
+        {
+            "question_number": 25,
+            "question": "Après cette ___________ où il a perdu son sac, il était épuisé.",
+            "options": [
+                "mésaventure",
+                "expatrié",
+                "virée",
+                "flamant"
+            ],
+            "answer": "mésaventure"
+        },
+        {
+            "question_number": 26,
+            "question": "Un ___________ me dérange à chaque réunion, je n'arrive pas à me concentrer.",
+            "options": [
+                "flamant",
+                "mec",
+                "verrou",
+                "bizarre"
+            ],
+            "answer": "bizarre"
+        },
+        {
+            "question_number": 27,
+            "question": "Elle a ___________ en se rapprochant de l'objet.",
+            "options": [
+                "refraîchissant",
+                "dépaysant",
+                "s’approcher",
+                "se méfier"
+            ],
+            "answer": "s’approcher"
+        },
+        {
+            "question_number": 28,
+            "question": "Cette montagne est vraiment ___________, elle offre une vue magnifique.",
+            "options": [
+                "rafraîchissante",
+                "dépaysante",
+                "mésaventure",
+                "bizarre"
+            ],
+            "answer": "rafraîchissante"
+        },
+        {
+            "question_number": 29,
+            "question": "Il est difficile de ___________ avec quelqu'un qu'on ne connaît pas.",
+            "options": [
+                "se méfier",
+                "entrer en contact",
+                "expatrier",
+                "mendier"
+            ],
+            "answer": "entrer en contact"
+        },
+        {
+            "question_number": 30,
+            "question": "L'odeur du ___________ est souvent très agréable dans un restaurant.",
+            "options": [
+                "fondue",
+                "verrou",
+                "clavier",
+                "mec"
+            ],
+            "answer": "fondue"
+        },
+        {
+            "question_number": 1,
+            "question": "Le candidat a été ___________ président du comité.",
+            "options": [
+                "élu",
+                "fouler",
+                "déployer",
+                "modéré"
+            ],
+            "answer": "élu"
+        },
+        {
+            "question_number": 2,
+            "question": "Il a une grande ___________ pour sa capacité à résoudre des problèmes complexes.",
+            "options": [
+                "docilité",
+                "spontanéité",
+                "persévérance",
+                "génie"
+            ],
+            "answer": "persévérance"
+        },
+        {
+            "question_number": 3,
+            "question": "Elle a décidé de ___________ une carrière dans la médecine.",
+            "options": [
+                "faire carrière à",
+                "fouler",
+                "remporter",
+                "apprendre"
+            ],
+            "answer": "faire carrière à"
+        },
+        {
+            "question_number": 4,
+            "question": "Le ___________ du produit est impeccable, c'est un vrai chef-d'œuvre.",
+            "options": [
+                "perfectionnisme",
+                "modération",
+                "tempéré",
+                "cursus"
+            ],
+            "answer": "perfectionnisme"
+        },
+        {
+            "question_number": 5,
+            "question": "Elle a ___________ dans la pièce sans faire de bruit.",
+            "options": [
+                "fouler",
+                "déployer",
+                "s’enfouir",
+                "s’apercevoir"
+            ],
+            "answer": "fouler"
+        },
+        {
+            "question_number": 6,
+            "question": "La réunion s'est ___________ dans la salle de conférence.",
+            "options": [
+                "déroulée",
+                "fouler",
+                "susciter",
+                "soupçonner"
+            ],
+            "answer": "déroulée"
+        },
+        {
+            "question_number": 7,
+            "question": "Il a une grande ___________ envers les étrangers, ce qui peut parfois être un problème.",
+            "options": [
+                "méfiance",
+                "soupçon",
+                "spontanéité",
+                "persévérance"
+            ],
+            "answer": "méfiance"
+        },
+        {
+            "question_number": 8,
+            "question": "Elle a ___________ la clé de la porte sous la terre.",
+            "options": [
+                "enfouir",
+                "déployer",
+                "susciter",
+                "croire en"
+            ],
+            "answer": "enfouir"
+        },
+        {
+            "question_number": 9,
+            "question": "Il ___________ que son équipe remportera la compétition.",
+            "options": [
+                "croit en",
+                "soupçonne",
+                "se méfie",
+                "parvient à"
+            ],
+            "answer": "croit en"
+        },
+        {
+            "question_number": 10,
+            "question": "Son attitude ___________ a fait de lui un collègue très apprécié.",
+            "options": [
+                "spontané",
+                "modéré",
+                "docile",
+                "extraverti"
+            ],
+            "answer": "spontané"
+        },
+        {
+            "question_number": 11,
+            "question": "Le ___________ de cette œuvre d'art a impressionné tout le public.",
+            "options": [
+                "génie",
+                "fouler",
+                "spontanéité",
+                "cursus"
+            ],
+            "answer": "génie"
+        },
+        {
+            "question_number": 12,
+            "question": "Ils ont réussi à ___________ le plus haut sommet après plusieurs jours d'ascension.",
+            "options": [
+                "parvenir à",
+                "déployer",
+                "fouler",
+                "s’enfouir"
+            ],
+            "answer": "parvenir à"
+        },
+        {
+            "question_number": 13,
+            "question": "Les ___________ de ce projet sont nombreux et variés.",
+            "options": [
+                "facettes",
+                "postes",
+                "fouler",
+                "génie"
+            ],
+            "answer": "facettes"
+        },
+        {
+            "question_number": 14,
+            "question": "Elle est ___________ après plusieurs mois de préparation.",
+            "options": [
+                "enceinte",
+                "élue",
+                "modéré",
+                "tempérée"
+            ],
+            "answer": "enceinte"
+        },
+        {
+            "question_number": 15,
+            "question": "Le ___________ de ce plan sera examiné lors de la prochaine réunion.",
+            "options": [
+                "poste",
+                "cursus",
+                "déploiement",
+                "génie"
+            ],
+            "answer": "poste"
+        },
+        {
+            "question_number": 16,
+            "question": "Ils ont dû ___________ leurs efforts pour réussir à finir le projet à temps.",
+            "options": [
+                "déployer",
+                "susciter",
+                "fouler",
+                "remporter"
+            ],
+            "answer": "déployer"
+        },
+        {
+            "question_number": 17,
+            "question": "Il a réussi à ___________ une belle carrière grâce à son travail acharné.",
+            "options": [
+                "faire carrière à",
+                "remporter",
+                "croire en",
+                "s’enfouir"
+            ],
+            "answer": "faire carrière à"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a ___________ un nouveau poste dans une grande entreprise.",
+            "options": [
+                "remporté",
+                "élu",
+                "trouvé",
+                "isolé"
+            ],
+            "answer": "remporté"
+        },
+        {
+            "question_number": 19,
+            "question": "Elle a ___________ d’une manière plus équilibrée depuis qu'elle a commencé à méditer.",
+            "options": [
+                "tempéré",
+                "suscité",
+                "soupçonné",
+                "appris"
+            ],
+            "answer": "tempéré"
+        },
+        {
+            "question_number": 20,
+            "question": "Le travail d'équipe nécessite de la ___________ et du compromis.",
+            "options": [
+                "docilité",
+                "modération",
+                "passivité",
+                "spontanéité"
+            ],
+            "answer": "modération"
+        },
+        {
+            "question_number": 21,
+            "question": "Il est difficile de ___________ cette question car elle est trop complexe.",
+            "options": [
+                "soupçonner",
+                "évoquer",
+                "apprendre",
+                "parvenir à"
+            ],
+            "answer": "parvenir à"
+        },
+        {
+            "question_number": 22,
+            "question": "Il a une ___________ pour les nouvelles technologies.",
+            "options": [
+                "spontanéité",
+                "suspicion",
+                "facette",
+                "docilité"
+            ],
+            "answer": "spontanéité"
+        },
+        {
+            "question_number": 23,
+            "question": "Il a ___________ que sa collègue avait des doutes sur ses intentions.",
+            "options": [
+                "soupçonné",
+                "déployé",
+                "fouler",
+                "remporté"
+            ],
+            "answer": "soupçonné"
+        },
+        {
+            "question_number": 24,
+            "question": "Ce projet est une ___________ de compétences diverses.",
+            "options": [
+                "facette",
+                "récapitulation",
+                "postérité",
+                "structure"
+            ],
+            "answer": "facette"
+        },
+        {
+            "question_number": 25,
+            "question": "L'idée a ___________ une réaction immédiate de la part des employés.",
+            "options": [
+                "suscité",
+                "déployé",
+                "remporté",
+                "parvenu"
+            ],
+            "answer": "suscité"
+        },
+        {
+            "question_number": 26,
+            "question": "Les efforts de l'équipe ont ___________ des résultats positifs.",
+            "options": [
+                "déployé",
+                "suscité",
+                "appris",
+                "remporté"
+            ],
+            "answer": "remporté"
+        },
+        {
+            "question_number": 27,
+            "question": "Elle a été ___________ conseillère dans cette entreprise internationale.",
+            "options": [
+                "nommée",
+                "élue",
+                "spontanée",
+                "modérée"
+            ],
+            "answer": "nommée"
+        },
+        {
+            "question_number": 28,
+            "question": "Ils ont ___________ des plans pour le développement de nouvelles technologies.",
+            "options": [
+                "déployé",
+                "suscité",
+                "isolé",
+                "remporté"
+            ],
+            "answer": "déployé"
+        },
+        {
+            "question_number": 29,
+            "question": "Il a ___________ un emploi prestigieux dans une grande société.",
+            "options": [
+                "parvenu à",
+                "déployé",
+                "remporté",
+                "faire carrière à"
+            ],
+            "answer": "parvenu à"
+        },
+        {
+            "question_number": 30,
+            "question": "Il ___________ que son équipe atteindra ses objectifs cette année.",
+            "options": [
+                "croit en",
+                "soupçonne",
+                "se méfie",
+                "s’applique"
+            ],
+            "answer": "croit en"
+        },
+        {
+            "question_number": 1,
+            "question": "Il a une attitude ___________ face à la critique.",
+            "options": [
+                "enthousiaste",
+                "volontaire",
+                "irréfléchie",
+                "perfectionniste"
+            ],
+            "answer": "enthousiaste"
+        },
+        {
+            "question_number": 2,
+            "question": "Son comportement ___________ a déplu à tout le monde dans l’équipe.",
+            "options": [
+                "brusque",
+                "consciencieux",
+                "meticuleux",
+                "perfectionniste"
+            ],
+            "answer": "brusque"
+        },
+        {
+            "question_number": 3,
+            "question": "Elle est très ___________ et toujours organisée dans son travail.",
+            "options": [
+                "ordonnée",
+                "inquisitive",
+                "enthousiaste",
+                "souple"
+            ],
+            "answer": "ordonnée"
+        },
+        {
+            "question_number": 4,
+            "question": "C'est un homme ___________, il veut toujours que tout soit parfait.",
+            "options": [
+                "perfectionniste",
+                "volontaire",
+                "vif",
+                "meticuleuse"
+            ],
+            "answer": "perfectionniste"
+        },
+        {
+            "question_number": 5,
+            "question": "L'attitude ___________ de ce manager crée une atmosphère tendue.",
+            "options": [
+                "autoritaire",
+                "soumise",
+                "indulgente",
+                "conciliant"
+            ],
+            "answer": "autoritaire"
+        },
+        {
+            "question_number": 6,
+            "question": "Il a une approche ___________ lorsqu'il s'agit de résoudre des problèmes complexes.",
+            "options": [
+                "réactive",
+                "brusque",
+                "tenace",
+                "indulgente"
+            ],
+            "answer": "réactive"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle a une personnalité ___________ et n'accepte jamais la défaite.",
+            "options": [
+                "tenace",
+                "inquisitive",
+                "souple",
+                "maniac"
+            ],
+            "answer": "tenace"
+        },
+        {
+            "question_number": 8,
+            "question": "Sa manière de travailler est extrêmement ___________, il ne laisse rien au hasard.",
+            "options": [
+                "pointilleuse",
+                "irréfléchie",
+                "laxiste",
+                "souple"
+            ],
+            "answer": "pointilleuse"
+        },
+        {
+            "question_number": 9,
+            "question": "Il est ___________ et refuse toujours de changer d'avis, même face aux évidences.",
+            "options": [
+                "entêté",
+                "volontaire",
+                "réactif",
+                "perfectionniste"
+            ],
+            "answer": "entêté"
+        },
+        {
+            "question_number": 10,
+            "question": "Elle a une attitude ___________ qui lui permet de s'adapter facilement aux changements.",
+            "options": [
+                "souple",
+                "laxiste",
+                "brusque",
+                "maniac"
+            ],
+            "answer": "souple"
+        },
+        {
+            "question_number": 11,
+            "question": "Un leader ___________ sait quand prendre des décisions fermes.",
+            "options": [
+                "ferme",
+                "indulgent",
+                "consciencieux",
+                "meticuleux"
+            ],
+            "answer": "ferme"
+        },
+        {
+            "question_number": 12,
+            "question": "Son attitude ___________ l'empêche de voir les choses sous un autre angle.",
+            "options": [
+                "obstinée",
+                "soumise",
+                "réactive",
+                "enthousiaste"
+            ],
+            "answer": "obstinée"
+        },
+        {
+            "question_number": 13,
+            "question": "Il fait preuve de ___________ en s'intéressant aux détails les plus fins.",
+            "options": [
+                "méthodique",
+                "réactif",
+                "indulgent",
+                "laxiste"
+            ],
+            "answer": "méthodique"
+        },
+        {
+            "question_number": 14,
+            "question": "Son approche ___________ le rend difficile à travailler avec, car il veut toujours tout contrôler.",
+            "options": [
+                "tyrannique",
+                "laxiste",
+                "conciliant",
+                "soumis"
+            ],
+            "answer": "tyrannique"
+        },
+        {
+            "question_number": 15,
+            "question": "Le travail de l'équipe s'est amélioré grâce à son attitude ___________ envers les suggestions des autres.",
+            "options": [
+                "conciliante",
+                "méticuleuse",
+                "réactive",
+                "maniac"
+            ],
+            "answer": "conciliante"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle est toujours très ___________ et s'assure que tout est fait de manière précise.",
+            "options": [
+                "meticuleuse",
+                "volontaire",
+                "irréfléchie",
+                "soumise"
+            ],
+            "answer": "meticuleuse"
+        },
+        {
+            "question_number": 17,
+            "question": "Il est ___________ à répondre à chaque question avec un grand enthousiasme.",
+            "options": [
+                "enthousiaste",
+                "réactif",
+                "perfectionniste",
+                "laxiste"
+            ],
+            "answer": "enthousiaste"
+        },
+        {
+            "question_number": 18,
+            "question": "Son comportement ___________ était évident, car il ne tenait pas compte des besoins des autres.",
+            "options": [
+                "sans-gêne",
+                "ferme",
+                "volontaire",
+                "inquisiteur"
+            ],
+            "answer": "sans-gêne"
+        },
+        {
+            "question_number": 19,
+            "question": "Elle est ___________ et accepte la critique de manière constructive.",
+            "options": [
+                "indulgente",
+                "réactive",
+                "obstinée",
+                "maniac"
+            ],
+            "answer": "indulgente"
+        },
+        {
+            "question_number": 20,
+            "question": "Il est ___________ lorsqu'il travaille sur un projet, toujours concentré sur les objectifs.",
+            "options": [
+                "volontaire",
+                "souple",
+                "réactif",
+                "tenace"
+            ],
+            "answer": "volontaire"
+        },
+        {
+            "question_number": 21,
+            "question": "Il est ___________ et peut changer d'avis facilement lorsqu'il est confronté à de nouvelles informations.",
+            "options": [
+                "malléable",
+                "laxiste",
+                "volontaire",
+                "conciliant"
+            ],
+            "answer": "malléable"
+        },
+        {
+            "question_number": 22,
+            "question": "Elle est ___________ dans la gestion de son emploi du temps et suit une routine bien établie.",
+            "options": [
+                "ordonnée",
+                "enthousiaste",
+                "laxiste",
+                "perfectionniste"
+            ],
+            "answer": "ordonnée"
+        },
+        {
+            "question_number": 23,
+            "question": "Il est ___________ dans ses décisions et exige que les autres respectent ses choix.",
+            "options": [
+                "catégorique",
+                "soumis",
+                "souple",
+                "indulgent"
+            ],
+            "answer": "catégorique"
+        },
+        {
+            "question_number": 24,
+            "question": "Elle a un caractère ___________ qui lui permet de s'adapter à toutes sortes de situations.",
+            "options": [
+                "souple",
+                "réactif",
+                "brusque",
+                "indulgent"
+            ],
+            "answer": "souple"
+        },
+        {
+            "question_number": 25,
+            "question": "Son attitude ___________ envers les employés crée une ambiance agréable au travail.",
+            "options": [
+                "indulgente",
+                "autoritaire",
+                "obstinée",
+                "brusque"
+            ],
+            "answer": "indulgente"
+        },
+        {
+            "question_number": 26,
+            "question": "Le manager est ___________ mais sait imposer des limites lorsque nécessaire.",
+            "options": [
+                "ferme",
+                "volontaire",
+                "soumis",
+                "souple"
+            ],
+            "answer": "ferme"
+        },
+        {
+            "question_number": 27,
+            "question": "Elle a ___________ une carrière réussie dans le domaine de la finance grâce à son travail acharné.",
+            "options": [
+                "remporté",
+                "obtenu",
+                "déployé",
+                "indulgé"
+            ],
+            "answer": "remporté"
+        },
+        {
+            "question_number": 28,
+            "question": "Son approche ___________ lui permet d'atteindre ses objectifs sans se laisser distraire.",
+            "options": [
+                "perfectionniste",
+                "réactive",
+                "souple",
+                "enthousiaste"
+            ],
+            "answer": "perfectionniste"
+        },
+        {
+            "question_number": 29,
+            "question": "Il est ___________ et refuse de changer de direction, même quand on lui montre que ce n'est pas la meilleure option.",
+            "options": [
+                "obstiné",
+                "volontaire",
+                "souple",
+                "réactif"
+            ],
+            "answer": "obstiné"
+        },
+        {
+            "question_number": 30,
+            "question": "Elle est très ___________ et prête à apprendre de nouvelles choses chaque jour.",
+            "options": [
+                "enthousiaste",
+                "méticuleuse",
+                "laxiste",
+                "volontaire"
+            ],
+            "answer": "enthousiaste"
+        },
+        {
+            "question_number": 1,
+            "question": "Le _______ de l'homme est très noble et digne de respect.",
+            "options": [
+                "comportement",
+                "regard",
+                "caractère",
+                "façon"
+            ],
+            "answer": "caractère"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle a toujours été un _______ de l'art classique.",
+            "options": [
+                "médecin",
+                "adorateur",
+                "amateur",
+                "expert"
+            ],
+            "answer": "amateur"
+        },
+        {
+            "question_number": 3,
+            "question": "Le _______ est un homme prêt à défendre son pays dans les situations extrêmes.",
+            "options": [
+                "soldat",
+                "citoyen",
+                "combattant",
+                "bourgeois"
+            ],
+            "answer": "combattant"
+        },
+        {
+            "question_number": 4,
+            "question": "Il a joué un rôle important pendant la guerre en tant que _______.",
+            "options": [
+                "soldat",
+                "civile",
+                "associé",
+                "prisonnier"
+            ],
+            "answer": "soldat"
+        },
+        {
+            "question_number": 5,
+            "question": "Il a réussi à _______ un homme qui était en train de se noyer.",
+            "options": [
+                "aider",
+                "secourir",
+                "soigner",
+                "applaudir"
+            ],
+            "answer": "secourir"
+        },
+        {
+            "question_number": 6,
+            "question": "Les _______ de la guerre étaient prêts à tout pour défendre leur cause.",
+            "options": [
+                "belligérants",
+                "pacifistes",
+                "prisonniers",
+                "diplomates"
+            ],
+            "answer": "belligérants"
+        },
+        {
+            "question_number": 7,
+            "question": "J'aime manger de la _______ de fruit au petit-déjeuner.",
+            "options": [
+                "confiture",
+                "marmelade",
+                "tartine",
+                "crème"
+            ],
+            "answer": "marmelade"
+        },
+        {
+            "question_number": 8,
+            "question": "Nous avons décidé de _______ un poulet pour le dîner.",
+            "options": [
+                "rôtir",
+                "frire",
+                "griller",
+                "bouillir"
+            ],
+            "answer": "rôtir"
+        },
+        {
+            "question_number": 9,
+            "question": "J’ai préparé un _______ au barbecue pour ce soir.",
+            "options": [
+                "rôti",
+                "steak",
+                "marmite",
+                "gratin"
+            ],
+            "answer": "rôti"
+        },
+        {
+            "question_number": 10,
+            "question": "Elle aime bien manger du _______ le matin avec du beurre et de la confiture.",
+            "options": [
+                "toast",
+                "rôti",
+                "pain grillé",
+                "croissant"
+            ],
+            "answer": "toast"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a exprimé sa _______ après avoir appris la nouvelle.",
+            "options": [
+                "joie",
+                "tristesse",
+                "réprobation",
+                "enthousiasme"
+            ],
+            "answer": "réprobation"
+        },
+        {
+            "question_number": 12,
+            "question": "Le professeur a montré de la _______ envers ses élèves en difficulté.",
+            "options": [
+                "bienveillance",
+                "colère",
+                "peine",
+                "disproportion"
+            ],
+            "answer": "bienveillance"
+        },
+        {
+            "question_number": 13,
+            "question": "Elle a _______ à son collègue de ne pas parler si fort.",
+            "options": [
+                "accusé",
+                "reproché",
+                "approuvé",
+                "félicité"
+            ],
+            "answer": "reproché"
+        },
+        {
+            "question_number": 14,
+            "question": "Il a utilisé une _______ en bois pour réparer la structure du toit.",
+            "options": [
+                "plaque",
+                "plancher",
+                "plante",
+                "planche"
+            ],
+            "answer": "planche"
+        },
+        {
+            "question_number": 15,
+            "question": "C’est un film vraiment _______ qui te tient en haleine du début à la fin.",
+            "options": [
+                "ennuyeux",
+                "fascinant",
+                "mauvais",
+                "lourd"
+            ],
+            "answer": "fascinant"
+        },
+        {
+            "question_number": 16,
+            "question": "Sa _______ envers les animaux est admirable.",
+            "options": [
+                "tendresse",
+                "colère",
+                "peur",
+                "haine"
+            ],
+            "answer": "tendresse"
+        },
+        {
+            "question_number": 17,
+            "question": "La situation était _______ ; tout le monde était choqué par l’annonce.",
+            "options": [
+                "rassurante",
+                "choquante",
+                "calme",
+                "détendue"
+            ],
+            "answer": "choquante"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a _______ un excédent de nourriture dans le réfrigérateur.",
+            "options": [
+                "fait",
+                "envoyé",
+                "entassé",
+                "caché"
+            ],
+            "answer": "entassé"
+        },
+        {
+            "question_number": 19,
+            "question": "Ce film est vraiment _______; j’ai du mal à le regarder.",
+            "options": [
+                "vulgaire",
+                "fascinant",
+                "ennuyeux",
+                "intéressant"
+            ],
+            "answer": "choquant"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a une _______ élégante qui ne passe pas inaperçue.",
+            "options": [
+                "allure",
+                "méthode",
+                "routine",
+                "disposition"
+            ],
+            "answer": "allure"
+        },
+        {
+            "question_number": 21,
+            "question": "Pour réussir à ouvrir la porte, il a dû _______ les clés dans sa poche.",
+            "options": [
+                "chercher",
+                "fouiller",
+                "laver",
+                "ranger"
+            ],
+            "answer": "fouiller"
+        },
+        {
+            "question_number": 22,
+            "question": "Ce plat est vraiment _______ ; il contient beaucoup de fines herbes.",
+            "options": [
+                "léger",
+                "délicat",
+                "très épicé",
+                "fort"
+            ],
+            "answer": "délicat"
+        },
+        {
+            "question_number": 23,
+            "question": "Il est _______ face aux difficultés et reste calme dans toutes les situations.",
+            "options": [
+                "énergique",
+                "timide",
+                "flegmatique",
+                "nerveux"
+            ],
+            "answer": "flegmatique"
+        },
+        {
+            "question_number": 24,
+            "question": "Elle m’a donné une _______ impression dès que je l’ai rencontrée.",
+            "options": [
+                "sensation",
+                "doute",
+                "rassurante",
+                "mauvaise"
+            ],
+            "answer": "rassurante"
+        },
+        {
+            "question_number": 25,
+            "question": "L’idée de défendre son pays est un signe de _______ profond.",
+            "options": [
+                "patriotisme",
+                "détachement",
+                "indifférence",
+                "nationalisme"
+            ],
+            "answer": "patriotisme"
+        },
+        {
+            "question_number": 26,
+            "question": "Ce film me rend _______ ; il me rappelle tellement de souvenirs d’enfance.",
+            "options": [
+                "nostalgique",
+                "déprimé",
+                "agité",
+                "heureux"
+            ],
+            "answer": "nostalgique"
+        },
+        {
+            "question_number": 27,
+            "question": "Les artistes ont l’habitude de _______ leurs œuvres à des styles différents.",
+            "options": [
+                "correspondre",
+                "lancer",
+                "décrire",
+                "observer"
+            ],
+            "answer": "correspondre"
+        },
+        {
+            "question_number": 28,
+            "question": "Il a l’intention de _______ des documents importants dans son rapport.",
+            "options": [
+                "accrocher",
+                "attacher",
+                "signer",
+                "vérifier"
+            ],
+            "answer": "attacher"
+        },
+        {
+            "question_number": 29,
+            "question": "Après une longue discussion, ils ont fini par _______ leur projet.",
+            "options": [
+                "compléter",
+                "arrêter",
+                "finir",
+                "adopter"
+            ],
+            "answer": "adopter"
+        },
+        {
+            "question_number": 30,
+            "question": "Nous avons assisté à une _______ solennelle pour célébrer la fin de l'année.",
+            "options": [
+                "célébration",
+                "cérémonie",
+                "fête",
+                "réunion"
+            ],
+            "answer": "cérémonie"
+        },
+        {
+            "question_number": 1,
+            "question": "Il a _______ lors du match et a dû être emmené à l'hôpital.",
+            "options": [
+                "blessé",
+                "soupçonné",
+                "reconnu",
+                "aussi"
+            ],
+            "answer": "blessé"
+        },
+        {
+            "question_number": 2,
+            "question": "C'est _______ le problème se situe, dans l'absence de communication.",
+            "options": [
+                "là",
+                "ce",
+                "où",
+                "là où"
+            ],
+            "answer": "là où"
+        },
+        {
+            "question_number": 3,
+            "question": "Les souvenirs de cette journée sont _______ dans mon esprit.",
+            "options": [
+                "effaçables",
+                "indélébiles",
+                "fugaces",
+                "oubliables"
+            ],
+            "answer": "indélébiles"
+        },
+        {
+            "question_number": 4,
+            "question": "La honte qu'il a ressentie était _______ ; il n'a jamais pu s'en débarrasser.",
+            "options": [
+                "ineffaçable",
+                "inespérée",
+                "impressionnante",
+                "inexplicable"
+            ],
+            "answer": "ineffaçable"
+        },
+        {
+            "question_number": 5,
+            "question": "______ vous souhaitez en savoir plus sur l'histoire de la ville ?",
+            "options": [
+                "En quoi",
+                "Pourquoi",
+                "Quoi que",
+                "Comment"
+            ],
+            "answer": "En quoi"
+        },
+        {
+            "question_number": 6,
+            "question": "______ il soit malade, il a décidé de participer à la réunion.",
+            "options": [
+                "Quoique",
+                "Même si",
+                "Aussi",
+                "Bien que"
+            ],
+            "answer": "Quoique"
+        },
+        {
+            "question_number": 7,
+            "question": "La _______ d'Alzheimer est une maladie qui affecte progressivement la mémoire.",
+            "options": [
+                "maladie de Parkinson",
+                "maladie d'Alzheimer",
+                "sclérose en plaques",
+                "dépression"
+            ],
+            "answer": "maladie d'Alzheimer"
+        },
+        {
+            "question_number": 8,
+            "question": "Ils ont un _______ très intelligent, qui a repris l'entreprise familiale.",
+            "options": [
+                "rejeton",
+                "ancien",
+                "colis",
+                "prisonnier"
+            ],
+            "answer": "rejeton"
+        },
+        {
+            "question_number": 9,
+            "question": "Elle a un _______ profond à cause de son enfance difficile.",
+            "options": [
+                "complexe",
+                "courage",
+                "charisme",
+                "talent"
+            ],
+            "answer": "complexe"
+        },
+        {
+            "question_number": 10,
+            "question": "Les légendes parlent d'un amour _______ qui ne mourra jamais.",
+            "options": [
+                "éternel",
+                "inoubliable",
+                "invisible",
+                "irréel"
+            ],
+            "answer": "éternel"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a voulu _______ son avis sur ce projet avant de donner une réponse finale.",
+            "options": [
+                "exposer",
+                "explorer",
+                "conseiller",
+                "soutenir"
+            ],
+            "answer": "exposer"
+        },
+        {
+            "question_number": 12,
+            "question": "L'_________ vit dans un pays étranger mais reste attaché à sa culture.",
+            "options": [
+                "expatrié",
+                "immigrant",
+                "employé",
+                "étudiant"
+            ],
+            "answer": "expatrié"
+        },
+        {
+            "question_number": 13,
+            "question": "Je le _______ à son sourire et à sa façon de parler.",
+            "options": [
+                "reconnaître",
+                "prouver",
+                "voir",
+                "questionner"
+            ],
+            "answer": "reconnaître"
+        },
+        {
+            "question_number": 14,
+            "question": "Ce titre peut _______ à la personne la plus méritante.",
+            "options": [
+                "accorder",
+                "conférer",
+                "rejeter",
+                "exclure"
+            ],
+            "answer": "conférer"
+        },
+        {
+            "question_number": 15,
+            "question": "Les _______ de la moisson se retrouvent souvent dans les champs après la récolte.",
+            "options": [
+                "pailles",
+                "feuilles",
+                "branches",
+                "herbes"
+            ],
+            "answer": "pailles"
+        },
+        {
+            "question_number": 16,
+            "question": "Ils ont décidé de _______ le cerf dans le musée pour les prochaines générations.",
+            "options": [
+                "empailler",
+                "cacher",
+                "peindre",
+                "regarder"
+            ],
+            "answer": "empailler"
+        },
+        {
+            "question_number": 17,
+            "question": "Il a _______ sur les conséquences de son action et a pris une décision.",
+            "options": [
+                "réfléchi",
+                "agité",
+                "défendu",
+                "rejeté"
+            ],
+            "answer": "réfléchi"
+        },
+        {
+            "question_number": 18,
+            "question": "Les souvenirs de cette époque sont _______ dans ma mémoire.",
+            "options": [
+                "flous",
+                "détaillés",
+                "précis",
+                "clairs"
+            ],
+            "answer": "flous"
+        },
+        {
+            "question_number": 19,
+            "question": "L'homme a été complètement plongé dans l'_________, n'ayant plus aucune trace de son passé.",
+            "options": [
+                "oubli",
+                "effacement",
+                "espoir",
+                "impression"
+            ],
+            "answer": "oubli"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a trouvé une vieille _______ pleine de lettres et de souvenirs dans le grenier.",
+            "options": [
+                "valise",
+                "malle",
+                "armoire",
+                "coffre"
+            ],
+            "answer": "malle"
+        },
+        {
+            "question_number": 21,
+            "question": "Nous avons trouvé d'anciens portraits de famille dans le _______ de la maison.",
+            "options": [
+                "salon",
+                "grenier",
+                "bureau",
+                "jardin"
+            ],
+            "answer": "grenier"
+        },
+        {
+            "question_number": 22,
+            "question": "Le _______ qu'il porte ce soir est parfait pour la soirée.",
+            "options": [
+                "costume",
+                "habit",
+                "pull",
+                "pantalon"
+            ],
+            "answer": "costume"
+        },
+        {
+            "question_number": 23,
+            "question": "La _______ sur les étagères est un signe qu’il n'y a pas eu de nettoyage depuis longtemps.",
+            "options": [
+                "poussière",
+                "saleté",
+                "marque",
+                "boue"
+            ],
+            "answer": "poussière"
+        },
+        {
+            "question_number": 24,
+            "question": "Il est _______ que nous ayons fini notre travail, il faut maintenant présenter les résultats.",
+            "options": [
+                "à peine",
+                "tout juste",
+                "pratiquement",
+                "souvent"
+            ],
+            "answer": "à peine"
+        },
+        {
+            "question_number": 25,
+            "question": "Il a décidé de _______ sa carrière après plusieurs années d’études.",
+            "options": [
+                "débuter",
+                "achever",
+                "changer",
+                "améliorer"
+            ],
+            "answer": "débuter"
+        },
+        {
+            "question_number": 26,
+            "question": "Elle a expliqué son point de vue et a accepté de répondre à la question _______.",
+            "options": [
+                "à son tour",
+                "en premier",
+                "tout de suite",
+                "ensuite"
+            ],
+            "answer": "à son tour"
+        },
+        {
+            "question_number": 27,
+            "question": "L’enfant est _______ devant le spectacle des étoiles filantes.",
+            "options": [
+                "émerveillé",
+                "indifférent",
+                "triste",
+                "fatigué"
+            ],
+            "answer": "émerveillé"
+        },
+        {
+            "question_number": 28,
+            "question": "Nous allons _______ un accord sur ce sujet et conclure la réunion.",
+            "options": [
+                "en arriver à",
+                "faire",
+                "préparer",
+                "perdre"
+            ],
+            "answer": "en arriver à"
+        },
+        {
+            "question_number": 29,
+            "question": "On a entendu la _______ dans le ciel, ce qui a effrayé tout le monde.",
+            "options": [
+                "sirène",
+                "musique",
+                "voix",
+                "radio"
+            ],
+            "answer": "sirène"
+        },
+        {
+            "question_number": 30,
+            "question": "Il vit dans une _______ près du centre-ville, un endroit calme et discret.",
+            "options": [
+                "caverne",
+                "maison",
+                "loge",
+                "hôtel"
+            ],
+            "answer": "loge"
+        },
+        {
+            "question_number": 1,
+            "question": "Le _______ de cette opération est la réduction des coûts.",
+            "options": [
+                "résultat",
+                "problème",
+                "composante",
+                "méthode"
+            ],
+            "answer": "composante"
+        },
+        {
+            "question_number": 2,
+            "question": "Le général a été condamné à _______ pour sa conduite illégale pendant la guerre.",
+            "options": [
+                "réduire",
+                "se doubler",
+                "condamner",
+                "régler"
+            ],
+            "answer": "condamner"
+        },
+        {
+            "question_number": 3,
+            "question": "Ils ont dû _______ les effets négatifs de la crise économique.",
+            "options": [
+                "commettre",
+                "élargir",
+                "réduire",
+                "perpétrer"
+            ],
+            "answer": "réduire"
+        },
+        {
+            "question_number": 4,
+            "question": "La situation est _______ par la persécution des minorités.",
+            "options": [
+                "régler",
+                "réduire",
+                "se doubler",
+                "aggravée"
+            ],
+            "answer": "aggravée"
+        },
+        {
+            "question_number": 5,
+            "question": "L'étudiant a obtenu son diplôme _______ de sciences politiques.",
+            "options": [
+                "en",
+                "sur",
+                "avec",
+                "à"
+            ],
+            "answer": "en"
+        },
+        {
+            "question_number": 6,
+            "question": "Le crime qu’il a _______ est grave et mérite une lourde peine.",
+            "options": [
+                "commis",
+                "réduit",
+                "condamné",
+                "élargi"
+            ],
+            "answer": "commis"
+        },
+        {
+            "question_number": 7,
+            "question": "La stratégie militaire était _______ d'un soutien logistique important.",
+            "options": [
+                "couplée",
+                "réduite",
+                "élargie",
+                "régler"
+            ],
+            "answer": "couplée"
+        },
+        {
+            "question_number": 8,
+            "question": "Le _______ des témoins a permis de découvrir la vérité sur l'affaire.",
+            "options": [
+                "délit",
+                "composante",
+                "règlement",
+                "témoignage"
+            ],
+            "answer": "délit"
+        },
+        {
+            "question_number": 9,
+            "question": "Les autorités ont dû _______ la frontière pour assurer la sécurité nationale.",
+            "options": [
+                "élargir",
+                "réduire",
+                "régler",
+                "accuser"
+            ],
+            "answer": "élargir"
+        },
+        {
+            "question_number": 10,
+            "question": "Les marins suivent une formation _______ pour travailler sur des navires de guerre.",
+            "options": [
+                "navale",
+                "militaire",
+                "régulière",
+                "spéciale"
+            ],
+            "answer": "navale"
+        }
+    ]
+}
