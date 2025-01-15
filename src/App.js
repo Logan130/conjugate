@@ -18,6 +18,7 @@ import { Features } from './pages/Features';
 
 import { Helmet } from 'react-helmet';
 import TextToSpeech from './components/vocabulaire/TextToSpeech';
+import { Test } from './components/vocabulaire/Test';
 
 
 function LanguageWindow() {
@@ -102,7 +103,7 @@ function App() {
                 <Route path='/warning' element={<Warning />} />
                 <Route path='/highlight' element={<HighlightPage />} />
                 <Route path='/features' element={<Features />} />
-                <Route path='/speech' element={<TextToSpeech />} />
+                <Route path='/test' element={<Test />} />
                 <Route path='*' element={<ErrorPage />} />
                 
               </Routes>
