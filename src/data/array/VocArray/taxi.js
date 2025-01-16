@@ -244,6 +244,7 @@ export const alterEgoB2 = [
         words: wordsAlterEgoB2U1,
         tag: "Taxi",
         book: "B2",
+        test: "taxi/B2/D1.json"
     },
     {
         unit: "D2 Santé",

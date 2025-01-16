@@ -103,7 +103,7 @@ function App() {
                 <Route path='/warning' element={<Warning />} />
                 <Route path='/highlight' element={<HighlightPage />} />
                 <Route path='/features' element={<Features />} />
-                <Route path='/test' element={<Test />} />
+                <Route path='/voc/test/:id' element={<Test />} />
                 <Route path='*' element={<ErrorPage />} />
                 
               </Routes>

@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
+import { lessons } from "../../pages/Vocabulaire";
+import { useParams } from 'react-router-dom';
 
 function IndividualQuestion({ question, id }) {
+
     let [checkedIndex, setCheckedIndex] = useState(-1);
     let [answer, setAnswer] = useState("")
 
     const handleRadioChange = (index, option) => {
-        console.log(option)
         setCheckedIndex(index);
         setAnswer(option);
     };
@@ -36,27 +38,33 @@ function IndividualQuestion({ question, id }) {
 
 
 export function Test() {
+    const { id } = useParams();
+    let test_json_url = lessons[id].test;
+    console.log(test_json_url);
+
     let [questions, setQuestions] = useState([]);
 
     useEffect(() => {
         // URL of the raw JSON file on GitHub
-        const url = "https://raw.githubusercontent.com/Logan130/conjugate/master/src/practice/taxi/B2/D1.json";
+        if (!!test_json_url) {
+            const url = "https://raw.githubusercontent.com/Logan130/conjugate/refs/heads/master/src/practice/" + test_json_url;
 
-        // Fetch the JSON data
-        fetch(url)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("Failed to fetch data");
-                }
-                return response.json(); // Parse the JSON response
-            })
-            .then((data) => {
-                setQuestions(data.test); // Set the "test" field to state
-                console.log(data.test)
-            })
-            .catch((error) => {
-                console.error("Error fetching the data: ", error);
-            });
+            // Fetch the JSON data
+            fetch(url)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Failed to fetch data");
+                    }
+                    return response.json(); // Parse the JSON response
+                })
+                .then((data) => {
+                    setQuestions(data.test); // Set the "test" field to state
+                })
+                .catch((error) => {
+                    console.error("Error fetching the data: ", error);
+                });
+        }
+
     }, []);
 
     return (

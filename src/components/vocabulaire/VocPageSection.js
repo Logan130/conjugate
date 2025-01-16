@@ -39,6 +39,7 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
     let vocButtonStyle = `btn btn-success ${buttonStyle}`
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
     let genderButtonStyle = `btn btn-secondary ${buttonStyle}`;
+    let testButtonStyle = `btn btn-info ${buttonStyle}`;
 
     let vocButtonLockedStyle = `btn btn-success`
     let spellingButtonLockedStyle = `btn btn-warning`;
@@ -217,6 +218,14 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
                                     <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
                                 </Link>
                             </div>
+
+                            {
+                                (!!lesson.test && !isMobile) && <div>
+                                <Link to={`/voc/test/${lesson.id}`} >
+                                    <button className={testButtonStyle}>{eng ? "Test" : "单项选择"}</button>
+                                </Link>
+                            </div>
+                            }
                         </div>
                     </>))}
 
