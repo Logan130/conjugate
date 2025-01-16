@@ -1,11 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { lessons } from "../../pages/Vocabulaire";
 import { useParams } from 'react-router-dom';
+import { ThemeContext } from "../../context/context";
+
 
 function IndividualQuestion({ question, id }) {
 
     let [checkedIndex, setCheckedIndex] = useState(-1);
     let [answer, setAnswer] = useState("")
+
 
     const handleRadioChange = (index, option) => {
         setCheckedIndex(index);
@@ -25,7 +28,7 @@ function IndividualQuestion({ question, id }) {
                                 checked={checkedIndex === index} // Check if this option is selected
                                 onChange={() => handleRadioChange(index, option)} // Update checkedIndex when an option is clicked
                             />
-                            <span className="">
+                            <span className="font-semibold">
                                 {option}
                             </span>
                         </div>
@@ -40,7 +43,9 @@ function IndividualQuestion({ question, id }) {
 export function Test() {
     const { id } = useParams();
     let test_json_url = lessons[id].test;
-    console.log(test_json_url);
+    const { eng } = useContext(ThemeContext);
+    let isMobile = window.innerWidth < 500;
+    let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
 
     let [questions, setQuestions] = useState([]);
 
@@ -69,6 +74,9 @@ export function Test() {
 
     return (
         <>
+
+            <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
+            <br />
 
             {questions.length > 0 && questions.map((q, id) =>
                 <div className="m-2">

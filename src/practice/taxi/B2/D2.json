@@ -1,0 +1,1593 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Il est difficile de _______ des habitudes alimentaires malsaines.",
+            "options": [
+                "prôner",
+                "se rebeller",
+                "se débarrasser",
+                "réclamer"
+            ],
+            "answer": "se débarrasser"
+        },
+        {
+            "question_number": 2,
+            "question": "Cette action a des _______ sur l'environnement.",
+            "options": [
+                "méfaits",
+                "lois",
+                "résultats",
+                "effets"
+            ],
+            "answer": "méfaits"
+        },
+        {
+            "question_number": 3,
+            "question": "Les scientifiques ont trouvé une nouvelle _______ dans la recherche sur le cancer.",
+            "options": [
+                "molécule",
+                "sécrétion",
+                "charpente",
+                "douleur"
+            ],
+            "answer": "molécule"
+        },
+        {
+            "question_number": 4,
+            "question": "Il est important de _______ sur une bonne hygiène de vie.",
+            "options": [
+                "mettre l’accent",
+                "éternuer",
+                "se rebeller",
+                "atténuer"
+            ],
+            "answer": "mettre l’accent"
+        },
+        {
+            "question_number": 5,
+            "question": "Les symptômes de cette maladie incluent des douleurs _______ et une raideur.",
+            "options": [
+                "articulaires",
+                "inertes",
+                "sous l’influence",
+                "cérébrales"
+            ],
+            "answer": "articulaires"
+        },
+        {
+            "question_number": 6,
+            "question": "Le médecin a _______ un traitement contre la pneumonie.",
+            "options": [
+                "prôné",
+                "conçu",
+                "recommandé",
+                "guéri"
+            ],
+            "answer": "conçu"
+        },
+        {
+            "question_number": 7,
+            "question": "Je ne comprends pas pourquoi il faut _______ certaines règles.",
+            "options": [
+                "contredire",
+                "réclamer",
+                "désigner",
+                "suivre"
+            ],
+            "answer": "suivre"
+        },
+        {
+            "question_number": 8,
+            "question": "Les enfants _______ souvent contre les interdictions de leurs parents.",
+            "options": [
+                "se rebellent",
+                "souhaitent",
+                "prônent",
+                "réclament"
+            ],
+            "answer": "se rebellent"
+        },
+        {
+            "question_number": 9,
+            "question": "L’idée de ce projet a été _______ par un groupe de chercheurs.",
+            "options": [
+                "prônée",
+                "atténuée",
+                "soulignée",
+                "réclamée"
+            ],
+            "answer": "prônée"
+        },
+        {
+            "question_number": 10,
+            "question": "Après une longue journée de travail, il se sent _______ et fatigué.",
+            "options": [
+                "sous l’influence",
+                "soulagement",
+                "inerte",
+                "efficace"
+            ],
+            "answer": "inerte"
+        },
+        {
+            "question_number": 11,
+            "question": "Le médecin m’a dit que je dois suivre un _______ strict.",
+            "options": [
+                "régime",
+                "canon",
+                "stratagème",
+                "membre"
+            ],
+            "answer": "régime"
+        },
+        {
+            "question_number": 12,
+            "question": "Il est _______ que ce médicament soit utilisé à la lettre.",
+            "options": [
+                "souhaitable",
+                "indésirable",
+                "efficace",
+                "crédible"
+            ],
+            "answer": "souhaitable"
+        },
+        {
+            "question_number": 13,
+            "question": "Les médecins sont _______ dans la lutte contre les épidémies.",
+            "options": [
+                "crédibles",
+                "inertes",
+                "paralysés",
+                "articulaires"
+            ],
+            "answer": "crédibles"
+        },
+        {
+            "question_number": 14,
+            "question": "Les effets de ce médicament peuvent être _______ si mal utilisés.",
+            "options": [
+                "atténués",
+                "souhaitables",
+                "aberrants",
+                "dérivés"
+            ],
+            "answer": "aberrants"
+        },
+        {
+            "question_number": 15,
+            "question": "Si vous voulez _______ de l'alcool, il est important de consulter un médecin.",
+            "options": [
+                "se débarrasser",
+                "réclamer",
+                "essouffler",
+                "contredire"
+            ],
+            "answer": "se débarrasser"
+        },
+        {
+            "question_number": 16,
+            "question": "Le traitement est _______ pour soigner cette maladie.",
+            "options": [
+                "efficace",
+                "inutilisé",
+                "mauvais",
+                "absent"
+            ],
+            "answer": "efficace"
+        },
+        {
+            "question_number": 17,
+            "question": "La _______ de la maison a été endommagé pendant le tremblement de terre.",
+            "options": [
+                "membre",
+                "charpente",
+                "moelle",
+                "régime"
+            ],
+            "answer": "charpente"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a _______ sous l’influence de l’alcool pendant l’accident.",
+            "options": [
+                "été",
+                "agité",
+                "poussé",
+                "éternué"
+            ],
+            "answer": "été"
+        },
+        {
+            "question_number": 19,
+            "question": "Il a _______ d’un accident et ne peut plus bouger.",
+            "options": [
+                "guéri",
+                "prôné",
+                "paralysé",
+                "réclamé"
+            ],
+            "answer": "paralysé"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a _______ qu’il n’est pas encore prêt à se marier.",
+            "options": [
+                "réclamé",
+                "souhaité",
+                "désigné",
+                "atténué"
+            ],
+            "answer": "désigné"
+        },
+        {
+            "question_number": 21,
+            "question": "Il a _______ une stratégie pour échapper à la surveillance.",
+            "options": [
+                "conçu",
+                "éternué",
+                "contredit",
+                "mis"
+            ],
+            "answer": "conçu"
+        },
+        {
+            "question_number": 22,
+            "question": "Les résultats de la recherche _______ que cette hypothèse est correcte.",
+            "options": [
+                "montrent",
+                "atténuent",
+                "réclament",
+                "contredisent"
+            ],
+            "answer": "montrent"
+        },
+        {
+            "question_number": 23,
+            "question": "Les scientifiques _______ un nouveau traitement pour la maladie.",
+            "options": [
+                "prônent",
+                "contredisent",
+                "réclament",
+                "atténuent"
+            ],
+            "answer": "prônent"
+        },
+        {
+            "question_number": 24,
+            "question": "Lorsqu’on a une grippe, il est important de _______ pour éviter la déshydratation.",
+            "options": [
+                "se reposer",
+                "guérir",
+                "éternuer",
+                "maigrir"
+            ],
+            "answer": "se reposer"
+        },
+        {
+            "question_number": 25,
+            "question": "Lorsqu’on est _______ d’un mal de tête, il est parfois utile de prendre un analgésique.",
+            "options": [
+                "enfoui",
+                "sous l’influence",
+                "efficace",
+                "en proie"
+            ],
+            "answer": "en proie"
+        },
+        {
+            "question_number": 26,
+            "question": "Il est possible de _______ une crise de hoquet avec quelques gorgées d'eau.",
+            "options": [
+                "atténuer",
+                "prôner",
+                "souhaiter",
+                "éternuer"
+            ],
+            "answer": "atténuer"
+        },
+        {
+            "question_number": 27,
+            "question": "La _______ du corps humain est un sujet très étudié en médecine.",
+            "options": [
+                "moelle",
+                "âme",
+                "hormone",
+                "médecine"
+            ],
+            "answer": "moelle"
+        },
+        {
+            "question_number": 28,
+            "question": "Elle a _______ de ses vêtements anciens pour faire de la place.",
+            "options": [
+                "éternué",
+                "reniflé",
+                "se débarrassé",
+                "souligné"
+            ],
+            "answer": "se débarrassé"
+        },
+        {
+            "question_number": 29,
+            "question": "Lorsqu’un patient a de la fièvre, il faut _______ la température pour éviter la déshydratation.",
+            "options": [
+                "atténuer",
+                "guérir",
+                "attirer",
+                "échapper"
+            ],
+            "answer": "atténuer"
+        },
+        {
+            "question_number": 30,
+            "question": "Il faut _______ la question du réchauffement climatique dans les débats publics.",
+            "options": [
+                "prôner",
+                "désigner",
+                "atténuer",
+                "réclamer"
+            ],
+            "answer": "prôner"
+        },
+        {
+            "question_number": 1,
+            "question": "Elle a _______ toute la nuit à cause du stress.",
+            "options": [
+                "insomnie",
+                "angoisse",
+                "palpitation",
+                "caféine"
+            ],
+            "answer": "insomnie"
+        },
+        {
+            "question_number": 2,
+            "question": "Les femmes enceintes doivent prendre soin de leur _______.",
+            "options": [
+                "grossesse",
+                "symptôme",
+                "tonus",
+                "grosseur"
+            ],
+            "answer": "grossesse"
+        },
+        {
+            "question_number": 3,
+            "question": "Pour se détendre, elle a bu une _______ de camomille.",
+            "options": [
+                "tisane",
+                "caféine",
+                "somnifère",
+                "bouffée"
+            ],
+            "answer": "tisane"
+        },
+        {
+            "question_number": 4,
+            "question": "Il souffre de _______ à cause du froid depuis plusieurs jours.",
+            "options": [
+                "crampe",
+                "crève",
+                "démanger",
+                "éternuer"
+            ],
+            "answer": "crève"
+        },
+        {
+            "question_number": 5,
+            "question": "Il est _______ d’être exposé à trop de stress au travail.",
+            "options": [
+                "possible",
+                "souhaitable",
+                "contre-indiqué",
+                "angoissé"
+            ],
+            "answer": "contre-indiqué"
+        },
+        {
+            "question_number": 6,
+            "question": "Je suis arrivée tôt dans l'________ de rater mon avion",
+            "options": [
+                "angoisse",
+                "paix",
+                "bouffée",
+                "caféine"
+            ],
+            "answer": "angoisse"
+        },
+        {
+            "question_number": 7,
+            "question": "Les médecins déconseillent de _______ trop de médicaments sans avis médical.",
+            "options": [
+                "avaler",
+                "proscrire",
+                "souffrir",
+                "opter"
+            ],
+            "answer": "avaler"
+        },
+        {
+            "question_number": 8,
+            "question": "Elle a opté _______ un traitement plus naturel pour son insomnie.",
+            "options": [
+                "pour",
+                "en",
+                "à",
+                "avec"
+            ],
+            "answer": "pour"
+        },
+        {
+            "question_number": 9,
+            "question": "Je n’ai _______ faire plus d’efforts pour réussir.",
+            "options": [
+                "que",
+                "à",
+                "que seulement",
+                "à ne"
+            ],
+            "answer": "que"
+        },
+
+        
+        {
+            "question_number": 11,
+            "question": "Le médecin m’a prescrit un _______ pour m’aider à dormir.",
+            "options": [
+                "somnifère",
+                "remède",
+                "crème",
+                "tonus"
+            ],
+            "answer": "somnifère"
+        },
+        {
+            "question_number": 12,
+            "question": "Les symptômes _______ de cette maladie incluent de la fièvre et des douleurs musculaires pendant la nuit.",
+            "options": [
+                "nocturnes",
+                "quotidiennes",
+                "palpitations",
+                "sympathiques"
+            ],
+            "answer": "nocturnes"
+        },
+        {
+            "question_number": 13,
+            "question": "Il a _______ à un traitement de fond pour ses migraines.",
+            "options": [
+                "recouru",
+                "contrarié",
+                "opté",
+                "démanger"
+            ],
+            "answer": "recouru"
+        },
+        {
+            "question_number": 14,
+            "question": "La douleur a _______ pendant la nuit.",
+            "options": [
+                "gonflé",
+                "affaibli",
+                "enflé",
+                "brûler"
+            ],
+            "answer": "gonflé"
+        },
+        {
+            "question_number": 15,
+            "question": " Elle me ________ avec de bonnes paroles consolantes.",
+            "options": [
+                "apaisa",
+                "brûla",
+                "proscrivit",
+                "gonfla"
+            ],
+            "answer": "apaisant"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle a dû _______ à un traitement médical à condition de suivre les instructions.",
+            "options": [
+                "recourir",
+                "proscrire",
+                "souffrir",
+                "gâcher"
+            ],
+            "answer": "recourir"
+        },
+        {
+            "question_number": 17,
+            "question": "Le médecin a _______ de faire attention à la posologie de ce médicament.",
+            "options": [
+                "convenu",
+                "avaler",
+                "recourir",
+                "gonfler"
+            ],
+            "answer": "convenu"
+        },
+        {
+            "question_number": 18,
+            "question": "L’angoisse de la situation lui a _______ la tête.",
+            "options": [
+                "affecté",
+                "gâché",
+                "contrarié",
+                "gonflé"
+            ],
+            "answer": "affecté"
+        },
+        {
+            "question_number": 19,
+            "question": "Cela _______ qu’elle suive un traitement régulier pour éviter la rechute.",
+            "options": [
+                "vaudrais la peine",
+                "requiert",
+                "souhaite",
+                "fournit"
+            ],
+            "answer": "vaudrais la peine"
+        },
+        {
+            "question_number": 20,
+            "question": "Le médecin m’a recommandé de _______ du café pendant quelques jours.",
+            "options": [
+                "proscrire",
+                "opter",
+                "gâcher",
+                "gonfler"
+            ],
+            "answer": "proscrire"
+        },
+        {
+            "question_number": 21,
+            "question": "Les premières températures printanières pointent leur nez et l'envie de jardiner commence à _____.",
+            "options": [
+                "éternuer",
+                "démanger",
+                "affecter",
+                "apparaitre"
+            ],
+            "answer": "démanger"
+        },
+        {
+            "question_number": 22,
+            "question": "Le médecin a conseillé d'______ de médicaments sans prescription.",
+            "options": [
+                "éviter",
+                "avaler",
+                "affecter",
+                "opter"
+            ],
+            "answer": "éviter"
+        },
+        {
+            "question_number": 23,
+            "question": "Les _______ cardiaques sont un symptôme fréquent de stress.",
+            "options": [
+                "palpitations",
+                "crampes",
+                "écoulements",
+                "souffrances"
+            ],
+            "answer": "palpitations"
+        },
+        {
+            "question_number": 24,
+            "question": "Je vais prendre une _______ avant de me coucher pour essayer de dormir.",
+            "options": [
+                "tisane",
+                "caféine",
+                "potion",
+                "crème"
+            ],
+            "answer": "tisane"
+        },
+        {
+            "question_number": 25,
+            "question": "La ______ de ce médicament est de 50 mg deux fois par jour.",
+            "options": [
+                "effet",
+                "usage",
+                "indication",
+                "posologie"
+            ],
+            "answer": "posologie"
+        },
+        {
+            "question_number": 26,
+            "question": "Il a _______ d’une fièvre intense ces derniers jours.",
+            "options": [
+                "souffré",
+                "souffrir",
+                "gonflé",
+                "déconseillé"
+            ],
+            "answer": "souffré"
+        },
+        {
+            "question_number": 27,
+            "question": "Après la course, il a _______ de douleurs musculaires.",
+            "options": [
+                "souffert",
+                "gonflé",
+                "affecté",
+                "avaler"
+            ],
+            "answer": "souffert"
+        },
+        {
+            "question_number": 28,
+            "question": "Cette situation m’a vraiment _______ et j’ai du mal à me concentrer.",
+            "options": [
+                "contrarié",
+                "agonisé",
+                "démangé",
+                "affecté"
+            ],
+            "answer": "contrarié"
+        },
+        {
+            "question_number": 29,
+            "question": "Pour _______ la situation, il est préférable de prendre un peu de recul.",
+            "options": [
+                "remédier",
+                "souffrir",
+                "affecter",
+                "gérer"
+            ],
+            "answer": "remédier"
+        },
+
+        {
+            "question_number": 1,
+            "question": "Dans un débat, il est essentiel de _______ les points importants du sujet.",
+            "options": [
+                "souligner",
+                "démontrer",
+                "renvoyer",
+                "valoriser"
+            ],
+            "answer": "souligner"
+        },
+        {
+            "question_number": 2,
+            "question": "Le médecin a recommandé de ______ la fièvre avec du paracétamol.",
+            "options": [
+                "éliminer",
+                "adoucir",
+                "soulager",
+                "ralentir"
+            ],
+            "answer": "soulager"
+        },
+        {
+            "question_number": 3,
+            "question": "Les résultats des tests _______ clairement une amélioration de l’état du patient.",
+            "options": [
+                "démontrent",
+                "persiste",
+                "soulagent",
+                "enrhumé"
+            ],
+            "answer": "démontrent"
+        },
+        {
+            "question_number": 4,
+            "question": "La situation de pauvreté est un ______ important dans cette région.",
+            "options": [
+                "enjeu",
+                "environnement",
+                "urgence",
+                "objectif"
+            ],
+            "answer": "enjeu"
+        },
+        {
+            "question_number": 5,
+            "question": "Cette évolution dans la formation des professionnels n'est pas isolée du _______ économique.",
+            "options": [
+                "contexte",
+                "symptôme",
+                "enjeu",
+                "passage"
+            ],
+            "answer": "contexte"
+        },
+        {
+            "question_number": 6,
+            "question": "Cette maladie peut _______ les bronches et causer de graves problèmes respiratoires.",
+            "options": [
+                "fragiliser",
+                "dégager",
+                "ralentir",
+                "soulager"
+            ],
+            "answer": "fragiliser"
+        },
+        {
+            "question_number": 7,
+            "question": "Il faut _______ les sinus pour améliorer la respiration en cas de rhume.",
+            "options": [
+                "dégager",
+                "souffrir",
+                "comprimer",
+                "éliminer"
+            ],
+            "answer": "dégager"
+        },
+        {
+            "question_number": 8,
+            "question": "L’______ est un problème de santé publique de plus en plus courant dans le monde entier.",
+            "options": [
+                "obésité",
+                "amaigrissement",
+                "surpoids",
+                "passage"
+            ],
+            "answer": "obésité"
+        },
+        {
+            "question_number": 9,
+            "question": "Les personnes _______ ont souvent plus de risques de souffrir de problèmes cardiaques.",
+            "options": [
+                "corpulentes",
+                "maigres",
+                "saines",
+                "fragiles"
+            ],
+            "answer": "corpulentes"
+        },
+        {
+            "question_number": 10,
+            "question": "Le médecin m’a conseillé de _______ les aliments trop sucrés pour éviter l’obésité.",
+            "options": [
+                "éviter",
+                "souffrir",
+                "se passer",
+                "persister"
+            ],
+            "answer": "éviter"
+        },
+        {
+            "question_number": 11,
+            "question": "Cette maladie est particulièrement fréquente _______ entre les enfants.",
+            "options": [
+                "en particulier",
+                "à ce point",
+                "en outre",
+                "en quelque sorte"
+            ],
+            "answer": "en particulier"
+        },
+        {
+            "question_number": 12,
+            "question": "Elle a réussi à _______ son stress en faisant de la méditation.",
+            "options": [
+                "soulager",
+                "souffrir",
+                "valoriser",
+                "comprimer"
+            ],
+            "answer": "soulager"
+        },
+        {
+            "question_number": 13,
+            "question": "Il est important de _______ les symptômes d’une maladie pour poser un bon diagnostic.",
+            "options": [
+                "démontrer",
+                "souligner",
+                "renvoyer",
+                "comprendre"
+            ],
+            "answer": "souligner"
+        },
+        {
+            "question_number": 14,
+            "question": "L’______ de la température corporelle peut indiquer la présence d’une infection.",
+            "options": [
+                "inflation",
+                "augmentation",
+                "élimination",
+                "affaiblissement"
+            ],
+            "answer": "augmentation"
+        },
+        {
+            "question_number": 15,
+            "question": "Le médecin a prescrit une _______ à base de thym pour apaiser la toux.",
+            "options": [
+                "tisane",
+                "infusion",
+                "médicament",
+                "sirop"
+            ],
+            "answer": "infusion"
+        },
+        {
+            "question_number": 16,
+            "question": "Il a _______ son nez pendant plusieurs jours à cause du rhume.",
+            "options": [
+                "écoulé",
+                "enrhumé",
+                "persisté",
+                "dégagé"
+            ],
+            "answer": "écoulé"
+        },
+        {
+            "question_number": 17,
+            "question": "Dernièrement, il a pris une _______ de dessert à la semoule, l'a mise en bouche et l'a avalée, tout fier de son exploit.",
+            "options": [
+                "cuillerée",
+                "sucer",
+                "dose",
+                "gorgée"
+            ],
+            "answer": "cuillerée"
+        },
+        {
+            "question_number": 18,
+            "question": "En _______ l’hygiène alimentaire, on peut prévenir de nombreuses maladies.",
+            "options": [
+                "valorisant",
+                "prenant",
+                "basant",
+                "souffrant"
+            ],
+            "answer": "valorisant"
+        },
+        
+        {
+            "question_number": 21,
+            "question": "Elle a _______ une solution pour réduire son anxiété avant les examens.",
+            "options": [
+                "pris froid",
+                "souffert",
+                "trouvé",
+                "enrhumé"
+            ],
+            "answer": "trouvé"
+        },
+        {
+            "question_number": 22,
+            "question": "Les symptômes peuvent _______ plusieurs semaines avant de disparaître.",
+            "options": [
+                "persister",
+                "disparaître",
+                "soulager",
+                "éliminer"
+            ],
+            "answer": "persister"
+        },
+        {
+            "question_number": 23,
+            "question": "Le médecin a _______ un médicament pour soulager la douleur et aider à récupérer.",
+            "options": [
+                "prescrit",
+                "souligné",
+                "valorisé",
+                "éliminé"
+            ],
+            "answer": "prescrit"
+        },
+        {
+            "question_number": 25,
+            "question": "L'infection a _______ dans les sinus et a causé beaucoup de douleur.",
+            "options": [
+                "gonflé",
+                "éliminé",
+                "persisté",
+                "fragilisé"
+            ],
+            "answer": "gonflé"
+        },
+        {
+            "question_number": 26,
+            "question": "Les effets du stress peuvent _______ la santé mentale et physique d’une personne.",
+            "options": [
+                "affaiblir",
+                "soulager",
+                "gonfler",
+                "dégager"
+            ],
+            "answer": "affaiblir"
+        },
+        {
+            "question_number": 27,
+            "question": "Cultiver l'esprit critique consiste donc, si on suit cette approche, à mener les élèves à limiter sinon ______ leurs temps d'exposition à ces médias.",
+            "options": [
+                "comprimer",
+                "se moucher",
+                "proscrire",
+                "souffrir"
+            ],
+            "answer": "proscrire"
+        },
+        {
+            "question_number": 28,
+            "question": "Il faut _______ du temps pour récupérer après une maladie.",
+            "options": [
+                "passer",
+                "soulager",
+                "persister",
+                "sucer"
+            ],
+            "answer": "passer"
+        },
+        {
+            "question_number": 29,
+            "question": "Il existe un lien évident, et facile à _______, entre la croissance et la recherche et le développement.",
+            "options": [
+                "démontrer",
+                "enrhumé",
+                "souligner",
+                "comprimer"
+            ],
+            "answer": "démontrer"
+        },
+        {
+            "question_number": 30,
+            "question": "Elle a _______ de se rendre chez le médecin malgré sa fatigue.",
+            "options": [
+                "persisté",
+                "dégagé",
+                "se contenter",
+                "choisi"
+            ],
+            "answer": "persisté"
+        },
+        {
+            "question_number": 1,
+            "question": "Tancret, pâle à présent comme s'il allait ______, s'était levé, laissant tomber son chapeau, qui roula sur le parquet.",
+            "options": [
+                "vaincre",
+                "persévérer",
+                "défaillir",
+                "rivaliser"
+            ],
+            "answer": "défaillir"
+        },
+        {
+            "question_number": 2,
+            "question": "______ un première mise en demeure, l'agriculteur n'avait pas modifié ses pratiques.",
+            "options": [
+                "Certes",
+                "Aussi",
+                "En dépit de",
+                "Enfin"
+            ],
+            "answer": "En dépit de"
+        },
+        {
+            "question_number": 3,
+            "question": "Si les mesures prises pour faciliter les projets d'habitat inclusif sont une bonne nouvelle, attention toutefois à ne pas _______ le principe même de ces projets.",
+            "options": [
+                "bénir",
+                "dévoyer",
+                "démultiplier",
+                "sévir"
+            ],
+            "answer": "dévoyer"
+        },
+        {
+            "question_number": 4,
+            "question": "Les manifestants ont exigé que le gouvernement ______ la politique de répression violente qui a duré pendant plusieurs années.",
+            "options": [
+                "détecte",
+                "récupére",
+                "mette fin à",
+                "soumette"
+            ],
+            "answer": "mette fin à"
+        },
+        {
+            "question_number": 5,
+            "question": "Le champion a _______ un record mondial impressionnant.",
+            "options": [
+                "rivalisé",
+                "traqué",
+                "dépassé",
+                "réussi"
+            ],
+            "answer": "dépassé"
+        },
+        {
+            "question_number": 6,
+            "question": "L'athlète a _______ de sa blessure et a pu participer à la finale.",
+            "options": [
+                "récupéré",
+                "traquer",
+                "dissuasif",
+                "rivaliser"
+            ],
+            "answer": "récupéré"
+        },
+        {
+            "question_number": 7,
+            "question": "Enfin, l'estimation des choses doit, pour être efficace, rechercher la justice et non le ______.",
+            "options": [
+                "pulsion",
+                "quête",
+                "lucre",
+                "émerveillement"
+            ],
+            "answer": "lucre"
+        },
+        {
+            "question_number": 8,
+            "question": "Le _______ des records sportifs a été particulièrement compétitif cette année.",
+            "options": [
+                "palmarès",
+                "dépassement",
+                "prix",
+                "jeu"
+            ],
+            "answer": "palmarès"
+        },
+        {
+            "question_number": 9,
+            "question": "La _______ de l'athlète a été mise en doute après les accusations de dopage.",
+            "options": [
+                "sincérité",
+                "perspective",
+                "défaillance",
+                "malédiction"
+            ],
+            "answer": "sincérité"
+        },
+        {
+            "question_number": 10,
+            "question": "Le champion a _______ sa victoire, en dépit de la pression immense.",
+            "options": [
+                "exalté",
+                "gémir",
+                "bénir",
+                "faire apparaître"
+            ],
+            "answer": "exalté"
+        },
+        {
+            "question_number": 11,
+            "question": "Le ______ est un problème majeur dans le sport moderne.",
+            "options": [
+                "dopage",
+                "dopant",
+                "rivalité",
+                "violence"
+            ],
+            "answer": "dopage"
+        },
+        {
+            "question_number": 12,
+            "question": "Le coach a dû _______ ses athlètes pour éviter tout recours à des pratiques illégales.",
+            "options": [
+                "encadrer",
+                "visiter",
+                "rivaliser",
+                "dévoyer"
+            ],
+            "answer": "encadrer"
+        },
+        {
+            "question_number": 13,
+            "question": "La compétition a été _______ par des conditions météorologiques extrêmes.",
+            "options": [
+                "rivalisée",
+                "sévir",
+                "affectée",
+                "bénie"
+            ],
+            "answer": "affectée"
+        },
+
+        {
+            "question_number": 15,
+            "question": "L’absence de mesures répressives face au dopage a _______ dans certains sports.",
+            "options": [
+                "sévi",
+                "enrayé",
+                "même",
+                "favorisé"
+            ],
+            "answer": "sévi"
+        },
+        {
+            "question_number": 16,
+            "question": "Le sportif a _______ les règles du jeu en utilisant des substances interdites.",
+            "options": [
+                "violé",
+                "persévéré",
+                "rivalisé",
+                "souffert"
+            ],
+            "answer": "violé"
+        },
+        {
+            "question_number": 17,
+            "question": "Son comportement _______ a été un sujet de débat dans la presse sportive.",
+            "options": [
+                "douteux",
+                "persévérant",
+                "fidèle",
+                "éclatant"
+            ],
+            "answer": "douteux"
+        },
+        {
+            "question_number": 18,
+            "question": "L’équipe a décidé de _______ la situation après la défaite écrasante.",
+            "options": [
+                "récupérer",
+                "mettre fin à",
+                "s’émerveiller",
+                "bénir"
+            ],
+            "answer": "mettre fin à"
+        },
+        {
+            "question_number": 19,
+            "question": "_______, l’absence de contrôles stricts est un facteur clé du dopage dans le sport.",
+            "options": [
+                "Certes",
+                "En dépit de",
+                "Cependant",
+                "En ce sens"
+            ],
+            "answer": "Certes"
+        },
+        {
+            "question_number": 20,
+            "question": "Avec seulement huit élèves cette année, elle espère attirer ______ d'inscrits en septembre.",
+            "options": [
+                "à travers",
+                "en dépit de",
+                "davantage",
+                "certes"
+            ],
+            "answer": "davantage"
+        },
+        {
+            "question_number": 21,
+            "question": "L’athlète a fait _______ pour détecter la présence de substances interdites.",
+            "options": [
+                "un diagnostic",
+                "un contrôle",
+                "un dopage",
+                "une détection"
+            ],
+            "answer": "un contrôle"
+        },
+        {
+            "question_number": 22,
+            "question": "Le système _______ vise à empêcher les tricheries dans les compétitions.",
+            "options": [
+                "répressif",
+                "rival",
+                "détecteur",
+                "dissuasif"
+            ],
+            "answer": "répressif"
+        },
+        {
+            "question_number": 23,
+            "question": "Au grand dam de ses adversaires, cette poupée russe a réussi la ______ d'amasser 30 millions de dollars sans avoir remporté le moindre tournoi !",
+            "options": [
+                "quête",
+                "prouesse",
+                "séquence",
+                "découverte"
+            ],
+            "answer": "prouesse"
+        },
+        {
+            "question_number": 24,
+            "question": "Il a été reconnu comme _______ après avoir gagné la compétition internationale.",
+            "options": [
+                "vainqueur",
+                "dauphin",
+                "éclatant",
+                "perdant"
+            ],
+            "answer": "vainqueur"
+        },
+        {
+            "question_number": 25,
+            "question": "Il a été _______ par la gravité de la situation et a réagi avec une grande prudence.",
+            "options": [
+                "menacé",
+                "émerveillé",
+                "avide",
+                "dissuasif"
+            ],
+            "answer": "menacé"
+        },
+        {
+            "question_number": 26,
+            "question": "Pour décrypter la personnalité dans son ensemble, les psychologues utilisent des questionnaires qui permettent de ______ les visions faussées et de prendre du recul.",
+            "options": [
+                "contourner",
+                "rivaliser",
+                "bénir",
+                "élargir"
+            ],
+            "answer": "contourner"
+        },
+        {
+            "question_number": 27,
+            "question": "On considère trop souvent le sport comme une activité ________ et non pas comme une donnée sociale, médicale, culturelle et économique essentielle.",
+            "options": [
+                "périmé",
+                "recréatif",
+                "ludique",
+                "énergétique"
+            ],
+            "answer": "ludique"
+        },
+        {
+            "question_number": 28,
+            "question": "Il n’a pas hésité à _______ son comportement après avoir pris conscience de ses erreurs.",
+            "options": [
+                "récupérer",
+                "bénir",
+                "défaillir",
+                "dissoudre"
+            ],
+            "answer": "récupérer"
+        },
+        {
+            "question_number": 29,
+            "question": "L’athlète a été _______ après sa victoire écrasante.",
+            "options": [
+                "gémissant",
+                "exalté",
+                "réprimandé",
+                "défaillant"
+            ],
+            "answer": "exalté"
+        },
+        {
+            "question_number": 30,
+            "question": "_________ des pratiques répréhensibles, il risque une lourde sanction.",
+            "options": [
+                "En dépit de",
+                "Au-delà",
+                "Faute de",
+                "Malgré"
+            ],
+            "answer": "Faute de"
+        },
+        {
+            "question_number": 1,
+            "question": "Il a _______ un grand talent en gymnastique, ce qui lui a permis de remporter le championnat.",
+            "options": [
+                "fait preuve de",
+                "agir sur",
+                "se rappeler",
+                "élaborer"
+            ],
+            "answer": "fait preuve de"
+        },
+        {
+            "question_number": 2,
+            "question": "Il faut dire que les agences se permettant de _______ avec la loi trouvent beaucoup de bienveillance auprès des sites de publication.",
+            "options": [
+                "tricher",
+                "agacer",
+                "se mettre",
+                "se rappeler"
+            ],
+            "answer": "tricher"
+        },
+        {
+            "question_number": 3,
+            "question": "Il a _______ une stratégie pour améliorer ses performances en compétition.",
+            "options": [
+                "élaboré",
+                "prouvé",
+                "refusé",
+                "triché"
+            ],
+            "answer": "élaboré"
+        },
+        {
+            "question_number": 4,
+            "question": "L'inflammation de ses _______ lui cause beaucoup de douleur, surtout au niveau des genoux.",
+            "options": [
+                "articulations",
+                "cuisses",
+                "biceps",
+                "rein"
+            ],
+            "answer": "articulations"
+        },
+        {
+            "question_number": 5,
+            "question": "Il a _______ une douleur aiguë dans la poitrine après avoir couru trop vite.",
+            "options": [
+                "ressenti",
+                "exprimé",
+                "rejeté",
+                "tendu"
+            ],
+            "answer": "ressenti"
+        },
+        {
+            "question_number": 6,
+            "question": "La situation de circulation a ______ certains consommateurs, notamment à l'approche des fêtes et de la chasse aux cadeaux associée.",
+            "options": [
+                "agacé",
+                "réfugié",
+                "misé",
+                "rejeté"
+            ],
+            "answer": "agacé"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle a des _______ très développés grâce à ses années de musculation.",
+            "options": [
+                "biceps",
+                "poignées",
+                "cuisses",
+                "fesses"
+            ],
+            "answer": "biceps"
+        },
+        {
+            "question_number": 8,
+            "question": "L'os du _______ est fragile après l'accident.",
+            "options": [
+                "squelette",
+                "poitrine",
+                "rein",
+                "menton"
+            ],
+            "answer": "squelette"
+        },
+        {
+            "question_number": 9,
+            "question": "Sa posture est _______ après des années de mauvaises habitudes de travail.",
+            "options": [
+                "voûtée",
+                "taciturne",
+                "anodine",
+                "agacée"
+            ],
+            "answer": "voûtée"
+        },
+        {
+            "question_number": 10,
+            "question": "Il a _______ un grand effort pour rester calme pendant la compétition.",
+            "options": [
+                "fait preuve de",
+                "exhibé",
+                "triché",
+                "mémorisé"
+            ],
+            "answer": "fait preuve de"
+        },
+        {
+            "question_number": 11,
+            "question": "Ce médicament a un effet _______ et ne présente aucun danger pour la santé.",
+            "options": [
+                "anodin",
+                "aigu",
+                "intense",
+                "invisible"
+            ],
+            "answer": "anodin"
+        },
+        {
+            "question_number": 12,
+            "question": "Elle a _______ un examen pour détecter toute anomalie dans ses poumons.",
+            "options": [
+                "passé",
+                "rejeté",
+                "éprouvé",
+                "tendu"
+            ],
+            "answer": "passé"
+        },
+        {
+            "question_number": 13,
+            "question": "Il a _______ son stress en faisant du sport chaque jour.",
+            "options": [
+                "dissipé",
+                "élaboré",
+                "agacé",
+                "rejeté"
+            ],
+            "answer": "dissipé"
+        },
+        {
+            "question_number": 14,
+            "question": "Le _______ de son échec a été difficile à accepter pour lui.",
+            "options": [
+                "rejet",
+                "succès",
+                "menton",
+                "poignée"
+            ],
+            "answer": "rejet"
+        },
+        {
+            "question_number": 15,
+            "question": "Ils ont dû _______ leurs horaires en raison de la tempête.",
+            "options": [
+                "ajuster",
+                "répéter",
+                "miser",
+                "tendre"
+            ],
+            "answer": "ajuster"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle s'est _______ en voyant l'état de son équipe après la défaite.",
+            "options": [
+                "agacée",
+                "révoltée",
+                "misée",
+                "rappelée"
+            ],
+            "answer": "agacée"
+        },
+        {
+            "question_number": 17,
+            "question": "La différence culturelle _____ s'accentuer au fur et à mesure que les générations passent, surtout dans un contexte de mondialisation et d'échanges incessants entre les pays.",
+            "options": [
+                "tend à",
+                "mémorise à",
+                "s'élargit et",
+                "souffrit"
+            ],
+            "answer": "tend à"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a _______ une douleur aiguë dans le bas du dos après avoir soulevé des poids lourds.",
+            "options": [
+                "ressenti",
+                "agacé",
+                "rejeté",
+                "exprimé"
+            ],
+            "answer": "ressenti"
+        },
+        {
+            "question_number": 19,
+            "question": "Elle a _______ une posture parfaitement droite grâce à ses exercices quotidiens.",
+            "options": [
+                "adopté",
+                "agacé",
+                "triché",
+                "soulevé"
+            ],
+            "answer": "adopté"
+        },
+        {
+            "question_number": 20,
+            "question": "Après l'exercice intense, il est resté _______ pour éviter toute blessure.",
+            "options": [
+                "debout",
+                "mou",
+                "assis",
+                "voûté"
+            ],
+            "answer": "debout"
+        },
+        {
+            "question_number": 21,
+            "question": "Depuis 2000, le nombre de greffes de _____ entre vifs égal, ou dépasse, celui des greffes à partir de reins obtenus par prélèvement cadavérique.",
+            "options": [
+                "biceps",
+                "mentons",
+                "reins",
+                "poumon"
+            ],
+            "answer": "reins"
+        },
+        {
+            "question_number": 22,
+            "question": "Le médecin a recommandé de consulter un _______ pour traiter les problèmes de peau.",
+            "options": [
+                "dermatologue",
+                "neurologue",
+                "orthopédiste",
+                "dentiste"
+            ],
+            "answer": "dermatologue"
+        },
+        {
+            "question_number": 23,
+            "question": "L'athlète s'est _______ après la victoire de son équipe.",
+            "options": [
+                "émerveillé",
+                "agacé",
+                "misé",
+                "triché"
+            ],
+            "answer": "émerveillé"
+        },
+        {
+            "question_number": 24,
+            "question": "Son corps a _______ beaucoup de changements après des années de dur labeur.",
+            "options": [
+                "pris",
+                "agacé",
+                "mémorisé",
+                "réagi"
+            ],
+            "answer": "pris"
+        },
+        {
+            "question_number": 25,
+            "question": "Le médecin a dit que sa douleur à la _______ pourrait être causée par une mauvaise posture.",
+            "options": [
+                "poitrine",
+                "fesse",
+                "cuisse",
+                "biceps"
+            ],
+            "answer": "poitrine"
+        },
+        {
+            "question_number": 26,
+            "question": "Quelques signes sont encourageants : une ______ d'écoles de surf se montent, souvent jouxtées par des shops.",
+            "options": [
+                "poignée",
+                "rein",
+                "menton",
+                "poumon"
+            ],
+            "answer": "poignée"
+        },
+        {
+            "question_number": 27,
+            "question": "L'athlète a _______ à s'entraîner plus intensivement pour améliorer sa forme physique.",
+            "options": [
+                "misé",
+                "dévoyé",
+                "agacé",
+                "triché"
+            ],
+            "answer": "misé"
+        },
+        {
+            "question_number": 28,
+            "question": "Elle a _______ que son état de santé se détériorait après l'exposition prolongée au froid.",
+            "options": [
+                "rappelé",
+                "triché",
+                "ressenti",
+                "réagi"
+            ],
+            "answer": "rappelé"
+        },
+        {
+            "question_number": 29,
+            "question": "Il a _______ l'importance de faire des pauses régulières pendant l'entraînement pour éviter les blessures.",
+            "options": [
+                "souligné",
+                "triché",
+                "agacé",
+                "tendu"
+            ],
+            "answer": "souligné"
+        },
+        {
+            "question_number": 30,
+            "question": "Après l'accident, il a dû _______ de l'athlétisme pendant plusieurs mois.",
+            "options": [
+                "se passer",
+                "souffrir",
+                "récupérer",
+                "élargir"
+            ],
+            "answer": "se passer"
+        }
+    ]
+}

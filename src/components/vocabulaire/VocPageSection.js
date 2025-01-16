@@ -222,7 +222,7 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
                             {
                                 (!!lesson.test && !isMobile) && <div>
                                 <Link to={`/voc/test/${lesson.id}`} >
-                                    <button className={testButtonStyle}>{eng ? "Test" : "单项选择"}</button>
+                                    <button className={testButtonStyle}>{eng ? "Test" : "单元测试"}</button>
                                 </Link>
                             </div>
                             }

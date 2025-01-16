@@ -91,7 +91,7 @@ export const wordsAlterEgoB2U2 = {
         { english: "anxiety", french: "angoisse", pos: "n.f.", chinese: "焦虑" },
         { english: "button, pimple", french: "bouton", pos: "n.m.", chinese: "按钮，粉刺" },
         { english: "palpitation", french: "palpitation", pos: "n.f.", chinese: "心悸" },
-        { english: "it’s worth it that (subj.)", french: "cela voudrait la peine que", pos: "loc.", chinese: "值得" }
+        { english: "it’s worth it that (subj.)", french: "cela vaudrais la peine que", pos: "loc.", chinese: "值得" }
     ],
     "conseil": [
         { english: "to have a benefit in doing", french: "avoir intérêt à faire", pos: "loc.", chinese: "做某事有好处" },

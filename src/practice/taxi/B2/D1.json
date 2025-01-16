@@ -686,7 +686,7 @@
                 "docile",
                 "extravertie"
             ],
-            "answer": "spontané"
+            "answer": "spontanée"
         },
         {
             "question_number": 11,
@@ -871,14 +871,14 @@
 
         {
             "question_number": 1,
-            "question": "Il a une attitude ___________ face à la critique.",
+            "question": "Il a vite constaté que les champions de l'optimisme vendaient 88 % de contrats en plus que les moins ______.",
             "options": [
-                "enthousiaste",
-                "volontaire",
-                "irréfléchie",
-                "perfectionniste"
+                "enthousiastes",
+                "volontaires",
+                "irréfléchies",
+                "perfectionnistes"
             ],
-            "answer": "enthousiaste"
+            "answer": "enthousiastes"
         },
         {
             "question_number": 2,
