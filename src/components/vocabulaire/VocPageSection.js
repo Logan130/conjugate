@@ -38,12 +38,12 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
 
     let vocButtonStyle = `btn btn-success ${buttonStyle}`
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
-    let genderButtonStyle = `btn btn-secondary ${buttonStyle}`;
+    let genderButtonStyle = `btn btn-error ${buttonStyle}`;
     let testButtonStyle = `btn btn-info ${buttonStyle}`;
 
     let vocButtonLockedStyle = `btn btn-success`
     let spellingButtonLockedStyle = `btn btn-warning`;
-    let genderButtonLockedStyle = `btn btn-secondary`;
+    let genderButtonLockedStyle = `btn btn-error`;
 
     const onClickUnlock = (e) => {
         setExpanded(!expanded);
@@ -137,23 +137,23 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
             <div>
                 {isMobile && <>
                     {(expanded && !matched) &&
-                            <div className='flex flex-row align-center items-center mb-2'>
-                                <label className="input input-bordered flex items-center">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16"
-                                        fill="currentColor"
-                                        className="h-4 w-4 opacity-70">
-                                        <path
-                                            fillRule="evenodd"
-                                            d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
-                                            clipRule="evenodd" />
-                                    </svg>
+                        <div className='flex flex-row align-center items-center mb-2'>
+                            <label className="input input-bordered flex items-center">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    className="h-4 w-4 opacity-70">
+                                    <path
+                                        fillRule="evenodd"
+                                        d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                                        clipRule="evenodd" />
+                                </svg>
 
-                                    <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} onKeyDown={onHitKeyDown} />
-                                </label>
-                                <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
-                            </div>
+                                <input type="password" className="grow" value={passwordValue} onChange={onPasswordChange} onKeyDown={onHitKeyDown} />
+                            </label>
+                            <button onClick={onClickConfirm} className="btn btn-neutral ml-3">{eng ? 'Confirm' : '确认'}</button>
+                        </div>
                     }
                 </>}
             </div>
@@ -208,11 +208,25 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
                                     <button className={vocButtonStyle}>{eng ? "Voc" : "单词表"}</button>
                                 </Link>
                             </div>
-                            <div>
-                                <Link to={`/vocunit/${lesson.id}/0`} >
-                                    <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
-                                </Link>
-                            </div>
+
+                            {
+                                (!isMobile || (!lesson.test))
+                                &&
+                                <div>
+                                    <Link to={`/vocunit/${lesson.id}/0`} >
+                                        <button className={spellingButtonStyle}>{eng ? "Spelling" : "拼写练习"}</button>
+                                    </Link>
+                                </div>
+                            }
+
+{
+                                (isMobile && !!lesson.test) && <div>
+                                    <Link to={`/voc/test/${lesson.id}`} >
+                                        <button className={testButtonStyle}>{eng ? "Evaluate" : "单元测试"}</button>
+                                    </Link>
+                                </div>
+                            }
+
                             <div>
                                 <Link to={`/vocunit/${lesson.id}/1`} >
                                     <button className={genderButtonStyle}>{eng ? "Gender" : "阴阳练习"}</button>
@@ -220,11 +234,11 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
                             </div>
 
                             {
-                                (!!lesson.test && !isMobile) && <div>
-                                <Link to={`/voc/test/${lesson.id}`} >
-                                    <button className={testButtonStyle}>{eng ? "Test" : "单元测试"}</button>
-                                </Link>
-                            </div>
+                                (!isMobile && !!lesson.test) && <div>
+                                    <Link to={`/voc/test/${lesson.id}`} >
+                                        <button className={testButtonStyle}>{eng ? "Evaluate" : "单元测试"}</button>
+                                    </Link>
+                                </div>
                             }
                         </div>
                     </>))}

@@ -21,7 +21,7 @@ function IndividualQuestion({ question, id }) {
                 <h2 className="card-title">Q{id}: {question.question}</h2>
                 <div className="grid grid-cols-1 gap-2">
                     {question.options.map((option, index) => (
-                        <div key={index} className="flex items-center space-x-2">
+                        <div key={index} className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => handleRadioChange(index, option)}>
                             <input
                                 type="radio"
                                 className={answer === "" ? "radio radio-xs" : (answer === question.answer ? "radio radio-xs radio-success" : "radio radio-xs radio-error")}

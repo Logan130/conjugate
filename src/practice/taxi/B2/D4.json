@@ -1,0 +1,1115 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "L'innovation dans cette entreprise a été ______, introduisant des concepts jamais vus auparavant.",
+            "options": [
+                "novatrice",
+                "paradoxale",
+                "indolore",
+                "hybride"
+            ],
+            "answer": "novatrice"
+        },
+        {
+            "question_number": 2,
+            "question": "Après plusieurs mois de discussions, l'entreprise _______ officiellement à réduire ses émissions de CO2 de 30 % d'ici cinq ans, en investissant dans des technologies plus écologiques et en révisant ses processus de production.",
+            "options": [
+                "engage",
+                "se fait à",
+                "s'engage",
+                "s'inscrit"
+            ],
+            "answer": "s'engage"
+        },
+        {
+            "question_number": 3,
+            "question": "Ce genre de mauvaise gestion peut entraîner des ______ considérables pour la réputation de l'entreprise.",
+            "options": [
+                "atouts",
+                "nuisances",
+                "réquisitoires",
+                "particules"
+            ],
+            "answer": "nuisances"
+        },
+        {
+            "question_number": 4,
+            "question": "Le projet a été ______ par une équipe de jeunes créateurs ayant une vision moderne.",
+            "options": [
+                "déployé",
+                "démontré",
+                "intitulé",
+                "soulevé"
+            ],
+            "answer": "déployé"
+        },
+        {
+            "question_number": 5,
+            "question": "Le système de filtration de l'air dans la salle de réunion est équipé d’un ______ pour purifier l’environnement.",
+            "options": [
+                "carrefour",
+                "filtre",
+                "azote",
+                "seuil"
+            ],
+            "answer": "filtre"
+        },
+        {
+            "question_number": 6,
+            "question": "L'expert a ______ les résultats de ses recherches, prouvant que les mesures proposées étaient efficaces.",
+            "options": [
+                "soulevé",
+                "démontré",
+                "déployé",
+                "explosé"
+            ],
+            "answer": "démontré"
+        },
+        {
+            "question_number": 7,
+            "question": "L'___________ d'une bonne stratégie est essentiel pour réussir dans un environnement compétitif.",
+            "options": [
+                "comble",
+                "atout",
+                "seuil",
+                "carrefour"
+            ],
+            "answer": "atout"
+        },
+        {
+            "question_number": 8,
+            "question": "La décision a été prise ______ de renforcer la sécurité dans les aéroports, suite aux événements récents.",
+            "options": [
+                "sur le plan",
+                "paradoxalement",
+                "indolore",
+                "à petit feu"
+            ],
+            "answer": "sur le plan"
+        },
+        {
+            "question_number": 9,
+            "question": "Il a dû ______ sa manière de travailler pour pouvoir s'adapter à la nouvelle technologie.",
+            "options": [
+                "se faire à",
+                "engager",
+                "démontrer",
+                "cibler"
+            ],
+            "answer": "se faire à"
+        },
+        {
+            "question_number": 10,
+            "question": "L'équipe a ______ des solutions pour améliorer la gestion des déchets dans la ville.",
+            "options": [
+                "explosé",
+                "déployé",
+                "ciblé",
+                "souligné"
+            ],
+            "answer": "déployé"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a dû ______ à son rôle de leader et prendre des décisions difficiles pour le bien de l'équipe.",
+            "options": [
+                "engager",
+                "s'engager",
+                "s'inscrire",
+                "se faire à"
+            ],
+            "answer": "s'engager"
+        },
+        {
+            "question_number": 12,
+            "question": "L'entreprise a ______ un grand nombre d’emplois, ce qui a aidé à la stabilisation de l’économie locale.",
+            "options": [
+                "engagé",
+                "déployé",
+                "ciblé",
+                "démontré"
+            ],
+            "answer": "engagé"
+        },
+        {
+            "question_number": 13,
+            "question": "Il est ______ de l’importance de travailler ensemble pour atteindre les objectifs communs.",
+            "options": [
+                "conscient",
+                "démonstratif",
+                "paradoxal",
+                "engagé"
+            ],
+            "answer": "conscient"
+        },
+        {
+            "question_number": 14,
+            "question": "Le débat a pris une tournure ______ quand les deux parties ont commencé à se contredire ouvertement.",
+            "options": [
+                "paradoxale",
+                "indolore",
+                "hybride",
+                "sensible"
+            ],
+            "answer": "paradoxale"
+        },
+        {
+            "question_number": 15,
+            "question": "L'impact du changement climatique est ______, affectant de manière globale tous les aspects de la vie sur Terre.",
+            "options": [
+                "sans fin",
+                "paradoxal",
+                "carrefour",
+                "démographique"
+            ],
+            "answer": "sans fin"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle regrette qu'on ne dispose pas encore de suffisamment d'informations pour déterminer le ______ à partir duquel ces polluants sont inquiétants pour la santé.",
+            "options": [
+                "seuil",
+                "filtre",
+                "carrefour",
+                "atout"
+            ],
+            "answer": "seuil"
+        },
+        {
+            "question_number": 17,
+            "question": "Elle a ______ que le rapport contenait des erreurs, mais elle a également fourni des solutions pour les corriger.",
+            "options": [
+                "démontré",
+                "soulevé",
+                "engagé",
+                "déployé"
+            ],
+            "answer": "soulevé"
+        },
+        {
+            "question_number": 18,
+            "question": "Le nouveau modèle de voiture _______ combine un moteur électrique et un moteur à combustion, offrant ainsi une meilleure efficacité énergétique tout en réduisant les émissions de gaz polluants.",
+            "options": [
+                "indolore",
+                "paradoxale",
+                "hybride",
+                "logique"
+            ],
+            "answer": "hybride"
+        },
+        {
+            "question_number": 19,
+            "question": "Dans ce projet, les entreprises doivent ______ les actions à entreprendre pour améliorer leur efficacité énergétique.",
+            "options": [
+                "cibler",
+                "déployer",
+                "soulever",
+                "engager"
+            ],
+            "answer": "cibler"
+        },
+        {
+            "question_number": 20,
+            "question": "Les chercheurs ont décidé de ______ leurs efforts sur les zones les plus touchées par la pollution afin de développer des solutions adaptées.",
+            "options": [
+                "cibler",
+                "s'engager",
+                "engager",
+                "démontrer"
+            ],
+            "answer": "cibler"
+        },
+        {
+            "question_number": 21,
+            "question": "Pour faire face à la crise sanitaire, le gouvernement a commancé à ______ une série de mesures, incluant la mise en place de centres de vaccination dans toutes les grandes villes.",
+            "options": [
+                "engager",
+                "déployer",
+                "se faire à",
+                "réfléchir"
+            ],
+            "answer": "déployer"
+        },
+        {
+            "question_number": 22,
+            "question": "Le journaliste a publié un article ________ les conditions de travail inhumaines dans les usines de textile, incitant ainsi à une prise de conscience collective sur les droits des travailleurs.",
+            "options": [
+                "soulevant",
+                "dénonçant",
+                "ciblant",
+                "explosant"
+            ],
+            "answer": "soulevant"
+        },
+        {
+            "question_number": 23,
+            "question": "Grâce aux avancées de la médecine moderne, l'intervention chirurgicale est devenue presque _______, permettant aux patients de se rétablir plus rapidement et avec moins de stress.",
+            "options": [
+                "hybride",
+                "démographique",
+                "carrefour",
+                "indolore"
+            ],
+            "answer": "indolore"
+        },
+        {
+            "question_number": 24,
+            "question": "Les récentes études _________ ont révélé une diminution significative de la population active dans les zones rurales, un phénomène qui pourrait avoir de lourdes conséquences économiques à long terme.",
+            "options": [
+                "démographiquse",
+                "ciblés",
+                "conscients",
+                "engagés"
+            ],
+            "answer": "démographiquse"
+        },
+        {
+            "question_number": 25,
+            "question": "Le projet a été retardé à cause des ______ logistiques, mais il a maintenant repris son cours.",
+            "options": [
+                "nuisances",
+                "atouts",
+                "particules",
+                "soulevés"
+            ],
+            "answer": "nuisances"
+        },
+        {
+            "question_number": 26,
+            "question": "Le directeur a ______ ses instructions à l’équipe, en insistant sur l’importance de respecter les délais.",
+            "options": [
+                "engagé",
+                "intitulé",
+                "démontré",
+                "donné"
+            ],
+            "answer": "démontré"
+        },
+        {
+            "question_number": 27,
+            "question": "Le ______ de la rue principale est souvent bloqué par les embouteillages, ce qui pose problème pour la circulation.",
+            "options": [
+                "seuil",
+                "carrefour",
+                "pente",
+                "comble"
+            ],
+            "answer": "carrefour"
+        },
+        {
+            "question_number": 28,
+            "question": "Pour réussir, il est nécessaire de ______ toutes les ressources disponibles et de les utiliser de manière efficace.",
+            "options": [
+                "engager",
+                "exploser",
+                "déployer",
+                "s’inscrire"
+            ],
+            "answer": "déployer"
+        },
+        {
+            "question_number": 29,
+            "question": "Le sentier montait à une _____ raide, rendant l'ascension difficile, mais offrant une vue spectaculaire sur la vallée une fois au sommet.",
+            "options": [
+                "carrefour",
+                "atout",
+                "seuil",
+                "pente"
+            ],
+            "answer": "pente"
+        },
+        {
+            "question_number": 30,
+            "question": "Ce produit est ______ de tous les critères nécessaires à la certification.",
+            "options": [
+                "conscient",
+                "engagé",
+                "clos",
+                "démontré"
+            ],
+            "answer": "clos"
+        },
+        {
+            "question_number": 1,
+            "question": "Lors de la réunion, le directeur a ________ ses préoccupations concernant la baisse des ventes à toute l’équipe, en soulignant la nécessité d'adapter rapidement la stratégie marketing.",
+            "options": [
+                "fait part de",
+                "procédé",
+                "bousculé",
+                "instauré"
+            ],
+            "answer": "fait part de"
+        },
+        {
+            "question_number": 2,
+            "question": "Je suis ______ faire un ajustement au projet pour le rendre plus adapté aux besoins du client.",
+            "options": [
+                "dans l’obligation de",
+                "en vertu de",
+                "en date du",
+                "hors d’usage"
+            ],
+            "answer": "dans l’obligation de"
+        },
+        {
+            "question_number": 3,
+            "question": "Le contrat ______ que le paiement soit effectué dans un délai de 30 jours.",
+            "options": [
+                "stipule",
+                "procède",
+                "bouscule",
+                "instaure"
+            ],
+            "answer": "stipule"
+        },
+        {
+            "question_number": 4,
+            "question": "Nous vous demandons ______ le nécessaire pour résoudre ce problème dans les plus brefs délais.",
+            "options": [
+                "de faire",
+                "de vous fournir",
+                "de faire appel",
+                "de vous soucier"
+            ],
+            "answer": "de faire"
+        },
+        {
+            "question_number": 5,
+            "question": "Le produit livré est ______, il est impossible de l'utiliser dans son état actuel.",
+            "options": [
+                "défectueux",
+                "primeur",
+                "ampleur",
+                "semé"
+            ],
+            "answer": "défectueux"
+        },
+        {
+            "question_number": 6,
+            "question": "Vous êtes ______ des frais de réparation puisque la garantie est expirée.",
+            "options": [
+                "à votre charge",
+                "en date du",
+                "dans l’obligation de",
+                "hors d’usage"
+            ],
+            "answer": "à votre charge"
+        },
+        {
+            "question_number": 7,
+            "question": "Le ______ de la nouvelle loi sur l'environnement entrera en vigueur le mois prochain.",
+            "options": [
+                "maintien",
+                "instauration",
+                "constat",
+                "litige"
+            ],
+            "answer": "instauration"
+        },
+        {
+            "question_number": 8,
+            "question": "Si le litige n'est pas réglé à l'amiable, nous serons dans l’obligation ______ à la cour.",
+            "options": [
+                "de faire appel",
+                "de vous fournir",
+                "de donner mon accord",
+                "de procéder"
+            ],
+            "answer": "de faire appel"
+        },
+        {
+            "question_number": 9,
+            "question": "Je vous saurais ______ de nous envoyer votre devis pour les réparations dès que possible.",
+            "options": [
+                "gré",
+                "contrariété",
+                "constat",
+                "charge"
+            ],
+            "answer": "gré"
+        },
+        {
+            "question_number": 10,
+            "question": "En ______ d'un accord, nous serons contraints d’annuler votre commande.",
+            "options": [
+                "absence",
+                "date",
+                "charge",
+                "ordre"
+            ],
+            "answer": "absence"
+        },
+        {
+            "question_number": 11,
+            "question": "L'______ de ce bâtiment est impressionnant, c'est l'un des plus grands de la région.",
+            "options": [
+                "devis",
+                "maintien",
+                "envergure",
+                "bailleur"
+            ],
+            "answer": "envergure"
+        },
+        {
+            "question_number": 12,
+            "question": "Le ______ entre les deux parties a été résolu après plusieurs réunions de négociation.",
+            "options": [
+                "litige",
+                "devis",
+                "embûche",
+                "constat"
+            ],
+            "answer": "litige"
+        },
+        {
+            "question_number": 13,
+            "question": "Le toit de cette maison est ______ et nécessite des réparations urgentes.",
+            "options": [
+                "en date",
+                "hors d’usage",
+                "en votre possession",
+                "bailleur"
+            ],
+            "answer": "hors d’usage"
+        },
+        {
+            "question_number": 14,
+            "question": "Ce changement pourrait ______ à une réduction des coûts et une amélioration de la production.",
+            "options": [
+                "conduire",
+                "être",
+                "se faire",
+                "avoir"
+            ],
+            "answer": "conduire"
+        },
+        {
+            "question_number": 15,
+            "question": "Nous ______ un changement de fournisseur pour améliorer la qualité des produits.",
+            "options": [
+                "envisageons",
+                "instaurons",
+                "procédons",
+                "bousculons"
+            ],
+            "answer": "envisageons"
+        },
+        {
+            "question_number": 16,
+            "question": "Nous avons ______ cette information à votre attention lors de notre dernier échange.",
+            "options": [
+                "porté",
+                "mis",
+                "saisi",
+                "bousculé"
+            ],
+            "answer": "porté"
+        },
+        {
+            "question_number": 17,
+            "question": "Je suis ______ que le contrat stipule clairement les conditions de paiement et de livraison.",
+            "options": [
+                "conscient",
+                "en date",
+                "en règle",
+                "désapprobateur"
+            ],
+            "answer": "conscient"
+        },
+        {
+            "question_number": 18,
+            "question": "À ______ de trouver une solution immédiate, l'équipe a décidé de reporter la réunion et de poursuivre les discussions par e-mail.",
+            "options": [
+                "défaut",
+                "date",
+                "absence",
+                "terme"
+            ],
+            "answer": "défaut"
+        },
+        {
+            "question_number": 19,
+            "question": "Le contrat a été rédigé selon les normes _______, garantissant ainsi que toutes les parties respectent les conditions convenues et évitent tout litige futur.",
+            "options": [
+                "possibles",
+                "légales",
+                "envers",
+                "sures"
+            ],
+            "answer": "légal"
+        },
+        {
+            "question_number": 20,
+            "question": "La résolution du problème ______ de la communication entre les différentes équipes.",
+            "options": [
+                "dépend",
+                "stipule",
+                "prend",
+                "procède"
+            ],
+            "answer": "dépend"
+        },
+        {
+            "question_number": 21,
+            "question": "Compte tenu des circonstances actuelles, un changement de stratégie semble ______, bien que des études approfondies soient nécessaires avant de prendre toute décision définitive.",
+            "options": [
+                "envisageable",
+                "défectueux",
+                "légal",
+                "difficile"
+            ],
+            "answer": "envisageable"
+        },
+        {
+            "question_number": 22,
+            "question": "Nous avons ______ un expert pour nous aider à résoudre cette situation difficile.",
+            "options": [
+                "fait appel à",
+                "mis en demeure de",
+                "s'engagé à",
+                "donné mon accord à"
+            ],
+            "answer": "fait appel à"
+        },
+        {
+            "question_number": 23,
+            "question": "Le responsable a promis de ________ pour que toutes les mesures de sécurité soient mises en place avant l'ouverture du nouveau site.",
+            "options": [
+                "mettre en œuvre",
+                "procéder à",
+                "faire le nécessaire",
+                "bousculer"
+            ],
+            "answer": "faire le nécessaire"
+        },
+        {
+            "question_number": 24,
+            "question": "Je ______ ce projet car il ne répond pas à nos attentes et je n'ai pas donné mon accord.",
+            "options": [
+                "désapprouve",
+                "procède",
+                "stipule",
+                "envisage"
+            ],
+            "answer": "désapprouve"
+        },
+        {
+            "question_number": 25,
+            "question": "Le règlement ______ que les documents doivent être soumis avant la fin du mois.",
+            "options": [
+                "stipule",
+                "procède",
+                "bouscule",
+                "instaure"
+            ],
+            "answer": "stipule"
+        },
+        {
+            "question_number": 26,
+            "question": "Le projet semblait avancer sans problème, mais plusieurs ________ imprévues sur le plan logistique ont retardé la livraison, obligeant l’équipe à réévaluer son planning.",
+            "options": [
+                "bails",
+                "litiges",
+                "embûches",
+                "bailleurs"
+            ],
+            "answer": "embûches"
+        },
+        {
+            "question_number": 26,
+            "question": "Le ______ entre le montant payé et le service reçu est évident, mais il n'y a rien à faire.",
+            "options": [
+                "constat",
+                "litige",
+                "embûche",
+                "bailleur"
+            ],
+            "answer": "constat"
+        },
+        {
+            "question_number": 27,
+            "question": "Le ______ a été difficile, mais nous avons enfin trouvé une solution acceptable pour toutes les parties.",
+            "options": [
+                "litige",
+                "bail",
+                "embûche",
+                "devis"
+            ],
+            "answer": "litige"
+        },
+        {
+            "question_number": 28,
+            "question": "Avant de commencer les travaux, l'entreprise a fourni un ______ détaillé, précisant les coûts des matériaux, de la main-d'œuvre et du temps estimé pour chaque étape du projet.",
+            "options": [
+                "devis",
+                "maintien",
+                "bailleur",
+                "litige"
+            ],
+            "answer": "devis"
+        },
+        {
+            "question_number": 29,
+            "question": "Le système mis en place par le gouvernement ne sera ______ dans les prochains mois que si des financements supplémentaires sont obtenus.",
+            "options": [
+                "instauré",
+                "bousculé",
+                "fait appel",
+                "maintenu"
+            ],
+            "answer": "instauré"
+        },
+        {
+            "question_number": 30,
+            "question": "Le _______ a accepté de rénover l'appartement avant la signature du contrat de location, à condition que les travaux soient terminés dans les deux semaines.",
+            "options": [
+                "légal",
+                "défavorable",
+                "primeur",
+                "bailleur"
+            ],
+            "answer": "bailleur"
+        },
+        {
+            "question_number": 1,
+            "question": "Ce petit appartement a ______ un canapé-lit pour optimiser l'espace dans le salon.",
+            "options": [
+                "aménagé",
+                "enlaidit",
+                "arrangé",
+                "peuplé"
+            ],
+            "answer": "arrangé"
+        },
+        {
+            "question_number": 2,
+            "question": "Ce quartier est très ______, avec des magasins, des restaurants et des écoles à proximité.",
+            "options": [
+                "insalubre",
+                "attrayant",
+                "périphérique",
+                "malveillant"
+            ],
+            "answer": "attrayant"
+        },
+        {
+            "question_number": 3,
+            "question": "Le paysage a été ______ à cause de la construction de nouveaux bâtiments qui ne s'intègrent pas bien.",
+            "options": [
+                "enlaidi",
+                "insalubre",
+                "incorruptible",
+                "périphérique"
+            ],
+            "answer": "enlaidi"
+        },
+        {
+            "question_number": 4,
+            "question": "Les rues de ce quartier sont ______ de jeunes étudiants qui viennent étudier dans la ville.",
+            "options": [
+                "peuplées",
+                "insalubres",
+                "incorruptibles",
+                "attrayantes"
+            ],
+            "answer": "peuplées"
+        },
+        {
+            "question_number": 5,
+            "question": "Cette décision est ______ et il n'y a aucun moyen de revenir en arrière.",
+            "options": [
+                "irréversible",
+                "illégale",
+                "insoluble",
+                "insalubre"
+            ],
+            "answer": "irréversible"
+        },
+        {
+            "question_number": 6,
+            "question": "Le bâtiment est ______, il n'est pas autorisé d'y vivre en raison des risques sanitaires.",
+            "options": [
+                "insalubre",
+                "périphérique",
+                "malveillant",
+                "attrayant"
+            ],
+            "answer": "insalubre"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle a ______ travailler dans ce domaine, c'est une passion pour elle.",
+            "options": [
+                "tenu à",
+                "arrangé",
+                "méfié",
+                "menacé"
+            ],
+            "answer": "tenu à"
+        },
+        {
+            "question_number": 8,
+            "question": "Il est important de se ______ de certaines offres trop alléchantes en ligne, car elles peuvent cacher des arnaques ou des produits de mauvaise qualité.",
+            "options": [
+                "menacer",
+                "méfier",
+                "sauver",
+                "enlaidir"
+            ],
+            "answer": "méfier"
+        },
+        {
+            "question_number": 9,
+            "question": "Le réverbère au coin de la rue est en panne, ce qui rend la zone assez sombre la nuit.",
+            "options": [
+                "banc",
+                "penderie",
+                "réverbère",
+                "fontaine"
+            ],
+            "answer": "réverbère"
+        },
+        {
+            "question_number": 10,
+            "question": "Les habitants du quartier sont souvent confrontés à des problèmes d'______ liés aux infrastructures.",
+            "options": [
+                "égout",
+                "insalubrité",
+                "abribus",
+                "moquette"
+            ],
+            "answer": "égout"
+        },
+        {
+            "question_number": 11,
+            "question": "Lors de la rénovation de l’immeuble, les ouvriers ont dû renforcer la ______ porteuse, qui montrait des signes de faiblesse après des années d’usure.",
+            "options": [
+                "colonne",
+                "plaque",
+                "banc",
+                "ficelle"
+            ],
+            "answer": "colonne"
+        },
+        {
+            "question_number": 12,
+            "question": "Cette maison est située à la ______ du village, loin de l'agitation du centre.",
+            "options": [
+                "périphérie",
+                "fontaine",
+                "barre",
+                "banc"
+            ],
+            "answer": "périphérie"
+        },
+        {
+            "question_number": 13,
+            "question": "Je vous recommande de vous ______ de cette offre, car elle semble trop belle pour être vraie.",
+            "options": [
+                "méfier",
+                "tenir",
+                "arranger",
+                "sauver"
+            ],
+            "answer": "méfier"
+        },
+        {
+            "question_number": 14,
+            "question": "L'______ de l'appartement a été fait avant d'y emménager, tout a été vérifié.",
+            "options": [
+                "aménagement",
+                "virement",
+                "carrelage",
+                "transfert"
+            ],
+            "answer": "aménagement"
+        },
+        {
+            "question_number": 15,
+            "question": "Les _____ du parc étaient occupés par des familles et des promeneurs, profitant de la chaleur du soleil en cette après-midi printanière.",
+            "options": [
+                "bancs",
+                "réverbères",
+                "seuils",
+                "penderies"
+            ],
+            "answer": "bancs"
+        },
+        {
+            "question_number": 16,
+            "question": "Il a fait un ______ en versant une grande somme d'argent sur un compte qu'il contrôlait.",
+            "options": [
+                "arnaque",
+                "plaque",
+                "virement",
+                "bail"
+            ],
+            "answer": "arnaque"
+        },
+        {
+            "question_number": 17,
+            "question": "Le contrat ______ des conditions claires sur les paiements et les délais.",
+            "options": [
+                "stipule",
+                "menace",
+                "mène",
+                "sauve"
+            ],
+            "answer": "stipule"
+        },
+        {
+            "question_number": 18,
+            "question": "Cette proposition est ______, il n'y a aucun moyen de la mettre en œuvre dans de bonnes conditions.",
+            "options": [
+                "insoluble",
+                "insalubre",
+                "incorruptible",
+                "irréversible"
+            ],
+            "answer": "insoluble"
+        },
+        {
+            "question_number": 19,
+            "question": "L’______ du projet dépendra de l’investissement des partenaires.",
+            "options": [
+                "ampleur",
+                "enlaidi",
+                "incorruptibilité",
+                "arrangement"
+            ],
+            "answer": "ampleur"
+        },
+        {
+            "question_number": 20,
+            "question": "Dans la foule en attendant le concert, quelqu'un a accidentellement bousculé le jeune homme, faisant tomber son téléphone par terre.",
+            "options": [
+                "fait attention",
+                "bousculé",
+                "arrangé",
+                "méfié"
+            ],
+            "answer": "bousculé"
+        },
+        {
+            "question_number": 21,
+            "question": "Si vous voulez partir en vacances, vous devez faire un ______ sur votre compte bancaire pour que le montant soit transféré.",
+            "options": [
+                "virement",
+                "banc",
+                "plaque",
+                "carrelage"
+            ],
+            "answer": "virement"
+        },
+        {
+            "question_number": 22,
+            "question": "Au ______ de la porte, il s'est arrêté un instant, hésitant à entrer, en pensant aux conséquences de cette décision importante.",
+            "options": [
+                "seuil",
+                "périphérie",
+                "banc",
+                "réverbère"
+            ],
+            "answer": "seuil"
+        },
+        {
+            "question_number": 23,
+            "question": "L’appartement a ______ des meubles modernes et une décoration soignée.",
+            "options": [
+                "aménagé",
+                "bousculé",
+                "peuplé",
+                "insalubrité"
+            ],
+            "answer": "aménagé"
+        },
+        {
+            "question_number": 24,
+            "question": "Il faut rendre le rapport avant la fin de la journée, _____ tu risques de manquer la date limite de soumission et de compromettre le projet.",
+            "options": [
+                "sinon",
+                "sans quoi",
+                "cependant",
+                "par contre"
+            ],
+            "answer": "sans quoi"
+        },
+        {
+            "question_number": 25,
+            "question": "Les ______ du quartier ont décidé de rénover le parc afin de l'améliorer.",
+            "options": [
+                "élus",
+                "arnaques",
+                "embûches",
+                "bailleurs"
+            ],
+            "answer": "élu(e)s"
+        },
+        {
+            "question_number": 26,
+            "question": "Les personnes ______ ont souvent tendance à nuire à l'harmonie du groupe.",
+            "options": [
+                "malveillantes",
+                "insalubres",
+                "peuplées",
+                "insolubles"
+            ],
+            "answer": "malveillantes"
+        },
+        {
+            "question_number": 27,
+            "question": "Ce quartier est vraiment ______, on y trouve tout ce dont on a besoin à portée de main.",
+            "options": [
+                "attrayant",
+                "incorruptible",
+                "insoluble",
+                "insalubre"
+            ],
+            "answer": "attrayant"
+        },
+        {
+            "question_number": 28,
+            "question": "Le produit a été retourné au service après-vente car il était ______, l'écran ne fonctionnant pas correctement malgré plusieurs tentatives de réparation.",
+            "options": [
+                "au point de vue pratique",
+                "insoluble",
+                "attrayant",
+                "défectueux"
+            ],
+            "answer": "défectueux"
+        },
+        {
+            "question_number": 29,
+            "question": "Le directeur a _______ de licencier tout employé qui ne respecterait pas les nouvelles règles de sécurité en vigueur dans l'entreprise.",
+            "options": [
+                "stipulé",
+                "aménagé",
+                "menacé",
+                "arrangé"
+            ],
+            "answer": "menacé"
+        },
+        {
+            "question_number": 30,
+            "question": "Le ______ des conditions sanitaires dans ce lieu est malheureusement assez faible.",
+            "options": [
+                "seuil",
+                "maintien",
+                "carrelage",
+                "enlaidissement"
+            ],
+            "answer": "maintien"
+        },
+        {
+            "question_number": 1,
+            "question": "Elle a ______ ses cheveux en une magnifique tresse avant la cérémonie.",
+            "options": [
+                "rampé",
+                "tressé",
+                "filé",
+                "chevelure"
+            ],
+            "answer": "tressé"
+        },
+        {
+            "question_number": 2,
+            "question": "Le désert est couvert de ______, et il est difficile de voir au loin à cause du vent.",
+            "options": [
+                "charbon",
+                "poussière",
+                "serpent",
+                "cratère"
+            ],
+            "answer": "poussière"
+        },
+        {
+            "question_number": 3,
+            "question": "Dans ce livre, l'auteur a inclus un ______ de poèmes écrits tout au long de sa vie.",
+            "options": [
+                "recueil",
+                "monstre",
+                "mât",
+                "serpent"
+            ],
+            "answer": "recueil"
+        },
+        {
+            "question_number": 4,
+            "question": "Le ______ de la mer, éclairé par la lune, était absolument magnifique.",
+            "options": [
+                "chevelure",
+                "cratère",
+                "clarté",
+                "tentaculaire"
+            ],
+            "answer": "clarté"
+        },
+        {
+            "question_number": 5,
+            "question": "Le ______ se déplaçait lentement dans l'herbe, cherchant sa proie.",
+            "options": [
+                "serpent",
+                "mât",
+                "charbon",
+                "mystère"
+            ],
+            "answer": "serpent"
+        },
+        {
+            "question_number": 6,
+            "question": "Le paysage était ______, s'étendant sur des kilomètres, sans fin en vue.",
+            "options": [
+                "tentaculaire",
+                "halluciné",
+                "chevelu",
+                "anarchiste"
+            ],
+            "answer": "tentaculaire"
+        },
+        {
+            "question_number": 7,
+            "question": "La paix de ce village a été frappée par la guerre, laissant les habitants dans la ______.",
+            "options": [
+                "charbon",
+                "misère",
+                "mât",
+                "recueil"
+            ],
+            "answer": "misère"
+        },
+        {
+            "question_number": 8,
+            "question": "Quand il a découvert la quantité d'argent que sa startup avait générée en seulement quelques mois, il était complètement _______, ne croyant pas à son propre succès.",
+            "options": [
+                "halluciné",
+                "tressé",
+                "filé",
+                "rampé"
+            ],
+            "answer": "halluciné"
+        },
+        {
+            "question_number": 9,
+            "question": "Le ______ du navire était brisé, rendant impossible sa remise à flot.",
+            "options": [
+                "mât",
+                "poteau",
+                "serpent",
+                "charbon"
+            ],
+            "answer": "mât"
+        },
+        {
+            "question_number": 10,
+            "question": "Les ______ électriques le long de la route étaient inclinés après la tempête, et des techniciens ont dû intervenir rapidement pour éviter des coupures de courant dans la région.",
+            "options": [
+                "poteaux",
+                "cratères",
+                "tresses",
+                "serpents"
+            ],
+            "answer": "poteaux"
+        }
+    ]
+}
