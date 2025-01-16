@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conjugate/static/css/main.de45286f.css",
-    "main.js": "/conjugate/static/js/main.f90f4d78.js",
+    "main.js": "/conjugate/static/js/main.db193a76.js",
     "static/js/206.756e5c40.chunk.js": "/conjugate/static/js/206.756e5c40.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.de45286f.css",
-    "static/js/main.f90f4d78.js"
+    "static/js/main.db193a76.js"
   ]
 }
