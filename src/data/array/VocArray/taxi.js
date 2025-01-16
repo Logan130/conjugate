@@ -244,19 +244,21 @@ export const alterEgoB2 = [
         words: wordsAlterEgoB2U1,
         tag: "Taxi",
         book: "B2",
-        test: "taxi/B2/D1.json"
+        test: "taxi/B2/D1.json", 
     },
     {
         unit: "D2 Santé",
         words: wordsAlterEgoB2U2,
         tag: "Taxi",
         book: "B2",
+        test: "taxi/B2/D2.json", 
     },
     {
         unit: "D3 Migration",
         words: wordsAlterEgoB2U3,
         tag: "Taxi",
         book: "B2",
+        test: "taxi/B2/D3.json", 
     },
     {
         unit: "D4 Cité",

@@ -1,0 +1,1313 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "L'______ est l'une des caractéristiques des sociétés modernes, où les individus sont de plus en plus présents partout.",
+            "options": [
+                "ubiquité",
+                "accro",
+                "expulsion",
+                "étape"
+            ],
+            "answer": "ubiquité"
+        },
+        {
+            "question_number": 2,
+            "question": "La ______ est souvent associée à un mode de vie où les gens ne bougent pas beaucoup et restent souvent à la maison.",
+            "options": [
+                "sédentarité",
+                "migration",
+                "flux",
+                "ténacité"
+            ],
+            "answer": "sédentarité"
+        },
+        {
+            "question_number": 3,
+            "question": "Le don de cette artiste pour la peinture est _______ et impressionne tous ceux qui la voient.",
+            "options": [
+                "aboli",
+                "valable",
+                "évident",
+                "réel"
+            ],
+            "answer": "évident"
+        },
+        {
+            "question_number": 4,
+            "question": "L'abolition de la monarchie a marqué un tournant important dans l'histoire de ce pays, permettant ainsi _______ de nouvelles formes de gouvernance.",
+            "options": [
+                "l'établissement",
+                "la séduction",
+                "la délivrance",
+                "l'abolition"
+            ],
+            "answer": "l'établissement"
+        },
+        {
+            "question_number": 5,
+            "question": "Ils ont été _______ par les paroles du leader et ont décidé de rejoindre son mouvement.",
+            "options": [
+                "séduits",
+                "réfugiés",
+                "expulsés",
+                "dévourés"
+            ],
+            "answer": "séduits"
+        },
+        {
+            "question_number": 6,
+            "question": "La barrière entre les classes sociales est souvent difficile à franchir, même pour les plus _______.",
+            "options": [
+                "qualifiés",
+                "sédentaires",
+                "accros",
+                "migrants"
+            ],
+            "answer": "qualifiés"
+        },
+        {
+            "question_number": 7,
+            "question": "Les _______ du pain jonchaient le sol après que les enfants eurent mangé.",
+            "options": [
+                "miettes",
+                "étapes",
+                "barrières",
+                "destins"
+            ],
+            "answer": "miettes"
+        },
+        {
+            "question_number": 8,
+            "question": "Le destin de l'humanité semble être de plus en plus lié à la manière dont nous allons gérer _______ de la planète.",
+            "options": [
+                "les fragments",
+                "les barrières",
+                "les migrations",
+                "les flux"
+            ],
+            "answer": "les migrations"
+        },
+        {
+            "question_number": 9,
+            "question": "Les _______ dans le monde ont augmenté ces dernières années en raison des guerres et des crises économiques.",
+            "options": [
+                "réfugiés",
+                "sédentaires",
+                "migrants",
+                "donateurs"
+            ],
+            "answer": "réfugiés"
+        },
+        {
+            "question_number": 10,
+            "question": "Beaucoup de personnes préfèrent _______ dans des pays étrangers pour trouver de meilleures opportunités de travail.",
+            "options": [
+                "migrer",
+                "se sédentariser",
+                "se procurer",
+                "expulser"
+            ],
+            "answer": "migrer"
+        },
+        {
+            "question_number": 11,
+            "question": "L'immigration clandestine est souvent associée à des _______ juridiques et humains importants.",
+            "options": [
+                "dégâts",
+                "progrès",
+                "opportunités",
+                "clés"
+            ],
+            "answer": "dégâts"
+        },
+        {
+            "question_number": 12,
+            "question": "Ils ont été _______ du pays après avoir violé les lois sur l'immigration.",
+            "options": [
+                "expulsés",
+                "sédentarisés",
+                "accueillis",
+                "migrés"
+            ],
+            "answer": "expulsés"
+        },
+        {
+            "question_number": 13,
+            "question": "La migration de masse pose des défis _______ pour les pays d'accueil, qui doivent trouver des solutions efficaces.",
+            "options": [
+                "tactiques",
+                "de masse",
+                "clandestins",
+                "environnementaux"
+            ],
+            "answer": "de masse"
+        },
+        {
+            "question_number": 14,
+            "question": "Il a _______ un long voyage pour se rendre dans un pays où il pourrait travailler dans son domaine.",
+            "options": [
+                "tenté",
+                "réussi",
+                "fait",
+                "élaboré"
+            ],
+            "answer": "tenté"
+        },
+        {
+            "question_number": 15,
+            "question": "Les réfugiés qui migrent vers l'Europe traversent souvent des _______ géographiques et politiques.",
+            "options": [
+                "étapes",
+                "barrières",
+                "flux",
+                "clés"
+            ],
+            "answer": "barrières"
+        },
+        {
+            "question_number": 16,
+            "question": "Cette ville est un carrefour où plusieurs _______ de migration se croisent.",
+            "options": [
+                "flux",
+                "dommages",
+                "concepts",
+                "sédentarités"
+            ],
+            "answer": "flux"
+        },
+        {
+            "question_number": 17,
+            "question": "Les jeunes qui s’expatrient _______ souvent un futur meilleur dans un autre pays.",
+            "options": [
+                "s’orientent",
+                "s’aventurent",
+                "se procurent",
+                "se rappellent"
+            ],
+            "answer": "s’orientent"
+        },
+        {
+            "question_number": 18,
+            "question": "L'______ aux professionnels qualifiés est essentiel pour maintenir la compétitivité d'un pays.",
+            "options": [
+                "accès",
+                "orientation",
+                "expulsion",
+                "appui"
+            ],
+            "answer": "accès"
+        },
+        {
+            "question_number": 19,
+            "question": "Il a réussi à _______ un visa de travail en passant par une procédure compliquée.",
+            "options": [
+                "se procurer",
+                "s’orienter",
+                "dévorer",
+                "expulser"
+            ],
+            "answer": "se procurer"
+        },
+        {
+            "question_number": 20,
+            "question": "Cette loi a été _______ après de longs débats parlementaires.",
+            "options": [
+                "abolie",
+                "adoptée",
+                "élargie",
+                "expulsée"
+            ],
+            "answer": "abolie"
+        },
+        {
+            "question_number": 21,
+            "question": "La _______ des réfugiés est une question cruciale qui exige une coopération internationale.",
+            "options": [
+                "délivrance",
+                "démocratie",
+                "mouvement",
+                "réfugiation"
+            ],
+            "answer": "délivrance"
+        },
+        {
+            "question_number": 22,
+            "question": "Les flux _______ entre ces pays augmentent chaque année à cause de l’instabilité économique et politique.",
+            "options": [
+                "migratoires",
+                "sédentaires",
+                "diplomatiques",
+                "clandestins"
+            ],
+            "answer": "migratoires"
+        },
+        {
+            "question_number": 23,
+            "question": "Il a fait _______ pour accomplir ses objectifs et ne se laissait pas facilement décourager.",
+            "options": [
+                "preuve",
+                "ténacité",
+                "expulsion",
+                "volonté"
+            ],
+            "answer": "ténacité"
+        },
+        {
+            "question_number": 24,
+            "question": "Les gens _______ souvent un long voyage pour atteindre un lieu où ils peuvent commencer une nouvelle vie.",
+            "options": [
+                "plongent",
+                "migrent",
+                "expulsent",
+                "accèdent"
+            ],
+            "answer": "migrent"
+        },
+        {
+            "question_number": 25,
+            "question": "L'______ des actions légales pour résoudre cette crise migratoire est crucial.",
+            "options": [
+                "accès",
+                "appui",
+                "engagement",
+                "expulsion"
+            ],
+            "answer": "engagement"
+        },
+        {
+            "question_number": 26,
+            "question": "Il a _______ la beauté des paysages qu'il a découverts en voyageant.",
+            "options": [
+                "contemplé",
+                "expulsé",
+                "dévoré",
+                "orienté"
+            ],
+            "answer": "contemplé"
+        },
+        {
+            "question_number": 27,
+            "question": "Les jeunes ont souvent _______ des rêves et des ambitions de réussir dans un autre pays.",
+            "options": [
+                "migré",
+                "plongé",
+                "devenu",
+                "expulsé"
+            ],
+            "answer": "migré"
+        },
+        {
+            "question_number": 28,
+            "question": "Ce phénomène de migration touche de plus en plus de pays, _______ les économies mondiales.",
+            "options": [
+                "accentuant",
+                "trouvant",
+                "affectant",
+                "expulsant"
+            ],
+            "answer": "affectant"
+        },
+        {
+            "question_number": 29,
+            "question": "Elle a décidé de _______ et de s’installer en France après plusieurs années d’expatriation.",
+            "options": [
+                "rester",
+                "migrer",
+                "plonger",
+                "expulser"
+            ],
+            "answer": "rester"
+        },
+        {
+            "question_number": 30,
+            "question": "Le _______ à l'information dans cette situation est essentiel pour éviter les malentendus.",
+            "options": [
+                "contrôle",
+                "expulser",
+                "accès",
+                "explication"
+            ],
+            "answer": "accès"
+        },
+        {
+            "question_number": 1,
+            "question": "______ les informations sur le sujet, je vous informe que la réunion est reportée à la semaine prochaine.",
+            "options": [
+                "Suite à",
+                "Par la présente",
+                "En dépit de",
+                "Conformément à"
+            ],
+            "answer": "Suite à"
+        },
+        {
+            "question_number": 2,
+            "question": "Je vous prie de bien vouloir ______ cette lettre à votre responsable pour examen.",
+            "options": [
+                "faire parvenir",
+                "solliciter",
+                "formuler",
+                "adresser"
+            ],
+            "answer": "faire parvenir"
+        },
+        {
+            "question_number": 3,
+            "question": "Je vous serais ______ pour votre aide et je vous remercie d’avance.",
+            "options": [
+                "reconnaissant",
+                "distingué",
+                "obligé",
+                "respectueux"
+            ],
+            "answer": "reconnaissant"
+        },
+        {
+            "question_number": 4,
+            "question": "Le ______ de ce document est indispensable pour poursuivre la procédure.",
+            "options": [
+                "obtention",
+                "colloque",
+                "relevé",
+                "croissance"
+            ],
+            "answer": "obtention"
+        },
+        {
+            "question_number": 5,
+            "question": "______ que le projet soit terminé, nous pourrons commencer la phase suivante.",
+            "options": [
+                "Etant donné",
+                "Au motif",
+                "De fait",
+                "Préalablement"
+            ],
+            "answer": "Etant donné"
+        },
+        {
+            "question_number": 6,
+            "question": "Il est important de ______ ce point lors de la réunion de demain.",
+            "options": [
+                "passer en revue",
+                "se soucier",
+                "raisonner",
+                "tendre"
+            ],
+            "answer": "passer en revue"
+        },
+        {
+            "question_number": 7,
+            "question": "______ de l’attachement de ce document, vous trouverez les informations nécessaires.",
+            "options": [
+                "Veuillez trouver ci-joint",
+                "Je vous adresse",
+                "Je sollicite",
+                "Je me tiens à"
+            ],
+            "answer": "Veuillez trouver ci-joint"
+        },
+        {
+            "question_number": 8,
+            "question": "La ______ du dossier a été effectuée selon les normes du service.",
+            "options": [
+                "délivrance",
+                "obtention",
+                "réception",
+                "formulation"
+            ],
+            "answer": "délivrance"
+        },
+        {
+            "question_number": 9,
+            "question": "Il est ______ de voir comment ces tendances se développent dans le monde entier.",
+            "options": [
+                "irrépressible",
+                "inéluctable",
+                "indispensable",
+                "ample"
+            ],
+            "answer": "inéluctable"
+        },
+        {
+            "question_number": 10,
+            "question": "L’______ de la situation est évidente, mais il faut encore du temps pour régler les problèmes.",
+            "options": [
+                "aboutissement",
+                "étape",
+                "entrave",
+                "enjeu"
+            ],
+            "answer": "aboutissement"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a ______ un courrier recommandé pour confirmer sa demande d’adhésion.",
+            "options": [
+                "dûment adressé",
+                "formulé",
+                "obtenu",
+                "sollicité"
+            ],
+            "answer": "dûment adressé"
+        },
+        {
+            "question_number": 12,
+            "question": "______ les circonstances, il ne sera pas possible de mener à bien ce projet sans un financement supplémentaire.",
+            "options": [
+                "Au motif que",
+                "Etant donné que",
+                "Conformément à",
+                "Préalablement à"
+            ],
+            "answer": "Etant donné que"
+        },
+        {
+            "question_number": 13,
+            "question": "L’______ d’un permis de travail a été une étape clé dans son expatriation.",
+            "options": [
+                "obtention",
+                "exécution",
+                "invention",
+                "acceptation"
+            ],
+            "answer": "obtention"
+        },
+        {
+            "question_number": 14,
+            "question": "Les informations ci-dessous sont ______ obtenues pour compléter le dossier.",
+            "options": [
+                "préalablement",
+                "dûment",
+                "irrépressibles",
+                "distinguées"
+            ],
+            "answer": "dûment"
+        },
+        {
+            "question_number": 15,
+            "question": "Je vous adresse ce document ______ pour votre examen.",
+            "options": [
+                "veuillez trouver ci-joint",
+                "dûment",
+                "solliciter",
+                "expédier"
+            ],
+            "answer": "veuillez trouver ci-joint"
+        },
+        {
+            "question_number": 16,
+            "question": "Il a ______ son soutien auprès des autorités locales pour résoudre ce problème.",
+            "options": [
+                "sollicité",
+                "adressé",
+                "formulé",
+                "évalué"
+            ],
+            "answer": "sollicité"
+        },
+        {
+            "question_number": 17,
+            "question": "La ______ des travailleurs migrants est un sujet complexe qui mérite toute notre attention.",
+            "options": [
+                "croissance",
+                "migration",
+                "mondialisation",
+                "réfugié"
+            ],
+            "answer": "mondialisation"
+        },
+        {
+            "question_number": 18,
+            "question": "Il essaye de maintenir une attitude ________ envers les autres, même dans des moments de tension.",
+            "options": [
+                "inéluctable",
+                "irrépressible",
+                "respectueuse",
+                "démographique"
+            ],
+            "answer": "respectueuse"
+        },
+        {
+            "question_number": 19,
+            "question": "Ils ont dû faire face à plusieurs ______ avant de réussir à s’établir dans leur nouveau pays.",
+            "options": [
+                "entraves",
+                "obtentions",
+                "échecs",
+                "taux"
+            ],
+            "answer": "entraves"
+        },
+        {
+            "question_number": 20,
+            "question": "______ ce rapport que vous trouverez dans le fichier joint, nous avons analysé les résultats de l’enquête.",
+            "options": [
+                "Suite à",
+                "Par la présente",
+                "De fait",
+                "Au motif que"
+            ],
+            "answer": "Suite à"
+        },
+        {
+            "question_number": 21,
+            "question": "Le ______ de ce programme s’est terminée après plusieurs mois de recherche.",
+            "options": [
+                "croissance",
+                "délivrance",
+                "conclusion",
+                "aboutissement"
+            ],
+            "answer": "aboutissement"
+        },
+        {
+            "question_number": 22,
+            "question": "L’______ d’un brevet est essentielle pour protéger les droits d’un inventeur.",
+            "options": [
+                "obtention",
+                "assurance",
+                "expulsion",
+                "élévation"
+            ],
+            "answer": "obtention"
+        },
+        {
+            "question_number": 23,
+            "question": "Les entreprises doivent ______ les avantages et inconvénients avant de prendre une décision.",
+            "options": [
+                "raisonner",
+                "se soucier",
+                "aborder",
+                "réfléchir"
+            ],
+            "answer": "raisonner"
+        },
+        {
+            "question_number": 24,
+            "question": "______ que cette décision ait été prise, il faudra suivre les étapes nécessaires pour l’implémentation.",
+            "options": [
+                "Etant donné",
+                "Suite",
+                "A savoir",
+                "Dûment"
+            ],
+            "answer": "Suite"
+        },
+        {
+            "question_number": 25,
+            "question": "L’______ des travailleurs dans un pays étranger peut entraîner des changements importants dans l’économie locale.",
+            "options": [
+                "expulsion",
+                "automatisation",
+                "insertion",
+                "assurance"
+            ],
+            "answer": "insertion"
+        },
+        {
+            "question_number": 26,
+            "question": "Pour ______ vos questions, n'hésitez pas à me contacter par email.",
+            "options": [
+                "informer",
+                "répondre",
+                "solliciter",
+                "consulter"
+            ],
+            "answer": "informer"
+        },
+        {
+            "question_number": 27,
+            "question": "Cette étape a pour but de prendre en compte les personnels en amont du processus de changement, de façon à les associer _______.",
+            "options": [
+                "en dépit",
+                "conformément",
+                "préalablement",
+                "au motif"
+            ],
+            "answer": "préalablement"
+        },
+        {
+            "question_number": 28,
+            "question": "Le ______ de l’hôte était particulièrement attentif à ses invités, ce qui a rendu le séjour agréable.",
+            "options": [
+                "réseau",
+                "service",
+                "accueil",
+                "entretien"
+            ],
+            "answer": "accueil"
+        },
+        {
+            "question_number": 29,
+            "question": "______ à votre message, nous vous informons que votre demande a été acceptée.",
+            "options": [
+                "Suite",
+                "Dû",
+                "Suite à",
+                "Par"
+            ],
+            "answer": "Suite"
+        },
+        {
+            "question_number": 30,
+            "question": "Dans le cadre de ce projet, ______ pour la réalisation des tâches n’est pas encore défini.",
+            "options": [
+                "le bénéficiaire",
+                "le taux",
+                "le coût",
+                "l'assuré"
+            ],
+            "answer": "le taux"
+        },
+        {
+            "question_number": 1,
+            "question": "Le projet a été accepté ______ les difficultés administratives rencontrées.",
+            "options": [
+                "en dépit de",
+                "suite à",
+                "d’un côté",
+                "de l’autre"
+            ],
+            "answer": "en dépit de"
+        },
+        {
+            "question_number": 2,
+            "question": "Les autorités ont ______ les habitants de la ville qu'une alerte météo avait été émise.",
+            "options": [
+                "averti",
+                "fâché",
+                "abrité",
+                "dressé"
+            ],
+            "answer": "averti"
+        },
+        {
+            "question_number": 3,
+            "question": "Les autorités ______ face aux nouvelles règles migratoires.",
+            "options": [
+                "se sont repliées",
+                "se sont dressées",
+                "ont fourbi",
+                "ont pris une position"
+            ],
+            "answer": "ont pris une position"
+        },
+        {
+            "question_number": 4,
+            "question": "Le fossé ______ les deux partis s’est creusé au fil des années.",
+            "options": [
+                "entre",
+                "sur",
+                "dans",
+                "avec"
+            ],
+            "answer": "entre"
+        },
+        {
+            "question_number": 5,
+            "question": "La situation politique en Suisse romande est ______ préoccupante que celle du canton de Zurich.",
+            "options": [
+                "plus",
+                "moins",
+                "aussi",
+                "encore"
+            ],
+            "answer": "aussi"
+        },
+        {
+            "question_number": 6,
+            "question": "Cette décision a provoqué ______ de nombreux membres du gouvernement.",
+            "options": [
+                "la réprobation",
+                "l’avertissement",
+                "le rapprochement",
+                "le blocage"
+            ],
+            "answer": "la réprobation"
+        },
+        {
+            "question_number": 7,
+            "question": "Les demandes de bourses sont ______ avant la fin du mois.",
+            "options": [
+                "en règle",
+                "d’un côté",
+                "en vue",
+                "usitées"
+            ],
+            "answer": "en règle"
+        },
+        {
+            "question_number": 8,
+            "question": "Les nations unies ont pris la décision ______ l’accueil des réfugiés dans certains pays européens.",
+            "options": [
+                "en vue de",
+                "suite à",
+                "à cause de",
+                "en dépit de"
+            ],
+            "answer": "en vue de"
+        },
+        {
+            "question_number": 9,
+            "question": "les crises en série du capitalisme mondial – dont le dernier avatar n'a pas encore fini de nous _______ – ont achevé de les faire rêver d'autre chose.",
+            "options": [
+                "secouer",
+                "entreprendre",
+                "abriter",
+                "sédentariser"
+            ],
+            "answer": "secouer"
+        },
+        {
+            "question_number": 10,
+            "question": "Ils ont ______ la frontière pour se rendre dans un autre pays, espérant une meilleure situation.",
+            "options": [
+                "rapatrié",
+                "fui",
+                "abrité",
+                "dressé"
+            ],
+            "answer": "fui"
+        },
+        {
+            "question_number": 11,
+            "question": "Dans cette situation, la ______ des relations diplomatiques est primordiale.",
+            "options": [
+                "concertation",
+                "réprobation",
+                "prise de position",
+                "haine"
+            ],
+            "answer": "concertation"
+        },
+        {
+            "question_number": 12,
+            "question": "Les autorités suisses ont dû faire face à un ______ important concernant les travailleurs étrangers.",
+            "options": [
+                "blocage",
+                "fameux",
+                "rapprochement",
+                "quota"
+            ],
+            "answer": "blocage"
+        },
+        {
+            "question_number": 13,
+            "question": "Après l’accord, un ______ des échanges entre les deux pays a été signé.",
+            "options": [
+                "rapprochement",
+                "fossé",
+                "secteur",
+                "exil"
+            ],
+            "answer": "rapprochement"
+        },
+        {
+            "question_number": 14,
+            "question": "Un ______ important de travailleurs étrangers a été observé dans cette région ces dernières années.",
+            "options": [
+                "accroissement",
+                "exil",
+                "fameux",
+                "flux"
+            ],
+            "answer": "flux"
+        },
+        {
+            "question_number": 15,
+            "question": "______ cette mesure, plusieurs migrants ont été renvoyés dans leur pays d'origine.",
+            "options": [
+                "Suite à",
+                "Au motif de",
+                "En dépit de",
+                "D’une manière"
+            ],
+            "answer": "Suite à"
+        },
+        {
+            "question_number": 16,
+            "question": "Les ______ suisses sont confrontés à un dilemme concernant l’intégration des réfugiés.",
+            "options": [
+                "ressortissants",
+                "nouveaux",
+                "réfugiés",
+                "immigrants"
+            ],
+            "answer": "ressortissants"
+        },
+        {
+            "question_number": 17,
+            "question": "Les gens ont tendance à ______ sur soi-même pour ne pas inquiéter les autres.",
+            "options": [
+                "se replier",
+                "se dresser",
+                "se sédentariser",
+                "fourbir"
+            ],
+            "answer": "se replier"
+        },
+        {
+            "question_number": 18,
+            "question": "L’______ d’un migrant est parfois un processus long et difficile.",
+            "options": [
+                "exil",
+                "exécution",
+                "accueil",
+                "échec"
+            ],
+            "answer": "exil"
+        },
+        {
+            "question_number": 19,
+            "question": "Le gouvernement suisse a mis en place des mesures strictes ______ limiter le nombre de réfugiés acceptés chaque année.",
+            "options": [
+                "en vue de",
+                "à cause de",
+                "pour",
+                "pour éviter"
+            ],
+            "answer": "en vue de"
+        },
+        {
+            "question_number": 20,
+            "question": "La situation des ______ dans les camps est particulièrement difficile en ce moment.",
+            "options": [
+                "réfugiés",
+                "ressortissants",
+                "détenteurs",
+                "immigrants"
+            ],
+            "answer": "réfugiés"
+        },
+        {
+            "question_number": 21,
+            "question": "Le principe de la ______ est respecté dans les différents cantons suisses.",
+            "options": [
+                "sédentarisation",
+                "coutume",
+                "division",
+                "démocratie"
+            ],
+            "answer": "coutume"
+        },
+        {
+            "question_number": 22,
+            "question": "Le pays a pris des mesures pour ______ les citoyens pendant la crise économique.",
+            "options": [
+                "abriter",
+                "dresser",
+                "rapatrier",
+                "fâcher"
+            ],
+            "answer": "abriter"
+        },
+        {
+            "question_number": 23,
+            "question": "Après la guerre, de nombreuses familles ont été contraintes de ______ à l’étranger.",
+            "options": [
+                "se sédentariser",
+                "exiler",
+                "se replier",
+                "se concentrer"
+            ],
+            "answer": "se sédentariser"
+        },
+        {
+            "question_number": 24,
+            "question": "La décision ______ l’immigration est devenue un sujet de débat majeur dans de nombreux pays européens.",
+            "options": [
+                "à l'exception de",
+                "en vue de",
+                "suite à",
+                "d’un côté"
+            ],
+            "answer": "en vue de"
+        },
+        {
+            "question_number": 25,
+            "question": "L'opérateur téléphonique vient d'_______ certains clients d'une augmentation de la facture qu'ils ne pourront pas refuser.",
+            "options": [
+                "agir",
+                "avertir",
+                "rapatrier",
+                "freiner"
+            ],
+            "answer": "avertir"
+        },
+        {
+            "question_number": 26,
+            "question": "Les informations concernant la ______ des réfugiés sont disponibles sur le site officiel.",
+            "options": [
+                "répartition",
+                "sédentarisation",
+                "exil",
+                "exécution"
+            ],
+            "answer": "répartition"
+        },
+        {
+            "question_number": 27,
+            "question": "Avant de partir en expéditions, il aime fourbir son équipement pour être certain que tout fonctionne parfaitement.",
+            "options": [
+                "consacrer",
+                "fourbir",
+                "replier",
+                "abriter"
+            ],
+            "answer": "fourbir"
+        },
+        {
+            "question_number": 28,
+            "question": "Les entreprises ______ des quotas pour encourager la diversité au sein de leurs équipes.",
+            "options": [
+                "mettent en place",
+                "ouvrent",
+                "abandonnent",
+                "rompent"
+            ],
+            "answer": "mettent en place"
+        },
+        {
+            "question_number": 29,
+            "question": "Les ______ de cette politique ont été bien accueillies par les autorités locales.",
+            "options": [
+                "conséquences",
+                "mesures",
+                "actions",
+                "ressortissants"
+            ],
+            "answer": "mesures"
+        },
+        {
+            "question_number": 30,
+            "question": "Les autorités ont dû ______ les frontières pour protéger la population des dangers extérieurs.",
+            "options": [
+                "bloquer",
+                "ouvrir",
+                "fermer",
+                "abriter"
+            ],
+            "answer": "bloquer"
+        },
+        {
+            "question_number": 1,
+            "question": "Le ______ a été rendu après une longue délibération.",
+            "options": [
+                "verdict",
+                "récit",
+                "clin",
+                "embouchure"
+            ],
+            "answer": "verdict"
+        },
+        {
+            "question_number": 2,
+            "question": "Il m’a ______ par sa remarque inattendue, je ne m'y attendais pas du tout.",
+            "options": [
+                "ahuri",
+                "vêtu",
+                "flotté",
+                "débordé"
+            ],
+            "answer": "ahuri"
+        },
+        {
+            "question_number": 3,
+            "question": "Le traité a été signé ______ un long processus de négociation entre les deux pays.",
+            "options": [
+                "sur-le-champ",
+                "suite à",
+                "après",
+                "à cause"
+            ],
+            "answer": "après"
+        },
+        {
+            "question_number": 4,
+            "question": "______ de la fête était vraiment magnifique, tout le monde était ravi de l’ambiance.",
+            "options": [
+                "Le flot",
+                "Le fourmillement",
+                "La traînée",
+                "L'îlot"
+            ],
+            "answer": "Le fourmillement"
+        },
+        {
+            "question_number": 5,
+            "question": "Les habitants du ______ sont très accueillants, ils ont une culture et des traditions très distinctes.",
+            "options": [
+                "comté",
+                "embouchure",
+                "parterre",
+                "îlot"
+            ],
+            "answer": "comté"
+        },
+        {
+            "question_number": 6,
+            "question": "Il a fallu plusieurs années pour ______ de la vérité sur cet incident.",
+            "options": [
+                "se rendre",
+                "se dégager",
+                "se dérouler",
+                "se réjouir"
+            ],
+            "answer": "se dégager"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle a fait un ______ incroyable lorsqu’elle a retrouvé son animal perdu après plusieurs mois.",
+            "options": [
+                "miracle",
+                "récit",
+                "verdict",
+                "clin"
+            ],
+            "answer": "miracle"
+        },
+        {
+            "question_number": 8,
+            "question": "Le pays a accueilli de nombreux réfugiés ______, qui ont fui la guerre.",
+            "options": [
+                "sans-papier",
+                "indigène",
+                "vêtu",
+                "digne"
+            ],
+            "answer": "sans-papier"
+        },
+        {
+            "question_number": 9,
+            "question": "Les négociations ______ de manière tendue, avec des hauts et des bas.",
+            "options": [
+                "se déroulèrent",
+                "se dégagèrent",
+                "se mirent",
+                "se rendirent"
+            ],
+            "answer": "se déroulèrent"
+        },
+        {
+            "question_number": 10,
+            "question": "Elle est ______ un beau manteau rouge lors de la réception, attirant tous les regards.",
+            "options": [
+                "vêtue",
+                "s’est rendue",
+                "se dégager",
+                "se déroule"
+            ],
+            "answer": "vêtue"
+        },
+        {
+            "question_number": 11,
+            "question": "Il était ______ de recevoir cette récompense après tant d’années de travail acharné.",
+            "options": [
+                "digne",
+                "débordant",
+                "indigène",
+                "ahuri"
+            ],
+            "answer": "digne"
+        },
+        {
+            "question_number": 12,
+            "question": "Le ______ était noyé sous les eaux après la crue du fleuve, mais a rapidement retrouvé sa forme.",
+            "options": [
+                "parterre",
+                "embouchure",
+                "îlot",
+                "comté"
+            ],
+            "answer": "îlot"
+        },
+        {
+            "question_number": 13,
+            "question": "Le ______ du texte était de raconter l’histoire d’un peuple colonisé et de sa résistance.",
+            "options": [
+                "récit",
+                "miracle",
+                "verdict",
+                "flotter"
+            ],
+            "answer": "récit"
+        },
+        {
+            "question_number": 14,
+            "question": "Les ______ de l’époque coloniale ont laissé une trace indélébile sur la culture locale.",
+            "options": [
+                "colonisateurs",
+                "indigènes",
+                "parterres",
+                "barbiers"
+            ],
+            "answer": "colonisateurs"
+        },
+        {
+            "question_number": 15,
+            "question": "Le ______ était chargé de veiller à l’entretien du village et de ses habitants.",
+            "options": [
+                "barbier",
+                "vêtu",
+                "débordant",
+                "pair"
+            ],
+            "answer": "barbier"
+        },
+        {
+            "question_number": 16,
+            "question": "Il a ______ une grande reconnaissance envers ceux qui l’ont soutenu pendant ses études.",
+            "options": [
+                "dû",
+                "envisagé",
+                "surpris",
+                "ahuri"
+            ],
+            "answer": "dû"
+        },
+        {
+            "question_number": 17,
+            "question": "Il y avait une montagne ______ d’animaux et de plantes rares dans cette réserve naturelle.",
+            "options": [
+                "flottante",
+                "embouchure",
+                "fourmillemente",
+                "débordante"
+            ],
+            "answer": "débordante"
+        },
+        {
+            "question_number": 18,
+            "question": "Lors de la fête, il m’a fait un ______ subtil pour me signaler qu’il avait une surprise pour moi.",
+            "options": [
+                "clin",
+                "verdict",
+                "miracle",
+                "traité"
+            ],
+            "answer": "clin"
+        },
+        {
+            "question_number": 19,
+            "question": "Les produits ont été stockés dans un ______ pour être distribués au marché local.",
+            "options": [
+                "entrepôt",
+                "embouchure",
+                "comté",
+                "parterre"
+            ],
+            "answer": "entrepôt"
+        },
+        {
+            "question_number": 20,
+            "question": "Un ______ s’est formé dans la rue pendant la manifestation, avec des gens venus de tous horizons.",
+            "options": [
+                "flot",
+                "fourmillement",
+                "dégagement",
+                "récit"
+            ],
+            "answer": "fourmillement"
+        },
+        {
+            "question_number": 21,
+            "question": "L'accord a été signé et ______ les deux parties étaient prêtes à faire des concessions.",
+            "options": [
+                "sur-le-champ",
+                "suite à",
+                "en dépit de",
+                "au motif de"
+            ],
+            "answer": "sur-le-champ"
+        },
+        {
+            "question_number": 22,
+            "question": "Il ______ un léger sourire, mais je n’ai pas pu savoir si c’était de l’ironie ou de la sympathie.",
+            "options": [
+                "a fait",
+                "a laissé",
+                "a vu",
+                "a fait un clin"
+            ],
+            "answer": "a fait"
+        },
+        {
+            "question_number": 24,
+            "question": "Investi, ______, passionné par son métier, il gravit les échelons et terminera en qualité de premier sous-chef.",
+            "options": [
+                "ahuri",
+                "indigène",
+                "dévoué",
+                "digne"
+            ],
+            "answer": "digne"
+        },
+        {
+            "question_number": 25,
+            "question": "Plus généralement, c'est la gestion des ____ de touristes qui irrite le guide naturaliste.",
+            "options": [
+                "traînée",
+                "embouchure",
+                "flots",
+                "débordance"
+            ],
+            "answer": "flots"
+        },
+        {
+            "question_number": 26,
+            "question": "Lors de son passage, une ______ de fumée noire s'est formée derrière le camion, laissant un air irrespirable dans la rue.",
+            "options": [
+                "traînée",
+                "miracle",
+                "flots",
+                "récit"
+            ],
+            "answer": "traînée"
+        },
+        {
+            "question_number": 27,
+            "question": "Ils ont dû ______ leur projet en raison de l’absence de financement.",
+            "options": [
+                "se rendre",
+                "flotter",
+                "sédentariser",
+                "suspendre"
+            ],
+            "answer": "suspendre"
+        },
+        {
+            "question_number": 28,
+            "question": "Il a ______ un grand respect pour les cultures locales et leur histoire.",
+            "options": [
+                "dû",
+                "gagné",
+                "flotté",
+                "acquis"
+            ],
+            "answer": "dû"
+        },
+        {
+            "question_number": 29,
+            "question": "Le ______ des nations n’a pas empêché le conflit de se transformer en guerre ouverte.",
+            "options": [
+                "miracle",
+                "traité",
+                "vêtu",
+                "récit"
+            ],
+            "answer": "traité"
+        },
+        {
+            "question_number": 30,
+            "question": "L’un des plus grands ______ de l’histoire a eu lieu lors de cette victoire improbable.",
+            "options": [
+                "miracles",
+                "faits",
+                "traits",
+                "récits"
+            ],
+            "answer": "miracles"
+        }
+    ]
+}
