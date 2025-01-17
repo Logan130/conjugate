@@ -90,7 +90,7 @@
         },
         {
             "question_number": 9,
-            "question": "L’idée de ce projet a été _______ par un groupe de chercheurs.",
+            "question": "La méthode _______ par les spécialistes, bien que novatrice, demeure controversée, car son efficacité n’a pas encore été pleinement prouvée.",
             "options": [
                 "prônée",
                 "atténuée",
@@ -145,7 +145,7 @@
         },
         {
             "question_number": 14,
-            "question": "Les effets de ce médicament peuvent être _______ si mal utilisés.",
+            "question": "Les résultats _______ de l'expérience ont suscité des doutes parmi les chercheurs, qui ont remis en question la validité des données collectées.",
             "options": [
                 "atténués",
                 "souhaitables",
@@ -167,7 +167,7 @@
         },
         {
             "question_number": 16,
-            "question": "Le traitement est _______ pour soigner cette maladie.",
+            "question": "La méthode _______ qu'il a proposée repose sur une approche systématique, minimisant les erreurs et maximisant les résultats.",
             "options": [
                 "efficace",
                 "inutilisé",
@@ -178,7 +178,7 @@
         },
         {
             "question_number": 17,
-            "question": "La _______ de la maison a été endommagé pendant le tremblement de terre.",
+            "question": "La _______ du projet, bien qu'ambitieuse, semble fragile face aux imprévus financiers, mettant en évidence la nécessité d'une réévaluation pour garantir sa viabilité à long terme.",
             "options": [
                 "membre",
                 "charpente",
@@ -222,14 +222,14 @@
         },
         {
             "question_number": 21,
-            "question": "Il a _______ une stratégie pour échapper à la surveillance.",
+            "question": "L'expert _______ fermement les conclusions de l'étude, soulignant que plusieurs hypothèses fondamentales étaient erronées et nuisaient à la crédibilité des résultats.",
             "options": [
                 "conçu",
                 "éternué",
                 "contredit",
                 "mis"
             ],
-            "answer": "conçu"
+            "answer": "contredit"
         },
         {
             "question_number": 22,
@@ -244,14 +244,14 @@
         },
         {
             "question_number": 23,
-            "question": "Les scientifiques _______ un nouveau traitement pour la maladie.",
+            "question": "Les citoyens _______ des mesures plus strictes pour lutter contre la pollution, estimant que les actions actuelles ne suffisent pas à protéger leur environnement.",
             "options": [
                 "prônent",
                 "contredisent",
                 "réclament",
                 "atténuent"
             ],
-            "answer": "prônent"
+            "answer": "réclament"
         },
         {
             "question_number": 24,
@@ -277,7 +277,7 @@
         },
         {
             "question_number": 26,
-            "question": "Il est possible de _______ une crise de hoquet avec quelques gorgées d'eau.",
+            "question": "Il est possible d'_______ une crise de hoquet avec quelques gorgées d'eau.",
             "options": [
                 "atténuer",
                 "prôner",
@@ -288,7 +288,7 @@
         },
         {
             "question_number": 27,
-            "question": "La _______ du corps humain est un sujet très étudié en médecine.",
+            "question": "La _______ osseuse, essentielle à la production des cellules sanguines, peut parfois être le siège de maladies graves, nécessitant des traitements spécialisés.",
             "options": [
                 "moelle",
                 "âme",
@@ -299,18 +299,18 @@
         },
         {
             "question_number": 28,
-            "question": "Elle a _______ de ses vêtements anciens pour faire de la place.",
+            "question": "Il a ______ l’air avec méfiance, cherchant à détecter la moindre trace de fumée, mais le silence ambiant semblait indiquer qu’il n’y avait aucune menace immédiate.",
             "options": [
                 "éternué",
                 "reniflé",
                 "se débarrassé",
                 "souligné"
             ],
-            "answer": "se débarrassé"
+            "answer": "reniflé"
         },
         {
             "question_number": 29,
-            "question": "Lorsqu’un patient a de la fièvre, il faut _______ la température pour éviter la déshydratation.",
+            "question": "Le médecin tenta d'______ la douleur du patient avec des médicaments, mais la gravité de la blessure rendait toute solution vraiment efficace difficile à atteindre.",
             "options": [
                 "atténuer",
                 "guérir",
@@ -376,7 +376,7 @@
         },
         {
             "question_number": 5,
-            "question": "Il est _______ d’être exposé à trop de stress au travail.",
+            "question": "Le traitement a été contre-indiqué en raison de ses effets secondaires graves, rendant son utilisation risquée pour les patients présentant des antécédents médicaux similaires.",
             "options": [
                 "possible",
                 "souhaitable",
@@ -484,7 +484,7 @@
                 "proscrivit",
                 "gonfla"
             ],
-            "answer": "apaisant"
+            "answer": "apaisa"
         },
         {
             "question_number": 16,
@@ -543,7 +543,7 @@
         },
         {
             "question_number": 21,
-            "question": "Les premières températures printanières pointent leur nez et l'envie de jardiner commence à _____.",
+            "question": "L'idée de quitter son emploi le faisait _______, mais il hésitait à franchir le pas, craignant les incertitudes que cela pourrait entraîner.",
             "options": [
                 "éternuer",
                 "démanger",
@@ -554,7 +554,7 @@
         },
         {
             "question_number": 22,
-            "question": "Le médecin a conseillé d'______ de médicaments sans prescription.",
+            "question": "Le médecin a conseillé d'______ les médicaments sans prescription.",
             "options": [
                 "éviter",
                 "avaler",
@@ -631,7 +631,7 @@
         },
         {
             "question_number": 29,
-            "question": "Pour _______ la situation, il est préférable de prendre un peu de recul.",
+            "question": "Pour _______ à la situation, il est préférable de prendre un peu de recul.",
             "options": [
                 "remédier",
                 "souffrir",
@@ -709,7 +709,7 @@
         },
         {
             "question_number": 7,
-            "question": "Il faut _______ les sinus pour améliorer la respiration en cas de rhume.",
+            "question": "Le vent violent réussit à _______ le ciel nuageux, laissant place à un soleil éclatant qui réchauffa instantanément l’atmosphère.",
             "options": [
                 "dégager",
                 "souffrir",
@@ -731,7 +731,7 @@
         },
         {
             "question_number": 9,
-            "question": "Les personnes _______ ont souvent plus de risques de souffrir de problèmes cardiaques.",
+            "question": "Les _______ statues romaines, souvent réalisées en marbre, incarnaient la puissance et la grandeur de l'Empire, symbolisant à la fois la richesse et la stabilité du pouvoir impérial.",
             "options": [
                 "corpulentes",
                 "maigres",
@@ -742,7 +742,7 @@
         },
         {
             "question_number": 10,
-            "question": "Le médecin m’a conseillé de _______ les aliments trop sucrés pour éviter l’obésité.",
+            "question": "Le médecin m’a conseillé de _______ les aliments trop sucrés de crainte d l’obésité.",
             "options": [
                 "éviter",
                 "souffrir",
@@ -775,7 +775,7 @@
         },
         {
             "question_number": 13,
-            "question": "Il est important de _______ les symptômes d’une maladie pour poser un bon diagnostic.",
+            "question": "Il ne manqua pas de _______ l'importance de la collaboration entre les équipes, insistant sur le fait que c'était la clé du succès du projet.",
             "options": [
                 "démontrer",
                 "souligner",
@@ -808,7 +808,7 @@
         },
         {
             "question_number": 16,
-            "question": "Il a _______ son nez pendant plusieurs jours à cause du rhume.",
+            "question": "Le temps s'est rapidement _______ pendant la réunion, et malgré les nombreuses discussions, peu de progrès concrets avaient été réalisés.",
             "options": [
                 "écoulé",
                 "enrhumé",
@@ -839,18 +839,7 @@
             ],
             "answer": "valorisant"
         },
-        
-        {
-            "question_number": 21,
-            "question": "Elle a _______ une solution pour réduire son anxiété avant les examens.",
-            "options": [
-                "pris froid",
-                "souffert",
-                "trouvé",
-                "enrhumé"
-            ],
-            "answer": "trouvé"
-        },
+
         {
             "question_number": 22,
             "question": "Les symptômes peuvent _______ plusieurs semaines avant de disparaître.",
@@ -956,10 +945,10 @@
             "options": [
                 "Certes",
                 "Aussi",
-                "En dépit de",
+                "En dépit d'",
                 "Enfin"
             ],
-            "answer": "En dépit de"
+            "answer": "En dépit d'"
         },
         {
             "question_number": 3,
@@ -1426,7 +1415,7 @@
         },
         {
             "question_number": 16,
-            "question": "Elle s'est _______ en voyant l'état de son équipe après la défaite.",
+            "question": "Elle était visiblement _______ par les interruptions répétées, mais tenta de garder son calme pour ne pas laisser ses émotions prendre le dessus.",
             "options": [
                 "agacée",
                 "révoltée",
