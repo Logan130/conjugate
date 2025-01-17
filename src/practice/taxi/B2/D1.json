@@ -46,7 +46,7 @@
         },
         {
             "question_number": 5,
-            "question": "Le ___________ de cet auteur est impressionnant.",
+            "question": "Malgré le ________ difficile qu'il avait traversé, marqué par des épreuves personnelles et professionnelles, il réussit à maintenir une attitude optimiste, prouvant ainsi que la résilience humaine peut triompher des circonstances les plus adverses.",
             "options": [
                 "vécu",
                 "livret",
@@ -79,7 +79,7 @@
         },
         {
             "question_number": 9,
-            "question": "La ___________ d'une telle action est incontestable.",
+            "question": "La ________ de sa décision, bien que contestée par certains de ses collègues, fut renforcée par les faits incontestables qu’elle reposait sur des preuves tangibles.",
             "options": [
                 "légitimité",
                 "législation",
@@ -123,7 +123,7 @@
         },
         {
             "question_number": 13,
-            "question": "Elle a ___________ un nouveau projet après son départ.",
+            "question": "Bien que certains membres de l’équipe aient suggéré de ______ le manager en raison de sa gestion catastrophique, il devint évident que sa destitution n'était pas justifiée",
             "options": [
                 "virer",
                 "accoucher de",
@@ -134,10 +134,10 @@
         },
         {
             "question_number": 14,
-            "question": "Il n'a pas ___________ de dire la vérité.",
+            "question": "Après plusieurs semaines de silence, il finit par _______ que son retard était dû à un manque d’organisation, une admission qui, tout en éclairant sa situation, n'atténuait en rien la frustration de ses collègues face aux délais non respectés.",
             "options": [
                 "figurer",
-                "suffit",
+                "suffir",
                 "avouer",
                 "accueillir"
             ],
@@ -167,7 +167,7 @@
         },
         {
             "question_number": 17,
-            "question": "Le ___________ du texte est très complexe: il suit strictement un pentamètre imamib",
+            "question": "Le ___________ du texte est très complexe : il suit strictement un pentamètre imamib",
             "options": [
                 "contenu",
                 "sujet",
@@ -178,14 +178,14 @@
         },
         {
             "question_number": 18,
-            "question": "Nous avons dû ___________ les informations de plusieurs documents.",
+            "question": "En _______ les pages du vieux manuscrit, elle découvrit des annotations marginales qui, bien qu'écrites dans un style ancien, semblaient offrir des indices précieux sur l’origine du mystère qu’elle cherchait à résoudre.",
             "options": [
-                "feuilleter",
-                "accueillir",
-                "étudier",
-                "décider"
+                "feuilletant",
+                "figurant",
+                "étudiant",
+                "décidant"
             ],
-            "answer": "feuilleter"
+            "answer": "feuilletant"
         },
         {
             "question_number": 19,
@@ -200,14 +200,14 @@
         },
         {
             "question_number": 20,
-            "question": "Il est ___________ de travailler seul toute la journée.",
+            "question": "_______ de preuves tangibles pour étayer ses accusations, il se retrouva dans une position délicate, contraint de faire face à une série de réfutations qui minaient progressivement la crédibilité de ses affirmations",
             "options": [
-                "dépourvu",
-                "légitime",
-                "nécessaire",
-                "difficile"
+                "Dépourvu",
+                "Légitime",
+                "Nécessaire",
+                "Difficile"
             ],
-            "answer": "difficile"
+            "answer": "Dépourvu"
         },
         {
             "question_number": 21,
@@ -219,17 +219,6 @@
                 "gestuelle"
             ],
             "answer": "méandres"
-        },
-        {
-            "question_number": 22,
-            "question": "Il a décidé de ___________ un livre avec ses souvenirs.",
-            "options": [
-                "écrire",
-                "avouer",
-                "réfléchir",
-                "renvoyer"
-            ],
-            "answer": "écrire"
         },
         {
             "question_number": 23,
@@ -255,14 +244,14 @@
         },
         {
             "question_number": 25,
-            "question": "Le ___________ d'un enfant unique peut avoir des effets sur son développement.",
+            "question": "Malgré l’opposition de son ______, qui doutait de la viabilité de son projet, il persista dans sa décision",
             "options": [
                 "vécu",
                 "entourage",
                 "accouchement",
                 "généalogie"
             ],
-            "answer": "vécu"
+            "answer": "entourage"
         },
         {
             "question_number": 26,
@@ -353,17 +342,7 @@
             ],
             "answer": "correspondance"
         },
-        {
-            "question_number": 5,
-            "question": "Ils ont prévu une ___________ à la montagne ce week-end.",
-            "options": [
-                "mésaventure",
-                "virée",
-                "fondue",
-                "bizarre"
-            ],
-            "answer": "virée"
-        },
+
         {
             "question_number": 6,
             "question": "Il s'est ___________ de la porte sans faire attention et s'est cogné.",
@@ -520,17 +499,7 @@
             ],
             "answer": "idée"
         },
-        {
-            "question_number": 24,
-            "question": "Il a ___________ en voyant le film d'horreur.",
-            "options": [
-                "s’approcher",
-                "évoqué",
-                "réfléchi",
-                "s’en fait"
-            ],
-            "answer": "s’en fait"
-        },
+
         {
             "question_number": 25,
             "question": "Après cette ___________ où il a perdu son sac, il était épuisé.",
@@ -590,7 +559,7 @@
         },
         {
             "question_number": 1,
-            "question": "Le candidat a été ___________ président du comité.",
+            "question": "Le candidat a été ___________ comme président du comité.",
             "options": [
                 "élu",
                 "fouler",
@@ -601,7 +570,7 @@
         },
         {
             "question_number": 2,
-            "question": "Il a une grande ___________ pour sa capacité à résoudre des problèmes complexes.",
+            "question": "Grâce à sa _______, qui le poussa à surmonter les échecs successifs, il réussit finalement à prouver que même dans les situations les plus décourageantes, une détermination inébranlable peut mener au succès",
             "options": [
                 "docilité",
                 "spontanéité",
@@ -612,7 +581,7 @@
         },
         {
             "question_number": 3,
-            "question": "Elle a décidé de ___________ une carrière dans la médecine.",
+            "question": "Bien qu'il ait eu l'opportunité de ________ à l'étranger, il décida de rester dans sa ville natale, où il croyait que ses racines et ses relations personnelles lui offriraient une stabilité et un épanouissement qu'une profession internationale ne pourrait pas lui apporter.",
             "options": [
                 "faire carrière à",
                 "fouler",
@@ -634,7 +603,7 @@
         },
         {
             "question_number": 5,
-            "question": "Elle a ___________ dans la pièce sans faire de bruit.",
+            "question": "Lorsqu'il arriva sur le terrain, il remarqua que le sol, récemment _____ par d'autres joueurs, était déjà marqué de nombreuses empreintes",
             "options": [
                 "foulé",
                 "déployé",
@@ -701,7 +670,7 @@
         },
         {
             "question_number": 12,
-            "question": "Ils ont réussi à ___________ le plus haut sommet après plusieurs jours d'ascension.",
+            "question": "Après des mois de travail acharné et de sacrifices personnels, elle réussit enfin à _______ un compromis qui satisfaisait à la fois ses ambitions professionnelles et ses obligations familiales.",
             "options": [
                 "parvenir à",
                 "déployer",
@@ -780,7 +749,7 @@
         },
         {
             "question_number": 20,
-            "question": "Le travail d'équipe nécessite de la ___________ et du compromis.",
+            "question": "Sa _______ face aux conflits fit de lui un leader respecté, capable de trouver des solutions équilibrées même dans les situations tendues.",
             "options": [
                 "docilité",
                 "modération",
@@ -814,14 +783,14 @@
         },
         {
             "question_number": 24,
-            "question": "Ce projet est une ___________ de compétences diverses.",
+            "question": "Son œuvre, bien que largement ignorée de son vivant, assurera sa ______, car elle continue d'influencer les générations futures, révélant la profondeur de ses idées longtemps après sa disparition.",
             "options": [
                 "facette",
                 "récapitulation",
                 "postérité",
                 "structure"
             ],
-            "answer": "facette"
+            "answer": "postérité"
         },
         {
             "question_number": 25,
@@ -882,7 +851,7 @@
         },
         {
             "question_number": 2,
-            "question": "Son comportement ___________ a déplu à tout le monde dans l’équipe.",
+            "question": "Son comportement ___________ a déplu tout le monde dans l’équipe.",
             "options": [
                 "brusque",
                 "consciencieux",
@@ -926,14 +895,14 @@
         },
         {
             "question_number": 6,
-            "question": "Il a une approche ___________ lorsqu'il s'agit de résoudre des problèmes complexes.",
+            "question": "Sa réponse _______ aux critiques, loin de refléter de la faiblesse, témoigna de sa confiance en ses choix et de son désir de maintenir l'harmonie, même dans les moments de tension.",
             "options": [
                 "réactive",
                 "brusque",
                 "tenace",
                 "indulgente"
             ],
-            "answer": "réactive"
+            "answer": "indulgente"
         },
         {
             "question_number": 7,
@@ -1047,7 +1016,7 @@
         },
         {
             "question_number": 17,
-            "question": "Il est ___________ à répondre à chaque question avec un grand enthousiasme.",
+            "question": "Son attitude _______ face au projet motiva toute l’équipe, insufflant un élan d’énergie qui transforma les défis en opportunités à saisir.",
             "options": [
                 "enthousiaste",
                 "réactif",
@@ -1080,7 +1049,7 @@
         },
         {
             "question_number": 20,
-            "question": "Je l'ai vexé mais ce n'était pas ___________ de ma part",
+            "question": "Son geste _______ de quitter un poste prestigieux pour poursuivre sa passion témoigna d'une grande détermination, révélant sa volonté de suivre ses convictions, peu importe les sacrifices à faire.",
             "options": [
                 "volontaire",
                 "souple",
@@ -1302,18 +1271,18 @@
         },
         {
             "question_number": 11,
-            "question": "Il a exprimé sa _______ après avoir appris la nouvelle.",
+            "question": "La _______ dans son regard était évidente, mais ce qui marquait vraiment, c’était la façon dont elle choisit de dissimuler ses émotions, comme si la douleur intérieure devait rester invisible aux yeux des autres.",
             "options": [
                 "joie",
                 "tristesse",
                 "réprobation",
                 "enthousiasme"
             ],
-            "answer": "réprobation"
+            "answer": "tristesse"
         },
         {
             "question_number": 12,
-            "question": "Le professeur a montré de la _______ envers ses élèves en difficulté.",
+            "question": "Sa _______ envers ses collaborateurs se manifestait non seulement par des paroles encourageantes, mais aussi par des gestes concrets.",
             "options": [
                 "bienveillance",
                 "colère",
@@ -1324,7 +1293,7 @@
         },
         {
             "question_number": 13,
-            "question": "Elle a _______ à son collègue de ne pas parler si fort.",
+            "question": "Il lui avait été _______ à maintes reprises de ne pas respecter les délais, mais c'était son manque d'initiative qui, en fin de compte, compromit sérieusement sa position au sein de l'équipe.",
             "options": [
                 "accusé",
                 "reproché",
@@ -1388,17 +1357,7 @@
             ],
             "answer": "entassé"
         },
-        {
-            "question_number": 19,
-            "question": "Ce film est vraiment _______; j’ai du mal à le regarder.",
-            "options": [
-                "vulgaire",
-                "fascinant",
-                "ennuyeux",
-                "intéressant"
-            ],
-            "answer": "choquant"
-        },
+
         {
             "question_number": 20,
             "question": "Elle a une _______ élégante qui ne passe pas inaperçue.",
@@ -1412,7 +1371,7 @@
         },
         {
             "question_number": 21,
-            "question": "Pour réussir à ouvrir la porte, il a dû _______ les clés dans sa poche.",
+            "question": "Lorsqu'ils décidèrent de _______ le dossier, ils découvrirent des éléments compromettants qu'ils n'avaient pas remarqués auparavant, mettant en lumière des failles jusque-là ignorées.",
             "options": [
                 "chercher",
                 "fouiller",
@@ -1456,7 +1415,7 @@
         },
         {
             "question_number": 25,
-            "question": "L’idée de défendre son pays est un signe de _______ profond.",
+            "question": "Son ______ ne se limitait pas à de simples déclarations, mais se manifestait dans son engagement quotidien à défendre les valeurs de son pays.",
             "options": [
                 "patriotisme",
                 "détachement",
@@ -1489,7 +1448,7 @@
         },
         {
             "question_number": 28,
-            "question": "Il a l’intention de _______ des documents importants dans son rapport.",
+            "question": "Il tenta d'______ les différentes pièces du puzzle avec soin, mais malgré tous ses efforts, il manquait toujours un élément crucial pour finaliser son raisonnement.",
             "options": [
                 "accrocher",
                 "attacher",
@@ -1610,7 +1569,7 @@
         },
         {
             "question_number": 9,
-            "question": "Elle a un _______ profond à cause de son enfance difficile.",
+            "question": "Le ______ résidentiel, avec ses multiples bâtiments et services, était conçu pour offrir à ses habitants à la fois confort et sécurité.",
             "options": [
                 "complexe",
                 "courage",
@@ -1775,14 +1734,14 @@
         },
         {
             "question_number": 24,
-            "question": "Il est _______ que nous ayons fini notre travail, il faut maintenant présenter les résultats.",
+            "question": "______ arrivé, il fut plongé dans une réunion urgente, n'ayant même pas le temps de poser ses affaires ou de saluer ses collègues.",
             "options": [
-                "à peine",
-                "tout juste",
-                "pratiquement",
-                "souvent"
+                "À peine",
+                "Tout juste",
+                "Pratiquement",
+                "Souvent"
             ],
-            "answer": "à peine"
+            "answer": "À peine"
         },
         {
             "question_number": 25,
@@ -1842,14 +1801,14 @@
         },
         {
             "question_number": 1,
-            "question": "La _______ de cette opération est la réduction des coûts.",
+            "question": "L'une des _______ essentielles du succès de ce programme résidait dans la collaboration entre les différents départements.",
             "options": [
-                "résultat",
-                "problème",
-                "composante",
-                "méthode"
+                "résultats",
+                "problèmes",
+                "composantes",
+                "méthodes"
             ],
-            "answer": "composante"
+            "answer": "composantes"
         },
         {
             "question_number": 2,
@@ -1908,7 +1867,7 @@
         },
         {
             "question_number": 8,
-            "question": "Le témoin de _______ a permis de découvrir la vérité sur l'affaire.",
+            "question": "Le ______ commis semblait mineur au départ, mais en raison de circonstances aggravantes, il prit une tournure bien plus sérieuse, suscitant l'attention des autorités compétentes.",
             "options": [
                 "délit",
                 "composante",
