@@ -1,0 +1,1250 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Les _______ accordés à certaines élites sociales ont créé un fossé profond avec les classes populaires, alimentant ainsi des tensions sociales de plus en plus vives.",
+            "options": [
+                "engrenages",
+                "vues",
+                "bénéfices",
+                "privilèges"
+            ],
+            "answer": "privilèges"
+        },
+        {
+            "question_number": 2,
+            "question": "Une _______ minutieuse est essentielle pour le succès de tout projet complexe, car elle permet d'anticiper les obstacles potentiels et d'optimiser l'utilisation des ressources disponibles.",
+            "options": [
+                "productivité",
+                "planification",
+                "dynamique",
+                "bonté"
+            ],
+            "answer": "planification"
+        },
+        {
+            "question_number": 3,
+            "question": "Les conditions de travail dans cette usine étaient _______, avec des températures extrêmes et une ventilation inexistante.",
+            "options": [
+                "agressif",
+                "abominable",
+                "réaliste",
+                "accaparant"
+            ],
+            "answer": "abominable"
+        },
+        {
+            "question_number": 4,
+            "question": "Le _______ du véhicule a soudainement calé en pleine route, forçant le conducteur à s'arrêter sur le bas-côté pour tenter une réparation d'urgence.",
+            "options": [
+                "développement",
+                "moteur",
+                "engagement",
+                "phénomène"
+            ],
+            "answer": "moteur"
+        },
+        {
+            "question_number": 5,
+            "question": "L'œuvre du _______ de cette organisation a laissé une empreinte indélébile sur la société.",
+            "options": [
+                "actionnaire",
+                "fondateur",
+                "partenaire",
+                "dirigeant"
+            ],
+            "answer": "fondateur"
+        },
+        {
+            "question_number": 6,
+            "question": "La _______ de la langue espagnole est indispensable pour ce travail.",
+            "options": [
+                "courant",
+                "fluidité",
+                "répétition",
+                "intelligibilité"
+            ],
+            "answer": "fluidité"
+        },
+        {
+            "question_number": 7,
+            "question": "Au cours de la réunion, il a tenté d'accaparer toute l'attention, monopoliser la parole et ignorer les suggestions des autres membres de l'équipe.",
+            "options": [
+                "réclamer",
+                "accaparer",
+                "acheter",
+                "détenir"
+            ],
+            "answer": "accaparer"
+        },
+        {
+            "question_number": 8,
+            "question": "Les _______ liés à la crise économique affectent gravement les pays en développement.",
+            "options": [
+                "préoccupations",
+                "solutions",
+                "injustices",
+                "progrès"
+            ],
+            "answer": "préoccupations"
+        },
+        {
+            "question_number": 9,
+            "question": "Les employés ont accepté de _______ davantage au fonds de pension, convaincus que cela garantirait leur sécurité financière à long terme.",
+            "options": [
+                "cotiser",
+                "offrir",
+                "donner",
+                "demander"
+            ],
+            "answer": "cotiser"
+        },
+        {
+            "question_number": 10,
+            "question": "Il a été accusé de travailler _______, ce qui a entraîné des sanctions sévères, car cela violait les lois fiscales du pays.",
+            "options": [
+                "au noir",
+                "au soleil",
+                "régulier",
+                "non rémunéré"
+            ],
+            "answer": "au noir"
+        },
+        {
+            "question_number": 11,
+            "question": "L'_________ de la société civile dans le processus démocratique est essentielle pour garantir la justice.",
+            "options": [
+                "engagement",
+                "indifférence",
+                "ignorance",
+                "évasion"
+            ],
+            "answer": "engagement"
+        },
+        {
+            "question_number": 12,
+            "question": "Les informations circulaient principalement par des ______ informels, ce qui rendait difficile de vérifier leur véracité et d’assurer une communication transparente.",
+            "options": [
+                "canaux",
+                "informations",
+                "analyses",
+                "flux"
+            ],
+            "answer": "canaux"
+        },
+        {
+            "question_number": 13,
+            "question": "Les progrès _______ dans le domaine de l'intelligence artificielle pourraient rendre obsolètes de nombreux emplois.",
+            "options": [
+                "à court terme",
+                "historiquement",
+                "à long terme",
+                "en général"
+            ],
+            "answer": "à long terme"
+        },
+        {
+            "question_number": 14,
+            "question": "L'_______ entre les sciences sociales et les technologies a permis d'apporter des solutions novatrices aux défis complexes du changement climatique.",
+            "options": [
+                "interdépendance",
+                "interdisciplinarité",
+                "approfondissement",
+                "écart"
+            ],
+            "answer": "interdisciplinarité"
+        },
+        {
+            "question_number": 14,
+            "question": "L'_____ entre les attentes des consommateurs et la réalité des produits proposés a rapidement nui à la réputation de la marque, obligeant l'entreprise à revoir sa stratégie.",
+            "options": [
+                "oubli",
+                "erreur",
+                "abime",
+                "écart"
+            ],
+            "answer": "écart"
+        },
+        {
+            "question_number": 15,
+            "question": "L'_______, bien qu'abolit dans de nombreux pays, continue d'affecter des millions de personnes à travers le monde sous des formes modernes, telles que le travail forcé et la traite des êtres humains.",
+            "options": [
+                "esclavage",
+                "exploitation",
+                "injustice",
+                "inégalité"
+            ],
+            "answer": "esclavage"
+        },
+        {
+            "question_number": 16,
+            "question": "La réussite de ce projet dépend largement de l'______ rigoureuse des méthodes proposées, sans quoi les résultats escomptés risquent de ne pas être atteints.",
+            "options": [
+                "acceptation",
+                "agonie",
+                "application",
+                "examen"
+            ],
+            "answer": "application"
+        },
+        {
+            "question_number": 17,
+            "question": "Avant de commencer, chaque membre de l'équipe a dû signer la ______ éthique, s'engageant à respecter les principes de transparence et de responsabilité.",
+            "options": [
+                "charte",
+                "loi",
+                "stratégie",
+                "initiative"
+            ],
+            "answer": "charte"
+        },
+        {
+            "question_number": 18,
+            "question": "La ______ rapide des infrastructures, causée par des années de négligence, a forcé les autorités à revoir en urgence leur plan de maintenance.",
+            "options": [
+                "dotation",
+                "qualité",
+                "bonté",
+                "détérioration"
+            ],
+            "answer": "détérioration"
+        },
+        {
+            "question_number": 19,
+            "question": "Les _______ de la mondialisation sont souvent ressentis plus intensément par les populations les plus vulnérables.",
+            "options": [
+                "effets",
+                "réactions",
+                "avantages",
+                "régulations"
+            ],
+            "answer": "effets"
+        },
+
+        {
+            "question_number": 21,
+            "question": "Le discours de l'orateur était si ______ qu'il captivait immédiatement l'attention du public, rendant chaque idée plus percutante et mémorable.",
+            "options": [
+                "courante",
+                "fluide",
+                "richesse",
+                "difficile"
+            ],
+            "answer": "fluide"
+        },
+        {
+            "question_number": 22,
+            "question": "L'_______ de l'école d'ingénieurs est d'encourager l'innovation et la créativité chez les étudiants.",
+            "options": [
+                "engagement",
+                "intention",
+                "objectif",
+                "indifférence"
+            ],
+            "answer": "objectif"
+        },
+        {
+            "question_number": 23,
+            "question": "L'_______ des prix des biens de consommation essentiels touche surtout les plus démunis.",
+            "options": [
+                "augmentation",
+                "optimisation",
+                "évolution",
+                "accélération"
+            ],
+            "answer": "augmentation"
+        },
+        {
+            "question_number": 24,
+            "question": "Un _______ à l'échelle mondiale est nécessaire pour lutter contre le changement climatique.",
+            "options": [
+                "engagement",
+                "acquis",
+                "soutien",
+                "échec"
+            ],
+            "answer": "engagement"
+        },
+        {
+            "question_number": 25,
+            "question": "L'_______ des richesses dans les sociétés modernes est souvent jugé injuste et inique.",
+            "options": [
+                "partage",
+                "accaparement",
+                "exploitation",
+                "respect"
+            ],
+            "answer": "accaparement"
+        },
+        {
+            "question_number": 26,
+            "question": "Ils ont été accusés de recourir à des pratiques _______ dans leur gestion des affaires.",
+            "options": [
+                "réfléchies",
+                "obscènes",
+                "profondes",
+                "légales"
+            ],
+            "answer": "obscènes"
+        },
+        {
+            "question_number": 27,
+            "question": "La _______ des entreprises doit se faire dans un cadre légal et respectueux des normes internationales.",
+            "options": [
+                "croissance",
+                "transparence",
+                "privatisation",
+                "criminalité"
+            ],
+            "answer": "transparence"
+        },
+        {
+            "question_number": 28,
+            "question": "Dans certaines régions, le _______ des températures extrêmes devient de plus en plus fréquent, mettant en lumière les effets du changement climatique sur les écosystèmes locaux.",
+            "options": [
+                "phénomène",
+                "engrenage",
+                "impact",
+                "revers"
+            ],
+            "answer": "phénomène"
+        },
+        {
+            "question_number": 29,
+            "question": "Les résultats seront probablement visibles en ______, mais l'efficacité du projet ne pourra être pleinement évaluée qu'après plusieurs années d'application.",
+            "options": [
+                "court terme",
+                "long terme",
+                "effort",
+                "regard"
+            ],
+            "answer": "court terme"
+        },
+        {
+            "question_number": 30,
+            "question": "La _______ de la situation dans cette région est devenue de plus en plus inquiétante au fil des mois.",
+            "options": [
+                "détérioration",
+                "réduction",
+                "remontée",
+                "fixation"
+            ],
+            "answer": "détérioration"
+        },
+        {
+            "question_number": 1,
+            "question": "Le ______ des stocks a été effectué rapidement pour répondre à la demande croissante, évitant ainsi toute rupture de stock durant la période de forte affluence.",
+            "options": [
+                "rangement",
+                "approvisionnement",
+                "réassort",
+                "étiquetage"
+            ],
+            "answer": "réassort"
+        },
+        {
+            "question_number": 2,
+            "question": "Pour que le projet atteigne ses objectifs, il est crucial que chaque membre de l’équipe ______ activement et assume ses responsabilités avec sérieux.",
+            "options": [
+                "actualise",
+                "s’implique",
+                "réagit",
+                "augmente"
+            ],
+            "answer": "s’impliquer"
+        },
+        {
+            "question_number": 3,
+            "question": "Les qualifications _____ pour ce poste sont spécifiques et demandent une expertise approfondie dans le domaine, ainsi qu'une expérience significative en gestion de projet.",
+            "options": [
+                "prouvés",
+                "nécessaire",
+                "impeccables",
+                "requis"
+            ],
+            "answer": "requis"
+        },
+        {
+            "question_number": 4,
+            "question": "La ______ des données récoltées a été remise en question, car plusieurs anomalies ont été observées, mettant en doute la fiabilité des résultats finaux.",
+            "options": [
+                "but",
+                "projet",
+                "objectif",
+                "consistance"
+            ],
+            "answer": "consistance"
+        },
+        {
+            "question_number": 5,
+            "question": "Il a décidé de postuler _____ le poste, convaincu que son expérience et ses compétences correspondent parfaitement aux exigences de l'entreprise.",
+            "options": [
+                "en",
+                "contre",
+                "à",
+                "pour"
+            ],
+            "answer": "pour"
+        },
+        {
+            "question_number": 6,
+            "question": "L'optimisation des processus a permis de réaliser un ______ considérable, non seulement en termes financiers, mais aussi en efficacité opérationnelle.",
+            "options": [
+                "avancement",
+                "engagement",
+                "bénéfice",
+                "rôle"
+            ],
+            "answer": "bénéfice"
+        },
+        {
+            "question_number": 7,
+            "question": "Le projet a _____ principalement à réorganiser les ressources existantes pour maximiser leur efficacité.",
+            "options": [
+                "cherché",
+                "consisté",
+                "obtenu",
+                "requis"
+            ],
+            "answer": "obtenu"
+        },
+        {
+            "question_number": 8,
+            "question": "Le _______ de produits a été rapidement épuisé en raison de la forte demande.",
+            "options": [
+                "stock",
+                "réassort",
+                "montage",
+                "approvisionnement"
+            ],
+            "answer": "stock"
+        },
+        {
+            "question_number": 9,
+            "question": "Il faut _______ les informations régulièrement pour garantir leur exactitude.",
+            "options": [
+                "actualiser",
+                "retoucher",
+                "contrôler",
+                "détailler"
+            ],
+            "answer": "actualiser"
+        },
+        {
+            "question_number": 10,
+            "question": "L'_______ des paiements a été retardé en raison de problèmes techniques, ce qui a entraîné une légère perturbation dans la gestion de la trésorerie de l'entreprise.",
+            "options": [
+                "encaissement",
+                "avancement",
+                "étiquetage",
+                "assemblage"
+            ],
+            "answer": "encaissement"
+        },
+        {
+            "question_number": 11,
+            "question": "Cette société offre une _______ attractive pour attirer des talents dans le domaine de la finance.",
+            "options": [
+                "rémunération",
+                "réduction",
+                "prime",
+                "primeur"
+            ],
+            "answer": "rémunération"
+        },
+        {
+            "question_number": 12,
+            "question": "Le revenu brut de l'entreprise a considérablement augmenté cette année, mais les profits nets restent modestes en raison des dépenses élevées.",
+            "options": [
+                "revenu",
+                "salaire",
+                "net",
+                "brut"
+            ],
+            "answer": "brut"
+        },
+        {
+            "question_number": 13,
+            "question": "Les _______ de sécurité ont été clairement communiquées à tous les employés avant le début du chantier, afin de garantir un environnement de travail sûr et conforme aux normes.",
+            "options": [
+                "détails",
+                "consignes",
+                "conséquences",
+                "précisions"
+            ],
+            "answer": "consignes"
+        },
+        {
+            "question_number": 14,
+            "question": "Ils ont décidé de _______ la responsabilité de cette tâche à un employé expérimenté.",
+            "options": [
+                "confier",
+                "solliciter",
+                "rechercher",
+                "impliquer"
+            ],
+            "answer": "confier"
+        },
+        {
+            "question_number": 15,
+            "question": "Ce projet ______ une expertise technique avancée, ainsi qu'une gestion minutieuse des ressources pour garantir sa réussite à long terme.",
+            "options": [
+                "reçoit",
+                "requiert",
+                "réclame",
+                "connaît"
+            ],
+            "answer": "requiert"
+        },
+        {
+            "question_number": 16,
+            "question": "Il a _______ une formation complémentaire pour élargir ses compétences dans le domaine des ressources humaines.",
+            "options": [
+                "réussi",
+                "suivi",
+                "effectué",
+                "suivi"
+            ],
+            "answer": "suivi"
+        },
+        {
+            "question_number": 17,
+            "question": "Le _______ est chargé de gérer les finances de l'entreprise et de superviser les opérations comptables.",
+            "options": [
+                "stagiaire",
+                "directeur",
+                "animateur",
+                "comptable"
+            ],
+            "answer": "comptable"
+        },
+        {
+            "question_number": 18,
+            "question": "L'_______ de ce produit est assuré par un fournisseur local.",
+            "options": [
+                "approvisionnement",
+                "étiquetage",
+                "rangement",
+                "stockage"
+            ],
+            "answer": "approvisionnement"
+        },
+        {
+            "question_number": 19,
+            "question": "Cette entreprise _______ attirer des candidats hautement qualifiés pour ses nouveaux projets.",
+            "options": [
+                "cherche à",
+                "s’efforce",
+                "comprend",
+                "réussit"
+            ],
+            "answer": "cherche à"
+        },
+        {
+            "question_number": 20,
+            "question": "La formation _______ offerte par l'entreprise vise à renforcer les compétences de leadership des cadres, afin de les préparer à des rôles de plus grande responsabilité.",
+            "options": [
+                "réseau",
+                "managériale",
+                "engagement",
+                "encadrement"
+            ],
+            "answer": "managériale"
+        },
+        {
+            "question_number": 21,
+            "question": "Les étudiants en ______ doivent maîtriser non seulement les principes de base, mais aussi des outils informatiques sophistiqués pour gérer efficacement les finances d'une entreprise.",
+            "options": [
+                "comptabilité",
+                "informatique",
+                "économie",
+                "recherche opérationnelle"
+            ],
+            "answer": "comptabilité"
+        },
+        {
+            "question_number": 23,
+            "question": "Après la séance photo, une _______ minutieuse des images a été effectuée pour corriger les imperfections et améliorer la luminosité, afin d'obtenir un rendu professionnel.",
+            "options": [
+                "réassort",
+                "montage",
+                "rangement",
+                "retouche"
+            ],
+            "answer": "retouche"
+        },
+        {
+            "question_number": 24,
+            "question": "Pour respecter les délais, l'équipe a dû _______ le processus de production, en optimisant les tâches et en allouant plus de ressources.",
+            "options": [
+                "accélérer",
+                "interrompre",
+                "réduire",
+                "modifier"
+            ],
+            "answer": "accélérer"
+        },
+        {
+            "question_number": 25,
+            "question": "Les candidats doivent posséder des compétences _______ pour s'adapter à différents types de tâches au sein de l'entreprise.",
+            "options": [
+                "polyvalentes",
+                "spécifiques",
+                "basiques",
+                "standardisées"
+            ],
+            "answer": "polyvalentes"
+        },
+        {
+            "question_number": 26,
+            "question": "Le _______ des ventes doit être surveillé de près afin de maintenir une gestion optimale des stocks.",
+            "options": [
+                "montant",
+                "encaissement",
+                "stock",
+                "périmètre"
+            ],
+            "answer": "encaissement"
+        },
+        {
+            "question_number": 27,
+            "question": "Elle a été _______ à un autre département après une année de travail dans le service client.",
+            "options": [
+                "mutée",
+                "rejetée",
+                "accueillie",
+                "promue"
+            ],
+            "answer": "mutée"
+        },
+        {
+            "question_number": 28,
+            "question": "La _______ d'une période d'essai est une condition préalable pour obtenir un contrat permanent.",
+            "options": [
+                "succès",
+                "avancement",
+                "bilan",
+                "réussite"
+            ],
+            "answer": "réussite"
+        },
+        {
+            "question_number": 29,
+            "question": "Le directeur a demandé de _______ tous les employés afin de faire un point sur les performances du mois.",
+            "options": [
+                "compter sur",
+                "solliciter",
+                "obtenir",
+                "mesurer"
+            ],
+            "answer": "solliciter"
+        },
+        {
+            "question_number": 30,
+            "question": "Les _______ de ce produit sont affichées dans le catalogue en ligne pour aider les clients à prendre une décision d'achat.",
+            "options": [
+                "précisions",
+                "caractéristiques",
+                "atouts",
+                "détails"
+            ],
+            "answer": "caractéristiques"
+        },
+        {
+            "question_number": 1,
+            "question": "Certains problèmes ont été _______ pendant la réunion, car il était plus urgent de se concentrer sur les décisions stratégiques immédiates.",
+            "options": [
+                "stagné",
+                "redoublé",
+                "mis de côté",
+                "consenti"
+            ],
+            "answer": "mis de côté"
+        },
+        {
+            "question_number": 2,
+            "question": "Face à la concurrence croissante, l'entreprise a dû _______ efforts pour maintenir sa position sur le marché et répondre aux attentes de ses clients.",
+            "options": [
+                "redoubler d'",
+                "s’engager aux",
+                "doubler",
+                "faire part d'"
+            ],
+            "answer": "redoubler d'"
+        },
+        {
+            "question_number": 3,
+            "question": "La situation économique du pays est _______ après les réformes mises en place.",
+            "options": [
+                "au beau fixe",
+                "féconde",
+                "difficile",
+                "stagnante"
+            ],
+            "answer": "au beau fixe"
+        },
+        {
+            "question_number": 4,
+            "question": "Les honoraires des avocats varient en fonction de la durée et de la complexité du dossier, ce qui peut parfois rendre les services juridiques coûteux pour les clients.",
+            "options": [
+                "bénéfices",
+                "honoraires",
+                "indemnités",
+                "allocations"
+            ],
+            "answer": "honoraires"
+        },
+        {
+            "question_number": 4,
+            "question": "Les indemnités de départ ont été calculées en fonction de l'ancienneté de chaque employé, conformément aux termes du contrat de travail et aux lois en vigueur.",
+            "options": [
+                "bénéfices",
+                "honoraires",
+                "indemnités",
+                "allocations"
+            ],
+            "answer": "indemnités"
+        },
+        {
+            "question_number": 5,
+            "question": "L’_______ de cette œuvre d’art a été réalisée par un dessinateur renommé.",
+            "options": [
+                "illustration",
+                "affichage",
+                "étiquetage",
+                "assemblage"
+            ],
+            "answer": "illustration"
+        },
+        {
+            "question_number": 6,
+            "question": "_______ vous terminiez ce rapport, nous pourrons passer à la réunion.",
+            "options": [
+                "Aussitôt que",
+                "Pourvu que",
+                "Sauf si",
+                "À moins que"
+            ],
+            "answer": "Aussitôt que"
+        },
+        {
+            "question_number": 7,
+            "question": "Après plusieurs mois de difficultés financières, l'entreprise a réussi à _______ sa situation en révisant sa stratégie et en optimisant ses coûts opérationnels.",
+            "options": [
+                "différer",
+                "stagner",
+                "chasser",
+                "redresser"
+            ],
+            "answer": "redresser"
+        },
+        {
+            "question_number": 8,
+            "question": "Le travail de cette équipe est _______ car chaque membre apporte des idées nouvelles.",
+            "options": [
+                "éphémère",
+                "fertile",
+                "stagnant",
+                "consistant"
+            ],
+            "answer": "fertile"
+        },
+        {
+            "question_number": 9,
+            "question": "Les _______ pour cet emploi sont très compétitifs, mais vous avez une chance si vous vous démarquez.",
+            "options": [
+                "honoraires",
+                "candidatures",
+                "allocations",
+                "avantages"
+            ],
+            "answer": "candidatures"
+        },
+        {
+            "question_number": 10,
+            "question": "Elle ______ réunions interminables qui n'apportaient aucune solution concrète, préférant se concentrer sur des tâches plus productives.",
+            "options": [
+                "a penché",
+                "a chassé",
+                "s'est lassée des",
+                "s'est impliquée"
+            ],
+            "answer": "s'est lassée des"
+        },
+        {
+            "question_number": 11,
+            "question": "Ce dernier rapport a _______ des informations pertinentes qui ont renforcé la position de l'entreprise.",
+            "options": [
+                "consenti",
+                "différé",
+                "rimené",
+                "fait part"
+            ],
+            "answer": "fait part"
+        },
+        {
+            "question_number": 12,
+            "question": "La beauté du paysage au coucher du soleil était _______, disparaissant en quelques minutes lorsque les nuages ont couvert l'horizon.",
+            "options": [
+                "éphémère",
+                "intense",
+                "longue",
+                "indolore"
+            ],
+            "answer": "éphémère"
+        },
+        {
+            "question_number": 13,
+            "question": "L'auteur a _______ sur l'importance des droits d'auteur pour protéger les œuvres littéraires.",
+            "options": [
+                "rappellé",
+                "insisté",
+                "fait part",
+                "s'est attaqué"
+            ],
+            "answer": "insisté"
+        },
+        {
+            "question_number": 15,
+            "question": "Le projet va _______ une collaboration étroite entre plusieurs départements, chacun devant apporter son expertise pour garantir le succès de l'initiative.",
+            "options": [
+                "lasser",
+                "attirer",
+                "chasser",
+                "impliquer"
+            ],
+            "answer": "impliquer"
+        },
+        {
+            "question_number": 16,
+            "question": "Les conditions de travail _______ dans cette entreprise sont excellentes, et les employés sont bien rémunérés.",
+            "options": [
+                "certes",
+                "impeccables",
+                "trop strictes",
+                "saines"
+            ],
+            "answer": "impeccables"
+        },
+        {
+            "question_number": 17,
+            "question": "Avant de lancer la production en série, l'entreprise a réalisé un _______ pour tester la viabilité du produit et s'assurer de sa conformité aux normes de qualité.",
+            "options": [
+                "avancement",
+                "impact",
+                "essai",
+                "évaluation"
+            ],
+            "answer": "essai"
+        },
+        {
+            "question_number": 18,
+            "question": "Face à des ressources limitées, les équipes _______ pour trouver des solutions créatives, réussissant ainsi à maintenir le projet sur les rails malgré les obstacles.",
+            "options": [
+                "se débrouillent",
+                "se lassent",
+                "pensent",
+                "diffèrent"
+            ],
+            "answer": "se débrouillent"
+        },
+        {
+            "question_number": 19,
+            "question": "Cette entreprise de design _______ à développer des produits toujours plus novateurs et fonctionnels.",
+            "options": [
+                "se penche",
+                "s’attaque",
+                "rime",
+                "s’engage"
+            ],
+            "answer": "s’engage"
+        },
+        {
+            "question_number": 21,
+            "question": "______ la situation soit difficile, nous devons maintenir notre objectif à long terme.",
+            "options": [
+                "Sauf si",
+                "Pourvu que",
+                "À moins que",
+                "Certes"
+            ],
+            "answer": "Certes"
+        },
+        {
+            "question_number": 23,
+            "question": "Il a enfin _______ à la tâche la plus complexe du projet, déterminé à résoudre les problèmes techniques qui ralentissaient l'avancement.",
+            "options": [
+                "chassé",
+                "pensé",
+                "s’attaqué",
+                "réussi"
+            ],
+            "answer": "s’attaqué"
+        },
+        {
+            "question_number": 24,
+            "question": "La préface du livre _______ des détails précieux sur la genèse de l'œuvre.",
+            "options": [
+                "rime",
+                "diffère",
+                "consiste",
+                "consiste en"
+            ],
+            "answer": "consiste en"
+        },
+        {
+            "question_number": 25,
+            "question": "Le _______ des fonds a été effectué sans problème, mais un délai supplémentaire a été nécessaire pour traiter les documents administratifs associés.",
+            "options": [
+                "avancement",
+                "retrait",
+                "rémunération",
+                "profil"
+            ],
+            "answer": "retrait"
+        },
+        {
+            "question_number": 26,
+            "question": "Les _______ pour ce roman ont été très bien accueillis par la critique.",
+            "options": [
+                "honoraires",
+                "bénéfices",
+                "droits d’auteur",
+                "allocations"
+            ],
+            "answer": "droits d’auteur"
+        },
+        {
+            "question_number": 27,
+            "question": "Elle _______ les projets de réaménagement et de rebranding de la marque avec une énergie inépuisable.",
+            "options": [
+                "se lassa de",
+                "se débrouille",
+                "s’attaque à",
+                "pense à"
+            ],
+            "answer": "s’attaque à"
+        },
+        {
+            "question_number": 28,
+            "question": "______ vous ayez terminé le projet, vous pouvez partir en vacances.",
+            "options": [
+                "Aussitôt que",
+                "Pourvu que",
+                "Sauf si",
+                "À moins que"
+            ],
+            "answer": "Aussitôt que"
+        },
+        {
+            "question_number": 29,
+            "question": "Grâce à des ajustements successifs, le prototype a été _____ et prêt à être lancé sur le marché, promettant des performances supérieures à celles des modèles précédents.",
+            "options": [
+                "mis au point",
+                "rimé",
+                "redoublé",
+                "fait part"
+            ],
+            "answer": "mis au point"
+        },
+        {
+            "question_number": 30,
+            "question": "Il a reçu une _______ pour son implication dans le développement du projet humanitaire.",
+            "options": [
+                "récompense",
+                "indemnité",
+                "bénéfice",
+                "allocations"
+            ],
+            "answer": "récompense"
+        },
+        {
+            "question_number": 1,
+            "question": "Le patron a décidé de _______ certains dossiers pour les revoir plus tard.",
+            "options": [
+                "mettre au placard",
+                "se concerter",
+                "démissionner",
+                "faire appel à"
+            ],
+            "answer": "mettre au placard"
+        },
+        {
+            "question_number": 2,
+            "question": "Sa vision stratégique est pleinement _______ les objectifs à long terme de l'entreprise, ce qui permet une alignement parfait dans l'exécution des projets.",
+            "options": [
+                "aux ordres de",
+                "en phase avec",
+                "à sa place",
+                "à travers"
+            ],
+            "answer": "en phase avec"
+        },
+        {
+            "question_number": 3,
+            "question": "L'équipe a _______ une grève pour protester contre les conditions de travail.",
+            "options": [
+                "déclenché",
+                "mis en œuvre",
+                "démenti",
+                "subi"
+            ],
+            "answer": "déclenché"
+        },
+        {
+            "question_number": 4,
+            "question": "Le directeur a _______ ses employés qu'une réorganisation était prévue prochainement.",
+            "options": [
+                "averti",
+                "désigné",
+                "chassé",
+                "réconforté"
+            ],
+            "answer": "averti"
+        },
+        {
+            "question_number": 5,
+            "question": "Lors de l’entretien, le candidat a dû _______ ses qualifications et son expérience.",
+            "options": [
+                "énoncer",
+                "se concerter",
+                "songer",
+                "désigner"
+            ],
+            "answer": "énoncer"
+        },
+        {
+            "question_number": 6,
+            "question": "Les négociateurs se sont _______ avant de signer le contrat final.",
+            "options": [
+                "consultés",
+                "inclinés",
+                "étonnés",
+                "avertis"
+            ],
+            "answer": "consultés"
+        },
+        {
+            "question_number": 7,
+            "question": "Devant l'évidence des faits, il _______ devant l'opinion des experts, reconnaissant que leur analyse était plus complète et fondée que la sienne.",
+            "options": [
+                "s'inclina",
+                "songea",
+                "mit de côté",
+                "démentit"
+            ],
+            "answer": "s'inclina"
+        },
+        {
+            "question_number": 8,
+            "question": "_______ la qualité des produits doit être une priorité absolue, car elle est essentielle pour maintenir la fidélité des clients et garantir la réputation de l'entreprise.",
+            "options": [
+                "En vérité",
+                "Il va de soi que",
+                "À travers",
+                "Ainsi de suite"
+            ],
+            "answer": "Il va de soi que"
+        },
+        {
+            "question_number": 9,
+            "question": "La société a _______ un nouveau directeur pour superviser les opérations internationales.",
+            "options": [
+                "désigné",
+                "évalué",
+                "effrayé",
+                "aspiré"
+            ],
+            "answer": "désigné"
+        },
+        {
+            "question_number": 10,
+            "question": "_______ le projet avançait, les défis devenaient de plus en plus complexes, nécessitant une adaptation constante des stratégies et des ressources.",
+            "options": [
+                "au fur et à mesure que",
+                "en phase avec",
+                "de façon définitive",
+                "au bout"
+            ],
+            "answer": "au fur et à mesure que"
+        },
+
+        
+        {
+            "question_number": 12,
+            "question": "Après des mois de tensions au sein de l'équipe, il a décidé de _______, estimant que son rôle n'était plus compatible avec ses valeurs personnelles.",
+            "options": [
+                "siéger",
+                "faire appel",
+                "démissionner",
+                "s’incliner"
+            ],
+            "answer": "démissionner"
+        },
+        {
+            "question_number": 13,
+            "question": "Le projet a _______ une série de changements dans l'organisation de l'entreprise.",
+            "options": [
+                "déclenché",
+                "se concerté",
+                "mis au placard",
+                "réalisé"
+            ],
+            "answer": "déclenché"
+        },
+        {
+            "question_number": 14,
+            "question": "Elle a commencé à ________ sérieusement à un changement de carrière, réalisant que ses aspirations professionnelles ne correspondaient plus à son poste actuel.",
+            "options": [
+                "avertir",
+                "convoyer",
+                "seconder",
+                "songer"
+            ],
+            "answer": "songer"
+        },
+        {
+            "question_number": 15,
+            "question": "________ qu’il ait bien travaillé, il a finalement été promu à un échelon supérieur.",
+            "options": [
+                "Il va de soi",
+                "À moins",
+                "Pourvu",
+                "Rien"
+            ],
+            "answer": "Il va de soi"
+        },
+        {
+            "question_number": 17,
+            "question": "L'____ de la décision revient au conseil d’administration qui doit se réunir la semaine prochaine.",
+            "options": [
+                "ultimatum",
+                "amont",
+                "aval",
+                "échelon"
+            ],
+            "answer": "échelon"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a une voix _______ après avoir chanté pendant des heures.",
+            "options": [
+                "écrasée",
+                "solennelle",
+                "rauque",
+                "flottante"
+            ],
+            "answer": "rauque"
+        },
+        {
+            "question_number": 21,
+            "question": "_______ posé par la direction a laissé peu de temps aux employés pour s'adapter aux nouvelles exigences, créant ainsi une pression considérable au sein de l'équipe.",
+            "options": [
+                "L’ultimatum",
+                "Le pacte",
+                "Le couronnement",
+                "Le démenti"
+            ],
+            "answer": "L’ultimatum"
+        },
+        {
+            "question_number": 22,
+            "question": "Nous avons dû _______ aux experts afin de garantir la sécurité des infrastructures.",
+            "options": [
+                "faire appel",
+                "songer",
+                "seconder",
+                "se concerter"
+            ],
+            "answer": "faire appel"
+        },
+        {
+            "question_number": 23,
+            "question": "Il _______ lentement, tentant de se calmer avant de prendre une décision importante, conscient que la pression pourrait affecter son jugement.",
+            "options": [
+                "aspire",
+                "incline",
+                "penche",
+                "souffle"
+            ],
+            "answer": "souffle"
+        },
+        {
+            "question_number": 24,
+            "question": "Le conseil d'administration a décidé de _______ à huis clos pour discuter des questions sensibles liées à la restructuration de l'entreprise.",
+            "options": [
+                "se conformer",
+                "se défendre",
+                "siéger",
+                "s’incliner"
+            ],
+            "answer": "siéger"
+        },
+        {
+            "question_number": 25,
+            "question": "Elle a accepté de _______ son collègue dans la gestion du projet, sachant que son expérience serait un atout précieux pour garantir son succès.",
+            "options": [
+                "seconder",
+                "songer",
+                "avertir",
+                "considérer"
+            ],
+            "answer": "seconder"
+        },
+        {
+            "question_number": 26,
+            "question": "L'entreprise a _______ les rumeurs concernant une possible faillite, affirmant que ses finances étaient solides et qu'elle poursuivait ses activités normalement.",
+            "options": [
+                "s’entretenu",
+                "s’incliné",
+                "démenti",
+                "mis au placard"
+            ],
+            "answer": "démenti"
+        },
+        {
+            "question_number": 27,
+            "question": "Ils ont _______ le développement du projet en l’associant aux priorités de la société.",
+            "options": [
+                "mis en phase",
+                "réussi",
+                "réagi",
+                "consenti"
+            ],
+            "answer": "mis en phase"
+        },
+        {
+            "question_number": 28,
+            "question": "Le directeur a décidé de _______ une réunion d'urgence pour discuter des récents développements et définir la stratégie à adopter face à la situation.",
+            "options": [
+                "signer",
+                "convoquer",
+                "mettre au placard",
+                "démentir"
+            ],
+            "answer": "convoquer"
+        },
+        {
+            "question_number": 29,
+            "question": "Son _______ pour la présidence de l'association a été accepté à l'unanimité par les membres.",
+            "options": [
+                "ultimatum",
+                "échelon",
+                "démission",
+                "candidature"
+            ],
+            "answer": "candidature"
+        },
+        {
+            "question_number": 30,
+            "question": "Le film était tellement _______ qu'il a laissé le public sans voix, certains spectateurs préférant même quitter la salle avant la fin.",
+            "options": [
+                "solennel",
+                "gigantesque",
+                "effrayant",
+                "aux ordres"
+            ],
+            "answer": "effrayant"
+        }
+    ]
+}

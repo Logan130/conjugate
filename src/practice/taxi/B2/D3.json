@@ -112,7 +112,7 @@
         },
         {
             "question_number": 11,
-            "question": "L'immigration clandestine est souvent associée à des _______ juridiques et humains importants.",
+            "question": "Les _______ causés par la tempête étaient considérables, avec des toitures arrachées et des arbres déracinés, laissant la ville dans un état de chaos.",
             "options": [
                 "dégâts",
                 "progrès",
@@ -134,18 +134,18 @@
         },
         {
             "question_number": 13,
-            "question": "La migration de masse pose des défis _______ pour les pays d'accueil, qui doivent trouver des solutions efficaces.",
+            "question": "La migration _______ vers les grandes métropoles a exacerbé les problèmes de logement et de services publics, posant de nouveaux défis aux autorités locales pour garantir une intégration harmonieuse des nouveaux arrivants.",
             "options": [
-                "tactiques",
+                "tactique",
                 "de masse",
-                "clandestins",
-                "environnementaux"
+                "clandestine",
+                "environnementale"
             ],
             "answer": "de masse"
         },
         {
             "question_number": 14,
-            "question": "Il a _______ un long voyage pour se rendre dans un pays où il pourrait travailler dans son domaine.",
+            "question": "Il avait ______ de réparer l'ordinateur lui-même, mais malgré tous ses efforts, le problème persistait, le forçant à faire appel à un professionnel.",
             "options": [
                 "tenté",
                 "réussi",
@@ -211,7 +211,7 @@
         },
         {
             "question_number": 20,
-            "question": "Cette loi a été _______ après de longs débats parlementaires.",
+            "question": "La loi a été ______ après de vifs débats, les législateurs concluant qu'elle ne répondait plus aux besoins de la société contemporaine.",
             "options": [
                 "abolie",
                 "adoptée",
@@ -222,7 +222,7 @@
         },
         {
             "question_number": 21,
-            "question": "La _______ des réfugiés est une question cruciale qui exige une coopération internationale.",
+            "question": "La _______ du certificat fut un moment de grande satisfaction pour l'équipe, marquant la fin d'un long processus de vérification et d'approbation.",
             "options": [
                 "délivrance",
                 "démocratie",
@@ -255,29 +255,29 @@
         },
         {
             "question_number": 24,
-            "question": "Les gens _______ souvent un long voyage pour atteindre un lieu où ils peuvent commencer une nouvelle vie.",
+            "question": "Les chercheurs _______ dans des archives anciennes pour découvrir des informations oubliées, espérant ainsi résoudre les mystères qui persistent depuis des siècles.",
             "options": [
                 "plongent",
                 "migrent",
                 "expulsent",
                 "accèdent"
             ],
-            "answer": "migrent"
+            "answer": "plongent"
         },
         {
             "question_number": 25,
-            "question": "L'______ des actions légales pour résoudre cette crise migratoire est crucial.",
+            "question": "Son discours reçut un large ______ de la part de ses collègues, convaincus que ses propositions apportaient des solutions concrètes aux problèmes actuels.",
             "options": [
                 "accès",
                 "appui",
                 "engagement",
                 "expulsion"
             ],
-            "answer": "engagement"
+            "answer": "appui"
         },
         {
             "question_number": 26,
-            "question": "Il a _______ la beauté des paysages qu'il a découverts en voyageant.",
+            "question": "Il a contemplé le paysage au crépuscule, fasciné par les couleurs chaudes du ciel, perdu dans la beauté tranquille de l'instant.",
             "options": [
                 "contemplé",
                 "expulsé",
@@ -365,7 +365,7 @@
         },
         {
             "question_number": 4,
-            "question": "Le ______ de ce document est indispensable pour poursuivre la procédure.",
+            "question": "L'______ de ce document est indispensable pour poursuivre la procédure.",
             "options": [
                 "obtention",
                 "colloque",
@@ -420,7 +420,7 @@
         },
         {
             "question_number": 9,
-            "question": "Il est ______ de voir comment ces tendances se développent dans le monde entier.",
+            "question": "Leurs efforts pour éviter la crise semblaient vains, car l'issue ______ s'approchait à grands pas, malgré toutes les tentatives pour la repousser.",
             "options": [
                 "irrépressible",
                 "inéluctable",
@@ -431,7 +431,7 @@
         },
         {
             "question_number": 10,
-            "question": "L’______ de la situation est évidente, mais il faut encore du temps pour régler les problèmes.",
+            "question": "L'_______ de ses recherches a permis de découvrir une solution innovante, ouvrant ainsi la voie à de nouvelles perspectives dans le domaine scientifique.",
             "options": [
                 "aboutissement",
                 "étape",
@@ -442,25 +442,25 @@
         },
         {
             "question_number": 11,
-            "question": "Il a ______ un courrier recommandé pour confirmer sa demande d’adhésion.",
+            "question": "La plainte a été _______, et des actions correctives ont été mises en place pour répondre aux préoccupations soulevées par les clients.",
             "options": [
-                "dûment adressé",
-                "formulé",
-                "obtenu",
-                "sollicité"
+                "dûment adressée",
+                "formulée",
+                "obtenue",
+                "sollicitée"
             ],
-            "answer": "dûment adressé"
+            "answer": "dûment adressée"
         },
         {
             "question_number": 12,
             "question": "______ les circonstances, il ne sera pas possible de mener à bien ce projet sans un financement supplémentaire.",
             "options": [
                 "Au motif que",
-                "Etant donné que",
+                "Etant donné",
                 "Conformément à",
                 "Préalablement à"
             ],
-            "answer": "Etant donné que"
+            "answer": "Etant donné"
         },
         {
             "question_number": 13,
@@ -475,14 +475,14 @@
         },
         {
             "question_number": 14,
-            "question": "Les informations ci-dessous sont ______ obtenues pour compléter le dossier.",
+            "question": "Les participants ont _______ reçu les documents nécessaires pour la réunion, afin qu'ils puissent se préparer et participer activement aux discussions.",
             "options": [
-                "préalablement",
                 "dûment",
                 "irrépressibles",
-                "distinguées"
+                "distingués", 
+                "préalablement"
             ],
-            "answer": "dûment"
+            "answer": "préalablement"
         },
         {
             "question_number": 15,
@@ -508,7 +508,7 @@
         },
         {
             "question_number": 17,
-            "question": "La ______ des travailleurs migrants est un sujet complexe qui mérite toute notre attention.",
+            "question": "La _______ a facilité les échanges commerciaux et culturels, mais a aussi amplifié les inégalités économiques, créant des défis considérables pour les pays en développement.",
             "options": [
                 "croissance",
                 "migration",
@@ -563,14 +563,14 @@
         },
         {
             "question_number": 22,
-            "question": "L’______ d’un brevet est essentielle pour protéger les droits d’un inventeur.",
+            "question": "L'_______ contre les risques naturels a permis à l'entreprise de se relever rapidement après la tempête, minimisant ainsi les pertes financières et garantissant la continuité de ses opérations.",
             "options": [
                 "obtention",
                 "assurance",
                 "expulsion",
                 "élévation"
             ],
-            "answer": "obtention"
+            "answer": "assurance"
         },
         {
             "question_number": 23,
@@ -629,7 +629,7 @@
         },
         {
             "question_number": 28,
-            "question": "Le ______ de l’hôte était particulièrement attentif à ses invités, ce qui a rendu le séjour agréable.",
+            "question": "L'______ de l’hôte était particulièrement attentif à ses invités, ce qui a rendu le séjour agréable.",
             "options": [
                 "réseau",
                 "service",
@@ -684,14 +684,14 @@
         },
         {
             "question_number": 3,
-            "question": "Les autorités ______ face aux nouvelles règles migratoires.",
+            "question": "Face à la situation, les dirigeants _______, affirmant que des mesures strictes seraient mises en place pour éviter toute récurrence du problème.",
             "options": [
                 "se sont repliées",
                 "se sont dressées",
                 "ont fourbi",
-                "ont pris une position"
+                "ont pris une position ferme"
             ],
-            "answer": "ont pris une position"
+            "answer": "ont pris une position ferme"
         },
         {
             "question_number": 4,
@@ -728,7 +728,7 @@
         },
         {
             "question_number": 7,
-            "question": "Les demandes de bourses sont ______ avant la fin du mois.",
+            "question": "Avant de commencer, il s'assura que tous les paiements étaient _______, afin d'éviter tout malentendu ou retard dans le processus.",
             "options": [
                 "en règle",
                 "d’un côté",
@@ -783,7 +783,7 @@
         },
         {
             "question_number": 12,
-            "question": "Les autorités suisses ont dû faire face à un ______ important concernant les travailleurs étrangers.",
+            "question": "Le _______ des négociations survint lorsque les deux parties ne parvinrent pas à s'entendre sur les termes du contrat, ralentissant ainsi toute avancée dans les discussions.",
             "options": [
                 "blocage",
                 "fameux",
@@ -794,7 +794,7 @@
         },
         {
             "question_number": 13,
-            "question": "Après l’accord, un ______ des échanges entre les deux pays a été signé.",
+            "question": "Le _______ des deux entreprises, longtemps concurrentes, a ouvert la voie à une collaboration fructueuse, combinant leurs forces pour dominer le marché.",
             "options": [
                 "rapprochement",
                 "fossé",
@@ -864,21 +864,21 @@
             "options": [
                 "en vue de",
                 "à cause de",
-                "pour",
+                "contre",
                 "pour éviter"
             ],
             "answer": "en vue de"
         },
         {
             "question_number": 20,
-            "question": "La situation des ______ dans les camps est particulièrement difficile en ce moment.",
+            "question": "Les _______ de titres de propriété doivent veiller à respecter les nouvelles régulations, sous peine de sanctions financières en cas de non-conformité.",
             "options": [
                 "réfugiés",
                 "ressortissants",
                 "détenteurs",
                 "immigrants"
             ],
-            "answer": "réfugiés"
+            "answer": "détenteurs"
         },
         {
             "question_number": 21,
@@ -893,14 +893,14 @@
         },
         {
             "question_number": 22,
-            "question": "Le pays a pris des mesures pour ______ les citoyens pendant la crise économique.",
+            "question": "Lors de l'ouragan, les habitants ont trouvé refuge dans les écoles et les églises, qui ont _______ des centaines de personnes en quête de sécurité.",
             "options": [
-                "abriter",
-                "dresser",
-                "rapatrier",
-                "fâcher"
+                "abrité",
+                "dressé",
+                "rapatrié",
+                "fâché"
             ],
-            "answer": "abriter"
+            "answer": "abrité"
         },
         {
             "question_number": 23,
@@ -926,18 +926,18 @@
         },
         {
             "question_number": 25,
-            "question": "L'opérateur téléphonique vient d'_______ certains clients d'une augmentation de la facture qu'ils ne pourront pas refuser.",
+            "question": "Le gouvernement a mis en place de nouvelles régulations afin de _______ la spéculation immobilière, espérant ainsi rendre le marché plus accessible pour les jeunes acheteurs.",
             "options": [
                 "agir",
                 "avertir",
                 "rapatrier",
                 "freiner"
             ],
-            "answer": "avertir"
+            "answer": "freiner"
         },
         {
             "question_number": 26,
-            "question": "Les informations concernant la ______ des réfugiés sont disponibles sur le site officiel.",
+            "question": "Une ______ équitable des tâches est essentielle pour garantir l'efficacité de l'équipe, afin que chacun puisse contribuer de manière optimale sans se sentir surchargé.",
             "options": [
                 "répartition",
                 "sédentarisation",
@@ -970,11 +970,11 @@
         },
         {
             "question_number": 29,
-            "question": "Les ______ de cette politique ont été bien accueillies par les autorités locales.",
+            "question": "Les autorités ont adopté des ______ préventives pour limiter les risques d'incendie, telles que la création de zones tampons et la sensibilisation des habitants aux comportements à risque.",
             "options": [
                 "conséquences",
                 "mesures",
-                "actions",
+                "appels",
                 "ressortissants"
             ],
             "answer": "mesures"
@@ -985,14 +985,14 @@
             "options": [
                 "bloquer",
                 "ouvrir",
-                "fermer",
+                "replier",
                 "abriter"
             ],
             "answer": "bloquer"
         },
         {
             "question_number": 1,
-            "question": "Le ______ a été rendu après une longue délibération.",
+            "question": "Après plusieurs jours de délibérations, le jury a rendu son ______, déclarant l'accusé coupable de toutes les charges retenues contre lui.",
             "options": [
                 "verdict",
                 "récit",
@@ -1011,17 +1011,6 @@
                 "débordé"
             ],
             "answer": "ahuri"
-        },
-        {
-            "question_number": 3,
-            "question": "Le traité a été signé ______ un long processus de négociation entre les deux pays.",
-            "options": [
-                "sur-le-champ",
-                "suite à",
-                "après",
-                "à cause"
-            ],
-            "answer": "après"
         },
         {
             "question_number": 4,
@@ -1102,18 +1091,18 @@
         },
         {
             "question_number": 11,
-            "question": "Il était ______ de recevoir cette récompense après tant d’années de travail acharné.",
+            "question": "Après des années de travail acharné, elle a finalement reçu une récompense _______ de ses efforts, saluée par ses collègues et ses supérieurs.",
             "options": [
                 "digne",
-                "débordant",
+                "débordante",
                 "indigène",
-                "ahuri"
+                "ahurie"
             ],
             "answer": "digne"
         },
         {
             "question_number": 12,
-            "question": "Le ______ était noyé sous les eaux après la crue du fleuve, mais a rapidement retrouvé sa forme.",
+            "question": "L'______ était noyé sous les eaux après la crue du fleuve, mais a rapidement retrouvé sa forme.",
             "options": [
                 "parterre",
                 "embouchure",
@@ -1124,7 +1113,7 @@
         },
         {
             "question_number": 13,
-            "question": "Le ______ du texte était de raconter l’histoire d’un peuple colonisé et de sa résistance.",
+            "question": "Son ______ de l'aventure en montagne était si captivant que tout le monde écoutait attentivement, suspendu à ses mots, comme s'ils y étaient eux-mêmes.",
             "options": [
                 "récit",
                 "miracle",
@@ -1135,7 +1124,7 @@
         },
         {
             "question_number": 14,
-            "question": "Les ______ de l’époque coloniale ont laissé une trace indélébile sur la culture locale.",
+            "question": "Les ______ imposaient leurs propres lois et coutumes aux populations locales, souvent sans tenir compte des traditions et des modes de vie préexistants.",
             "options": [
                 "colonisateurs",
                 "indigènes",
@@ -1168,7 +1157,7 @@
         },
         {
             "question_number": 17,
-            "question": "Il y avait une montagne ______ d’animaux et de plantes rares dans cette réserve naturelle.",
+            "question": "Sa ______ énergie et son enthousiasme contagieux ont rapidement galvanisé toute l'équipe, transformant un projet morose en un véritable succès collectif..",
             "options": [
                 "flottante",
                 "embouchure",
@@ -1247,10 +1236,10 @@
             "question_number": 25,
             "question": "Plus généralement, c'est la gestion des ____ de touristes qui irrite le guide naturaliste.",
             "options": [
-                "traînée",
-                "embouchure",
+                "traînées",
+                "embouchures",
                 "flots",
-                "débordance"
+                "débordances"
             ],
             "answer": "flots"
         },
@@ -1260,7 +1249,7 @@
             "options": [
                 "traînée",
                 "miracle",
-                "flots",
+                "flot",
                 "récit"
             ],
             "answer": "traînée"
@@ -1291,7 +1280,7 @@
             "question_number": 29,
             "question": "Le ______ des nations n’a pas empêché le conflit de se transformer en guerre ouverte.",
             "options": [
-                "miracle",
+                "harmonie",
                 "traité",
                 "vêtu",
                 "récit"
