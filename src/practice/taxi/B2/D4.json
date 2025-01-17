@@ -537,7 +537,7 @@
                 "envers",
                 "sures"
             ],
-            "answer": "légal"
+            "answer": "légales"
         },
         {
             "question_number": 20,
@@ -761,7 +761,7 @@
         },
         {
             "question_number": 9,
-            "question": "Le réverbère au coin de la rue est en panne, ce qui rend la zone assez sombre la nuit.",
+            "question": "Le _______ au coin de la rue est en panne, ce qui rend la zone assez sombre la nuit.",
             "options": [
                 "banc",
                 "penderie",
@@ -944,7 +944,7 @@
                 "embûches",
                 "bailleurs"
             ],
-            "answer": "élu(e)s"
+            "answer": "élus"
         },
         {
             "question_number": 26,

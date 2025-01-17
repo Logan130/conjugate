@@ -717,14 +717,14 @@
         },
         {
             "question_number": 6,
-            "question": "Cette décision a provoqué ______ de nombreux membres du gouvernement.",
+            "question": "Bien que la décision de la commission ait été accueillie avec les ________, elle fut néanmoins adoptée à une majorité, ce qui suggère que, malgré la désapprobation généralisée, des considérations pratiques ont prévalu sur les objections morales.",
             "options": [
-                "la réprobation",
-                "l’avertissement",
-                "le rapprochement",
-                "le blocage"
+                "réprobations",
+                "avertissements",
+                "rapprochements",
+                "blocages"
             ],
-            "answer": "la réprobation"
+            "answer": "réprobations"
         },
         {
             "question_number": 7,
@@ -948,7 +948,7 @@
         },
         {
             "question_number": 27,
-            "question": "Avant de partir en expéditions, il aime fourbir son équipement pour être certain que tout fonctionne parfaitement.",
+            "question": "Avant de partir en expéditions, il aime ______ son équipement pour être certain que tout fonctionne parfaitement.",
             "options": [
                 "consacrer",
                 "fourbir",
@@ -1091,7 +1091,7 @@
         },
         {
             "question_number": 10,
-            "question": "Elle est ______ un beau manteau rouge lors de la réception, attirant tous les regards.",
+            "question": "Elle est ______ d'un beau manteau rouge lors de la réception, attirant tous les regards.",
             "options": [
                 "vêtue",
                 "s’est rendue",
@@ -1241,7 +1241,7 @@
                 "dévoué",
                 "digne"
             ],
-            "answer": "digne"
+            "answer": "dévoué"
         },
         {
             "question_number": 25,
