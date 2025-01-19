@@ -243,7 +243,7 @@ export function AllConjugate() {
                 <p className="italic">{eng ?
                     `“He kisses—how do I explain it? Like someone in love. Like he has nothing to lose. Like someone who has just learned a foreign language and can use only the present tense and only the second person. Only now, only you.” ― Andrew Sean Greer, Less`
                     :
-                    `"他的吻，我要怎么说呢？就像坠入爱河，就像他无所畏惮，像一个人刚学一门外国语言，只会运用现在时态和第二人称，他的世界只有现在，只有你。" - Andrew Sean Greer小说Less`
+                    `"他的吻，我要怎么说呢？就像坠入爱河，就像他无所畏惮，就像一个人刚学一门外国语言，只会现在时态和第二人称，他的世界只有现在、只有你。" - Andrew Sean Greer小说Less`
                 }</p>
                 <div className="divider"></div>
             </div>

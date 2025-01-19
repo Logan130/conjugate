@@ -272,12 +272,14 @@ export const alterEgoB2 = [
         words: wordsAlterEgoB2U5,
         tag: "Taxi",
         book: "B2",
+        test: "taxi/B2/D5.json", 
     },
     {
         unit: "D6 Sensations",
         words: wordsAlterEgoB2U6,
         tag: "Taxi",
         book: "B2",
+        test: "taxi/B2/D6.json", 
     },
     {
         unit: "D7 Francophonies",

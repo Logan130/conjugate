@@ -1,0 +1,1005 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "La recette de ce plat requiert un mélange de plusieurs ingrédients _______ pour obtenir la saveur parfaite.",
+            "options": [
+                "sensoriels",
+                "culinaires",
+                "lointains",
+                "raffinés"
+            ],
+            "answer": "culinaires"
+        },
+        {
+            "question_number": 2,
+            "question": "Sa curiosité a été _______ lorsqu'il a entendu parler d'une opportunité inattendue, le poussant à enquêter davantage pour en savoir plus.",
+            "options": [
+                "titillée",
+                "épurée",
+                "salivée",
+                "bousculée"
+            ],
+            "answer": "titillée"
+        },
+        {
+            "question_number": 3,
+            "question": "L'objectif de cette révision était d'_______ le texte en éliminant les informations superflues, afin de rendre le message plus clair et direct.",
+            "options": [
+                "doser",
+                "épurer",
+                "bousculer",
+                "tisser"
+            ],
+            "answer": "épurer"
+        },
+        {
+            "question_number": 4,
+            "question": "Les enfants aiment _______ des biscuits en regardant la télévision.",
+            "options": [
+                "grignoter",
+                "déguster",
+                "pimenter",
+                "souligner"
+            ],
+            "answer": "grignoter"
+        },
+        {
+            "question_number": 5,
+            "question": "L’arôme du gâteau _______ s'est infiltré dans tout l’espace de la cuisine et a attiré l’attention des passants.",
+            "options": [
+                "croustillant",
+                "boisé",
+                "onctueux",
+                "salivant"
+            ],
+            "answer": "salivant"
+        },
+        {
+            "question_number": 6,
+            "question": "Les épices ajoutent une touche d'_______ à ce plat, le rendant encore plus savoureux.",
+            "options": [
+                "amertume",
+                "moutarde",
+                "acide",
+                "aigre"
+            ],
+            "answer": "acide"
+        },
+        {
+            "question_number": 7,
+            "question": "Ce vin possède un _______ boisée qui lui donne une certaine complexité.",
+            "options": [
+                "arôme",
+                "dye",
+                "allégation",
+                "colorant"
+            ],
+            "answer": "arôme"
+        },
+        {
+            "question_number": 7,
+            "question": "La _______ du pain était parfaitement dorée et croustillante, contrastant merveilleusement avec la texture moelleuse de l'intérieur.",
+            "options": [
+                "arôme",
+                "dye",
+                "croûte",
+                "colorant"
+            ],
+            "answer": "croûte"
+        },
+        {
+            "question_number": 8,
+            "question": "Le chef a _______ ses plats en ajoutant des épices subtiles et en ajustant les textures, créant ainsi une expérience culinaire plus raffinée et harmonieuse.",
+            "options": [
+                "atténué",
+                "doser",
+                "souligné",
+                "affiné"
+            ],
+            "answer": "affiné"
+        },
+        {
+            "question_number": 9,
+            "question": "Les différents types de cuisine _______ des liens profonds avec les cultures locales.",
+            "options": [
+                "tissent",
+                "se révèlent",
+                "atténuent",
+                "se dévoilent"
+            ],
+            "answer": "tissent"
+        },
+        {
+            "question_number": 10,
+            "question": "Les _______ alimentaires sont souvent utilisés pour améliorer la couleur et le goût des produits transformés.",
+            "options": [
+                "colorants",
+                "additifs",
+                "arômes",
+                "épices"
+            ],
+            "answer": "colorants"
+        },
+        {
+            "question_number": 11,
+            "question": "Le chef a dû _______ les ingrédients pour créer un plat parfaitement équilibré.",
+            "options": [
+                "doser",
+                "grignoter",
+                "saliver",
+                "titiller"
+            ],
+            "answer": "doser"
+        },
+        {
+            "question_number": 13,
+            "question": "Après avoir vu le menu, elle a eu une _______ irrésistible de goûter au plat signature du chef, une création audacieuse mêlant saveurs exotiques et techniques modernes.",
+            "options": [
+                "désintérêt",
+                "envie",
+                "soulignement",
+                "aigreur"
+            ],
+            "answer": "envie"
+        },
+        {
+            "question_number": 13,
+            "question": "Dans cette affaire, le _______ de la plainte repose sur des accusations sérieuses de négligence.",
+            "options": [
+                "désintérêt",
+                "envie",
+                "ténor",
+                "aigreur"
+            ],
+            "answer": "ténor"
+        },
+        {
+            "question_number": 14,
+            "question": "Le dessert était d'une texture _______, fondant délicatement en bouche et laissant une sensation de douceur qui persistait longtemps après la dégustation.",
+            "options": [
+                "onctueuse",
+                "soulignée",
+                "croquante",
+                "acide"
+            ],
+            "answer": "onctueuse"
+        },
+        {
+            "question_number": 15,
+            "question": "Il a _______ de l’amertume en buvant du café trop fort.",
+            "options": [
+                "salivé",
+                "grignoté",
+                "titillé",
+                "ressenti"
+            ],
+            "answer": "ressenti"
+        },
+        {
+            "question_number": 16,
+            "question": "Les chefs de l’émission ont essayé de _______ les papilles des téléspectateurs avec des plats innovants.",
+            "options": [
+                "titiller",
+                "saliver",
+                "doser",
+                "toucher"
+            ],
+            "answer": "titiller"
+        },
+        {
+            "question_number": 17,
+            "question": "Ce film a _______ les émotions des spectateurs de façon inattendue.",
+            "options": [
+                "bousculé",
+                "atténué",
+                "révélé",
+                "réduit"
+            ],
+            "answer": "bousculé"
+        },
+        {
+            "question_number": 18,
+            "question": "Les souvenirs de son enfance sont restés _______ dans son esprit, comme une musique douce.",
+            "options": [
+                "lointains",
+                "acides",
+                "salivants",
+                "onctueux"
+            ],
+            "answer": "lointains"
+        },
+        {
+            "question_number": 19,
+            "question": "Il a décidé d'_______ des méthodes plus modernes pour améliorer la productivité de son équipe.",
+            "options": [
+                "avoir recours à",
+                "grignoter",
+                "doser",
+                "se dévoiler"
+            ],
+            "answer": "avoir recours à"
+        },
+        {
+            "question_number": 20,
+            "question": "Les filets de poulet étaient légèrement _______, nappés d'une sauce crémeuse qui apportait un équilibre parfait entre douceur et piquant.",
+            "options": [
+                "boisés",
+                "acides",
+                "moutardés",
+                "onctueux"
+            ],
+            "answer": "moutardés"
+        },
+        {
+            "question_number": 21,
+            "question": "La crêpe était délicieusement _______ avec sa garniture légère et son parfum de beurre.",
+            "options": [
+                "croustillante",
+                "salée",
+                "dégustée",
+                "amère"
+            ],
+            "answer": "croustillante"
+        },
+        {
+            "question_number": 22,
+            "question": "Le vin rouge se marie parfaitement avec des plats _______ comme un steak grillé.",
+            "options": [
+                "raffinés",
+                "acides",
+                "salivants",
+                "grignotés"
+            ],
+            "answer": "raffinés"
+        },
+        {
+            "question_number": 23,
+            "question": "Ce dessert a _______ l’imagination des invités avec ses saveurs exotiques.",
+            "options": [
+                "titillé",
+                "grignoté",
+                "déjoué",
+                "épuré"
+            ],
+            "answer": "titillé"
+        },
+        {
+            "question_number": 24,
+            "question": "Les chefs ont dû _______ la quantité de sel pour ne pas trop affecter le goût du plat.",
+            "options": [
+                "doser",
+                "grignoter",
+                "saliver",
+                "titiller"
+            ],
+            "answer": "doser"
+        },
+        {
+            "question_number": 25,
+            "question": "Cette nouvelle recette est un mélange _______ de différentes cuisines du monde.",
+            "options": [
+                "culinaire",
+                "sensoriel",
+                "lointain",
+                "tissé"
+            ],
+            "answer": "culinaire"
+        },
+        {
+            "question_number": 26,
+            "question": "L’______ de ce fromage est légèrement piquante, mais agréable après quelques secondes.",
+            "options": [
+                "arôme",
+                "aigreur",
+                "acidité",
+                "additif"
+            ],
+            "answer": "aigreur"
+        },
+        {
+            "question_number": 27,
+            "question": "En _______ plus de légumes dans son alimentation, il a amélioré sa santé.",
+            "options": [
+                "axant",
+                "tissant",
+                "salivant",
+                "cheminant"
+            ],
+            "answer": "axant"
+        },
+        {
+            "question_number": 28,
+            "question": "Elle a _______ un plat très épicé pour impressionner ses invités.",
+            "options": [
+                "préparé",
+                "révélé",
+                "souligné",
+                "moutardé"
+            ],
+            "answer": "préparé"
+        },
+        {
+            "question_number": 29,
+            "question": "Il faut _______ les saveurs de chaque ingrédient pour que le plat soit parfaitement équilibré.",
+            "options": [
+                "dosage",
+                "salivation",
+                "épuration",
+                "dégustation"
+            ],
+            "answer": "dégustation"
+        },
+        {
+            "question_number": 30,
+            "question": "Son _______ à l’idée de goûter à de nouveaux plats a fait d’elle une excellente critique culinaire.",
+            "options": [
+                "envie",
+                "aigreur",
+                "lien",
+                "dégustation"
+            ],
+            "answer": "envie"
+        },
+        {
+            "question_number": 1,
+            "question": "Le chef a _______ une délicieuse sauce à base de fruits exotiques pour accompagner le poisson.",
+            "options": [
+                "concocté",
+                "épaulé",
+                "flambé",
+                "assaisonné"
+            ],
+            "answer": "concocté"
+        },
+        {
+            "question_number": 2,
+            "question": "Cette pâtisserie est si _______ que l'on peut presque la sentir fondre dans la bouche.",
+            "options": [
+                "fondante",
+                "relevée",
+                "croquante",
+                "succulente"
+            ],
+            "answer": "fondante"
+        },
+        {
+            "question_number": 3,
+            "question": "Les _______ ajoutent une touche de fraîcheur et de vitamine à n'importe quel plat.",
+            "options": [
+                "agrumes",
+                "mignardises",
+                "mets",
+                "effluves"
+            ],
+            "answer": "agrumes"
+        },
+        {
+            "question_number": 4,
+            "question": "Le chef a _______ le dessert devant les invités, créant un spectacle impressionnant tout en ajoutant une touche de saveur caramélisée au plat.",
+            "options": [
+                "réalisé",
+                "flambé",
+                "préparé",
+                "dégusté"
+            ],
+            "answer": "préparé"
+        },
+        {
+            "question_number": 5,
+            "question": "Le _______ de ce vin est impeccable, il est parfait pour accompagner des mets relevés.",
+            "options": [
+                "rapport qualité/prix",
+                "délice",
+                "effluve",
+                "potentiel"
+            ],
+            "answer": "rapport qualité/prix"
+        },
+        {
+            "question_number": 6,
+            "question": "Les fruits frais, légèrement sucrés et juteux, étaient d'une qualité _______, offrant une explosion de saveurs naturelles à chaque bouchée.",
+            "options": [
+                "décevante",
+                "succulente",
+                "mignarde",
+                "bluffante"
+            ],
+            "answer": "succulente"
+        },
+        {
+            "question_number": 7,
+            "question": "Après avoir mangé une portion trop copieuse, il s'est senti _______, incapable de terminer son repas malgré la qualité des plats.",
+            "options": [
+                "flambé",
+                "assaisonné",
+                "concocté",
+                "écœuré"
+            ],
+            "answer": "flambé"
+        },
+        {
+            "question_number": 8,
+            "question": "Les enfants ont _______ des gâteaux au chocolat et ont adoré.",
+            "options": [
+                "écœuré",
+                "réglé",
+                "savouré",
+                "salivé"
+            ],
+            "answer": "savouré"
+        },
+        {
+            "question_number": 9,
+            "question": "Le poisson était parfaitement _______, avec une touche subtile de citron et d'herbes fraîches qui rehaussaient sa saveur sans la masquer.",
+            "options": [
+                "relevé",
+                "assaisonné",
+                "bâclé",
+                "épuré"
+            ],
+            "answer": "assaisonné"
+        },
+        {
+            "question_number": 10,
+            "question": "Le dessert était si _______ qu'il a fallu quelques heures pour digérer.",
+            "options": [
+                "moelleux",
+                "croustillant",
+                "écœurant",
+                "fondant"
+            ],
+            "answer": "écœurant"
+        },
+        {
+            "question_number": 11,
+            "question": "L’odeur _______ de la cuisine a attiré tout le monde vers la salle à manger.",
+            "options": [
+                "nauseuse",
+                "agréable",
+                "effrayante",
+                "décevante"
+            ],
+            "answer": "agréable"
+        },
+        {
+            "question_number": 12,
+            "question": "Le chef a _______ les légumes à la perfection, avec juste ce qu’il faut de sel et de poivre.",
+            "options": [
+                "bâclé",
+                "assaisonné",
+                "grillé",
+                "salé"
+            ],
+            "answer": "assaisonné"
+        },
+        {
+            "question_number": 13,
+            "question": "Le _______ de la fête a été un grand succès avec des mets délicieux et un service irréprochable.",
+            "options": [
+                "festin",
+                "potentiel",
+                "délice",
+                "rapport qualité/prix"
+            ],
+            "answer": "festin"
+        },
+        {
+            "question_number": 14,
+            "question": "Le travail a été concocté, avec de nombreuses erreurs qui ont affecté la qualité du projet, mettant en évidence un manque d'attention aux détails.",
+            "options": [
+                "concocté",
+                "assaisonné",
+                "flambé",
+                "bâclé"
+            ],
+            "answer": "concocté"
+        },
+        {
+            "question_number": 15,
+            "question": "Les plats étaient si _______ que nous avons dû arrêter de manger après le troisième.",
+            "options": [
+                "succulents",
+                "croustillants",
+                "décevants",
+                "relevés"
+            ],
+            "answer": "succulents"
+        },
+        {
+            "question_number": 16,
+            "question": "L’ambiance de la brasserie était parfaite, _______ de rires et de bonne humeur.",
+            "options": [
+                "agrémentée",
+                "dégustée",
+                "épurée",
+                "bluffée"
+            ],
+            "answer": "agrémentée"
+        },
+        {
+            "question_number": 17,
+            "question": "L'_______ pour le nouveau restaurant a été immédiat, les réservations se faisant des semaines à l'avance en raison de sa réputation grandissante.",
+            "options": [
+                "régalement",
+                "délice",
+                "engouement",
+                "rapport qualité/prix"
+            ],
+            "answer": "engouement"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a _______ un excellent travail en tant que soutien dans la préparation des desserts.",
+            "options": [
+                "épaulé",
+                "étonné",
+                "bluffé",
+                "assaisonné"
+            ],
+            "answer": "épaulé"
+        },
+        {
+            "question_number": 19,
+            "question": "Les invités étaient _______ par la présentation des plats, qui étaient aussi beaux que délicieux.",
+            "options": [
+                "bluffés",
+                "révélés",
+                "écœurés",
+                "ravis"
+            ],
+            "answer": "bluffés"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a _______ une merveilleuse tarte aux pommes qu’elle a partagée avec tous ses amis.",
+            "options": [
+                "concocté",
+                "relevé",
+                "assaisonné",
+                "épuré"
+            ],
+            "answer": "concocté"
+        },
+        {
+            "question_number": 21,
+            "question": "Le _______ du plat était d'un goût exquis, avec une pointe de douceur et de salé.",
+            "options": [
+                "délice",
+                "souci",
+                "engouement",
+                "arôme"
+            ],
+            "answer": "délice"
+        },
+        {
+            "question_number": 22,
+            "question": "Les invités se sont véritablement _______ avec le repas préparé, chaque plat étant une explosion de saveurs qui a ravi même les palais les plus exigeants.",
+            "options": [
+                "régalés",
+                "bluffés",
+                "écœurés",
+                "assaisonnés"
+            ],
+            "answer": "régalés"
+        },
+        {
+            "question_number": 23,
+            "question": "Ce restaurant a _______ ses clients par la qualité de sa cuisine et de son service.",
+            "options": [
+                "émerveillé",
+                "dégouté",
+                "bâclé",
+                "flambé"
+            ],
+            "answer": "émerveillé"
+        },
+        {
+            "question_number": 24,
+            "question": "Les pommes de terre étaient _______ à la perfection, croquantes à l'extérieur et moelleuses à l'intérieur.",
+            "options": [
+                "croustillantes",
+                "flambées",
+                "révélées",
+                "succulentes"
+            ],
+            "answer": "croustillantes"
+        },
+        {
+            "question_number": 25,
+            "question": "Le gâteau était délicieusement _______, décoré de manière soignée et élégante, avec une finition parfaite qui en faisait presque une œuvre d'art.",
+            "options": [
+                "fondant",
+                "mignard",
+                "croquant",
+                "décevant"
+            ],
+            "answer": "mignard"
+        },
+        {
+            "question_number": 26,
+            "question": "Il a _______ la sauce avec du piment pour lui donner un goût plus relevé.",
+            "options": [
+                "assaisonné",
+                "épaulé",
+                "mignardisé",
+                "dégusté"
+            ],
+            "answer": "assaisonné"
+        },
+        {
+            "question_number": 27,
+            "question": "Les invités ont été _______ de découvrir un plat aussi original et délicieux.",
+            "options": [
+                "bluffés",
+                "régales",
+                "assaisonnés",
+                "écœurés"
+            ],
+            "answer": "bluffés"
+        },
+        {
+            "question_number": 28,
+            "question": "Le restaurant est _______ pour un excellent rapport qualité/prix, offrant des plats raffinés à des prix raisonnables.",
+            "options": [
+                "connu",
+                "censuré",
+                "stigmatise",
+                "bâclé"
+            ],
+            "answer": "connu"
+        },
+        {
+            "question_number": 29,
+            "question": "Le repas s'est avéré _______, les plats manquant de saveur et de présentation, bien en deçà des attentes créées par la réputation du restaurant.",
+            "options": [
+                "succulent",
+                "fondant",
+                "décevant",
+                "révélé"
+            ],
+            "answer": "décevant"
+        },
+        {
+            "question_number": 30,
+            "question": "L’odeur _______ du pain frais dans la boulangerie est irrésistible.",
+            "options": [
+                "agréable",
+                "décevante",
+                "nauseuse",
+                "bluffante"
+            ],
+            "answer": "agréable"
+        },
+        {
+            "question_number": 1,
+            "question": "L'expérience culinaire était _______, chaque plat éveillant des émotions profondes, bien au-delà du simple plaisir gustatif.",
+            "options": [
+                "infecte",
+                "transcendante",
+                "delirante",
+                "tiède"
+            ],
+            "answer": "transcendante"
+        },
+        {
+            "question_number": 2,
+            "question": "Il faut _______ la viande avant de la cuire pour qu'elle soit tendre et juteuse.",
+            "options": [
+                "napper",
+                "emballer",
+                "délirer",
+                "surgeler"
+            ],
+            "answer": "napper"
+        },
+        {
+            "question_number": 3,
+            "question": "Le chef a _______ le gâteau de chocolat d'une fine couche de sucre glace.",
+            "options": [
+                "emballé",
+                "napper",
+                "déguster",
+                "proliféré"
+            ],
+            "answer": "napper"
+        },
+        {
+            "question_number": 4,
+            "question": "Les produits étaient _______ avec soin, dans des emballages hermétiques pour garantir leur fraîcheur et leur qualité jusqu'à leur arrivée chez le consommateur.",
+            "options": [
+                "promis",
+                "conditionnés",
+                "dégustés",
+                "émergés"
+            ],
+            "answer": "conditionnés"
+        },
+        {
+            "question_number": 5,
+            "question": "Les prix de ce restaurant sont _______ ; c'est beaucoup trop cher pour la qualité proposée.",
+            "options": [
+                "salés",
+                "transcendants",
+                "ludiques",
+                "tendres"
+            ],
+            "answer": "salés"
+        },
+        {
+            "question_number": 6,
+            "question": "_______ la forte demande, le restaurant a dû augmenter ses heures d'ouverture pour pouvoir accueillir tous les clients.",
+            "options": [
+                "Du fait de",
+                "Selon que",
+                "Dès lors",
+                "À terme"
+            ],
+            "answer": "Du fait de"
+        },
+        {
+            "question_number": 7,
+            "question": "La cuisine de ce chef est _______ ; on ne trouve rien d’aussi exceptionnel ailleurs.",
+            "options": [
+                "sans pareille",
+                "influencée",
+                "moche",
+                "ludique"
+            ],
+            "answer": "sans pareille"
+        },
+        {
+            "question_number": 8,
+            "question": "Il a _______ à ce que toutes les consignes de sécurité soient respectées, assurant ainsi un environnement sans risque pour tous les participants.",
+            "options": [
+                "promis",
+                "conditionné",
+                "veillé",
+                "dégusté"
+            ],
+            "answer": "veillé"
+        },
+        {
+            "question_number": 9,
+            "question": "Cette œuvre d'art est _______ d’un génie créatif qu'on ne rencontre pas souvent.",
+            "options": [
+                "digne",
+                "moche",
+                "dévorée",
+                "accrue"
+            ],
+            "answer": "digne"
+        },
+        {
+            "question_number": 10,
+            "question": "Les mauvaises herbes ont commencé à ________ dans le jardin après quelques jours de pluie, rendant l'entretien beaucoup plus difficile.",
+            "options": [
+                "accrue",
+                "émerger",
+                "proliférer",
+                "catégoriser"
+            ],
+            "answer": "émerger"
+        },
+        {
+            "question_number": 11,
+            "question": "________, le projet devrait permettre d'améliorer significativement l'efficacité de l'entreprise",
+            "options": [
+                "À terme",
+                "Du fait de",
+                "Dès lors",
+                "Sans pareille"
+            ],
+            "answer": "À terme"
+        },
+        {
+            "question_number": 12,
+            "question": "_______, la région est un véritable paradis, offrant une variété de saveurs locales qui allient tradition et innovation dans chaque plat.",
+            "options": [
+                "En guise de",
+                "Sur le plan gastronomique",
+                "Par hasard",
+                "Du fait de"
+            ],
+            "answer": "Sur le plan gastronomique"
+        },
+        {
+            "question_number": 13,
+            "question": "Il est _______ de réaliser une telle œuvre d'art avec de simples crayons et de la craie.",
+            "options": [
+                "magistral",
+                "infect",
+                "prolifique",
+                "accru"
+            ],
+            "answer": "magistral"
+        },
+        {
+            "question_number": 14,
+            "question": "Il a _______ un livre entier en un après-midi, dévorant chaque page avec passion.",
+            "options": [
+                "dégusté",
+                "dévoré",
+                "proliféré",
+                "émergé"
+            ],
+            "answer": "dévoré"
+        },
+        {
+            "question_number": 15,
+            "question": "Lors de la réunion, il _______ en proposant des idées complètement irréalistes, ce qui a rapidement mis les autres participants mal à l'aise.",
+            "options": [
+                "délirait",
+                "moche",
+                "s'inspirait",
+                "bâclait"
+            ],
+            "answer": "délirait"
+        },
+        {
+            "question_number": 16,
+            "question": "Le plat était _______, manquant de la chaleur et de la fraîcheur attendues, ce qui a légèrement déçu les convives.",
+            "options": [
+                "tiède",
+                "salé",
+                "moche",
+                "accru"
+            ],
+            "answer": "tiède"
+        },
+        {
+            "question_number": 17,
+            "question": "Le chef a soigneusement _______ le plat avec une cloche en verre, pour garder la chaleur et préserver les arômes avant de le servir aux invités.",
+            "options": [
+                "enrichir",
+                "proliférer",
+                "protéger",
+                "accrue"
+            ],
+            "answer": "protéger"
+        },
+        {
+            "question_number": 18,
+            "question": "Les _______ dans la cuisine sont en général bien rangés et utilisés à bon escient.",
+            "options": [
+                "couverts",
+                "repères",
+                "emballages",
+                "bémols"
+            ],
+            "answer": "couverts"
+        },
+        {
+            "question_number": 19,
+            "question": "Le groupe a exprimé son soutien en _______, convaincu que cette décision était la meilleure pour l'avenir du projet.",
+            "options": [
+                "dès lors",
+                "unanimité",
+                "délirante",
+                "ludique"
+            ],
+            "answer": "unanimité"
+        },
+        {
+            "question_number": 20,
+            "question": "Les couleurs _______ de la sauce apportaient une profondeur de saveur, contrastant parfaitement avec la légèreté du plat principal.",
+            "options": [
+                "à travers",
+                "en guise",
+                "sur le plan",
+                "foncées"
+            ],
+            "answer": "foncées"
+        },
+        {
+            "question_number": 21,
+            "question": "Les prix des produits dans ce magasin sont vraiment _______ ; c’est presque abusé.",
+            "options": [
+                "salés",
+                "tièdes",
+                "délirants",
+                "ludiques"
+            ],
+            "answer": "salés"
+        },
+        {
+            "question_number": 22,
+            "question": "Après des heures de recherche, une solution innovante a enfin _______, offrant une nouvelle perspective sur la résolution du problème complexe.",
+            "options": [
+                "émergé",
+                "accru",
+                "conditionné",
+                "révélé"
+            ],
+            "answer": "émergé"
+        },
+        {
+            "question_number": 23,
+            "question": "L'odeur infecte qui émanait de la poubelle a rapidement envahi la pièce, rendant l'atmosphère insupportable.",
+            "options": [
+                "transcendante",
+                "tiède",
+                "infecte",
+                "révélée"
+            ],
+            "answer": "infecte"
+        },
+        {
+            "question_number": 24,
+            "question": "Lors du dîner, chaque plat a été soigneusement ________, permettant aux invités d'apprécier pleinement les subtilités des saveurs et des textures.",
+            "options": [
+                "gribouillé",
+                "mangé",
+                "dégusté",
+                "émergé"
+            ],
+            "answer": "dégusté"
+        },
+        {
+            "question_number": 25,
+            "question": "Le chef _______ privilégier les produits locaux dans ses créations, afin d’offrir des plats frais et de saison à ses clients.",
+            "options": [
+                "opte",
+                "réfuse de",
+                "essaye",
+                "tend à"
+            ],
+            "answer": "tend à"
+        },
+        {
+            "question_number": 26,
+            "question": "La décoration de la salle était _______ ; tout le monde était ébahi par la beauté du lieu.",
+            "options": [
+                "ludique",
+                "magistrale",
+                "sans pareille",
+                "accrue"
+            ],
+            "answer": "sans pareille"
+        },
+        {
+            "question_number": 27,
+            "question": "Cette personne est un _______ de l’histoire ; ses contributions sont inégalées.",
+            "options": [
+                "génie",
+                "tigre",
+                "garde",
+                "confiant"
+            ],
+            "answer": "génie"
+        },
+        {
+            "question_number": 28,
+            "question": "Elle lui a ________ la responsabilité de superviser l'événement, sachant qu'il était capable de gérer chaque détail avec rigueur et efficacité.",
+            "options": [
+                "émergé",
+                "confié",
+                "produit",
+                "catégorisé"
+            ],
+            "answer": "confié"
+        },
+        {
+            "question_number": 29,
+            "question": "_______, la dynamique de l'équipe a changé, chacun prenant conscience de l'importance de sa contribution pour le succès du projet.",
+            "options": [
+                "Dès lors",
+                "Selon que",
+                "Du fait de",
+                "À terme"
+            ],
+            "answer": "Dès lors"
+        },
+        {
+            "question_number": 30,
+            "question": "Il a _______ les différents marchés à la recherche des meilleures offres, comparant les prix et la qualité avant de prendre une décision d'achat.",
+            "options": [
+                "écumé",
+                "passé",
+                "manqué",
+                "prévu"
+            ],
+            "answer": "écumé"
+        }
+    ]
+}

@@ -143,7 +143,7 @@ function PCImages ({ images }) {
                 <p className='text-neutral-content italic'>安能辨我是雄雌</p>🐰 (点击下方单元练习阴阳性)
             </div> */}
             <div className='flex flex-col items-center justify-center '>
-                <p className=' italic'>{eng ? 'Faster, Higher, Stronger 🇫🇷' : '更高，更快，更强 🇫🇷'}</p>
+                <p className=' italic'>{eng ? 'Citius, Altius, Fortius 🇫🇷' : '更高，更快，更强 🇫🇷'}</p>
                 {/* <p className=' italic'>{eng ? ' ' : '更多，更牢，更快 📖'}</p> */}
             </div>
         </div>
@@ -178,7 +178,7 @@ export function ImagesAll ({ isIpadUser }) {
                         <>
                             <img alt="Twelfe Night" src={images[Math.floor(Math.random() * 10000) % images.length]} className='rounded-lg' />
                             <div className='flex items-center justify-center text-neutral-content'>
-                                <p className='text-neutral-content italic'>Faster, Higher, Stronger 🇫🇷</p>
+                                <p className='text-neutral-content italic'>Citius, Altius, Fortius 🇫🇷</p>
                             </div>
                             <br />
                         </>
