@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conjugate/static/css/main.51bc9ef6.css",
-    "main.js": "/conjugate/static/js/main.09e4d704.js",
+    "main.js": "/conjugate/static/js/main.de0104e7.js",
     "static/js/206.756e5c40.chunk.js": "/conjugate/static/js/206.756e5c40.chunk.js",
     "static/media/tomjerry4.png": "/conjugate/static/media/tomjerry4.41e2374a5bc8638f512f.png",
     "static/media/tomjerry2.png": "/conjugate/static/media/tomjerry2.5d245312d1c4e09f824e.png",
@@ -27,11 +27,12 @@
     "static/media/p6.gif": "/conjugate/static/media/p6.a44d30193908d2bee0c7.gif",
     "static/media/p8.gif": "/conjugate/static/media/p8.2198eaf2b62d9b6039ca.gif",
     "static/media/tom.jpeg": "/conjugate/static/media/tom.5a66d07b8d2648b4c419.jpeg",
+    "static/media/loader.webp": "/conjugate/static/media/loader.3202fc97a776c2502d58.webp",
     "static/media/desktop-wallpaper-tom-jerry-for-fans-for-android-aesthetic-tom-and-jerry (1).jpg": "/conjugate/static/media/desktop-wallpaper-tom-jerry-for-fans-for-android-aesthetic-tom-and-jerry (1).e71d5f51d33671c8710d.jpg",
     "index.html": "/conjugate/index.html"
   },
   "entrypoints": [
     "static/css/main.51bc9ef6.css",
-    "static/js/main.09e4d704.js"
+    "static/js/main.de0104e7.js"
   ]
 }
