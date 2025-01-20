@@ -1,5 +1,1038 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Il a écrit en _______ tout au long de son essai, pour mieux mettre en évidence les titres.",
+            "options": [
+                "majuscule",
+                "minuscule",
+                "diplômé",
+                "fétiche"
+            ],
+            "answer": "majuscule"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle a _______ une grande quantité de papier pour en faire de la pâte à papier.",
+            "options": [
+                "broyé",
+                "hissé",
+                "traîné",
+                "pistonner"
+            ],
+            "answer": "broyé"
+        },
+        {
+            "question_number": 3,
+            "question": "Les instruments à _______ ont dominé la scène, produisant des sonorités puissantes qui ont envoûté le public tout au long du concert.",
+            "options": [
+                "cailloux",
+                "cuivres",
+                "cornes",
+                "perches"
+            ],
+            "answer": "cuivres"
+        },
+        {
+            "question_number": 4,
+            "question": "La décision du comité a suscité une _______ générale, certains membres doutant de son efficacité à long terme et demandant des ajustements avant sa mise en œuvre.",
+            "options": [
+                "domination",
+                "bétail",
+                "remise en question",
+                "bagage"
+            ],
+            "answer": "remise en question"
+        },
+        {
+            "question_number": 5,
+            "question": "Les _______ se sont rassemblés autour du feu, partageant leurs récits de bataille tout en se préparant mentalement pour la confrontation à venir.",
+            "options": [
+                "guerriers",
+                "mâles",
+                "femelles",
+                "louanges"
+            ],
+            "answer": "guerriers"
+        },
+        {
+            "question_number": 6,
+            "question": "L'_______ de cette pratique dans le cadre scolaire est indiscutable, tout le monde en bénéficie.",
+            "options": [
+                "domination",
+                "utilité",
+                "pratique",
+                "pensée"
+            ],
+            "answer": "utilité"
+        },
+        {
+            "question_number": 7,
+            "question": "Les _______ de bois étaient solidement plantées dans le sol, servant de supports pour les plantes grimpantes qui recouvraient lentement la clôture.",
+            "options": [
+                "pistons",
+                "cuivres",
+                "perches",
+                "cornes"
+            ],
+            "answer": "perches"
+        },
+        {
+            "question_number": 8,
+            "question": "Lors de la discussion, il s'est _______ et a perdu son calme, exprimant ses frustrations de manière brusque, ce qui a mis un terme à la conversation.",
+            "options": [
+                "emporté",
+                "traversé",
+                "pistonné",
+                "rougi"
+            ],
+            "answer": "emporté"
+        },
+        {
+            "question_number": 9,
+            "question": "Le _______ de la grande bannière a été un moment symbolique, marquant l'ouverture officielle de l'événement devant une foule enthousiaste.",
+            "options": [
+                "pistonnage",
+                "hissage",
+                "diplômation",
+                "remise en question"
+            ],
+            "answer": "hissage"
+        },
+        {
+            "question_number": 10,
+            "question": "Son _______ académique, riche en expériences internationales, lui a permis de développer des compétences uniques qui ont grandement facilité son insertion professionnelle.",
+            "options": [
+                "cursus",
+                "bagage",
+                "universel",
+                "combinaison"
+            ],
+            "answer": "cursus"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a réussi à _______ toutes les données dans le système sans aucune erreur, permettant ainsi une mise à jour rapide et efficace des informations.",
+            "options": [
+                "intégrer",
+                "broyer",
+                "fonder",
+                "disposer"
+            ],
+            "answer": "intégrer"
+        },
+        {
+            "question_number": 12,
+            "question": "Un _______ est une personne qui possède une expertise dans un domaine spécifique après des années d'études.",
+            "options": [
+                "diplômé",
+                "formateur",
+                "bachelier",
+                "pistonné"
+            ],
+            "answer": "diplômé"
+        },
+        {
+            "question_number": 13,
+            "question": "Il a eu du mal à _______ la nouvelle, le choc étant trop brutal pour qu'il puisse y réagir calmement.",
+            "options": [
+                "digérer",
+                "emporter",
+                "hisser",
+                "pistonner"
+            ],
+            "answer": "digérer"
+        },
+        {
+            "question_number": 14,
+            "question": "Elle a choisi une _______ luxueuse pour la robe, une soie délicate qui ajoutait une touche d'élégance et de raffinement à l'ensemble.",
+            "options": [
+                "étoffe",
+                "bétail",
+                "pistonnage",
+                "remise en question"
+            ],
+            "answer": "étoffe"
+        },
+        {
+            "question_number": 15,
+            "question": "Lors de leur voyage en Afrique, ils ont vu des _______ magnifiques, se déplaçant avec une grande grâce.",
+            "options": [
+                "girafes",
+                "grenouilles",
+                "crapauds",
+                "mâles"
+            ],
+            "answer": "girafes"
+        },
+        {
+            "question_number": 16,
+            "question": "Le principe de _______ est fondamental pour assurer des échanges équilibrés entre deux nations.",
+            "options": [
+                "bilatéralité",
+                "universalisme",
+                "domination",
+                "fétichisme"
+            ],
+            "answer": "bilatéralité"
+        },
+        {
+            "question_number": 17,
+            "question": "Son équipe, _______, était capable de communiquer facilement avec des clients du monde entier, ce qui a grandement facilité les négociations internationales.",
+            "options": [
+                "apprendre",
+                "traduire",
+                "multilingue",
+                "bétail"
+            ],
+            "answer": "multilingue"
+        },
+        {
+            "question_number": 18,
+            "question": "Sa pensée était claire et structurée, chaque argument s'enchaînant de manière logique, ce qui rendait son discours particulièrement convaincant.",
+            "options": [
+                "pensée",
+                "domination",
+                "bagage",
+                "fétiche"
+            ],
+            "answer": "pensée"
+        },
+        {
+            "question_number": 19,
+            "question": "Le fermier a décidé de diversifier son _______, introduisant des races de vaches plus résistantes pour améliorer la productivité de sa ferme.",
+            "options": [
+                "domination",
+                "relations",
+                "prolifération",
+                "bétail"
+            ],
+            "answer": "bétail"
+        },
+        {
+            "question_number": 20,
+            "question": "Elle a pris soin de _______ les fleurs dans des vases différents, créant ainsi une harmonie parfaite dans la pièce.",
+            "options": [
+                "penser",
+                "disposer",
+                "se heurter",
+                "pistonner"
+            ],
+            "answer": "disposer"
+        },
+        {
+            "question_number": 21,
+            "question": "La _______ de cette marque sur le marché est incontestée, grâce à son innovation constante et à sa stratégie de marketing agressive.",
+            "options": [
+                "domination",
+                "influence",
+                "remise en question",
+                "diplôme"
+            ],
+            "answer": "domination"
+        },
+        {
+            "question_number": 22,
+            "question": "Les principes de liberté et de justice sont souvent considérés comme des valeurs _______, transcendant les cultures et les frontières nationales.",
+            "options": [
+                "universelles",
+                "bilatérales",
+                "dispositives",
+                "légales"
+            ],
+            "answer": "universelles"
+        },
+        {
+            "question_number": 23,
+            "question": "Son nom devrait _______ parmi les finalistes, vu la qualité de son travail et les recommandations reçues.",
+            "options": [
+                "figurer",
+                "hisser",
+                "pistonner",
+                "travailler"
+            ],
+            "answer": "figurer"
+        },
+        {
+            "question_number": 24,
+            "question": "Les enfants s'amusaient à lancer des _______ dans l'eau, créant de petites éclats à chaque rebond sur la surface calme du lac.",
+            "options": [
+                "cailloux",
+                "mâles",
+                "guerriers",
+                "grenouilles"
+            ],
+            "answer": "cailloux"
+        },
+        {
+            "question_number": 25,
+            "question": "L'approche _______ de ce professeur était unique, utilisant des métaphores et des jeux de mots pour rendre ses explications à la fois claires et captivantes.",
+            "options": [
+                "langagière",
+                "multilingue",
+                "domination",
+                "diplômée"
+            ],
+            "answer": "langagière"
+        },
+        {
+            "question_number": 1,
+            "question": "Elle a eu la chance de _______ de nombreux artistes célèbres durant ses études, ce qui a enrichi sa vision de l'art et inspiré sa propre pratique créative.",
+            "options": [
+                "anticiper",
+                "valoriser",
+                "côtoyer",
+                "classer"
+            ],
+            "answer": "côtoyer"
+        },
+        {
+            "question_number": 2,
+            "question": "Son expertise en gestion de projet a _______ sur la réussite de l'équipe, permettant d'atteindre des objectifs ambitieux dans des délais serrés.",
+            "options": [
+                "met en évidence",
+                "fait la différence",
+                "impliqué",
+                "obtenu"
+            ],
+            "answer": "fait la différence"
+        },
+        {
+            "question_number": 3,
+            "question": "Le vin, _______ d'un vignoble biologique, offre des arômes subtils et une richesse de saveurs qui ravissent les connaisseurs.",
+            "options": [
+                "issu",
+                "vulgaire",
+                "polyglotte",
+                "bénéficié"
+            ],
+            "answer": "issu"
+        },
+        {
+            "question_number": 4,
+            "question": "Ce projet a été un _______ succès pour l'équipe, grâce à la persévérance de tous les membres.",
+            "options": [
+                "formidable",
+                "facultatif",
+                "vilain",
+                "régulier"
+            ],
+            "answer": "formidable"
+        },
+        {
+            "question_number": 5,
+            "question": "L’entreprise a décidé de _______ des partenariats avec plusieurs acteurs du secteur pour étendre sa présence à l'international.",
+            "options": [
+                "mondialiser",
+                "impliquer",
+                "juxtaposer",
+                "côtoyer"
+            ],
+            "answer": "mondialiser"
+        },
+        {
+            "question_number": 6,
+            "question": "Il est important de _______ l’opinion des autres avant de prendre une décision finale.",
+            "options": [
+                "prendre en compte",
+                "mettre en évidence",
+                "valoriser",
+                "s’appuyer sur"
+            ],
+            "answer": "prendre en compte"
+        },
+        {
+            "question_number": 7,
+            "question": "Les employés doivent _______ une rigueur extrême dans la gestion des dossiers clients.",
+            "options": [
+                "bénéficier de",
+                "s’appuyer sur",
+                "côtoyer",
+                "anticiper"
+            ],
+            "answer": "s’appuyer sur"
+        },
+        {
+            "question_number": 8,
+            "question": "Le projet a été classé _______ parmi les meilleures initiatives pour cette année.",
+            "options": [
+                "en cours",
+                "comme prévu",
+                "à l’issue de",
+                "comme convenu"
+            ],
+            "answer": "comme prévu"
+        },
+        {
+            "question_number": 9,
+            "question": "Les résultats seront présentés _______ la fin de la réunion.",
+            "options": [
+                "à l’issue de",
+                "comme convenu",
+                "comme prévu",
+                "en cours"
+            ],
+            "answer": "à l’issue de"
+        },
+        {
+            "question_number": 11,
+            "question": "Elle est _______, parlant couramment cinq langues, ce qui lui permet de travailler avec des clients internationaux sans aucune barrière linguistique.",
+            "options": [
+                "côtoyé",
+                "valorisé",
+                "anticipe",
+                "polyglotte"
+            ],
+            "answer": "polyglotte"
+        },
+        {
+            "question_number": 12,
+            "question": "Les deux styles architecturaux _______ des éléments modernes et traditionnels, créant une harmonie unique qui reflète l'évolution de la ville au fil du temps.",
+            "options": [
+                "côtoient",
+                "s’appuient",
+                "juxtaposent",
+                "valorisent"
+            ],
+            "answer": "juxtaposent"
+        },
+        {
+            "question_number": 13,
+            "question": "L'expert a su _______ les points clés de l'étude, facilitant ainsi la compréhension du rapport pour les membres de l'équipe.",
+            "options": [
+                "mettre en évidence",
+                "prendre en compte",
+                "bénéficier de",
+                "anticiper"
+            ],
+            "answer": "mettre en évidence"
+        },
+        {
+            "question_number": 14,
+            "question": "En _______ face aux échecs successifs, il risquait de perdre de vue l'objectif principal, pourtant à portée de main avec un peu plus de persévérance.",
+            "options": [
+                "se décourageant",
+                "se courageant",
+                "se relâchant",
+                "se décourage"
+            ],
+            "answer": "se décourageant"
+        },
+        {
+            "question_number": 15,
+            "question": "Elle n'hésita pas à _______ à son collègue, l'aidant à terminer le projet dans les délais impartis malgré la charge de travail imposante.",
+            "options": [
+                "donner un coup de main",
+                "valoriser",
+                "bénéficier",
+                "côtoyer"
+            ],
+            "answer": "donner un coup de main"
+        },
+        {
+            "question_number": 16,
+            "question": "En _______ les avantages et les inconvénients, il est devenu plus facile de prendre une décision.",
+            "options": [
+                "prenant en compte",
+                "analysant",
+                "s’appuyant sur",
+                "côtoyant"
+            ],
+            "answer": "analysant"
+        },
+        {
+            "question_number": 17,
+            "question": "L’expression _______ qu’il utilisait dans ses discours informels reflétait bien son origine populaire, mais ne manquait pas de charme et de caractère.",
+            "options": [
+                "argot",
+                "vulgaire",
+                "polyglotte",
+                "argotique"
+            ],
+            "answer": "argotique"
+        },
+        {
+            "question_number": 18,
+            "question": "Après plusieurs mois de travail intensif, il a finalement _______ la pression, prenant un moment pour se détendre et profiter d'une pause bien méritée.",
+            "options": [
+                "anticipé",
+                "classé",
+                "relâché",
+                "côtoyé"
+            ],
+            "answer": "anticipé"
+        },
+        {
+            "question_number": 19,
+            "question": "Elle a pris le temps de _______ les dossiers par ordre de priorité, afin de faciliter l'accès à l'information pour toute l'équipe.",
+            "options": [
+                "classer",
+                "mettre en évidence",
+                "valoriser",
+                "relâcher"
+            ],
+            "answer": "classer"
+        },
+        {
+            "question_number": 20,
+            "question": "Les étudiants _______ des outils numériques modernes pour travailler efficacement à distance.",
+            "options": [
+                "bénéficient",
+                "s’appuient sur",
+                "anticipent",
+                "valorisent"
+            ],
+            "answer": "bénéficient"
+        },
+        {
+            "question_number": 21,
+            "question": "Les travailleurs _______ des avantages significatifs grâce à la négociation de leur convention collective.",
+            "options": [
+                "bénéficient",
+                "côtoient",
+                "anticipent",
+                "classent"
+            ],
+            "answer": "bénéficient"
+        },
+        {
+            "question_number": 22,
+            "question": "La conférence a été _______ pour l’année prochaine.",
+            "options": [
+                "prévue",
+                "programmé",
+                "optionnelle",
+                "facultative"
+            ],
+            "answer": "prévue"
+        },
+        {
+            "question_number": 23,
+            "question": "Il a accidentellement _______ de mentionner certains détails importants lors de la présentation, ce qui a entraîné quelques malentendus parmi les participants.",
+            "options": [
+                "prévu",
+                "omis",
+                "côtoyé",
+                "mis"
+            ],
+            "answer": "omis"
+        },
+        {
+            "question_number": 24,
+            "question": "Les employés doivent _______ leur efficacité au travail à travers un meilleur usage de leur temps.",
+            "options": [
+                "valoriser",
+                "anticiper",
+                "bénéficier de",
+                "optimiser"
+            ],
+            "answer": "optimiser"
+        },
+        {
+            "question_number": 25,
+            "question": "L'entreprise cherche constamment à _______ sa production en améliorant ses processus de fabrication et en investissant dans des technologies de pointe.",
+            "options": [
+                "valoriser",
+                "accroître",
+                "classer",
+                "réduire"
+            ],
+            "answer": "accroître"
+        },
+        {
+            "question_number": 26,
+            "question": "L'entreprise a su _______ les nouvelles tendances du marché, lançant des produits innovants qui ont rapidement attiré l'attention des consommateurs.",
+            "options": [
+                "anticiper",
+                "s’appuyer sur",
+                "juxtaposer",
+                "exploiter"
+            ],
+            "answer": "exploiter"
+        },
+        {
+            "question_number": 27,
+            "question": "Ils ont _______ des réunions régulières pour assurer une bonne gestion du projet.",
+            "options": [
+                "mis en place",
+                "omis",
+                "ajusté",
+                "bénéficié"
+            ],
+            "answer": "mis en place"
+        },
+        {
+            "question_number": 28,
+            "question": "L'_______ de la technologie a permis d'améliorer l'efficacité de nombreuses entreprises.",
+            "options": [
+                "développement",
+                "mondialisation",
+                "valorisation",
+                "essor"
+            ],
+            "answer": "essor"
+        },
+        {
+            "question_number": 29,
+            "question": "Les nouveaux projets doivent être _______ dans les délais impartis pour garantir leur succès.",
+            "options": [
+                "finalisés",
+                "ajustés",
+                "réajustés",
+                "soumis"
+            ],
+            "answer": "finalisés"
+        },
+        {
+            "question_number": 30,
+            "question": "L’________ des compétences interculturelles est un atout majeur dans un environnement de travail globalisé.",
+            "options": [
+                "élargissement",
+                "accroissement",
+                "évaluation",
+                "apprentissage"
+            ],
+            "answer": "apprentissage"
+        },
+        {
+            "question_number": 1,
+            "question": "Il a _______ ses études pour se consacrer à sa carrière professionnelle.",
+            "options": [
+                "délaissé",
+                "oscillé",
+                "acculturé",
+                "dénigré"
+            ],
+            "answer": "délaissé"
+        },
+        {
+            "question_number": 2,
+            "question": "Il a pris soin de _______ plusieurs sources fiables pour appuyer ses propos et garantir la crédibilité de ses informations.",
+            "options": [
+                "référer à",
+                "remonter à",
+                "s’imprégner de",
+                "venir sur"
+            ],
+            "answer": "référer à"
+        },
+        {
+            "question_number": 3,
+            "question": "Les conditions climatiques extrêmes ont réussi à _______ la résistance des structures, rendant nécessaire une rénovation urgente.",
+            "options": [
+                "affaiblir",
+                "remonter à",
+                "survivre",
+                "baisser"
+            ],
+            "answer": "affaiblir"
+        },
+        {
+            "question_number": 4,
+            "question": "Les événements _______ aux années 1950 sont souvent étudiés dans les cours d’histoire contemporaine.",
+            "options": [
+                "remontent",
+                "dérivent",
+                "proviennent",
+                "s’accompagnent"
+            ],
+            "answer": "remontent"
+        },
+        {
+            "question_number": 5,
+            "question": "Le _______ de l'athlète, qui était autrefois au sommet de sa discipline, a choqué ses fans et soulevé des questions sur les causes de sa chute.",
+            "options": [
+                "acculturation",
+                "déclin",
+                "déclassement",
+                "évolution"
+            ],
+            "answer": "déclassement"
+        },
+        {
+            "question_number": 6,
+            "question": "Grâce à une _______ habile et des négociations discrètes, le gouvernement a réussi à apaiser les tensions entre les deux pays sans recourir à la force.",
+            "options": [
+                "diplomatie",
+                "force",
+                "rancune",
+                "oppression"
+            ],
+            "answer": "diplomatie"
+        },
+        {
+            "question_number": 7,
+            "question": "Le roman est _______ de références historiques, offrant une lecture où chaque événement semble résonner avec les échos du passé.",
+            "options": [
+                "imprégné",
+                "affaibli",
+                "oscillé",
+                "provenu"
+            ],
+            "answer": "imprégné"
+        },
+        {
+            "question_number": 8,
+            "question": "Elle a _______ un aveu concernant ses erreurs passées, ce qui a permis de résoudre le problème.",
+            "options": [
+                "fait",
+                "déclenché",
+                "confessé",
+                "imprégné"
+            ],
+            "answer": "fait"
+        },
+        {
+            "question_number": 9,
+            "question": "Cette tendance à l’homogénéisation des cultures s’accompagne souvent d’un processus de _______ où les cultures locales sont affaiblies.",
+            "options": [
+                "acculturation",
+                "déculturation",
+                "référencement",
+                "pragmatisme"
+            ],
+            "answer": "déculturation"
+        },
+        {
+            "question_number": 10,
+            "question": "Après plusieurs avertissements, l'employé a été finalement _______ en raison de son comportement inapproprié et de son manque de performance.",
+            "options": [
+                "renvoyé",
+                "dérivé",
+                "imprégnié",
+                "transféré"
+            ],
+            "answer": "renvoyé"
+        },
+        {
+            "question_number": 11,
+            "question": "Leurs idées _______ entre la recherche d’innovation et le respect des traditions.",
+            "options": [
+                "oscillent",
+                "s’imprègnent",
+                "se révèlent",
+                "s’éteignent"
+            ],
+            "answer": "oscillent"
+        },
+        {
+            "question_number": 12,
+            "question": "Il est _______ que la confiance mutuelle soit présente dans toute relation professionnelle.",
+            "options": [
+                "primordial",
+                "secondaire",
+                "accessoire",
+                "anecdotique"
+            ],
+            "answer": "primordial"
+        },
+        {
+            "question_number": 13,
+            "question": "L'entreprise a dû faire un _______ auprès de la banque pour financer son expansion, espérant que les investissements rapporteraient à long terme.",
+            "options": [
+                "affaiblissement",
+                "évolution",
+                "emprunt",
+                "abandon"
+            ],
+            "answer": "emprunt"
+        },
+        {
+            "question_number": 14,
+            "question": "Les étudiants doivent _______ au programme d’études à la fin de chaque semestre.",
+            "options": [
+                "référer",
+                "décider",
+                "réajuster",
+                "imprégner"
+            ],
+            "answer": "référer"
+        },
+        {
+            "question_number": 15,
+            "question": "Les idées novatrices de ce projet _______ principalement des recherches récentes menées par des experts internationaux dans le domaine.",
+            "options": [
+                "proviennent",
+                "délaissent",
+                "accueillent",
+                "prospèrent"
+            ],
+            "answer": "proviennent"
+        },
+        {
+            "question_number": 16,
+            "question": "Les décisions économiques imprudentes _______ souvent des conséquences dramatiques à long terme, affectant à la fois les entreprises et les citoyens.",
+            "options": [
+                "entraînent",
+                "évoluent",
+                "imprègnent",
+                "proviennent"
+            ],
+            "answer": "entraînent"
+        },
+        {
+            "question_number": 17,
+            "question": "Après avoir longtemps espéré une promotion, il a fini par _______ en apprenant que la décision avait été prise en faveur d'un autre candidat.",
+            "options": [
+                "déchanter",
+                "survivre",
+                "imprégner",
+                "affaiblir"
+            ],
+            "answer": "déchanter"
+        },
+        {
+            "question_number": 18,
+            "question": "Les traditions et les coutumes _______ de génération en génération au sein de la famille.",
+            "options": [
+                "se transmettent",
+                "oscillent",
+                "s’imprègnent",
+                "affaiblissent"
+            ],
+            "answer": "se transmettent"
+        },
+        {
+            "question_number": 19,
+            "question": "La flamme de la bougie _______ doucement sous l'effet du vent, créant des ombres dansantes sur les murs de la pièce.",
+            "options": [
+                "oscille",
+                "s’accompagne",
+                "prend",
+                "varie"
+            ],
+            "answer": "oscille"
+        },
+        {
+            "question_number": 20,
+            "question": "Les médias ont joué un rôle crucial pour _______ des informations précises durant la crise, contribuant ainsi à calmer les inquiétudes du public.",
+            "options": [
+                "s’adapter",
+                "référer",
+                "s’imprégner",
+                "véhiculer"
+            ],
+            "answer": "véhiculer"
+        },
+        {
+            "question_number": 1,
+            "question": "Le médecin est aussi un _______ qui aide ses patients à surmonter leurs troubles mentaux.",
+            "options": [
+                "thérapeute",
+                "hôpitalier",
+                "errant",
+                "supplanteur"
+            ],
+            "answer": "thérapeute"
+        },
+        {
+            "question_number": 2,
+            "question": "Les rois ont été _______ comme des symboles de pouvoir et de gloire dans l’histoire.",
+            "options": [
+                "sacrés",
+                "lâchés",
+                "dépannés",
+                "chuchotés"
+            ],
+            "answer": "sacrés"
+        },
+        {
+            "question_number": 3,
+            "question": "Elle a toujours eu une _______ pour les romans historiques, captivée par les récits qui mêlent fiction et faits réels.",
+            "options": [
+                "prédilection",
+                "hospitalité",
+                "errance",
+                "mosaïque"
+            ],
+            "answer": "prédilection"
+        },
+        {
+            "question_number": 4,
+            "question": "Dans le jeu vidéo, chaque joueur crée un _______ qui représente son personnage virtuel, avec des caractéristiques uniques et une apparence personnalisée.",
+            "options": [
+                "avatar",
+                "métissage",
+                "trésor",
+                "errance"
+            ],
+            "answer": "avatar"
+        },
+        {
+            "question_number": 5,
+            "question": "Le _______ linguistique dans cette région se reflète dans la façon dont les habitants mélangent les langues, créant une forme de communication hybride entre les générations.",
+            "options": [
+                "colonialisme",
+                "métissage",
+                "dialectal",
+                "prédilection"
+            ],
+            "answer": "métissage"
+        },
+        {
+            "question_number": 6,
+            "question": "Il a été libéré de prison après des années passées _______ injustement.",
+            "options": [
+                "en liberté",
+                "à l’aubaine",
+                "enchaîné",
+                "en quête"
+            ],
+            "answer": "enchaîné"
+        },
+        {
+            "question_number": 7,
+            "question": "Les idées nouvelles ont _______ les anciennes méthodes, apportant un vent de changement.",
+            "options": [
+                "supplanté",
+                "dépanné",
+                "chuchoté",
+                "fouillé"
+            ],
+            "answer": "supplanté"
+        },
+        {
+            "question_number": 8,
+            "question": "L'_________ de cette famille était remarquable : dès notre arrivée, ils nous ont accueillis chaleureusement, nous offrant un repas délicieux et une chambre confortable.",
+            "options": [
+                "hospitalité",
+                "errance",
+                "avatar",
+                "prédilection"
+            ],
+            "answer": "hospitalité"
+        },
+        {
+            "question_number": 9,
+            "question": "_________ il faut encore poser la question, cette réponse semble évidente.",
+            "options": [
+                "Que de fois",
+                "Rien que",
+                "Il est question de",
+                "Ainsi de suite"
+            ],
+            "answer": "Que de fois"
+        },
+        {
+            "question_number": 10,
+            "question": "La _______ dans ses connaissances historiques a été rapidement comblée après quelques semaines de recherches intensives et de lectures spécialisées.",
+            "options": [
+                "lacune",
+                "dépannage",
+                "hospitalité",
+                "prédilection"
+            ],
+            "answer": "lacune"
+        },
+        {
+            "question_number": 11,
+            "question": "Les différences _______ entre les régions du pays rendent parfois la communication difficile, même si la langue officielle reste la même.",
+            "options": [
+                "dialectales",
+                "errantes",
+                "intruses",
+                "prédilection"
+            ],
+            "answer": "dialectales"
+        },
+        {
+            "question_number": 12,
+            "question": "Le mécanicien est venu _______ la voiture en panne sur le bord de la route, réparant rapidement le moteur avant qu'il ne soit trop tard.",
+            "options": [
+                "dépanner",
+                "chuchoter",
+                "rouspéter",
+                "lâcher"
+            ],
+            "answer": "dépanner"
+        },
+        {
+            "question_number": 13,
+            "question": "Lors de la réunion, il a _______ sans hésitation une remarque acerbe qui a choqué tout le monde, brisant ainsi l'ambiance conviviale qui régnait jusque-là.",
+            "options": [
+                "lâché",
+                "supplanté",
+                "imprégné",
+                "accueilli"
+            ],
+            "answer": "lâché"
+        },
+        {
+            "question_number": 14,
+            "question": "Après des mois d'_______ à travers le pays, il finit par trouver un endroit où il se sentit enfin chez lui, loin de l'incertitude qui avait marqué ses précédentes années.",
+            "options": [
+                "errance",
+                "hospitalité",
+                "sacré",
+                "dépannage"
+            ],
+            "answer": "errance"
+        },
+        {
+            "question_number": 15,
+            "question": "Après une longue négociation, l'entreprise a _______ à la demande des syndicats, acceptant d'augmenter les salaires des employés.",
+            "options": [
+                "cédé",
+                "chuchoté",
+                "fouillé",
+                "râlé"
+            ],
+            "answer": "cédé"
+        },
+        {
+            "question_number": 16,
+            "question": "Les policiers ont dû _______ la maison à la recherche de preuves.",
+            "options": [
+                "fouiller",
+                "râler",
+                "supplanter",
+                "tailler"
+            ],
+            "answer": "fouiller"
+        },
+        {
+            "question_number": 17,
+            "question": "La _______ de l'eau par des produits chimiques a provoqué une alerte sanitaire dans la région.",
+            "options": [
+                "contamination",
+                "prédilection",
+                "hospitalité",
+                "errance"
+            ],
+            "answer": "contamination"
+        },
+        {
+            "question_number": 18,
+            "question": "Le _______ des différentes cultures a donné naissance à des œuvres d’art magnifiques.",
+            "options": [
+                "métissage",
+                "dépannage",
+                "errance",
+                "lacune"
+            ],
+            "answer": "métissage"
+        },
+        {
+            "question_number": 19,
+            "question": "À la fin de la cérémonie, ils se sont retrouvés dans une _______ silencieuse, un geste simple mais plein de significations après des années de séparation.",
+            "options": [
+                "étreinte",
+                "contamination",
+                "lacune",
+                "prédilection"
+            ],
+            "answer": "étreinte"
+        },
+        {
+            "question_number": 20,
+            "question": "Trouver un billet d'avion à moitié prix en dernière minute a été une véritable _______ pour eux, leur permettant de partir en vacances sans se ruiner.",
+            "options": [
+                "aubaine",
+                "mosaïque",
+                "lacune",
+                "défaite"
+            ],
+            "answer": "aubaine"
+        }
     ]
 }

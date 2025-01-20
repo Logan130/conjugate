@@ -1,5 +1,974 @@
 {
     "test": [
+        {
+            "question_number": 1,
+            "question": "Les experts prévoient qu'une _______ d'eau pourrait affecter certaines régions du monde dans les décennies à venir.",
+            "options": [
+                "pénurie",
+                "consumérisme",
+                "dette",
+                "secte"
+            ],
+            "answer": "pénurie"
+        },
+        {
+            "question_number": 2,
+            "question": "Dans son rôle, l'acteur a su _______ à la perfection le personnage complexe d'un homme déchiré entre ses principes et ses désirs, captivant le public du début à la fin.",
+            "options": [
+                "avertir",
+                "incarner",
+                "régir",
+                "obliger"
+            ],
+            "answer": "incarner"
+        },
+        {
+            "question_number": 3,
+            "question": "Un _______ de ressources naturelles a conduit à la mise en place de politiques environnementales plus strictes.",
+            "options": [
+                "avertissement",
+                "refus",
+                "dette",
+                "pénurie"
+            ],
+            "answer": "pénurie"
+        },
+        {
+            "question_number": 4,
+            "question": "L'ambiance était _______ dans les coulisses du théâtre, avec les acteurs et techniciens courant dans toutes les directions à l'approche du début du spectacle.",
+            "options": [
+                "étendu",
+                "récupéré",
+                "frénétique",
+                "détaché"
+            ],
+            "answer": "frénétique"
+        },
+        {
+            "question_number": 5,
+            "question": "Il a été _______ de quitter la réunion plus tôt que prévu en raison d'un appel urgent, laissant ses collègues poursuivre sans lui.",
+            "options": [
+                "obligé",
+                "détaché",
+                "incarné",
+                "frénétique"
+            ],
+            "answer": "obligé"
+        },
+        {
+            "question_number": 6,
+            "question": "Elle a choisi de vivre _______ et de ne pas suivre les normes traditionnelles de la société.",
+            "options": [
+                "autrement",
+                "résolument",
+                "systématiquement",
+                "détachement"
+            ],
+            "answer": "autrement"
+        },
+        {
+            "question_number": 7,
+            "question": "Il a accumulé une _______ importante en raison de ses décisions financières imprudentes.",
+            "options": [
+                "dette",
+                "panier",
+                "friche",
+                "irrigation"
+            ],
+            "answer": "dette"
+        },
+        {
+            "question_number": 8,
+            "question": "Sa position _______ a rendu difficile pour lui de s'engager dans des discussions constructives avec ses collègues.",
+            "options": [
+                "détachée",
+                "frénétique",
+                "résolue",
+                "impérieuse"
+            ],
+            "answer": "détachée"
+        },
+        {
+            "question_number": 9,
+            "question": "Les exigences _______ du marché du travail rendent difficile pour certains de s'y adapter.",
+            "options": [
+                "impérieuses",
+                "autarciques",
+                "régies",
+                "systématiques"
+            ],
+            "answer": "impérieuses"
+        },
+        {
+            "question_number": 10,
+            "question": "Dans une société _______ , les consommateurs sont constamment poussés à acheter davantage.",
+            "options": [
+                "consumériste",
+                "détachée",
+                "frénétique",
+                "autarcique"
+            ],
+            "answer": "consumériste"
+        },
+        {
+            "question_number": 11,
+            "question": "Les principes éthiques qui _______ la profession médicale sont essentiels pour garantir le respect des patients et la qualité des soins.",
+            "options": [
+                "régissent",
+                "dissolvent",
+                "informent",
+                "avertissent"
+            ],
+            "answer": "régissent"
+        },
+        {
+            "question_number": 12,
+            "question": "Un _______ de coopération internationale peut parfois empêcher de prendre des décisions rapides.",
+            "options": [
+                "refus",
+                "peage",
+                "scepticisme",
+                "détachement"
+            ],
+            "answer": "refus"
+        },
+        {
+            "question_number": 13,
+            "question": "Elle a _______ décidé de changer de carrière, convaincue que cette nouvelle voie correspondait mieux à ses aspirations personnelles et professionnelles.",
+            "options": [
+                "résolument",
+                "systématiquement",
+                "frenétiquement",
+                "détaché"
+            ],
+            "answer": "résolument"
+        },
+        {
+            "question_number": 14,
+            "question": "Les agriculteurs doivent _______ les champs pour assurer une bonne récolte.",
+            "options": [
+                "récupérer",
+                "irriguer",
+                "mettre en avant",
+                "panier"
+            ],
+            "answer": "irriguer"
+        },
+        {
+            "question_number": 15,
+            "question": "Elle a rempli son _______ de fruits frais du marché, choisissant soigneusement les pommes, les poires et les raisins pour préparer un dessert maison.",
+            "options": [
+                "panier",
+                "péage",
+                "friche",
+                "dette"
+            ],
+            "answer": "panier"
+        },
+        {
+            "question_number": 16,
+            "question": "Dans un souci de durabilité, cette ferme fonctionne en _______, produisant la majorité de ses besoins alimentaires sans dépendre des circuits commerciaux extérieurs.",
+            "options": [
+                "irrigation",
+                "autarcie",
+                "impression",
+                "consumérisme"
+            ],
+            "answer": "autarcie"
+        },
+        {
+            "question_number": 17,
+            "question": "Le producteur a décidé d'acheter une nouvelle _______ pour accélérer le travail de l’entreprise.",
+            "options": [
+                "imprimante",
+                "pesticide",
+                "peage",
+                "panier"
+            ],
+            "answer": "imprimante"
+        },
+        {
+            "question_number": 18,
+            "question": "L'idée de créer un projet communautaire a commencé à _______ lorsqu'un groupe de bénévoles s'est réuni pour élaborer un plan détaillé et définir des objectifs concrets.",
+            "options": [
+                "prendre corps",
+                "se heurter",
+                "s’aventurer",
+                "régir"
+            ],
+            "answer": "prendre corps"
+        },
+        {
+            "question_number": 19,
+            "question": "Les scientifiques ont constaté que l'utilisation excessive de _______ dans les cultures affecte la biodiversité.",
+            "options": [
+                "pesticides",
+                "irrigation",
+                "panier",
+                "refus"
+            ],
+            "answer": "pesticides"
+        },
+        {
+            "question_number": 20,
+            "question": "Dans certaines régions rurales, le _______ reste une pratique courante, où les gens échangent des biens ou des services directement sans passer par de l'argent.",
+            "options": [
+                "métissage",
+                "troc",
+                "détachement",
+                "consumérisme"
+            ],
+            "answer": "métissage"
+        },
+        {
+            "question_number": 21,
+            "question": "Sans trop réfléchir aux risques, il s'est _______ dans ce projet ambitieux, convaincu que l'innovation et la créativité le mèneraient au succès.",
+            "options": [
+                "aventuré",
+                "systématiquement",
+                "détaché",
+                "frénétique"
+            ],
+            "answer": "aventuré"
+        },
+        {
+            "question_number": 22,
+            "question": "Le groupe a _______ la vieille tradition pour en faire une coutume moderne et populaire.",
+            "options": [
+                "incarné",
+                "averti",
+                "refusé",
+                "récupéré"
+            ],
+            "answer": "incarné"
+        },
+        {
+            "question_number": 23,
+            "question": "Lors de la conférence, le conférencier a _______ plusieurs points importants qui étaient souvent ignorés.",
+            "options": [
+                "mis en avant",
+                "pris corps",
+                "systématisé",
+                "refusé"
+            ],
+            "answer": "mis en avant"
+        },
+        {
+            "question_number": 24,
+            "question": "Le pays a choisi une politique d'________ pour réduire sa dépendance économique envers d'autres nations.",
+            "options": [
+                "autarcie",
+                "détachement",
+                "consumérisme",
+                "frénésie"
+            ],
+            "answer": "autarcie"
+        },
+        {
+            "question_number": 25,
+            "question": "Les deux amis _______ depuis des semaines à propos de cette décision, incapable de trouver un terrain d'entente malgré leurs nombreuses discussions.",
+            "options": [
+                "souffrent",
+                "se heurtent",
+                "se déchirent",
+                "se détachent"
+            ],
+            "answer": "se déchirent"
+        },
+        {
+            "question_number": 26,
+            "question": "Les factions rivales se sont _______ lors du conflit, chacune cherchant à imposer ses idéaux au détriment de la paix et de l'unité.",
+            "options": [
+                "entredéchirées",
+                "réfléchies",
+                "systématisées",
+                "incarnées"
+            ],
+            "answer": "entredéchirées"
+        },
+        {
+            "question_number": 27,
+            "question": "Dans une _______ de marchandises, les biens sont échangés sans l’utilisation d’argent.",
+            "options": [
+                "friche",
+                "troc",
+                "détachement",
+                "consumérisme"
+            ],
+            "answer": "troc"
+        },
+        {
+            "question_number": 28,
+            "question": "Il a dû _______ pour pouvoir se rendre à la réunion, car il y avait un embouteillage sur la route.",
+            "options": [
+                "payer un péage",
+                "prendre corps",
+                "incarner",
+                "dissoudre"
+            ],
+            "answer": "payer un péage"
+        },
+        {
+            "question_number": 30,
+            "question": "La _______ industrielle, laissée à l'abandon depuis des années, est en train d'être réaménagée pour devenir un espace public polyvalent, avec des jardins communautaires et des zones de loisirs.",
+            "options": [
+                "consumérisme",
+                "friche",
+                "autarcie",
+                "détachement"
+            ],
+            "answer": "friche"
+        },
+        {
+            "question_number": 1,
+            "question": "Ils ont décidé de _______ l'ancien bâtiment pour en faire un espace moderne et fonctionnel.",
+            "options": [
+                "réhabiliter",
+                "assumer",
+                "mettre des bâtons dans les roues",
+                "écœurer"
+            ],
+            "answer": "réhabiliter"
+        },
+        {
+            "question_number": 2,
+            "question": "Un petit _______ est situé à l'écart de la ville, offrant une atmosphère paisible et tranquille.",
+            "options": [
+                "hameau",
+                "village",
+                "paysage",
+                "quartier"
+            ],
+            "answer": "hameau"
+        },
+        {
+            "question_number": 3,
+            "question": "Les avocats ont discuté des implications ______ du contrat, soulignant les risques potentiels pour l'entreprise si certaines clauses n'étaient pas respectées.",
+            "options": [
+                "juridiques",
+                "éthiques",
+                "socials",
+                "financiers"
+            ],
+            "answer": "juridiques"
+        },
+        {
+            "question_number": 4,
+            "question": "______ la situation soit complexe, il semble possible de trouver une solution.",
+            "options": [
+                "Quoique",
+                "Pourvu que",
+                "Admettons que",
+                "Bien que"
+            ],
+            "answer": "Quoique"
+        },
+        {
+            "question_number": 5,
+            "question": "Il doit _______ les conséquences de ses actions et accepter la responsabilité.",
+            "options": [
+                "assumer",
+                "réhabiliter",
+                "mettre des bâtons dans les roues",
+                "écœurer"
+            ],
+            "answer": "assumer"
+        },
+        {
+            "question_number": 6,
+            "question": "Malgré ses efforts pour faire avancer le projet, certains collègues ont constamment cherché à _______, compliquant ainsi chaque étape de l'initiative.",
+            "options": [
+                "mettre des bâtons dans les roues",
+                "aboutir",
+                "écœurer",
+                "passer à"
+            ],
+            "answer": "mettre des bâtons dans les roues"
+        },
+        {
+            "question_number": 7,
+            "question": "Après des mois de négociations, les discussions ont enfin ______ à un accord satisfaisant pour les deux parties, permettant de lancer le partenariat tant attendu.",
+            "options": [
+                "abouti",
+                "réussis",
+                "échoué",
+                "progressé"
+            ],
+            "answer": "abouti"
+        },
+        {
+            "question_number": 8,
+            "question": "______ il pleuve, la sortie aura lieu comme prévu.",
+            "options": [
+                "Pourvu que",
+                "Bien que",
+                "Admettons que",
+                "Si"
+            ],
+            "answer": "Pourvu que"
+        },
+        {
+            "question_number": 9,
+            "question": "Les conclusions du rapport sont _______ et nécessitent une attention immédiate.",
+            "options": [
+                "alarmantes",
+                "prometteuses",
+                "déroutantes",
+                "saisissantes"
+            ],
+            "answer": "alarmantes"
+        },
+        {
+            "question_number": 9,
+            "question": "Les conclusions du rapport sont _______ et nécessitent une attention immédiate.",
+            "options": [
+                "alarmantes",
+                "prometteuses",
+                "déroutantes",
+                "saisissantes"
+            ],
+            "answer": "prometteuses"
+        },
+        {
+            "question_number": 10,
+            "question": "Il a _______ une telle charge de travail qu'il a dû demander de l'aide.",
+            "options": [
+                "assumer",
+                "écœurer",
+                "réhabiliter",
+                "mettre des bâtons dans les roues"
+            ],
+            "answer": "assumer"
+        },
+        {
+            "question_number": 11,
+            "question": "L'utilisation de téléphones portables dans le film, censé se dérouler au XIXe siècle, était totalement ______.",
+            "options": [
+                "anachronique",
+                "prometteuse",
+                "moderne",
+                "élémentaire"
+            ],
+            "answer": "anachronique"
+        },
+        {
+            "question_number": 12,
+            "question": "Son talent musical semblait _______, captivant le public à chaque performance et laissant une impression durable bien après la fin du concert.",
+            "options": [
+                "écœurement",
+                "alarmant",
+                "angoissant",
+                "incommensurable"
+            ],
+            "answer": "incommensurable"
+        },
+        {
+            "question_number": 13,
+            "question": "Il est important de garder un regard _______ lorsqu'on analyse les résultats de l'enquête.",
+            "options": [
+                "saisissant",
+                "déroutant",
+                "objectif",
+                "frénétique"
+            ],
+            "answer": "saisissant"
+        },
+        {
+            "question_number": 14,
+            "question": "Pour garantir la _______ de l'écosystème, il est essentiel d'adopter des pratiques agricoles durables qui préservent les ressources naturelles tout en répondant aux besoins alimentaires croissants.",
+            "options": [
+                "pérennité",
+                "détérioration",
+                "réhabilitation",
+                "dérivation"
+            ],
+            "answer": "pérennité"
+        },
+        {
+            "question_number": 15,
+            "question": "Les dessins animés qu'ils regardaient étaient d'une simplicité _______, mais leur capacité à susciter des émotions et à véhiculer des messages importants était étonnamment profonde.",
+            "options": [
+                "enfantins",
+                "adults",
+                "déroutants",
+                "prudents"
+            ],
+            "answer": "enfantins"
+        },
+        {
+            "question_number": 16,
+            "question": "L'atmosphère ______ de la pièce, plongée dans l'obscurité, était amplifiée par le bruit incessant de la pluie battant contre les fenêtres, rendant chaque moment encore plus oppressant.",
+            "options": [
+                "angoissante",
+                "saisissante",
+                "incommensurable",
+                "décevante"
+            ],
+            "answer": "angoissante"
+        },
+        {
+            "question_number": 17,
+            "question": "Le récit détaillé de l'incident a provoqué un profond _______ parmi les témoins, qui n'ont pu s'empêcher de détourner les yeux face à la brutalité de la situation.",
+            "options": [
+                "écœurement",
+                "angoissement",
+                "incompréhension",
+                "épuisement"
+            ],
+            "answer": "écœurement"
+        },
+        {
+            "question_number": 18,
+            "question": "Au cours de la dernière ______, les progrès technologiques ont transformé de manière radicale la manière dont nous communiquons, travaillons et vivons au quotidien.",
+            "options": [
+                "pérennité",
+                "décennie",
+                "invention",
+                "réflexion"
+            ],
+            "answer": "décennie"
+        },
+        {
+            "question_number": 19,
+            "question": "L'_______ de leurs recherches a permis de faire une découverte majeure dans le domaine de l'astronomie, offrant ainsi de nouvelles perspectives sur l'univers.",
+            "options": [
+                "aboutissement",
+                "déroutement",
+                "écœurement",
+                "résolution"
+            ],
+            "answer": "aboutissement"
+        },
+        {
+            "question_number": 20,
+            "question": "Dans le développement du _______, nous avons utilisé TypeScript pour bénéficier de la vérification statique des types, garantissant ainsi une meilleure maintenance du code et une réduction des erreurs dès la phase initiale.",
+            "options": [
+                "prototype",
+                "retour",
+                "échec",
+                "compte-rendu"
+            ],
+            "answer": "prototype"
+        },
+        {
+            "question_number": 21,
+            "question": "Les _______ de la technologie quantique laissent entrevoir des possibilités fascinantes, bien que de nombreux défis scientifiques et techniques restent à surmonter avant de pouvoir en exploiter pleinement le potentiel.",
+            "options": [
+                "balbutiements",
+                "réalisations",
+                "échecs",
+                "succès"
+            ],
+            "answer": "balbutiements"
+        },
+        {
+            "question_number": 22,
+            "question": "Afin de mieux gérer ses responsabilités, le manager a décidé de _______ certaines tâches à ses collaborateurs, leur donnant ainsi l'opportunité de prendre des initiatives.",
+            "options": [
+                "passer à",
+                "réfléchir",
+                "déléguer",
+                "se détacher"
+            ],
+            "answer": "déléguer"
+        },
+        {
+            "question_number": 23,
+            "question": "Le _______ de sécurité mis en place autour du site industriel comprend des caméras de surveillance, des barrières électroniques et des rondes régulières, assurant ainsi une protection optimale des lieux.",
+            "options": [
+                "dispositif",
+                "outil",
+                "mécanisme",
+                "stratégie"
+            ],
+            "answer": "dispositif"
+        },
+        {
+            "question_number": 24,
+            "question": "Les _______ ont été très strictes et ont limité l'accès à certains secteurs de la ville.",
+            "options": [
+                "régulations",
+                "prototypes",
+                "discours",
+                "mesures"
+            ],
+            "answer": "régulations"
+        },
+        {
+            "question_number": 25,
+            "question": "Il est essentiel de comprendre les _______ juridiques avant de prendre une décision dans cette situation.",
+            "options": [
+                "conséquences",
+                "dispositifs",
+                "échecs",
+                "exigences"
+            ],
+            "answer": "conséquences"
+        },
+        {
+            "question_number": 26,
+            "question": "L'_______ à adopter des comportements écologiques, comme l'utilisation de transports publics ou le recyclage, a été renforcée par des campagnes de sensibilisation et des incitations fiscales.",
+            "options": [
+                "enjeu",
+                "accumulation",
+                "incitation",
+                "engagement"
+            ],
+            "answer": "incitation"
+        },
+        {
+            "question_number": 27,
+            "question": "L'_______ des travaux de rénovation a transformé l'ancien bâtiment en un espace moderne et fonctionnel, prêt à accueillir de nouveaux projets.",
+            "options": [
+                "achèvement",
+                "répétition",
+                "déroutement",
+                "inactivité"
+            ],
+            "answer": "achèvement"
+        },
+        {
+            "question_number": 28,
+            "question": "Sa réaction ______ face à la situation a laissé tout le monde perplexe, ne sachant pas s'il était surpris, en colère ou simplement indifférent.",
+            "options": [
+                "déroutante",
+                "saisissante",
+                "pratique",
+                "simple"
+            ],
+            "answer": "déroutante"
+        },
+        {
+            "question_number": 29,
+            "question": "______ l'ampleur du défi, il reste optimiste quant à la possibilité de succès.",
+            "options": [
+                "Quoique",
+                "Admettons que",
+                "Pourvu que",
+                "Bien que"
+            ],
+            "answer": "Quoique"
+        },
 
+        {
+            "question_number": 1,
+            "question": "Le projet _______ vise à rapprocher les jeunes et les aînés, en créant des espaces où les deux générations peuvent échanger, partager leurs expériences et apprendre les uns des autres.",
+            "options": [
+                "entraide",
+                "intergénérationnel",
+                "sensation",
+                "collaboration"
+            ],
+            "answer": "intergénérationnel"
+        },
+        {
+            "question_number": 2,
+            "question": "L'expert a _______ les résultats de l'enquête pour confirmer la validité des conclusions.",
+            "options": [
+                "contredire",
+                "corroboré",
+                "réfuter",
+                "rejeter"
+            ],
+            "answer": "corroboré"
+        },
+        {
+            "question_number": 3,
+            "question": "Les _______ de la savane, tels que les lions et les guépards, sont des chasseurs habiles qui influencent profondément les comportements des autres animaux et la dynamique de l'écosystème.",
+            "options": [
+                "prédateurs",
+                "réfugiés",
+                "phénomènes",
+                "concurrents"
+            ],
+            "answer": "prédateurs"
+        },
+        {
+            "question_number": 4,
+            "question": "Il a expliqué son projet _______ en détaillant chaque étape du processus.",
+            "options": [
+                "pas à pas",
+                "en un clin d'œil",
+                "d'un seul coup",
+                "sans interruption"
+            ],
+            "answer": "pas à pas"
+        },
+        {
+            "question_number": 5,
+            "question": "Elle a travaillé ______ pendant plusieurs mois dans un refuge pour animaux, apportant son aide aux côtés d'autres volontaires passionnés par la cause.",
+            "options": [
+                "bénévolement",
+                "proactivement",
+                "curieusement",
+                "spontanément"
+            ],
+            "answer": "bénévolement"
+        },
+        {
+            "question_number": 6,
+            "question": "Le système d'______ dans cette région permet à la population de s'aider mutuellement.",
+            "options": [
+                "entraide",
+                "urgence",
+                "isolation",
+                "indépendance"
+            ],
+            "answer": "entraide"
+        },
+        {
+            "question_number": 7,
+            "question": "L'______ est un secteur clé dans de nombreuses économies rurales.",
+            "options": [
+                "agricole",
+                "industriel",
+                "urbain",
+                "commercial"
+            ],
+            "answer": "agricole"
+        },
+        {
+            "question_number": 8,
+            "question": "L'_______ est une pratique ancienne qui consiste à produire tout ce dont on a besoin soi-même.",
+            "options": [
+                "autosuffisance",
+                "inclusion",
+                "solidarité",
+                "autonomie"
+            ],
+            "answer": "autosuffisance"
+        },
+        {
+            "question_number": 9,
+            "question": "La _______ peut être fascinante à observer, mais elle est souvent dangereuse pour les humains.",
+            "options": [
+                "méduse",
+                "raie",
+                "homard",
+                "pieuvre"
+            ],
+            "answer": "méduse"
+        },
+        {
+            "question_number": 10,
+            "question": "Après le naufrage, ils ont réussi à s'installer sur un _______ de fortune, espérant être repérés par un navire de passage.",
+            "options": [
+                "radeau",
+                "avion",
+                "bateau",
+                "hélicoptère"
+            ],
+            "answer": "radeau"
+        },
+        {
+            "question_number": 11,
+            "question": "Ils ont offert des _______ aux personnes affectées par la catastrophe naturelle.",
+            "options": [
+                "secours",
+                "produits",
+                "conseils",
+                "récompenses"
+            ],
+            "answer": "secours"
+        },
+        {
+            "question_number": 12,
+            "question": "Les paysages de cette région sont _______ d'une histoire riche, où chaque ruine et chaque monument raconte un chapitre du passé fascinant de la civilisation locale.",
+            "options": [
+                "imprégnés",
+                "intéressés",
+                "distanciés",
+                "réfugiés"
+            ],
+            "answer": "imprégnés"
+        },
+        {
+            "question_number": 13,
+            "question": "Nous vivons actuellement dans une _______ numérique, où les technologies de l'information et de la communication influencent presque tous les aspects de notre vie quotidienne.",
+            "options": [
+                "ère",
+                "plage",
+                "saison",
+                "phase"
+            ],
+            "answer": "ère"
+        },
+        {
+            "question_number": 14,
+            "question": "L'agriculteur a commencé à _______ les champs au printemps pour préparer la récolte.",
+            "options": [
+                "semer",
+                "faucher",
+                "cueillir",
+                "cultiver"
+            ],
+            "answer": "semer"
+        },
+        {
+            "question_number": 15,
+            "question": "Chaque idée part d'une petite _______ de créativité, qui, si elle est cultivée avec soin, peut se transformer en un projet innovant et transformateur.",
+            "options": [
+                "graine",
+                "racine",
+                "fleur",
+                "pousse"
+            ],
+            "answer": "graine"
+        },
+
+        {
+            "question_number": 17,
+            "question": "En descendant la colline, il a lâché la _______ du frein et a laissé le vélo filer à toute vitesse, profitant de la liberté du moment.",
+            "options": [
+                "pédale",
+                "frein",
+                "chaîne",
+                "guidon"
+            ],
+            "answer": "pédale"
+        },
+        {
+            "question_number": 18,
+            "question": "Le militant est _______ pour faire entendre la voix des opprimés dans la société.",
+            "options": [
+                "agissant",
+                "désintéressé",
+                "relaxé",
+                "solidaire"
+            ],
+            "answer": "agissant"
+        },
+        {
+            "question_number": 19,
+            "question": "Les forêts tropicales _______ de nombreuses espèces animales et végétales rares.",
+            "options": [
+                "foisonnent",
+                "détruisent",
+                "restent",
+                "s'éteignent"
+            ],
+            "answer": "foisonnent"
+        },
+        {
+            "question_number": 20,
+            "question": "L'______ des ressources naturelles dans cette région a permis un développement économique rapide, transformant un petit village en une ville prospère en quelques décennies.",
+            "options": [
+                "abondance",
+                "évolution",
+                "épuisement",
+                "extinction"
+            ],
+            "answer": "abondance"
+        },
+        {
+            "question_number": 21,
+            "question": "La _______ des forêts tropicales menace la biodiversité, car de nombreuses espèces dépendent de ces écosystèmes pour survivre.",
+            "options": [
+                "raréfaction",
+                "accumulation",
+                "restauration",
+                "répartition"
+            ],
+            "answer": "raréfaction"
+        },
+        {
+            "question_number": 22,
+            "question": "Le projet était en _______ lorsque des problèmes techniques imprévus ont surgi, menaçant de retarder sa mise en œuvre.",
+            "options": [
+                "péril",
+                "sécurité",
+                "confort",
+                "santé"
+            ],
+            "answer": "péril"
+        },
+        {
+            "question_number": 24,
+            "question": "La situation a _______ après l'annonce de la crise économique mondiale.",
+            "options": [
+                "basculé",
+                "resté",
+                "évolué",
+                "stagné"
+            ],
+            "answer": "basculé"
+        },
+        {
+            "question_number": 25,
+            "question": "Il a été _______ sur le problème de la pollution, espérant que les gens changeraient leurs habitudes.",
+            "options": [
+                "sensibilisé",
+                "détourné",
+                "désintéressé",
+                "perplexe"
+            ],
+            "answer": "sensibilisé"
+        },
+        {
+            "question_number": 26,
+            "question": "Les montagnes étaient magnifiques, culminant en _______ de plus de 3000 mètres.",
+            "options": [
+                "pic",
+                "colline",
+                "vallée",
+                "forêt"
+            ],
+            "answer": "pic"
+        },
+        {
+            "question_number": 27,
+            "question": "Les _______ de croisière sillonnent les mers, offrant des vacances luxueuses aux passagers, tout en contribuant au commerce international avec le transport de marchandises à travers le monde.",
+            "options": [
+                "pétroliers",
+                "réservoirs",
+                "énergies",
+                "navires"
+            ],
+            "answer": "navires"
+        },
+        {
+            "question_number": 28,
+            "question": "Le _______ de l'opinion publique s'est produit après la publication du dernier rapport, qui a révélé des informations cruciales changeant la perspective sur la gestion de la crise.",
+            "options": [
+                "basculement",
+                "réconciliation",
+                "arrangement",
+                "affrontement"
+            ],
+            "answer": "basculement"
+        },
+        {
+            "question_number": 29,
+            "question": "Ce document est destiné _______ la direction uniquement, contenant des informations confidentielles concernant la stratégie de l'entreprise pour l'année à venir.",
+            "options": [
+                "à usage de",
+                "contre",
+                "par",
+                "à l'intention de"
+            ],
+            "answer": "à usage de"
+        },
+        {
+            "question_number": 30,
+            "question": "Elle a passé des heures à _______ son bébé, veillant à ce qu'il prenne suffisamment de lait avant de s'endormir paisiblement dans ses bras.",
+            "options": [
+                "biberonner",
+                "nourrir",
+                "bercer",
+                "réconforter"
+            ],
+            "answer": "biberonner"
+        }, 
+        {
+            "question_number": 30,
+            "question": "Elle a doucement commencé à _______ son enfant dans ses bras, espérant le calmer après une longue journée.",
+            "options": [
+                "biberonner",
+                "nourrir",
+                "bercer",
+                "réconforter"
+            ],
+            "answer": "biberonner"
+        }
     ]
 }

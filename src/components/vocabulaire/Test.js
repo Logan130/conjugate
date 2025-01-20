@@ -48,6 +48,7 @@ export function Test() {
     let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
 
     let [questions, setQuestions] = useState([]);
+    let [loading, setLoading] = useState(!!test_json_url);
 
     useEffect(() => {
         // URL of the raw JSON file on GitHub
@@ -64,6 +65,9 @@ export function Test() {
                 })
                 .then((data) => {
                     setQuestions(data.test); // Set the "test" field to state
+                    setTimeout(() => {
+                        setLoading(false);
+                      }, 1000);
                 })
                 .catch((error) => {
                     console.error("Error fetching the data: ", error);
@@ -78,7 +82,18 @@ export function Test() {
             <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
             <br />
 
-            {questions.length > 0 && questions.map((q, id) =>
+    
+            {loading &&
+            <div className="flex justify-center">
+            <span className="loading loading-ball loading-xs"></span>
+            <span className="loading loading-ball loading-sm"></span>
+            <span className="loading loading-ball loading-md"></span>
+            <span className="loading loading-ball loading-lg"></span>
+        </div>
+            }
+            
+
+            {questions.length > 0 && !loading && questions.map((q, id) =>
                 <div className="m-2">
                     <IndividualQuestion question={q} id={id + 1} />
                 </div>)}
