@@ -30,7 +30,7 @@ export const VocabulaireProgressifA2L3 = {
         { english: "one-night stand", french: "aventure sans lendemain", pos: "loc.", chinese: "一夜情" },
         { english: "to go through (forêt, crise)", french: "traverser", pos: "v.t.", chinese: "穿过" },
         { english: "liar", french: "menteur(se)", pos: "n.", chinese: "撒谎者" },
-        { english: "to hate", french: "haïs", pos: "v.t.", chinese: "恨" },
+        { english: "to hate", french: "haïr", pos: "v.t.", chinese: "恨" },
         { english: "temporary", french: "provisoire", pos: "adj.", chinese: "临时的" },
         { english: "ex-wife", french: "ex-femme", pos: "n.f.", chinese: "前妻" },
         { english: "ex-husband", french: "ex-mari", pos: "n.m.", chinese: "前夫" },

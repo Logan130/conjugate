@@ -1,0 +1,357 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "La _______ de la température a été effectuée à l'aide d'un thermomètre de précision, garantissant des résultats fiables pour l'expérience scientifique.",
+            "options": [
+                "mesures",
+                "calcul",
+                "revenge",
+                "chiffre"
+            ],
+            "answer": "mesures"
+        },
+        {
+            "question_number": 2,
+            "question": "Le _______ total de la facture a été bien plus élevé que prévu en raison des coûts imprévus liés à la réparation des équipements.",
+            "options": [
+                "montant",
+                "chiffre",
+                "calcul",
+                "nombre"
+            ],
+            "answer": "montant"
+        },
+        {
+            "question_number": 3,
+            "question": "Les deux équipes ont montré un niveau de compétence _______, rendant la compétition extrêmement serrée jusqu'à la dernière minute du match.",
+            "options": [
+                "nombre",
+                "chiffre",
+                "calcul",
+                "pair"
+            ],
+            "answer": "pair"
+        },
+        {
+            "question_number": 4,
+            "question": "Dans le cadre des processus stochastiques de Markov, _______ une certaine composante peut permettre de simplifier l'étude du processus en éliminant des effets non aléatoires ou non stationnaires.",
+            "options": [
+                "soustraire",
+                "calculer",
+                "retrancher",
+                "additionner"
+            ],
+            "answer": "soustraire"
+        },
+        {
+            "question_number": 5,
+            "question": "Un _______ est un symbole numérique (0 à 9), tandis qu'un _______ est une quantité formée de un ou plusieurs _______.",
+            "options": [
+                "nombre chiffre nombre",
+                "chiffre nombre chiffre",
+                "calcul nombre chiffre",
+                "pair chiffre nombre"
+            ],
+            "answer": "chiffre nombre chiffre"
+        },
+        {
+            "question_number": 6,
+            "question": "En algèbre, le terme _______ peut désigner la valeur d'une opération, comme une somme ou un total.",
+            "options": [
+                "montant",
+                "chiffre",
+                "calcul",
+                "total"
+            ],
+            "answer": "montant"
+        },
+        {
+            "question_number": 7,
+            "question": "Une _______ est un dispositif électronique qui aide à faire des calculs.",
+            "options": [
+                "calculette",
+                "mesure",
+                "contener",
+                "pile"
+            ],
+            "answer": "calculette"
+        },
+        {
+            "question_number": 8,
+            "question": "Les _______ sont les symboles numériques que nous utilisons couramment aujourd'hui (0, 1, 2, 3, etc.).",
+            "options": [
+                "gangsters",
+                "calculs",
+                "chiffres arabes",
+                "résultats"
+            ],
+            "answer": "chiffre arabe"
+        },
+        {
+            "question_number": 9,
+            "question": "La topologie offre une nouvelle perspective pour l’étude du _______ car elle étend l’étude des fonctions aux espaces non euclidiens.",
+            "options": [
+                "montant",
+                "calcul",
+                "chiffre",
+                "écart"
+            ],
+            "answer": "calcul"
+        },
+        {
+            "question_number": 10,
+            "question": "On doit _______ les coûts afin de comprendre combien nous devons payer.",
+            "options": [
+                "régler",
+                "calculer",
+                "soustraire",
+                "arrondir"
+            ],
+            "answer": "régler"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a réglé la somme _______ les intérêts.",
+            "options": [
+                "sans compter",
+                "en fin de compte",
+                "sans discussion",
+                "sans problème"
+            ],
+            "answer": "sans compter"
+        },
+        {
+            "question_number": 13,
+            "question": "Dans Le Comte de Monte-Cristo, la _______ est l'objectif principal d'Edmond Dantès, qui cherche à se venger de ceux qui l'ont trahi, bouleversant ainsi leurs vies.",
+            "options": [
+                "vengeance",
+                "régler",
+                "calculer",
+                "soustraction"
+            ],
+            "answer": "vengeance"
+        },
+        {
+            "question_number": 14,
+            "question": "Il était un _______ recherché par la police après le braquage.",
+            "options": [
+                "gangster",
+                "tueur",
+                "calculateur",
+                "héros"
+            ],
+            "answer": "gangster"
+        },
+        {
+            "question_number": 15,
+            "question": "Le talent de ce musicien ne peut _______ celui des grands maîtres du passé, même s'il continue d'impressionner par sa technique.",
+            "options": [
+                "égaler",
+                "calculer",
+                "arrondir",
+                "trier"
+            ],
+            "answer": "égaler"
+        },
+        {
+            "question_number": 16,
+            "question": "La _______ de 5 à 10 donne 5, ce qui illustre une diminution de la valeur initiale.",
+            "options": [
+                "calculation",
+                "substitution",
+                "addition",
+                "soustraction"
+            ],
+            "answer": "soustraction"
+        },
+        {
+            "question_number": 17,
+            "question": "Il a décidé de _______ son nom de la liste des candidats après avoir pris en compte tous les risques associés à la campagne.",
+            "options": [
+                "soustraire",
+                "additionner",
+                "calculer",
+                "retirer"
+            ],
+            "answer": "soustraire"
+        },
+        {
+            "question_number": 18,
+            "question": "Un nombre de type 2, 4, 6 est un nombre _______ .",
+            "options": [
+                "pair",
+                "impair",
+                "décimal",
+                "entier"
+            ],
+            "answer": "pair"
+        },
+        {
+            "question_number": 19,
+            "question": "Le résultat de 6 _______ 8 est 48.",
+            "options": [
+                "multiplié par",
+                "plus",
+                "moins",
+                "divisé"
+            ],
+            "answer": "multiplié par"
+        },
+
+        {
+            "question_number": 21,
+            "question": "Un _______ (2/5) est une fraction qui représente une portion d'une valeur.",
+            "options": [
+                "deux cinquièmes",
+                "deux cinquième",
+                "deuxièmes cinq",
+                "deuxième cinqs"
+            ],
+            "answer": "deux cinquièmes"
+        },
+        {
+            "question_number": 22,
+            "question": "Nous avons partagé cette grande pizza _______ pour qu'elle soit équitable.",
+            "options": [
+                "à moitié",
+                "en trois",
+                "en quatre",
+                "en six"
+            ],
+            "answer": "à moitié"
+        },
+        {
+            "question_number": 23,
+            "question": "Les salaires des employés sont _______ à leur ancienneté dans l'entreprise, chaque année d'expérience ajoutant un pourcentage supplémentaire à leur rémunération.",
+            "options": [
+                "proportionnels",
+                "disproportionnés",
+                "étonnants",
+                "idéaux"
+            ],
+            "answer": "proportionnels"
+        },
+        {
+            "question_number": 24,
+            "question": "Sa réaction face à la situation était _______, bien au-delà de ce que la situation justifiait.",
+            "options": [
+                "disproportionné",
+                "calculé",
+                "réduit",
+                "évalué"
+            ],
+            "answer": "disproportionné"
+        },
+        {
+            "question_number": 25,
+            "question": "L'_______ du mur est suffisante pour assurer une bonne isolation thermique et acoustique.",
+            "options": [
+                "épaisseur",
+                "largeur",
+                "profondeur",
+                "surface"
+            ],
+            "answer": "épaisseur"
+        },
+        {
+            "question_number": 26,
+            "question": "La _______ du terrain était de 500 mètres carrés.",
+            "options": [
+                "surface",
+                "profondeur",
+                "épaisseur",
+                "longueur"
+            ],
+            "answer": "surface"
+        },
+        {
+            "question_number": 27,
+            "question": "Le _______ (m^3) est une unité de mesure du volume, utilisée pour quantifier des espaces tridimensionnels.",
+            "options": [
+                "conteneur",
+                "mètre cube",
+                "tunnel",
+                "hauteur"
+            ],
+            "answer": "mètre cube"
+        },
+        {
+            "question_number": 28,
+            "question": "Avant son duel, Évariste Galois a ______ ses théories mathématiques dans des lettres, sachant que sa vie touchait à sa fin, mais laissant derrière lui un héritage révolutionnaire en algèbre..",
+            "options": [
+                "mesuré",
+                "calculé",
+                "emballé",
+                "réparé"
+            ],
+            "answer": "emballé"
+        },
+        {
+            "question_number": 30,
+            "question": "Quand tu _______ des informations essentielles, tu risques de fausser complètement l'argumentation.",
+            "options": [
+                "mesures",
+                "calcules",
+                "retranches",
+                "ajoutes"
+            ],
+            "answer": "retranches"
+        },
+        {
+            "question_number": 31,
+            "question": "Le _______ d'une mer ou d'un lac est la distance sous la surface de l'eau.",
+            "options": [
+                "profondeur",
+                "hauteur",
+                "épaisseur",
+                "surface"
+            ],
+            "answer": "profondeur"
+        },
+        {
+            "question_number": 32,
+            "question": "Avant de _______ le budget, il faut vérifier toutes les dépenses.",
+            "options": [
+                "régler",
+                "calculer",
+                "soustraire",
+                "approfondir"
+            ],
+            "answer": "régler"
+        },
+        {
+            "question_number": 33,
+            "question": "Il est nécessaire d'_______ cette question afin de bien comprendre les implications à long terme de cette décision.",
+            "options": [
+                "approfondir",
+                "agir",
+                "répondre",
+                "analyser"
+            ],
+            "answer": "approfondir"
+        },
+        {
+            "question_number": 34,
+            "question": "L'argumentation semblait injuste, appliquant _______ en traitant les mêmes faits de manière totalement différente selon les personnes impliquées.",
+            "options": [
+                "deux poids, deux mesures",
+                "calcul",
+                "argument",
+                "résultat"
+            ],
+            "answer": "deux poids, deux mesures"
+        },
+        {
+            "question_number": 35,
+            "question": "Les possibilités sont _______, chaque choix ouvrant la porte à de nouvelles opportunités.",
+            "options": [
+                "innombrables",
+                "comparables",
+                "disproportionnés",
+                "rapides"
+            ],
+            "answer": "innombrables"
+        }
+    ]
+}

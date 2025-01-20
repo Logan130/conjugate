@@ -458,6 +458,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L1 Quantities",
+        test: "vocabulaire/B1/L1.json", 
     },
     {
         unit: "Voc B2 L2 形质",

@@ -235,10 +235,10 @@
             "question_number": 24,
             "question": "Les ___________ en matière de droit sont très strictes dans ce pays.",
             "options": [
-                "savoir",
-                "législation",
-                "mimique",
-                "économie"
+                "savoirs",
+                "législations",
+                "mimiques",
+                "économies"
             ],
             "answer": "législation"
         },
@@ -277,7 +277,7 @@
         },
         {
             "question_number": 28,
-            "question": "Elle a ___________ de se rendre à la réunion.",
+            "question": "Elle a ___________ à se rendre à la réunion.",
             "options": [
                 "dû",
                 "envie",

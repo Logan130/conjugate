@@ -1,15 +1,17 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext, useRef } from "react";
 import { lessons } from "../../pages/Vocabulaire";
 import { useParams } from 'react-router-dom';
 import { ThemeContext } from "../../context/context";
+import Loader from '../../static/loader.webp'
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));  // Generate a random index
-      [array[i], array[j]] = [array[j], array[i]];    // Swap elements at i and j
+        const j = Math.floor(Math.random() * (i + 1));  // Generate a random index
+        [array[i], array[j]] = [array[j], array[i]];    // Swap elements at i and j
     }
     return array;
-  }
+}
 
 function IndividualQuestion({ question, id }) {
 
@@ -75,10 +77,14 @@ export function Test() {
                     return response.json(); // Parse the JSON response
                 })
                 .then((data) => {
-                    setQuestions(data.test); // Set the "test" field to state
+                    let test_data = data.test;
+                    for (let i = 0; i < test_data.length; i++) {
+                        test_data[i].options = shuffleArray(test_data[i].options);
+                    }
+                    setQuestions(test_data); // Set the "test" field to state
                     setTimeout(() => {
                         setLoading(false);
-                      }, 1000);
+                    }, 1000);
                 })
                 .catch((error) => {
                     console.error("Error fetching the data: ", error);
@@ -93,16 +99,18 @@ export function Test() {
             <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
             <br />
 
-    
+
             {loading &&
-            <div className="flex justify-center">
-            <span className="loading loading-ball loading-xs"></span>
-            <span className="loading loading-ball loading-sm"></span>
-            <span className="loading loading-ball loading-md"></span>
-            <span className="loading loading-ball loading-lg"></span>
-        </div>
+                <div className="flex justify-center">
+                    {/* <span className="loading loading-ball loading-xs"></span>
+                    <span className="loading loading-ball loading-sm"></span>
+                    <span className="loading loading-ball loading-md"></span>
+                    <span className="loading loading-ball loading-lg"></span> */}
+
+                    <img src={Loader} alt="passé composé" className="z-0" />
+                </div>
             }
-            
+
 
             {questions.length > 0 && !loading && questions.map((q, id) =>
                 <div className="m-2">

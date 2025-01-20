@@ -132,7 +132,7 @@ export function About() {
                         <p>
                             {eng ?
                                 <>
-                                    For more detail, <Link className="link link-error font-bold" to='/features'>click here</Link>.
+                                    For more details, <Link className="link link-error font-bold" to='/features'>click here</Link>.
                                 </>
                                 :
                                 <>
