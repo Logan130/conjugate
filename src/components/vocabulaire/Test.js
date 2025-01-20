@@ -3,6 +3,13 @@ import { lessons } from "../../pages/Vocabulaire";
 import { useParams } from 'react-router-dom';
 import { ThemeContext } from "../../context/context";
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));  // Generate a random index
+      [array[i], array[j]] = [array[j], array[i]];    // Swap elements at i and j
+    }
+    return array;
+  }
 
 function IndividualQuestion({ question, id }) {
 
@@ -20,7 +27,7 @@ function IndividualQuestion({ question, id }) {
             <div className="card-body items-left text-left">
                 <h2 className="card-title">Q{id}: {question.question}</h2>
                 <div className="grid grid-cols-1 gap-2">
-                    {question.options.map((option, index) => (
+                    {(question.options).map((option, index) => (
                         <div key={index} className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => handleRadioChange(index, option)}>
                             <input
                                 type="radio"
@@ -49,6 +56,10 @@ export function Test() {
 
     let [questions, setQuestions] = useState([]);
     let [loading, setLoading] = useState(!!test_json_url);
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to top-left corner
+    }, []);
 
     useEffect(() => {
         // URL of the raw JSON file on GitHub
