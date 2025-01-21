@@ -466,6 +466,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L2 Shapes, Materials",
+        test: "vocabulaire/B1/L2.json", 
     },
     {
         unit: "Voc B2 L3 光彩",
@@ -473,6 +474,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L3 Light, Color",
+        test: "vocabulaire/B1/L3.json", 
     },
     {
         unit: "Voc B2 L4 DIY",
@@ -480,6 +482,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L4 DIY",
+        test: "vocabulaire/B1/L4.json", 
     },
     {
         unit: "Voc B2 L5 烹饪",
@@ -487,6 +490,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L5 Gastronomy",
+        test: "vocabulaire/B1/L5.json", 
     },
     {
         unit: "Voc B2 L6 动作",
@@ -494,6 +498,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L6 Movements",
+        test: "vocabulaire/B1/L6.json", 
     },
     {
         unit: "Voc B2 L7 外貌",

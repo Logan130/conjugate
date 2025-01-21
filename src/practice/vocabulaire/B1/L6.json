@@ -1,0 +1,279 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Quel mot désigne l’action de faire bouger quelque chose, comme les bras ou le corps ?",
+            "options": [
+                "remuer",
+                "trembler",
+                "secouer",
+                "agiter"
+            ],
+            "answer": "remuer"
+        },
+        {
+            "question_number": 2,
+            "question": "Quand une personne commence à avoir froid et que son corps se met à frémir, elle _______.",
+            "options": [
+                "tremble",
+                "gigote",
+                "rampe",
+                "s'étire"
+            ],
+            "answer": "tremble"
+        },
+        {
+            "question_number": 3,
+            "question": "Si vous avez peur ou que vous avez froid, vous pouvez _______ de manière involontaire.",
+            "options": [
+                "frissonner",
+                "rattraper",
+                "agiter",
+                "déchirer"
+            ],
+            "answer": "frissonner"
+        },
+        {
+            "question_number": 4,
+            "question": "Quel mot désigne la partie de la main utilisée pour frapper ou se défendre ?",
+            "options": [
+                "poing",
+                "pied",
+                "main",
+                "doigt"
+            ],
+            "answer": "poing"
+        },
+        {
+            "question_number": 5,
+            "question": "Quand on se prend un obstacle sur le chemin, comme une marche, on peut _______.",
+            "options": [
+                "buter",
+                "s’approcher",
+                "ramper",
+                "grimper"
+            ],
+            "answer": "buter"
+        },
+        {
+            "question_number": 6,
+            "question": "Si vous êtes renversé par une voiture, vous êtes _______ par celle-ci.",
+            "options": [
+                "percuté",
+                "soulevé",
+                "rattrapé",
+                "allongé"
+            ],
+            "answer": "percuté"
+        },
+        {
+            "question_number": 7,
+            "question": "Si vous _______ le train maintenant, vous serez à l'heure pour la réunion.",
+            "options": [
+                "rattrapez",
+                "décharnez",
+                "secouez",
+                "désirez"
+            ],
+            "answer": "rattrapez"
+        },
+        {
+            "question_number": 8,
+            "question": "Pour accéder au compartiment sous le meuble, il vous faudra _______ délicatement la planche, en veillant à ne pas l'endommager.",
+            "options": [
+                "soulever",
+                "secouer",
+                "plier",
+                "frapper"
+            ],
+            "answer": "soulever"
+        },
+        {
+            "question_number": 9,
+            "question": "Alors qu'il _______ silencieusement de la porte, il ressentait une montée d'appréhension, se demandant ce qu'il découvrirait de l'autre côté après tant d'années d'absence.",
+            "options": [
+                "s’approchait",
+                "s'éloignait",
+                "rampait",
+                "rattrapait"
+            ],
+            "answer": "s’approchait"
+        },
+        {
+            "question_number": 10,
+            "question": "Il est essentiel que vous _______ lentement si vous voulez atteindre le sommet sans danger.",
+            "options": [
+                "grimpiez",
+                "montez",
+                "rampez",
+                "soulevez"
+            ],
+            "answer": "grimpiez"
+        },
+        {
+            "question_number": 11,
+            "question": "Quand un animal se déplace lentement sur le ventre, on dit qu'il _______.",
+            "options": [
+                "rampe",
+                "frissonne",
+                "grippe",
+                "souligne"
+            ],
+            "answer": "rampe"
+        },
+        {
+            "question_number": 12,
+            "question": "Si un enfant bouge constamment sans rester en place, il _______ dans son siège.",
+            "options": [
+                "gigote",
+                "secoue",
+                "râle",
+                "plie"
+            ],
+            "answer": "gigote"
+        },
+        {
+            "question_number": 13,
+            "question": "Bien qu'il soit important de _______ avant l'exercice, beaucoup de gens oublient souvent cette étape essentielle.",
+            "options": [
+                "s'étirer",
+                "frissonner",
+                "secouer",
+                "grimper"
+            ],
+            "answer": "s'étirer"
+        },
+        {
+            "question_number": 14,
+            "question": "Pour rendre une chaise plus confortable, vous pouvez _______ le dossier.",
+            "options": [
+                "pencher",
+                "soulever",
+                "agiter",
+                "frissonner"
+            ],
+            "answer": "pencher"
+        },
+        {
+            "question_number": 15,
+            "question": "Rester en _______ sur une surface instable demande à la fois de la concentration et une parfaite gestion du poids corporel.",
+            "options": [
+                "équilibre",
+                "désespoir",
+                "impunité",
+                "réflexe"
+            ],
+            "answer": "équilibre"
+        },
+        {
+            "question_number": 16,
+            "question": "Lorsqu'un objet est soudainement frappé par une voiture, on dit qu'il a été _______ par le véhicule.",
+            "options": [
+                "percuté",
+                "approché",
+                "soulevé",
+                "ramassé"
+            ],
+            "answer": "percuté"
+        },
+        {
+            "question_number": 17,
+            "question": "Dans un moment de _______, une personne peut se sentir incapable de résoudre un problème.",
+            "options": [
+                "désespoir",
+                "paix",
+                "joie",
+                "calme"
+            ],
+            "answer": "désespoir"
+        },
+        {
+            "question_number": 18,
+            "question": "Quand on se sent sans ressources et incapable d'agir, on éprouve de l'_______.",
+            "options": [
+                "impuissance",
+                "équilibre",
+                "agitation",
+                "espoir"
+            ],
+            "answer": "impuissance"
+        },
+        {
+            "question_number": 19,
+            "question": "Les élèves ont oublié de _______ leurs devoirs à la maison, ce qui a causé des retards dans la remise des travaux pour toute la classe.",
+            "options": [
+                "ramener",
+                "agiter",
+                "soulever",
+                "réveiller"
+            ],
+            "answer": "ramener"
+        },
+        {
+            "question_number": 20,
+            "question": "Pour éviter qu’il ne se perde dans la ville inconnue, il est préférable que vous _______ ce visiteur jusqu’à son hôtel avant la tombée de la nuit.",
+            "options": [
+                "raccompagniez",
+                "agitiez",
+                "souleviez",
+                "attendiez"
+            ],
+            "answer": "raccompagniez"
+        },
+        {
+            "question_number": 21,
+            "question": "Bien que la décision d'_______ cet arbre ait été difficile, il était nécessaire de le faire pour préserver la sécurité des habitants du quartier.",
+            "options": [
+                "arracher",
+                "se résigner",
+                "plier",
+                "s’étirer"
+            ],
+            "answer": "arracher"
+        },
+        {
+            "question_number": 22,
+            "question": "Il a dû _______ l’enveloppe pour accéder au document, mais cela a endommagé le contenu qu’il avait promis de livrer en parfait état.",
+            "options": [
+                "déchirer",
+                "soulever",
+                "secouer",
+                "réfléchir"
+            ],
+            "answer": "déchirer"
+        },
+        {
+            "question_number": 23,
+            "question": "_______ cette corde immédiatement, sinon elle risque de causer un accident avec les équipements autour.",
+            "options": [
+                "Lâchez",
+                "Tâtez",
+                "Frisez",
+                "Ramenez"
+            ],
+            "answer": "lâchez"
+        },
+        {
+            "question_number": 24,
+            "question": "Après des heures de recherches infructueuses, le scientifique, dans un geste de frustration mêlée d'espoir, _______ le contenu trouble du récipient, espérant que la turbulence soudaine révèle enfin la vérité cachée de son expérience.",
+            "options": [
+                "agitez",
+                "frissonnez",
+                "pliez",
+                "rampez"
+            ],
+            "answer": "agitez"
+        },
+        {
+            "question_number": 25,
+            "question": "Malgré l'orage qui grondait au loin et les pressions qui s'accumulaient, le visage du maître demeurait _______",
+            "options": [
+                "agité",
+                "désespéré",
+                "serein",
+                "calme"
+            ],
+            "answer": "serein"
+        }
+    ]
+}

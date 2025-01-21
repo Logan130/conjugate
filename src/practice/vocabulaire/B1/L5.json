@@ -1,0 +1,224 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Quel ustensile utilise-t-on pour faire cuire des aliments sur la cuisinière ?",
+            "options": [
+                "poêle",
+                "gratin",
+                "planche à découper",
+                "papillote"
+            ],
+            "answer": "poêle"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle a ajouté une _______ de citron à son verre d'eau pour lui donner une touche de fraîcheur.",
+            "options": [
+                "rondelle",
+                "poêle",
+                "brochette",
+                "arête"
+            ],
+            "answer": "rondelle"
+        },
+        {
+            "question_number": 3,
+            "question": "Lorsque l'on cuit un plat à feu doux pendant longtemps, on fait _______ les ingrédients.",
+            "options": [
+                "frire",
+                "mijoter",
+                "faire revenir",
+                "remuer"
+            ],
+            "answer": "mijoter"
+        },
+        {
+            "question_number": 4,
+            "question": "Quel mot signifie 'faire dorer' les ingrédients, comme des oignons ou de la viande ?",
+            "options": [
+                "faire revenir",
+                "frire",
+                "râper",
+                "assaisonner"
+            ],
+            "answer": "faire revenir"
+        },
+        {
+            "question_number": 5,
+            "question": "Pour éviter que le poisson ne soit plein d'arêtes, il faut le _______.",
+            "options": [
+                "découper",
+                "éplucher",
+                "peler",
+                "assaisonner"
+            ],
+            "answer": "découper"
+        },
+        {
+            "question_number": 6,
+            "question": "Le poisson a été cuit en _______, conservant toute sa saveur et son humidité grâce à l'enveloppe de papier.",
+            "options": [
+                "brochette",
+                "papillote",
+                "gratin",
+                "entamer"
+            ],
+            "answer": "papillote"
+        },
+        {
+            "question_number": 7,
+            "question": "Si l'on souhaite assaisonner un plat, on doit y ajouter des _______ comme le thym, le romarin, le basilic et le persil.",
+            "options": [
+                "herbes",
+                "arêtes",
+                "poulets",
+                "poêles"
+            ],
+            "answer": "herbes"
+        },
+        {
+            "question_number": 8,
+            "question": "Quand on prépare un repas, il est important de _______ les légumes avant de les cuire.",
+            "options": [
+                "éplucher",
+                "remuer",
+                "frire",
+                "verser"
+            ],
+            "answer": "éplucher"
+        },
+        {
+            "question_number": 9,
+            "question": "Lorsque vous préparez une soupe, vous devez souvent _______ les ingrédients pour bien mélanger.",
+            "options": [
+                "remuer",
+                "râper",
+                "éplucher",
+                "peler"
+            ],
+            "answer": "remuer"
+        },
+        {
+            "question_number": 10,
+            "question": "Pour préparer une lasagne savoureuse, il est essentiel de _______ le fromage, afin qu'il fonde uniformément et apporte une texture crémeuse et une saveur délicieuse à chaque couche du plat.",
+            "options": [
+                "râper",
+                "éplucher",
+                "frire",
+                "mijoter"
+            ],
+            "answer": "râper"
+        },
+        {
+            "question_number": 11,
+            "question": "Il a _______ un nouveau pot de confiture de fraise, prêt à l'étaler sur sa tartine du matin.",
+            "options": [
+                "entamé",
+                "épluché",
+                "gratiné",
+                "mijoté"
+            ],
+            "answer": "entamé"
+        },
+        {
+            "question_number": 12,
+            "question": "Quand vous mangez des fruits de mer, il faut être attentif aux _______ qui peuvent rester dans le plat.",
+            "options": [
+                "arêtes",
+                "rondelles",
+                "brochettes",
+                "épluchures"
+            ],
+            "answer": "arêtes"
+        },
+        {
+            "question_number": 13,
+            "question": "Lors de la préparation d'un repas, on peut utiliser une _______ pour couper les ingrédients.",
+            "options": [
+                "planche à découper",
+                "poêle",
+                "papillote",
+                "gratin"
+            ],
+            "answer": "planche à découper"
+        },
+        {
+            "question_number": 14,
+            "question": "Pour cuire des aliments rapidement, on peut utiliser un _______ à micro-ondes.",
+            "options": [
+                "four",
+                "poêle",
+                "gratin",
+                "planche"
+            ],
+            "answer": "four"
+        },
+        {
+            "question_number": 15,
+            "question": "Si l'on parle de quelque chose de manière _______ et non littérale, on utilise une expression _______.",
+            "options": [
+                "figurée",
+                "métaphorique",
+                "lente",
+                "soigneuse"
+            ],
+            "answer": "figurée"
+        },
+        {
+            "question_number": 16,
+            "question": "Il est important de préparer les repas _______ pour éviter les accidents dans la cuisine.",
+            "options": [
+                "soigneusement",
+                "lentement",
+                "vitesse",
+                "grossièrement"
+            ],
+            "answer": "soigneusement"
+        },
+        {
+            "question_number": 17,
+            "question": "Un _______ est souvent utilisé pour faire cuire des aliments en couches, recouverts de fromage fondu.",
+            "options": [
+                "gratin",
+                "brochette",
+                "rondelle",
+                "poêle"
+            ],
+            "answer": "gratin"
+        },
+        {
+            "question_number": 18,
+            "question": "Dans de nombreux pays, les gens utilisent des _______ pour cuisiner de la viande ou des légumes sur un feu ouvert.",
+            "options": [
+                "brochettes",
+                "papillotes",
+                "poêles",
+                "grillades"
+            ],
+            "answer": "brochettes"
+        },
+        {
+            "question_number": 19,
+            "question": "Il est important de _______ les aliments pour éviter qu'ils ne collent dans la poêle.",
+            "options": [
+                "assaisonner",
+                "mijoter",
+                "remuer",
+                "verser"
+            ],
+            "answer": "remuer"
+        },
+        {
+            "question_number": 20,
+            "question": "On peut _______ de l'huile d'olive dans un verre ou une bouteille pour l'utiliser dans la cuisine.",
+            "options": [
+                "verser",
+                "peler",
+                "mijoter",
+                "éplucher"
+            ],
+            "answer": "verser"
+        }
+    ]
+}

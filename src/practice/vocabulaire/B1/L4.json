@@ -1,0 +1,312 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Quel outil utilise-t-on pour creuser un trou dans la terre ?",
+            "options": [
+                "bêche",
+                "serre",
+                "brouette",
+                "scie"
+            ],
+            "answer": "bêche"
+        },
+        {
+            "question_number": 2,
+            "question": "Pour planter des graines, on doit les _______ dans le sol.",
+            "options": [
+                "récolter",
+                "semer",
+                "arracher",
+                "visser"
+            ],
+            "answer": "semer"
+        },
+        {
+            "question_number": 3,
+            "question": "Pour faire pousser des plantes, on peut les mettre dans une _______.",
+            "options": [
+                "serre",
+                "moquette",
+                "brouette",
+                "pelle"
+            ],
+            "answer": "serre"
+        },
+        {
+            "question_number": 4,
+            "question": "Un _______ est utilisé pour pousser des objets lourds, comme la terre ou les plantes.",
+            "options": [
+                "serre",
+                "brouette",
+                "scie",
+                "tournevis"
+            ],
+            "answer": "brouette"
+        },
+        {
+            "question_number": 5,
+            "question": "Il a brandi sa _______ pour couper le bois, la lame scintillant brièvement sous le soleil.",
+            "options": [
+                "hache",
+                "scie",
+                "tournevis",
+                "clou"
+            ],
+            "answer": "hache"
+        },
+        {
+            "question_number": 6,
+            "question": "Un _______ sert à visser et dévisser les vis.",
+            "options": [
+                "tournevis",
+                "pince",
+                "brouette",
+                "interrupteur"
+            ],
+            "answer": "tournevis"
+        },
+        {
+            "question_number": 7,
+            "question": "Il a utilisé une perceuse pour _______ un trou dans le mur, afin d'y installer un étagère.",
+            "options": [
+                "clouer",
+                "percer",
+                "semérer",
+                "tordre"
+            ],
+            "answer": "semérer"
+        },
+        {
+            "question_number": 8,
+            "question": "Le _______ est utilisé pour ajuster la pression d'eau dans un évier.",
+            "options": [
+                "robinet",
+                "interrupteur",
+                "priser",
+                "rallonge"
+            ],
+            "answer": "robinet"
+        },
+        {
+            "question_number": 9,
+            "question": "Il est facile de se _______ quand on est dans un endroit très bondé.",
+            "options": [
+                "débarrasser",
+                "griller",
+                "coinçer",
+                "grincer"
+            ],
+            "answer": "coinçer"
+        },
+        {
+            "question_number": 10,
+            "question": "Si l'électricité ne fonctionne pas, on peut avoir un _______.",
+            "options": [
+                "court-circuit",
+                "clou",
+                "rallonge",
+                "grillage"
+            ],
+            "answer": "court-circuit"
+        },
+        {
+            "question_number": 11,
+            "question": "Pour enlever une tache de vin sur un tissu, on utilise un _______.",
+            "options": [
+                "détachant",
+                "brouette",
+                "rallonge",
+                "tuyau"
+            ],
+            "answer": "détachant"
+        },
+        {
+            "question_number": 12,
+            "question": "On utilise une _______ pour percer un petit trou dans un mur.",
+            "options": [
+                "bêche",
+                "scie",
+                "perceuse",
+                "clou"
+            ],
+            "answer": "perceuse"
+        },
+        {
+            "question_number": 13,
+            "question": "Elle a dû _______ vigoureusement la tache sur le tissu pour la faire disparaître complètement.",
+            "options": [
+                "frotter",
+                "découper",
+                "griller",
+                "inonder"
+            ],
+            "answer": "frotter"
+        },
+        {
+            "question_number": 14,
+            "question": "La _______ située près de la porte ne fonctionne plus, il faudra la réparer avant de pouvoir brancher l'appareil.",
+            "options": [
+                "prise",
+                "tuyau",
+                "bêche",
+                "robinet"
+            ],
+            "answer": "prise"
+        },
+        {
+            "question_number": 15,
+            "question": "Quand on fait des réparations à la maison, on garde les outils dans une _______.",
+            "options": [
+                "boîte à outils",
+                "serre",
+                "brouette",
+                "pelle"
+            ],
+            "answer": "boîte à outils"
+        },
+        {
+            "question_number": 17,
+            "question": "Les animaux ont parfois une grande capacité à _______ des comportements des autres.",
+            "options": [
+                "imiter",
+                "tordre",
+                "arracher",
+                "frotter"
+            ],
+            "answer": "imiter"
+        },
+        {
+            "question_number": 18,
+            "question": "Une fois que le meuble est assemblé, il est important de _______ les vis pour que tout soit bien fixé.",
+            "options": [
+                "visser",
+                "scier",
+                "tordre",
+                "clouer"
+            ],
+            "answer": "visser"
+        },
+        {
+            "question_number": 19,
+            "question": "Pour faire pousser des plantes dans un jardin, on utilise souvent de _______ pour les nourrir.",
+            "options": [
+                "engrais",
+                "pousser",
+                "pince",
+                "vis"
+            ],
+            "answer": "engrais"
+        },
+        {
+            "question_number": 20,
+            "question": "Il a dû _______ le clou dans le bois avec un marteau pour fixer solidement la planche.",
+            "options": [
+                "enfoncer",
+                "scier",
+                "clouer",
+                "visser"
+            ],
+            "answer": "enfoncer"
+        },
+        {
+            "question_number": 21,
+            "question": "Après avoir utilisé un tournevis, on doit toujours _______ les vis pour les garder fermement en place.",
+            "options": [
+                "visser",
+                "frotter",
+                "tordre",
+                "arrêter"
+            ],
+            "answer": "visser"
+        },
+        {
+            "question_number": 22,
+            "question": "Quand on fait du bricolage, il faut toujours avoir un _______ à portée de main.",
+            "options": [
+                "tournevis",
+                "clou",
+                "chiffon",
+                "ampoule"
+            ],
+            "answer": "tournevis"
+        },
+        {
+            "question_number": 23,
+            "question": "Elle a accidentellement _______ son verre de vin sur la table, provoquant un petit désordre.",
+            "options": [
+                "arrêté",
+                "renversé",
+                "réparé",
+                "grillé"
+            ],
+            "answer": "renversé"
+        },
+        {
+            "question_number": 24,
+            "question": "Le _______ de la cuisine fuit, laissant l'eau s'écouler lentement sur le plan de travail.",
+            "options": [
+                "scie",
+                "pelle",
+                "bêche",
+                "robinet"
+            ],
+            "answer": "robinet"
+        },
+        {
+            "question_number": 25,
+            "question": "Il a utilisé une _______ pour saisir fermement le petit objet et le retirer de l'endroit difficile d'accès.",
+            "options": [
+                "ouvre-boîte",
+                "pince",
+                "tournevis",
+                "scie"
+            ],
+            "answer": "ouvre-boîte"
+        },
+        {
+            "question_number": 26,
+            "question": "Les plantes ont besoin d’eau pour _______ et grandir.",
+            "options": [
+                "pousser",
+                "semer",
+                "récolter",
+                "tordre"
+            ],
+            "answer": "pousser"
+        },
+        {
+            "question_number": 28,
+            "question": "Pour réparer un appareil électrique, il faut parfois _______ un câble qui est cassé.",
+            "options": [
+                "reconnecter",
+                "enfoncer",
+                "percer",
+                "couper"
+            ],
+            "answer": "reconnecter"
+        },
+        {
+            "question_number": 29,
+            "question": "Un _______ est utilisé pour fermer un tiroir ou une porte.",
+            "options": [
+                "serrure",
+                "pince",
+                "vis",
+                "clou"
+            ],
+            "answer": "serrure"
+        },
+        {
+            "question_number": 30,
+            "question": "Elle a dû _______ la rue rapidement pour éviter que le feu ne passe au rouge.",
+            "options": [
+                "débarrasser",
+                "traverser",
+                "renverser",
+                "clouer"
+            ],
+            "answer": "traverser"
+        }
+    ]
+}

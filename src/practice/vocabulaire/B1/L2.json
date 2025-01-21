@@ -1,0 +1,279 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "La figure géométrique ayant quatre côtés égaux et des angles droits est un _______ .",
+            "options": [
+                "cercle",
+                "carré",
+                "triangle",
+                "losange"
+            ],
+            "answer": "carré"
+        },
+        {
+            "question_number": 2,
+            "question": "La France métropolitaine est souvent décrite comme ayant la forme d'un _______, en raison de ses six côtés qui délimitent son territoire.",
+            "options": [
+                "cercle",
+                "carré",
+                "triangle",
+                "hexagone"
+            ],
+            "answer": "hexagone"
+        },
+        {
+            "question_number": 3,
+            "question": "Le _______ d’un cercle est la distance autour de celui-ci.",
+            "options": [
+                "diamètre",
+                "rayon",
+                "circonférence",
+                "angle"
+            ],
+            "answer": "circonférence"
+        },
+        {
+            "question_number": 4,
+            "question": "Le _______ d’un cercle passe par son centre et mesure deux fois le rayon.",
+            "options": [
+                "rayon",
+                "diamètre",
+                "angle",
+                "pyramide"
+            ],
+            "answer": "diamètre"
+        },
+        {
+            "question_number": 5,
+            "question": "Le _______ est une figure géométrique à quatre côtés de même longueur, avec des angles opposés égaux et des diagonales qui se coupent perpendiculairement.",
+            "options": [
+                "cercle",
+                "losange",
+                "hexagone",
+                "rectangle"
+            ],
+            "answer": "losange"
+        },
+        {
+            "question_number": 7,
+            "question": "Un _______ a des côtés opposés parallèles et des angles droits.",
+            "options": [
+                "cercle",
+                "rectangle",
+                "pyramide",
+                "triangle"
+            ],
+            "answer": "rectangle"
+        },
+        {
+            "question_number": 8,
+            "question": "Dans l'Odyssée, Ulysse se trouve souvent prisonnier d'un _______ vicieux, où chaque tentative de fuite semble le ramener au même point, rendant son voyage encore plus éprouvant.",
+            "options": [
+                "hexagone",
+                "ovale",
+                "cercle",
+                "losange"
+            ],
+            "answer": "cercle"
+        },
+        {
+            "question_number": 9,
+            "question": "Un _______ est une forme géométrique similaire à un cercle, mais allongée, ayant deux axes de symétrie de longueurs différentes.",
+            "options": [
+                "rond",
+                "triangle",
+                "rectangle",
+                "ovale"
+            ],
+            "answer": "ovale"
+        },
+        {
+            "question_number": 10,
+            "question": "La _______ de responsabilités dans cette entreprise est clairement définie, avec des rôles de plus en plus spécialisés à mesure que l'on monte dans la hiérarchie.",
+            "options": [
+                "hexagone",
+                "pyramide",
+                "triangle",
+                "carre"
+            ],
+            "answer": "pyramide"
+        },
+        {
+            "question_number": 11,
+            "question": "Les deux murs sont _______, formant un angle droit à l'intersection.",
+            "options": [
+                "angles",
+                "cercle",
+                "rayons",
+                "pyramides"
+            ],
+            "answer": "perpendiculaires"
+        },
+        {
+            "question_number": 12,
+            "question": "Les lignes qui ne se rencontrent jamais sont dites _______.",
+            "options": [
+                "parallèles",
+                "obliques",
+                "coupées",
+                "convergentes"
+            ],
+            "answer": "parallèles"
+        },
+        {
+            "question_number": 13,
+            "question": "L'______ est la distance entre le centre d'un cercle et n'importe quel point du cercle.",
+            "options": [
+                "rayon",
+                "diamètre",
+                "angle",
+                "circonférence"
+            ],
+            "answer": "rayon"
+        },
+        {
+            "question_number": 14,
+            "question": "Quand deux lignes se croisent, on dit qu'elles se _______ .",
+            "options": [
+                "brisent",
+                "coupent",
+                "parallélisent",
+                "rencontrent"
+            ],
+            "answer": "couper"
+        },
+        {
+            "question_number": 16,
+            "question": "Pendant la guerre froide, la ______ d'influence des États-Unis et de l'Union soviétique s'étendait sur le monde entier, chaque superpuissance cherchant à étendre son contrôle politique, économique et militaire.",
+            "options": [
+                "sphère",
+                "cercle",
+                "triangle",
+                "losange"
+            ],
+            "answer": "sphère"
+        },
+        {
+            "question_number": 17,
+            "question": "La sculpture était faite de _______ blanc, détaillant finement les formes humaines avec une précision impressionnante.",
+            "options": [
+                "acier",
+                "béton",
+                "marbre",
+                "pierre"
+            ],
+            "answer": "marbre"
+        },
+        {
+            "question_number": 17,
+            "question": "Le _______ est couramment utilisé dans la construction en raison de sa résistance et de sa capacité à prendre des formes variées, adaptées aux besoins architecturaux.",
+            "options": [
+                "acier",
+                "béton",
+                "marbre",
+                "pierre"
+            ],
+            "answer": "béton"
+        },
+        {
+            "question_number": 18,
+            "question": "Lors de la cérémonie, la _______ a été grandiose, avec de nombreuses festivités.",
+            "options": [
+                "noce",
+                "pyramide",
+                "pierre",
+                "gant"
+            ],
+            "answer": "noce"
+        },
+        {
+            "question_number": 20,
+            "question": "Le _______ est l'acte de tuer quelqu'un délibérément, et il est puni par la loi dans presque tous les systèmes judiciaires du monde.",
+            "options": [
+                "meurtre",
+                "accusation",
+                "examen",
+                "doute"
+            ],
+            "answer": "meurtre"
+        },
+        {
+            "question_number": 21,
+            "question": "L'_______ est un alliage de fer et de carbone, utilisé principalement dans la construction, l'industrie et la fabrication d'outils en raison de sa résistance et de sa durabilité.",
+            "options": [
+                "pyramide",
+                "acier",
+                "marbre",
+                "velours"
+            ],
+            "answer": "acier"
+        },
+        {
+            "question_number": 21,
+            "question": "Le _______ est un tissu doux et luxueux, caractérisé par sa texture dense et veloutée, souvent utilisé dans la confection de vêtements élégants ou de tissus d'ameublement.",
+            "options": [
+                "pyramide",
+                "acier",
+                "marbre",
+                "velours"
+            ],
+            "answer": "velours"
+        },
+        {
+            "question_number": 23,
+            "question": "Les personnes _______ sont toujours prêtes à aider les autres.",
+            "options": [
+                "généreuses",
+                "injustes",
+                "dures",
+                "méchantes"
+            ],
+            "answer": "généreuses"
+        },
+        {
+            "question_number": 24,
+            "question": "Il a tenté de _______ le silence en posant une question directe, mais personne n'a répondu.",
+            "options": [
+                "briser",
+                "pousser",
+                "casser",
+                "enfoncer"
+            ],
+            "answer": "briser"
+        },
+        {
+            "question_number": 25,
+            "question": "Il a appris à sculpter le bois avec une grande précision, transformant de simples morceaux en œuvres d'art impressionnantes.",
+            "options": [
+                "toucher",
+                "briser",
+                "sculpter",
+                "casser"
+            ],
+            "answer": "touché"
+        },
+        {
+            "question_number": 26,
+            "question": "Elle a essayé de _______ son ami en lui offrant des paroles douces et en restant à ses côtés dans ce moment difficile.",
+            "options": [
+                "réconforter",
+                "accuser",
+                "attendrir",
+                "soigner"
+            ],
+            "answer": "réconforter"
+        },
+        {
+            "question_number": 30,
+            "question": "Le _______ de la question est de savoir si les ressources seront suffisantes pour mener à bien ce projet ambitieux.",
+            "options": [
+                "nerf",
+                "plan",
+                "accusation",
+                "touché"
+            ],
+            "answer": "nerf"
+        }
+    ]
+}

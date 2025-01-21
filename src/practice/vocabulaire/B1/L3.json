@@ -1,0 +1,301 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Son regard était _______, sans éclat, trahissant la fatigue et la lassitude qui l'envahissaient.",
+            "options": [
+                "éblouissante",
+                "brillante",
+                "terne",
+                "éclatante"
+            ],
+            "answer": "terne"
+        },
+        {
+            "question_number": 2,
+            "question": "Avant de préparer le gâteau, il faut _______ le sucre glace pour éviter les impuretés et garantir une texture fine.",
+            "options": [
+                "éclat",
+                "tamiser",
+                "rayon",
+                "clignoter"
+            ],
+            "answer": "tamiser"
+        },
+        {
+            "question_number": 3,
+            "question": "Un teint _______ peut indiquer que quelqu’un est malade ou fatigué.",
+            "options": [
+                "blafard",
+                "éclatant",
+                "vibrant",
+                "chatoyant"
+            ],
+            "answer": "blafard"
+        },
+        {
+            "question_number": 4,
+            "question": "L'eau de cette rivière est si _______ qu’on peut voir jusqu'au fond.",
+            "options": [
+                "limpide",
+                "opaque",
+                "trouble",
+                "pénombre"
+            ],
+            "answer": "limpide"
+        },
+        {
+            "question_number": 5,
+            "question": "La pièce est trop _______ pour que je puisse y lire.",
+            "options": [
+                "éclairée",
+                "brillante",
+                "obscure",
+                "lumineuse"
+            ],
+            "answer": "obscure"
+        },
+        {
+            "question_number": 6,
+            "question": "Cette vitre est tellement _______ qu’on ne voit même pas à travers.",
+            "options": [
+                "transparente",
+                "opaque",
+                "lumineuse",
+                "clairvoyante"
+            ],
+            "answer": "opaque"
+        },
+        {
+            "question_number": 7,
+            "question": "La vision était _______, comme si un voile invisible couvrait ses yeux, rendant difficile la distinction des formes autour d'elle.",
+            "options": [
+                "floue",
+                "limpide",
+                "brillante",
+                "éblouissante"
+            ],
+            "answer": "floue"
+        },
+        {
+            "question_number": 8,
+            "question": "Dans la _______, les contours des objets se dessinaient à peine, créant une atmosphère mystérieuse et intrigante.",
+            "options": [
+                "pénombre",
+                "obscurité",
+                "lueur",
+                "faisceau"
+            ],
+            "answer": "pénombre"
+        },
+        {
+            "question_number": 9,
+            "question": "Le paysage était _______, sans couleur ni vie, comme un reflet de la mélancolie qui pesait sur l'endroit.",
+            "options": [
+                "joyeuse",
+                "morne",
+                "rayonnante",
+                "sombre"
+            ],
+            "answer": "morne"
+        },
+        {
+            "question_number": 10,
+            "question": "J’ai allumé la lampe pour _______ la pièce.",
+            "options": [
+                "éclairer",
+                "reflet",
+                "briller",
+                "éblouir"
+            ],
+            "answer": "éclairer"
+        },
+        {
+            "question_number": 11,
+            "question": "Les étoiles _______ dans le ciel nocturne.",
+            "options": [
+                "brillent",
+                "éclairent",
+                "dazzle",
+                "clignotent"
+            ],
+            "answer": "brillent"
+        },
+        {
+            "question_number": 12,
+            "question": "Le diamant est un objet _______ sous l’effet de la lumière.",
+            "options": [
+                "éblouissant",
+                "terne",
+                "flou",
+                "opaque"
+            ],
+            "answer": "éblouissant"
+        },
+        {
+            "question_number": 13,
+            "question": "Un ciel _______ indique généralement qu’il n’y a pas de nuages.",
+            "options": [
+                "limpide",
+                "opaque",
+                "trouble",
+                "flou"
+            ],
+            "answer": "limpide"
+        },
+        {
+            "question_number": 14,
+            "question": "La _______ d'espoir brilla dans ses yeux lorsqu'il apprit la bonne nouvelle.",
+            "options": [
+                "lueur",
+                "pénombre",
+                "brillance",
+                "étincelle"
+            ],
+            "answer": "lueur"
+        },
+        {
+            "question_number": 15,
+            "question": "Le soleil du matin est _______ et doux.",
+            "options": [
+                "rayonnant",
+                "pale",
+                "terne",
+                "morne"
+            ],
+            "answer": "rayonnant"
+        },
+        {
+            "question_number": 16,
+            "question": "Les bijoux _______ sous la lumière du soleil.",
+            "options": [
+                "étincellent",
+                "brillent",
+                "réfléchissent",
+                "flottent"
+            ],
+            "answer": "étincellent"
+        },
+        {
+            "question_number": 18,
+            "question": "La lumière de la lampe était _______, donnant à la pièce une atmosphère étrange et sans chaleur.",
+            "options": [
+                "limpide",
+                "opaque",
+                "trouble",
+                "blafarde"
+            ],
+            "answer": "limpide"
+        },
+        {
+            "question_number": 19,
+            "question": "Le tissu _______ sous la lumière, ses reflets changeant selon l'angle sous lequel on le regardait.",
+            "options": [
+                "contemplait",
+                "éclairait",
+                "chatoyait",
+                "pénétrait"
+            ],
+            "answer": "chatoyait"
+        },
+        {
+            "question_number": 21,
+            "question": "Le collier était orné de pierres chatoyantes, capturant la lumière et créant des éclats de couleur fascinants.",
+            "options": [
+                "pessimistes",
+                "chatoyantes",
+                "ternes",
+                "fluorescentes"
+            ],
+            "answer": "chatoyantes"
+        },
+        {
+            "question_number": 22,
+            "question": "Un _______ de lumière perça l'obscurité, éclairant faiblement le chemin devant nous.",
+            "options": [
+                "faisceau",
+                "carrefour",
+                "radiation",
+                "pénombre"
+            ],
+            "answer": "faisceau"
+        },
+        {
+            "question_number": 23,
+            "question": "Les étoiles _______ dans le ciel semblaient guider les voyageurs perdus, comme des signes lointains de réconfort.",
+            "options": [
+                "clignotantes",
+                "brillantes",
+                "éblouissantes",
+                "éclairantes"
+            ],
+            "answer": "clignotantes"
+        },
+        {
+            "question_number": 24,
+            "question": "Le _______ des montagnes dans l'eau était si parfait qu'on aurait cru que le lac était un miroir géant.",
+            "options": [
+                "reflet",
+                "faisceau",
+                "rayon",
+                "chatoyant"
+            ],
+            "answer": "reflet"
+        },
+        {
+            "question_number": 25,
+            "question": "Elle avait un sourire _______ qui illuminait toute la pièce.",
+            "options": [
+                "morne",
+                "rayonnant",
+                "terne",
+                "flou"
+            ],
+            "answer": "rayonnant"
+        },
+        {
+            "question_number": 26,
+            "question": "Cet objet est trop _______ pour le voir dans l’obscurité.",
+            "options": [
+                "blafarde",
+                "lumineux",
+                "terne",
+                "flou"
+            ],
+            "answer": "terne"
+        },
+        {
+            "question_number": 27,
+            "question": "Ses yeux _______ fréquemment, comme s'ils ne pouvaient pas s'habituer à la luminosité de la pièce.",
+            "options": [
+                "flottent",
+                "clignotent",
+                "chatoyent",
+                "brillent"
+            ],
+            "answer": "clignotent"
+        },
+        {
+            "question_number": 28,
+            "question": "La mer a une couleur _______ sous le ciel bleu.",
+            "options": [
+                "noir",
+                "verte",
+                "pâle",
+                "brillante"
+            ],
+            "answer": "brillante"
+        },
+        {
+            "question_number": 29,
+            "question": "Les bougies _______ dans la pièce pendant la soirée.",
+            "options": [
+                "éclairent",
+                "clignotent",
+                "flottent",
+                "chatoyent"
+            ],
+            "answer": "clignotent"
+        }
+    ]
+}
