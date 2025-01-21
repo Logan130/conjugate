@@ -1,0 +1,334 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Malgré son apparence _______, elle dégageait une assurance qui intriguait tous ceux qui la rencontraient.",
+            "options": [
+                "svelte",
+                "gauche",
+                "harmonieux",
+                "infirme"
+            ],
+            "answer": "gauche"
+        },
+        {
+            "question_number": 2,
+            "question": "Les couturiers s'accordent à dire que la coupe de cette robe est conçue pour _______ la silhouette.",
+            "options": [
+                "envelopper",
+                "mettre en valeur",
+                "accuser",
+                "cerner"
+            ],
+            "answer": "mettre en valeur"
+        },
+        {
+            "question_number": 3,
+            "question": "L'orateur, malgré la controverse entourant ses propos, maintint une _______ calme et mesurée, un charme subtil qui semblait paradoxalement renforcer la force de sa position.",
+            "options": [
+                "allure",
+                "sosie",
+                "rien",
+                "bouton"
+            ],
+            "answer": "allure"
+        },
+        {
+            "question_number": 4,
+            "question": "Le brouillard épais _______ le phare solitaire, non seulement l'obscurcissant physiquement, mais créant aussi une aura mystérieuse qui exacerba l'isolement palpable ressenti par ses occupants pendant cette nuit orageuse.",
+            "options": [
+                "accuse",
+                "enveloppait",
+                "boite",
+                "grimace"
+            ],
+            "answer": "enveloppait"
+        },
+        {
+            "question_number": 5,
+            "question": "Bien qu'elle soit extrêmement _______, son entraînement intensif lui confère une force insoupçonnée.",
+            "options": [
+                "menu",
+                "bien bâti",
+                "fluet",
+                "joufflu"
+            ],
+            "answer": "fluet"
+        },
+        {
+            "question_number": 6,
+            "question": "Son visage _______ par la maladie le rendait presque méconnaissable, contrastant avec son allure d'antan.",
+            "options": [
+                "ridé",
+                "émacié",
+                "cerner",
+                "accusé"
+            ],
+            "answer": "émacié"
+        },
+        {
+            "question_number": 7,
+            "question": "Son explication de l'accident, d'abord fluide et convaincante, commença à _______ sous le poids des questions insistantes.",
+            "options": [
+                "canne",
+                "grimace",
+                "boiter",
+                "sosie"
+            ],
+            "answer": "boiter"
+        },
+        {
+            "question_number": 8,
+            "question": "Son _______  de fatigue était évident après une nuit blanche à travailler sur un projet urgent.",
+            "options": [
+                "rien",
+                "allure",
+                "patte",
+                "cerne"
+            ],
+            "answer": "cerne"
+        },
+        {
+            "question_number": 9,
+            "question": "La vieillesse se manifestait par de nombreuses _______ autour de ses yeux, témoins de nombreuses années.",
+            "options": [
+                "pattes d’oie",
+                "goutte",
+                "acné",
+                "rides"
+            ],
+            "answer": "rides"
+        },
+        {
+            "question_number": 10,
+            "question": "Sa joie et son anxiété, aspects _______ d'une même expérience, coexistaient paradoxalement, un conflit incessant et déroutant.",
+            "options": [
+                "jumeaux",
+                "sosies",
+                "fluets",
+                "menus"
+            ],
+            "answer": "jumeaux"
+        },
+        {
+            "question_number": 11,
+            "question": "L'acteur _______ sa fatigue avec des cernes profonds sous les yeux.",
+            "options": [
+                "cerner",
+                "met en valeur",
+                "accuser",
+                "envelopper"
+            ],
+            "answer": "accusait"
+        },
+        {
+            "question_number": 12,
+            "question": "Son teint était si pâle qu'un petit _______  était très visible sur son visage.",
+            "options": [
+                "ride",
+                "acné",
+                "bouton",
+                "goutte"
+            ],
+            "answer": "bouton"
+        },
+        {
+            "question_number": 13,
+            "question": "La danseuse avait une _______  incroyable; elle se mouvait avec grâce et légèreté.",
+            "options": [
+                "infirmité",
+                "allure",
+                "grimace",
+                "canne"
+            ],
+            "answer": "allure"
+        },
+        {
+            "question_number": 14,
+            "question": "Malgré ses efforts, son discours restait _______, sans emprise ni émotion.",
+            "options": [
+                "svelte",
+                "quelconque",
+                "bien bâti",
+                "harmonieux"
+            ],
+            "answer": "quelconque"
+        },
+        {
+            "question_number": 15,
+            "question": "La maladie avait laissé son corps _______, mais son esprit restait vif et plein d'entrain.",
+            "options": [
+                "menu",
+                "frêle",
+                "svelte",
+                "joufflu"
+            ],
+            "answer": "frêle"
+        },
+        {
+            "question_number": 16,
+            "question": "Avec l'âge, les traits de son visage se sont _______, surtout au niveau des joues.",
+            "options": [
+                "accusé",
+                "ridé",
+                "cerner",
+                "menu"
+            ],
+            "answer": "accusé"
+        },
+        {
+            "question_number": 17,
+            "question": "Son regard, _______ sur la réussite du concurrent, révélait plus une envie jalouse qu'une véritable ambition.",
+            "options": [
+                "boitant",
+                "louchant",
+                "cernant",
+                "accusant"
+            ],
+            "answer": "louchant"
+        },
+        {
+            "question_number": 18,
+            "question": "La présence d'_______  sur son visage était une véritable source de complexe pour l'adolescente.",
+            "options": [
+                "acné",
+                "rides",
+                "pattes d’oie",
+                "bouton"
+            ],
+            "answer": "acné"
+        },
+        {
+            "question_number": 19,
+            "question": "Une simple _______ d'eau tombait du robinet mal fermé, provoquant un léger bruit agaçant.",
+            "options": [
+                "canne",
+                "goutte",
+                "cerne",
+                "grimace"
+            ],
+            "answer": "goutte"
+        },
+        {
+            "question_number": 20,
+            "question": "Le décor semblait _______, mais cette perfection apparente cachait une structure fragile, comme un équilibre précaire sur le point de s'effondrer.",
+            "options": [
+                "gauche",
+                "harmonieux",
+                "quelconque",
+                "svelte"
+            ],
+            "answer": "harmonieux"
+        },
+        {
+            "question_number": 21,
+            "question": "Son _______, due à un accident, l'empêchait de courir comme ses amis.",
+            "options": [
+                "infirmité",
+                "allure",
+                "grimace",
+                "sosie"
+            ],
+            "answer": "infirmité"
+        },
+        {
+            "question_number": 22,
+            "question": "Il ne pouvait cacher sa douleur, sa _______ le trahissait à chaque mouvement.",
+            "options": [
+                "cerne",
+                "grimace",
+                "allure",
+                "bouton"
+            ],
+            "answer": "grimace"
+        },
+        {
+            "question_number": 23,
+            "question": "Le vieil homme se déplaçait avec une _______, symbole de ses nombreuses années.",
+            "options": [
+                "canne",
+                "grimace",
+                "goutte",
+                "bouton"
+            ],
+            "answer": "canne"
+        },
+        {
+            "question_number": 24,
+            "question": "Son _______ de la langue française était remarquable, il s'exprimait avec une grande aisance.",
+            "options": [
+                "maîtrise",
+                "méconnaissance",
+                "habitude",
+                "pratique"
+            ],
+            "answer": "maîtrise"
+        },
+        {
+            "question_number": 25,
+            "question": "Le rapport tendait à _______ les éléments les plus controversés, ce qui mettait en question son objectivité et laissait planer un doute sur sa crédibilité globale..",
+            "options": [
+                "susciter",
+                "réprimer",
+                "ignorer",
+                "occulter"
+            ],
+            "answer": "occulter"
+        },
+        {
+            "question_number": 26,
+            "question": "La propagande, insidieusement, _______ la perception de la réalité, remplaçant des vérités complexes par des clichés simplificateurs et fallacieux.",
+            "options": [
+                "révèle",
+                "masque",
+                "altère",
+                "occulte"
+            ],
+            "answer": "altère"
+        },
+        {
+            "question_number": 27,
+            "question": "Malgré le temps, ses souvenirs sont restés _______, comme gravés dans sa mémoire.",
+            "options": [
+                "flous",
+                "persistants",
+                "évanescents",
+                "labiles"
+            ],
+            "answer": "persistants"
+        },
+        {
+            "question_number": 28,
+            "question": "Il ne faut pas _______ l'importance des détails dans cette enquête, ils pourraient être cruciaux.",
+            "options": [
+                "négliger",
+                "exagérer",
+                "amplifier",
+                "souligner"
+            ],
+            "answer": "négliger"
+        },
+        {
+            "question_number": 29,
+            "question": "Ses arguments étaient si _______ qu'il était difficile de ne pas être d'accord avec lui.",
+            "options": [
+                "ambigus",
+                "controversés",
+                "irréfutables",
+                "équivoques"
+            ],
+            "answer": "irréfutables"
+        },
+        {
+            "question_number": 30,
+            "question": "La musique _______ l'atmosphère de la pièce, rendant le moment encore plus spécial.",
+            "options": [
+                "dénature",
+                "sublime",
+                "détruit",
+                "compromet"
+            ],
+            "answer": "sublime"
+        }
+    ]
+}

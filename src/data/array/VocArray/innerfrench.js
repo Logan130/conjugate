@@ -11,6 +11,7 @@ export const InnerFrench = [
         words: InnerFrenchE01,
         tag: "Other",
         book: "InnerFrench",
+        // test: "taxi/B2/D8.json", 
     },
     {
         unit: "E04 La théorie du genre",

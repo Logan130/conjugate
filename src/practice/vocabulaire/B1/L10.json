@@ -1,0 +1,567 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Malgré son allure _______, il s'avéra être un négociateur redoutable, capable de renverser les situations.",
+            "options": [
+                "renfermé",
+                "audacieux",
+                "timide",
+                "belliqueux"
+            ],
+            "answer": "renfermé"
+        },
+        {
+            "question_number": 2,
+            "question": "Son comportement _______ et ses revirements soudains rendaient toute collaboration particulièrement éprouvante.",
+            "options": [
+                "capricieux",
+                "stable",
+                "prévisible",
+                "constant"
+            ],
+            "answer": "capricieux"
+        },
+        {
+            "question_number": 3,
+            "question": "Elle refusait de se laisser influencer, démontrant un esprit _______ face à la pression sociale.",
+            "options": [
+                "malléable",
+                "résolu",
+                "influençable",
+                "velléitaire"
+            ],
+            "answer": "résolu"
+        },
+        {
+            "question_number": 4,
+            "question": "Ses projets, souvent perçus comme _______ par ses collègues, témoignaient d'une créativité singulière.",
+            "options": [
+                "banals",
+                "extravagants",
+                "modestes",
+                "ordinaires"
+            ],
+            "answer": "extravagants"
+        },
+        {
+            "question_number": 5,
+            "question": "Sa décision, prise de manière _______, la mena à des complications inattendues, démontrant son manque habituel de réflexion face aux enjeux importants de sa vie professionnelle.",
+            "options": [
+                "impétueuse",
+                "calme",
+                "indolente",
+                "lente"
+            ],
+            "answer": "impétueuse"
+        },
+        {
+            "question_number": 6,
+            "question": "Il était _______ de tout scrupule, n'hésitant jamais à franchir les limites pour atteindre ses ambitions.",
+            "options": [
+                "dénué",
+                "doté",
+                "rempli",
+                "gorgé"
+            ],
+            "answer": "dénué"
+        },
+        {
+            "question_number": 7,
+            "question": "Sa détermination _______ était impressionnante, aucun obstacle ne semblait pouvoir l'arrêter dans sa quête.",
+            "options": [
+                "tenace",
+                "hésitante",
+                "fragile",
+                "mollasse"
+            ],
+            "answer": "tenace"
+        },
+        {
+            "question_number": 8,
+            "question": "L'artiste menait une vie _______, rejetant les conventions et les normes bourgeoises de son époque.",
+            "options": [
+                "bohème",
+                "austère",
+                "rangée",
+                "conformiste"
+            ],
+            "answer": "bohème"
+        },
+        {
+            "question_number": 9,
+            "question": "Ses amis ont eu le tort de se _______ à sa douceur apparente, ignorant sa véritable nature.",
+            "options": [
+                "fier",
+                "conformer",
+                "confier",
+                "plier"
+            ],
+            "answer": "fier"
+        },
+        {
+            "question_number": 10,
+            "question": "La lenteur de la procédure administrative, couplée à la paperasse incessante, constituait un processus _______ pour tous les demandeurs.",
+            "options": [
+                "commode",
+                "pénible",
+                "simple",
+                "aisé"
+            ],
+            "answer": "pénible"
+        },
+        {
+            "question_number": 11,
+            "question": "Elle était _______ sous des dehors placides : son esprit était en réalité une tempête.",
+            "options": [
+                "émotive",
+                "calme",
+                "réservée",
+                "joyeuse"
+            ],
+            "answer": "émotive"
+        },
+        {
+            "question_number": 12,
+            "question": "Le politicien, connu pour son caractère _______, adoptait une position différente à chaque nouvelle interview.",
+            "options": [
+                "constant",
+                "versatile",
+                "immuable",
+                "stable"
+            ],
+            "answer": "versatile"
+        },
+        {
+            "question_number": 13,
+            "question": "Malgré son apparence _______, il a montré un courage inattendu durant la crise.",
+            "options": [
+                "peureuse",
+                "hardie",
+                "intrépide",
+                "vaillante"
+            ],
+            "answer": "peureuse"
+        },
+        {
+            "question_number": 14,
+            "question": "L’idée qu’il puisse réussir semblait _______ à cause de son manque d’expérience.",
+            "options": [
+                "audacieuse",
+                "absurde",
+                "facile",
+                "plausible"
+            ],
+            "answer": "absurde"
+        },
+        {
+            "question_number": 15,
+            "question": "Ses décisions étaient souvent _______, sans tenir compte des conséquences pour les autres.",
+            "options": [
+                "réfléchies",
+                "impulsives",
+                "méticuleuses",
+                "prudentes"
+            ],
+            "answer": "impulsives"
+        },
+        {
+            "question_number": 16,
+            "question": "L'artiste, loin d'être _______, avait une personnalité très distincte et reconnaissable.",
+            "options": [
+                "quelconque",
+                "spécifique",
+                "identique",
+                "similaire"
+            ],
+            "answer": "quelconque"
+        },
+        {
+            "question_number": 17,
+            "question": "Il était si _______ dans son approche qu'il finissait souvent par repousser ceux qui essayaient de l'aider.",
+            "options": [
+                "opiniâtre",
+                "flexible",
+                "malléable",
+                "ouvert"
+            ],
+            "answer": "opiniâtre"
+        },
+        {
+            "question_number": 18,
+            "question": "Son tempérament _______ le rendait peu apte à gérer des responsabilités majeures.",
+            "options": [
+                "têtu",
+                "adaptable",
+                "conciliant",
+                "accommodant"
+            ],
+            "answer": "têtu"
+        },
+        {
+            "question_number": 19,
+            "question": "L'acteur semblait un peu _______ lorsqu'il parlait, comme absent du monde réel.",
+            "options": [
+                "réaliste",
+                "terre à terre",
+                "rêveur",
+                "rationnel"
+            ],
+            "answer": "rêveur"
+        },
+        {
+            "question_number": 20,
+            "question": "Le roman était dénué de toute forme d'intrigue, le rendant particulièrement _______.",
+            "options": [
+                "captivant",
+                "haletant",
+                "éteint",
+                "palpitant"
+            ],
+            "answer": "éteint"
+        },
+        {
+            "question_number": 22,
+            "question": "Il était si _______ qu'il lui était impossible de prendre la moindre décision.",
+            "options": [
+                "décidé",
+                "indécis",
+                "volontaire",
+                "ferme"
+            ],
+            "answer": "indécis"
+        },
+        {
+            "question_number": 23,
+            "question": "Sa nature _______ l'empêchait de s'investir pleinement dans une relation durable.",
+            "options": [
+                "velléitaire",
+                "constante",
+                "fidèle",
+                "forte"
+            ],
+            "answer": "velléitaire"
+        },
+        {
+            "question_number": 24,
+            "question": "Malgré des menaces _______ et peu convaincantes proférées par les manifestants, le gouvernement, lucide sur la portée réelle du mouvement, refusa toute négociation et persista dans sa politique impopulaire.",
+            "options": [
+                "moles",
+                "énergiques",
+                "éteintes",
+                "molles"
+            ],
+            "answer": "molles"
+        },
+        {
+            "question_number": 25,
+            "question": "Il fut critiqué pour son manque d'implication, sa posture _______ traduisant un certain désintérêt.",
+            "options": [
+                "attentive",
+                "nonchalante",
+                "concernée",
+                "engagée"
+            ],
+            "answer": "nonchalante"
+        },
+        {
+            "question_number": 26,
+            "question": "Son tempérament _______ ne le prédisposait pas aux longues heures de travail intellectuel.",
+            "options": [
+                "studieux",
+                "persévérant",
+                "appliqué",
+                "indolent"
+            ],
+            "answer": "indolent"
+        },
+        {
+            "question_number": 27,
+            "question": "Il était généralement perçu comme _______ en raison de son mutisme et de son isolement.",
+            "options": [
+                "social",
+                "grégaire",
+                "renfermé",
+                "extraverti"
+            ],
+            "answer": "renfermé"
+        },
+        {
+            "question_number": 28,
+            "question": "L'explorateur était connu pour son approche _______ face aux défis imprévus.",
+            "options": [
+                "lâche",
+                "intrépide",
+                "timorée",
+                "craintive"
+            ],
+            "answer": "intrépide"
+        },
+        {
+            "question_number": 29,
+            "question": "Son refus de coopérer était perçu par tous comme un _______ de caractère et d'altruisme.",
+            "options": [
+                "travers",
+                "défaut",
+                "avantage",
+                "atout"
+            ],
+            "answer": "défaut"
+        },
+        {
+            "question_number": 30,
+            "question": "Son _______ de vue était totalement justifiée au final, son analyse avait vu juste à tous les niveaux.",
+            "options": [
+                "prévision",
+                "théorie",
+                "intuition",
+                "assertion"
+            ],
+            "answer": "intuition"
+        },
+        {
+            "question_number": 1,
+            "question": "Son attitude _______ contrastait fortement avec le chaos ambiant, gardant son calme en toute situation.",
+            "options": [
+                "emportée",
+                "fébrile",
+                "pondérée",
+                "cassante"
+            ],
+            "answer": "pondérée"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle était réputée pour son caractère _______ et doux, ne blessant jamais personne intentionnellement.",
+            "options": [
+                "paisible",
+                "manipulateur",
+                "orgueilleux",
+                "méprisant"
+            ],
+            "answer": "paisible"
+        },
+        {
+            "question_number": 3,
+            "question": "Ses accès de colère étaient fréquents, son tempérament _______ le rendant difficile à gérer.",
+            "options": [
+                "calme",
+                "emporté",
+                "détendu",
+                "serein"
+            ],
+            "answer": "emporté"
+        },
+        {
+            "question_number": 4,
+            "question": "Le projet avançait à un rythme _______, signe de la nervosité générale de l'équipe.",
+            "options": [
+                "stable",
+                "fébrile",
+                "lent",
+                "mesuré"
+            ],
+            "answer": "fébrile"
+        },
+        {
+            "question_number": 5,
+            "question": "Ses relations étaient souvent brisées par son caractère _______ qui l'empêchait de faire des concessions.",
+            "options": [
+                "flexible",
+                "cassant",
+                "malléable",
+                "conciliant"
+            ],
+            "answer": "cassant"
+        },
+        {
+            "question_number": 6,
+            "question": "Il se révélait être un _______ redoutable, manipulant les autres avec une adresse déconcertante.",
+            "options": [
+                "collaborateur",
+                "manipulateur",
+                "allié",
+                "ami"
+            ],
+            "answer": "manipulateur"
+        },
+        {
+            "question_number": 7,
+            "question": "Ses paroles _______ étaient souvent destinées à humilier les autres et à renforcer son propre ego.",
+            "options": [
+                "bienveillantes",
+                "perverses",
+                "douces",
+                "aimables"
+            ],
+            "answer": "perverses"
+        },
+        {
+            "question_number": 8,
+            "question": "Son _______ était tel qu'il était incapable de reconnaître ses erreurs ou d'accepter la critique.",
+            "options": [
+                "modestie",
+                "humilité",
+                "orgueil",
+                "doute"
+            ],
+            "answer": "orgueil"
+        },
+        {
+            "question_number": 9,
+            "question": "Il avait une manière _______ de s'exprimer, se croyant supérieur aux autres par ses connaissances.",
+            "options": [
+                "humble",
+                "modeste",
+                "orgueilleuse",
+                "accessible"
+            ],
+            "answer": "orgueilleuse"
+        },
+        {
+            "question_number": 10,
+            "question": "Son sourire, faussement amical, cachait un regard _______ qui laissait transparaître son opinion condescendante sur leurs modestes origines sociales et leur manque supposé de raffinement culturel.",
+            "options": [
+                "bienveillant",
+                "méprisant",
+                "aimable",
+                "sympathique"
+            ],
+            "answer": "méprisant"
+        },
+        {
+            "question_number": 11,
+            "question": "Il aimait _______ ses connaissances, agaçant son entourage par son exhibitionnisme intellectuel.",
+            "options": [
+                "cacher",
+                "dissimuler",
+                "étaler",
+                "masquer"
+            ],
+            "answer": "étaler"
+        },
+        {
+            "question_number": 12,
+            "question": "Son _______ de richesse et de succès était une source d'irritation pour ses collaborateurs plus modestes.",
+            "options": [
+                "secret",
+                "discrétion",
+                "étalage",
+                "renoncement"
+            ],
+            "answer": "étalage"
+        },
+        {
+            "question_number": 13,
+            "question": "Son attitude _______ irritait par son obsession des détails et sa prétention intellectuelle.",
+            "options": [
+                "pédante",
+                "humble",
+                "modeste",
+                "accessible"
+            ],
+            "answer": "pédante"
+        },
+        {
+            "question_number": 14,
+            "question": "Son discours, malgré un vocabulaire recherché, s'enlisa rapidement dans une _______ excessive, agaçant son public par l'ostentation inutile de sa propre érudition.",
+            "options": [
+                "simplicité",
+                "humilité",
+                "pédanterie",
+                "générosité"
+            ],
+            "answer": "pédanterie"
+        },
+        {
+            "question_number": 15,
+            "question": "Elle attachait un grand _______ à l'ordre, veillant à ce que tout soit parfaitement en place.",
+            "options": [
+                "dédain",
+                "soin",
+                "désintérêt",
+                "manque"
+            ],
+            "answer": "soin"
+        },
+        {
+            "question_number": 16,
+            "question": "Il _______ beaucoup d'importance à la forme, négligeant parfois le contenu de ses projets.",
+            "options": [
+                "attachait",
+                "détachait",
+                "ignorait",
+                "écartait"
+            ],
+            "answer": "attachait"
+        },
+        {
+            "question_number": 17,
+            "question": "Il était _______ dans son travail, vérifiant chaque détail avec une attention extrême.",
+            "options": [
+                "négligent",
+                "minutieux",
+                "approximatif",
+                "hâtif"
+            ],
+            "answer": "minutieux"
+        },
+        {
+            "question_number": 18,
+            "question": "Son côté _______ le poussait à s'attarder sur des détails insignifiants et à perdre ainsi l'essentiel.",
+            "options": [
+                "précis",
+                "tatillon",
+                "indifférent",
+                "souple"
+            ],
+            "answer": "tatillon"
+        },
+        {
+            "question_number": 19,
+            "question": "Son bureau était d'une apparence _______, avec des piles de papiers partout et une impression générale de chaos.",
+            "options": [
+                "ordonnée",
+                "structurée",
+                "désordonnée",
+                "organisée"
+            ],
+            "answer": "désordonnée"
+        },
+        {
+            "question_number": 20,
+            "question": "Son esprit était _______, chacun de ses devoirs étant listé et préparé à l'avance.",
+            "options": [
+                "désordonné",
+                "confus",
+                "ordonné",
+                "embrouillé"
+            ],
+            "answer": "ordonné"
+        }, 
+        {
+            "question_number": 1,
+            "question": "Son oubli constant de rendez-vous témoignait de son caractère profondément _______ et peu fiable.",
+             "options": ["scrupuleux", "étourdi", "minutieux", "ordonné"],
+            "answer": "étourdi"
+          },
+           {
+            "question_number": 2,
+            "question": "La _______ avec laquelle il traitait ses subordonnés frôlait la cruauté et suscitait l'indignation.",
+            "options": ["bienveillance", "malveillance", "gentillesse", "tendresse"],
+            "answer": "malveillance"
+          },
+          {
+            "question_number": 3,
+            "question": "Son comportement _______ parfois la trahison, manquant cruellement de loyauté envers ses amis.",
+             "options": ["frisait", "excluait", "évitait", "refusait"],
+            "answer": "frisait"
+          },
+          {
+            "question_number": 4,
+            "question": "Son attitude _______ et son manque de courage lors de la crise ont laissé un sentiment de déception amère.",
+            "options": ["hardie", "lâche", "intrépide", "courageuse"],
+            "answer": "lâche"
+          }
+    ]
+}

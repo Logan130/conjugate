@@ -1,0 +1,521 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Il a fait une _______  et doit maintenant marcher avec des ________ jusqu'à la guérison complète.",
+            "options": [
+                "blessure/plâtre",
+                "entorse/béquilles",
+                "morsure/bander",
+                "chute/bandage"
+            ],
+            "answer": "entorse/béquilles"
+        },
+        {
+            "question_number": 2,
+            "question": "Il était si _______ qu'une petite _________ pouvait le faire pleurer, même s'il n'y avait rien de grave.",
+            "options": [
+                "douillet/chute",
+                "sujet/migraine",
+                "indemne/écorchure",
+                "piquer/plaie"
+            ],
+            "answer": "douillet/chute"
+        },
+        {
+            "question_number": 3,
+            "question": "Après s'être ___________ le bras, elle avait un grand ________ à l'endroit où l'accident avait eu lieu.",
+            "options": [
+                "cassé/cicatrice",
+                "cogné/bleu",
+                "bandé/bandage",
+                "tordu/contusion"
+            ],
+            "answer": "cogné/bleu"
+        },
+        {
+            "question_number": 4,
+            "question": "Après une longue journée de travail, il doit ___________ des __________  de dos en s'allongeant au chaud.",
+            "options": [
+                "cicatriser/blessures",
+                "désinfecter/morsures",
+                "soulager/souffrance",
+                "bander/piqûres"
+            ],
+            "answer": "soulager/souffrance"
+        },
+        {
+            "question_number": 5,
+            "question": "Le médecin a dû faire un _______  pour examiner la  ________  de son poignet",
+            "options": [
+                "bandage/chute",
+                "pansement/plaie",
+                "plâtre/cheville",
+                "piqûre/entorse"
+            ],
+            "answer": "plâtre/cheville"
+        },
+        {
+            "question_number": 6,
+            "question": "Apres avoir été mordu par le serpent, sa peau commença à _________ autour de la __________",
+            "options": [
+                "piquer/mouche",
+                "cicatriser/plaie",
+                "saigner/coupure",
+                "enfler/morsure"
+            ],
+            "answer": "enfler/morsure"
+        },
+        {
+            "question_number": 7,
+            "question": "Il a été _______ aux violents _________ et aux nausées dès qu'il faisait trop chaud.",
+            "options": [
+                "sujet/migraines",
+                "blessé/contusions",
+                "bandé/coupures",
+                "pique/morsure"
+            ],
+            "answer": "sujet/migraines"
+        },
+        {
+            "question_number": 8,
+            "question": "Les _______ des insectes lui ont provoqué des rougeurs, la plupart sont bénignes heureusement",
+            "options": [
+                "bosse",
+                "morsures",
+                "piqûres",
+                "entorse"
+            ],
+            "answer": "piqûres"
+        },
+        {
+            "question_number": 9,
+            "question": "Elle s'est _______ le genou en tombant, la ______ va probablement nécessiter des soins.",
+            "options": [
+                "cassé/morsure",
+                "écorché/écorchure",
+                "cogner/boss",
+                "saigner/cicatrice"
+            ],
+            "answer": "écorché/écorchure"
+        },
+        {
+            "question_number": 10,
+            "question": "Après la _______, la ______  devra être nettoyée et désinfectée pour éviter une infection.",
+            "options": [
+                "chute/entorse",
+                "cicatriser/morsure",
+                "piqûre/coupure",
+                "coupure/plaie"
+            ],
+            "answer": "coupure/plaie"
+        },
+        {
+            "question_number": 11,
+            "question": "Malgré la  ________, la sportive  s'est  battue pour finir le jeu ____",
+            "options": [
+                "bosse/enfler",
+                "morsure/saigner",
+                "contusion/indemne",
+                "entorse/bander"
+            ],
+            "answer": "contusion/indemne"
+        },
+        {
+            "question_number": 12,
+            "question": "Une  _______ de _________ peut  empêcher les femmes d'avoir leurs menstruations",
+            "options": [
+                "entorse/règles",
+                "migraine/lumbago",
+                "contusion/entorse",
+                "souffrance/règles"
+            ],
+            "answer": "souffrance/règles"
+        },
+        {
+            "question_number": 13,
+            "question": "Son dos lui fait tellement souffrir qu'elle ne pourra rien faire. C'est ce _________qui la mine",
+            "options": [
+                "morsure",
+                "migraine",
+                "lumbago",
+                "chute"
+            ],
+            "answer": "lumbago"
+        },
+        {
+            "question_number": 14,
+            "question": "Quand elle est angoissée , elle ne peut s'empêcher de ________ le pansement, c'est un toc!",
+            "options": [
+                "casser",
+                "tordre",
+                "bander",
+                "désinfecter"
+            ],
+            "answer": "tordre"
+        },
+        {
+            "question_number": 15,
+            "question": "La meilleure solution est  de faire un _______  bien propre autour de son  _________",
+            "options": [
+                "bandage/bosse",
+                "cicatrice/cheville",
+                "pansement/plaie",
+                "béquille/bleu"
+            ],
+            "answer": "pansement/plaie"
+        },
+        {
+            "question_number": 17,
+            "question": "L'anecdote, lancée avec légèreté comme une ______ sur un repas, a néanmoins semé le doute parmi les invités, modifiant subtilement leur perception des enjeux.",
+            "options": [
+                "plaie",
+                "mouche",
+                "béquille",
+                "pansements"
+            ],
+            "answer": "mouche"
+        },
+        {
+            "question_number": 18,
+            "question": "L'urgentiste devait non seulement désinfecter la plaie, mais également décontaminer les environs pour limiter tout risque d'infection secondaire.",
+            "options": [
+                "mordre",
+                "bander",
+                "désinfecter",
+                "casser"
+            ],
+            "answer": "désinfecter"
+        },
+        {
+            "question_number": 19,
+            "question": "Il doit porter le _______ au bras pendant six  semaines et attendre que cela ______.",
+            "options": [
+                "bleu/saigner",
+                "pansement/piquer",
+                "plâtre/cicatrise",
+                "bandage/enfler"
+            ],
+            "answer": "plâtre/cicatrise"
+        },
+        {
+            "question_number": 21,
+            "question": "Sa présentation, malgré un style ampoulé, trouvait sa ________ dans un exemple concret.",
+            "options": [
+                "morsure",
+                "contusion",
+                "entorse",
+                "cheville"
+            ],
+            "answer": "cheville"
+        },
+        {
+            "question_number": 22,
+            "question": "Ne  ______  pas trop avec un bandage : le sang pourrait  mal circuler, le bras ________  sinon !",
+            "options": [
+                "s'écorcher/saigner",
+                "saigner/enfler",
+                "tordre/saigner",
+                "bander/enfler"
+            ],
+            "answer": "bander/enfler"
+        },
+        {
+            "question_number": 23,
+            "question": "Pour éviter le risque de tétanos, elle a reçu un ______ et on lui a ______ immédiatement sa blessure",
+            "options": [
+                "bandage/enflé",
+                "piqure/désinfecté",
+                "morsure/cassé",
+                "coupure/cicatriser"
+            ],
+            "answer": "piqure/désinfecté"
+        },
+        {
+            "question_number": 24,
+            "question": "Cette vieille  ________ de sa jeunesse a tendance à  lui  ______ lorsqu'il fait froid.",
+            "options": [
+                "morsure/pique",
+                "contusion/s'écorcher",
+                "blessure/saigner",
+                "cicatrice/piquer"
+            ],
+            "answer": "cicatrice/piquer"
+        },
+        {
+            "question_number": 25,
+            "question": "Bien que la polémique l'ait visé de plein fouet, son intégrité intellectuelle est restée _______, témoignant d'une conviction profonde et d'une rare force morale.",
+            "options": [
+                "indemne",
+                "douillet",
+                "saigner",
+                "souffrir"
+            ],
+            "answer": "indemne"
+        },
+        {
+            "question_number": 1,
+            "question": "Après le déjeuner, il fait souvent une petite _______ pour se reposer.",
+            "options": [
+                "sieste",
+                "pommade",
+                "carie",
+                "pouls"
+            ],
+            "answer": "sieste"
+        },
+        {
+            "question_number": 2,
+            "question": "Il est  _______, et doit toujours avoir un inhalateur sur lui au cas où.",
+            "options": [
+                "cachet",
+                "asthmatique",
+                "enceinte",
+                "diagnostiquer"
+            ],
+            "answer": "asthmatique"
+        },
+        {
+            "question_number": 3,
+            "question": "Lorsque le bébé pleure , elle prépare rapidement un _______ pour le nourrir.",
+            "options": [
+                "somme",
+                "biberon",
+                "cachet",
+                "antibiotique"
+            ],
+            "answer": "biberon"
+        },
+        {
+            "question_number": 4,
+            "question": "Son ________ était devenu incontrôlable après avoir mangé du poisson qu’elle était allergique.",
+            "options": [
+                "vomir",
+                "asthme",
+                "eczéma",
+                "diagnostiquer"
+            ],
+            "answer": "eczéma"
+        },
+        {
+            "question_number": 5,
+            "question": "Le docteur a utilisé un stéthoscope pour ________ le coeur de sa patiente.",
+            "options": [
+                "ausculter",
+                "gratter",
+                "accoucher",
+                "éternuer"
+            ],
+            "answer": "ausculter"
+        },
+        {
+            "question_number": 6,
+            "question": "Elle _______ souvent en début d'année  dès qu’elle est au contact du pollen. ",
+            "options": [
+                "allaiter",
+                "démanger",
+                "éternuer",
+                "hospitaliser"
+            ],
+            "answer": "éternuer"
+        },
+        {
+            "question_number": 7,
+            "question": "Avec le temps, l'émotion initiale tend à ______, laissant derrière elle une perception plus objective de l'événement, bien que le souvenir persiste.",
+            "options": [
+                "vomir",
+                "s'évanouir",
+                "ausculter",
+                "diagnostiquer"
+            ],
+            "answer": "s'évanouir"
+        },
+        {
+            "question_number": 8,
+            "question": "Après des heures passées devant l'écran, la sensation de picotement était telle qu'il dut recourir à un ______ pour soulager l'irritation persistante de ses yeux fatigués.",
+            "options": [
+                "collyre",
+                "préservatif",
+                "cachet",
+                "ouate"
+            ],
+            "answer": "collyre"
+        },
+        {
+            "question_number": 9,
+            "question": "Pendant sa _______ , elle doit prendre bien soin d'elle afin que l' ______  se passe bien",
+            "options": [
+                "grossesse/accouchement",
+                "carie/diagnostique",
+                "antibiotique/tension",
+                "eczéma/pommade"
+            ],
+            "answer": "grossesse/accouchement"
+        },
+        {
+            "question_number": 10,
+            "question": "Pour se détendre après sa dure journée de travail , il prend souvent un ______.",
+            "options": [
+                "sachet",
+                "collyre",
+                "antibiotique",
+                "somnifère"
+            ],
+            "answer": "somnifère"
+        },
+        {
+            "question_number": 11,
+            "question": "Il ne cesse de se _____ la peau quand il a ses plaques d’eczema.",
+            "options": [
+                "gratter",
+                "allaiter",
+                "hospitaliser",
+                "vomir"
+            ],
+            "answer": "gratter"
+        },
+        {
+            "question_number": 12,
+            "question": "Les enquêteurs devaient _______ les racines du problème plutôt que de s'arrêter aux seuls symptômes apparents, afin d'envisager des solutions durables et profondes.",
+            "options": [
+                "ausculter",
+                "diagnostiquer",
+                "s'évanouir",
+                "hospitaliser"
+            ],
+            "answer": "diagnostiquer"
+        },
+        {
+            "question_number": 13,
+            "question": "Sa  _________ est très faible , mais  son _______ est plutôt régulier.",
+            "options": [
+                "carie/antibiotique",
+                "tension/pouls",
+                "seringue/diagnostic",
+                "cachet/collyre"
+            ],
+            "answer": "tension/pouls"
+        },
+        {
+            "question_number": 14,
+            "question": "Avant toute analyse , il faut remplir son  ________  médical avec des précisions exactes ",
+            "options": [
+                "cachet",
+                "diagnostic",
+                "collyre",
+                "somnifère"
+            ],
+            "answer": "diagnostic"
+        },
+        {
+            "question_number": 15,
+            "question": "Sa rhétorique était habile, utilisant chaque phrase comme une ________ pour injecter des idées séduisantes, mais aussi une profonde suspicion quant à son message.",
+            "options": [
+                "ouate",
+                "seringue",
+                "gélule",
+                "pommade"
+            ],
+            "answer": "seringue"
+        },
+        {
+            "question_number": 16,
+            "question": "Le mystère persistant commençait à le _________, une sorte d'impatience intellectuelle qui le poussait inexorablement à poursuivre ses recherches jusqu'à trouver la clé de l'énigme.",
+            "options": [
+                "vomir",
+                "hospitaliser",
+                "démanger",
+                "s’évanouir"
+            ],
+            "answer": "démanger"
+        },
+        {
+            "question_number": 17,
+            "question": "Son approche à l'éducation rappelait l'_______, une attention personnalisée et constante, favorisant ainsi l'épanouissement des talents particuliers de chaque enfant sous sa tutelle.",
+            "options": [
+                "accouchement",
+                "diagnostic",
+                "eczéma",
+                "allaitement"
+            ],
+            "answer": "allaitement"
+        },
+        {
+            "question_number": 18,
+            "question": "Pour se soulager du lumbago, il prend tous les matins une _______ analgésique et se masse",
+            "options": [
+                "ouate",
+                "gélule",
+                "sachet",
+                "pommade"
+            ],
+            "answer": "gélule"
+        },
+        {
+            "question_number": 19,
+            "question": "Lors de son voyage , elle n'a pas arrêté de ________, un cauchemar!",
+            "options": [
+                "vomir",
+                "s’évanouir",
+                "ausculter",
+                "éternuer"
+            ],
+            "answer": "vomir"
+        },
+        {
+            "question_number": 20,
+            "question": "La capacité pour une femme de négocier l'usage du _______ lors de relations sexuelles est, non seulement un enjeu de santé, mais aussi un acte essentiel d'affirmation de soi et de prise de contrôle sur sa propre autonomie.",
+            "options": [
+                "cachet",
+                "collyre",
+                "préservatif",
+                "somnifère"
+            ],
+            "answer": "préservatif"
+        },
+        {
+            "question_number": 21,
+            "question": "Avant d'appliquer le bandage compressif, l'infirmière plaça une couche de _______ sur la plaie afin d'absorber l'exsudat et de protéger la zone de tout frottement.",
+            "options": [
+                "seringue",
+                "gélule",
+                "ouate",
+                "biberon"
+            ],
+            "answer": "ouate"
+        },
+        {
+            "question_number": 22,
+            "question": "Le dentiste a  trouvé  une _______ importante qu’il faut soigner immédiatement !",
+            "options": [
+                "tension",
+                "carie",
+                "crise",
+                "pommade"
+            ],
+            "answer": "carie"
+        },
+        {
+            "question_number": 24,
+            "question": "Lors de  cette __________, le médecin m’a dit de ne surtout pas me crisper.",
+            "options": [
+                "crise cardiaque",
+                "sieste",
+                "gélule",
+                "diagnostiquer"
+            ],
+            "answer": "crise cardiaque"
+        },
+        {
+            "question_number": 25,
+            "question": "La prescription systématique d'__________, bien que parfois nécessaire, contribue à l'augmentation des souches bactériennes résistantes",
+            "options": [
+                "antibiotiques",
+                "préservatif",
+                "pouls",
+                "somme"
+            ],
+            "answer": "antibiotiques"
+        }
+    ]
+}

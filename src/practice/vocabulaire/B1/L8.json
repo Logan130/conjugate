@@ -1,0 +1,114 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Les deux équipes étaient _________ après le temps réglementaire, ce qui a mené à une prolongation intense.",
+            "options": [
+                "en jeu",
+                "adverse",
+                "à égalité",
+                "disputer"
+            ],
+            "answer": "à égalité"
+        },
+        {
+            "question_number": 2,
+            "question": "L' _________ a sifflé la fin du match, provoquant la joie des supporters de l'équipe victorieuse.",
+            "options": [
+                "gazon",
+                "camp",
+                "arbitre",
+                "tournoi"
+            ],
+            "answer": "arbitre"
+        },
+        {
+            "question_number": 3,
+            "question": "Les joueurs étaient nerveux avant de _______  la finale, l'enjeu était particulièrement élevé.",
+            "options": [
+                "siffler",
+                "disputer",
+                "donner le coup d’envoi",
+                "camp"
+            ],
+            "answer": "disputer"
+        },
+        {
+            "question_number": 4,
+            "question": "Le match s'est déroulé sur un _______ parfait, rendant le jeu plus fluide et agréable.",
+            "options": [
+                "camp",
+                "tournoi",
+                "gazon",
+                "touche"
+            ],
+            "answer": "gazon"
+        },
+        {
+            "question_number": 5,
+            "question": "Les supporteurs ont encouragé leur équipe à _______ le match d'une intensité inégalable",
+            "options": [
+                "en jeu",
+                "adverse",
+                "finale",
+                "disputer"
+            ],
+            "answer": "disputer"
+        },
+        {
+            "question_number": 6,
+            "question": "Le match était crucial, le titre de champion étant _________",
+            "options": [
+                "finale",
+                "en jeu",
+                "touche",
+                "à égalité"
+            ],
+            "answer": "en jeu"
+        },
+        {
+            "question_number": 7,
+            "question": "Le surmenage, à terme, eut un effet _______ sur sa créativité, ses idées initialement vives se réduisant progressivement en schémas usés.",
+            "options": [
+                "camp",
+                "arbitre",
+                "adverse",
+                "tournoi"
+            ],
+            "answer": "adverse"
+        },
+        {
+            "question_number": 8,
+            "question": "Il faut respecter les limites du terrain. Toute action hors de la _______ peut annuler une action",
+            "options": [
+                "gazon",
+                "finale",
+                "touche",
+                "arbitre"
+            ],
+            "answer": "touche"
+        },
+        {
+            "question_number": 9,
+            "question": "C'est l' _______ qui devra _______ quand un joueur est en faute ou non",
+            "options": [
+                "gazon/camp",
+                "touche/finale",
+                "arbitre/siffler",
+                "camp/donner le coup d’envoi"
+            ],
+            "answer": "arbitre/siffler"
+        },
+        {
+            "question_number": 10,
+            "question": "La vie des affaires paraissait un _______ perpétuel, où des entreprises compétitrices étaient engagées dans une bataille sans cesse recommencée, à la conquête de parts du marché.",
+            "options": [
+                "arbitre",
+                "tournoi",
+                "touche",
+                "siffler"
+            ],
+            "answer": "tournoi"
+        }
+    ]
+}

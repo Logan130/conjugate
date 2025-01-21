@@ -506,6 +506,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L7 Appearance",
+        test: "vocabulaire/B1/L7.json", 
     },
     {
         unit: "Voc B2 L8 运动",
@@ -513,6 +514,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L8 Sports",
+        test: "vocabulaire/B1/L8.json", 
     },
     {
         unit: "Voc B2 L9 健康",
@@ -520,6 +522,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L9 Health",
+        test: "vocabulaire/B1/L9.json", 
     },
     {
         unit: "Voc B2 L10 性格",
@@ -527,6 +530,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L10 Character",
+        test: "vocabulaire/B1/L10.json", 
     },
     {
         unit: "Voc B2 L11 情感",

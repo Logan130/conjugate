@@ -177,7 +177,7 @@ export function VocabulairePage() {
             filterHandler={onClickFictionFilter}
             buttonArr={["Fiction"]}
             reverse={false}
-            titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-64'}
+            titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-48'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}
             locked={false}
         />
@@ -205,7 +205,7 @@ export function VocabulairePage() {
             filterHandler={onClickAutreFilter}
             buttonArr={["Édito B1", "Inner French"]}
             reverse={false}
-            titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-64'}
+            titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-48'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}
             locked={false}
         />
