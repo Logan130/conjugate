@@ -1,0 +1,543 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "L'annonce de son départ a _______ la réunion, laissant tous les participants désemparés.",
+            "options": [
+                "bouleversé",
+                "flatté",
+                "soulevé",
+                "gagné"
+            ],
+            "answer": "bouleversé"
+        },
+        {
+            "question_number": 2,
+            "question": "Sa voix _______ par l'émotion, il a eu du mal à exprimer son amour.",
+            "options": [
+                "nouée",
+                "brisée",
+                "feinte",
+                "trahie"
+            ],
+            "answer": "nouée"
+        },
+        {
+            "question_number": 3,
+            "question": "Malgré sa _______, il a continué à jouer, même si ses mains tremblaient.",
+            "options": [
+                "fierté",
+                "pâleur",
+                "frayeur",
+                "angoise"
+            ],
+            "answer": "frayeur"
+        },
+        {
+            "question_number": 4,
+            "question": "Il essayait de _______ sa peur, mais ses yeux le trahissaient.",
+            "options": [
+                "feindre",
+                "appréhender",
+                "redouter",
+                "angoisser"
+            ],
+            "answer": "feindre"
+        },
+        {
+            "question_number": 5,
+            "question": "Son _______, blessé par la critique, l'a poussé à réagir de manière impulsive.",
+            "options": [
+                "amour-propre",
+                "trac",
+                "effroi",
+                "mépris"
+            ],
+            "answer": "amour-propre"
+        },
+        {
+            "question_number": 6,
+            "question": "L'acteur, malgré son talent, était nerveux par le _______ avant de monter sur scène.",
+            "options": [
+                "vexé",
+                "trac",
+                "orgueilleux",
+                "enfer"
+            ],
+            "answer": "trac"
+        },
+        {
+            "question_number": 7,
+            "question": "L'idée de cet examen le faisait _______, il avait du mal à dormir.",
+            "options": [
+                "angoisser",
+                "flatter",
+                "gagner",
+                "renverser"
+            ],
+            "answer": "angoisser"
+        },
+        {
+            "question_number": 8,
+            "question": "Il a _______ faire une gaffe, mais son ami l'a rattrapé de justesse.",
+            "options": [
+                "failli",
+                "soulevé",
+                "brisé",
+                "retourné"
+            ],
+            "answer": "failli"
+        },
+        {
+            "question_number": 9,
+            "question": "La situation était tellement _______ que personne ne savait comment réagir.",
+            "options": [
+                "épouvantable",
+                "émouvante",
+                "orgueilleuse",
+                "vexée"
+            ],
+            "answer": "épouvantable"
+        },
+        {
+            "question_number": 10,
+            "question": "La violence de la scène était _______, les spectateurs étaient sous le choc.",
+            "options": [
+                "atroce",
+                "émouvante",
+                "bouleversante",
+                "ordinaire"
+            ],
+            "answer": "atroce"
+        },
+        {
+            "question_number": 11,
+            "question": "La pièce était tellement _______ que plusieurs personnes ont pleuré.",
+            "options": [
+                "émouvante",
+                "ennuyeuse",
+                "banale",
+                "ordinaire"
+            ],
+            "answer": "émouvante"
+        },
+        {
+            "question_number": 12,
+            "question": "L’échec de son projet l’a laissé _______, une partie de lui s’est brisée.",
+            "options": [
+                "brisé",
+                "flatté",
+                "vexé",
+                "ému"
+            ],
+            "answer": "brisé"
+        },
+        {
+            "question_number": 13,
+            "question": "Son absence a _______ une vive émotion dans le groupe, la tristesse était palpable.",
+            "options": [
+                "soulevé",
+                "retourné",
+                "gagné",
+                "brisé"
+            ],
+            "answer": "soulevé"
+        },
+        {
+            "question_number": 14,
+            "question": "L'idée de parler en public le _______ toujours, même après des années d'expérience.",
+            "options": [
+                "redoute",
+                "flatter",
+                "émouvoir",
+                "renverser"
+            ],
+            "answer": "redoute"
+        },
+        {
+            "question_number": 15,
+            "question": "Le film était si _______ qu'il m'a laissé une profonde réflexion sur la nature humaine.",
+            "options": [
+                "bouleversant",
+                "amusant",
+                "banal",
+                "ordinaire"
+            ],
+            "answer": "bouleversant"
+        },
+        {
+            "question_number": 16,
+            "question": "La nouvelle de sa nomination a _______ son orgueil, il se sentait invincible.",
+            "options": [
+                "flatté",
+                "angoissé",
+                "vexé",
+                "brisé"
+            ],
+            "answer": "flatté"
+        },
+        {
+            "question_number": 17,
+            "question": "La pression _______ chez les athlètes lors des compétitions importantes.",
+            "options": [
+                "panique",
+                "flatte",
+                "retourne",
+                "feigne"
+            ],
+            "answer": "panique"
+        },
+        {
+            "question_number": 18,
+            "question": "Les tremblements de terre ont laissé les populations dans une _______ totale.",
+            "options": [
+                "terreur",
+                "trac",
+                "pâleur",
+                "vexation"
+            ],
+            "answer": "terreur"
+        },
+        {
+            "question_number": 19,
+            "question": "Les délais d'attente dans ce service administratif, s'allongeant de jour en jour, finirent par installer un cercle _______, piégeant les usagers dans une boucle de frustration sans issue apparente.",
+            "options": [
+                "infernal",
+                "amateur",
+                "émouvant",
+                "banal"
+            ],
+            "answer": "infernal"
+        },
+        {
+            "question_number": 20,
+            "question": "Il était un simple _______ de la photographie avant de devenir professionnel.",
+            "options": [
+                "amateur",
+                "orgueilleux",
+                "vexé",
+                "atroce"
+            ],
+            "answer": "amateur"
+        },
+        {
+            "question_number": 21,
+            "question": "Sa _______ montrait qu'il était très en colère, même s'il essayait de le cacher.",
+            "options": [
+                "pâleur",
+                "joie",
+                "allégresse",
+                "satisfaction"
+            ],
+            "answer": "pâleur"
+        },
+        {
+            "question_number": 22,
+            "question": "Après avoir vu le résultat de l’expérience, son visage s’est _______ de peur",
+            "options": [
+                "affolé",
+                "flatté",
+                "ému",
+                "renversé"
+            ],
+            "answer": "affolé"
+        },
+        {
+            "question_number": 23,
+            "question": "Le spectacle était si horrible qu’il a _______ le public.",
+            "options": [
+                "terrorisé",
+                "flatté",
+                "ému",
+                "redouté"
+            ],
+            "answer": "terrorisé"
+        },
+        {
+            "question_number": 24,
+            "question": "Le bruit a été si fort qu'il a failli _______ la table et tout ce qui était dessus.",
+            "options": [
+                "renverser",
+                "flatter",
+                "appréhender",
+                "redouter"
+            ],
+            "answer": "renverser"
+        },
+        {
+            "question_number": 25,
+            "question": "Ses sentiments authentiques _______  son masque de détachement.",
+            "options": [
+                "trahissaient",
+                "flattaient",
+                "bouleversaient",
+                "nouaient"
+            ],
+            "answer": "trahissaient"
+        },
+        {
+            "question_number": 1,
+            "question": "Son comportement _______ était tel que tout le monde évitait de le regarder.",
+            "options": [
+                "agaçant",
+                "hilare",
+                "consterné",
+                "inoffensif"
+            ],
+            "answer": "agaçant"
+        },
+        {
+            "question_number": 2,
+            "question": "Après un investissement initial prometteur, le client découvrit, amèrement, qu'il avait été _______ de son argent.",
+            "options": [
+                "escroqué",
+                "accablé",
+                "amusé",
+                "inspiré"
+            ],
+            "answer": "escroqué"
+        },
+        {
+            "question_number": 3,
+            "question": "La nouvelle de l'accident l'a laissé _______, il ne pouvait plus prononcer un mot.",
+            "options": [
+                "abasourdi",
+                "hilare",
+                "détendu",
+                "ravi"
+            ],
+            "answer": "abasourdi"
+        },
+        {
+            "question_number": 4,
+            "question": "Cette _______ de mauvais goût a choqué tous les invités à la fête.",
+            "options": [
+                "plaisanterie",
+                "réflexion",
+                "suggestion",
+                "confession"
+            ],
+            "answer": "plaisanterie"
+        },
+        {
+            "question_number": 5,
+            "question": "La situation était tellement _______ que nous avons tous eu envie de partir.",
+            "options": [
+                "gênante",
+                "agréable",
+                "confortable",
+                "ordinaire"
+            ],
+            "answer": "gênante"
+        },
+        {
+            "question_number": 6,
+            "question": "L’injustice qu’il a subie l’a tellement _______ qu’il a décidé de démissionner.",
+            "options": [
+                "ulcéré",
+                "apaisé",
+                "flatté",
+                "inspiré"
+            ],
+            "answer": "ulcéré"
+        },
+        {
+            "question_number": 7,
+            "question": "Cette situation est tout simplement _______, je ne sais pas quoi dire.",
+            "options": [
+                "inadmissible",
+                "acceptable",
+                "tolérable",
+                "habituelle"
+            ],
+            "answer": "inadmissible"
+        },
+        {
+            "question_number": 8,
+            "question": "J'ai été _______ par son culot, je ne m'attendais pas à une telle audace.",
+            "options": [
+                "éberlué",
+                "séduit",
+                "impressionné",
+                "convaincu"
+            ],
+            "answer": "éberlué"
+        },
+        {
+            "question_number": 9,
+            "question": "Elle a été _______ de voir ses collègues rire de ses erreurs.",
+            "options": [
+                "offusquée",
+                "ravie",
+                "attendrie",
+                "indifférente"
+            ],
+            "answer": "offusquée"
+        },
+        {
+            "question_number": 10,
+            "question": "La cruauté de son acte l'a _______ aux yeux de toute la communauté.",
+            "options": [
+                "scandalisé",
+                "admiré",
+                "respecté",
+                "plébiscité"
+            ],
+            "answer": "scandalisé"
+        },
+        {
+            "question_number": 12,
+            "question": "Le vase, posé maladroitement sur le bord de la table, a soudainement _______ en mille morceaux.",
+            "options": [
+                "éclaté",
+                "retenu",
+                "cessé",
+                "abattu"
+            ],
+            "answer": "éclaté"
+        },
+        {
+            "question_number": 13,
+            "question": "La nouvelle de sa promotion m’a _______, je ne m’y attendais pas du tout.",
+            "options": [
+                "interloqué",
+                "enchanté",
+                "calmé",
+                "rassuré"
+            ],
+            "answer": "interloqué"
+        },
+        {
+            "question_number": 14,
+            "question": "Il a été pris _______ par la question du journaliste, il n'avait pas de réponse.",
+            "options": [
+                "au dépourvu",
+                "en flagrant délit",
+                "au sérieux",
+                "en sourdine"
+            ],
+            "answer": "au dépourvu"
+        },
+        {
+            "question_number": 15,
+            "question": "L’annonce de sa démission a été faite _______ , personne ne s'y attendait.",
+            "options": [
+                "à l’improviste",
+                "avec soin",
+                "à dessein",
+                "en douceur"
+            ],
+            "answer": "à l’improviste"
+        },
+        {
+            "question_number": 16,
+            "question": "Il se sentait profondément _______ par la maladresse de son ami, rougissant légèrement devant l'auditoire attentive.",
+            "options": [
+                "gêné",
+                "ravi",
+                "fier",
+                "ému"
+            ],
+            "answer": "gêné"
+        },
+        {
+            "question_number": 17,
+            "question": "Son regard empreint de _______, traduisant sa compassion sincère, apaisa la douleur ressentie par ceux qui traversaient cette terrible épreuve.",
+            "options": [
+                "pitié",
+                "joie",
+                "colère",
+                "hilarité"
+            ],
+            "answer": "pitié"
+        },
+        {
+            "question_number": 18,
+            "question": "L'ampleur de la catastrophe était telle qu'elle a _______ toutes nos certitudes.",
+            "options": [
+                "anéanti",
+                "renforcé",
+                "consolidé",
+                "confirmé"
+            ],
+            "answer": "anéanti"
+        },
+        {
+            "question_number": 19,
+            "question": "La performance était tellement _______ que nous en sommes restés bouche bée.",
+            "options": [
+                "inouïe",
+                "ordinaire",
+                "prévisible",
+                "banale"
+            ],
+            "answer": "inouïe"
+        },
+        {
+            "question_number": 20,
+            "question": "Le résultat de l'examen était tellement mauvais qu'il l’a totalement _______.",
+            "options": [
+                "abattu",
+                "enchanté",
+                "inspiré",
+                "motivé"
+            ],
+            "answer": "abattu"
+        },
+        {
+            "question_number": 21,
+            "question": "La complexité du problème a _______ tout le monde dans l’équipe.",
+            "options": [
+                "dérouté",
+                "rassuré",
+                "guidé",
+                "aidé"
+            ],
+            "answer": "dérouté"
+        },
+        {
+            "question_number": 22,
+            "question": "Son explication était tellement _______ que personne ne l'a comprise.",
+            "options": [
+                "déconcertante",
+                "limpide",
+                "claire",
+                "simple"
+            ],
+            "answer": "déconcertante"
+        },
+        {
+            "question_number": 23,
+            "question": "Il a été tellement _______ par la nouvelle qu'il n'a pas pu réagir.",
+            "options": [
+                "atterré",
+                "ravi",
+                "soulagé",
+                "content"
+            ],
+            "answer": "atterré"
+        },
+        {
+            "question_number": 24,
+            "question": "Il était _______ de travail et de responsabilités, jonglant difficilement entre deadlines serrées et contraintes familiales grandissantes.",
+            "options": [
+                "accablé",
+                "séduit",
+                "ému",
+                "inspiré"
+            ],
+            "answer": "accablé"
+        },
+        {
+            "question_number": 25,
+            "question": "Il s’est mis à _______ en entendant la blague, c’était contagieux",
+            "options": [
+                "pouffer",
+                "pleurer",
+                "soupirer",
+                "crier"
+            ],
+            "answer": "pouffer"
+        }
+    ]
+}

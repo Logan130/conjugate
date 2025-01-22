@@ -538,6 +538,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L11 Emotions",
+        test: "vocabulaire/B1/L11.json", 
     },
     {
         unit: "Voc B2 L12 情感",
@@ -545,6 +546,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L12 Emotions",
+        test: "vocabulaire/B1/L12.json", 
     },
     {
         unit: "Voc B2 L13 智识",

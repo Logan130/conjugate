@@ -1,0 +1,323 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Son état de joie était _______, il ne dura que quelques heures avant de retomber dans la tristesse.",
+            "options": [
+                "permanent",
+                "durable",
+                "passager",
+                "constant"
+            ],
+            "answer": "passager"
+        },
+        {
+            "question_number": 2,
+            "question": "Elle n'hésitait pas à _______ ses émotions, contrairement à son frère plus réservé.",
+            "options": [
+                "dissimuler",
+                "cacher",
+                "manifester",
+                "taire"
+            ],
+            "answer": "manifester"
+        },
+        {
+            "question_number": 3,
+            "question": "Il préférait _______ ses sentiments, craignant d'être perçu comme vulnérable par les autres.",
+            "options": [
+                "extérioriser",
+                "montrer",
+                "dissimuler",
+                "afficher"
+            ],
+            "answer": "dissimuler"
+        },
+        {
+            "question_number": 4,
+            "question": "Elle était particulièrement _______, s'attachant facilement aux personnages de fiction et aux histoires tristes.",
+            "options": [
+                "réaliste",
+                "sentimental",
+                "pragmatique",
+                "indifférente"
+            ],
+            "answer": "sentimental"
+        },
+        {
+            "question_number": 5,
+            "question": "Son cœur semblait _______ de joie, son bonheur irradiait sur son entourage.",
+            "options": [
+                "manquer",
+                "déborder",
+                "diminuer",
+                "tarir"
+            ],
+            "answer": "déborder"
+        },
+        {
+            "question_number": 6,
+            "question": "L'amour sincère peut faire _______ les êtres, les aidant à développer tout leur potentiel.",
+            "options": [
+                "faner",
+                "éteindre",
+                "épanouir",
+                "dessécher"
+            ],
+            "answer": "épanouir"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle avait un visage d'_______, pur et innocent, avec une douceur infinie.",
+            "options": [
+                "diable",
+                "ogre",
+                "ange",
+                "monstre"
+            ],
+            "answer": "ange"
+        },
+        {
+            "question_number": 8,
+            "question": "L'affection qu'elle recevait semblait _______ un vide profond dans sa vie.",
+            "options": [
+                "remplir",
+                "creuser",
+                "combler",
+                "élargir"
+            ],
+            "answer": "combler"
+        },
+        {
+            "question_number": 9,
+            "question": "Son sourire _______ illuminait la pièce, dissipant toute trace de tristesse.",
+            "options": [
+                "maussade",
+                "morose",
+                "radieux",
+                "sombre"
+            ],
+            "answer": "radieux"
+        },
+        {
+            "question_number": 10,
+            "question": "Son visage était _______ de joie, ses yeux pétillant de bonheur.",
+            "options": [
+                "morose",
+                "triste",
+                "rayonnant",
+                "désespéré"
+            ],
+            "answer": "rayonnant"
+        },
+        {
+            "question_number": 11,
+            "question": "L'_______ ressentie après sa promotion était communicative, il rayonnait de bonheur.",
+            "options": [
+                "colère",
+                "mélancolie",
+                "euphorie",
+                "tristesse"
+            ],
+            "answer": "euphorie"
+        },
+        {
+            "question_number": 12,
+            "question": "Son comportement _______ trahissait son insatisfaction profonde et son manque d'enthousiasme.",
+            "options": [
+                "euphorique",
+                "joyeux",
+                "maussade",
+                "souriant"
+            ],
+            "answer": "maussade"
+        },
+        {
+            "question_number": 13,
+            "question": "Son regard _______ reflétait sa tristesse et son désespoir face à une situation difficile.",
+            "options": [
+                "heureux",
+                "joyeux",
+                "morose",
+                "radieux"
+            ],
+            "answer": "morose"
+        },
+        {
+            "question_number": 14,
+            "question": "La musique ______ qu'elle écoutait renforçait sa nostalgie du passé.",
+            "options": [
+                "gaie",
+                "mélancolique",
+                "entraînante",
+                "énergique"
+            ],
+            "answer": "mélancolique"
+        },
+        {
+            "question_number": 15,
+            "question": "Son cœur, habituellement solide comme de l'_______, se brisait face à cette trahison.",
+            "options": [
+                "or",
+                "bois",
+                "acier",
+                "caoutchouc"
+            ],
+            "answer": "acier"
+        },
+        {
+            "question_number": 16,
+            "question": "Il était devenu _______ après l'échec de son projet, ne voyant plus aucune raison d'espérer.",
+            "options": [
+                "confiant",
+                "optimiste",
+                "désespéré",
+                "joyeux"
+            ],
+            "answer": "désespéré"
+        },
+        {
+            "question_number": 17,
+            "question": "Ses paroles visaient à _______ les autres, leur enlevant toute motivation et espoir.",
+            "options": [
+                "encourager",
+                "soutenir",
+                "décourager",
+                "motiver"
+            ],
+            "answer": "décourager"
+        },
+        {
+            "question_number": 18,
+            "question": "La critique injuste l'avait _______, il perdait peu à peu confiance en ses capacités.",
+            "options": [
+                "stimulé",
+                "motivé",
+                "démoralisé",
+                "encouragé"
+            ],
+            "answer": "démoralisé"
+        },
+        {
+            "question_number": 19,
+            "question": "Les paroles douces avaient pour but d'_______ la colère qui montait en elle.",
+            "options": [
+                "attiser",
+                "augmenter",
+                "apaiser",
+                "exacerber"
+            ],
+            "answer": "apaiser"
+        },
+        {
+            "question_number": 20,
+            "question": "Il existait un _______ direct entre son attitude négative et les difficultés qu'il rencontrait.",
+            "options": [
+                "obstacle",
+                "rapport",
+                "fossé",
+                "détachement"
+            ],
+            "answer": "rapport"
+        },
+        {
+            "question_number": 21,
+            "question": "L'_______ entre les deux frères était palpable, malgré leur tentative de l'ignorer.",
+            "options": [
+                "amitié",
+                "tendresse",
+                "animosité",
+                "complicité"
+            ],
+            "answer": "animosité"
+        },
+        {
+            "question_number": 22,
+            "question": "La déception semblait _______ son jugement, lui faisant voir les choses de manière biaisée.",
+            "options": [
+                "clarifier",
+                "préciser",
+                "brouiller",
+                "améliorer"
+            ],
+            "answer": "brouiller"
+        },
+        {
+            "question_number": 1,
+            "question": "L'_______ qu'elle ressentait après la trahison de son ami ne s'est jamais vraiment estompée.",
+            "options": [
+                "joie",
+                "bonheur",
+                "amertume",
+                "satisfaction"
+            ],
+            "answer": "amertume"
+        },
+        {
+            "question_number": 2,
+            "question": "Le _______ qu'il éprouvait envers son ancien patron était tel qu'il refusait de l'adresser.",
+            "options": [
+                "amour",
+                "attachement",
+                "ressentiment",
+                "affection"
+            ],
+            "answer": "ressentiment"
+        },
+        {
+            "question_number": 3,
+            "question": "La _______ persistante qu'elle gardait dans son cœur empoisonnait ses relations avec les autres.",
+            "options": [
+                "paix",
+                "sérénité",
+                "rancœur",
+                "harmonie"
+            ],
+            "answer": "rancœur"
+        },
+        {
+            "question_number": 4,
+            "question": "Il nourrissait une _______ tenace envers celui qui l'avait humilié publiquement.",
+            "options": [
+                "gratitude",
+                "reconnaissance",
+                "rancune",
+                "gentillesse"
+            ],
+            "answer": "rancune"
+        },
+        {
+            "question_number": 5,
+            "question": "L'idée de devoir le fréquenter lui causait de l'_______, il ne supportait pas sa présence.",
+            "options": [
+                "plaisir",
+                "joie",
+                "horreur",
+                "satisfaction"
+            ],
+            "answer": "horreur"
+        },
+        {
+            "question_number": 6,
+            "question": "Le manque de politesse de cette personne me fait vraiment _______, je n'arrive pas à la tolérer.",
+            "options": [
+                "attirer",
+                "séduire",
+                "répugner",
+                "plaire"
+            ],
+            "answer": "répugner"
+        },
+        {
+            "question_number": 7,
+            "question": "Elle avait un petit _______ pour son professeur de maths, qu'elle trouvait très beau.",
+            "options": [
+                "dégoût",
+                "mépris",
+                "béguin",
+                "dérision"
+            ],
+            "answer": "béguin"
+        }
+    ]
+}
