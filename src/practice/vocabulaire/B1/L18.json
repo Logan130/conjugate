@@ -1,5 +1,40 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "L'_______ était rempli d'étudiants attendant impatiemment le début de la conférence.",
+            "options": ["amphithéâtre", "auditorium", "laboratoire", "stade"],
+            "answer": "amphithéâtre"
+        },
+     {
+           "question_number": 2,
+            "question": "Les professeurs distribuaient des _______ pour assurer que le cours etait bien suivit",
+           "options":["controles", "billets", "cafés", "recompensations"],
+           "answer":"controles"
+       },
+     {
+            "question_number": 3,
+            "question": "Un _______ est venu nous parler de sa thèse de doctorat.",
+            "options":["doctorant", "mineur", "commerçant", "étudiant"],
+            "answer": "doctorant"
+        },
+        {
+            "question_number": 4,
+            "question": "Ils ont choisi un sujet _______ pour mieux comprendre les enjeux.",
+            "options":["mineur", "majeur", "secondaire", "inimportant"],
+           "answer": "mineur"
+        },
+       {
+         "question_number": 5,
+           "question":"L'_______ qu'elle a présentée était à la fois clair et pertinent, réussissant à captiver l'attention du public et à vulgariser un sujet technique.",
+           "options":["exposé", "entretien", "départ", "stage"],
+           "answer": "exposé"
+        },
+       {
+         "question_number": 6,
+           "question": "Les prix, _______ aux lauréats les plus méritants, reconnaissaient leur contribution exceptionnelle à la science et à l'avancement des connaissances.",
+           "options":["decernés", "volés", "cachés", "rendus"],
+          "answer": "decernés"
+        }
     ]
 }

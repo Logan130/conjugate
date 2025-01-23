@@ -449,6 +449,9 @@ export function VocabulaireSummary() {
                     {!isMobile &&
                         <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/vocunit/${id}/0` : `${process.env.REACT_APP_PUBLIC_URL}/#/vocunit/${id}/0` }}>{eng ? "Practice" : "练习"}</button>
                     }
+                    {!isMobile &&
+                        <button className={"btn btn-info btn-outline w-full"} onClick={() => { window.location.href = window.location.hostname === "localhost" ? `./#/voc/test/${id}` : `${process.env.REACT_APP_PUBLIC_URL}/#/voc/test/${id}` }}>{eng ? "Test" : "测试"}</button>
+                    }
                 </div>
                 <br />
 

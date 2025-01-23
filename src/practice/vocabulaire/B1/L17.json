@@ -1,5 +1,184 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "La demande pour ce produit a _______ considérablement au cours des derniers mois, signe de son succès.",
+            "options": ["accru", "diminué", "stagné", "ralenti"],
+            "answer": "accru"
+        },
+        {
+            "question_number": 2,
+            "question": "L'horizon s'était progressivement _______ pour lui, son monde se limitant à son appartement, où il passait ses journées, isolé de toute activité sociale.",
+            "options": ["rétréci", "augmenté", "maintenu", "conservé"],
+            "answer": "rétréci"
+        },
+        {
+            "question_number": 3,
+            "question": "La route a été _______ pour faciliter la circulation des véhicules.",
+            "options": ["élargie", "restreinte", "fermée", "détruite"],
+            "answer": "élargie"
+        },
+       {
+            "question_number": 4,
+            "question": "La _______ de certaines libertés a provoqué un tollé général.",
+            "options": ["suppression", "conservation", "défense", "promotion"],
+            "answer": "suppression"
+        },
+      {
+            "question_number": 5,
+            "question": "L'économie du pays a connu un _______ spectaculaire après la crise.",
+          "options": ["essor", "déclin", "stagnation", "effondrement"],
+            "answer":"essor"
+        },
+       {
+            "question_number": 6,
+          "question":"Malgré les difficultés, l'entreprise a réussi à maintenir sa _______.",
+            "options":["prospérité", "faillite", "régression", "ruine"],
+            "answer": "prospérité"
+        },
+     {
+            "question_number": 7,
+            "question": "Après des années de service, le matériel a besoin d'être entièrement _______.",
+            "options": ["renouvelé", "conservé", "réparé", "entretenu"],
+            "answer": "renouvelé"
+        },
+      {
+            "question_number": 8,
+            "question":"Le cours de l'action a connu une forte _______ après l'annonce des mauvais résultats.",
+           "options":["chute", "hausse", "stabilité", "amélioration"],
+          "answer":"chute"
+        },
+        {
+            "question_number": 9,
+            "question":"Les affaires ont subi un _______ après cette serie d'evenement economique",
+            "options":["déclin", "accroissement", "maintien", "décollage"],
+            "answer": "déclin"
+       },
+        {
+            "question_number": 10,
+          "question":"La _______ de cette entreprise autrefois prospère a laissé derrière elle des employés désemparés et des fournisseurs impayés, témoignant de la fragilité du monde économique.",
+           "options":["faillite", "prosperité", "bonheur", "croissance"],
+            "answer": "faillite"
+        },
+      {
+           "question_number": 11,
+           "question":"La situation économique, déjà précaire, s'est encore _______, suscitant des inquiétudes grandissantes quant à l'avenir du pays et à la capacité du gouvernement à inverser la tendance.",
+          "options":["dégradée", "ameliorée", "améliorée", "stabilisée"],
+           "answer": "dégradée"
+        },
+    {
+           "question_number": 12,
+           "question": "Au lieu de devenir meilleures, les relations entre les deux pays n'ont cessé d'_______, menaçant de déstabiliser l'ensemble de la région et suscitant l'inquiétude de la communauté internationale.",
+          "options":["empirer", "améliorer", "stabiliser", "récupérer"],
+           "answer": "empirer"
+       },
+        {
+            "question_number": 13,
+          "question":"Les tensions entre les deux pays ne font qu' _______ le conflit.",
+            "options":["exacerber", "apaiser", "calmer", "résoudre"],
+           "answer": "exacerber"
+       },
+        {
+            "question_number": 14,
+           "question":"Après une période d'amélioration, on observe une _______ de la criminalité dans la ville.",
+            "options":["recrudescence", "diminution", "baisse", "réduction"],
+           "answer": "recrudescence"
+       },
+       {
+            "question_number": 15,
+           "question": "Le virus a commencé à _______ rapidement dans toute la région.",
+           "options":["se propager", "disparaître", "s'isoler", "se confiner"],
+           "answer":"se propager"
+       },
+       {
+            "question_number": 16,
+            "question": "La situation a commencé à _______ avec l'arrivée de nouveaux acteurs.",
+           "options": ["se compliquer", "se simplifier", "s'améliorer", "se clarifier"],
+           "answer": "se compliquer"
+       },
+       {
+            "question_number": 17,
+            "question": "Rome a connu une période de _______ après l'apogée de son empire.",
+           "options": ["décadence", "gloire", "prospérité", "renaissance"],
+           "answer": "décadence"
+        },
+       {
+         "question_number": 18,
+          "question":"Apres la guerre, le pays etait en etat de _______ total.",
+           "options":["ruine", "réconstruction", "croissance", "expansion"],
+           "answer":"ruine"
+       },
+       {
+        "question_number": 19,
+          "question": "Ce village _______ attire de nombreux touristes chaque année.",
+           "options":["pittoresque", "moderne", "industriel", "banal"],
+           "answer": "pittoresque"
+       },
+       {
+            "question_number": 20,
+            "question": "La _______ policière était intense, les bandits n'avaient aucune chance de s'échapper.",
+          "options": ["poursuite", "fuite", "enquête", "arrestation"],
+            "answer":"poursuite"
+        },
+       {
+            "question_number": 21,
+           "question":"Sa vie a été très _______, remplie de rebondissements et d'aventures.",
+           "options": ["mouvementée", "paisible", "calme", "ennuyeuse"],
+            "answer": "mouvementée"
+        },
+      {
+            "question_number": 22,
+           "question":"Malgré les années, sa passion pour la musique _______ intacte.",
+           "options":["demeure", "disparaît", "diminue", "s'éteint"],
+           "answer": "demeure"
+        },
+       {
+            "question_number": 23,
+           "question": "Sa conviction dans ses idées était _______, rien ne pouvait le faire changer d'avis.",
+          "options":["immuable", "variable", "fluctuante", "changeante"],
+            "answer": "immuable"
+        },
+       {
+            "question_number": 24,
+           "question":"L'_______ de la durée de vie, bien que représentant un progrès sociétal, pose des défis importants en matière de financement des retraites et de prise en charge des personnes âgées dépendantes.",
+           "options":["allongement", "affaiblissement", "élargissement", "augmentation"],
+            "answer":"allongement"
+        },
+       {
+            "question_number": 25,
+           "question": "L'_______ progressif du soutien populaire, consécutif à une série de scandales, compromet la crédibilité du gouvernement et rend plus difficile la mise en œuvre des réformes.",
+           "options":["affaiblissement", "élargissement", "augmentation", "arrêt"],
+           "answer": "affaiblissement"
+        },
+       {
+         "question_number": 26,
+           "question":"Le _______ des contrôles aux frontières, justifié par la menace terroriste, suscite des débats sur l'équilibre entre sécurité nationale et liberté de circulation.",
+          "options":["renforcement", "diminution", "reduction", "stabilisation"],
+            "answer": "renforcement"
+        },
+       {
+         "question_number": 27,
+           "question":"Une _______ inattendue de l’épidémie nous force a nous reconfinner.",
+          "options": ["propagation", "diminution", "stabilisation", "ralentissement"],
+            "answer": "propagation"
+        },
+       {
+         "question_number": 28,
+            "question":"L'investissement massif dans la recherche et le développement a _______ la compétitivité de l'entreprise sur le marché international, lui permettant d'innover et de se démarquer de ses concurrents.",
+           "options":["accru", "renforce", "consolider", "stabiliser"],
+            "answer":"accru"
+       },
+      {
+         "question_number": 29,
+            "question":"La date limite, _______ sans préavis, laissait très peu de temps à l'équipe pour finaliser le projet, mettant à rude épreuve leur capacité d'adaptation et de réactivité.",
+           "options":["raccourcie", "allongée", "stabilisée", "immobilisée"],
+            "answer":"raccourcie"
+       },
+       {
+         "question_number": 30,
+          "question": "Un _______ de nouveaux membres a contribué au renouvellement des idées du parti.",
+            "options":["accroissement", "appauvrissement", "desengagement", "retrecissement"],
+           "answer": "accroissement"
+        }
     ]
 }
