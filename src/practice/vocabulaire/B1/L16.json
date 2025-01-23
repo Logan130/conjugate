@@ -1,0 +1,238 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Il a _______ quelque chose à l'oreille de son voisin pour ne pas être entendu de tous.",
+            "options": ["murmuré", "crié", "chanté", "déclamé"],
+            "answer": "murmuré"
+        },
+        {
+            "question_number": 2,
+            "question": "L'information s'est répandue comme une _______, sans que personne ne sache vraiment son origine.",
+            "options": ["rumeur", "certitude", "vérité", "information"],
+            "answer": "rumeur"
+        },
+        {
+            "question_number": 3,
+            "question": "Il a tendance à _______ lorsqu'il est nerveux, ce qui le rend difficile à comprendre.",
+            "options": ["bégayer", "parler", "crier", "chuchoter"],
+            "answer": "bégayer"
+        },
+        {
+            "question_number": 4,
+            "question": "L'oiseau, perché sur la branche, _______ joyeusement au soleil, égayant l'atmosphère matinale avec ses chants cristallins et répétitifs.",
+            "options": ["gazouillait", "hurlait", "murmurait", "radotait"],
+            "answer": "gazouillait"
+       },
+        {
+            "question_number": 5,
+            "question": "Je te _______ fortement de prendre cette décision, elle pourrait avoir de graves conséquences.",
+            "options": ["déconseille", "conseille", "suggère", "recommande"],
+            "answer": "déconseille"
+       },
+     {
+          "question_number": 6,
+            "question":"Elle essayait de _______ son angoisse croissante face à l'incertitude de la situation, craignant de montrer ses faiblesses devant ses proches.",
+           "options":["taire", "révéler", "cacher", "trahir"],
+            "answer": "taire"
+      },
+      {
+            "question_number": 7,
+            "question": "La pièce était _______, on entendait le tic-tac de l'horloge.",
+          "options":["silencieuse", "bruyante", "agitée", "animée"],
+            "answer":"silencieuse"
+       },
+     {
+           "question_number": 8,
+           "question": "Il a _______ l'incident à la police, espérant que les coupables seraient punis.",
+            "options":["rapporté", "inventé", "oublié", "caché"],
+            "answer":"rapporté"
+        },
+       {
+            "question_number": 9,
+            "question": "Les enfants aimaient _______ leur petit frère, mais ce n'était jamais méchant.",
+          "options": ["taquiner", "ignorer", "féliciter", "aider"],
+            "answer": "taquiner"
+        },
+     {
+            "question_number": 10,
+            "question": "Il ne faut pas _______ des malheurs des autres, c'est cruel.",
+           "options": ["se moquer", "s'inspirer", "s'approcher", "se servir"],
+           "answer": "se moquer"
+      },
+       {
+            "question_number": 11,
+            "question": "Elle était connue pour être une véritable _______, toujours au courant des derniers ragots.",
+          "options": ["commère", "intellectuelle", "artiste", "écrivaine"],
+           "answer": "commère"
+        },
+      {
+            "question_number": 12,
+            "question": "Il a fini par _______ le secret qu'il gardait depuis des années.",
+            "options": ["divulguer", "préserver", "protéger", "cacher"],
+           "answer": "divulguer"
+        },
+       {
+            "question_number": 13,
+            "question":"Avec un _______ ton, il a affirmé que tout était de la faute des autres.",
+          "options":["catégorique", "doux", "hésitant", "incertain"],
+            "answer":"catégorique"
+        },
+      {
+           "question_number": 14,
+          "question":"Le vieil homme commençait à _______, répétant les mêmes histoires.",
+          "options": ["radoter", "raisonner", "réfléchir", "comprendre"],
+            "answer":"radoter"
+        },
+       {
+         "question_number": 15,
+          "question":"Malgré son air _______, il ne put s'empêcher de sourire en secret, touché par la surprise que ses enfants lui avaient préparée pour son anniversaire.",
+           "options":["bougon", "joyeux", "enthousiaste", "calme"],
+          "answer":"bougon"
+       },
+      {
+            "question_number": 16,
+            "question":"Le _______ de l'enfant résonnait dans toute la maison, il était vraiment effrayé.",
+          "options":["hurlement", "chuchotement", "murmure", "bégaiement"],
+           "answer": "hurlement"
+        },
+     {
+            "question_number": 17,
+            "question": "Il a essayé de me _______ de partir, mais j'étais trop déterminé.",
+          "options": ["dissuader", "persuader", "convaincre", "encourager"],
+            "answer": "dissuader"
+        },
+       {
+         "question_number": 18,
+         "question":"Leurs arguments, fondés sur des preuves _______ irréfutables, se sont finalement avérés fragiles et biaisés, démontrant la nécessité de vérifier toute source d'information.",
+          "options": ["soi-disant", "certainement", "effectivement", "sûrement"],
+           "answer": "soi-disant"
+        },
+      {
+         "question_number": 19,
+         "question": "Il a finalement _______ à notre proposition, après de longues négociations.",
+           "options":["consenti", "refusé", "décliné", "protesté"],
+          "answer": "consenti"
+      }, 
+      {
+        "question_number": 1,
+         "question": "Son discours était plein d'_______ à la situation politique, difficile à comprendre pour les non-initiés.",
+        "options": ["allusions", "certitudes", "affirmations", "explications"],
+         "answer": "allusions"
+      },
+      {
+        "question_number": 2,
+        "question": "L'_______ prononcé à son sujet durant la cérémonie avait été sincère et chaleureux, reconnaissant enfin tous les efforts et les contributions importantes qu'elle avait apportées à la cause.",
+        "options": ["éloge", "critique", "reproche", "aveu"],
+        "answer": "éloge"
+      },
+     {
+           "question_number": 3,
+            "question": "Il a fait une _______ monumentale en mentionnant son ex-femme à sa nouvelle épouse.",
+            "options":["gaffe", "remarque", "plaisanterie", "réussite"],
+            "answer":"gaffe"
+        },
+     {
+        "question_number": 4,
+        "question": "Elle a une _______ incroyable, elle répond toujours avec esprit et humour.",
+        "options": ["repartie", "patience", "tolérance", "humilité"],
+       "answer": "repartie"
+       },
+        {
+          "question_number": 5,
+          "question": "Au lieu de s'énerver, elle avait _______, laissant ses interlocuteurs sans voix, impressionnés par la vivacité de son esprit.",
+          "options": ["répondu du tac au tac", "dit la vérité", "parlé avec douceur", "demandé pardon"],
+            "answer": "répondu du tac au tac"
+        },
+       {
+        "question_number": 6,
+        "question": "Son _______ lors de la réunion, bien qu'anodin, a brièvement révélé son opinion cachée sur la gestion de projet, ce qui n'a pas échappé à l'attention de ses collègues.",
+        "options": ["lapsus", "secret", "mensonge", "aveu"],
+        "answer": "lapsus"
+      },
+      {
+            "question_number": 7,
+            "question": "L'_______, bien que brève, fut cruciale, permettant d'établir un premier contact positif et d'identifier rapidement les points essentiels du dossier.",
+           "options":["entrevue", "tête-à-tête", "réunion", "public"],
+            "answer":"entrevue"
+       },
+     {
+            "question_number": 8,
+            "question":"Leur réseau de connaissances, vaste et diversifié, leur permettait de facilement _______ avec les différents experts, optimisant ainsi la coordination entre les différents projets.",
+           "options": ["se mettre en contact", "fâcher", "disputer", "séparer"],
+            "answer": "se mettre en contact"
+        },
+      {
+            "question_number": 9,
+          "question":"Ils passèrent des heures à _______ des avantages et des inconvénients de chaque proposition, recherchant une solution équitable qui contenterait tous les acteurs concernés.",
+          "options": ["débattre", "ignorer", "fuir", "éviter"],
+           "answer": "débattre"
+        },
+     {
+          "question_number": 10,
+           "question": "Avant de _______ cette lourde tâche, ils prirent le temps de préparer une méthodologie rigoureuse afin de garantir l'efficacité et la qualité du travail à effectuer.",
+          "options":["entamer", "éviter", "fuir", "clore"],
+          "answer":"entamer"
+        },
+     {
+            "question_number": 11,
+          "question":"Il est important de ne pas _______ pour l’un ou l’autre, mais de rester impartial.",
+            "options": ["prendre parti", "être indifférent", "être neutre", "rester objectif"],
+          "answer": "prendre parti"
+        },
+       {
+            "question_number": 12,
+           "question": "Il faut _______ à ses détracteurs et défendre ses idées avec conviction.",
+            "options": ["tenir tête", "céder", "se soumettre", "obéir"],
+          "answer":"tenir tête"
+        },
+        {
+            "question_number": 13,
+            "question": "Il y a eu un _______ entre eux, c'est pourquoi ils ne se parlent plus.",
+           "options":["malentendu", "accord", "échange", "compromis"],
+            "answer":"malentendu"
+        },
+        {
+            "question_number": 14,
+           "question": "Le malentendu initial, résultat d'un _______ regrettable, a finalement pu être résolu rapidement, dissipant la confusion et permettant de renouer des relations normales.",
+          "options":["quiproquo", "drame", "désastre", "catastrophe"],
+            "answer":"quiproquo"
+        },
+       {
+          "question_number": 15,
+          "question": "Il a _______ des explications sur son comportement inadmissible.",
+            "options":["réclamé", "proposé", "suggéré", "offert"],
+          "answer": "réclamé"
+      },
+      {
+         "question_number": 16,
+          "question":"Elle a déposé une _______ contre son voisin pour tapage nocturne.",
+         "options":["plainte", "suggestion", "requête", "pétition"],
+            "answer":"plainte"
+        },
+      {
+            "question_number": 17,
+            "question": "Il a été accusé de _______ ses concurrents pour gagner des parts de marché.",
+           "options": ["calomnier", "féliciter", "soutenir", "aider"],
+          "answer":"calomnier"
+       },
+      {
+            "question_number": 18,
+            "question": "Le vandalisme, destiné à _______ les murs de la ville, n'a fait qu'attrister la communauté, qui condamne unanimement ce manque de respect envers les biens publics.",
+            "options": ["salir", "améliorer", "redorer", "embellir"],
+            "answer": "salir"
+      },
+        {
+            "question_number": 19,
+           "question": "Il est _______ de tous les détails de l'affaire, il a suivi le dossier de près.",
+            "options":["au courant", "ignorant", "éloigné", "indifférent"],
+           "answer":"au courant"
+        },
+       {
+          "question_number": 20,
+          "question": "Je vais me _______ auprès d'un expert pour avoir son avis sur la question.",
+            "options":["renseigner", "cacher", "éloigner", "méfier"],
+          "answer":"renseigner"
+        }
+    ]
+}

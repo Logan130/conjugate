@@ -554,6 +554,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L13 Intellectual",
+        test: "vocabulaire/B1/L13.json", 
     },
     {
         unit: "Voc B2 L14 观点",
@@ -561,6 +562,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L14 Opinion",
+        test: "vocabulaire/B1/L14.json", 
     },
     {
         unit: "Voc B2 L15 意愿",
@@ -568,6 +570,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L15 Will, Action",
+        test: "vocabulaire/B1/L15.json", 
     },
     {
         unit: "Voc B2 L16 交流",
@@ -575,6 +578,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L16 Communication",
+        test: "vocabulaire/B1/L16.json", 
     },
     {
         unit: "Voc B2 L17 改变",
@@ -582,6 +586,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L17 Change",
+        test: "vocabulaire/B1/L17.json", 
     },
     {
         unit: "Voc B2 L18 大学",
@@ -589,6 +594,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L18 University",
+        test: "vocabulaire/B1/L18.json", 
     },
     {
         unit: "Voc B2 L19 公司",

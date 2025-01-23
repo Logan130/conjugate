@@ -3,6 +3,7 @@ import { lessons } from "../../pages/Vocabulaire";
 import { useParams } from 'react-router-dom';
 import { ThemeContext } from "../../context/context";
 import Loader from '../../static/loader.webp'
+import { Title } from "./VocabulaireSummary";
 
 
 function shuffleArray(array) {
@@ -64,6 +65,9 @@ export function Test() {
     }, []);
 
     useEffect(() => {
+        setLoading(!!test_json_url);
+        setQuestions([]);
+        setTitle((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
         // URL of the raw JSON file on GitHub
         if (!!test_json_url) {
             const url = "https://raw.githubusercontent.com/Logan130/conjugate/refs/heads/master/src/practice/" + test_json_url;
@@ -91,12 +95,16 @@ export function Test() {
                 });
         }
 
-    }, []);
+    }, [id, eng]);
 
     return (
         <>
 
-            <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div>
+            {/* <div className={isMobile ? "text-3xl align-center justify-center text-center" : "text-4xl align-center justify-center text-center"}>{title}</div> */}
+
+
+            <Title id={id} title={title} url={"voc/test"} />
+
             <br />
 
 

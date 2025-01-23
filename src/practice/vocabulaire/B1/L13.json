@@ -1,0 +1,138 @@
+{
+    "test": [
+        [
+            {
+               "question_number": 1,
+               "question": "L'idée lui a _______ soudain, comme un éclair dans la nuit.",
+               "options": ["traversé l’esprit", "échappé", "pénétré", "souvenu"],
+               "answer": "traversé l’esprit"
+            },
+             {
+               "question_number": 2,
+               "question": "Son comportement _______ laisse supposer qu’il a peut-être quelque chose à cacher.",
+               "options": ["ambigu", "clair", "direct", "franc"],
+               "answer": "ambigu"
+             },
+               {
+               "question_number": 3,
+               "question":"Il était très _______ quant à l'efficacité de cette nouvelle méthode.",
+                "options": ["dubitatif", "convaincu", "enthousiaste", "certain"],
+               "answer": "dubitatif"
+               },
+              {
+               "question_number": 4,
+                 "question": "Les questions posées lors de l'entretien furent particulièrement _______, démontrant une préparation minutieuse et une compréhension fine du dossier.",
+                 "options": ["pertinentes", "insignifiantes", "inutiles", "vagues"],
+                 "answer": "pertinentes"
+             },
+             {
+                 "question_number": 5,
+                 "question": "Les enfants ont un comportement _______, mais au fond ils sont innocents.",
+                 "options": ["espiègle", "sage", "obéissant", "calme"],
+                 "answer": "espiègle"
+             },
+             {
+                "question_number": 6,
+               "question":"Ses explications étaient si compliquées qu'il est difficile d'en _______ quoi que ce soit.",
+               "options": ["déduire", "savoir", "deviner", "entendre"],
+               "answer": "déduire"
+            },
+            {
+                "question_number": 7,
+                 "question":"On peut _______ de son silence qu'il est d'accord avec notre proposition.",
+               "options":["arriver à la conclusion", "penser", "supposer", "imaginer"],
+                "answer": "arriver à la conclusion"
+            },
+           {
+               "question_number": 8,
+               "question": "Sa naïveté _______ aux moqueries, attirant involontairement des commentaires peu amènes, qui laissaient son entourage partagé entre amusement et consternation.",
+                 "options": ["prêtait", "devinait", "échappait", "relevait"],
+                "answer": "prêtait"
+           },
+           {
+              "question_number": 9,
+              "question": "Il avait l'air très _______, perdu dans sa recherche d'une solution à la situation.",
+               "options":["pensif", "joyeux", "agité", "distrait"],
+              "answer": "pensif"
+           },
+             {
+               "question_number": 10,
+               "question": "La validité de ses arguments était _______, personne ne pouvait la contester.",
+               "options": ["indéniable", "douteuse", "incertaine", "hypothétique"],
+               "answer": "indéniable"
+              },
+             {
+               "question_number": 11,
+                 "question": "C'est un enfant très _______, il se débrouille toujours dans toutes les situations.",
+                 "options":["débrouillard", "naïf", "indécis", "paresseux"],
+                 "answer": "débrouillard"
+             },
+               {
+                "question_number": 12,
+                "question":"C’est un discours tout à fait _______ qui ne correspond pas du tout à la situation.",
+                 "options": ["incongru", "approprié", "précis", "juste"],
+                 "answer": "incongru"
+             },
+            {
+               "question_number": 13,
+                "question": "Ses remarques _______ laissent planer un doute sur la sincérité de son discours.",
+                 "options": ["sceptiques", "optimistes", "convaincues", "enthousiastes"],
+                "answer": "sceptiques"
+               },
+             {
+               "question_number": 14,
+                "question": "Il s'est révélé être un _______ manipulateur, personne ne se méfiait de lui.",
+                "options": ["malin", "naïf", "honnête", "sincère"],
+               "answer": "malin"
+            },
+             {
+               "question_number": 15,
+               "question":"Cette idée est totalement _______, elle n'a ni queue ni tête.",
+                "options": ["saugrenue", "logique", "rationnelle", "sérieuse"],
+               "answer": "saugrenue"
+             },
+               {
+               "question_number": 16,
+               "question": "Il était tellement _______ qu'il ne savait plus où il était ni qui il était.",
+                "options":["amnésique", "attentif", "lucide", "vigilant"],
+               "answer":"amnésique"
+               },
+              {
+               "question_number": 17,
+               "question": "Leur performance, véritable chef-d'œuvre artistique, fut si _______ que les spectateurs la commentaient encore avec enthousiasme plusieurs jours après.",
+               "options": ["mémorable", "oubliable", "banal", "ordinaire"],
+                "answer": "mémorable"
+              },
+              {
+               "question_number": 18,
+                "question": "Le prisonnier, grâce à une faille du système, a _______ à la surveillance accrue, se lançant dans une course effrénée à travers les rues sombres de la ville.",
+               "options":["échappé", "traversé", "pénétré", "revenu"],
+                 "answer":"échappé"
+              },
+             {
+                "question_number": 19,
+               "question": "Face à des problèmes si complexes, les solutions proposées, bien qu'innovantes, n'étaient pas jugées suffisamment _______ pour garantir une résolution complète et durable.",
+                 "options": ["adéquates", "inappropriées", "hors sujet", "absurdes"],
+                "answer":"adéquates"
+              },
+             {
+                "question_number": 20,
+               "question": "Ses actions sont souvent celles d'un _______, il agit sans réfléchir.",
+                  "options": ["dément", "raisonnable", "sage", "prudent"],
+                 "answer": "dément"
+             },
+               {
+               "question_number": 21,
+               "question": "Cette chanson est _______ de notre première rencontre à Paris.",
+                "options": ["en mémoire", "à la disposition", "en présence", "en fonction"],
+                "answer":"en mémoire"
+               },
+              {
+                  "question_number": 22,
+                  "question":"_________, on n’avait jamais vu un tel événement auparavant.",
+                  "options":["De mémoire d’homme", "Sans mémoire", "En secret", "En résumé"],
+                  "answer":"De mémoire d’homme"
+               }
+           ]
+    ]
+}

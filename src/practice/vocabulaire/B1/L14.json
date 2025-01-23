@@ -1,0 +1,76 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "_______ que ses arguments sont valables, même ses adversaires le reconnaissent.",
+            "options": ["Il est hors de doute", "Il est important", "Il est certain", "Il est probable"],
+            "answer": "Il est hors de doute"
+        },
+        {
+            "question_number": 2,
+            "question": "Son opinion est _______, beaucoup de gens ont des avis très différents sur le sujet.",
+            "options": ["controversée", "unanime", "claire", "évidente"],
+            "answer": "controversée"
+        },
+      {
+            "question_number": 3,
+            "question": "Son comportement _______ était absolument inacceptable, il a été sanctionné.",
+            "options": ["indéfendable", "justifiable", "excusable", "admirable"],
+           "answer":"indéfendable"
+      },
+        {
+            "question_number": 4,
+            "question": "Elle a _______ des doutes quant à la viabilité du projet, mais personne ne l'a écoutée.",
+            "options": ["émis", "gardé", "caché", "nié"],
+            "answer": "émis"
+        },
+        {
+            "question_number": 5,
+            "question": "L'histoire était tellement _______ que je n'ai pas pu m'empêcher de lire jusqu'à la fin.",
+            "options": ["prenante", "ennuyeuse", "banale", "fade"],
+            "answer": "prenante"
+         },
+        {
+          "question_number": 6,
+            "question":"Ce roman est si _______ que je l'ai lu d'une traite, incapable de le lâcher.",
+          "options":["palpitant", "long", "lent", "ennuyeux"],
+            "answer": "palpitant"
+       },
+        {
+            "question_number": 7,
+            "question": "Son projet est _______, il n’a aucune chance de succès.",
+            "options": ["hasardeux", "prometteur", "certain", "sûr"],
+            "answer": "hasardeux"
+        },
+        {
+            "question_number": 8,
+            "question":"Son raisonnement est _______, cela n’a ni queue ni tête.",
+             "options": ["aberrant", "logique", "cohérent", "rationnel"],
+           "answer":"aberrant"
+       },
+        {
+            "question_number": 9,
+            "question": "Ses décisions sont totalement _______, il ne semble pas en pleine possession de ses moyens.",
+            "options": ["insensées", "judicieuses", "sensées", "intelligentes"],
+            "answer": "insensées"
+         },
+        {
+            "question_number": 10,
+          "question": "Le spectacle était si beau qu'il a _______ tous les spectateurs.",
+            "options":["émerveillé", "embêté", "choqué", "déçu"],
+            "answer":"émerveillé"
+        },
+        {
+            "question_number": 11,
+            "question": "L'article, volontairement provocateur, était _______ aux diverses interprétations, chacun projetant ses propres opinions et préjugés sur les intentions de l'auteur.",
+            "options": ["sujet", "libre", "indépendant", "étranger"],
+            "answer": "sujet"
+        },
+        {
+            "question_number": 12,
+            "question": "Son comportement était _______ avec notre approche, il refusait de coopérer.",
+            "options": ["en désaccord", "en accord", "compatible", "conforme"],
+           "answer": "en désaccord"
+        }
+    ]
+}

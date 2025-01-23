@@ -209,12 +209,20 @@ function StatisticsTable() {
             results: Statistics(lessons, ['Taxi'], ['A1', 'A2', 'B1']),
         },
         {
-            book: "渐进交际初/中级",
-            results: Statistics(lessons, ['Communication Progressive'], ['A1', 'A2']),
+            book: "渐进交际初级",
+            results: Statistics(lessons, ['Communication Progressive'], ['A1']),
         },
         {
-            book: "渐进词汇初/中级",
-            results: Statistics(lessons, ['Vocabulaire Progressif', 'Other'], ['A1', 'A2']),
+            book: "渐进交际中级",
+            results: Statistics(lessons, ['Communication Progressive'], ['A2']),
+        },
+        {
+            book: "渐进词汇初级",
+            results: Statistics(lessons, ['Vocabulaire Progressif'], ['A1']),
+        },
+        {
+            book: "渐进词汇中级",
+            results: Statistics(lessons, ['Vocabulaire Progressif'], ['A2']),
         },
         {
             book: "词汇渐进高级",
@@ -223,6 +231,10 @@ function StatisticsTable() {
         {
             book: "Ego B2",
             results: Statistics(lessons, ['Taxi'], ['B2']),
+        },
+        {
+            book: "A1-B2课堂累计(以上所有课本总和)",
+            results: Statistics(lessons, ['Taxi', 'Vocabulaire Progressif', 'Communication Progressive'], ['A1', 'A2', 'B1', 'B2']),
         },
         {
             book: "TCF Reading",

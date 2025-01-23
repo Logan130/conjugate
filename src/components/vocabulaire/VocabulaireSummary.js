@@ -157,11 +157,11 @@ function Cards({ words, chinese }) {
     )
 }
 
-function Title({ title, id }) {
+export function Title({ title, id, url }) {
     let isMobile = window.innerWidth < 500;
     return (<>
         <div className={isMobile ? "grid grid-cols-6 gap-1 text-xl align-center justify-center text-center" : "grid grid-cols-6 gap-1 text-4xl align-center justify-center text-center"}>
-            <Link to={`/vocsum/${(Number(id) - 1) === -1 ? 0 : (Number(id) - 1)}`} className="col-span-1">
+            <Link to={`/${url}/${(Number(id) - 1) === -1 ? 0 : (Number(id) - 1)}`} className="col-span-1">
                 <button className="btn btn-circle mr-2">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@ function Title({ title, id }) {
                 {title}
             </div>
 
-            <Link to={`/vocsum/${((Number(id)) + 1 === lessons.length ? lessons.length - 1 : (Number(id) + 1))}`} className="col-span-1">
+            <Link to={`/${url}/${((Number(id)) + 1 === lessons.length ? lessons.length - 1 : (Number(id) + 1))}`} className="col-span-1">
                 <button className="btn btn-circle ml-2">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -439,7 +439,7 @@ export function VocabulaireSummary() {
 
     return (
         <>
-            <Title id={id} title={title} />
+            <Title id={id} title={title} url={"vocsum"} />
 
             <div>
                 <div className={isMobile ? "grid grid-cols-5 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>

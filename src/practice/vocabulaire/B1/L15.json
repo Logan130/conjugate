@@ -1,0 +1,94 @@
+{
+    "test": [
+        {
+               "question_number": 1,
+               "question": "Dans l'obscurité, il a dû _______ pour trouver l'interrupteur.",
+               "options": ["tâtonner", "courir", "sauter", "voler"],
+               "answer": "tâtonner"
+           },
+        {
+               "question_number": 2,
+               "question": "Le projet est _______ pour le moment, nous attendons de nouveaux financements.",
+               "options": ["en suspens", "terminé", "lancé", "actif"],
+               "answer": "en suspens"
+           },
+        {
+               "question_number": 3,
+               "question":"Devant une telle abondance, il y avait un _______, difficile de faire un choix.",
+               "options": ["embarras du choix", "manque d'options", "choix limité", "facilité de décision"],
+               "answer": "embarras du choix"
+           },
+         {
+               "question_number": 4,
+               "question": "Elle était _______ face à cette question, elle ne savait pas quoi répondre.",
+              "options": ["perplexe", "sûre", "certaine", "décidée"],
+               "answer": "perplexe"
+          },
+          {
+               "question_number": 5,
+               "question": "Je suis face à un véritable _______, je ne sais quelle décision prendre.",
+             "options": ["dilemme", "avantage", "opportunité", "facilités"],
+              "answer": "dilemme"
+           },
+          {
+               "question_number": 6,
+               "question": "Après de longues discussions, elle restait _______ sur sa décision finale.",
+               "options": ["indécise", "déterminée", "résolue", "ferme"],
+              "answer": "indécise"
+          },
+        {
+               "question_number": 7,
+              "question":"Il a tendance à _______ quand il doit faire un choix important.",
+               "options": ["tergiverser", "décider", "agir", "choisir"],
+              "answer": "tergiverser"
+           },
+        {
+               "question_number": 8,
+               "question": " _______, je ne peux pas vous imposer une décision.",
+              "options": ["À vous de choisir", "Je dois décider", "Je dois choisir", "Je ne sais pas choisir"],
+             "answer": "À vous de choisir"
+           },
+         {
+              "question_number": 9,
+               "question":"Il s’est _______ de finir ce projet dans les délais impartis.",
+              "options": ["fixé comme but", "laissé aller", "détourné", "désintéressé"],
+               "answer":"fixé comme but"
+          },
+         {
+               "question_number": 10,
+              "question": "Il savait qu'il devait _______ la dure réalité en face, refusant de se cacher plus longtemps derrière des excuses et des faux-semblants, aussi pénible que cela puisse être.",
+               "options": ["affronter", "éviter", "fuir", "contourner"],
+              "answer": "affronter"
+          },
+          {
+              "question_number": 11,
+               "question": "Le poste de directeur, longtemps _______ par de nombreux candidats talentueux, a finalement été attribué à une personne dont l'expérience semblait parfaitement correspondre aux attentes.",
+              "options": ["brigué", "dédaigné", "refusé", "abandonné"],
+              "answer":"brigué"
+           },
+           {
+              "question_number": 12,
+               "question":"Il a accepté la tâche _______, car il n’avait pas le choix.",
+              "options":["à contrecœur", "avec plaisir", "de bonne grâce", "volontiers"],
+               "answer":"à contrecœur"
+          },
+           {
+            "question_number": 13,
+             "question":"Malgré sa _______ initiale à s'impliquer, il finit par céder face à l'insistance de ses collègues, acceptant de mettre ses compétences au service du projet commun.",
+             "options": ["réticence", "envie", "joie", "satisfaction"],
+               "answer":"réticence"
+            },
+          {
+            "question_number": 14,
+              "question":"Il avait omis, _______, de mentionner certains détails cruciaux de l'accord, cherchant subtilement à influencer la décision finale en sa propre faveur.",
+               "options":["exprès", "par hasard", "involontairement", "naturellement"],
+             "answer":"exprès"
+           },
+         {
+               "question_number": 15,
+               "question":"Il agit _______, sans réfléchir à ce qu'il fait.",
+              "options": ["machinalement", "volontairement", "avec attention", "soigneusement"],
+              "answer":"machinalement"
+           }
+       ]
+}
