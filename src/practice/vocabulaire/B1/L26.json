@@ -1,5 +1,196 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Étant véritable  _______ , elle passait des heures à chiner de nouvelles pièces rares et insolites à ajouter à sa collection.",
+            "options": ["philanthrope", "collectionneuse", "prédicateur", "bibliothécaire"],
+             "answer": "collectionneuse"
+        },
+       {
+            "question_number": 2,
+            "question":" Le _______ , grâce à ses dons et son engagement, soutient financièrement  la production et  la  promotion  d'œuvres d’art.",
+            "options":["mécène", "doyen", "bouffon", "politicien"],
+            "answer":"mécène"
+        },
+      {
+          "question_number": 3,
+            "question":" Le  _______ est souvent un moteur pour les arts en favorisant les talents et la diffusion de la culture auprès d'un public plus large.",
+           "options": ["plagiat","mécénat","clientélisme","escroquerie"],
+            "answer": "mécénat"
+      },
+     {
+          "question_number": 4,
+           "question": "L'artiste était très excité par l'annonce de son _______, événement mondain  qui attire  une grande foule de passionnés et  de connaisseurs",
+           "options": [" vernissage","concours","bilan","remise de diplôme"],
+            "answer":"vernissage"
+       },
+        {
+            "question_number": 5,
+            "question":"L'_______  du  musée a eu lieu en présence des plus hautes instances de l'état afin de consacrer ce moment dans les annals de l'histoire.",
+           "options": ["exhumation","extradition", "inauguration", "condamnation"],
+            "answer":"inauguration"
+       },
+      {
+            "question_number": 6,
+            "question":"Dans  ce musée exceptionnel, de nombreux  _______ des plus grands maîtres de la peinture ont été mis en évidence, pour notre grand plaisir.",
+            "options": ["esquisses", "aphorismes","chefs-d’œuvre", "chansons"],
+            "answer": "chefs-d’œuvre"
+       },
+        {
+            "question_number": 7,
+            "question": "Les artistes ont toujours  désiré ______  leur art pour susciter  l’intérêt, émouvoir  et même déranger  la vision conventionnelle du monde.",
+           "options":["cacher", "transmettre","exposer","interpréter"],
+            "answer":"exposer"
+       },
+     {
+           "question_number": 8,
+            "question":"Le travail d’un _______ est  essentiel afin de susciter un dialogue constructif entre les auteurs et le public  passionné d’art.",
+            "options": ["professeur", "chercheur", "critique", "comptable"],
+           "answer":"critique"
+        },
+       {
+            "question_number": 9,
+           "question":" Sa  ______ sur ce film a été sans appel, car le réalisateur a  osé  faire plusieurs fautes  narratives selon lui",
+            "options": ["complaisance", " critique", "conjecture", "déclamation"],
+           "answer":"critique"
+       },
+       {
+            "question_number": 10,
+           "question":"Le  _______  que je porte est basé sur mon ressenti personnel  et mes observations, étant libre de mon expression.",
+            "options":["sentiment","bonheur","précédent","jugement"],
+            "answer":"jugement"
+      },
+        {
+            "question_number": 11,
+            "question": "Avant de peindre,  il tend  sa  _______ sur un châssis en bois en s’assurant de la stabilité du cadre.",
+            "options": ["feuille","couverture", "toile", "nappe"],
+             "answer":"toile"
+       },
+        {
+            "question_number": 12,
+             "question":"Le peintre disposa sa ______  près de la fenêtre pour peindre et profiter des lumières naturelles afin de parfaire son chef d'œuvre.",
+              "options": ["chaise", "table", "étagère", "chevalet"],
+             "answer":"chevalet"
+         },
+        {
+           "question_number": 13,
+           "question":"Grâce au bon choix du ______ de bonne qualité, on peut peindre avec de la précision pour les détails d'une œuvre complexe.",
+            "options": ["marteau", "crayon","pinceau", "ciseau"],
+             "answer":"pinceau"
+         },
+        {
+            "question_number": 14,
+           "question": " L'artiste, pour peindre, mélange minutieusement les différentes couleurs sur sa _______  afin d’obtenir les teintes voulues pour son tableau.",
+            "options": ["tablette", "palette","ardoise", "affiche"],
+            "answer": "palette"
+       },
+        {
+            "question_number": 15,
+             "question":"Il a  commencé à ______ toutes les couleurs sur le mur avec précaution, avant de s'inspirer du résultat pour le reste du dessin.",
+              "options":["éparpiller","étaler","relever","retirer"],
+              "answer":"étaler"
+        },
+        {
+             "question_number": 16,
+             "question": " Le professionnel prend soin d’ ______ l’œuvre,  afin de la protéger des rayures ou des effets de la poussière en général.",
+           "options":["découper","encadrer","détacher","recycler"],
+           "answer":"encadrer"
+       },
+        {
+            "question_number": 17,
+             "question":"En se promenant  dans le  village  de son enfance, le peintre a souhaité reproduire ce _______ à  travers son inspiration créative.",
+            "options":["visage", "paysage", "portrait", "dessert"],
+             "answer":"paysage"
+         },
+       {
+            "question_number": 18,
+             "question": "Ses œuvres  ______ déconcertent souvent  les observateurs qui y cherchent des repères précis, parfois en vain.",
+           "options":["figuratives", "abstraites", "claires", "linéaires"],
+           "answer":"abstraites"
+       },
+      {
+            "question_number": 19,
+             "question":"Les peintres de la  ______ ont mis en évidence leurs talents  sur des supports fixes tels que les  murs des maisons.",
+             "options":["fresque", "gouache","miniature", "peinture à l'huile"],
+             "answer": "fresque"
+         },
+       {
+             "question_number": 20,
+           "question":" L’assemblage  précis  de tesselles  de couleurs vives permet la création d’une magnifique  _______ pleine  de finesse et de  détails.",
+             "options":["bande dessinée", "vidéo","mosaïque", "sérigraphie"],
+            "answer": "mosaïque"
+        },
+      {
+             "question_number": 21,
+            "question": "L'étude des _______ dans un cadre éducatif permet de développer notre sens de la créativité et d'acquérir de nouvelles techniques artistiques.",
+           "options": ["beaux-arts", "sports","jeux vidéo","sciences"],
+            "answer":"beaux-arts"
+       },
+        {
+            "question_number": 22,
+             "question":"Attention ! Si on ne la fait pas avec précision , cette  _______ d'une  oeuvre originale pourrait être jugée  comme une contrefaçon",
+            "options":["révolution","compétition","copie", "théorie"],
+             "answer":"copie"
+         },
+       {
+           "question_number": 23,
+           "question":" Les visiteurs ont  _______ une œuvre  d'art lors d'une visite, ce qui a suscité  la colère des conservateurs et une surveillance plus stricte.",
+           "options":["construit","transformé", "endommagé", "valorisé"],
+             "answer":"endommagé"
+        },
+      {
+            "question_number": 24,
+           "question":"Ne pas ________ l’oeuvre est primordial, car on doit préserver au maximum chaque détail du tableau sans compromettre l’harmonie de l’ensemble.",
+           "options":["abîmer","valoriser","rénover", "conserver"],
+          "answer":"abîmer"
+        },
+        {
+           "question_number": 25,
+            "question": " Pour dessiner à l’ancienne, il fallait avoir recours à la  _______ et l’encre, afin d’obtenir des rendus précis de ces croquis.",
+             "options": ["aiguille", "plume","seringue", "épingle"],
+           "answer":"plume"
+        },
+      {
+            "question_number": 26,
+            "question": "L'_______ de son stylo, noire et brillante, laissait des traces précises et élégantes sur le papier, soulignant la beauté et l'expressivité de son écriture calligraphique.",
+             "options":["crayon", "charbon","encre", "fusain"],
+            "answer": "encre"
+      },
+       {
+           "question_number": 27,
+            "question": "Avant de commencer, l’artiste fait  rapidement  quelques _______ afin de  capturer une image  claire de son idée  première  dans son carnet.",
+           "options": ["dérapages","croquis", "comptes","gestes"],
+             "answer":"croquis"
+       },
+       {
+            "question_number": 28,
+           "question": "Elle a gribouillé  une ______  afin de  visualiser un angle nouveau  avant de se lancer dans  l’œuvre proprement dite en vue de finaliser son œuvre.",
+           "options":["équitation", "esquisse", "traduction", "description"],
+           "answer":"esquisse"
+       },
+       {
+          "question_number": 29,
+            "question":"Pour ce travail difficile, il a eu  l’idée de faire quelques _____  , en utilisant les angles importants du dessin pour se lancer dans l'exécution du travail.",
+            "options": ["ébauches", "exercices", "modèles","examens"],
+          "answer":"ébauches"
+       },
+     {
+           "question_number": 30,
+            "question":" De grands efforts sont déployés afin d' ______   des ponts ou  des  routes pour  améliorer le quotidien  des populations locales dans de nombreuses régions.",
+             "options":["improviser", "détruire","édifier", "ébranler"],
+          "answer": "édifier"
+       },
+       {
+          "question_number": 31,
+         "question": "Grâce au financement des dons, l’association  a pu  ______ des  centres éducatifs, car ceux ci favorisent la promotion de leurs actions auprès des enfants.",
+           "options":["abolir", "transmettre","bâtir", "refondre"],
+           "answer": "bâtir"
+       },
+        {
+            "question_number": 32,
+           "question": " Après avoir  _____ tous les  éléments de l’image à  l’aide  d’un programme de graphisme , l’artiste est content de constater que tout est enfin harmonieux",
+            "options": ["agrandi", "retouché","restauré","supprimé"],
+           "answer":"retouché"
+        }
     ]
 }

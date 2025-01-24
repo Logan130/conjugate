@@ -1,5 +1,136 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Chaque _______ de cette série épique est un véritable voyage dans le temps, que l'on dévore avec délectation.",
+           "options": ["chapitre","tome","film","album"],
+           "answer": "tome"
+        },
+       {
+           "question_number": 2,
+           "question":"L'auteur a ajouté une belle _______ sur la première page du livre en guise de remerciement à son premier lecteur.",
+           "options":["adresse","inscription","dédicace","signature"],
+           "answer":"dédicace"
+        },
+      {
+          "question_number": 3,
+          "question": "Ce _______ est un outil indispensable pour les étudiants qui préparent leur examen, avec tous les thèmes du programme.",
+          "options": ["roman","manuel scolaire","dictionnaire","recueil"],
+           "answer":"manuel scolaire"
+       },
+       {
+           "question_number": 4,
+            "question": "Si vous cherchez une information précise, vous feriez mieux de consulter cet _______ car il regorge de renseignements fiables",
+           "options": ["essai","article","ouvrage de référence","reportage"],
+            "answer": "ouvrage de référence"
+       },
+       {
+           "question_number": 5,
+           "question": "Le _______ est mon ami, car il me trouve toujours des trésors cachés et me propose des prix incroyables sur toutes ses étagères.",
+          "options":["bouquiniste", "marchand de glaces","brocanteur","libraire"],
+            "answer":"bouquiniste"
+        },
+     {
+            "question_number": 6,
+           "question": "Ce meuble  _______  est un véritable  chef-d'œuvre et on y a consacré du temps afin  de le restaurer avec soin et le mettre  en valeur ",
+          "options":["neuf","d’occasion","de marque","d’antiquité"],
+           "answer": "d’occasion"
+       },
+      {
+           "question_number": 7,
+           "question":"Les manuscrits sont  en cours de corrections par les équipes  de  la __________, avant d’être présentés au public avec  toute leur beauté.",
+           "options":["agence immobilière", "maison d’édition","cabinet d’architecte", "station radio"],
+            "answer":"maison d’édition"
+       },
+       {
+            "question_number": 8,
+            "question":"Ce titre étant  _______  chez l'éditeur, vous le trouverez facilement  dans les  boutiques en ligne pour vous faire  plaisir et le lire sans attendre.",
+             "options": ["annulé","épuisé","préféré","inutile"],
+            "answer":"épuisé"
+        },
+     {
+           "question_number": 9,
+            "question":"Au _______, tous les professionnels du monde de l'édition se retrouvent afin de présenter et  d’échanger autour des livres.",
+           "options":["salon de coiffure", "salon du livre", "salon de beauté","salle des fêtes"],
+            "answer": "salon du livre"
+       },
+     {
+            "question_number": 10,
+            "question":"Après une lecture passionnante, j'ai demandé à mon auteur préféré de  _______  un exemplaire du  roman  pour mon plus grand plaisir  d’amoureux  de littérature",
+             "options": ["commenter", "corriger", "dédicacer", "rééditer"],
+            "answer": "dédicacer"
+       },
+       {
+            "question_number": 11,
+           "question": "Il vaut mieux ne pas s'attarder sur le détail et _______  les titres dans un premier temps pour une vision globale du texte dans un premier temps.",
+             "options":["annoter","survoler", "souligner", "apprendre"],
+           "answer": "survoler"
+        },
+      {
+           "question_number": 12,
+           "question":"J'ai passé un temps fou à _______ cette encyclopédie, afin de rechercher tous les articles traitant d'un thème  pour préparer mon intervention de la semaine",
+            "options":["parcourir","feuilleter","compulser","imprimer"],
+            "answer": "feuilleter"
+       },
+        {
+            "question_number": 13,
+            "question":"Les  _______ sont les évènements qui rythment la saison et permettent de découvrir les  prochains bestsellers de la littérature de qualité",
+             "options":["réformes", "actualités","nouveautés","recommandations"],
+            "answer":"nouveautés"
+       },
+     {
+            "question_number": 14,
+            "question":" J'ai besoin de _______ la  loi afin de répondre au cas précis qui se présente devant moi en me rendant au plus  profond des explications.",
+            "options":["feuilleter", "lire","compulser","étudier"],
+             "answer": "compulser"
+       },
+       {
+           "question_number": 15,
+           "question":" La  _______ française est à l’honneur au salon du livre cette année et le public est heureux de la  rencontrer de visu",
+           "options": ["dramaturge","romancière","conférencière","poète"],
+           "answer":"romancière"
+        },
+        {
+            "question_number": 16,
+           "question":"Cet  auteur est un  _______  exceptionnel, car ses textes  touchent les sujets  les plus sensibles et révèlent ses  talents uniques.",
+           "options": ["graphiste","dramaturge","musicien", "peintre"],
+            "answer": "dramaturge"
+      },
+      {
+          "question_number": 17,
+          "question":"Il  est impératif de finaliser les  _______ avant la date limite, afin d'être capable de transmettre tous les manuscrits",
+          "options":["comptes","brouillons", "contrôles","exercices"],
+           "answer":"brouillons"
+      },
+       {
+            "question_number": 18,
+           "question": "L’  _______ fluide et limpide de cet auteur a séduit des milliers de lecteurs grâce à une imagination fertile et créative.",
+            "options": ["couleur","écriture","calligraphie","peinture"],
+           "answer": "écriture"
+       },
+      {
+           "question_number": 19,
+           "question":"Le  _______ entre les personnages  rend  l'histoire  captivante en  mettant en relief leur  vision du monde, leurs émotions et leur personnalité",
+           "options":["geste","silence","dialogue", "message"],
+          "answer":"dialogue"
+       },
+        {
+             "question_number": 20,
+             "question": "Dans le roman _______, les déductions magistrales de Sherlock Holmes mettent souvent en lumière la capacité du raisonnement logique à percer les mystères les plus impénétrables.",
+           "options":["biographique","fantastique", "policier","historique"],
+            "answer": "policier"
+       },
+      {
+          "question_number": 21,
+           "question":"L'_______ du roman, tissée avec une habileté remarquable, captivait l'attention du lecteur, l'entraînant dans un réseau complexe de mystères et de rebondissements imprévus.",
+           "options":["idée", "morale", " intrigue", "conclusion"],
+           "answer":"intrigue"
+      },
+      {
+           "question_number": 22,
+          "question": "Pour endormir les enfants avant de dormir, il est conseillé de leur lire de beaux  _______   afin de les rassurer et les faire  rêver dans un univers agréable.",
+           "options":["fables","contes","romans","essais"],
+            "answer":"contes"
+       }
     ]
 }

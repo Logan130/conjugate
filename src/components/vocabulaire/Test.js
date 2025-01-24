@@ -5,6 +5,15 @@ import { ThemeContext } from "../../context/context";
 import Loader from '../../static/loader.webp'
 import { Title } from "./VocabulaireSummary";
 
+function Beautifier(question) {
+    // Replace all instances of double spaces with a single space
+    question = question.replace(/\s{2,}/g, ' ');
+    
+    // Replace all underscores of any length with exactly 6 underscores
+    question = question.replace(/_+/g, '______');
+    
+    return question;
+}
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -28,10 +37,10 @@ function IndividualQuestion({ question, id }) {
     return (
         <div className="card w-auto bg-neutral text-neutral-content">
             <div className="card-body items-left text-left">
-                <h2 className="card-title">Q{id}: {question.question}</h2>
+                <h2 className="card-title">Q{id}: {Beautifier(question.question)}</h2>
                 <div className="grid grid-cols-1 gap-2">
                     {(question.options).map((option, index) => (
-                        <div key={index} className="flex items-center space-x-2 hover:cursor-pointer" onClick={() => handleRadioChange(index, option)}>
+                        <div key={index} className="flex items-center space-x-2 hover:cursor-pointer hover:bg-neutral-content/10 hover:text-base-content rounded-md" onClick={() => handleRadioChange(index, option)}>
                             <input
                                 type="radio"
                                 className={answer === "" ? "radio radio-xs" : (answer === question.answer ? "radio radio-xs radio-success" : "radio radio-xs radio-error")}

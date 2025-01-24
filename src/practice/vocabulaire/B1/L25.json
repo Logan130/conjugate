@@ -1,5 +1,161 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Les peintures rupestres découvertes dans la _______ témoignent de l'activité humaine préhistorique dans cette région.",
+            "options": ["caverne", "cabane", "maison", "usine"],
+            "answer": "caverne"
+        },
+       {
+            "question_number": 2,
+            "question":"L'épopée _______ de l'Odyssée, attribuée à Homère, raconte le long périple d'Ulysse pour rentrer chez lui, regorgeant de personnages et de situations mythologiques intemporels.",
+            "options": ["celtique", "grecque", "égyptienne", "chinoise"],
+             "answer": "grecque"
+        },
+        {
+            "question_number": 3,
+             "question":"Les arcs, aqueducs et routes ont été autant de réalisations ancienness que l’ingéniosité _______ nous a léguées à travers les siècles.",
+            "options":["française", "italienne", "anglaise", "romaine"],
+            "answer":"romaine"
+         },
+       {
+           "question_number": 4,
+          "question":"L’ _______ explore activement les sites antiques dans l’espoir de révéler davantage de secrets liés à notre histoire.",
+           "options":["alpiniste", "astronome", "biologiste", "archéologue"],
+            "answer":"archéologue"
+       },
+        {
+           "question_number": 5,
+           "question": "La  _______ de cet ancien site a permis de mettre au jour plusieurs pièces de monnaie ainsi qu'une statue en bronze datant du 3e siècle.",
+            "options": ["fouille", "installation", "construction", "opération"],
+           "answer": "fouille"
+       },
+       {
+           "question_number": 6,
+          "question": "Des ouvriers ont découvert un amphithéâtre romain pendant les travaux d'un nouveau _______ urbain dans la banlieue de la ville.",
+          "options":["aéroport", "chantier", "magasin", "laboratoire"],
+           "answer": "chantier"
+        },
+      {
+            "question_number": 7,
+            "question":"Les ______ de cette civilisation ancienne ont été minutieusement étudiés pour en apprendre plus sur leur mode de vie.",
+            "options":["reliques","édifices", "vestiges", "monuments"],
+            "answer":"vestiges"
+       },
+        {
+            "question_number": 8,
+            "question": "Les objets retrouvés lors de la campagne de fouilles datent du 4e siècle  _______, confirmant l’importance de ce lieu à cette époque.",
+            "options": ["A.J.-C.", "ap. J.-C.", "p. ex.", "n.b."],
+            "answer": "ap. J.-C."
+        },
+        {
+            "question_number": 9,
+             "question": "Pendant  _______, les châteaux-forts étaient très fréquents et ont subi les assauts violents des armées d’envahisseurs.",
+            "options":["le néolithique","le Moyen Âge", "l'époque contemporaine", "le futur lointain"],
+            "answer":"le Moyen Âge"
+        },
+        {
+            "question_number": 10,
+            "question":"L’architecture ______ se distingue par ses constructions en pierre massive, ses arcs brisés et ses vitraux lumineux.",
+            "options":["baroque","médiévale","renaissante","contemporaine"],
+             "answer":"médiévale"
+         },
+       {
+            "question_number": 11,
+           "question": "Pendant la  _______, l’art, la science et la philosophie ont connu une éclosion remarquable, changeant radicalement notre vision du monde.",
+             "options": ["Réformation","Révolution", "Renaissance","Résurrection"],
+             "answer":"Renaissance"
+        },
+      {
+            "question_number": 12,
+            "question": "Pendant  _______, des penseurs comme Voltaire et Rousseau ont propagé de nouvelles idées  mettant en cause les fondements de l’ancien régime.",
+            "options": ["le siècle des Lumières", "la Guerre froide", "la Grande Dépression", "les Trente Glorieuses"],
+            "answer": "le siècle des Lumières"
+         },
+      {
+            "question_number": 13,
+            "question":"L'étude de la ______ a permis de comprendre l’évolution des civilisations et d’ordonner les grands évènements de notre passé.",
+            "options":["géométrie","astronomie", "chronologie","psychologie"],
+            "answer":"chronologie"
+       },
+      {
+           "question_number": 14,
+           "question": "La France a longtemps été sous le régime d'une  _______, avant d'évoluer vers la démocratie et la république.",
+            "options": ["oligarchie", "démocratie", "théocratie","monarchie"],
+            "answer":"monarchie"
+        },
+       {
+          "question_number": 15,
+           "question": "Un _______  a le pouvoir d’ordonner l’arrestation d’un individu si la procédure est justifiée par la loi.",
+          "options":["candidat", "député", "souverain", "éboueur"],
+          "answer":"souverain"
+      },
+       {
+            "question_number": 16,
+            "question": "L’ empereur César a ________  sur la plupart de l’Europe antique, ce qui lui a valu des admirations mais aussi des rivalités.",
+           "options":["régné", "dormi", "flotté", "médité"],
+             "answer":"régné"
+        },
+       {
+            "question_number": 17,
+            "question": "Le _______ du roi fut marqué par un renforcement des relations diplomatiques avec des puissances voisines.",
+            "options":["combat", "règne", " voyage","repas"],
+           "answer": "règne"
+        },
+       {
+            "question_number": 18,
+           "question":"Le _______ flatte le souverain dans l’espoir d’obtenir quelques privilèges, même si son action est parfois intéressée.",
+             "options":["partisan", " courtisan","conteur","bouffon"],
+           "answer": "courtisan"
+       },
+        {
+            "question_number": 19,
+            "question": "_______, longtemps au pouvoir, a vu son influence décliner progressivement face à la montée de la bourgeoisie et des idées démocratiques au cours du XIXe siècle.",
+             "options": ["Le prolétariat","L'aristocratie","La bourgeoisie","La ploutocratie"],
+             "answer":"L'aristocratie"
+        },
+       {
+            "question_number": 20,
+            "question":"Les différents États de cette région se sont _______ pour créer un front uni face à la menace des envahisseurs.",
+             "options": ["fiancés", "réconciliés", "alliés", "opposés"],
+            "answer":"alliés"
+        },
+       {
+           "question_number": 21,
+            "question": "En raison de nombreux intérêts communs, les deux pays sont devenus des _______ historiques et ont signé plusieurs traités d’assistance mutuelle.",
+           "options": ["collaborateurs", " ennemis", "adversaires","alliés"],
+           "answer":"alliés"
+       },
+      {
+           "question_number": 22,
+           "question": "Après une _______ désastreuse, l'armée a été obligée de se retirer précipitamment, abandonnant une grande partie de ses équipements.",
+          "options": ["victoire","défaite", "trêve","paix"],
+            "answer": "défaite"
+       },
+        {
+            "question_number": 23,
+            "question": "Face à l’inéluctabilité de leur échec, les forces ennemies n'ont pas eu d’autre option que la  _______  et se sont rendues aux autorités.",
+            "options": ["libération", "capitulation","provocation","réconciliation"],
+           "answer": "capitulation"
+       },
+        {
+            "question_number": 24,
+           "question": "Le ______ a célébré sa victoire avec une grande fête de rues et la distribution de cadeaux au sein de la communauté.",
+           "options": ["perdant","vainqueur", "spectateur","concurrent"],
+            "answer":"vainqueur"
+        },
+       {
+           "question_number": 25,
+           "question":" Après plusieurs semaines de  _______ de paix, les différentes parties prenantes sont parvenues à trouver un terrain d’entente satisfaisant.",
+          "options": ["déclarations"," pourparlers","décrets","affrontements"],
+           "answer": "pourparlers"
+        },
+     {
+            "question_number": 26,
+            "question": "Le nouveau _______ commercial signé par les deux nations met fin aux conflits économiques du passé et établit des bases solides pour le futur.",
+             "options":["décret", "accord","traité", "contrat"],
+            "answer":"traité"
+       }
+    
     ]
 }

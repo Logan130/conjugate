@@ -164,7 +164,7 @@ export function VocabulairePage() {
             filterHandler={onClickVocabulaireFilter}
             buttonArr={["B2-C1", "A2-B1", "A1-A2"]}
             reverse={false}
-            titleStyle={isMobile ? 'flex items-center w-32 text-sm' : (eng ? 'flex items-center w-64' : 'flex items-center w-32')}
+            titleStyle={isMobile ? 'flex items-center w-32 text-sm' : (eng ? 'flex items-center w-48' : 'flex items-center w-32')}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-2") : "text-base py-0"}
             locked={false}
         />

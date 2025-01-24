@@ -1,5 +1,112 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Le  _______ conçoit avec créativité les vêtements que portent les acteurs, afin d’aider à la mise en scène du spectacle.",
+            "options": ["menuisier", "costumier", "musicien", "traducteur"],
+             "answer": "costumier"
+        },
+       {
+           "question_number": 2,
+           "question":" Le _______ est un véritable artiste, car il doit élaborer des espaces  afin de plonger le spectateur dans  l'univers  imaginé  par  l'auteur.",
+            "options": ["comptable", "décorateur", "chauffeur", "horticulteur"],
+             "answer": "décorateur"
+       },
+       {
+           "question_number": 3,
+            "question":"Après des mois de travail, tous  les artistes sont  fin prêts pour  la première  _______ sur scène, avant l'arrivée du public.",
+           "options": ["représentation", "projection", "répétition", "assemblée"],
+            "answer":"répétition"
+       },
+        {
+            "question_number": 4,
+             "question":"Les créateurs du mouvement _______, à travers des spectacles insolites, cherchent à bousculer les habitudes du théâtre classique et traditionnel.",
+            "options": ["académique", "avant-garde", "classique", "minimaliste"],
+           "answer":"avant-garde"
+        },
+      {
+           "question_number": 5,
+            "question": "La _______ théâtrale est unie par une même passion, un dévouement commun et par de nombreuses heures d'entraînement pour donner vie au spectacle.",
+            "options":["entreprise", "fédération", "troupe", "communauté"],
+            "answer":"troupe"
+       },
+       {
+           "question_number": 6,
+            "question":"Après cette déclaration d'amour poignante, le  public, _______ par la beauté des mots et l'interprétation des acteurs, a versé quelques larmes.",
+            "options":["ennuyé", "surpris", "émue", "fatigué"],
+            "answer": "émue"
+        },
+     {
+           "question_number": 7,
+            "question":"Durant  l'_______, le spectateur peut s’informer  sur les prochains évènements prévus par l'établissement et  analyser ses ressentis.",
+           "options":["entracte","dialogue","intermède", "échange"],
+          "answer": "entracte"
+       },
+        {
+           "question_number": 8,
+            "question": "Lorsqu'un  artiste ne plait pas au public, on peut souvent entendre le spectateur  _______  pour faire part de son  désaccord avec la prestation proposée",
+           "options":["hurler", "chanter", "siffler", "applaudir"],
+          "answer":"siffler"
+       },
+        {
+           "question_number": 9,
+           "question": "Ce déguisement _______ a fasciné  les spectateurs, car il permet de modifier  l'apparence  d'un acteur pour une immersion totale dans un rôle donné.",
+           "options":["quotidien", "banal", "naturel", "théâtral"],
+           "answer": "théâtral"
+        },
+        {
+            "question_number": 10,
+             "question":"La  tension était  palpable  en _______ lorsque l’acteur  a raté ses répliques avant le début de la scène , faisant grimper le stress des collègues.",
+            "options":["coulisses", "plateau", "loges", "galerie"],
+           "answer": "coulisses"
+        },
+       {
+             "question_number": 11,
+             "question": "La diva a refusé de chanter, faisant  une _______ qui a  contraint le  directeur du théâtre à rembourser toutes les places des spectateurs",
+            "options": ["confidence","enquête", "mise au point", "scène"],
+            "answer": "scène"
+       },
+        {
+           "question_number": 12,
+            "question": "Le théâtre est en  _______  le lundi car tous les artistes doivent reprendre leur souffle afin de revenir plus fort le reste de la semaine",
+           "options":["grève", "activité","relâche","travaux"],
+          "answer":"relâche"
+        },
+       {
+            "question_number": 13,
+             "question": "Le _______ assemble avec soin les images enregistrées lors du tournage afin  de proposer une continuité et une logique à la narration du film",
+           "options": ["journaliste", "monteur", "ingénieur","comptable"],
+            "answer":"monteur"
+        },
+     {
+           "question_number": 14,
+           "question": "Le _______ est un processus minutieux qui permet d’optimiser le rythme et la portée narrative d’une œuvre cinématographique.",
+           "options":["tirage", "tournage","montage","réglage"],
+            "answer":"montage"
+        },
+        {
+           "question_number": 15,
+            "question": "Le _______ a des projets de mise en scène ambitieux  afin d'interpeller, et par conséquent  changer  les codes du septième art et du cinéma en général.",
+          "options":["informaticien","cuisinier","cinéaste", "commerçant"],
+            "answer": "cinéaste"
+       },
+      {
+           "question_number": 16,
+            "question": "Un bon  _______ doit maîtriser les techniques d'écriture et savoir raconter une histoire à travers des personnages charismatiques afin de donner un bon rendu au film",
+            "options": ["scénariste","régisseur","électricien","réalisateur"],
+           "answer": "scénariste"
+        },
+       {
+            "question_number": 17,
+            "question":"Grâce à ce ______,  on apprend ce que pensent  les acteurs et on visualise comment l'histoire est mise en forme par la succession des  dialogues ",
+            "options":["entretien","scénario", "commentaire", "résumé"],
+          "answer": "scénario"
+        },
+        {
+             "question_number": 18,
+           "question":"Le _______  des films en langue étrangère est un travail minutieux, car il nécessite de bonnes qualités d'adaptation et de traduction.",
+           "options": ["sondage","doublage","réglage", "mixage"],
+           "answer": "doublage"
+        }
     ]
 }
