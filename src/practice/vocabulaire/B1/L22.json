@@ -1,0 +1,130 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "L'_______ a été retrouvé sur les lieux du crime, ce qui a permis d'identifier l'auteur du méfait.",
+            "options": ["arme", "revolver", "témoin", "mobile"],
+            "answer": "arme"
+        },
+        {
+            "question_number": 2,
+            "question": "Les  _______ tentent de comprendre le mobile de cet acte de violence inexpliqué.",
+            "options": ["complices", "témoins", "enquêteurs", "criminels"],
+            "answer": "enquêteurs"
+        },
+        {
+            "question_number": 3,
+            "question": "L'analyse  _______ a confirmé que le suspect était bien présent sur la scène du crime.",
+            "options": ["ADN", "mobile", "aveu", "alibi"],
+            "answer": "ADN"
+         },
+        {
+            "question_number": 4,
+             "question": "L'_______ de la victime, inconsolable, a exigé que justice soit faite après ce drame.",
+            "options": ["témoin", "amant", "procès", "criminel"],
+            "answer": "amant"
+        },
+        {
+            "question_number": 5,
+            "question": "L'individu, au comportement  _______, a été mis en garde à vue par les autorités.",
+             "options": ["complice", "louche", "corrompu", "fidèle"],
+            "answer": "louche"
+        },
+        {
+            "question_number": 6,
+            "question": "La  _______ a éclaté entre les deux hommes suite à un désaccord sur une question d'argent.",
+            "options": ["escroquerie", "bagarre", "chantage", "censure"],
+            "answer": "bagarre"
+        },
+        {
+            "question_number": 7,
+            "question": "Leurs rires, échangés en toute _______, témoignaient de la complicité profonde qu'ils entretenaient, rendant les épreuves de la vie moins difficiles à surmonter.",
+             "options": ["témoin", "agresseur", "complice", "criminel"],
+            "answer": "complice"
+        },
+        {
+            "question_number": 8,
+             "question":"Les victimes, abusées par les manœuvres habiles de l'_______, avaient perdu leurs économies de toute une vie.",
+            "options": ["escroc", "complice", "trafiquant", "agresseur"],
+            "answer": "escroc"
+        },
+         {
+            "question_number": 9,
+            "question": "La victime a été retrouvée assassinée avec un  _______ dans la main.",
+            "options": ["revolver", "brouillon", "mobile", "chantage"],
+            "answer": "revolver"
+        },
+        {
+            "question_number": 10,
+            "question":"Le véritable _______ de son geste, resté longtemps un mystère, fut finalement révélé par des témoignages croisés, remettant en question l'interprétation initiale de l'événement.",
+            "options": ["trafiquant", "agresseur", "mobile", "brouillon"],
+            "answer": "mobile"
+        },
+         {
+            "question_number": 11,
+             "question": "Le _______ oculaire, par son récit détaillé des événements, a permis d'éclaircir certaines zones d'ombre de l'enquête et d'établir plus clairement le déroulement des faits.",
+            "options": ["criminel", "témoin", "complice", "agresseur"],
+            "answer": "témoin"
+        },
+          {
+            "question_number": 12,
+             "question": "Le  _______ de la banque a été minutieusement préparé par une équipe de malfaiteurs.",
+            "options": ["armement", "cambriolage", "chantage", "procès"],
+            "answer": "cambriolage"
+        },
+        {
+            "question_number": 13,
+            "question":"L'individu a  _______  la banque pendant la nuit, emportant un butin important.",
+            "options": ["escroqué", "incarcéré", "cambriolé", "relâché"],
+             "answer": "cambriolé"
+        },
+        {
+            "question_number": 14,
+            "question": "Le prisonnier, enfin relâché après des années de détention, se confrontait à une société qui avait évolué en son absence.",
+            "options": ["condamné", "relâché", "incarcéré", "emprisonné"],
+             "answer": "relâché"
+        },
+       {
+            "question_number": 15,
+             "question":"Le _______, arrêté en possession d'une grande quantité de produits illégaux, risquait une peine sévère pour son rôle dans ce réseau de commerce illicite.",
+            "options": ["enquêteur", "escroc", "témoin", "trafiquant"],
+             "answer": "trafiquant"
+       },
+        {
+            "question_number": 16,
+            "question":"Le  _______ rédigé par le suspect a été trouvé dans sa poubelle, rempli de ratures.",
+             "options": ["mobile", "brouillon", "aveu", "alibi"],
+            "answer": "brouillon"
+        },
+          {
+            "question_number": 17,
+             "question": "L'homme a été victime d'un  _______ et il a été contraint de payer une somme exorbitante.",
+           "options": ["chantage", "cambriolage", "armement", "assassinat"],
+            "answer": "chantage"
+        },
+        {
+            "question_number": 18,
+            "question": "Ce système administratif, rongé par la corruption, semblait incapable de répondre aux besoins des citoyens, les fonctionnaires les plus _______ profitant de leur position pour leur propre avantage personnel.",
+            "options": ["témoins", "criminels", "corrompus", "louches"],
+            "answer": "corrompus"
+        },
+        {
+            "question_number": 20,
+             "question":"Le président a été victime d'un  _______  prémédité et soigneusement organisé.",
+            "options": ["assassinat", "cambriolage", "chantage", "escroquerie"],
+            "answer": "assassinat"
+        },
+       {
+            "question_number": 23,
+             "question": "Malgré les preuves accablantes, le prévenu continuait de  _______ de son innocence.",
+           "options": ["reconnaître", "protester", "condamner", "emprisonner"],
+           "answer": "protester"
+        },
+         {
+            "question_number": 24,
+            "question": "Après un long  _______, le juge a finalement condamné le prévenu coupable.",
+            "options": ["aveu", "procès", "mobile", "chantage"],
+            "answer": "procès"
+        }
+    ]
+}

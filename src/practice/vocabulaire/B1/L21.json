@@ -1,0 +1,76 @@
+{
+    "test": [
+        {
+          "question_number": 1,
+          "question": "La chaîne de télévision a diffusé le débat _______ pour maximiser l'impact auprès des téléspectateurs.",
+          "options": ["en direct", "en différé", "impartial", "fidèle"],
+          "answer": "en direct"
+        },
+        {
+          "question_number": 2,
+           "question": "Les _______ de la radio ont augmenté grâce à une programmation innovante et diversifiée.",
+          "options": ["parts d’audience", "feuilletons", "communiqués", "tirages"],
+          "answer": "parts d’audience"
+        },
+        {
+          "question_number": 3,
+            "question": "Le journal a publié un _______ pour clarifier sa position sur une affaire controversée.",
+          "options": ["numéro", "satellite", "communiqué", "fait divers"],
+          "answer": "communiqué"
+        },
+          {
+          "question_number": 4,
+            "question": "Le _______ de ce magazine est connu pour ses articles d’investigation approfondis.",
+          "options": ["auditeur", "lecteur", "rédacteur", "satellite"],
+          "answer": "rédacteur"
+        },
+          {
+          "question_number": 5,
+          "question": "Le journal a fait l'objet de critiques pour son manque de neutralité et de caractère _______.",
+          "options": ["fidèle", "partial", "impartial", "différé"],
+          "answer": "impartial"
+        },
+         {
+          "question_number": 6,
+           "question": "Le reporter a couvert le _______, relatant les événements avec précision.",
+          "options": ["fait divers", "feuilleton", "tirage", "numéro"],
+          "answer": "fait divers"
+        },
+        {
+          "question_number": 7,
+          "question": "Le _______ de ce journal atteint des sommets grâce à ses reportages exclusifs.",
+          "options": ["tirage", "sonder", "communiqué", "différé"],
+          "answer": "tirage"
+        },
+          {
+          "question_number": 8,
+          "question": "Les  _______ ont été interrogés pour connaître leur opinion sur la nouvelle réforme.",
+          "options": ["lecteurs", "auditeurs", "rédacteurs", "satellites"],
+          "answer": "auditeurs"
+        },
+        {
+          "question_number": 9,
+          "question": "L'article a été accompagné d'une _______ expliquant le contexte de la photographie.",
+           "options": ["légende", "parution", "censure", "feuilleton"],
+          "answer": "légende"
+        },
+        {
+          "question_number": 10,
+           "question":"Le réalisateur a opté pour une diffusion _______ de la série pour maintenir le suspense.",
+          "options": ["en différé", "en direct", "impartial", "fidèle"],
+          "answer": "en différé"
+        },
+         {
+          "question_number": 11,
+          "question": "Les chaînes d'information doivent toujours s'efforcer d'éviter la _______ dans leurs reportages.",
+              "options": ["sonder", "parution", "censure", "légende"],
+          "answer": "censure"
+        },
+        {
+          "question_number": 12,
+          "question": "Les  _______ de la revue attendent avec impatience le prochain numéro du magazine.",
+          "options": ["auditeurs", "lecteurs", "rédacteurs", "satellites"],
+              "answer": "lecteurs"
+        }
+      ]
+}

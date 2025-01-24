@@ -1,0 +1,184 @@
+{
+    "test": [
+        {
+          "question_number": 1,
+          "question": "Face à une _______ économique persistante, les entreprises peinent à retrouver leur dynamisme.",
+          "options": ["relance", "croissance", "récession", "marasme"],
+          "answer": "récession"
+        },
+        {
+          "question_number": 2,
+          "question": "Le pays, lourdement _______, cherche des solutions pour honorer ses engagements financiers.",
+          "options": ["excédentaire", "endetté", "rentable", "prohibitif"],
+            "answer": "endetté"
+        },
+          {
+          "question_number": 3,
+          "question": "L'État a décidé de _______ certaines entreprises pour stimuler l'innovation technologique.",
+          "options": ["concurrencer", "subventionner", "ralentir", "fusionner"],
+          "answer": "subventionner"
+        },
+         {
+          "question_number": 4,
+          "question": "Le _______ de l'entreprise a été fortement impacté par la pandémie mondiale.",
+          "options": ["esprit d'entreprise", "bilan", "pic", "ralentissement"],
+          "answer": "bilan"
+        },
+        {
+          "question_number": 5,
+          "question": "La _______ des prix de l'énergie rend les dépenses courantes inabordables pour de nombreux foyers.",
+          "options": ["dette", "escalade", "courbe", "conjoncture"],
+            "answer": "escalade"
+        },
+         {
+          "question_number": 6,
+          "question": "La décision de fermer certaines _______, bien que douloureuse pour les employés, visait à optimiser les ressources et à recentrer les activités sur les régions les plus rentables.",
+          "options": ["filiales", "niches", "gammes", "succursales"],
+          "answer": "succursales"
+        },
+          {
+          "question_number": 7,
+          "question": "La _______  de l'entreprise a augmenté considérablement grâce à de nouvelles parts de marché.",
+              "options": ["rentrée", "dette", "subvention", "courbe"],
+          "answer": "rentrée"
+        },
+         {
+          "question_number": 8,
+          "question": "L'_______  des exportations a permis de combler partiellement le déficit commercial.",
+          "options": ["excédent", "ralentissement", "creux", "marasme"],
+            "answer": "excédent"
+        },
+        {
+          "question_number": 9,
+           "question": "L'entreprise a réussi à se positionner sur un _______ spécifique pour toucher une nouvelle clientèle.",
+          "options": ["bilan", "niche", "succursale", "gamme"],
+            "answer": "niche"
+        },
+        {
+          "question_number": 10,
+          "question": "Les experts anticipent un _______ de l'activité économique après une période de stagnation.",
+          "options": ["redressement", "marasme", "ralentissement", "pic"],
+          "answer": "redressement"
+        },
+          {
+          "question_number": 11,
+          "question": "Le _______ de la croissance économique, observé au niveau national, a suscité des inquiétudes quant aux prévisions futures et à la stabilité de l'emploi.",
+          "options": ["pic", "ralentissement", "redressement", "creux"],
+              "answer": "ralentissement"
+        },
+          {
+          "question_number": 12,
+          "question": "L'annonce de la _______ entre les deux géants de la technologie a surpris le marché.",
+              "options": ["relance", "fusion", "concurrence", "subvention"],
+          "answer": "fusion"
+        },
+          {
+          "question_number": 13,
+          "question": "Le _______ des taux d'intérêt a rendu plus difficile l'accès au crédit.",
+          "options": ["pic", "ralentissement", "redressement", "creux"],
+              "answer": "pic"
+        },
+        {
+           "question_number": 14,
+          "question": "La nouvelle collection présentait une _______ étendue de couleurs et de motifs audacieux, cherchant à satisfaire les goûts variés d'une clientèle toujours plus diversifiée.",
+          "options": ["niche", "gamme", "filiale", "succursale"],
+            "answer": "gamme"
+        },
+          {
+          "question_number": 15,
+           "question": "Les prix des logements ont atteint un niveau _______, empêchant de nombreux ménages d'acheter.",
+          "options": ["prohibitif", "rentable", "excédentaire", "déficitaire"],
+            "answer": "prohibitif"
+        },
+        {
+          "question_number": 16,
+          "question": "La _______ économique, caractérisée par une inflation croissante et des taux d'intérêt élevés, a mis à mal de nombreux foyers et entreprises, menaçant leur stabilité financière.",
+           "options": ["relance", "conjoncture", "récession", "dette"],
+          "answer": "conjoncture"
+        },
+       {
+          "question_number": 17,
+           "question": "Les nouvelles mesures fiscales, conçues pour _______ l'activité économique, visent à stimuler l'investissement privé et la création d'emplois dans les secteurs les plus dynamiques.",
+          "options": ["ralentir", "concurrencer", "subventionner", "relancer"],
+            "answer": "relancer"
+        },
+        {
+          "question_number": 18,
+          "question": "La _______ entre les deux entreprises est féroce dans le secteur des télécommunications.",
+          "options": ["fusion", "concurrence", "relance", "subvention"],
+            "answer": "concurrence"
+        },
+         {
+          "question_number": 19,
+          "question": "Le déséquilibre entre _______ et la demande, exacerbé par la crise, a entraîné une flambée des prix, rendant l'accès aux biens de première nécessité difficile pour de nombreux ménages.",
+              "options": ["la dette", "l'offre", "la subvention", "la niche"],
+          "answer": "l'offre"
+        },
+          {
+          "question_number": 20,
+          "question": "Les entreprises doivent sans cesse innover pour _______ leurs rivaux sur le marché.",
+          "options": ["fusionner", "subventionner", "concurrencer", "ralentir"],
+            "answer": "concurrencer"
+        },
+        {
+          "question_number": 21,
+          "question": "L'_______ de production a créé un déséquilibre entre l'offre et la demande.",
+          "options": ["creux", "excédent", "pic", "ralentissement"],
+            "answer": "excédent"
+        },
+        {
+          "question_number": 22,
+          "question": "La  _______ d'un pays est un indicateur clé de sa santé économique.",
+          "options": ["croissance", "PIB", "dette", "subvention"],
+          "answer": "PIB"
+        },
+          {
+          "question_number": 23,
+          "question": "Le prix _______ des produits importés a pesé sur le pouvoir d'achat.",
+          "options": ["inabordable", "rentable", "excédentaire", "déficitaire"],
+            "answer": "inabordable"
+        },
+        {
+          "question_number": 24,
+          "question": "La  _______ de prix des matières premières a eu un impact sur les coûts de production.",
+          "options": ["dette", "escalade", "niche", "gamme"],
+            "answer": "escalade"
+        },
+       {
+          "question_number": 25,
+          "question": "Le pays doit trouver des solutions pour _______ sa dette extérieure.",
+              "options": ["subventionner", "rembourser", "concurrencer", "ralentir"],
+          "answer": "rembourser"
+        },
+        {
+          "question_number": 26,
+          "question": "L’investissement en  _______ est devenu un pari risqué en raison de la volatilité du marché.",
+          "options": ["Bourse", "subvention", "dette", "bilan"],
+            "answer": "Bourse"
+        },
+          {
+          "question_number": 27,
+          "question": "Le taux de chômage a commencé à _______ après une longue période de crise.",
+            "options": ["grimper", "fusionner", "ralentir", "croître"],
+              "answer": "grimper"
+        },
+        {
+           "question_number": 28,
+          "question": "Malgré un potentiel prometteur, la start-up peine à  _______ dans un marché concurrentiel.",
+          "options": ["grimper", "croître", "fusionner", "ralentir"],
+            "answer": "croître"
+        },
+        {
+          "question_number": 29,
+          "question": "Dans cette situation de _______, il est difficile de prendre des décisions d'investissement.",
+            "options": ["ralentissement", "marasme", "redressement", "croissance"],
+            "answer": "marasme"
+        },
+          {
+          "question_number": 30,
+          "question": "Les  _______  accordées aux entreprises ont permis de limiter les pertes d’emploi.",
+              "options": ["subventions", "dettes", "niches", "gammes"],
+          "answer": "subventions"
+        }
+      ]
+}

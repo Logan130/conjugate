@@ -1,0 +1,246 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Les documents importants sont rangés dans le _______ pour une meilleure organisation.",
+            "options": [
+                "classeur",
+                "tiroir",
+                "casier",
+                "sac"
+            ],
+            "answer": "classeur"
+        },
+        {
+            "question_number": 2,
+            "question": "Ces découvertes récentes, bien conservées dans les _______ de l'ancienne institution, ont complètement bouleversé la chronologie établie par les chercheurs.",
+            "options": [
+                "archives",
+                "photos",
+                "vêtements",
+                "factures"
+            ],
+            "answer": "archives"
+        },
+        {
+            "question_number": 3,
+            "question": "Le _______ était plein de papiers, il était difficile de retrouver celui qu'on cherchait.",
+            "options": [
+                "tiroir",
+                "classeur",
+                "cartable",
+                "sac"
+            ],
+            "answer": "tiroir"
+        },
+        {
+            "question_number": 4,
+            "question": "Chaque employé a son propre _______ pour ranger ses affaires personnelles.",
+            "options": [
+                "casier",
+                "bureau",
+                "tiroir",
+                "placard"
+            ],
+            "answer": "casier"
+        },
+        {
+            "question_number": 5,
+            "question": "J'ai mis tous les documents importants dans une _______ pour les protéger.",
+            "options": [
+                "chemise",
+                "enveloppe",
+                "boîte",
+                "pochette"
+            ],
+            "answer": "chemise"
+        },
+        {
+            "question_number": 6,
+            "question": "J'ai acheté une _______ de papier (500 pages) pour imprimer le rapport.",
+            "options": [
+                "ramette",
+                "boîte",
+                "pile",
+                "feuille"
+            ],
+            "answer": "ramette"
+        },
+        {
+            "question_number": 7,
+            "question": "L'_______ du colis, bien que légèrement endommagée, permettait encore d'identifier avec précision le destinataire et l'expéditeur, assurant que le courrier arrive à bon port.",
+            "options": [
+                "étiquette",
+                "image",
+                "photo",
+                "carte"
+            ],
+            "answer": "étiquette"
+        },
+        {
+            "question_number": 8,
+            "question": "Les _______, avec leurs sonorités puissantes et expressives, ajoutaient une touche grandiose et dramatique à l'interprétation musicale, suscitant des émotions intenses parmi les auditeurs.",
+            "options": [
+                "trombones",
+                "punaises",
+                "ficelles",
+                "colles"
+            ],
+            "answer": "trombones"
+        },
+        {
+            "question_number": 9,
+            "question": "Il a utilisé un _______ pour mettre en évidence les points importants dans le texte.",
+            "options": [
+                "surligneur",
+                "crayon",
+                "stylo",
+                "feutre"
+            ],
+            "answer": "surligneur"
+        },
+        {
+            "question_number": 10,
+            "question": "Il faut une _______ pour assembler tous ces documents.",
+            "options": [
+                "agrafeuse",
+                "perceuse",
+                "colle",
+                "ciseaux"
+            ],
+            "answer": "agrafeuse"
+        },
+        {
+            "question_number": 11,
+            "question": "Nous devons faire une commande de _______ pour le bureau.",
+            "options": [
+                "fournitures",
+                "meubles",
+                "machines",
+                "ordinateurs"
+            ],
+            "answer": "fournitures"
+        },
+        {
+            "question_number": 12,
+            "question": "Il a utilisé une _______ pour relier les papiers, avant que l'agrapheuse soit trouvée",
+            "options": [
+                "attache",
+                "colle",
+                "agrafe",
+                "ficelle"
+            ],
+            "answer": "attache"
+        },
+        {
+            "question_number": 13,
+            "question": "Il est _______ suite à un accident, il ne pourra pas venir au travail aujourd'hui.",
+            "options": [
+                "en congé de maladie",
+                "en congés payés",
+                "en voyage",
+                "en déplacement"
+            ],
+            "answer": "en congé de maladie"
+        },
+        {
+            "question_number": 14,
+            "question": "Son _______ l'a conduit à l'épuisement, il a dû prendre du repos.",
+            "options": [
+                "surmenage",
+                "repos",
+                "loisir",
+                "sport"
+            ],
+            "answer": "surmenage"
+        },
+        {
+            "question_number": 15,
+            "question": "L’entreprise a _______ à cause de la mauvaise gestion.",
+            "options": [
+                "fait faillite",
+                "prospérer",
+                "grandir",
+                "développer"
+            ],
+            "answer": "fait faillite"
+        },
+        {
+            "question_number": 16,
+            "question": "Elle est _______, elle va bientôt avoir un bébé.",
+            "options": [
+                "en congé de maternité",
+                "en congés payés",
+                "en stage",
+                "en formation"
+            ],
+            "answer": "en congé de maternité"
+        },
+        {
+            "question_number": 17,
+            "question": "Le poste est occupé par un _______ en attendant l'arrivée du nouveau titulaire.",
+            "options": [
+                "intérimaire",
+                "stagiaire",
+                "directeur",
+                "chef"
+            ],
+            "answer": "intérimaire"
+        },
+        {
+            "question_number": 18,
+            "question": "Il a envoyé une _______ à plusieurs entreprises, en espérant trouver un emploi.",
+            "options": [
+                "lettre de candidature spontanée",
+                "lettre de motivation",
+                "lettre de recommandation",
+                "lettre d'embauche"
+            ],
+            "answer": "lettre de candidature spontanée"
+        },
+        {
+            "question_number": 19,
+            "question": "L’entreprise lui _______ un salaire conséquent en contrepartie de ses efforts.",
+            "options": [
+                "verse",
+                "vole",
+                "économise",
+                "depense"
+            ],
+            "answer": "verse"
+        },
+        {
+            "question_number": 20,
+            "question": "Le _______ de l’entreprise est venu faire un discours sur la stratégie de l’année à venir.",
+            "options": [
+                "PDG",
+                "ouvrier",
+                "cadre",
+                "comptable"
+            ],
+            "answer": "PDG"
+        },
+        {
+            "question_number": 21,
+            "question": "L'entreprise a _______ son employé pour faute grave.",
+            "options": [
+                "viré",
+                "promu",
+                "félicité",
+                "embauché"
+            ],
+            "answer": "viré"
+        },
+        {
+            "question_number": 22,
+            "question": "Cette entreprise est très mal gérée, il est fort probable qu’elle finisse par _______.",
+            "options": [
+                "couler",
+                "s'envoler",
+                "progresser",
+                "émerger"
+            ],
+            "answer": "couler"
+        }
+    ]
+}

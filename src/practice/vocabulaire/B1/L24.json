@@ -1,0 +1,167 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "La _______ du travail administratif rend souvent les procédures longues et décourageantes pour les citoyens.",
+            "options": ["laconisme", "empirisme", "laxisme", "bureaucratie"],
+            "answer": "bureaucratie"
+        },
+      {
+            "question_number": 2,
+            "question": "Pour renouveler votre carte d'identité, vous devez _______  au service des affaires civiles de votre commune.",
+            "options": ["préférer", "ignorer", "souhaiter", "vous adresser"],
+            "answer": "vous adresser"
+       },
+       {
+           "question_number": 3,
+            "question": " Un document _______ ne peut plus être utilisé et doit être renouvelé immédiatement pour être valide.",
+           "options": ["abrogé", "pérenne", "périmé", "intermittent"],
+           "answer": "périmé"
+        },
+       {
+           "question_number": 4,
+            "question": "Conservez précieusement cette _______, car elle vous servira de preuve de paiement en cas de besoin.",
+            "options": ["ordonnance", "facture", "quittance", "carte"],
+            "answer": "quittance"
+       },
+      {
+            "question_number": 5,
+             "question": "La ______ est un système politique où le pouvoir est exercé par le peuple, à travers des élections libres et régulières.",
+              "options":["théocratie", "démocratie", "monarchie", "dictature"],
+              "answer":"démocratie"
+       },
+      {
+           "question_number": 6,
+            "question": "Lors des célébrations nationales, chaque pays arbore fièrement son _______ comme symbole de son identité et de son unité.",
+           "options": ["étendard", "emblème", "drapeau", "fanion"],
+           "answer": "drapeau"
+        },
+        {
+            "question_number": 7,
+             "question": "Chaque État possède un _______ national, un chant patriotique censé unir ses citoyens dans un même élan d'amour pour la patrie.",
+             "options": ["hymne", "récit", "poème", "slogan"],
+            "answer": "hymne"
+        },
+        {
+             "question_number": 8,
+             "question":" La  _______  de cette nation exprime ses valeurs fondamentales  telles que l’unité, la liberté, la justice et l’égalité.",
+            "options":["découverte", " devise", "pensée","invention"],
+            "answer": "devise"
+       },
+       {
+          "question_number": 9,
+            "question":"Après des allégations de corruption, le ministre a été contraint de  _______  afin de préserver sa crédibilité.",
+           "options": ["conformer", "renoncer", "démissionner", "intervenir"],
+           "answer": "démissionner"
+        },
+      {
+            "question_number": 10,
+             "question": "Le _______ est une assemblée législative souvent composée de personnes élues, chargées de représenter le peuple.",
+             "options": ["congrès", "sénat", "auditoire", "théâtre"],
+            "answer": "sénat"
+        },
+        {
+             "question_number": 11,
+            "question": "De nombreuses lois importantes _______  de la sagesse du passé pour aborder les problèmes actuels et garantir notre bien-être futur.",
+             "options": ["remarquent", "proviennent", "s’écartent", "concordent"],
+            "answer": "proviennent"
+        },
+        {
+             "question_number": 12,
+             "question": "Chaque _______ a le devoir de s’acquitter honnêtement de ses impôts afin de permettre à la nation d’assumer ses responsabilités.",
+            "options": ["vagabond", "professeur", "candidat", "contribuable"],
+            "answer":"contribuable"
+        },
+      {
+            "question_number": 13,
+            "question": " La _______ fiscale est une infraction grave qui compromet les ressources financières publiques et nuit au développement socio-économique.",
+             "options": ["éthique", "fraude", "transparence", "philanthropie"],
+           "answer": "fraude"
+        },
+     {
+            "question_number": 14,
+            "question": "Grâce à ses efforts considérables, elle a réussi à _______ la compétition et à se voir attribuer la première place.",
+           "options": ["échanger", "contempler", "remporter", "désister"],
+           "answer": "remporter"
+        },
+       {
+            "question_number": 15,
+            "question": "Depuis des années, ils n'ont cessé de _______ pour que justice soit faite et qu'un réel changement ait lieu dans leur pays.",
+            "options": ["militariser", " militer", "stagnant", "désirer"],
+             "answer": "militer"
+        },
+        {
+           "question_number": 16,
+           "question": "Les _______ du mouvement social exigent une réforme complète du système économique et social de leur pays",
+           "options":["conjonctions", "revendications", "contractions", "revolutions"],
+            "answer": "revendications"
+       },
+      {
+            "question_number": 17,
+             "question": "Les _______ réclament de meilleures conditions de travail et le respect de leurs droits.",
+           "options": ["employeurs", " grévistes", "spectateurs", "voyageurs"],
+            "answer": "grévistes"
+      },
+        {
+            "question_number": 18,
+            "question": "L'ensemble des principes qui  _______ la société doit être basé sur le respect, l'équité et la tolérance universelle.",
+           "options": ["transmettent", "régissent", "attestent", "réalisent"],
+          "answer": "régissent"
+        },
+        {
+             "question_number": 19,
+              "question":"L’histoire a été profondément influencée par le _______ et son développement sur plusieurs siècles à travers l'Europe.",
+             "options": ["shintoïsme", "islam", "bouddhisme", "christianisme"],
+              "answer":"christianisme"
+        },
+       {
+            "question_number": 20,
+            "question":"Le _______, né d'une réforme religieuse au XVIe siècle, a introduit des variations doctrinales importantes au sein du christianisme, remodelant de manière significative le paysage religieux européen.",
+              "options": ["hindouisme", "taoïsme", "protestantisme", "athéisme"],
+              "answer": "protestantisme"
+       },
+     {
+           "question_number": 21,
+           "question": "Le _______ est basé sur la foi en Dieu unique tel que révélé à travers Abraham, Isaac et Jacob et ses descendants.",
+             "options": ["judaïsme", "bouddhisme", "hindouisme", "sikhisme"],
+             "answer":"judaïsme"
+      },
+      {
+            "question_number": 22,
+            "question": "L'______, une religion pratiquée par un nombre important de musulmans dans le monde, possède des ramifications culturelles et politiques multiples qui varient considérablement d'une région à l'autre.",
+            "options":["philosophie", "musique", "science", "islam"],
+            "answer":"islam"
+      },
+        {
+            "question_number": 23,
+             "question": "Les _______ de toutes confessions se sont rassemblés dans une même quête de spiritualité, cherchant à dépasser leurs différences pour faire émerger une fraternité universelle.",
+              "options":["sceptiques", "athées","croyants", "réfractaires"],
+              "answer":"croyants"
+       },
+        {
+             "question_number": 24,
+            "question":"Les ________, à travers leurs divers courants et traditions, célèbrent la naissance du Christ et l'amour universel, invitant les hommes au respect et à la compassion envers leurs prochains.",
+            "options":["chrétiens","hindous", "bouddhistes","musulmans"],
+            "answer":"chrétiens"
+        },
+         {
+             "question_number": 25,
+            "question": "La ________,  qui est le lieu de culte musulman, est souvent un exemple d'architecture sophistiquée, en plus de sa fonction spirituelle.",
+              "options":["mosquée", "cathédrale", "pagode","synagogue"],
+             "answer":"mosquée"
+        },
+        {
+            "question_number": 26,
+             "question": " Le chômage de masse représente un ______ majeur pour la société car il accroît la pauvreté et l'isolement social.",
+             "options": ["bienfait", "fléau", "remède", "téléscope"],
+             "answer":"fléau"
+        },
+         {
+           "question_number": 27,
+            "question":"Malgré la sévérité de sa peine, le _______ continue à défier la justice et à  troubler la paix sociale du quartier.",
+             "options":["philosophe","professeur","politicien", "délinquant"],
+             "answer": "délinquant"
+        }
+    
+    ]
+}

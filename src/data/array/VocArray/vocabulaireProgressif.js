@@ -602,6 +602,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L19 Enterprise",
+        test: "vocabulaire/B1/L19.json", 
     },
     {
         unit: "Voc B2 L20 经济",
@@ -609,6 +610,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L20 Economics",
+        test: "vocabulaire/B1/L20.json", 
     },
     {
         unit: "Voc B2 L21 媒体",
@@ -616,6 +618,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L21 Media",
+        test: "vocabulaire/B1/L21.json", 
     },
     {
         unit: "Voc B2 L22 犯罪",
@@ -623,6 +626,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L22 Crime",
+        test: "vocabulaire/B1/L22.json", 
     },
     {
         unit: "Voc B2 L23 环境",
@@ -630,6 +634,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L23 Environment",
+        test: "vocabulaire/B1/L23.json", 
     },
     {
         unit: "Voc B2 L24 政治",
@@ -637,6 +642,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L24 Politics",
+        test: "vocabulaire/B1/L24.json", 
     },
     {
         unit: "Voc B2 L25 历史",
@@ -644,6 +650,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L25 History",
+        test: "vocabulaire/B1/L25.json", 
     },
     {
         unit: "Voc B2 L26 艺术",
@@ -651,6 +658,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L26 Art I",
+        test: "vocabulaire/B1/L26.json", 
     },
     {
         unit: "Voc B2 L27 艺术",
@@ -658,6 +666,7 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L27 Art II",
+        test: "vocabulaire/B1/L27.json", 
     },
     {
         unit: "Voc B2 L28 文学",
@@ -665,5 +674,6 @@ export const vocabulaireProgressifB1 = [
         tag: "Vocabulaire Progressif",
         book: "B1",
         engUnit: "Voc B2 L28 Literrature",
+        test: "vocabulaire/B1/L28.json", 
     },
 ]

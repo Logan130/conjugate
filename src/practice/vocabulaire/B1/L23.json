@@ -1,0 +1,154 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Les gaz d'_________ produits par les voitures contribuent significativement au réchauffement de la planète.",
+            "options": ["échappement", "irrigation", "incendie", "enrichissement"],
+            "answer": "échappement"
+        },
+        {
+            "question_number": 2,
+           "question": "La pollution par les _______ de la ville rend la respiration difficile et impacte négativement la qualité de l'air.",
+           "options": ["ordures", "parfums", "mélodies", "étoiles"],
+            "answer": "ordures"
+       },
+       {
+            "question_number": 3,
+            "question": "L‘_______  d'un volcan a eu des conséquences désastreuses,  ensevelissant des villages sous un torrent de lave.",
+            "options": ["débordement", "éruption", "embouteillage", "atterrissage"],
+            "answer": "éruption"
+       },
+       {
+            "question_number": 4,
+             "question": "L'usage excessif de _______ par l'industrie continue d’éroder la couche d'ozone, exposant la planète à une menace croissante.",
+             "options": ["carburant", "désinfectant", "savon", "condiment"],
+             "answer": "carburant"
+       },
+       {
+            "question_number": 5,
+             "question": " Après le _______ qui a détruit leur maison, de nombreuses personnes sont sinistrées et ont besoin d'assistance urgente.",
+             "options": ["ouragan", "vernissage", "bal", "séjour"],
+            "answer": "ouragan"
+       },
+       {
+            "question_number": 6,
+            "question": "Nous devons _______ des solutions innovantes pour atténuer les effets du réchauffement climatique, comme l'énergie solaire ou éolienne.",
+            "options": ["aménager", "contempler", "dilapider", "distendre"],
+            "answer": "aménager"
+       },
+       {
+             "question_number": 7,
+             "question": "Les _______  produits par l'activité humaine sont particulièrement nuisibles à la faune et à l'environnement.",
+             "options": ["déchets", "diamants", "joyaux", "nectars"],
+             "answer": "déchets"
+        },
+        {
+             "question_number": 8,
+             "question": "L'utilisation de _______ permet de produire de l'électricité sans émettre de dioxyde de carbone, protégeant ainsi l'environnement.",
+             "options": ["turbines", "éoliennes", "chaudières", "radiateurs"],
+            "answer": "éoliennes"
+        },
+       {
+           "question_number": 9,
+            "question": "La crue du fleuve a causé une terrible ________, forçant des milliers de personnes à évacuer leur maison précipitamment.",
+           "options": ["inondation", "migration", "éruption", "dilution"],
+           "answer": "inondation"
+       },
+       {
+           "question_number": 10,
+           "question": "La construction d'une  _______  nucléaire reste une question controversée, étant donné les risques liés aux déchets radioactifs.",
+            "options": ["centrale", "distillerie", "bibliothèque", "banque"],
+           "answer": "centrale"
+      },
+     {
+           "question_number": 11,
+          "question": "Face au désastre, une vague d'émotions a _______  la communauté, qui s'est mobilisée pour apporter son soutien aux sinistrés.",
+          "options": ["débordé", "rétréci", "détourné", "absorbé"],
+           "answer": "débordé"
+       },
+        {
+           "question_number": 12,
+            "question": "Le séisme fut si puissant que des villes entières ont été _______ sous des  décombres, marquant une tragédie inoubliable.",
+           "options": ["ensevelies", "évaporées", "dispersées", "étagées"],
+           "answer": "ensevelies"
+        },
+       {
+            "question_number": 13,
+           "question": " Un raz-de-marée est survenu, faisant suite au  _______ qui a engendré  des  dégâts colossaux sur le littoral.",
+            "options": ["tsunami", "nuage", "brouillard", "mirage"],
+            "answer": "tsunami"
+        },
+        {
+            "question_number": 14,
+            "question": "Les _______ du domicile, comme le recyclage, peuvent faire une différence dans la protection de notre environnement.",
+            "options": ["travaux", "divertissements", "mystères", "plaisanteries"],
+             "answer": "travaux"
+       },
+       {
+           "question_number": 15,
+           "question": "Nous devrions cesser de consommer les biens dont le processus de fabrication est _______  à l’environnement.",
+            "options": ["nuisible", "neutre", "bénéfique", "utile"],
+           "answer": "nuisible"
+       },
+       {
+           "question_number": 16,
+            "question": "L’_______ qui sévit a considérablement  dévasté le village, anéantissant des  dizaines d'habitations.",
+           "options": ["incendie", "ciel", "silence", "bazar"],
+           "answer": "incendie"
+       },
+         {
+            "question_number": 17,
+            "question": "L'érosion progressive de la  _______ d'ozone par les activités humaines augmente les risques de maladies graves.",
+            "options": ["couche", "surface", "plaque", "pellicule"],
+           "answer": "couche"
+        },
+      {
+            "question_number": 18,
+            "question": "Après un  _______, les gens ont utilisé les pelles pour enlever les décombres qui jonchaient leur ville.",
+            "options": ["séisme", "soleil", "concert", "pèlerinage"],
+           "answer": "séisme"
+        },
+      {
+            "question_number": 19,
+            "question":" Le réchauffement de la _______ provoque des changements climatiques irréversibles à long terme dans le monde entier.",
+            "options":["planète", "cuisine", "vallée", "fenêtre"],
+           "answer": "planète"
+        },
+      {
+            "question_number": 20,
+            "question": "Les vents violents et les pluies torrentielles de ce _______ ont  dévasté les cultures locales et affecté les agriculteurs.",
+           "options": ["typhon", "printemps", "sommeil", "pique-nique"],
+            "answer": "typhon"
+        },
+         {
+            "question_number": 21,
+            "question": "Il faut redoubler d’efforts  pour préserver la ______ et arrêter la destruction progressive de ses habitats naturels.",
+            "options":["faune", "fiction", "mode", "cuisine"],
+            "answer":"faune"
+         },
+         {
+           "question_number": 22,
+            "question": "Le manque de mesures environnementales appropriées conduit le monde vers un ______ de conséquences désastreuses pour tous.",
+             "options":["cataclysme","apaisement", "espoir","divertissement"],
+             "answer": "cataclysme"
+        },
+        {
+           "question_number": 23,
+            "question":" Il ne faut pas ______ cette ressource , car elle nous permet de générer de l’électricité propre et inépuisable",
+             "options": ["abîmer", "cacher","inventer","protéger"],
+             "answer":"abîmer"
+        },
+        {
+             "question_number": 24,
+             "question": "L'installation des _______  sur les toits de nos maisons représente un pas vers un avenir énergétique plus propre",
+             "options": ["panneaux solaires","moustiquaires", "arrosages","démolitions"],
+            "answer":"panneaux solaires"
+        },
+         {
+             "question_number": 25,
+              "question":"À cause du dégel progressif des glaciers, le _______ risque de connaître des inondations régulières et dévastatrices",
+             "options": ["fleuve","désert","métro", "théâtre"],
+             "answer": "fleuve"
+        }
+    ]
+}
