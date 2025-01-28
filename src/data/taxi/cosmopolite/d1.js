@@ -54,8 +54,32 @@ export const wordsCosmopoliteC1D1 = {
         { english: "doux et tendre", french: "caressant(e)", pos: "adj.", chinese: "温柔的" },
         { english: "harbor wall", french: "digue", pos: "n.f.", chinese: "港堤" }
     ],
-    "": [
-
+    "Autogérer": [
+        { english: "take charge of sth", french: "prendre qch en main", pos: "loc.", chinese: "掌管某事" },
+        { english: "downhill", french: "aval", pos: "n.m.", chinese: "下坡" },
+        { english: "uphill", french: "amont", pos: "n.m.", chinese: "上坡" },
+        { english: "if need be", french: "le cas échéant", pos: "loc.", chinese: "如有必要" },
+        { english: "laundry room", french: "buanderie", pos: "n.f.", chinese: "洗衣房" },
+        { english: "it goes a little more than sth", french: "cela va un peu plus que qch", pos: "loc.", chinese: "它不仅仅是某物" },
+        { english: "proposition donnée comme vraie", french: "postulat", pos: "n.m.", chinese: "假设" },
+        { english: "in compensation", french: "en contrepartie", pos: "loc.", chinese: "作为补偿" },
+        { english: "to dedicate (A à B)", french: "dédier", pos: "v.t.", chinese: "献给" },
+        { english: "to recount (histoire)", french: "relater", pos: "v.t.", chinese: "叙述" },
+        { english: "epigraph", french: "exergue", pos: "n.m.", chinese: "碑文" },
+        { english: "cult", french: "culte", pos: "n.m.", chinese: "崇拜" },
+        { english: "sum up sth", french: "dresser le bilan de qch", pos: "loc.", chinese: "总结某事" },
+        { english: "unhealthy, health-damaging", french: "insalubre", pos: "adj.", chinese: "不健康的" },
+        { english: "morose", french: "morose", pos: "adj.", chinese: "忧郁的" },
+        { english: "drug, addiction", french: "drogue", pos: "n.f.", chinese: "毒品" },
+        { english: "day nursery", french: "garderie", pos: "n.f.", chinese: "托儿所" },
+        { english: "attack, assault", french: "assaut", pos: "n.m.", chinese: "袭击" },
+        { english: "reef, pitfall, danger", french: "écueil", pos: "n.m.", chinese: "暗礁" },
+        { english: "to go breathless", french: "s’essouffler", pos: "v.pr.", chinese: "喘不过气" },
+        { english: "in a closed environment", french: "en vase clos", pos: "loc.", chinese: "在封闭环境中" },
+        { english: "day nursery", french: "crèche", pos: "n.f.", chinese: "托儿所" },
+        { english: "to be limited (à qch)", french: "se réduire", pos: "v.pr.", chinese: "被限制" },
+        { english: "to be limited (à qch, à faire)", french: "se borner", pos: "v.pr.", chinese: "局限于" },
+        { english: "pioneer", french: "pionnier(ère)", pos: "n.", chinese: "先锋" }
     ],
     "": [
 

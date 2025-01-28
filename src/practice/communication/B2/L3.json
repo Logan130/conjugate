@@ -1,0 +1,82 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "L'artisan a utilisé du mastic pour assurer _________ des jointures de la nouvelle canalisation.",
+           "options": ["hermeticism", "ignifugation", "perméabilité", "étanchéité"],
+            "answer": ["étanchéité"]
+        },
+      {
+            "question_number": 2,
+            "question": "Malgré son apparence _______, le verre permet une diffusion de la lumière agréable dans la pièce.",
+           "options": ["opaque", "brillant", "translucide", "terrassé"],
+            "answer": "translucide"
+        },
+        {
+            "question_number": 3,
+            "question":"Le technicien doit _________ soigneusement l’appareil de manière à éviter toute vibration excessive et tout dégât matériel",
+          "options": ["caler", "dévisser", "incliner", "bousculer"],
+          "answer": "caler"
+        },
+        {
+             "question_number": 4,
+             "question":"La __________ artisanale, par sa maîtrise des techniques traditionnelles et l'utilisation de bois noble, crée des objets uniques, mêlant savoir-faire ancestraux et esthétique contemporaine.",
+             "options": ["contigüe", "menuiserie", "réfection", "plomberie"],
+           "answer":["menuiserie"]
+         },
+        {
+          "question_number": 5,
+            "question": "Après l'incident, nous avons dû __________ temporairement les dégâts avec des moyens improvisés, mais ça ne durera pas.",
+            "options":["démolir", "construire", "rafistoler", "consolidé"],
+            "answer":"rafistoler"
+        },
+     {
+            "question_number": 6,
+           "question": "La finition _______ de cette peinture, loin des reflets brillants traditionnels, apporte une élégance sobre et une douceur visuelle, créant une atmosphère apaisante dans la pièce.",
+           "options": ["matériaue", "revêtement", "verre", "mate"],
+          "answer":"mate"
+        },
+     {
+           "question_number": 7,
+            "question":"Le _______ est alarmant: malgré les efforts consentis, les inégalités persistent, nécessitant une action concertée et déterminée afin de rompre ce cycle de pauvreté et de discrimination.",
+            "options": ["signalement", "verdict", "constat", "peignoir"],
+           "answer":"constat"
+         },
+         {
+            "question_number": 8,
+            "question": "Il est important de nettoyer régulièrement cet _______ de la douche pour qu’il n'y ait pas de débris qui bloquent l’écoulement.",
+          "options":["orifice","robinet","embout", "écrou"],
+          "answer": "embout"
+         },
+       {
+          "question_number": 9,
+             "question":"Je n’en vois pas _________ à ton approche, selon moi ton idée ne fonctionnera pas",
+          "options": ["le mérite"," l’atout", "l'obstacle", "l’intérêt"],
+           "answer":"l’intérêt"
+      },
+     {
+        "question_number": 10,
+            "question": "Il faut dégager le jardin, _________ les plantes ne soient pas gênées et qu'il n’y ait pas de dégât dû aux éléments naturels",
+            "options": ["entourer","protéger", "de manière à ce que", "bien que"],
+            "answer":["de manière à ce que"]
+        },
+     {
+           "question_number": 11,
+            "question":"Alors que tout semblait se dérouler parfaitement, il s'est mis à ________, rompant brutalement le calme et l'harmonie du moment par une série de gaffes et d'excentricités involontaires.",
+             "options":["la sagesse", "déconner", "la délicatesse","l'ironie"],
+           "answer": "déconner"
+       },
+     {
+            "question_number": 12,
+            "question":"L’enduit de la façade semblait ________ à de nombreux endroits ; il fallait sérieusement revoir son état.",
+          "options":["briller","craqueler","se dilater","couler"],
+          "answer": "craqueler"
+      },
+      {
+             "question_number": 13,
+             "question":"La vieille façade, déjà fissurée par le temps et les intempéries, commença à ________ à plusieurs endroits, témoignant d'un problème d'humidité sous-jacent qui compromettait l'intégrité du bâtiment.",
+            "options":["lisse", " cloquer", "résister", "fissure"],
+            "answer": ["cloquer"]
+     }
+    ]
+}

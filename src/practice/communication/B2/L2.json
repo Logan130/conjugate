@@ -1,0 +1,94 @@
+{
+    "test": [
+        {
+             "question_number": 1,
+             "question": "La moindre _________ sur son visage trahissait immédiatement son âge, tant il était transparent.",
+            "options": ["espièglerie", "ride", "cicatrice", "rougeur"],
+             "answer": "ride"
+         },
+          {
+             "question_number": 2,
+              "question": "La maison au toit pentu et aux murs recouverts de _________ se distinguait au loin.",
+            "options": ["pentu", "boiseries", "plat", "tapisseries"],
+            "answer":["boiseries"]
+         },
+      {
+             "question_number": 3,
+             "question": "Son style _______ et plein de détails rend son architecture difficile à catégoriser.",
+            "options":["harmonieux", "soigné", "biscornu", "classique"],
+             "answer": "biscornu"
+         },
+       {
+             "question_number": 4,
+             "question": "Même sous la pluie fine, chaque __________ qui coulait sur les fenêtres s’accrochait aux carreaux.",
+            "options": ["flaque", "goutte", "carreaux", "poutres"],
+             "answer": ["goutte"]
+         },
+      {
+             "question_number": 5,
+              "question": "Sa stature _______ et sa force faisaient de lui un homme costaud à la force indéniable.",
+            "options":["filiforme", "costaud", "faiblard", "trapu"],
+             "answer":["trapu"]
+        },
+       {
+             "question_number": 6,
+             "question": "Le temps semblait avoir ________ sa peau comme si chaque année avait laissé une empreinte indélébile.",
+             "options": ["caressé", "lissé", "buriné", "soigné"],
+             "answer":"buriné"
+         },
+          {
+             "question_number": 7,
+             "question": "Le reflet du soleil sur les __________ brillait tellement qu'ils attiraient tous les regards dans le quartier.",
+           "options": ["rideaux", "volets", "verrous", "panneaux"],
+             "answer": "volets"
+         },
+      {
+             "question_number": 8,
+              "question": "Malgré tous ses efforts, sa fatigue était évidente, _______, impossible à ignorer.",
+             "options":["presque invisible","discrète", "ça ne pardonne pas","à la mode"],
+            "answer":"ça ne pardonne pas"
+         },
+         {
+             "question_number": 9,
+             "question": "Dans ce ________ isolé, les maisons semblaient se perdre dans la verdure, les arbres étant nombreux.",
+            "options":["hameau","quartier","vaisseau", "domaine"],
+             "answer":"hameau"
+       },
+        {
+             "question_number": 10,
+             "question": "Il espérait passer _________ lors de cette cérémonie, préférant éviter toute interaction sociale et rester dans l'ombre afin de ne pas attirer l'attention sur sa présence.",
+             "options":["manifeste", "anonyme", "inaperçu", "inconnu"],
+            "answer": "inaperçu"
+         },
+         {
+              "question_number": 11,
+             "question": "Au fond de la vallée, on découvrait une petite rivière serpenter _________ des maisons, au milieu des prairies.",
+           "options": ["sur les hauteurs","en contrebas", "sur le côté", "à plat"],
+            "answer": "en contrebas"
+         },
+         {
+             "question_number": 12,
+             "question": "La _________, par son caractère très en pente, était d'une beauté majestueuse pour ce paysage  .",
+           "options":["montagne", "plaine", "vigne vierge", "vallonnée"],
+             "answer": "vallonnée"
+         },
+     {
+             "question_number": 13,
+            "question": "Des roches ____________ faisaient face à la mer, avec une végétation poussant çà et là.",
+          "options": ["lisses", "escarpées", "douces", "uniformes"],
+             "answer":"escarpées"
+         },
+      {
+            "question_number": 14,
+           "question": "Toute la région est __________ à cette saison, signe de bienfaits de pluies et de journées ensoleillées.",
+           "options":["désolée", "brûlée", "verdoyante", "sableuse"],
+            "answer": "verdoyante"
+        },
+        {
+           "question_number": 15,
+             "question": "La ____________ enveloppait le mur de la maison, apportant un peu d’intimité au jardin",
+            "options": ["clématite", "vigne vierge", "lilas", "rose"],
+             "answer":"vigne vierge"
+       }
+     ]
+}

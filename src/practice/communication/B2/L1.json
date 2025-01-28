@@ -1,0 +1,101 @@
+{
+    "test": [
+        {
+            "question_number": 1,
+            "question": "Devant cette situation financière, on est ______ face à de tels problèmes de liquidités.",
+            "options": ["loin de là", "surmenage", "bourré", "abondé"],
+            "answer": "loin de là"
+        },
+       {
+            "question_number": 2,
+            "question": "Malgré un planning bien rempli, elle se sentait débordée, les échéances  _______ dans son agenda.",
+            "options": ["débordée", "s'empiler", "embouteillé", "dispersé"],
+           "answer": ["s'empilent"]
+        },
+         {
+            "question_number": 3,
+            "question": "Il a choisi de ne pas s'attaquer aux difficultés ______, préférant une approche plus indirecte.",
+            "options": ["de front", "en bloc", "a la marge", "sur les cote"],
+            "answer": "de front"
+        },
+       {
+           "question_number": 4,
+            "question": "Après cette  journée éprouvante, il n'avait même pas l'énergie ________ pour une petite balade.",
+            "options": ["à revendre", "suffisante", "en réserve", "généreuse"],
+           "answer":"à revendre"
+        },
+      {
+          "question_number": 5,
+           "question": "La salle était absolument _______ de personnes, on avait du mal à se frayer un chemin.",
+            "options": ["crouler", "floppée", "bourrée", "dépourvue"],
+           "answer": "bourrée"
+        },
+       {
+            "question_number": 6,
+            "question": "Dans cette petite ville, les restaurants ______ d’options, il est impossible de ne pas trouver quelque chose de son goût.",
+           "options": ["regorgent", "dépérissent", "périclitent", "somnolent"],
+            "answer": "regorgent"
+       },
+       {
+            "question_number": 7,
+             "question": "Après la présentation des résultats, une ______ de journalistes ont envahi la salle, posant une multitude de questions auxquelles l'équipe dirigeante essayait difficilement de répondre.",
+           "options": ["sacrement", "floppée", "maigre", "énorme"],
+           "answer":"floppée"
+         },
+       {
+          "question_number": 8,
+            "question": "Ne soyez pas ______ inquiet, on a plus de temps que vous ne le pensez.",
+           "options": ["tant s'en faut", "sacrément", "tellement", "désespérément"],
+            "answer":"sacrément"
+        },
+    {
+            "question_number": 9,
+            "question": "Les romans de cet auteur _______ en rebondissements inattendus et personnages complexes, faisant de sa lecture une expérience enrichissante, bien qu'exigeante intellectuellement.",
+           "options": ["abondent", "se dispersent", "s'agglomèrent", "déraillent"],
+          "answer":"abondent"
+        },
+         {
+            "question_number": 10,
+            "question": "Ses prévisions, bien qu'optimistes, s'étaient révélées ________, la réalité s'étant avérée plus complexe et les résultats moins probants que ceux annoncés initialement.",
+          "options": ["être loin du compte", "majorées", "calculées", "minimisées"],
+            "answer": "être loin du compte"
+        },
+        {
+            "question_number": 11,
+            "question": "À cause du grand choix dans la carte, j’ai ________, difficile de se décider face à tant d’options.",
+            "options": [" l’embarras du choix", "la gourmandise", "une hésitation", "l’enthousiasme"],
+            "answer": "l’embarras du choix"
+        },
+       {
+            "question_number": 12,
+           "question":" Ce n'était ________ ce qu'il avait espéré, ses notes n'étaient pas très brillantes.",
+            "options": ["loin de là", "pratiquement", "certes", "jamais"],
+            "answer": "loin de là"
+        },
+        {
+            "question_number": 13,
+            "question": "Après la fête, les assiettes ________ sur la table, il fallait tout ranger rapidement.",
+             "options": ["se rangèrent", " s’empilaient", "se brisèrent", "déplorent"],
+            "answer":"s’empilaient"
+        },
+    {
+            "question_number": 14,
+           "question": " ________ de personnes se sont présentées, le concours attire beaucoup de monde.",
+            "options": ["Une pléthore", "un dépit", "Une poignée", " Des moindres"],
+            "answer":"Une pléthore"
+      },
+       {
+            "question_number": 15,
+           "question": "La ville _______ de touristes en été, on a du mal à se déplacer",
+          "options": ["pullule", "périr", "déserte", "s’adoucir"],
+            "answer": "pullule"
+    
+        },
+         {
+            "question_number": 16,
+           "question": "Son ________ n'a fait qu'accroître sa pression, et cela est néfaste à sa santé mentale.",
+            "options": ["bonheur", "dilemme", "surmenage", "soulagement"],
+          "answer":"surmenage"
+        }
+    ]
+}

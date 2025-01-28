@@ -37,7 +37,7 @@ function IndividualQuestion({ question, id }) {
     return (
         <div className="card w-auto bg-neutral text-neutral-content">
             <div className="card-body items-left text-left">
-                <h2 className="card-title">Q{id}: {Beautifier(question.question)}</h2>
+                <h2 className="card-title tracking-tight">Q{id}: {Beautifier(question.question)}</h2>
                 <div className="grid grid-cols-1 gap-2">
                     {(question.options).map((option, index) => (
                         <div key={index} className="flex items-center space-x-2 hover:cursor-pointer hover:bg-neutral-content/10 hover:text-base-content rounded-md" onClick={() => handleRadioChange(index, option)}>

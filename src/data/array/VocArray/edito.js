@@ -8,67 +8,74 @@ import { wordsEditoB1U6 } from '../../edito/editoB1L6';
 import { wordsEditoB1U7 } from '../../edito/editoB1L7';
 import { wordsEditoB1U8 } from '../../edito/editoB1L8';
 import { wordsEditoB1U9 } from '../../edito/editoB1L9';
+import { wordsEditoB2U1 } from '../../edito/editoB2L1';
 
 
 
 export const EditoB1 = [
     {
-        unit: "U1 Vivre Ensemble",
+        unit: "B1U1 Vivre Ensemble",
         words: wordsEditoB1U1,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U2 Le Goût des Nôtres",
+        unit: "B1U2 Le Goût des Nôtres",
         words: wordsEditoB1U2,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U3 Travailler Autrement",
+        unit: "B1U3 Travailler Autrement",
         words: wordsEditoB1U3,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U4 Date Limite de Consommation",
+        unit: "B1U4 Date Limite de Consommation",
         words: wordsEditoB1U4,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U5 Le Français Dans le Monde",
+        unit: "B1U5 Le Français Dans le Monde",
         words: wordsEditoB1U5,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U6 Médias en Masse",
+        unit: "B1U6 Médias en Masse",
         words: wordsEditoB1U6,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U7 Et Si On Partait ?",
+        unit: "B1U7 Et Si On Partait ?",
         words: wordsEditoB1U7,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U8 La Planète en Héritage",
+        unit: "B1U8 La Planète en Héritage",
         words: wordsEditoB1U8,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U9 Un Tour en Ville",
+        unit: "B1U9 Un Tour en Ville",
         words: wordsEditoB1U9,
         tag: "Other",
         book: "Edito B1",
     },
     {
-        unit: "U10 Soif D’Apprendre",
+        unit: "B1U10 Soif D’Apprendre",
         words: wordsEditoB1U10,
+        tag: "Other",
+        book: "Edito B1",
+    },
+    {
+        unit: "B2U1 Vert",
+        words: wordsEditoB2U1,
         tag: "Other",
         book: "Edito B1",
     },

@@ -54,6 +54,8 @@ import { CommunicationProgressifB2L2 } from '../../communication/communicationB2
 import { CommunicationProgressifB2L3 } from '../../communication/communicationB2/L3';
 import { CommunicationProgressifB2L4 } from '../../communication/communicationB2/L4';
 import { CommunicationProgressifB2L5 } from '../../communication/communicationB2/L5';
+import { CommunicationProgressifB2L6 } from '../../communication/communicationB2/L6';
+import { CommunicationProgressifB2L7 } from '../../communication/communicationB2/L7';
 
 
 export const communicationA1 = [
@@ -405,6 +407,7 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L1 Quantities",
+        test: "communication/B2/L1.json", 
     },
     {
         unit: "B2 L2 描述",
@@ -412,6 +415,7 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L2 Describe",
+        test: "communication/B2/L2.json", 
     },
     {
         unit: "B2 L3 物品",
@@ -419,6 +423,7 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L3 Object",
+        test: "communication/B2/L3.json", 
     },
     {
         unit: "B2 L4 故障",
@@ -433,5 +438,19 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L5 Cuisine",
+    },
+    {
+        unit: "B2 L6 天气",
+        words: CommunicationProgressifB2L6,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L6 Weather",
+    },
+    {
+        unit: "B2 L7 状态",
+        words: CommunicationProgressifB2L7,
+        tag: "Communication Progressive",
+        book: "B2",
+        engUnit: "B2 L7 States",
     },
 ]

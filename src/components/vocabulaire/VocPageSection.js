@@ -39,7 +39,7 @@ export function Section({ title, vocArr, filter, filterArr, filterHandler, butto
     let vocButtonStyle = `btn btn-success ${buttonStyle}`
     let spellingButtonStyle = `btn btn-warning ${buttonStyle}`;
     let genderButtonStyle = `btn btn-error ${buttonStyle}`;
-    let testButtonStyle = `btn btn-info ${buttonStyle}`;
+    let testButtonStyle = `btn btn-info bg-[#00BFFF] ${buttonStyle}`;
 
     let vocButtonLockedStyle = `btn btn-success`
     let spellingButtonLockedStyle = `btn btn-warning`;

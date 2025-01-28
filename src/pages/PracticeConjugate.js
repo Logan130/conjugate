@@ -56,35 +56,35 @@ export function PracticeConjugate() {
         {
             name: eng ? "All" : "全部",
             value: ''
-        }, 
+        },
         {
             name: 'ir',
             value: 'ir'
-        }, 
+        },
         {
             name: 're',
             value: 're'
-        }, 
+        },
         {
             name: 'er',
             value: 'er'
-        }, 
+        },
         {
             name: 'oir',
             value: 'oir'
-        }, 
+        },
         {
             name: 'dre',
             value: 'dre'
-        }, 
+        },
         {
             name: 'tre',
             value: 'tre'
-        }, 
+        },
         {
             name: 'ire',
             value: 'ire'
-        }, 
+        },
     ]
 
     const onClickButton = (levelID) => {
@@ -93,7 +93,7 @@ export function PracticeConjugate() {
         setConjugates(selectRandomElements(newWords, number_of_practice));
     };
 
-    const onClickSuffixButton = (suffixID) => (e) => {   
+    const onClickSuffixButton = (suffixID) => (e) => {
         setSuffixIndex(suffixID);
         let newWords = buttonsArr[levelIndex].verbs.filter((verb) => verb.name.endsWith(suffixButtonArr[suffixID].value));
         setConjugates(selectRandomElements(newWords, number_of_practice));
@@ -125,8 +125,20 @@ export function PracticeConjugate() {
         <>
             <div className="flex items-center justify-center mt-2">
                 <Link to="/">
-                    <div role="alert" className="alert alert-success font-bold">
-                        <span>{eng ? "Forget the conjugation? See the complete list here!" : "忘了变位？点击前往不规则变位表"}</span>
+                    <div role="alert" className="alert alert-success font-bold"
+                        style={{
+                            transition: 'transform 0.5s ease-in-out',
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.transform = 'scale(1.05)'; // Enlarge slightly
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.transform = 'scale(1)'; // Return to original size
+                        }}
+                    >
+                        <span>
+                            {eng ? "Forget the conjugation? See the complete list here!" : "忘了变位？点击前往不规则变位表"}
+                        </span>
                     </div>
                 </Link>
             </div>
@@ -149,7 +161,7 @@ export function PracticeConjugate() {
                 </div>
             </div>
 
-            <br/>
+            <br />
             <div className={isMobile ? "grid grid-cols-4 gap-2 align-left" : "grid grid-cols-8 gap-2 align-left"}>
                 {suffixButtonArr.map((suffixButton, index) => (
                     <button

@@ -203,7 +203,7 @@ export function VocabulairePage() {
             filter={autreFilter}
             filterArr={["Edito B1", "InnerFrench"]}
             filterHandler={onClickAutreFilter}
-            buttonArr={["Édito B1", "Inner French"]}
+            buttonArr={["Édito", "Inner French"]}
             reverse={false}
             titleStyle={isMobile ? 'flex items-center w-36 text-sm' : 'flex items-center w-48'}
             buttonStyle={isMobile ? (eng ? "text-xs" : "text-xs p-1.5") : "text-base py-0"}
