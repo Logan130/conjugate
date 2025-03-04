@@ -65,6 +65,7 @@ export function Test() {
     const { eng } = useContext(ThemeContext);
     let isMobile = window.innerWidth < 500;
     let [title, setTitle] = useState((eng && !!lessons[id].engUnit) ? lessons[id].engUnit : lessons[id].unit);
+    let filters = useState([]);
 
     let [questions, setQuestions] = useState([]);
     let [loading, setLoading] = useState(!!test_json_url);
@@ -123,7 +124,7 @@ export function Test() {
                     <span className="loading loading-ball loading-md"></span>
                     <span className="loading loading-ball loading-lg"></span> */}
 
-                    <img src={Loader} alt="passé composé" className="z-0" />
+                    <img src={Loader} className="z-0" />
                 </div>
             }
 

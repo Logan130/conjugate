@@ -1,0 +1,285 @@
+{
+    "multiple": true,
+    "filters": ["C1", "C2", "C3"], 
+    "test": {
+        "C1": [
+            {
+                "question_number": 1,
+                "question": "L'homme a _______ le chien dans la forêt.",
+                "options": [
+                    "poussé",
+                    "attrapé",
+                    "trébuché",
+                    "frémissant"
+                ],
+                "answer": "attrapé"
+            },
+            {
+                "question_number": 2,
+                "question": "Elle a _______ devant la porte après avoir entendu un bruit.",
+                "options": [
+                    "penché",
+                    "rétorqué",
+                    "soupiré",
+                    "foulée"
+                ],
+                "answer": "penché"
+            },
+            {
+                "question_number": 3,
+                "question": "Il a _______ un cadeau pour son anniversaire.",
+                "options": [
+                    "déchiré",
+                    "grillé",
+                    "bosselé",
+                    "offert"
+                ],
+                "answer": "offert"
+            },
+            {
+                "question_number": 4,
+                "question": "Le voleur a _______ dans la nuit.",
+                "options": [
+                    "détalé",
+                    "approbateur",
+                    "soufflé",
+                    "traversé"
+                ],
+                "answer": "détalé"
+            },
+            {
+                "question_number": 5,
+                "question": "Elle a _______ les crocs de l'animal en s'approchant.",
+                "options": [
+                    "vu",
+                    "raidi",
+                    "soupiré",
+                    "obtempéré"
+                ],
+                "answer": "vu"
+            },
+            {
+                "question_number": 6,
+                "question": "Il a _______ l'enquête, mais il a tout de même été arrêté.",
+                "options": [
+                    "refusé",
+                    "menotté",
+                    "démenti",
+                    "frémissant"
+                ],
+                "answer": "démenti"
+            },
+            {
+                "question_number": 7,
+                "question": "Le _______ du moteur est insupportable.",
+                "options": [
+                    "soupir",
+                    "crissement",
+                    "regard",
+                    "air"
+                ],
+                "answer": "crissement"
+            },
+            {
+                "question_number": 8,
+                "question": "Elle a _______ son téléphone en tombant.",
+                "options": [
+                    "brisée",
+                    "vidée",
+                    "barrée",
+                    "agrandie"
+                ],
+                "answer": "brisée"
+            },
+            {
+                "question_number": 9,
+                "question": "L'homme a _______ un vieux vélo pour monter sur la colline.",
+                "options": [
+                    "gravi",
+                    "barré",
+                    "déchiré",
+                    "frémir"
+                ],
+                "answer": "gravi"
+            },
+            {
+                "question_number": 10,
+                "question": "Les enfants ont _______ dans la boue en courant.",
+                "options": [
+                    "trébuché",
+                    "foulé",
+                    "détalé",
+                    "penché"
+                ],
+                "answer": "trébuché"
+            },
+            {
+                "question_number": 11,
+                "question": "Il a _______ les files de l'ennemi, mais il a réussi à s'échapper.",
+                "options": [
+                    "défoncé",
+                    "frémir",
+                    "barré",
+                    "grillé"
+                ],
+                "answer": "barré"
+            },
+            {
+                "question_number": 12,
+                "question": "Il a _______ un étrange sourire en entendant la nouvelle.",
+                "options": [
+                    "ricané",
+                    "détalé",
+                    "menotté",
+                    "loupé"
+                ],
+                "answer": "ricané"
+            },
+            {
+                "question_number": 13,
+                "question": "Elle _______ d'angoisse en pensant à la situation.",
+                "options": [
+                    "soupiré",
+                    "surgi",
+                    "raidi",
+                    "s'épanouie"
+                ],
+                "answer": "soupiré"
+            },
+            {
+                "question_number": 14,
+                "question": "Son pied a _______ contre une pierre en courant.",
+                "options": [
+                    "trébuché",
+                    "frémissant",
+                    "détalé",
+                    "penché"
+                ],
+                "answer": "trébuché"
+            },
+            {
+                "question_number": 15,
+                "question": "Le voleur a _______ ses plans devant la police.",
+                "options": [
+                    "démenti",
+                    "apitoié",
+                    "obtempéré",
+                    "déchiqueté"
+                ],
+                "answer": "démenti"
+            },
+            {
+                "question_number": 16,
+                "question": "Il a _______ à travers la forêt, voulant fuir les policiers.",
+                "options": [
+                    "détalé",
+                    "déchiré",
+                    "trouvé",
+                    "pris"
+                ],
+                "answer": "détalé"
+            },
+            {
+                "question_number": 17,
+                "question": "Elle a _______ le dossier sur son bureau pour commencer à travailler.",
+                "options": [
+                    "vidé",
+                    "rangé",
+                    "barré",
+                    "penché"
+                ],
+                "answer": "barré"
+            },
+            {
+                "question_number": 18,
+                "question": "Il a _______ pour éviter la balle, mais a été touché à l'épaule.",
+                "options": [
+                    "raidi",
+                    "grimpé",
+                    "penché",
+                    "surgi"
+                ],
+                "answer": "penché"
+            },
+            {
+                "question_number": 19,
+                "question": "Il a _______ des tractions, bien que la barre soit un peu trop haute.",
+                "options": [
+                    "gravé",
+                    "gravi",
+                    "soupiré",
+                    "grillé"
+                ],
+                "answer": "gravi"
+            },
+            {
+                "question_number": 20,
+                "question": "Les bandits ont _______ la porte de la banque pour s'échapper.",
+                "options": [
+                    "traversé",
+                    "barré",
+                    "déchiqueté",
+                    "détalé"
+                ],
+                "answer": "barré"
+            },
+            {
+                "question_number": 21,
+                "question": "Il a _______ une douleur aiguë dans sa poitrine.",
+                "options": [
+                    "frémissant",
+                    "élancement",
+                    "détalé",
+                    "frémir"
+                ],
+                "answer": "élancement"
+            },
+            {
+                "question_number": 22,
+                "question": "Il a _______ la victime en voyant ses blessures.",
+                "options": [
+                    "apitoié",
+                    "raidi",
+                    "foulé",
+                    "soupiré"
+                ],
+                "answer": "apitoié"
+            },
+            {
+                "question_number": 23,
+                "question": "Elle a _______ de rire en écoutant les blagues de son ami.",
+                "options": [
+                    "frémir",
+                    "ricaner",
+                    "barré",
+                    "soupirer"
+                ],
+                "answer": "ricaner"
+            },
+            {
+                "question_number": 24,
+                "question": "Les hommes ont _______ le mur en avançant dans la rue.",
+                "options": [
+                    "barré",
+                    "éclaté",
+                    "raidi",
+                    "traversé"
+                ],
+                "answer": "barré"
+            },
+            {
+                "question_number": 25,
+                "question": "Le détective a _______ sur l'indice crucial pour résoudre l'affaire.",
+                "options": [
+                    "démenti",
+                    "soupiré",
+                    "trouvé",
+                    "surgi"
+                ],
+                "answer": "trouvé"
+            }
+        ], 
+        "C2": [], 
+        "C3": []
+    }
+}

@@ -431,6 +431,7 @@ export const communicationB2 = [
         tag: "Communication Progressive",
         book: "B2",
         engUnit: "B2 L4 Breakdown",
+        test: "communication/B2/L4.json", 
     },
     {
         unit: "B2 L5 烹饪",

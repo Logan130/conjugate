@@ -1,5 +1,106 @@
 {
     "test": [
-
+        {
+            "question_number": 1,
+            "question": "Malgré une tentative répétée de _______ l'ordinateur, il demeurait insensible, un obstacle à la finalisation du projet.",
+            "options": ["télécharger", "redémarrer", "naviguer", "manipuler"],
+            "answer": "redémarrer"
+        },
+         {
+            "question_number": 2,
+            "question": "L'interface du logiciel présentait un système d'_______ complexe qui laissait l'utilisateur perdu dans les multiples fonctionnalités proposées.",
+           "options": ["onglets", "logiciel", "clavier", "bogue"],
+           "answer": "onglets"
+         },
+        {
+           "question_number": 3,
+           "question": "Avant de valider le formulaire en ligne, il est essentiel de s'assurer que tous les champs requis, tels que l'_______ et le mot de passe, sont correctement saisis.",
+          "options": ["indice", "identifiant", "document", "itinéraire"],
+          "answer": "identifiant"
+        },
+         {
+          "question_number": 4,
+          "question": "En cas de dysfonctionnement du système, l'équipe informatique a pris soin de _______ tous les fichiers importants afin d'éviter la perte de données critiques.",
+            "options": ["compiler", "sauvegarder", "effacer", "imprimer"],
+          "answer": "sauvegarder"
+        },
+        {
+            "question_number": 5,
+            "question": "Son obsession pour le rangement et la propreté en fait un véritable _______, constamment à l'affût du moindre grain de poussière.",
+           "options": ["ascète", "hédoniste", "obsédé", "esthète"],
+          "answer": "obsédé"
+        },
+        {
+            "question_number": 6,
+            "question": "Après cette course effrénée, je me sens littéralement _______, comme si j'avais couru un marathon sans m'arrêter.",
+            "options": ["vigoureux", "dynamique", "crevé", "joyeux"],
+            "answer": "crevé"
+        },
+          {
+            "question_number": 7,
+            "question": "Suite à la _______ soudaine et imprévue de son véhicule, il s'est retrouvé bloqué sur le bas-côté de la route, à attendre l'assistance.",
+            "options": ["fuite", "accélération", "crevaison", "révision"],
+            "answer": "crevaison"
+         },
+        {
+             "question_number": 8,
+             "question":"Les formalités administratives se sont avérées particulièrement _______, une accumulation de papiers et de procédures labyrinthiques à suivre scrupuleusement.",
+           "options": ["aisées", "faciles", "pénibles", "accessibles"],
+          "answer": "pénibles"
+        },
+        {
+            "question_number": 9,
+           "question":"Il a lutté pendant une heure pour desserrer l'écrou bloqué de la _______, sans parvenir à le déplacer d'un millimètre.",
+            "options": ["aile", "carrosserie", "roue", "pédale"],
+             "answer": "roue"
+       },
+       {
+            "question_number": 10,
+           "question":"Le bateau se préparait à jeter l'ancre dans la _______, loin de l'agitation du port, avant de reprendre son long périple maritime.",
+            "options":["cour", "rade", "quai", "chantier"],
+            "answer":"rade"
+        },
+        {
+           "question_number": 11,
+          "question":"La _______ arriva rapidement sur les lieux de l'accident pour récupérer le véhicule endommagé et dégager la voie publique.",
+            "options": ["ambulance", "dépanneuse", "police", "pompier"],
+           "answer": "dépanneuse"
+        },
+        {
+             "question_number": 12,
+             "question": "Il referma brusquement la _______ de la voiture et fut incapable de la rouvrir, la serrure ayant subi des dégâts majeurs.",
+             "options": ["manette", "fenêtre", "portière", "glace"],
+             "answer": "portière"
+        },
+         {
+             "question_number": 13,
+            "question": "En effectuant des travaux de bricolage, il a accidentellement fait _______ la planche contre la charnière du placard, un imprévu désagréable.",
+            "options": ["chuter", "détacher", "tomber", "coincer"],
+             "answer": "coincer"
+        },
+        {
+             "question_number": 14,
+            "question": "Le constant _______ de son pantalon contre sa jambe a provoqué une irritation cutanée, une gêne à laquelle il a décidé de remédier rapidement.",
+             "options":["battement","glissement","frottement", "claquement"],
+             "answer": "frottement"
+         },
+       {
+            "question_number": 15,
+           "question": "Le _______ d'essence indiquait un niveau dangereusement bas, il a rapidement cherché une station-service pour éviter la panne sèche.",
+           "options":["rétroviseur", "compteur", "levier", "voyant"],
+             "answer": "voyant"
+      },
+      {
+        "question_number": 16,
+        "question": "Les réglages de son thermostat se sont complétement _______ avec le temps, il lui a fallu chercher le mode d’emploi afin de comprendre le problème",
+           "options":["améliorés", "détraqués", "renforcés","régularisés"],
+           "answer":"détraqués"
+        },
+        {
+          "question_number": 17,
+         "question": "La situation semble s'inscrire dans  la _______ ; tous les soucis, mineurs au départ, se sont malheureusement agrégés dans le même moment.",
+          "options": ["convergence des idées","complexité des faits","force des opinions","loi de séries"],
+         "answer": "loi de séries"
+       }
     ]
 }

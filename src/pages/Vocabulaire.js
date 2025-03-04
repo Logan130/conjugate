@@ -44,7 +44,7 @@ const FilterArr = ["TaxiFilter", "CommunicationFilter", "VocabulaireFilter", "Au
 
 function getFilterSession(id) {
     // [taxi, voc, comm, autre]
-    const arrDefault = ["B2", "B1", "A2", "InnerFrench", "TCF CE"]
+    const arrDefault = ["C1", "B1", "B2", "InnerFrench"]
     let target = FilterArr[id];
     let session = window.localStorage.getItem(target);
     return !!session ? session : arrDefault[id];

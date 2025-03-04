@@ -236,10 +236,10 @@ function StatisticsTable() {
             book: "A1-B2课堂累计(以上所有课本总和)",
             results: Statistics(lessons, ['Taxi', 'Vocabulaire Progressif', 'Communication Progressive'], ['A1', 'A2', 'B1', 'B2']),
         },
-        {
-            book: "TCF Reading",
-            results: Statistics(lessons, ['TCF'], ['TCF CE']),
-        },
+        // {
+        //     book: "TCF Reading",
+        //     results: Statistics(lessons, ['TCF'], ['TCF CE']),
+        // },
         {
             book: "所有积累",
             results: Statistics(lessons, ['Vocabulaire Progressif', 'Other', 'Communication Progressive', 'Taxi', 'TCF'], ['A1', 'A2', 'B1', 'B2', 'TCF CE', 'Edito B1', 'InnerFrench', 'C1']),

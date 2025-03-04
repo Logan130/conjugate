@@ -1,6 +1,50 @@
 export const TuDormirasUnJour = {
-    lessons: ["C1-5"], 
-    "C1-5": [
-
+    lessons: ["C1", "C2"], 
+    "C1": [
+        { english: "martyrdom", french: "martyre", pos: "n.m.", chinese: "殉难" },
+        { english: "to tetanize, to paralyze", french: "tétaniser", pos: "v.t.", chinese: "麻痹" },
+        { english: "to punctuate", french: "entrecouper", pos: "v.t.", chinese: "点缀" },
+        { english: "to relieve", french: "soulager", pos: "v.t.", chinese: "减轻" },
+        { english: "to damage", french: "abimer", pos: "v.t.", chinese: "损坏" },
+        { english: "traffic jam", french: "bouchon", pos: "n.m.", chinese: "交通堵塞" },
+        { english: "stumble, trip", french: "achoppement", pos: "n.m.", chinese: "绊倒" },
+        { english: "icy", french: "verglacé(e)", pos: "adj.", chinese: "冰冷的" },
+        { english: "speech (fam.)", french: "laïus", pos: "n.m.", chinese: "演讲" },
+        { english: "shit", french: "merde", pos: "n.f.", chinese: "屎" },
+        { english: "to kindle, to fuel", french: "attiser", pos: "v.t.", chinese: "煽起" },
+        { english: "eagerness", french: "empressement", pos: "n.m.", chinese: "渴望" },
+        { english: "crumb", french: "miette", pos: "n.f.", chinese: "碎屑" },
+        { english: "stupor", french: "hébétude", pos: "n.f.", chinese: "昏迷" },
+        { english: "trigger", french: "déclic", pos: "n.m.", chinese: "触发" },
+        { english: "ass", french: "cul", pos: "n.m.", chinese: "屁股" },
+        { english: "cotton wool", french: "ouate", pos: "n.f.", chinese: "棉花" },
+        { english: "rooftop", french: "comble", pos: "n.m.", chinese: "屋顶" },
+        { english: "beam, girder", french: "poutre", pos: "n.f.", chinese: "横梁" },
+        { english: "bruise", french: "hématome", pos: "n.m.", chinese: "瘀伤" },
+        { english: "be supposed to (faire)", french: "censé(e)", pos: "v.t.", chinese: "应该" },
+        { english: "after-effect", french: "séquelle", pos: "n.f.", chinese: "后遗症" },
+        { english: "to move", french: "mouvoir", pos: "v.t.", chinese: "移动" },
+        { english: "to damage, to hurt (fam.)", french: "esquinter", pos: "v.t.", chinese: "伤害" },
+        { english: "deceit", french: "tromperie", pos: "n.f.", chinese: "欺骗" },
+        { english: "soul", french: "âme", pos: "n.f.", chinese: "灵魂" },
+        { english: "shed skin", french: "mue", pos: "n.f.", chinese: "蜕皮" },
+        { english: "to deafen", french: "abrutir", pos: "v.t.", chinese: "使耳聋" },
+        { english: "tank", french: "cuve", pos: "n.f.", chinese: "罐" },
+        { english: "chimney", french: "cheminée", pos: "n.f.", chinese: "烟囱" },
+        { english: "live ember", french: "braise", pos: "n.f.", chinese: "炭火" },
+        { english: "to suffocate, to stifle", french: "étouffer", pos: "v.", chinese: "窒息" },
+        { english: "dagger", french: "poignard", pos: "n.m.", chinese: "匕首" },
+        { english: "to moan", french: "gémir", pos: "v.i.", chinese: "呻吟" },
+        { english: "oak", french: "chêne", pos: "n.m.", chinese: "橡树" },
+        { english: "knee", french: "genou", pos: "n.m.", chinese: "膝盖" },
+        { english: "moaning", french: "gémissement", pos: "n.m.", chinese: "呻吟声" },
+        { english: "to border on", french: "frôler", pos: "v.t.", chinese: "擦边" },
+        { english: "habituel", french: "coutumier(ère)", pos: "adj.", chinese: "习惯的" },
+        { english: "spiral", french: "vrille", pos: "n.f.", chinese: "螺旋" },
+        { english: "smooth", french: "lisse", pos: "adj.", chinese: "光滑的" },
+        { english: "on the brink of doing", french: "à deux doigts de faire", pos: "loc.", chinese: "几乎要做" }
     ], 
+    "C2": [
+
+    ]
 }

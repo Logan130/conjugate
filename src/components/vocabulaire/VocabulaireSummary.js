@@ -530,7 +530,7 @@ export function VocabulaireSummary() {
 
 
             <br /><br />
-            <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? `For Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "复制按钮为Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
+            <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? `The Copy button is for exporting the word list into Quizlet or Anki (Format: word and def separated by two escape characters "\\t\\t")` : "复制按钮为Quizlet或Anki导入专用，格式：单词和释义之间用两个tab (逃脱字符为“\\t\\t”)分割"}</h1>
             <h1 className={isMobile ? "text-sm" : "text-xl"}>⭐️ {eng ? "Once input into GPT, the prompt from the prompt button generates example sentences using the words above" : "点击LLM指令按钮即可获取指令，输入GPT可生成用以上词组造的例句"}</h1>
 
 
